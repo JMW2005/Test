@@ -160,6 +160,10 @@ td.co-name .tk { font-family: var(--font-mono); font-size: 0.8rem; color: var(--
 .bar span { display: block; height: 100%; }
 .bar .d { background: var(--accent); }
 .bar .e { background: var(--accent-2); }
+td.topf { white-space: nowrap; }
+td.topf b { font-family: var(--font-mono); font-weight: 500; }
+td.topf small { display: block; font-size: 0.75rem; color: var(--muted); font-family: var(--font-mono); }
+td .muted { color: var(--muted); }
 tr.detail td { background: var(--bg); padding: 10px 10px 12px 44px; }
 .sources { display: grid; grid-template-columns: auto auto 1fr; gap: 2px 16px; font-size: 0.85rem; font-family: var(--font-mono); }
 .sources span:nth-child(3n) { color: var(--muted); }
@@ -268,6 +272,7 @@ footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
               <th scope="col" data-k="name">Company</th>
               <th scope="col" class="r" data-k="direct">Direct</th>
               <th scope="col" class="r" data-k="via">Via funds</th>
+              <th scope="col" data-k="topFund">Top fund</th>
               <th scope="col" class="r" data-k="total" aria-sort="descending">Total</th>
               <th scope="col" class="r" data-k="pct">% of portfolio</th>
               <th scope="col" data-k="bar" aria-label="Direct versus through funds"></th>
@@ -587,7 +592,11 @@ function compute() {
   const rows = [...exp.values()].map(e => {
     const tickers = [...e.tickers].sort();
     const name = (merge && ALIAS_NAME[e.key] && tickers.length > 1) ? ALIAS_NAME[e.key] : nameOf(e.key);
-    return {...e, tickers, name, total:e.direct + e.via, pct: total ? (e.direct + e.via) / total * 100 : 0};
+    const byFund = {};
+    e.sources.forEach(sr => { if (sr.fund) byFund[sr.fund] = (byFund[sr.fund] || 0) + sr.amt; });
+    const best = Object.entries(byFund).sort((a, b) => b[1] - a[1])[0];
+    return {...e, tickers, name, total:e.direct + e.via, pct: total ? (e.direct + e.via) / total * 100 : 0,
+      topFund: best ? best[0] : "", topFundAmt: best ? best[1] : 0, fundCount: Object.keys(byFund).length};
   });
   return {rows, unitem: unitem.sort((a, b) => b.amt - a.amt), total, mapped};
 }
@@ -654,7 +663,7 @@ function renderResults() {
   const rank = new Map(sorted.map((r, i) => [r.key, i + 1]));
   const q = query.trim().toLowerCase();
   let list = rows.filter(r => !q || r.name.toLowerCase().includes(q) || r.tickers.some(t => t.toLowerCase().includes(q)));
-  const val = r => sortKey === "name" ? r.name.toLowerCase() : sortKey === "rank" ? rank.get(r.key) : sortKey === "bar" ? r.via / (r.total || 1) : r[sortKey];
+  const val = r => sortKey === "name" ? r.name.toLowerCase() : sortKey === "rank" ? rank.get(r.key) : sortKey === "bar" ? r.via / (r.total || 1) : sortKey === "topFund" ? (r.topFund || "~") : r[sortKey];
   list.sort((a, b) => { const x = val(a), y = val(b); return (x < y ? -1 : x > y ? 1 : 0) * sortDir; });
   const limit = showAll || q ? list.length : 50;
   const maxTotal = top ? top.total : 1;
@@ -669,6 +678,7 @@ function renderResults() {
       <td class="co-name"><b>${esc(r.name)}</b><span class="tk">${esc(r.tickers.join(" / "))}</span></td>
       <td class="r num">${r.direct ? money(r.direct) : "–"}</td>
       <td class="r num">${r.via ? money(r.via) : "–"}</td>
+      <td class="topf">${r.topFund ? `<b>${esc(r.topFund)}</b><small>${money(r.topFundAmt)}${r.fundCount > 1 ? ` · ${r.fundCount} funds hold it` : ""}</small>` : '<span class="muted">–</span>'}</td>
       <td class="r num"><b>${money(r.total)}</b></td>
       <td class="r num">${pct(r.pct)}</td>
       <td><div class="bar" title="Direct ${money(r.direct)} · via funds ${money(r.via)}"><span class="d" style="width:${dW}%"></span><span class="e" style="width:${eW}%"></span></div></td></tr>`;
@@ -676,10 +686,10 @@ function renderResults() {
       const src = [...r.sources].sort((a, b) => b.amt - a.amt).map(s => s.fund
         ? `<span>${esc(s.fund)}${r.tickers.length > 1 ? " (" + esc(s.t) + ")" : ""}</span><span>${money(s.amt)}</span><span>${pct(s.w)} of ${fmt$.format(s.base)}</span>`
         : `<span>${esc(s.t)} shares</span><span>${money(s.amt)}</span><span>owned directly</span>`).join("");
-      html += `<tr class="detail"><td colspan="7"><div class="sources">${src}</div></td></tr>`;
+      html += `<tr class="detail"><td colspan="8"><div class="sources">${src}</div></td></tr>`;
     }
     return html;
-  }).join("") : `<tr><td colspan="7" class="empty">${q ? "No company matches that search." : 'No positions yet. <a href="#positions">Add your stocks and funds</a> to see your exposure.'}</td></tr>`;
+  }).join("") : `<tr><td colspan="8" class="empty">${q ? "No company matches that search." : 'No positions yet. <a href="#positions">Add your stocks and funds</a> to see your exposure.'}</td></tr>`;
   $("more").hidden = !(list.length > limit);
   $("show-all").textContent = `Show all ${list.length.toLocaleString()}`;
 
@@ -883,7 +893,7 @@ $("merge").addEventListener("change", e => { merge = e.target.checked; store.set
 document.querySelector("#exp-table thead").addEventListener("click", e => {
   const th = e.target.closest("th"); if (!th) return;
   const k = th.dataset.k;
-  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "name" || k === "rank") ? 1 : -1; }
+  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "name" || k === "rank" || k === "topFund") ? 1 : -1; }
   renderResults();
 });
 function toggleRow(tr) { const k = tr.dataset.key; open.has(k) ? open.delete(k) : open.add(k); renderResults(); }
@@ -891,8 +901,8 @@ $("exp-body").addEventListener("click", e => { const tr = e.target.closest("tr.c
 $("exp-body").addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches("tr.co")) { e.preventDefault(); const k = e.target.dataset.key; toggleRow(e.target); const again = document.querySelector(`tr.co[data-key="${CSS.escape(k)}"]`); if (again) again.focus(); } });
 $("show-all").onclick = () => { showAll = true; renderResults(); };
 $("copy-csv").onclick = () => {
-  const lines = [["Rank","Company","Tickers","Direct","Via funds","Total","Percent of portfolio"].join(",")];
-  [...lastRows].sort((a, b) => b.total - a.total).forEach((r, i) => lines.push([i + 1, `"${r.name.replace(/"/g, '""')}"`, r.tickers.join(" "), r.direct.toFixed(2), r.via.toFixed(2), r.total.toFixed(2), r.pct.toFixed(4)].join(",")));
+  const lines = [["Rank","Company","Tickers","Direct","Via funds","Top fund","Top fund dollars","Total","Percent of portfolio"].join(",")];
+  [...lastRows].sort((a, b) => b.total - a.total).forEach((r, i) => lines.push([i + 1, `"${r.name.replace(/"/g, '""')}"`, r.tickers.join(" "), r.direct.toFixed(2), r.via.toFixed(2), r.topFund, r.topFundAmt.toFixed(2), r.total.toFixed(2), r.pct.toFixed(4)].join(",")));
   const text = lines.join("\n");
   const fallback = () => { $("bulk").hidden = false; $("bulk-text").value = text; $("bulk-text").select(); toast("Copy was blocked. The CSV is selected in the paste box, press Ctrl+C."); };
   try { navigator.clipboard.writeText(text).then(() => toast(`Copied ${lastRows.length} rows as CSV.`), fallback); } catch { fallback(); }
