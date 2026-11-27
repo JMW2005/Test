@@ -68,6 +68,7 @@ input:focus{border-color:var(--accent)}
 .reveal li.me{color:var(--accent)}
 .reveal li.gem{color:var(--gem)}
 .next{margin-top:14px;width:100%;background:var(--accent);color:#1a1209;border:none;border-radius:10px;padding:14px;font-weight:600}
+.dig{display:block;width:100%;height:240px;border-radius:8px;margin:0 0 14px;background:#0f0b08}
 .gemflash{position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle,rgba(95,224,200,.35),transparent 60%);animation:fade 1.2s forwards}
 @keyframes fade{to{opacity:0}}
 .rlist{margin:16px 0;border-top:1px solid var(--line)}
@@ -190,6 +191,135 @@ const LODE = {name:"Mother Lode", pts:120, color:"var(--gem)", emoji:"💎", hin
 const MISS = {name:"Cave-in", pts:0, color:"#3a2e25", emoji:"⬛"};
 const ROUNDS = 7, SECONDS = 20;
 
+/* ---------------- DIG ANIMATION ----------------
+   Bands are laid out on the scoring scale, so the depth the miner reaches is the score. */
+const SCALE_MAX = 120;
+function cssVar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim() || "#888"; }
+function colorOf(s){ const m = s.color.match(/--[\w]+/); return m ? cssVar(m[0]) : s.color; }
+let digRaf = 0;
+function playDig(cv, pts, gem, onTick, onDone){
+  cancelAnimationFrame(digRaf);
+  const dpr = Math.min(2, window.devicePixelRatio||1), W = cv.clientWidth, H = cv.clientHeight;
+  cv.width = W*dpr; cv.height = H*dpr; const c = cv.getContext("2d"); c.scale(dpr,dpr);
+  const top = 34, bot = H-16, y = d => top + (d/SCALE_MAX)*(bot-top);
+  const sx = Math.round(W*0.38), sw = 30;
+  const bands = [...STRATA,LODE].map((s,i,arr)=>({from:i?arr[i-1].pts:0, to:s.pts, col:colorOf(s), name:s.name}));
+  const rnd = mulberry32(pts*97+7);
+  const specks = [...Array(160)].map(()=>({x:rnd()*W, d:rnd()*SCALE_MAX, r:rnd()*1.6+.5, l:rnd()<.5}));
+  const crystals = [...Array(12)].map(()=>({x:rnd()*W, d:84+rnd()*30, s:3+rnd()*5}));
+  const stars = [...Array(18)].map(()=>({x:rnd()*W, y:rnd()*(top-10)}));
+  const parts = [];
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const dur = reduce ? 0 : (pts ? 700 + pts*12 : 1100);
+  const t0 = performance.now(); let last = -1, finished = false;
+  const ink = cssVar("--ink"), muted = cssVar("--muted"), gemCol = cssVar("--gem"), accent = cssVar("--accent");
+  const bandAt = d => bands.find(b=>d<=b.to) || bands[bands.length-1];
+
+  function drawMiner(fx, fy, now, digging, cheer){
+    c.save(); c.translate(fx, fy);
+    const bob = digging ? Math.abs(Math.sin(now/90))*1.5 : 0;
+    c.translate(0, -bob);
+    // lamp beam
+    if(fy > top+4){
+      const g = c.createRadialGradient(4,-26,2,14,10,60);
+      g.addColorStop(0,"rgba(255,230,150,.35)"); g.addColorStop(1,"rgba(255,230,150,0)");
+      c.fillStyle = g; c.beginPath(); c.moveTo(4,-26); c.lineTo(40,20); c.lineTo(-10,20); c.closePath(); c.fill();
+    }
+    // boots + legs
+    c.fillStyle = "#3b4a63"; c.fillRect(-6,-10,5,10); c.fillRect(1,-10,5,10);
+    c.fillStyle = "#1d1410"; c.fillRect(-7,-2,6,2); c.fillRect(1,-2,7,2);
+    // overalls
+    c.fillStyle = "#e0703a"; c.fillRect(-7,-22,14,13);
+    c.fillStyle = "#b8552a"; c.fillRect(-7,-14,14,2);
+    // head
+    c.fillStyle = "#e9b98e"; c.beginPath(); c.arc(0,-27,5,0,Math.PI*2); c.fill();
+    // helmet + lamp
+    c.fillStyle = "#f2b33d"; c.beginPath(); c.arc(0,-29,6,Math.PI,0); c.fill(); c.fillRect(-7,-29,14,2);
+    c.fillStyle = "#fff4c2"; c.fillRect(4,-33,3,3);
+    // pickaxe arm
+    const ang = cheer ? -2.3 : digging ? -1.6 + Math.sin(now/90)*1.1 : -0.4;
+    c.save(); c.translate(5,-19); c.rotate(ang);
+    c.strokeStyle = "#e9b98e"; c.lineWidth = 3; c.beginPath(); c.moveTo(0,0); c.lineTo(7,0); c.stroke();
+    c.strokeStyle = "#7a4e2a"; c.lineWidth = 2; c.beginPath(); c.moveTo(5,0); c.lineTo(19,0); c.stroke();
+    c.strokeStyle = "#c9ccd2"; c.lineWidth = 2.5; c.beginPath(); c.moveTo(19,-6); c.quadraticCurveTo(22,0,19,6); c.stroke();
+    c.restore();
+    c.restore();
+  }
+
+  function draw(d, now, t){
+    c.clearRect(0,0,W,H);
+    // night sky
+    c.fillStyle = "#0f0b10"; c.fillRect(0,0,W,top);
+    c.fillStyle = "rgba(243,230,211,.5)"; stars.forEach(s=>c.fillRect(s.x,s.y,1,1));
+    // strata
+    bands.forEach((b,i)=>{
+      c.fillStyle = "#120d0b"; c.fillRect(0,y(b.from),W,y(b.to)-y(b.from)+1);
+      c.globalAlpha = i===bands.length-1 ? .35 : .62; c.fillStyle = b.col;
+      c.fillRect(0,y(b.from),W,y(b.to)-y(b.from)+1); c.globalAlpha = 1;
+    });
+    specks.forEach(s=>{ c.fillStyle = s.l ? "rgba(255,240,220,.12)" : "rgba(0,0,0,.25)"; c.fillRect(s.x,y(s.d),s.r,s.r); });
+    crystals.forEach(k=>{ const cy=y(k.d); c.fillStyle = gemCol; c.globalAlpha=.55;
+      c.beginPath(); c.moveTo(k.x,cy-k.s); c.lineTo(k.x+k.s*.6,cy); c.lineTo(k.x,cy+k.s); c.lineTo(k.x-k.s*.6,cy); c.fill(); c.globalAlpha=1; });
+    // grass line
+    c.fillStyle = "#5b6b2e"; c.fillRect(0,top-2,W,3);
+    // labels
+    c.font = "10px 'JetBrains Mono', ui-monospace, monospace"; c.textBaseline = "middle";
+    bands.forEach(b=>{
+      c.fillStyle = "rgba(243,230,211,.75)"; c.textAlign = "right";
+      c.fillText(b.name.toUpperCase(), W-8, (y(b.from)+y(b.to))/2);
+      c.fillStyle = "rgba(243,230,211,.45)"; c.textAlign = "left"; c.fillText(b.to+" m", 6, y(b.to)-6);
+      c.fillStyle = "rgba(0,0,0,.35)"; c.fillRect(0,y(b.to),W,1);
+    });
+    // shaft
+    const fy = y(d);
+    if(d>0){
+      c.fillStyle = "#0a0706"; c.fillRect(sx-sw/2, top-1, sw, fy-top+1);
+      c.fillStyle = "rgba(0,0,0,.5)"; c.fillRect(sx-sw/2-2, top, 2, fy-top); c.fillRect(sx+sw/2, top, 2, fy-top);
+      c.fillStyle = "#6b4a2a"; for(let by=top+18; by<fy-6; by+=22) c.fillRect(sx-sw/2, by, sw, 3);
+    } else {
+      // mound by the hole when nothing was dug
+      c.fillStyle = "#5c4430"; c.beginPath(); c.arc(sx+26, top, 9, Math.PI, 0); c.fill();
+    }
+    // the Mother Lode itself
+    if(gem && t>=1){
+      const pulse = 1 + Math.sin(now/180)*.12;
+      c.save(); c.translate(sx, fy+2); c.scale(pulse,pulse);
+      c.shadowColor = gemCol; c.shadowBlur = 18; c.fillStyle = gemCol;
+      c.beginPath(); c.moveTo(-14,0); c.lineTo(-8,-7); c.lineTo(8,-7); c.lineTo(14,0); c.lineTo(0,10); c.closePath(); c.fill();
+      c.restore();
+    }
+    // depth readout
+    c.fillStyle = accent; c.font = "700 13px 'JetBrains Mono', ui-monospace, monospace"; c.textAlign = "left";
+    c.fillText("−" + Math.round(d) + " m", sx+sw/2+8, Math.max(top+10, fy-10));
+    const digging = t<1 && pts>0;
+    drawMiner(sx, gem && t>=1 ? fy-6 : fy, now, digging, gem && t>=1);
+    // dirt chips
+    if(digging && Math.random()<.8){
+      const col = bandAt(d).col;
+      for(let i=0;i<2;i++) parts.push({x:sx+(Math.random()-.5)*16, y:fy-4, vx:(Math.random()-.5)*3, vy:-1.5-Math.random()*2.5, life:1, col});
+    }
+    if(!pts && t<.6 && Math.random()<.5) parts.push({x:sx+(Math.random()-.5)*30, y:top-30, vx:0, vy:1, life:1, col:"#7a5a3a"});
+    for(let i=parts.length-1;i>=0;i--){
+      const p = parts[i]; p.x+=p.vx; p.y+=p.vy; p.vy+=.18; p.life-=.03;
+      if(p.life<=0 || p.y>H){ parts.splice(i,1); continue; }
+      c.globalAlpha = Math.max(0,p.life); c.fillStyle = p.col; c.fillRect(p.x,p.y,3,3); c.globalAlpha = 1;
+    }
+  }
+
+  function frame(now){
+    const t = dur ? Math.min(1,(now-t0)/dur) : 1;
+    // dig in strokes: progress jumps a little on each swing
+    const e = 1 - Math.pow(1-t, 2); const stroke = t<1 ? Math.sin(now/90)*0.015 : 0;
+    const d = Math.max(0, Math.min(pts, pts*(e+stroke)));
+    draw(t>=1 ? pts : d, now, t);
+    const shown = t>=1 ? pts : Math.round(d);
+    if(shown!==last){ last = shown; onTick(shown); }
+    if(t>=1 && !finished){ finished = true; onDone && onDone(); }
+    if(t<1 || parts.length || gem) digRaf = requestAnimationFrame(frame);
+  }
+  digRaf = requestAnimationFrame(frame);
+}
+
 /* ---------------- HELPERS ---------------- */
 function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
 function norm(s){
@@ -289,6 +419,7 @@ function renderCore(){
   $("depthNum").textContent = G.depth;
 }
 function nextRound(){
+  cancelAnimationFrame(digRaf);
   const p = G.list[G.i];
   $("pn").textContent = `Prompt ${G.i+1} of ${ROUNDS}`;
   $("pq").textContent = p.q;
@@ -325,19 +456,22 @@ function lockIn(a, typed){
   G.depth += s.pts;
   $("form").style.display="none"; $("guess").disabled=true; $("msg").textContent="";
   $("timer").style.display="none"; $("secs").style.display="none";
-  if(a && a.gem){ const f=document.createElement("div"); f.className="gemflash"; document.body.appendChild(f); setTimeout(()=>f.remove(),1300); }
   const top = p.answers.slice(0,3); const gem = p.answers.find(x=>x.gem);
   const rows = top.map(x=>`<li class="${x===a?"me":""}"><span>${esc(x.name)}</span><span>${pct(x.share)}</span></li>`).join("")
     + (a && !top.includes(a) && !a.gem ? `<li class="me"><span>… ${esc(a.name)} (you)</span><span>${pct(a.share)}</span></li>`:"")
     + `<li class="gem"><span>💎 Mother Lode: ${esc(gem.name)}${a===gem?" (you!)":""}</span><span>${pct(gem.share)}</span></li>`;
   const head = a
-    ? `<span class="pts">+${s.pts}m</span><span class="badge" style="background:${s.color};${a.gem?"color:#0b2a25":""}">${s.emoji} ${s.name}</span>
+    ? `<span class="pts" id="ptsNum">+0m</span><span class="badge" style="background:${s.color};${a.gem?"color:#0b2a25":""}">${s.emoji} ${s.name}</span>
        <div class="ans">${esc(a.name)}</div>
        <div class="small">${typed && norm(typed)!==norm(a.name)?`You typed "${esc(typed)}". `:""}${Math.max(1,Math.round(a.share*G.crowd)).toLocaleString()} other diggers picked this (${pct(a.share)}).</div>`
     : `<span class="pts">+0m</span><span class="badge" style="background:${s.color}">⬛ Cave-in</span><div class="ans">Out of time</div><div class="small">No answer locked in.</div>`;
   const last = G.i===ROUNDS-1;
-  $("revealBox").innerHTML = `<div class="reveal">${head}<ul>${rows}</ul><button class="next" id="nextBtn">${last?"See your core sample →":"Next prompt →"}</button></div>`;
+  $("revealBox").innerHTML = `<div class="reveal"><canvas class="dig" id="digCv" aria-label="A miner digs ${s.pts} metres down"></canvas>${head}<ul>${rows}</ul><button class="next" id="nextBtn">${last?"See your core sample →":"Next prompt →"}</button></div>`;
   renderCore();
+  const base = G.depth - s.pts;
+  playDig($("digCv"), s.pts, !!(a && a.gem),
+    v=>{ $("depthNum").textContent = base+v; const pn=$("ptsNum"); if(pn) pn.textContent = "+"+v+"m"; },
+    ()=>{ if(a && a.gem){ const f=document.createElement("div"); f.className="gemflash"; document.body.appendChild(f); setTimeout(()=>f.remove(),1300); } });
   const nb=$("nextBtn"); nb.focus();
   nb.onclick = ()=>{ G.i++; if(G.i<ROUNDS) nextRound(); else finish(); };
 }
