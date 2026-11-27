@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Cut</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#17110d; --bg2:#21180f; --panel:#2a1f15; --line:#4a3826;
+  --ink:#f3e6d3; --muted:#b39c80; --accent:#f2b33d; --accent2:#e0703a; --bad:#e0503a;
+  --s0:#8a6a45; --s1:#b0743f; --s2:#7c5a6e; --s3:#4f5d73; --s4:#c2452f; --gem:#5fe0c8;
+  --display:"Bricolage Grotesque",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{background:#120d10}
+html,body{margin:0;min-height:100%}
+body{background:var(--bg);background-attachment:fixed;color:var(--ink);font-family:var(--mono);font-size:15px;line-height:1.5;
+  background-image:linear-gradient(180deg,#2b2014 0%,#1d150e 30%,#161013 65%,#120d10 100%);min-height:100%}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.screen{display:none}.screen.on{display:block}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(48px,12vw,92px);line-height:.9;margin:24px 0 8px;letter-spacing:-.02em;
+  background:linear-gradient(180deg,var(--accent) 0%,var(--accent2) 60%,#9b3b22 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{color:var(--muted);margin:0 0 28px}
+.btn{display:block;width:100%;text-align:left;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 12px;transition:transform .1s,border-color .15s}
+.btn:hover{border-color:var(--accent);transform:translateY(-1px)}
+.btn b{display:block;font-family:var(--display);font-size:22px;color:var(--accent)}
+.btn span{color:var(--muted);font-size:13px}
+.btn.primary{background:linear-gradient(135deg,#3a2a17,#2a1f15);border-color:#7a5a2c}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:24px 0}
+.stat{background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:10px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:24px;color:var(--ink)}
+.stat span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.strata{margin-top:28px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.stratum{display:flex;justify-content:space-between;padding:9px 14px;font-size:13px;color:#fff}
+.stratum em{font-style:normal;opacity:.85}
+.small{font-size:12px;color:var(--muted)}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+.link{background:none;border:none;color:var(--muted);padding:4px 0;text-decoration:underline;text-underline-offset:3px}
+.core{display:flex;gap:4px}
+.core i{width:22px;height:30px;border-radius:4px;background:var(--bg2);border:1px solid var(--line);display:block}
+.core i.cur{border-color:var(--accent);box-shadow:0 0 0 2px rgba(242,179,61,.25)}
+.depth{font-family:var(--display);font-size:26px;font-weight:800;color:var(--accent)}
+.depth small{font-size:13px;color:var(--muted);font-weight:500;font-family:var(--mono)}
+.prompt-n{font-size:12px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.prompt{font-family:var(--display);font-weight:700;font-size:clamp(26px,6vw,38px);line-height:1.12;margin:8px 0 20px}
+.timer{height:10px;background:var(--bg2);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.timer div{height:100%;width:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));transform-origin:left}
+.timer.low div{background:var(--bad);animation:pulse .5s infinite alternate}
+@keyframes pulse{to{opacity:.55}}
+.secs{text-align:right;font-size:12px;color:var(--muted);margin:4px 0 14px}
+.inrow{display:flex;gap:8px}
+input{flex:1;min-width:0;font:inherit;font-size:18px;padding:14px 16px;border-radius:10px;border:1px solid var(--line);background:#0f0b08;color:var(--ink);outline:none}
+input:focus{border-color:var(--accent)}
+.go{background:var(--accent);color:#1a1209;border:none;border-radius:10px;padding:0 20px;font-weight:600}
+.shake{animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-6px)}50%{transform:translateX(6px)}75%{transform:translateX(-3px)}}
+.msg{min-height:22px;margin-top:8px;font-size:13px;color:var(--bad)}
+.reveal{margin-top:8px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;animation:drop .35s ease-out}
+@keyframes drop{from{opacity:0;transform:translateY(-8px)}}
+.reveal .ans{font-family:var(--display);font-size:30px;font-weight:800;margin:2px 0}
+.badge{display:inline-block;padding:3px 10px;border-radius:99px;font-size:12px;font-weight:600;color:#fff;letter-spacing:.04em}
+.reveal .pts{float:right;font-family:var(--display);font-size:30px;font-weight:800;color:var(--accent)}
+.reveal ul{list-style:none;padding:0;margin:14px 0 0;border-top:1px dashed var(--line)}
+.reveal li{display:flex;justify-content:space-between;padding:6px 0;font-size:13px;border-bottom:1px dashed var(--line)}
+.reveal li.me{color:var(--accent)}
+.reveal li.gem{color:var(--gem)}
+.next{margin-top:14px;width:100%;background:var(--accent);color:#1a1209;border:none;border-radius:10px;padding:14px;font-weight:600}
+.gemflash{position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle,rgba(95,224,200,.35),transparent 60%);animation:fade 1.2s forwards}
+@keyframes fade{to{opacity:0}}
+.rlist{margin:16px 0;border-top:1px solid var(--line)}
+.rrow{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.rrow .q{font-size:11px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.rrow .a{font-family:var(--display);font-size:20px;font-weight:700}
+.rrow .p{font-size:12px;color:var(--muted)}
+.rrow .sw{width:22px;height:30px;border-radius:4px}
+.rrow .m{font-family:var(--display);font-weight:800;color:var(--accent);font-size:20px;text-align:right}
+.big{font-family:var(--display);font-size:64px;font-weight:800;color:var(--accent);line-height:1}
+textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px;height:120px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.howto p{color:var(--ink)}
+.howto h2{font-family:var(--display);color:var(--accent);margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- HOME -->
+<section id="home" class="screen on">
+  <h1>DEEP<br>CUT</h1>
+  <p class="tag">7 prompts · 20 seconds each · the rarer your answer, the deeper you dig.</p>
+  <button class="btn primary" id="bDaily"><b>Today's dig →</b><span id="dailyNote">A new set of prompts every day.</span></button>
+  <button class="btn" id="bPractice"><b>Practice shaft</b><span>Endless random prompts. Doesn't count toward your stats.</span></button>
+  <button class="btn" id="bHow"><b>How to play</b><span>Strata, scoring and the Mother Lode.</span></button>
+  <div class="stats" id="stats"></div>
+  <div class="strata" id="strataKey"></div>
+  <p class="small" style="margin-top:18px">This is a single-player game with no server. "How many players picked it" is estimated from a built-in popularity ranking of each answer list.</p>
+</section>
+
+<!-- HOW -->
+<section id="how" class="screen howto">
+  <div class="topbar"><button class="link" data-home>← Back</button></div>
+  <h2>The dig</h2>
+  <p>Each round shows a prompt like <em>"Name a breed of dog"</em>. You have 20 seconds to type one answer that fits. You only get one locked-in answer per prompt, but a guess that isn't on the list doesn't use it up, so keep trying until the clock runs out.</p>
+  <h2>Going deeper</h2>
+  <p>Every accepted answer has a popularity. Answers most people give score little. Answers few people think of score more. Your total is your depth in metres.</p>
+  <div class="strata" id="strataKey2"></div>
+  <h2>The Mother Lode</h2>
+  <p>Every prompt hides one Mother Lode. It isn't always the rarest answer. It's a satisfying one that some players will actually find. Hit it for the biggest score.</p>
+  <h2>Spelling</h2>
+  <p>Typos of a letter or two are forgiven on longer words, and common alternative names work too. The game always shows which answer your guess matched.</p>
+</section>
+
+<!-- PLAY -->
+<section id="play" class="screen">
+  <div class="topbar">
+    <button class="link" id="quit">← Leave</button>
+    <div class="core" id="core"></div>
+    <div class="depth"><span id="depthNum">0</span><small> m</small></div>
+  </div>
+  <div class="prompt-n" id="pn"></div>
+  <div class="prompt" id="pq"></div>
+  <div class="timer" id="timer"><div id="tbar"></div></div>
+  <div class="secs" id="secs">20.0s</div>
+  <form class="inrow" id="form" autocomplete="off">
+    <input id="guess" placeholder="Type an answer…" autocapitalize="off" spellcheck="false">
+    <button class="go" type="submit">Dig</button>
+  </form>
+  <div class="msg" id="msg"></div>
+  <div id="revealBox"></div>
+</section>
+
+<!-- RESULTS -->
+<section id="results" class="screen">
+  <div class="topbar"><button class="link" data-home>← Home</button><span class="small" id="rDate"></span></div>
+  <div class="prompt-n">You reached</div>
+  <div class="big"><span id="rDepth">0</span><span style="font-size:28px"> m</span></div>
+  <p class="tag" id="rLine"></p>
+  <div class="rlist" id="rList"></div>
+  <div class="row2">
+    <button class="next" id="bCopy">Copy result</button>
+    <button class="next" id="bAgain" style="background:var(--panel);color:var(--ink);border:1px solid var(--line)">Practice more</button>
+  </div>
+  <textarea id="shareTxt" readonly style="margin-top:12px"></textarea>
+</section>
+
+</div>
+<script>
+/* ---------------- DATA ----------------
+   Each answer list is ordered from most to least commonly given.
+   "a|b|c" = canonical name plus accepted aliases. A leading * marks the Mother Lode. */
+const PROMPTS = [
+{q:"Name an element on the periodic table",a:"Oxygen;Gold;Hydrogen;Carbon;Iron;Helium;Silver;Nitrogen;Copper;Sodium;Calcium;Lead;Uranium;Neon;Zinc;Aluminum|aluminium;Mercury;Platinum;Potassium;Chlorine;Magnesium;Titanium;Lithium;Sulfur|sulphur;Silicon;Plutonium;Tin;Nickel;Argon;Phosphorus;Fluorine;Cobalt;Iodine;Radon;Krypton;Xenon;Tungsten;Chromium;Boron;Manganese;Radium;Arsenic;Bromine;Beryllium;Cesium|caesium;Barium;Bismuth;Cadmium;Palladium;Polonium;Strontium;Selenium;Vanadium;Gallium;Germanium;Thorium;Osmium;Iridium;Francium;Rubidium;Antimony;Indium;Tellurium;Zirconium;Molybdenum;Neodymium;Rhodium;Ruthenium;Scandium;Einsteinium;Americium;Californium;Curium;Nobelium;Mendelevium;Tennessine;Oganesson;Yttrium;Niobium;Tantalum;Hafnium;Rhenium;Thallium;Astatine;Actinium;Technetium;*Ytterbium;Lanthanum;Cerium;Europium;Gadolinium;Samarium;Promethium;Praseodymium;Terbium;Dysprosium;Holmium;Erbium;Thulium;Lutetium;Protactinium;Neptunium;Berkelium;Fermium;Lawrencium;Rutherfordium;Dubnium;Seaborgium;Bohrium;Hassium;Meitnerium;Darmstadtium;Roentgenium;Copernicium;Nihonium;Flerovium;Moscovium;Livermorium"},
+{q:"Name a US state",a:"California;Texas;Florida;New York;Alaska;Hawaii;Ohio;Washington;Colorado;Arizona;Georgia;Michigan;Oregon;Nevada;Illinois;Montana;Maine;Vermont;Utah;Pennsylvania;Virginia;Kentucky;Tennessee;Louisiana;Wyoming;Idaho;North Carolina;South Carolina;Massachusetts;New Jersey;Minnesota;Wisconsin;Alabama;Mississippi;Missouri;Kansas;Nebraska;Iowa;Oklahoma;Arkansas;Indiana;Maryland;Connecticut;New Mexico;Rhode Island;New Hampshire;West Virginia;North Dakota;South Dakota;*Delaware"},
+{q:"Name something that orbits the Sun",a:"Earth;Mars;Jupiter;Saturn;Venus;Mercury;Neptune;Uranus;Pluto;Halley's Comet|halleys comet|halley;Ceres;Eris;Vesta;Haumea;Makemake;James Webb Space Telescope|james webb|jwst|webb telescope;Hale-Bopp|hale bopp comet;Sedna;Bennu;Pallas;Juno;Apophis;Parker Solar Probe;Psyche;Eros;Ryugu;Hygiea;Shoemaker-Levy 9|shoemaker levy;Quaoar;Orcus;Gonggong;*Tesla Roadster|starman|elon musks car|elons tesla"},
+{q:"Name a breed of dog",a:"Labrador|labrador retriever|lab;Golden Retriever|golden;German Shepherd|alsatian;Poodle;Bulldog|english bulldog;Beagle;Husky|siberian husky;Chihuahua;Dachshund|wiener dog|sausage dog;Pug;Rottweiler;Corgi|welsh corgi|pembroke welsh corgi;Pit Bull|pitbull|american pit bull terrier;Boxer;Border Collie;Great Dane;Shih Tzu;Doberman|dobermann|doberman pinscher;French Bulldog|frenchie;Yorkshire Terrier|yorkie;Pomeranian;Dalmatian;Australian Shepherd|aussie;Saint Bernard|st bernard;Maltese;Bernese Mountain Dog|bernese;Cocker Spaniel;Shiba Inu|shiba;Greyhound;Bloodhound;Akita;Samoyed;Mastiff;Schnauzer;Basset Hound;Cavalier King Charles Spaniel|cavalier;Bichon Frise|bichon;Whippet;Newfoundland;Jack Russell Terrier|jack russell;Collie|rough collie;Weimaraner;Vizsla;Afghan Hound;Shar Pei;Chow Chow;Alaskan Malamute|malamute;Irish Wolfhound;Basenji;Papillon;Borzoi;*Komondor;Xoloitzcuintli|xolo|mexican hairless;Puli;Otterhound;Lagotto Romagnolo|lagotto;Bedlington Terrier;Norwegian Lundehund|lundehund;Catahoula Leopard Dog|catahoula"},
+{q:"Name a play by Shakespeare",a:"Romeo and Juliet;Hamlet;Macbeth;A Midsummer Night's Dream|midsummer nights dream;Othello;King Lear;Julius Caesar;The Tempest;Much Ado About Nothing;Twelfth Night;The Merchant of Venice;The Taming of the Shrew;As You Like It;Richard III|richard 3|richard the third;Henry V|henry 5|henry the fifth;Antony and Cleopatra;The Comedy of Errors;The Winter's Tale|winters tale;Henry IV|henry 4|henry the fourth;Titus Andronicus;Richard II|richard 2|richard the second;Coriolanus;The Two Gentlemen of Verona;All's Well That Ends Well|alls well that ends well;Measure for Measure;Love's Labour's Lost|loves labours lost|loves labors lost;The Merry Wives of Windsor;Troilus and Cressida;*Cymbeline;Pericles;Timon of Athens;Henry VI|henry 6|henry the sixth;Henry VIII|henry 8|henry the eighth;King John;The Two Noble Kinsmen"},
+{q:"Name a shape of pasta",a:"Spaghetti;Penne;Macaroni;Fettuccine|fettuccini;Lasagna|lasagne;Ravioli;Linguine|linguini;Rigatoni;Fusilli;Farfalle|bow tie|bowtie|bow ties;Tortellini;Rotini;Angel Hair|capellini;Ziti;Orzo;Gnocchi;Tagliatelle;Pappardelle;Orecchiette;Cannelloni;Manicotti;Conchiglie|shells;Vermicelli;Bucatini;Ditalini;Campanelle;Gemelli;Cavatappi;Radiatori;Rotelle|wagon wheels;Paccheri;*Strozzapreti;Mafaldine|mafalda;Trofie;Casarecce;Agnolotti;Stelline;Acini di Pepe;Lumache;Cappelletti;Tortelloni;Garganelli;Pici;Cavatelli;Fregola;Corzetti;Lorighittas"},
+{q:"Name a kind of cheese",a:"Cheddar;Mozzarella;Parmesan|parmigiano reggiano|parmigiano;Swiss|emmental|emmentaler;Brie;Gouda;Feta;Provolone;Pepper Jack|pepperjack;Cream Cheese;Blue Cheese|bleu cheese|blue;American;Colby;Monterey Jack;Ricotta;Camembert;Goat Cheese|chevre;Gruyere;Muenster|munster;Havarti;Mascarpone;Gorgonzola;Cottage Cheese;Halloumi;Manchego;Roquefort;Stilton;Pecorino|pecorino romano;Asiago;Burrata;Edam;Paneer;Fontina;Jarlsberg;Wensleydale;Limburger;Queso Fresco;Raclette;Comte;Taleggio;Reblochon;Oaxaca;Cotija;Brunost|gjetost;Epoisses;*Casu Marzu;Red Leicester|leicester;Caerphilly;Stinking Bishop"},
+{q:"Name a mammal that lives in the sea",a:"Dolphin;Whale;Seal;Orca|killer whale;Blue Whale;Sea Otter|otter;Sea Lion;Walrus;Manatee|sea cow;Humpback Whale|humpback;Narwhal;Beluga|beluga whale;Sperm Whale;Dugong;Porpoise;Polar Bear;Elephant Seal;Fur Seal;Leopard Seal;Gray Whale|grey whale;Minke Whale;Fin Whale;Bowhead Whale;Right Whale;Pilot Whale;Harbor Seal|harbour seal;Monk Seal;*Vaquita;Beaked Whale|cuviers beaked whale;Bottlenose Dolphin;Sei Whale;Bryde's Whale|brydes whale;Spinner Dolphin;Hooded Seal;Ribbon Seal;Steller's Sea Cow|stellers sea cow"},
+{q:"Name a bone in the human body",a:"Femur|thigh bone;Skull|cranium;Rib;Tibia|shin bone;Humerus;Vertebra|vertebrae|spine;Fibula;Radius;Ulna;Pelvis|hip bone;Clavicle|collarbone;Patella|kneecap;Sternum|breastbone;Scapula|shoulder blade;Mandible|jaw|jawbone;Coccyx|tailbone;Phalanges|phalanx|finger bone;Sacrum;Metacarpal;Metatarsal;Carpal;Tarsal;Stapes|stirrup;*Hyoid;Talus;Calcaneus|heel bone;Maxilla;Incus|anvil;Malleus|hammer;Ilium;Ischium;Pubis;Scaphoid;Zygomatic|cheekbone;Temporal;Occipital;Parietal;Frontal;Sphenoid;Ethmoid;Vomer;Lacrimal;Nasal;Atlas;Axis;Cuboid;Navicular;Hamate;Pisiform;Trapezium;Lunate;Capitate;Triquetrum;Cuneiform;Palatine"},
+{q:"Name a capital city in Europe",a:"Paris;London;Rome;Berlin;Madrid;Amsterdam;Athens;Vienna;Lisbon;Dublin;Prague;Brussels;Stockholm;Oslo;Copenhagen;Moscow;Warsaw;Budapest;Helsinki;Bern;Edinburgh;Reykjavik;Kyiv|kiev;Bucharest;Belgrade;Zagreb;Sofia;Bratislava;Ljubljana;Tallinn;Riga;Vilnius;Luxembourg;Monaco;Valletta;Minsk;Sarajevo;Tirana;Skopje;Cardiff;Belfast;Podgorica;Chisinau;Andorra la Vella;*Vaduz;San Marino;Nicosia;Vatican City"},
+{q:"Name a musical instrument",a:"Piano;Guitar;Drums|drum kit;Violin|fiddle;Trumpet;Flute;Saxophone|sax;Bass Guitar|bass;Cello;Clarinet;Harp;Ukulele;Trombone;Tuba;Harmonica;Banjo;Oboe;Accordion;Xylophone;Viola;French Horn|horn;Bagpipes;Tambourine;Keyboard;Organ;Triangle;Double Bass|upright bass|contrabass;Bassoon;Recorder;Mandolin;Piccolo;Synthesizer|synth;Sitar;Marimba;Glockenspiel;Cymbals;Kazoo;Harpsichord;Didgeridoo;Bongos;Steel Drum|steel pan;*Theremin;Lute;Sousaphone;Euphonium;Cowbell;Kalimba;Hurdy-Gurdy|hurdy gurdy;Ocarina;Erhu;Shamisen;Bandoneon;Balalaika;Zither;Dulcimer;Celesta;Contrabassoon;Handpan|hang drum;Mellotron;Ondes Martenot"},
+{q:"Name a bird that can't fly",a:"Penguin|emperor penguin|king penguin;Ostrich;Emu;Kiwi;Dodo;Chicken;Cassowary;Rhea;Turkey;*Kakapo;Takahe;Weka;Moa;Elephant Bird;Steamer Duck;Flightless Cormorant|galapagos cormorant;Great Auk;Inaccessible Island Rail"},
+{q:"Name a dinosaur",a:"Tyrannosaurus|t rex|trex|tyrannosaurus rex;Triceratops;Velociraptor|raptor;Stegosaurus;Brachiosaurus;Spinosaurus;Ankylosaurus;Diplodocus;Brontosaurus;Allosaurus;Parasaurolophus;Iguanodon;Pachycephalosaurus;Dilophosaurus;Apatosaurus;Carnotaurus;Giganotosaurus;Gallimimus;Compsognathus;Archaeopteryx;Utahraptor;Deinonychus;Argentinosaurus;Oviraptor;Therizinosaurus;Microraptor;Edmontosaurus;Maiasaura;Protoceratops;Baryonyx;Megalosaurus;Styracosaurus;Corythosaurus;Coelophysis;Troodon;Plateosaurus;Herrerasaurus;Amargasaurus;Nigersaurus;Dreadnoughtus;Mamenchisaurus;Kentrosaurus;Carcharodontosaurus;Suchomimus;Psittacosaurus;Yutyrannus;*Irritator;Mononykus;Minmi"},
+{q:"Name a board game",a:"Monopoly;Chess;Scrabble;Clue|cluedo;Checkers|draughts;Risk;Sorry;Candy Land|candyland;Catan|settlers of catan;The Game of Life|life|game of life;Battleship;Trouble;Connect Four|connect 4;Guess Who;Operation;Chutes and Ladders|snakes and ladders;Backgammon;Mouse Trap;Go;Ticket to Ride;Pandemic;Stratego;Othello|reversi;Yahtzee;Trivial Pursuit;Pictionary;Parcheesi|ludo;Mahjong;Hungry Hungry Hippos;Carcassonne;Mancala;Codenames;Axis and Allies;Diplomacy;Wingspan;Azul;Twister;Mastermind;Splendor;Dominion;Terraforming Mars;Gloomhaven;Agricola;Power Grid;Puerto Rico;Twilight Imperium;Blokus;Hive;Kingdomino;Root;Cranium;Abalone;Nine Men's Morris|nine mens morris;*Senet;Royal Game of Ur|game of ur"},
+{q:"Name a vegetable",a:"Carrot;Broccoli;Potato;Lettuce;Spinach;Celery;Onion;Cucumber;Corn;Peas;Green Beans;Cauliflower;Tomato;Bell Pepper|pepper;Cabbage;Zucchini|courgette;Asparagus;Kale;Sweet Potato;Brussels Sprouts|brussel sprouts;Eggplant|aubergine;Beet|beetroot;Radish;Mushroom;Garlic;Squash;Artichoke;Pumpkin;Turnip;Leek;Okra;Parsnip;Bok Choy;Arugula|rocket;Yam;Rutabaga|swede;Kohlrabi;Jicama;Fennel;Swiss Chard|chard;Endive;Watercress;Daikon;Shallot;Collard Greens|collards;*Romanesco;Salsify;Celeriac;Fiddlehead|fiddlehead fern;Sunchoke|jerusalem artichoke;Burdock;Taro;Cassava;Bitter Melon;Lotus Root;Samphire"},
+{q:"Name a constellation",a:"Orion;Big Dipper;Ursa Major;Ursa Minor|little dipper;Cassiopeia;Scorpius|scorpio;Leo;Gemini;Taurus;Cancer;Aries;Virgo;Libra;Sagittarius;Capricornus|capricorn;Aquarius;Pisces;Draco;Pegasus;Andromeda;Cygnus;Lyra;Perseus;Hercules;Canis Major;Crux|southern cross;Aquila;Centaurus;Cepheus;Bootes;Canis Minor;Auriga;Hydra;Phoenix;Cetus;Lupus;Corvus;Delphinus;Ophiuchus;Corona Borealis;Monoceros;Lepus;Columba;Carina;Vela;Puppis;*Camelopardalis;Fornax;Sculptor;Pyxis;Microscopium;Telescopium;Horologium;Antlia;Volans;Musca;Mensa;Norma;Octans;Reticulum;Pictor;Caelum;Vulpecula;Sagitta;Lacerta;Lynx;Leo Minor;Sextans;Triangulum;Equuleus;Chamaeleon;Apus;Tucana;Indus;Pavo;Grus;Dorado;Hydrus;Eridanus;Serpens;Scutum;Coma Berenices;Canes Venatici;Ara;Corona Australis;Piscis Austrinus;Crater;Circinus"},
+{q:"Name a sport played with a ball",a:"Soccer|football|association football;Basketball;Baseball;Tennis;American Football;Volleyball;Golf;Rugby;Cricket;Softball;Bowling;Table Tennis|ping pong;Dodgeball;Field Hockey;Kickball;Handball;Water Polo;Lacrosse;Squash;Racquetball;Polo;Pool|billiards;Snooker;Croquet;Netball;Pickleball;Wiffle Ball|wiffleball;Bocce;Petanque|boules;Jai Alai;Hurling;Gaelic Football;Australian Rules Football|aussie rules|afl;*Sepak Takraw;Korfball;Goalball;Teqball;Bossaball;Basque Pelota|pelota;Roundnet|spikeball;Footvolley;Tchoukball;Pesapallo;Hornussen;Underwater Rugby"},
+{q:"Name a programming language",a:"Python;Java;JavaScript|js;C++|cpp|c plus plus;C;HTML;C#|c sharp|csharp;Ruby;PHP;Swift;Go|golang;Rust;Kotlin;TypeScript|ts;SQL;R;Perl;Scratch;Lua;MATLAB;Assembly|asm;Haskell;Fortran;COBOL;BASIC|visual basic;Pascal;Lisp;Scala;Dart;Julia;Elixir;Erlang;Clojure;F#|f sharp|fsharp;OCaml;Prolog;Objective-C|objective c;Groovy;Zig;Smalltalk;Ada;Racket;Scheme;Elm;Nim;Crystal;APL;Forth;Brainfuck;LOLCODE;Whitespace;Befunge;Malbolge;*Piet"},
+{q:"Name a kind of tree",a:"Oak;Maple;Pine;Birch;Willow|weeping willow;Palm|palm tree;Apple;Cherry|cherry blossom;Redwood;Spruce;Elm;Cedar;Fir|douglas fir;Aspen;Sequoia|giant sequoia;Ash;Cypress;Magnolia;Dogwood;Beech;Sycamore;Walnut;Hickory;Poplar;Baobab;Eucalyptus;Banyan;Juniper;Hemlock;Larch|tamarack;Chestnut;Ginkgo;Yew;Hawthorn;Acacia;Joshua Tree;Olive;Mahogany;Teak;Linden|basswood|lime tree;Alder;Mangrove;Rowan|mountain ash;Sassafras;Cottonwood;Bristlecone Pine;Dragon Blood Tree|dragons blood tree;*Monkey Puzzle|monkey puzzle tree;Wollemi Pine;Jacaranda;Tamarind;Sweetgum;Catalpa;Ironwood"},
+{q:"Name a Greek god or goddess",a:"Zeus;Poseidon;Hades;Athena;Aphrodite;Apollo;Ares;Hermes;Hera;Artemis;Dionysus;Hephaestus;Demeter;Persephone;Hestia;Nike;Eros;Gaia;Kronos|cronus;Pan;Hecate;Helios;*Nyx;Selene;Eos;Nemesis;Morpheus;Hypnos;Thanatos;Tyche;Iris;Hebe;Uranus|ouranos;Rhea;Asclepius;Eris;Prometheus;Atlas;Oceanus;Triton;Tethys;Themis;Mnemosyne;Hyperion;Boreas;Zephyrus;Proteus;Nereus;Aether;Erebus;Chaos;Phobos;Deimos;Harmonia;Priapus;Plutus;Momus"},
+{q:"Name a colour",a:"Red;Blue;Green;Yellow;Purple;Orange;Pink;Black;White;Brown;Gray|grey;Teal;Turquoise;Magenta;Cyan;Violet;Indigo;Maroon;Navy|navy blue;Gold;Silver;Beige;Lavender;Crimson;Coral;Salmon;Lime;Olive;Burgundy;Tan;Mauve;Periwinkle;Chartreuse;Fuchsia;Scarlet;Aquamarine;Ivory;Cream;Mint;Peach;Amber;Ochre;Sienna;Umber;Cerulean;Vermilion;*Puce;Taupe;Ecru;Sepia;Cobalt;Azure;Lilac;Plum;Saffron;Celadon;Viridian;Gamboge;Wenge;Glaucous;Falu Red"},
+{q:"Name a country in Africa",a:"Egypt;Nigeria;South Africa;Kenya;Morocco;Ethiopia;Ghana;Madagascar;Somalia;Sudan;Libya;Algeria;Tunisia;Uganda;Rwanda;Tanzania;Zimbabwe;Democratic Republic of the Congo|drc|dr congo|congo kinshasa;Republic of the Congo|congo|congo brazzaville;Angola;Senegal;Cameroon;Mali;Namibia;Botswana;Zambia;Mozambique;Ivory Coast|cote divoire;Niger;Chad;Liberia;Sierra Leone;Malawi;South Sudan;Eritrea;Gambia|the gambia;Guinea;Burkina Faso;Benin;Togo;Gabon;Mauritania;Lesotho;Eswatini|swaziland;Burundi;Djibouti;Central African Republic;Equatorial Guinea;Guinea-Bissau|guinea bissau;Cape Verde|cabo verde;Comoros;Mauritius;Seychelles;*Sao Tome and Principe|sao tome"},
+{q:"Name a fruit",a:"Apple;Banana;Orange;Strawberry;Grape;Watermelon;Mango;Pineapple;Blueberry;Peach;Pear;Cherry;Kiwi|kiwifruit;Lemon;Raspberry;Plum;Pomegranate;Cantaloupe;Lime;Coconut;Grapefruit;Papaya;Apricot;Blackberry;Avocado;Fig;Nectarine;Dragon Fruit|pitaya;Passion Fruit;Honeydew;Tangerine|mandarin|clementine;Cranberry;Guava;Lychee|litchi;Date;Persimmon;Starfruit|carambola;Jackfruit;Durian;Kumquat;Gooseberry;Quince;Rambutan;Mangosteen;Elderberry;Mulberry;Loquat;Feijoa;Salak|snake fruit;Ugli Fruit;Cherimoya;Pawpaw;Soursop;Ackee;Miracle Fruit|miracle berry;*Buddha's Hand|buddhas hand;Horned Melon|kiwano;Jabuticaba"},
+{q:"Name a famous painter",a:"Leonardo da Vinci|da vinci|leonardo;Vincent van Gogh|van gogh;Pablo Picasso|picasso;Michelangelo;Claude Monet|monet;Salvador Dali|dali;Rembrandt;Frida Kahlo|kahlo;Andy Warhol|warhol;Bob Ross;Georgia O'Keeffe|okeeffe;Raphael;Jackson Pollock|pollock;Johannes Vermeer|vermeer;Edvard Munch|munch;Henri Matisse|matisse;Gustav Klimt|klimt;Paul Cezanne|cezanne;Edgar Degas|degas;Pierre-Auguste Renoir|renoir;Rene Magritte|magritte;Sandro Botticelli|botticelli;Caravaggio;Francisco Goya|goya;Diego Rivera;Mark Rothko|rothko;Keith Haring;Jean-Michel Basquiat|basquiat;Wassily Kandinsky|kandinsky;Paul Gauguin|gauguin;Edward Hopper|hopper;Titian;Hieronymus Bosch|bosch;Piet Mondrian|mondrian;Norman Rockwell;Georges Seurat|seurat;Joan Miro|miro;Edouard Manet|manet;J. M. W. Turner|turner|jmw turner;John Constable|constable;Jan van Eyck|van eyck;Pieter Bruegel|bruegel|brueghel;Artemisia Gentileschi|gentileschi;Hokusai|katsushika hokusai;Egon Schiele|schiele;Amedeo Modigliani|modigliani;Marc Chagall|chagall;Paul Klee|klee;Yayoi Kusama|kusama;David Hockney|hockney;Francis Bacon;Lucian Freud;Caspar David Friedrich;El Greco;Diego Velazquez|velazquez;Tamara de Lempicka|lempicka;Henri Rousseau|rousseau;Hilma af Klint;*Giuseppe Arcimboldo|arcimboldo"},
+{q:"Name a currency",a:"Dollar|us dollar;Euro;Pound|pound sterling|british pound|sterling;Yen;Peso;Rupee;Yuan|renminbi;Franc|swiss franc;Ruble|rouble;Won;Bitcoin;Real|brazilian real;Rand;Krona;Krone;Lira;Dinar;Dirham;Shekel;Baht;Ringgit;Rupiah;Dong;Zloty;Forint;Koruna;Riyal|rial;Naira;Shilling;Drachma;Deutsche Mark|mark;Lev;Leu;Kwacha;Cedi;Birr;Taka;Kyat;Kip;Tugrik;Lari;Dram;Manat;Som;Tenge;Hryvnia;Guarani;Sol;Boliviano;Colon;*Quetzal;Lempira;Cordoba;Balboa;Gourde;Pula;Loti;Lilangeni;Ouguiya;Doubloon"}
+];
+
+const STRATA = [
+  {name:"Topsoil", min:.06,  pts:10, color:"var(--s0)", emoji:"🟫", hint:"what most people say"},
+  {name:"Clay",    min:.025, pts:25, color:"var(--s1)", emoji:"🟧", hint:"well known"},
+  {name:"Shale",   min:.01,  pts:40, color:"var(--s2)", emoji:"🟪", hint:"a step off the path"},
+  {name:"Bedrock", min:.004, pts:60, color:"var(--s3)", emoji:"🟦", hint:"rare"},
+  {name:"Magma",   min:0,    pts:80, color:"var(--s4)", emoji:"🟥", hint:"almost nobody"},
+];
+const LODE = {name:"Mother Lode", pts:120, color:"var(--gem)", emoji:"💎", hint:"the hidden gem"};
+const MISS = {name:"Cave-in", pts:0, color:"#3a2e25", emoji:"⬛"};
+const ROUNDS = 7, SECONDS = 20;
+
+/* ---------------- HELPERS ---------------- */
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function norm(s){
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")
+    .replace(/&/g," and ").replace(/\+/g,"plus").replace(/#/g,"sharp").replace(/['’]/g,"")
+    .replace(/[^a-z0-9]+/g," ").trim().replace(/^(the|a|an) /,"").replace(/ /g,"");
+}
+function lev(a,b,max){
+  if(Math.abs(a.length-b.length)>max) return max+1;
+  // optimal string alignment distance: swapped neighbours count as one typo
+  let pp=null, prev=Array.from({length:b.length+1},(_,i)=>i);
+  for(let i=1;i<=a.length;i++){
+    const cur=[i]; let best=i;
+    for(let j=1;j<=b.length;j++){
+      cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));
+      if(pp && i>1 && j>1 && a[i-1]===b[j-2] && a[i-2]===b[j-1]) cur[j]=Math.min(cur[j],pp[j-2]+1);
+      if(cur[j]<best) best=cur[j];
+    }
+    if(best>max) return max+1;
+    pp=prev; prev=cur;
+  }
+  return prev[b.length];
+}
+const parsed = PROMPTS.map((p,pi)=>{
+  const rnd = mulberry32(9001+pi*131);
+  const answers = p.a.split(";").map((raw,i)=>{
+    const gem = raw.startsWith("*"); const names = raw.replace(/^\*/,"").split("|");
+    return {name:names[0], keys:[...new Set(names.map(norm))], rank:i, gem, w:(1/Math.pow(i+2,1.3))*(0.7+rnd()*0.6)};
+  });
+  answers.sort((a,b)=>b.w-a.w);
+  const tot = answers.reduce((s,a)=>s+a.w,0);
+  answers.forEach(a=>a.share=a.w/tot);
+  return {q:p.q, answers, idx:pi};
+});
+function matchAnswer(p, input){
+  let k = norm(input); if(!k) return null;
+  const variants = [k]; if(k.length>3 && k.endsWith("s")) variants.push(k.slice(0,-1));
+  for(const a of p.answers) for(const key of a.keys) if(variants.includes(key) || variants.includes(key.replace(/s$/,""))) return a;
+  let best=null, bd=9;
+  for(const a of p.answers) for(const key of a.keys){
+    if(key.length<5) continue;
+    const max = key.length>=9 ? 2 : 1;
+    const d = lev(k,key,max);
+    if(d<=max && d<bd){bd=d;best=a;}
+  }
+  return best;
+}
+function stratumFor(a){ if(!a) return MISS; if(a.gem) return LODE; return STRATA.find(s=>a.share>=s.min); }
+function pct(x){ return x>=.1 ? (x*100).toFixed(0)+"%" : x>=.01 ? (x*100).toFixed(1)+"%" : (x*100).toFixed(2)+"%"; }
+function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function dayNumber(){ const d=new Date(); return Math.floor((Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())-Date.UTC(2026,0,1))/864e5)+1; }
+function dailyPrompts(){
+  const r = mulberry32(dayNumber()*7919+17); const ids=parsed.map((_,i)=>i);
+  for(let i=ids.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]];}
+  return ids.slice(0,ROUNDS).map(i=>parsed[i]);
+}
+function crowdSize(){ return 30000 + Math.floor(mulberry32(dayNumber()*31)()*40000); }
+const store = {
+  get(k,d){ try{ const v=localStorage.getItem("deepcut:"+k); return v?JSON.parse(v):d; }catch(e){ return d; } },
+  set(k,v){ try{ localStorage.setItem("deepcut:"+k, JSON.stringify(v)); }catch(e){} }
+};
+const $ = id=>document.getElementById(id);
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+/* ---------------- SCREENS ---------------- */
+function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.toggle("on",s.id===id)); window.scrollTo(0,0); }
+function strataHTML(){
+  return [...STRATA,LODE].map(s=>`<div class="stratum" style="background:${s.color}"><span>${s.emoji} ${s.name} <em>· ${s.hint}</em></span><b>${s.pts} m</b></div>`).join("");
+}
+function renderHome(){
+  const st = store.get("stats",{played:0,streak:0,best:0,lodes:0,last:null});
+  const done = store.get("daily:"+todayKey(), null);
+  $("dailyNote").textContent = done ? `Dig #${dayNumber()} done: ${done.depth} m. Tap to see your core sample.` : `Dig #${dayNumber()}: a new set of prompts every day.`;
+  $("stats").innerHTML = [["Digs",st.played],["Streak",st.streak],["Best",st.best+" m"],["Lodes",st.lodes]]
+    .map(([l,v])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+  $("strataKey").innerHTML = strataHTML();
+  show("home");
+}
+$("strataKey2").innerHTML = strataHTML();
+document.querySelectorAll("[data-home]").forEach(b=>b.onclick=renderHome);
+$("bHow").onclick=()=>show("how");
+
+/* ---------------- GAME ---------------- */
+let G=null, raf=0;
+function startGame(mode){
+  let list;
+  if(mode==="daily") list = dailyPrompts();
+  else { const r=Math.random; const ids=parsed.map((_,i)=>i).sort(()=>r()-.5); list = ids.slice(0,ROUNDS).map(i=>parsed[i]); }
+  G = {mode, list, i:0, picks:[], depth:0, crowd: mode==="daily"?crowdSize():25000+Math.floor(Math.random()*40000)};
+  show("play"); nextRound();
+}
+function renderCore(){
+  $("core").innerHTML = G.list.map((_,i)=>{
+    const p=G.picks[i]; const s=p?p.stratum:null;
+    return `<i class="${i===G.i&&!p?"cur":""}" style="${s?`background:${s.color};border-color:transparent`:""}" title="${s?s.name:""}"></i>`;
+  }).join("");
+  $("depthNum").textContent = G.depth;
+}
+function nextRound(){
+  const p = G.list[G.i];
+  $("pn").textContent = `Prompt ${G.i+1} of ${ROUNDS}`;
+  $("pq").textContent = p.q;
+  $("revealBox").innerHTML=""; $("msg").textContent="";
+  $("form").style.display="flex"; $("guess").value=""; $("guess").disabled=false; $("guess").focus();
+  $("timer").style.display=""; $("secs").style.display="";
+  renderCore();
+  G.locked=false; G.start=performance.now();
+  cancelAnimationFrame(raf); tick();
+}
+function tick(){
+  const left = Math.max(0, SECONDS - (performance.now()-G.start)/1000);
+  $("tbar").style.transform = `scaleX(${left/SECONDS})`;
+  $("timer").classList.toggle("low", left<5);
+  $("secs").textContent = left.toFixed(1)+"s";
+  if(left<=0){ lockIn(null); return; }
+  if(!G.locked) raf = requestAnimationFrame(tick);
+}
+$("form").onsubmit = e=>{
+  e.preventDefault(); if(!G||G.locked) return;
+  const v = $("guess").value; if(!v.trim()) return;
+  const a = matchAnswer(G.list[G.i], v);
+  if(!a){
+    $("msg").textContent = `"${v.trim()}" isn't in this seam. Try another.`;
+    $("guess").classList.remove("shake"); void $("guess").offsetWidth; $("guess").classList.add("shake");
+    $("guess").select(); return;
+  }
+  lockIn(a, v.trim());
+};
+function lockIn(a, typed){
+  if(G.locked) return; G.locked=true; cancelAnimationFrame(raf);
+  const p = G.list[G.i]; const s = stratumFor(a);
+  G.picks[G.i] = {q:p.q, a, typed, stratum:s};
+  G.depth += s.pts;
+  $("form").style.display="none"; $("guess").disabled=true; $("msg").textContent="";
+  $("timer").style.display="none"; $("secs").style.display="none";
+  if(a && a.gem){ const f=document.createElement("div"); f.className="gemflash"; document.body.appendChild(f); setTimeout(()=>f.remove(),1300); }
+  const top = p.answers.slice(0,3); const gem = p.answers.find(x=>x.gem);
+  const rows = top.map(x=>`<li class="${x===a?"me":""}"><span>${esc(x.name)}</span><span>${pct(x.share)}</span></li>`).join("")
+    + (a && !top.includes(a) && !a.gem ? `<li class="me"><span>… ${esc(a.name)} (you)</span><span>${pct(a.share)}</span></li>`:"")
+    + `<li class="gem"><span>💎 Mother Lode: ${esc(gem.name)}${a===gem?" (you!)":""}</span><span>${pct(gem.share)}</span></li>`;
+  const head = a
+    ? `<span class="pts">+${s.pts}m</span><span class="badge" style="background:${s.color};${a.gem?"color:#0b2a25":""}">${s.emoji} ${s.name}</span>
+       <div class="ans">${esc(a.name)}</div>
+       <div class="small">${typed && norm(typed)!==norm(a.name)?`You typed "${esc(typed)}". `:""}${Math.max(1,Math.round(a.share*G.crowd)).toLocaleString()} other diggers picked this (${pct(a.share)}).</div>`
+    : `<span class="pts">+0m</span><span class="badge" style="background:${s.color}">⬛ Cave-in</span><div class="ans">Out of time</div><div class="small">No answer locked in.</div>`;
+  const last = G.i===ROUNDS-1;
+  $("revealBox").innerHTML = `<div class="reveal">${head}<ul>${rows}</ul><button class="next" id="nextBtn">${last?"See your core sample →":"Next prompt →"}</button></div>`;
+  renderCore();
+  const nb=$("nextBtn"); nb.focus();
+  nb.onclick = ()=>{ G.i++; if(G.i<ROUNDS) nextRound(); else finish(); };
+}
+document.addEventListener("keydown",e=>{ if(e.key==="Enter" && G && G.locked && $("nextBtn") && document.activeElement!==$("nextBtn")) $("nextBtn").click(); });
+$("quit").onclick=()=>{ cancelAnimationFrame(raf); G=null; renderHome(); };
+
+function finish(){
+  const lodes = G.picks.filter(p=>p.a&&p.a.gem).length;
+  const result = {depth:G.depth, picks:G.picks.map(p=>({q:p.q, name:p.a?p.a.name:null, share:p.a?p.a.share:0, s:p.stratum.name}))};
+  if(G.mode==="daily"){
+    const key = todayKey();
+    if(!store.get("daily:"+key,null)){
+      store.set("daily:"+key, result);
+      const st = store.get("stats",{played:0,streak:0,best:0,lodes:0,last:null});
+      const y = new Date(); y.setDate(y.getDate()-1);
+      const yKey = y.getFullYear()+"-"+String(y.getMonth()+1).padStart(2,"0")+"-"+String(y.getDate()).padStart(2,"0");
+      st.streak = st.last===yKey ? st.streak+1 : 1;
+      st.played++; st.best=Math.max(st.best,G.depth); st.lodes+=lodes; st.last=key;
+      store.set("stats",st);
+    }
+  }
+  showResults(result, G.mode);
+}
+function stratumByName(n){ return [...STRATA,LODE,MISS].find(s=>s.name===n); }
+function showResults(r, mode){
+  $("rDate").textContent = mode==="daily" ? `Dig #${dayNumber()} · ${todayKey()}` : "Practice shaft";
+  $("rDepth").textContent = r.depth;
+  const lodes = r.picks.filter(p=>p.s==="Mother Lode").length;
+  const lines = [[600,"Legendary prospector. You went through the planet."],[420,"Deep cuts all round."],[260,"Solid dig. You found some veins."],[120,"You got past the topsoil."],[0,"Mostly surface finds. Try some deeper picks tomorrow."]];
+  $("rLine").textContent = lines.find(l=>r.depth>=l[0])[1] + (lodes?` ${lodes} Mother Lode${lodes>1?"s":""} found.`:"");
+  $("rList").innerHTML = r.picks.map((p,i)=>{ const s=stratumByName(p.s); return `
+    <div class="rrow"><div class="sw" style="background:${s.color}"></div>
+      <div><div class="q">${esc(p.q)}</div><div class="a">${p.name?esc(p.name):"—"}</div>
+      <div class="p">${s.emoji} ${s.name}${p.name?` · ${pct(p.share)} of diggers`:""}</div></div>
+      <div class="m">${s.pts}m</div></div>`; }).join("");
+  const grid = r.picks.map(p=>stratumByName(p.s).emoji).join("");
+  $("shareTxt").value = `Deep Cut ${mode==="daily"?"#"+dayNumber():"(practice)"}: ${r.depth} m\n${grid}`;
+  show("results");
+}
+$("bCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("shareTxt").value); $("bCopy").textContent="Copied!"; }catch(e){ $("shareTxt").select(); $("bCopy").textContent="Select & copy below"; } setTimeout(()=>$("bCopy").textContent="Copy result",1500); };
+$("bAgain").onclick=()=>startGame("practice");
+$("bDaily").onclick=()=>{ const done=store.get("daily:"+todayKey(),null); if(done) showResults(done,"daily"); else startGame("daily"); };
+$("bPractice").onclick=()=>startGame("practice");
+
+renderHome();
+</script>
+</body>
+</html>
