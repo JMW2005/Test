@@ -1,6 +1,9 @@
 # Barnyard Uprising
 
-A first-person shooter that runs in the browser. The farm animals have broken loose, and you defend the yard with a pistol, a pump shotgun, a machine gun and grenades.
+A first-person shooter that runs in the browser, set in the Wilmas Farm neighborhood of Chesterfield, Missouri. The animals of the old farm want their land back, and you defend the yard with a pistol, a pump shotgun, a machine gun and grenades.
+
+## The map
+The street layout is the real one: Wilmas Farm Drive, Wilmas Hollow Drive, Wilmas Valley Court and Wild Horse Creek Road, taken from [OpenStreetMap](https://www.openstreetmap.org/copyright) (© OpenStreetMap contributors, ODbL). It's scaled to about a third of real distances so the area fits a playable arena. Houses are generic stylized homes placed lot by lot along the streets. They are not copies of the real homes, and their positions are approximate. Animals come down the streets and out of the surrounding woods.
 
 Open `index.html` in a browser. Three.js loads from a CDN, so you need an internet connection.
 

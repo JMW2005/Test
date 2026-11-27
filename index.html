@@ -112,7 +112,7 @@ body.touch .br { bottom: calc(296px + env(safe-area-inset-bottom, 0px)); }
 .roster b { display: block; font: 400 15px/1.1 var(--display); color: var(--hay); }
 .roster span { display: block; font: 500 14px/1.25 var(--body); color: var(--paper); margin-top: 4px; }
 .keys { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; font: 500 16px/1.3 var(--body); color: var(--paper); margin: 0 0 22px; }
-.keys kbd { font: 600 13px/1 var(--body); letter-spacing: 0.08em; background: var(--paper); color: var(--ink); border-radius: 3px; padding: 4px 7px; box-shadow: 0 2px 0 var(--barn-deep); justify-self: start; white-space: nowrap; }
+.keys kbd { font: 600 13px/1 var(--body); letter-spacing: 0.08em; background: var(--paper); color: var(--ink); border-radius: 3px; padding: 4px 7px; box-shadow: 0 2px 0 var(--barn-deep); justify-self: start; align-self: start; white-space: nowrap; }
 .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 button.big { font: 400 20px/1 var(--display); color: var(--ink); background: var(--hay); border: 0; border-radius: 4px; padding: 16px 26px; cursor: pointer; box-shadow: 0 5px 0 #a87a1c; transition: transform 0.08s, box-shadow 0.08s; }
 button.big:hover { transform: translateY(-1px); }
@@ -126,6 +126,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
 .stats span { font: 600 13px/1 var(--body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--hay); }
 .nail { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #eee, #777); }
 .nail.a { top: 10px; left: 10px; } .nail.b { top: 10px; right: 10px; } .nail.c { bottom: 10px; left: 10px; } .nail.d { bottom: 10px; right: 10px; }
+.credit { font: 500 13px/1.3 var(--body); color: rgba(251,238,210,0.7); margin: 16px 0 0; }
 #loadErr { color: var(--hay); font: 600 16px/1.3 var(--body); }
 @media (max-width: 560px) {
   .roster { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -179,9 +180,9 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
 <div class="screen" id="startScreen">
   <div class="sign">
     <i class="nail a"></i><i class="nail b"></i><i class="nail c"></i><i class="nail d"></i>
-    <p class="eyebrow">Hollow Creek Farm &middot; Sundown</p>
+    <p class="eyebrow">Wilmas Farm &middot; Chesterfield, MO &middot; Sundown</p>
     <h1>Barnyard Uprising</h1>
-    <p class="lede">The animals have broken out of every pen on the farm and they are coming for you. Hold the yard with a pistol, a pump shotgun, a machine gun and a few grenades for as many waves as you can.</p>
+    <p class="lede">The animals of the old Wilmas farm want their land back. They are coming down Wilmas Farm Drive and out of the woods. Hold the neighborhood with a pistol, a pump shotgun, a machine gun and a few grenades for as many waves as you can.</p>
     <div class="roster">
       <div><b>Chicken</b><span>Fast and zig-zags. One pellet drops it.</span></div>
       <div><b>Pig</b><span>Sturdy, bites hard. Aim for the head.</span></div>
@@ -207,6 +208,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
       <button class="big" id="playBtn" type="button" disabled>Loading&hellip;</button>
       <span class="best" id="bestStart"></span>
     </div>
+    <p class="credit">Street layout &copy; OpenStreetMap contributors. Houses are stylized and their positions are approximate.</p>
     <p id="loadErr" hidden>The 3D engine could not load. Check your connection and reload the page.</p>
   </div>
 </div>
@@ -265,8 +267,8 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 const scene = new THREE.Scene();
 const SKY = 0xf0ab72;
 scene.background = new THREE.Color(SKY);
-scene.fog = new THREE.Fog(SKY, 40, 170);
-const camera = new THREE.PerspectiveCamera(75, 1, 0.05, 400);
+scene.fog = new THREE.Fog(SKY, 45, 190);
+const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 400);
 camera.rotation.order = 'YXZ';
 scene.add(camera);
 
@@ -274,8 +276,8 @@ scene.add(new THREE.HemisphereLight(0xffe0b5, 0x46682a, 0.78));
 const sun = new THREE.DirectionalLight(0xffcf96, 0.95);
 sun.position.set(-45, 55, -35);
 sun.castShadow = true;
-sun.shadow.mapSize.set(2048, 2048);
-Object.assign(sun.shadow.camera, { left: -72, right: 72, top: 72, bottom: -72, near: 1, far: 200 });
+sun.shadow.mapSize.set(4096, 4096);
+Object.assign(sun.shadow.camera, { left: -95, right: 95, top: 95, bottom: -95, near: 1, far: 260 });
 sun.shadow.bias = -0.0008;
 scene.add(sun);
 
@@ -291,7 +293,7 @@ window.addEventListener('resize', resize); resize();
 
 /* ================= World ================= */
 const BOX = new THREE.BoxGeometry(1, 1, 1);
-const solids = [];   // AABBs on the ground plane
+const solids = [];   // oriented boxes on the ground plane: centre, half sizes, rotation, height
 const blockers = []; // meshes that stop pellets
 const envMats = {};
 const emat = c => envMats[c] || (envMats[c] = new THREE.MeshLambertMaterial({ color: c }));
@@ -305,155 +307,265 @@ function envBox(w, h, d, c, x, y, z, o = {}) {
   if (o.block !== false) blockers.push(m);
   return m;
 }
-const solid = (x0, x1, z0, z1, h = 40) => solids.push({ x0, x1, z0, z1, h });
+const obb = (cx, cz, hw, hd, yaw = 0, h = 40) => solids.push({ cx, cz, hw, hd, c: Math.cos(yaw), s: Math.sin(yaw), h });
+const solid = (x0, x1, z0, z1, h = 40) => obb((x0 + x1) / 2, (z0 + z1) / 2, (x1 - x0) / 2, (z1 - z0) / 2, 0, h);
 
 // ground
 const ground = new THREE.Mesh(new THREE.PlaneGeometry(500, 500), new THREE.MeshLambertMaterial({ color: 0x6b973c }));
 ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground); blockers.push(ground);
-// dirt lanes from each gate to the yard centre
-const dirt = new THREE.MeshLambertMaterial({ color: 0x7a5c3a });
-[[0, -32, 6, 64], [0, 32, 6, 64], [32, 0, 64, 6], [-32, 0, 64, 6]].forEach(([x, z, w, d]) => {
-  const p = new THREE.Mesh(new THREE.PlaneGeometry(w, d), dirt);
-  p.rotation.x = -Math.PI / 2; p.position.set(x, 0.015, z); p.receiveShadow = true; scene.add(p);
-});
-const yardCircle = new THREE.Mesh(new THREE.CircleGeometry(9, 28), dirt);
-yardCircle.rotation.x = -Math.PI / 2; yardCircle.position.y = 0.02; yardCircle.receiveShadow = true; scene.add(yardCircle);
+// ===== Wilmas Farm, Chesterfield, MO =====
+// Street centrelines come from OpenStreetMap (© OpenStreetMap contributors, ODbL), in real metres east/north of
+// 38.6562 N, 90.6290 W. They are scaled down so the neighbourhood fits a playable arena; houses are stylised and
+// their positions are approximate, not surveyed.
+const MAP_S = 0.34, MAP_CX = -25, MAP_CY = -88;
+const AX = 52, AZ = 78; // playable half-extents in game metres
+const STREETS = {
+  'Wild Horse Creek Rd': [[90.4,281.3],[54.5,274.6],[22.4,264.9],[-9.0,253.1],[-50.0,236.0],[-69.5,225.6],[-87.3,216.0],[-112.4,199.4],[-167.5,164.4],[-181.7,154.9],[-218.7,130.3],[-245.8,111.6],[-264.8,98.4]],
+  'Wilmas Farm Dr': [[-167.5,164.4],[-160.2,129.6],[-153.4,97.0],[-136.9,22.7],[-133.2,12.5],[-127.4,3.3],[-117.4,-6.5],[-112.0,-9.8],[-105.2,-12.7],[-90.6,-16.7],[-75.5,-16.1],[-49.4,-9.4],[-23.3,-2.7],[2.7,-0.6],[17.8,-2.3],[28.0,-5.6],[32.9,-7.2],[45.4,-14.4],[52.5,-20.0],[67.4,-37.8],[75.6,-67.4],[85.6,-116.3],[91.8,-146.0],[102.1,-187.6],[98.3,-192.3],[96.1,-196.7],[96.3,-201.8],[98.5,-206.1],[103.3,-208.2],[109.8,-206.9],[112.7,-203.4],[113.1,-199.7],[112.6,-195.0],[108.5,-191.2],[105.2,-189.1],[102.1,-187.6]],
+  'Wilmas Hollow Dr': [[-23.3,-2.7],[-24.4,2.3],[-30.7,31.4],[-43.1,91.3],[-41.7,114.4],[-38.6,122.0],[-35.2,127.8],[-24.7,137.9],[-3.2,150.4],[26.1,163.5],[40.7,171.2],[52.0,180.7],[64.7,192.5],[68.5,195.7],[72.4,198.0],[75.5,199.4],[98.5,205.6],[105.2,207.4]],
+  'Wilmas Valley Ct': [[91.8,-146.0],[87.0,-147.1],[4.0,-166.5],[-7.1,-171.4],[-14.0,-179.1],[-20.1,-187.7],[-21.6,-193.4],[-23.7,-199.1],[-24.2,-211.5],[-7.8,-289.1],[-12.0,-293.5],[-13.8,-297.6],[-13.8,-302.8],[-11.9,-306.4],[-7.7,-308.8],[-1.4,-308.7],[2.3,-305.0],[3.3,-300.1],[2.2,-295.9],[-0.3,-293.6],[-4.0,-291.8],[-7.8,-289.1]]
+};
+const toG = p => [(p[0] - MAP_CX) * MAP_S, -(p[1] - MAP_CY) * MAP_S];
+const roads = Object.keys(STREETS).map(name => ({ name, pts: STREETS[name].map(toG), w: name === 'Wild Horse Creek Rd' ? 7 : 5.5 }));
+const START = (() => { const [x, z] = toG([-23.3, -2.7]); return { x, z: z + 3 }; })();
+function distSeg(px, pz, ax, az, bx, bz) {
+  const dx = bx - ax, dz = bz - az, l = dx * dx + dz * dz;
+  let t = l ? ((px - ax) * dx + (pz - az) * dz) / l : 0; t = Math.max(0, Math.min(1, t));
+  return Math.hypot(px - ax - dx * t, pz - az - dz * t);
+}
+function distToRoads(x, z) {
+  let m = 1e9;
+  for (const r of roads) for (let i = 1; i < r.pts.length; i++) { const a = r.pts[i - 1], b = r.pts[i]; m = Math.min(m, distSeg(x, z, a[0], a[1], b[0], b[1])); }
+  return m;
+}
+function mulberry(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+const R = mulberry(63005);
+const toWorld = (gx, gz, yaw, lx, lz) => [gx + lx * Math.cos(yaw) + lz * Math.sin(yaw), gz - lx * Math.sin(yaw) + lz * Math.cos(yaw)];
+
+// roads
+{
+  const asphalt = new THREE.MeshLambertMaterial({ color: 0x46474c });
+  const joint = {};
+  for (const r of roads) {
+    const last = r.pts[r.pts.length - 1];
+    const k = r.pts.findIndex(p => Math.hypot(p[0] - last[0], p[1] - last[1]) < 0.05);
+    const loopStart = k < r.pts.length - 1 ? k : r.pts.length;
+    for (let i = 1; i <= loopStart && i < r.pts.length; i++) {
+      const [ax, az] = r.pts[i - 1], [bx, bz] = r.pts[i], len = Math.hypot(bx - ax, bz - az);
+      if (len < 0.01) continue;
+      const m = new THREE.Mesh(BOX, asphalt); m.scale.set(r.w, 0.04, len); m.position.set((ax + bx) / 2, 0.02, (az + bz) / 2);
+      m.rotation.y = Math.atan2(bx - ax, bz - az); m.receiveShadow = true; scene.add(m);
+      if (r.name === 'Wild Horse Creek Rd') { const y = new THREE.Mesh(BOX, emat(0xe2bd3a)); y.scale.set(0.16, 0.05, len); y.position.set(m.position.x, 0.03, m.position.z); y.rotation.y = m.rotation.y; scene.add(y); }
+    }
+    for (const [x, z] of r.pts.slice(0, loopStart + 1)) { const c = new THREE.Mesh(joint[r.w] || (joint[r.w] = new THREE.CircleGeometry(r.w / 2, 16)), asphalt); c.rotation.x = -Math.PI / 2; c.position.set(x, 0.039, z); c.receiveShadow = true; scene.add(c); }
+    // a street whose line loops back on itself ends in a cul-de-sac
+    if (loopStart < r.pts.length) {
+      const loop = r.pts.slice(k), cx = loop.reduce((a, p) => a + p[0], 0) / loop.length, cz = loop.reduce((a, p) => a + p[1], 0) / loop.length;
+      const bulb = new THREE.Mesh(new THREE.CircleGeometry(6.6, 32), asphalt); bulb.rotation.x = -Math.PI / 2; bulb.position.set(cx, 0.045, cz); bulb.receiveShadow = true; scene.add(bulb);
+      const island = new THREE.Mesh(new THREE.CircleGeometry(1.8, 20), emat(0x5f8a33)); island.rotation.x = -Math.PI / 2; island.position.set(cx, 0.07, cz); scene.add(island);
+    }
+  }
+}
 
 // grass tufts
 {
   const tuftGeo = new THREE.ConeGeometry(0.14, 0.42, 4);
   const tufts = new THREE.InstancedMesh(tuftGeo, new THREE.MeshLambertMaterial({ color: 0x4d7a2a }), 900);
-  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), s = new THREE.Vector3();
+  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), sc = new THREE.Vector3();
   for (let i = 0; i < 900; i++) {
-    const x = (Math.random() - 0.5) * 190, z = (Math.random() - 0.5) * 190;
-    if (Math.abs(x) < 3.5 || Math.abs(z) < 3.5) { i--; continue; }
-    const k = 0.7 + Math.random() * 1.2; s.set(k, k, k);
+    const x = (Math.random() - 0.5) * (AX * 2 + 60), z = (Math.random() - 0.5) * (AZ * 2 + 60);
+    if (distToRoads(x, z) < 3.6) { i--; continue; }
+    const k = 0.7 + Math.random() * 1.2; sc.set(k, k, k);
     q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), Math.random() * 6);
-    m4.compose(new THREE.Vector3(x, 0.2 * k, z), q, s);
+    m4.compose(new THREE.Vector3(x, 0.2 * k, z), q, sc);
     tufts.setMatrixAt(i, m4);
   }
   scene.add(tufts);
 }
 
-// fence with four gates
-const ARENA = 60, GATE = 4.5;
-{
-  const postGeo = BOX, wood = 0x8c6239, rail = 0xa57444;
-  const posts = [];
-  for (let side = 0; side < 4; side++) {
-    for (let t = -ARENA; t <= ARENA; t += 4) {
-      if (Math.abs(t) < GATE) continue;
-      const x = side < 2 ? t : (side === 2 ? ARENA : -ARENA);
-      const z = side < 2 ? (side === 0 ? -ARENA : ARENA) : t;
-      posts.push([x, z]);
-    }
-  }
-  const inst = new THREE.InstancedMesh(postGeo, emat(wood), posts.length);
-  const m4 = new THREE.Matrix4();
-  posts.forEach(([x, z], i) => { m4.makeScale(0.28, 1.6, 0.28); m4.setPosition(x, 0.8, z); inst.setMatrixAt(i, m4); });
-  inst.castShadow = true; inst.receiveShadow = true; scene.add(inst);
-  const segLen = ARENA - GATE;
-  [-1, 1].forEach(sg => {
-    const c = sg * (GATE + segLen / 2);
-    [0.6, 1.2].forEach(y => {
-      envBox(segLen, 0.14, 0.08, rail, c, y, -ARENA, { block: false });
-      envBox(segLen, 0.14, 0.08, rail, c, y, ARENA, { block: false });
-      envBox(0.08, 0.14, segLen, rail, ARENA, y, c, { block: false });
-      envBox(0.08, 0.14, segLen, rail, -ARENA, y, c, { block: false });
-    });
+// text on signs
+function textTex(text, bg, fg, w = 512, h = 96, font = 'bold 50px Arial, Helvetica, sans-serif') {
+  const c = document.createElement('canvas'); c.width = w; c.height = h;
+  const x = c.getContext('2d');
+  x.fillStyle = bg; x.fillRect(0, 0, w, h); x.strokeStyle = fg; x.lineWidth = 5; x.strokeRect(8, 8, w - 16, h - 16);
+  x.fillStyle = fg; x.font = font; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(text, w / 2, h / 2 + 2);
+  const t = new THREE.CanvasTexture(c); t.anisotropy = 4; return t;
+}
+function streetSign(a, b, x, z) {
+  envBox(0.1, 3.4, 0.1, 0x8a8f94, x, 1.7, z, { block: false });
+  [a, b].forEach((name, i) => {
+    const face = new THREE.MeshLambertMaterial({ map: textTex(name, '#1d6a3a', '#ffffff') }), side = emat(0x1d6a3a);
+    const m = new THREE.Mesh(BOX, [side, side, side, side, face, face]);
+    m.scale.set(2.7, 0.5, 0.05); m.position.set(x, 3.1 + i * 0.52, z); m.rotation.y = i * Math.PI / 2; m.castShadow = true; scene.add(m);
   });
-  // gate posts
-  [[GATE, -ARENA], [-GATE, -ARENA], [GATE, ARENA], [-GATE, ARENA], [ARENA, GATE], [ARENA, -GATE], [-ARENA, GATE], [-ARENA, -GATE]]
-    .forEach(([x, z]) => envBox(0.5, 2.4, 0.5, 0x6e4a2a, x, 1.2, z, { block: false }));
+}
+function signNear(px, pz, a, b) {
+  for (const [dx, dz] of [[4, 4], [-4, 4], [4, -4], [-4, -4], [5, 0], [0, 5]]) {
+    if (distToRoads(px + dx, pz + dz) > 3.6) { streetSign(a, b, px + dx, pz + dz); return; }
+  }
+}
+{
+  const [hx, hz] = toG([-23.3, -2.7]); signNear(hx, hz, 'Wilmas Farm Dr', 'Wilmas Hollow Dr');
+  const [vx, vz] = toG([91.8, -146]); signNear(vx, vz, 'Wilmas Farm Dr', 'Wilmas Valley Ct');
 }
 
-// barn
-const BARN = { x: -28, z: -28, w: 14, d: 18, h: 7 };
-{
-  const { x, z, w, d, h } = BARN;
-  envBox(w, h, d, 0xa8322b, x, h / 2, z);
-  solid(x - w / 2, x + w / 2, z - d / 2, z + d / 2);
-  const shape = new THREE.Shape();
-  shape.moveTo(-w / 2 - 0.8, 0); shape.lineTo(w / 2 + 0.8, 0); shape.lineTo(0, 5.2); shape.lineTo(-w / 2 - 0.8, 0);
-  const roofGeo = new THREE.ExtrudeGeometry(shape, { depth: d + 1, bevelEnabled: false });
-  roofGeo.translate(0, 0, -(d + 1) / 2);
-  const roof = new THREE.Mesh(roofGeo, emat(0x4a3430));
-  roof.position.set(x, h, z); roof.castShadow = true; roof.receiveShadow = true; scene.add(roof); blockers.push(roof);
-  const gable = new THREE.Mesh(new THREE.ShapeGeometry((() => { const s = new THREE.Shape(); s.moveTo(-w / 2, 0); s.lineTo(w / 2, 0); s.lineTo(0, 4.6); s.lineTo(-w / 2, 0); return s; })()), emat(0xa8322b));
-  gable.position.set(x, h, z + d / 2 + 0.01); scene.add(gable);
-  const fz = z + d / 2 + 0.06, white = 0xf3eee2;
-  envBox(5.2, 5.4, 0.1, 0x7d211c, x, 2.7, fz);
-  envBox(5.6, 0.3, 0.14, white, x, 5.45, fz + 0.02);
-  envBox(0.3, 5.5, 0.14, white, x - 2.65, 2.75, fz + 0.02);
-  envBox(0.3, 5.5, 0.14, white, x + 2.65, 2.75, fz + 0.02);
-  envBox(0.28, 7.2, 0.12, white, x, 2.7, fz + 0.04, { rz: 0.78 });
-  envBox(0.28, 7.2, 0.12, white, x, 2.7, fz + 0.04, { rz: -0.78 });
-  envBox(2, 1.6, 0.1, 0x2a1a14, x, 8.4, fz - 0.02);
-  envBox(2.3, 0.2, 0.14, white, x, 9.25, fz); envBox(2.3, 0.2, 0.14, white, x, 7.55, fz);
-  envBox(w + 0.2, 0.3, 0.14, white, x, h, fz);
-  [-1, 1].forEach(s => envBox(0.3, h, 0.3, white, x + s * w / 2, h / 2, fz));
+// stylised two-story homes with side garages, placed lot by lot along each street
+const houses = [];
+const WALLS = [0xe8e2d4, 0xc9c1b1, 0x9a9da1, 0x7b5443, 0xa98a6a, 0xd6d0c2, 0x6f7479];
+const ROOFS = [0x3a3b40, 0x4b4239, 0x2e3135, 0x55514c];
+const STONE = 0xb3a690;
+const glassMat = new THREE.MeshLambertMaterial({ color: 0x27323d });
+const litMat = new THREE.MeshLambertMaterial({ color: 0xffd79a, emissive: 0xa8702a });
+function prism(w, d, h, color) {
+  const sh = new THREE.Shape(); sh.moveTo(-d / 2, 0); sh.lineTo(d / 2, 0); sh.lineTo(0, h); sh.lineTo(-d / 2, 0);
+  const g = new THREE.ExtrudeGeometry(sh, { depth: w, bevelEnabled: false }); g.translate(0, 0, -w / 2); g.rotateY(Math.PI / 2);
+  const m = new THREE.Mesh(g, emat(color)); m.castShadow = true; m.receiveShadow = true; return m;
 }
-// silo
-{
-  const sx = -13.5, sz = -36;
-  const silo = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 14, 20), emat(0xb9b2a6));
-  silo.position.set(sx, 7, sz); silo.castShadow = true; silo.receiveShadow = true; scene.add(silo); blockers.push(silo);
-  const dome = new THREE.Mesh(new THREE.SphereGeometry(3, 20, 10, 0, Math.PI * 2, 0, Math.PI / 2), emat(0x8a8f94));
-  dome.position.set(sx, 14, sz); dome.castShadow = true; scene.add(dome); blockers.push(dome);
-  [3, 6.5, 10].forEach(y => { const r = new THREE.Mesh(new THREE.CylinderGeometry(3.05, 3.05, 0.2, 20), emat(0x8d877c)); r.position.set(sx, y, sz); scene.add(r); });
-  solid(sx - 2.8, sx + 2.8, sz - 2.8, sz + 2.8);
+const treeSpecs = [];
+// separating-axis test for two rotated rectangles {cx, cz, hw, hd, yaw}
+function boxesOverlap(a, b) {
+  const ax = [Math.cos(a.yaw), -Math.sin(a.yaw)], az = [Math.sin(a.yaw), Math.cos(a.yaw)];
+  const bx = [Math.cos(b.yaw), -Math.sin(b.yaw)], bz = [Math.sin(b.yaw), Math.cos(b.yaw)];
+  const d = [b.cx - a.cx, b.cz - a.cz], dot = (u, v) => u[0] * v[0] + u[1] * v[1];
+  for (const n of [ax, az, bx, bz]) {
+    const ra = a.hw * Math.abs(dot(n, ax)) + a.hd * Math.abs(dot(n, az));
+    const rb = b.hw * Math.abs(dot(n, bx)) + b.hd * Math.abs(dot(n, bz));
+    if (Math.abs(dot(n, d)) > ra + rb) return false;
+  }
+  return true;
 }
-// hay bale stacks (cover)
+const HW = 11, HD = 8.5, HH = 6, GW = 7, GD = 7.5, GH = 3.4, SB = 12.5;
+function footprint(x, z, yaw, side) {
+  const [cx, cz] = toWorld(x, z, yaw, side * GW / 2, 0.25);
+  return { cx, cz, hw: (HW + GW) / 2 + 1, hd: HD / 2 + 1.5, yaw };
+}
+function house(x, z, yaw, side) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = yaw; scene.add(g);
+  const wall = WALLS[Math.floor(R() * WALLS.length)], roof = ROOFS[Math.floor(R() * ROOFS.length)];
+  const stone = R() < 0.6;
+  const add = (w, h, d, c, lx, ly, lz, block = false) => envBox(w, h, d, c, lx, ly, lz, { parent: g, block, cast: block });
+  add(HW, HH, HD, wall, 0, HH / 2, 0, true);
+  const rf = prism(HW + 0.8, HD + 0.8, 3.2, roof); rf.position.y = HH; g.add(rf); blockers.push(rf);
+  const gx = side * (HW / 2 + GW / 2), gz = 0.5;
+  add(GW, GH, GD, wall, gx, GH / 2, gz, true);
+  const gr = prism(GW + 0.6, GD + 0.6, 1.8, roof); gr.position.set(gx, GH, gz); g.add(gr); blockers.push(gr);
+  const fz = HD / 2 + 0.05, gfz = gz + GD / 2 + 0.05, door = -side * 2.2;
+  add(2.8, 2.3, 0.08, 0xf2efe8, gx - 1.65, 1.15, gfz); add(2.8, 2.3, 0.08, 0xf2efe8, gx + 1.65, 1.15, gfz);
+  if (stone) add(HW, 1.5, 0.1, STONE, 0, 0.75, fz - 0.02);
+  add(1.3, 2.4, 0.1, 0x4a2c1c, door, 1.2, fz + 0.03);
+  add(2.8, 0.25, 1.5, 0x9f9a90, door, 0.12, fz + 0.75);
+  for (const wx of [-3.7, 0, 3.7]) for (const wy of [1.7, 4.4]) {
+    if (wy < 3 && Math.abs(wx - door) < 1.6) continue;
+    const m = new THREE.Mesh(BOX, R() < 0.35 ? litMat : glassMat); m.scale.set(1.4, 1.5, 0.08); m.position.set(wx, wy, fz + 0.04); g.add(m);
+    add(1.7, 0.15, 0.14, 0xf4f1ea, wx, wy - 0.82, fz + 0.05);
+  }
+  for (const wz of [-2, 2]) for (const wy of [1.7, 4.4]) {
+    const m = new THREE.Mesh(BOX, R() < 0.3 ? litMat : glassMat); m.scale.set(0.08, 1.5, 1.4); m.position.set(-side * (HW / 2 + 0.04), wy, wz); g.add(m);
+  }
+  add(1.1, 3.4, 1.1, stone ? STONE : 0x7b5443, -side * (HW / 2 - 1.3), HH + 1.7, -1.6, true);
+  const dl = SB - (gz + GD / 2);
+  add(5.8, 0.03, dl, 0x9f9a90, gx, 0.016, gz + GD / 2 + dl / 2);
+  const wl = SB - fz - 1.5 - 2.75;
+  add(1.2, 0.03, wl, 0x9f9a90, door, 0.017, fz + 1.5 + wl / 2);
+  add(0.12, 1.1, 0.12, 0x222222, gx + side * 3.7, 0.55, SB - 3.6); add(0.45, 0.42, 0.75, 0x2a2a2a, gx + side * 3.7, 1.2, SB - 3.6);
+  if (R() < 0.75) { const [tx, tz] = toWorld(x, z, yaw, -side * 4.2, HD / 2 + 4.2); treeSpecs.push([tx, tz, 0.55 + R() * 0.25, true]); }
+  const minX = Math.min(-HW / 2, gx - GW / 2), maxX = Math.max(HW / 2, gx + GW / 2);
+  const [cx, cz] = toWorld(x, z, yaw, (minX + maxX) / 2, 0.25);
+  obb(cx, cz, (maxX - minX) / 2, HD / 2 + 0.3, yaw, 12);
+  houses.push({ x, z, foot: footprint(x, z, yaw, side) });
+}
+// walk each street, trying a lot on both sides every few metres; spacing checks keep lots apart
+for (const r of roads) {
+  if (r.name === 'Wild Horse Creek Rd') continue;
+  let next = 5;
+  let run = 0;
+  for (let i = 1; i < r.pts.length; i++) {
+    const [ax, az] = r.pts[i - 1], [bx, bz] = r.pts[i], len = Math.hypot(bx - ax, bz - az);
+    if (len < 0.01) continue;
+    const tx = (bx - ax) / len, tz = (bz - az) / len;
+    while (next <= run + len) {
+      const d = next - run, px = ax + tx * d, pz = az + tz * d;
+      for (const sg of [1, -1]) {
+        const nx = -tz * sg, nz = tx * sg, hx = px + nx * SB, hz = pz + nz * SB, yaw = Math.atan2(-nx, -nz);
+        if (Math.abs(hx) > AX - 9 || Math.abs(hz) > AZ - 8) continue;
+        if (distToRoads(hx, hz) < SB - 1) continue;
+        const side = (Math.floor(hx * 7 + hz * 13) & 1) ? 1 : -1, foot = footprint(hx, hz, yaw, side);
+        if (houses.some(h => boxesOverlap(h.foot, foot))) continue;
+        if (Math.hypot(hx - START.x, hz - START.z) < 9) continue;
+        const x0 = side > 0 ? -HW / 2 : -HW / 2 - GW, x1 = side > 0 ? HW / 2 + GW : HW / 2;
+        const corners = [[x0, -HD / 2], [x1, -HD / 2], [x0, HD / 2], [x1, HD / 2]].map(([lx, lz]) => toWorld(hx, hz, yaw, lx, lz));
+        if (corners.some(([cx, cz]) => distToRoads(cx, cz) < 4)) continue;
+        house(hx, hz, yaw, side);
+      }
+      next += 6;
+    }
+    run += len;
+  }
+}
+// entrance monument where Wilmas Farm Dr comes in from Wild Horse Creek Rd
+{
+  const fd = roads.find(r => r.name === 'Wilmas Farm Dr').pts;
+  let pi = fd.findIndex(p => p[1] > -AZ + 9);
+  const [px, pz] = fd[pi], [qx, qz] = fd[pi + 1], l = Math.hypot(qx - px, qz - pz), tx = (qx - px) / l, tz = (qz - pz) / l;
+  const mx = px + tz * 6.5, mz = pz - tx * 6.5, yaw = Math.atan2(-tz, tx);
+  const g = new THREE.Group(); g.position.set(mx, 0, mz); g.rotation.y = yaw; scene.add(g);
+  envBox(6.4, 1.5, 0.9, 0x9c8f7a, 0, 0.75, 0, { parent: g });
+  envBox(6.8, 0.2, 1.1, 0x857a68, 0, 1.6, 0, { parent: g });
+  const face = new THREE.MeshLambertMaterial({ map: textTex('WILMAS FARM', '#2f3a2c', '#efe3c4', 512, 96, 'bold 58px Georgia, serif') }), sd = emat(0x2f3a2c);
+  const plaque = new THREE.Mesh(BOX, [sd, sd, sd, sd, face, face]); plaque.scale.set(4.4, 0.85, 1.0); plaque.position.y = 0.8; g.add(plaque);
+  obb(mx, mz, 3.4, 0.6, yaw, 1.8);
+  [-3.6, 3.6].forEach(o => { const [bx, bz] = toWorld(mx, mz, yaw, o, 0.2); treeSpecs.push([bx, bz, 0.5, false]); });
+}
+// hay bales left over from the old farm, now cover on the common ground
 function bale(x, y, z, ry) { envBox(1.7, 0.95, 1.05, 0xe0b54a, x, y + 0.475, z, { ry }); envBox(1.72, 0.08, 1.07, 0xb88d2f, x, y + 0.3, z, { ry, cast: false, block: false }); envBox(1.72, 0.08, 1.07, 0xb88d2f, x, y + 0.65, z, { ry, cast: false, block: false }); }
-[[12, 7, 0], [-9, 15, 1], [22, -14, 0], [-21, 21, 1], [31, 26, 0], [6, -20, 1]].forEach(([x, z, rot]) => {
-  const r = rot ? Math.PI / 2 : 0;
-  const dx = rot ? 0 : 1.75, dz = rot ? 1.75 : 0;
-  bale(x - dx / 2, 0, z - dz / 2, r); bale(x + dx / 2, 0, z + dz / 2, r); bale(x, 0.95, z, r);
-  const hw = rot ? 0.6 : 1.8, hd = rot ? 1.8 : 0.6;
-  solid(x - hw, x + hw, z - hd, z + hd, 1.95);
-});
-// tractor
+const clearOf = (x, z, road, house, extra = 0) => distToRoads(x, z) > road && !houses.some(h => Math.hypot(h.x - x, h.z - z) < house) && Math.hypot(x - START.x, z - START.z) > 6 + extra;
 {
-  const t = new THREE.Group(); t.position.set(24, 0, 20); t.rotation.y = 0.6; scene.add(t);
-  const g = 0x2f7a3a;
-  envBox(1.6, 1.0, 3.0, g, 0, 1.2, 0.3, { parent: t });
-  envBox(1.4, 0.8, 1.6, g, 0, 1.0, 1.9, { parent: t });
-  envBox(1.5, 1.4, 1.3, 0x264d2a, 0, 2.4, -0.6, { parent: t });
-  envBox(1.6, 0.12, 1.5, 0xdccf9b, 0, 3.15, -0.6, { parent: t });
-  envBox(0.15, 0.9, 0.15, 0x333333, 0.45, 2.3, 2.1, { parent: t });
-  const wheel = (r, wdt, x, z) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, wdt, 16), emat(0x1f1f1f)); m.rotation.z = Math.PI / 2; m.position.set(x, r, z); m.castShadow = true; t.add(m); blockers.push(m);
-    const hub = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.45, r * 0.45, wdt + 0.02, 12), emat(0xe2b33b)); hub.rotation.z = Math.PI / 2; hub.position.set(x, r, z); t.add(hub); };
-  wheel(1.05, 0.6, 1.1, -0.7); wheel(1.05, 0.6, -1.1, -0.7); wheel(0.55, 0.35, 0.95, 2.0); wheel(0.55, 0.35, -0.95, 2.0);
-  solid(21.6, 26.4, 17.2, 22.8, 3.3);
+  let placed = 0;
+  for (let i = 0; i < 200 && placed < 6; i++) {
+    const x = (R() - 0.5) * (AX * 2 - 12), z = (R() - 0.5) * (AZ * 2 - 12);
+    if (!clearOf(x, z, 6, 13, 4)) continue;
+    const rot = R() < 0.5, r = rot ? Math.PI / 2 : 0, dx = rot ? 0 : 1.75, dz = rot ? 1.75 : 0;
+    bale(x - dx / 2, 0, z - dz / 2, r); bale(x + dx / 2, 0, z + dz / 2, r); bale(x, 0.95, z, r);
+    solid(x - (rot ? 0.6 : 1.8), x + (rot ? 0.6 : 1.8), z - (rot ? 1.8 : 0.6), z + (rot ? 1.8 : 0.6), 1.95);
+    placed++;
+  }
 }
-// scarecrow
+// trees: a wooded edge around the neighbourhood, woods beyond it, and a few in the common ground
+for (let i = 0; i < 260; i++) {
+  const edge = i < 110;
+  let x, z;
+  if (edge) {
+    const t = R() * 2 - 1, out = 2 + R() * 5, sideI = i % 4;
+    if (sideI < 2) { x = t * (AX + 4); z = (sideI ? 1 : -1) * (AZ + out); } else { z = t * (AZ + 4); x = (sideI === 2 ? 1 : -1) * (AX + out); }
+  } else {
+    x = (R() - 0.5) * (AX * 2 + 90); z = (R() - 0.5) * (AZ * 2 + 90);
+    if (Math.abs(x) < AX + 2 && Math.abs(z) < AZ + 2) continue;
+  }
+  if (distToRoads(x, z) < 5.5) continue;
+  treeSpecs.push([x, z, 0.9 + R() * 0.9, false]);
+}
+for (let i = 0, n = 0; i < 300 && n < 22; i++) {
+  const x = (R() - 0.5) * (AX * 2 - 8), z = (R() - 0.5) * (AZ * 2 - 8);
+  if (!clearOf(x, z, 6, 12)) continue;
+  treeSpecs.push([x, z, 0.8 + R() * 0.6, true]); n++;
+}
 {
-  const x = 4, z = -9;
-  envBox(0.15, 2.6, 0.15, 0x7a5532, x, 1.3, z);
-  envBox(2.2, 0.12, 0.12, 0x7a5532, x, 1.9, z);
-  envBox(0.8, 0.9, 0.4, 0x5b6fa8, x, 1.75, z);
-  envBox(0.5, 0.5, 0.5, 0xe9cf8a, x, 2.5, z);
-  envBox(0.9, 0.08, 0.9, 0x8b5a2b, x, 2.78, z);
-  envBox(0.45, 0.35, 0.45, 0x8b5a2b, x, 2.95, z);
-  solid(x - 0.3, x + 0.3, z - 0.3, z + 0.3, 3.1);
-}
-// trees
-function tree(x, z, k = 1) {
-  const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.25 * k, 0.35 * k, 2.4 * k, 7), emat(0x6a4728));
-  trunk.position.set(x, 1.2 * k, z); trunk.castShadow = true; scene.add(trunk); blockers.push(trunk);
-  [[2.2, 2.6, 3.2], [1.7, 2.2, 4.6], [1.1, 1.8, 5.8]].forEach(([r, h, y], i) => {
-    const c = new THREE.Mesh(new THREE.ConeGeometry(r * k, h * k, 7), emat(i % 2 ? 0x3f6b2c : 0x4a7a32));
-    c.position.set(x, y * k, z); c.castShadow = true; scene.add(c); blockers.push(c);
+  // instanced so a few hundred trees stay cheap to draw
+  const trunkG = new THREE.CylinderGeometry(0.25, 0.35, 2.4, 7);
+  const layers = [[2.2, 2.6, 3.2, 0x4a7a32], [1.7, 2.2, 4.6, 0x3f6b2c], [1.1, 1.8, 5.8, 0x4a7a32]];
+  const n = treeSpecs.length, m4 = new THREE.Matrix4();
+  const trunk = new THREE.InstancedMesh(trunkG, emat(0x6a4728), n);
+  const cones = layers.map(([r, h, , c]) => new THREE.InstancedMesh(new THREE.ConeGeometry(r, h, 7), emat(c), n));
+  treeSpecs.forEach(([x, z, k, isSolid], i) => {
+    m4.makeScale(k, k, k); m4.setPosition(x, 1.2 * k, z); trunk.setMatrixAt(i, m4);
+    layers.forEach(([, , y], j) => { m4.makeScale(k, k, k); m4.setPosition(x, y * k, z); cones[j].setMatrixAt(i, m4); });
+    if (isSolid) solid(x - 0.45 * k, x + 0.45 * k, z - 0.45 * k, z + 0.45 * k);
   });
+  [trunk, ...cones].forEach(m => { m.castShadow = true; m.receiveShadow = true; scene.add(m); blockers.push(m); });
 }
-for (let i = 0; i < 46; i++) {
-  const a = Math.random() * Math.PI * 2, r = 70 + Math.random() * 45;
-  tree(Math.cos(a) * r, Math.sin(a) * r, 1 + Math.random() * 0.9);
-}
-[[38, -38], [-42, 38], [44, 44], [40, 5]].forEach(([x, z]) => { tree(x, z, 1.2); solid(x - 0.5, x + 0.5, z - 0.5, z + 0.5); });
 // far hills
 for (let i = 0; i < 14; i++) {
-  const a = i / 14 * Math.PI * 2 + Math.random() * 0.2, r = 150 + Math.random() * 30;
+  const a = i / 14 * Math.PI * 2 + Math.random() * 0.2, r = 175 + Math.random() * 30;
   const h = new THREE.Mesh(new THREE.SphereGeometry(30 + Math.random() * 25, 12, 8), emat(0x58803a));
   h.scale.y = 0.35; h.position.set(Math.cos(a) * r, -2, Math.sin(a) * r); scene.add(h);
 }
@@ -871,20 +983,42 @@ function updatePickups(dt) {
 /* ================= Collision ================= */
 function resolve(p, r) {
   for (const s of solids) {
-    const x0 = s.x0 - r, x1 = s.x1 + r, z0 = s.z0 - r, z1 = s.z1 + r;
-    if (p.x > x0 && p.x < x1 && p.z > z0 && p.z < z1) {
-      const dl = p.x - x0, dr = x1 - p.x, dt = p.z - z0, db = z1 - p.z, m = Math.min(dl, dr, dt, db);
-      if (m === dl) p.x = x0; else if (m === dr) p.x = x1; else if (m === dt) p.z = z0; else p.z = z1;
+    const dx = p.x - s.cx, dz = p.z - s.cz;
+    let lx = dx * s.c - dz * s.s, lz = dx * s.s + dz * s.c;
+    const ex = s.hw + r, ez = s.hd + r;
+    if (Math.abs(lx) < ex && Math.abs(lz) < ez) {
+      if (ex - Math.abs(lx) < ez - Math.abs(lz)) lx = Math.sign(lx || 1) * ex; else lz = Math.sign(lz || 1) * ez;
+      p.x = s.cx + lx * s.c + lz * s.s; p.z = s.cz - lx * s.s + lz * s.c;
     }
   }
 }
 
 /* ================= Waves & spawning ================= */
-const SPAWNS = [
-  { x: 0, z: -ARENA - 4, lat: 'x' }, { x: 0, z: ARENA + 4, lat: 'x' },
-  { x: ARENA + 4, z: 0, lat: 'z' }, { x: -ARENA - 4, z: 0, lat: 'z' },
-  { x: BARN.x, z: BARN.z + BARN.d / 2 + 1.5, lat: 'x', barn: true },
-];
+const SPAWNS = [];
+{
+  const inside = (x, z) => Math.abs(x) < AX && Math.abs(z) < AZ;
+  for (const r of roads) for (let i = 1; i < r.pts.length; i++) {
+    const a = r.pts[i - 1], b = r.pts[i];
+    if (inside(a[0], a[1]) === inside(b[0], b[1])) continue;
+    const [inP, outP] = inside(a[0], a[1]) ? [a, b] : [b, a];
+    let lo = 0, hi = 1;
+    for (let k = 0; k < 20; k++) { const m = (lo + hi) / 2; if (inside(inP[0] + (outP[0] - inP[0]) * m, inP[1] + (outP[1] - inP[1]) * m)) lo = m; else hi = m; }
+    const l = Math.hypot(outP[0] - inP[0], outP[1] - inP[1]), ux = (outP[0] - inP[0]) / l, uz = (outP[1] - inP[1]) / l;
+    const bx = inP[0] + (outP[0] - inP[0]) * hi + ux * 6, bz = inP[1] + (outP[1] - inP[1]) * hi + uz * 6;
+    SPAWNS.push({ x: bx, z: bz, lat: Math.abs(Math.abs(bz) - AZ) < Math.abs(Math.abs(bx) - AX) ? 'x' : 'z', road: r.name });
+  }
+  for (let i = 0; i < 12; i++) {
+    const t = (i % 3 + 0.5) / 3 * 2 - 1, sideI = Math.floor(i / 3);
+    if (sideI < 2) SPAWNS.push({ x: t * AX * 0.9, z: (sideI ? 1 : -1) * (AZ + 5), lat: 'x' });
+    else SPAWNS.push({ x: (sideI === 2 ? 1 : -1) * (AX + 5), z: t * AZ * 0.9, lat: 'z' });
+  }
+}
+function pickSpawn() {
+  // of three random entry points, use the one nearest the player so long walks stay rare
+  let best = null, bd = 1e9;
+  for (let i = 0; i < 3; i++) { const sp = SPAWNS[Math.floor(Math.random() * SPAWNS.length)], d = Math.hypot(sp.x - player.x, sp.z - player.z); if (d < bd) { bd = d; best = sp; } }
+  return best;
+}
 function startWave() {
   wave++; waveActive = true;
   const n = 4 + wave * 3, list = [];
@@ -904,8 +1038,7 @@ function spawnEnemy(type) {
   const T = TYPES[type], kit = T.build();
   kit.body.scale.setScalar(T.scale);
   const root = new THREE.Group(); root.add(kit.body);
-  let sp = SPAWNS[Math.floor(Math.random() * SPAWNS.length)];
-  if (type === 'bull' || type === 'cow') while (sp.barn) sp = SPAWNS[Math.floor(Math.random() * 4)];
+  const sp = pickSpawn();
   const off = (Math.random() - 0.5) * 5;
   root.position.set(sp.x + (sp.lat === 'x' ? off : 0), 0, sp.z + (sp.lat === 'z' ? off : 0));
   scene.add(root);
@@ -1005,14 +1138,17 @@ function updateNades(dt) {
     p.x += g.vx * dt; p.y += g.vy * dt; p.z += g.vz * dt;
     let bounced = false;
     for (const s of solids) {
-      if (p.x > s.x0 && p.x < s.x1 && p.z > s.z0 && p.z < s.z1 && p.y < s.h) {
-        if (oz <= s.z0 || oz >= s.z1) { p.z = oz; g.vz *= -0.45; } else { p.x = ox; g.vx *= -0.45; }
-        bounced = true;
-      }
+      if (p.y >= s.h) continue;
+      const dx = p.x - s.cx, dz = p.z - s.cz, lx = dx * s.c - dz * s.s, lz = dx * s.s + dz * s.c;
+      if (Math.abs(lx) >= s.hw || Math.abs(lz) >= s.hd) continue;
+      const odx = ox - s.cx, odz = oz - s.cz, olx = odx * s.c - odz * s.s;
+      let vl = g.vx * s.c - g.vz * s.s, vd = g.vx * s.s + g.vz * s.c;
+      if (Math.abs(olx) >= s.hw) vl *= -0.45; else vd *= -0.45;
+      g.vx = vl * s.c + vd * s.s; g.vz = -vl * s.s + vd * s.c;
+      p.x = ox; p.z = oz; bounced = true;
     }
-    const lim = ARENA + 8;
-    if (Math.abs(p.x) > lim) { p.x = Math.sign(p.x) * lim; g.vx *= -0.45; bounced = true; }
-    if (Math.abs(p.z) > lim) { p.z = Math.sign(p.z) * lim; g.vz *= -0.45; bounced = true; }
+    if (Math.abs(p.x) > AX + 8) { p.x = Math.sign(p.x) * (AX + 8); g.vx *= -0.45; bounced = true; }
+    if (Math.abs(p.z) > AZ + 8) { p.z = Math.sign(p.z) * (AZ + 8); g.vz *= -0.45; bounced = true; }
     if (p.y < 0.13) {
       p.y = 0.13;
       if (g.vy < -2) bounced = true;
@@ -1055,8 +1191,7 @@ function callStrike() {
   let tx, tz;
   if (hits.length) { tx = hits[0].point.x; tz = hits[0].point.z; }
   else { tx = camera.position.x + fwd.x * 45; tz = camera.position.z + fwd.z * 45; }
-  const lim = ARENA + 4;
-  tx = Math.max(-lim, Math.min(lim, tx)); tz = Math.max(-lim, Math.min(lim, tz));
+  tx = Math.max(-AX - 4, Math.min(AX + 4, tx)); tz = Math.max(-AZ - 4, Math.min(AZ + 4, tz));
   strikes--; strikeCd = 1; lastHud = '';
   const ring = new THREE.Mesh(ringGeo, new THREE.MeshBasicMaterial({ color: 0xff3a24, transparent: true, opacity: 0.9, depthWrite: false, side: THREE.DoubleSide }));
   ring.rotation.x = -Math.PI / 2; ring.position.set(tx, 0.06, tz); scene.add(ring);
@@ -1175,7 +1310,7 @@ function updatePlayer(dt) {
   player.x += (player.vx + player.kx) * dt; player.z += (player.vz + player.kz) * dt;
   const kd = Math.exp(-dt * 6); player.kx *= kd; player.kz *= kd;
   resolve(player, 0.45);
-  const lim = ARENA - 1.2; player.x = Math.max(-lim, Math.min(lim, player.x)); player.z = Math.max(-lim, Math.min(lim, player.z));
+  player.x = Math.max(-AX + 1.2, Math.min(AX - 1.2, player.x)); player.z = Math.max(-AZ + 1.2, Math.min(AZ - 1.2, player.z));
   const moving = Math.hypot(player.vx, player.vz);
   if (player.onGround) bobT += dt * moving * 1.6;
   const bob = Math.sin(bobT) * 0.05 * Math.min(1, moving / 6);
@@ -1267,7 +1402,7 @@ function updateEnemies(dt) {
       if (moved < spd * dt * 0.3) { e.stuckT += dt; if (e.stuckT > 0.35 && e.detourT <= 0) { e.detour = Math.random() < 0.5 ? 1 : -1; e.detourT = 1.3; e.stuckT = 0; } }
       else e.stuckT = Math.max(0, e.stuckT - dt);
     }
-    if (e.bs === 'charge' && (Math.abs(p.x) > ARENA + 6 || Math.abs(p.z) > ARENA + 6)) { e.bs = 'recover'; e.bt = 0; }
+    if (e.bs === 'charge' && (Math.abs(p.x) > AX + 6 || Math.abs(p.z) > AZ + 6)) { e.bs = 'recover'; e.bt = 0; }
     // facing
     const targetYaw = Math.atan2(faceX, faceZ);
     let dy = targetYaw - e.yaw; dy = Math.atan2(Math.sin(dy), Math.cos(dy));
@@ -1332,12 +1467,12 @@ function clearWorld() {
 }
 function newGame() {
   clearWorld();
-  Object.assign(player, { x: 0, y: 0, z: 10, vx: 0, vz: 0, vy: 0, kx: 0, kz: 0, hp: 100, onGround: true });
+  Object.assign(player, { x: START.x, y: 0, z: START.z, vx: 0, vz: 0, vy: 0, kx: 0, kz: 0, hp: 100, onGround: true });
   yaw = 0; pitch = 0; wave = 0; score = 0; kills = 0; combo = 0; lastKill = -10; toSpawn = []; waveActive = false; interT = 1.5;
   WEAPONS.forEach(w => { w.ammo = w.mag; }); cur = 1; drawT = 0; throwAnim = 0; nadeCd = 0; grenades = 3; strikes = 1; strikeCharge = 0; strikeCd = 0;
   models.forEach((m, i) => { m.visible = i === cur; }); buildAmmoIcons();
   reloading = false; fireCd = 0; recoil = 0; vign = 0; shake = 0; time = 0; lastHud = '';
-  banner('Hold the yard', 'They are coming through the gates', 1.6);
+  banner('Hold Wilmas Farm', 'They are coming down the streets and out of the woods', 2);
 }
 function setMode(m) {
   mode = m;
@@ -1363,7 +1498,7 @@ function gameOver() {
   showBest();
   $('stScore').textContent = score.toLocaleString(); $('stWave').textContent = wave; $('stKills').textContent = kills;
   $('overEyebrow').textContent = newBest && score > 0 ? 'New farm record' : 'Trampled';
-  $('overTitle').textContent = wave >= 10 ? 'A legend of Hollow Creek' : wave >= 5 ? 'The herd got you' : 'The farm has fallen';
+  $('overTitle').textContent = wave >= 10 ? 'A legend of Wilmas Farm' : wave >= 5 ? 'The herd got you' : 'The farm has fallen';
   sfx.moo(0.8, 0, 0.8);
 }
 
@@ -1501,8 +1636,8 @@ function frame(now) {
     updateHud(dt);
   } else if (mode === 'menu') {
     menuT += dt * 0.06;
-    camera.position.set(Math.sin(menuT) * 34, 9, Math.cos(menuT) * 34);
-    camera.lookAt(-6, 2, -6);
+    camera.position.set(START.x + Math.sin(menuT) * 46, 24, START.z + 12 + Math.cos(menuT) * 46);
+    camera.lookAt(START.x, 2, START.z + 12);
   }
   renderer.render(scene, camera);
 }
