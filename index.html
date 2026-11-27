@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pong</title>
+<style>
+  :root { --bg: #0b0d12; --fg: #e8ecf3; --dim: #5a6273; --accent: #7cd6ff; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 16px; }
+  canvas { width: 100%; max-width: 900px; aspect-ratio: 3 / 2; background: #000;
+    border: 2px solid #1c2130; border-radius: 8px; touch-action: none; display: block; }
+  .help { color: var(--dim); font-size: 13px; text-align: center; line-height: 1.6; }
+  .help b { color: var(--fg); font-weight: 600; }
+  select, button { font: inherit; background: #151a25; color: var(--fg); border: 1px solid #2a3142; border-radius: 6px; padding: 4px 8px; }
+</style>
+</head>
+<body>
+<canvas id="c" width="900" height="600"></canvas>
+<div class="help">
+  <b>Left:</b> W / S &nbsp;·&nbsp; <b>Right:</b> ↑ / ↓ (or drag on touch) &nbsp;·&nbsp; <b>Space:</b> start / pause &nbsp;·&nbsp; <b>R:</b> reset<br>
+  Mode:
+  <select id="mode">
+    <option value="cpu">1 player vs CPU</option>
+    <option value="pvp">2 players</option>
+  </select>
+  &nbsp; First to <b>11</b> wins
+</div>
+<script>
+(() => {
+  const cv = document.getElementById('c');
+  const ctx = cv.getContext('2d');
+  const W = cv.width, H = cv.height;
+  const PW = 14, PH = 100, BALL = 12, MARGIN = 30, WIN = 11;
+  const PADDLE_SPEED = 520, CPU_SPEED = 400, START_SPEED = 380, MAX_SPEED = 950;
+
+  const modeSel = document.getElementById('mode');
+  const keys = new Set();
+  let left, right, ball, state, serveDir, last = 0, winner = null;
+
+  function reset() {
+    left = { y: H / 2 - PH / 2, score: 0 };
+    right = { y: H / 2 - PH / 2, score: 0 };
+    winner = null;
+    serveDir = Math.random() < 0.5 ? -1 : 1;
+    resetBall();
+    state = 'ready';
+  }
+
+  function resetBall() {
+    const angle = (Math.random() * 0.6 - 0.3) * Math.PI;
+    ball = { x: W / 2 - BALL / 2, y: H / 2 - BALL / 2,
+             vx: Math.cos(angle) * START_SPEED * serveDir,
+             vy: Math.sin(angle) * START_SPEED };
+  }
+
+  // Audio (tiny beeps)
+  let actx = null;
+  function beep(freq, dur = 0.05) {
+    try {
+      actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = 'square'; o.frequency.value = freq;
+      g.gain.setValueAtTime(0.06, actx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.0001, actx.currentTime + dur);
+      o.connect(g).connect(actx.destination); o.start(); o.stop(actx.currentTime + dur);
+    } catch (e) {}
+  }
+
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+  function update(dt) {
+    // Player paddles
+    let dl = 0, dr = 0;
+    if (keys.has('w')) dl -= 1;
+    if (keys.has('s')) dl += 1;
+    if (keys.has('arrowup')) dr -= 1;
+    if (keys.has('arrowdown')) dr += 1;
+    left.y += dl * PADDLE_SPEED * dt;
+
+    if (modeSel.value === 'cpu') {
+      // CPU controls the right paddle; arrow keys/touch still move the left in CPU mode for convenience
+      left.y += dr * PADDLE_SPEED * dt;
+      const target = (ball.vx > 0 ? ball.y + BALL / 2 : H / 2) - PH / 2;
+      const diff = target - right.y;
+      right.y += clamp(diff, -CPU_SPEED * dt, CPU_SPEED * dt);
+    } else {
+      right.y += dr * PADDLE_SPEED * dt;
+    }
+    left.y = clamp(left.y, 0, H - PH);
+    right.y = clamp(right.y, 0, H - PH);
+
+    if (state !== 'play') return;
+
+    ball.x += ball.vx * dt;
+    ball.y += ball.vy * dt;
+
+    // Walls
+    if (ball.y < 0) { ball.y = 0; ball.vy = Math.abs(ball.vy); beep(300); }
+    if (ball.y + BALL > H) { ball.y = H - BALL; ball.vy = -Math.abs(ball.vy); beep(300); }
+
+    // Paddles
+    hitPaddle(left, MARGIN, 1);
+    hitPaddle(right, W - MARGIN - PW, -1);
+
+    // Scoring
+    if (ball.x + BALL < 0) point(right, 1);
+    else if (ball.x > W) point(left, -1);
+  }
+
+  function hitPaddle(p, px, dir) {
+    if ((dir === 1 && ball.vx >= 0) || (dir === -1 && ball.vx <= 0)) return;
+    if (ball.x < px + PW && ball.x + BALL > px && ball.y < p.y + PH && ball.y + BALL > p.y) {
+      const rel = ((ball.y + BALL / 2) - (p.y + PH / 2)) / (PH / 2); // -1..1
+      const angle = clamp(rel, -1, 1) * (Math.PI / 3.2);
+      const speed = Math.min(Math.hypot(ball.vx, ball.vy) * 1.06, MAX_SPEED);
+      ball.vx = Math.cos(angle) * speed * dir;
+      ball.vy = Math.sin(angle) * speed;
+      ball.x = dir === 1 ? px + PW : px - BALL;
+      beep(520);
+    }
+  }
+
+  function point(p, dir) {
+    p.score++;
+    beep(180, 0.2);
+    serveDir = dir;
+    if (p.score >= WIN) { winner = p === left ? 'Left' : 'Right'; state = 'over'; }
+    else state = 'ready';
+    resetBall();
+  }
+
+  function draw() {
+    ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+
+    // Center line
+    ctx.fillStyle = '#2a3142';
+    for (let y = 10; y < H; y += 30) ctx.fillRect(W / 2 - 2, y, 4, 16);
+
+    // Scores
+    ctx.fillStyle = '#e8ecf3';
+    ctx.font = 'bold 64px ui-monospace, Menlo, monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText(left.score, W / 2 - 90, 80);
+    ctx.fillText(right.score, W / 2 + 90, 80);
+
+    // Paddles & ball
+    ctx.fillRect(MARGIN, left.y, PW, PH);
+    ctx.fillRect(W - MARGIN - PW, right.y, PW, PH);
+    ctx.fillStyle = '#7cd6ff';
+    ctx.fillRect(ball.x, ball.y, BALL, BALL);
+
+    // Overlay text
+    if (state !== 'play') {
+      ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.fillRect(0, H / 2 - 50, W, 100);
+      ctx.fillStyle = '#e8ecf3';
+      ctx.font = 'bold 28px ui-monospace, Menlo, monospace';
+      const msg = state === 'over' ? `${winner} wins! Press Space or tap to play again`
+                : state === 'paused' ? 'Paused — Space or tap to resume'
+                : 'Press Space or tap to serve';
+      ctx.fillText(msg, W / 2, H / 2 + 10);
+    }
+  }
+
+  function loop(t) {
+    const dt = Math.min((t - last) / 1000, 1 / 30);
+    last = t;
+    update(dt);
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  function toggle() {
+    if (state === 'over') { reset(); state = 'play'; }
+    else if (state === 'play') state = 'paused';
+    else state = 'play';
+  }
+
+  addEventListener('keydown', e => {
+    const k = e.key.toLowerCase();
+    if (['arrowup', 'arrowdown', ' '].includes(k)) e.preventDefault();
+    if (k === ' ') toggle();
+    else if (k === 'r') reset();
+    else keys.add(k);
+  });
+  addEventListener('keyup', e => keys.delete(e.key.toLowerCase()));
+  addEventListener('blur', () => { keys.clear(); if (state === 'play') state = 'paused'; });
+
+  // Touch / mouse drag: control the paddle on the side you touch
+  function pointer(e) {
+    const r = cv.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width * W;
+    const y = (e.clientY - r.top) / r.height * H;
+    const p = (x < W / 2 || modeSel.value === 'cpu') ? left : right;
+    p.y = clamp(y - PH / 2, 0, H - PH);
+  }
+  let dragging = false, moved = false;
+  cv.addEventListener('pointerdown', e => { dragging = true; moved = false; cv.setPointerCapture(e.pointerId); });
+  cv.addEventListener('pointermove', e => { if (dragging) { moved = true; pointer(e); } });
+  cv.addEventListener('pointerup', () => { if (!moved) toggle(); dragging = false; });
+
+  modeSel.addEventListener('change', () => { reset(); modeSel.blur(); });
+
+  reset();
+  requestAnimationFrame(t => { last = t; loop(t); });
+})();
+</script>
+</body>
+</html>
