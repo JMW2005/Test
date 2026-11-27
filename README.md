@@ -40,3 +40,31 @@ You start with 1 strike and can hold up to 2. Kills fill the strike meter: chick
 | Bull | Boss on every 5th wave. It paws the ground, then charges. |
 
 Kill animals quickly to build a combo multiplier (up to x5). Eggs restore 20 health. Golden eggs from the bull restore all of it.
+
+---
+
+# River Room Hold'em
+
+A no-limit Texas Hold'em game in a single file, `poker.html`. Open it in a browser to play against four computer players. Nothing needs installing; only the fonts load from the internet, and the game still works without them.
+
+## Rules
+- Everyone starts with 1,000 chips. Blinds start at 10/20 and go up every 8 hands.
+- Two hole cards each, then the flop, turn and river, with a betting round before each card and after the river.
+- Side pots are handled when someone is all-in for less, and split pots go to the tied players.
+- The last player with chips wins.
+
+## Controls
+- **F**: fold. **C**: check or call. **R**: bet or raise.
+- Drag the slider or use **½ pot**, **¾ pot**, **Pot** or **All-in** to size a raise.
+- **Space**: deal the next hand.
+- **History** (top right) shows a log of every action and showdown.
+
+## Opponents
+Each computer player estimates its chance of winning by simulating a few hundred random run-outs, then weighs that against the pot odds. They differ in style:
+
+| Player | Style |
+|---|---|
+| Rosa | Loose and aggressive |
+| Dmitri | Tight and patient; rarely bluffs |
+| Kenji | Wild; raises and bluffs often |
+| Ada | Solid and balanced |
