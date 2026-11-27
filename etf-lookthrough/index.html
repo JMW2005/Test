@@ -89,12 +89,20 @@ button.icon:hover { color: var(--danger); }
 .banner button { border-color: var(--warn); background: transparent; color: var(--warn); padding: 4px 10px; }
 
 .positions { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
-.positions li { display: grid; grid-template-columns: minmax(0, 1fr) 118px auto; gap: 8px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.positions li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 10px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.pos-val { text-align: right; font-weight: 600; white-space: nowrap; }
+.pos-val small { display: block; font-weight: 400; color: var(--muted); font-size: 0.75rem; }
+.pos-val .need { color: var(--warn); font-weight: 600; }
+.pos-edit { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); }
+.pos-edit label { display: inline-flex; gap: 6px; align-items: center; }
+.pos-edit input { width: 110px; }
+.up { color: var(--accent); } .down { color: var(--danger); }
 .positions li:first-child { border-top: none; }
 .pos-name { min-width: 0; }
 .pos-name b { font-family: var(--font-mono); font-weight: 500; }
 .pos-name small { display: block; color: var(--muted); font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.positions input { text-align: right; padding: 6px 8px; font-family: var(--font-mono); }
+.positions input { text-align: right; padding: 5px 8px; font-family: var(--font-mono); }
+#add-mode { padding: 0 2px; border: none; background: transparent; color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; width: auto; }
 .chip { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px; font-family: var(--font-body); }
 .chip.fund { background: var(--accent-soft); color: var(--accent); }
 .chip.stock { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
@@ -186,12 +194,12 @@ footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
             <input id="add-ticker" placeholder="VOO" required>
           </div>
           <div class="field">
-            <label class="label" for="add-value">Value ($)</label>
-            <input id="add-value" inputmode="decimal" placeholder="25,000" required>
+            <select id="add-mode" aria-label="Enter shares or a dollar value"><option value="sh">Shares ▾</option><option value="v">Value ($) ▾</option></select>
+            <input id="add-value" inputmode="decimal" placeholder="25" aria-label="Number of shares" required>
           </div>
           <button type="submit">Add</button>
         </form>
-        <p class="hint" id="add-msg">Use the market value of the position. Adding a ticker you already have adds to it.</p>
+        <p class="hint" id="add-msg">Enter how many shares you own; the value comes from the latest price. Adding a ticker you already have adds to it.</p>
         <ul class="positions" id="positions"></ul>
         <div class="total-line"><span>Total</span><span class="num" id="pos-total">$0</span></div>
         <div class="row">
@@ -200,13 +208,27 @@ footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
           <button type="button" class="link" id="clear-all">Remove all</button>
         </div>
         <div id="bulk" hidden style="display:flex;flex-direction:column;gap:8px">
-          <label class="label" for="bulk-text">One position per line: ticker, value</label>
-          <textarea id="bulk-text" rows="6" placeholder="VOO, 40000&#10;QQQ 15000&#10;AAPL $8,200"></textarea>
+          <label class="label" for="bulk-text">One position per line: ticker and shares (or a $ amount)</label>
+          <textarea id="bulk-text" rows="6" placeholder="VOO, 65&#10;QQQ 24.5&#10;AAPL $8,200"></textarea>
           <div class="row">
             <button type="button" id="bulk-add">Add these</button>
             <button type="button" class="ghost" id="bulk-replace">Replace my list</button>
           </div>
         </div>
+      </section>
+
+      <section class="panel" aria-labelledby="h-px">
+        <h2 id="h-px">Live prices</h2>
+        <p class="hint" id="px-status">Add a free price key to value your shares at current prices.</p>
+        <div class="field">
+          <label class="label" for="px-key">Finnhub API key</label>
+          <input id="px-key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your key">
+        </div>
+        <div class="row">
+          <button type="button" id="px-save">Save key</button>
+          <button type="button" class="ghost" id="px-refresh">Refresh prices</button>
+        </div>
+        <p class="hint">Get a free key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io</a>: sign up, then copy the API key from your dashboard. The key stays on this device. Prices refresh when you open the app, at most every 5 minutes. Mutual funds and some foreign tickers have no price there; type their price in by hand.</p>
       </section>
 
       <section class="panel" aria-labelledby="h-funds">
@@ -267,7 +289,7 @@ footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
   </div>
 
   <footer>
-    Built-in fund weights are approximations of recent top holdings and are for exploring your exposure, not for trading or tax decisions. Your positions are saved only in this browser.
+    Built-in fund weights are approximations of recent top holdings and are for exploring your exposure, not for trading or tax decisions. Your positions, prices and key are saved only in this browser. Prices can be delayed and are for estimates only.
   </footer>
 </div>
 
@@ -412,7 +434,11 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-const EXAMPLE = [{t:"VOO",v:40000},{t:"QQQ",v:15000},{t:"SCHD",v:10000},{t:"VXUS",v:8000},{t:"AAPL",v:8200},{t:"NVDA",v:5500},{t:"BND",v:6000}];
+const EXAMPLE = [{t:"VOO",sh:65},{t:"QQQ",sh:25},{t:"SCHD",sh:360},{t:"VXUS",sh:110},{t:"AAPL",sh:30},{t:"NVDA",sh:30},{t:"BND",sh:80}];
+const EXAMPLE_PX = {VOO:615, QQQ:600, SCHD:28, VXUS:72, AAPL:270, NVDA:185, BND:74};
+let prices = store.get("lt.prices", {});     // {T: {p, chg, ts}} from the price service
+let manualPx = store.get("lt.manualPx", {}); // {T: price} typed in by hand
+let pxKey = store.get("lt.pxkey", "");
 let positions = store.get("lt.positions", null);
 let isExample = store.get("lt.isExample", positions === null);
 if (!positions) positions = EXAMPLE.map(p => ({...p}));
@@ -432,6 +458,18 @@ const normT = t => String(t || "").trim().toUpperCase().replace(/^\$/, "").repla
 const parseMoney = s => { const n = parseFloat(String(s).replace(/[$,\s]/g, "")); return isFinite(n) ? n : NaN; };
 
 function save() { store.set("lt.positions", positions); store.set("lt.isExample", isExample); }
+function priceInfo(t) {
+  if (prices[t] && prices[t].p > 0) return {p: prices[t].p, src: "live", chg: prices[t].chg, ts: prices[t].ts};
+  if (manualPx[t] > 0) return {p: manualPx[t], src: "manual"};
+  if (isExample && EXAMPLE_PX[t]) return {p: EXAMPLE_PX[t], src: "example"};
+  return null;
+}
+function valueOf(p) {
+  if (p.sh == null) return p.v || 0;
+  const pi = priceInfo(p.t);
+  return pi ? p.sh * pi.p : 0;
+}
+const needsPrice = p => p.sh != null && !priceInfo(p.t);
 function getFund(t) { return custom[t] || FUNDS[t] || null; }
 function nameOf(t) {
   if (NAMES[t]) return NAMES[t];
@@ -457,16 +495,18 @@ function compute() {
     e.sources.push({...src, t, amt});
   };
   for (const p of positions) {
-    total += p.v;
+    const v = valueOf(p);
+    if (!(v > 0)) continue;
+    total += v;
     const f = getFund(p.t);
-    if (!f) { add(p.t, p.v, {fund:null}); mapped += p.v; continue; }
+    if (!f) { add(p.t, v, {fund:null}); mapped += v; continue; }
     let sum = 0;
     for (const [t, w] of f.h) {
-      const amt = p.v * w / 100; sum += w; mapped += amt;
-      add(t, amt, {fund:p.t, w, base:p.v});
+      const amt = v * w / 100; sum += w; mapped += amt;
+      add(t, amt, {fund:p.t, w, base:v});
     }
     const rem = Math.max(0, 100 - sum);
-    if (rem > 0.001) unitem.push({fund:p.t, name:f.name, pct:rem, amt:p.v * rem / 100, kind:f.kind});
+    if (rem > 0.001) unitem.push({fund:p.t, name:f.name, pct:rem, amt:v * rem / 100, kind:f.kind});
   }
   const rows = [...exp.values()].map(e => {
     const tickers = [...e.tickers].sort();
@@ -485,11 +525,31 @@ function renderPositions() {
     const f = getFund(p.t);
     const chip = f ? (custom[p.t] ? '<span class="chip custom">Fund · your data</span>' : '<span class="chip fund">Fund</span>') : '<span class="chip stock">Stock</span>';
     const sub = f ? esc(f.name) : (NAMES[p.t] ? esc(NAMES[p.t]) : `Not a fund we know. <button type="button" class="link" data-fund="${esc(p.t)}">It's a fund</button>`);
+    const pi = priceInfo(p.t);
+    let valHtml, edit;
+    if (p.sh == null) {
+      valHtml = `${fmt$.format(p.v)}<small>dollar amount</small>`;
+      edit = `<label>Value $ <input id="pos-${i}" data-i="${i}" data-f="v" inputmode="decimal" value="${p.v.toLocaleString("en-US")}" aria-label="Value of ${esc(p.t)} in dollars"></label>
+        <button type="button" class="link" data-switch="${i}">Enter shares instead</button>`;
+    } else {
+      const shTxt = p.sh.toLocaleString("en-US", {maximumFractionDigits: 6});
+      if (pi) {
+        const when = pi.src === "live" ? `${pi.chg != null ? `<span class="${pi.chg >= 0 ? "up" : "down"}">${pi.chg >= 0 ? "+" : ""}${pi.chg.toFixed(2)}%</span> · ` : ""}${new Date(pi.ts).toLocaleTimeString([], {hour: "numeric", minute: "2-digit"})}`
+          : pi.src === "manual" ? `price you entered` : `example price`;
+        valHtml = `${fmt$.format(p.sh * pi.p)}<small>${fmtC.format(pi.p)} · ${when}</small>`;
+      } else {
+        valHtml = `<span class="need">Needs a price</span><small>no price found</small>`;
+      }
+      const showPxInput = !pi || pi.src !== "live";
+      edit = `<label>Shares <input id="pos-${i}" data-i="${i}" data-f="sh" inputmode="decimal" value="${shTxt}" aria-label="Shares of ${esc(p.t)}"></label>` +
+        (showPxInput ? `<label>Price $ <input id="px-${i}" data-t="${esc(p.t)}" data-f="px" inputmode="decimal" value="${manualPx[p.t] ? manualPx[p.t] : ""}" placeholder="${pi ? fmtC.format(pi.p).slice(1) : "0.00"}" aria-label="Price of ${esc(p.t)}"></label>` : "");
+    }
     return `<li><div class="pos-name"><b>${esc(p.t)}</b>${chip}<small>${sub}</small></div>
-      <input id="pos-${i}" data-i="${i}" value="${p.v.toLocaleString("en-US")}" aria-label="Value of ${esc(p.t)} in dollars">
-      <button type="button" class="icon" data-del="${i}" aria-label="Remove ${esc(p.t)}">×</button></li>`;
+      <div class="pos-val num">${valHtml}</div>
+      <button type="button" class="icon" data-del="${i}" aria-label="Remove ${esc(p.t)}">×</button>
+      <div class="pos-edit">${edit}</div></li>`;
   }).join("");
-  $("pos-total").textContent = fmt$.format(positions.reduce((s, p) => s + p.v, 0));
+  $("pos-total").textContent = fmt$.format(positions.reduce((s, p) => s + valueOf(p), 0));
 }
 
 function renderFundList() {
@@ -506,7 +566,7 @@ function renderResults() {
   const top10 = sorted.slice(0, 10).reduce((s, r) => s + r.total, 0);
   const funds = positions.filter(p => getFund(p.t)).length;
   $("tiles").innerHTML = `
-    <div class="tile"><div class="label">Portfolio value</div><div class="v">${fmt$.format(total)}</div><div class="s">${positions.length} positions · ${funds} funds</div></div>
+    <div class="tile"><div class="label">Portfolio value</div><div class="v">${fmt$.format(total)}</div><div class="s">${positions.length} positions · ${funds} funds${positions.some(needsPrice) ? ` · <span style="color:var(--warn)">${positions.filter(needsPrice).length} need a price</span>` : ""}</div></div>
     <div class="tile"><div class="label">Companies owned</div><div class="v">${rows.length.toLocaleString()}</div><div class="s">${total ? pct(mapped / total * 100) : "0%"} of dollars mapped to a company</div></div>
     <div class="tile"><div class="label">Largest exposure</div><div class="v">${top ? esc(top.name) : "None"}</div><div class="s">${top ? `${money(top.total)} · ${pct(top.pct)}` : "Add positions to begin"}</div></div>
     <div class="tile"><div class="label">Top 10 companies</div><div class="v">${total ? pct(top10 / total * 100) : "0%"}</div><div class="s">${fmt$.format(top10)} of your portfolio</div></div>`;
@@ -554,30 +614,63 @@ function renderResults() {
 function renderAll() { renderPositions(); renderFundList(); renderResults(); }
 
 /* ---------------- Position input ---------------- */
-function addPosition(t, v) {
+function addPosition(t, amt, mode) {
   t = normT(t);
   if (!t || !/^[A-Z0-9][A-Z0-9.]{0,11}$/.test(t)) return `“${t}” doesn't look like a ticker.`;
-  if (!(v > 0)) return "Enter a dollar value above zero.";
+  if (!(amt > 0)) return mode === "sh" ? "Enter a number of shares above zero." : "Enter a dollar value above zero.";
   if (isExample) { positions = []; isExample = false; }
   const ex = positions.find(p => p.t === t);
-  if (ex) ex.v = Math.round((ex.v + v) * 100) / 100; else positions.push({t, v: Math.round(v * 100) / 100});
+  const r = n => Math.round(n * 1e6) / 1e6;
+  if (mode === "sh") {
+    if (ex && ex.sh != null) ex.sh = r(ex.sh + amt);
+    else if (ex) { ex.sh = r(amt); delete ex.v; }
+    else positions.push({t, sh: r(amt)});
+  } else {
+    if (ex && ex.sh == null) ex.v = Math.round((ex.v + amt) * 100) / 100;
+    else if (ex) { ex.v = Math.round(amt * 100) / 100; ex.sh = null; delete ex.sh; }
+    else positions.push({t, v: Math.round(amt * 100) / 100});
+  }
   return "";
 }
+$("add-mode").addEventListener("change", e => {
+  const sh = e.target.value === "sh";
+  $("add-value").placeholder = sh ? "25" : "25,000";
+  $("add-value").setAttribute("aria-label", sh ? "Number of shares" : "Value in dollars");
+});
 $("add-form").addEventListener("submit", e => {
   e.preventDefault();
-  const err = addPosition($("add-ticker").value, parseMoney($("add-value").value));
-  $("add-msg").textContent = err || "Added. Use the market value of each position.";
+  const mode = $("add-mode").value;
+  const err = addPosition($("add-ticker").value, parseMoney($("add-value").value), mode);
+  $("add-msg").textContent = err || "Added.";
   $("add-msg").style.color = err ? "var(--danger)" : "";
-  if (!err) { $("add-ticker").value = ""; $("add-value").value = ""; $("add-ticker").focus(); save(); renderAll(); }
+  if (!err) { $("add-ticker").value = ""; $("add-value").value = ""; $("add-ticker").focus(); save(); renderAll(); refreshPrices(false); }
 });
 $("positions").addEventListener("change", e => {
-  const i = e.target.dataset.i; if (i === undefined) return;
-  const v = parseMoney(e.target.value);
-  if (v > 0) { positions[i].v = v; isExample = false; save(); renderAll(); } else { e.target.value = positions[i].v.toLocaleString("en-US"); }
+  const f = e.target.dataset.f; if (!f) return;
+  const n = parseMoney(e.target.value);
+  if (f === "px") {
+    const t = e.target.dataset.t;
+    if (n > 0) manualPx[t] = n; else delete manualPx[t];
+    store.set("lt.manualPx", manualPx);
+  } else {
+    const p = positions[+e.target.dataset.i];
+    if (!(n > 0)) { renderPositions(); return; }
+    p[f] = n;
+  }
+  if (isExample) { isExample = false; positions.forEach(p => { if (p.sh != null && !priceInfo(p.t) && EXAMPLE_PX[p.t]) manualPx[p.t] = EXAMPLE_PX[p.t]; }); }
+  save(); renderAll();
 });
 $("positions").addEventListener("click", e => {
   const d = e.target.closest("[data-del]");
-  if (d) { positions.splice(+d.dataset.del, 1); isExample = false; save(); renderAll(); }
+  if (d) { positions.splice(+d.dataset.del, 1); isExample = false; save(); renderAll(); return; }
+  const sw = e.target.closest("[data-switch]");
+  if (sw) {
+    const p = positions[+sw.dataset.switch], pi = priceInfo(p.t);
+    p.sh = pi ? Math.round(p.v / pi.p * 10000) / 10000 : 1;
+    delete p.v; save(); renderAll();
+    const inp = document.querySelector(`#pos-${sw.dataset.switch}`); if (inp) { inp.focus(); inp.select(); }
+    if (!pi) toast("Enter your share count, then a price if none loads.");
+  }
 });
 $("clear-example").onclick = () => { positions = []; isExample = false; save(); renderAll(); $("add-ticker").focus(); };
 let confirmClear = false;
@@ -591,22 +684,68 @@ function parseBulk(text) {
   const out = [], bad = [];
   text.split(/\r?\n/).forEach(line => {
     if (!line.trim()) return;
-    const m = line.match(/^\s*\$?([A-Za-z0-9.\-\/]+)[\s,;:\t]+\$?\s*([\d,]+(?:\.\d+)?)\s*$/);
-    if (m) out.push([m[1], parseMoney(m[2])]); else bad.push(line.trim());
+    const m = line.match(/^\s*\$?([A-Za-z0-9.\-\/]+)[\s,;:\t]+(\$?)\s*([\d,]*\.?\d+)\s*(shares?|sh)?\s*$/i);
+    if (m) out.push([m[1], parseMoney(m[3]), m[2] ? "v" : "sh"]); else bad.push(line.trim());
   });
   return {out, bad};
 }
 function bulk(replace) {
   const {out, bad} = parseBulk($("bulk-text").value);
-  if (!out.length) { toast("No lines matched “ticker, value”."); return; }
+  if (!out.length) { toast("No lines matched “ticker, shares”."); return; }
   if (replace || isExample) { positions = []; isExample = false; }
-  out.forEach(([t, v]) => addPosition(t, v));
-  save(); renderAll();
+  out.forEach(([t, n, mode]) => addPosition(t, n, mode));
+  save(); renderAll(); refreshPrices(false);
   $("bulk-text").value = bad.join("\n");
   toast(`Added ${out.length} position${out.length > 1 ? "s" : ""}` + (bad.length ? `. ${bad.length} line${bad.length > 1 ? "s" : ""} left in the box didn't match.` : "."));
 }
 $("bulk-add").onclick = () => bulk(false);
 $("bulk-replace").onclick = () => bulk(true);
+
+/* ---------------- Live prices (Finnhub) ---------------- */
+let pxBusy = false;
+const setPxStatus = (msg, warn) => { $("px-status").textContent = msg; $("px-status").style.color = warn ? "var(--warn)" : ""; };
+function pxSummary() {
+  const ts = Object.values(prices).map(x => x.ts).filter(Boolean);
+  if (!pxKey) return setPxStatus("Add a free price key to value your shares at current prices.");
+  if (!ts.length) return setPxStatus("Key saved. Prices load when you have positions.");
+  setPxStatus(`Prices last updated ${new Date(Math.max(...ts)).toLocaleString([], {month: "short", day: "numeric", hour: "numeric", minute: "2-digit"})}.`);
+}
+async function refreshPrices(force) {
+  if (!pxKey || pxBusy) { if (!pxKey) pxSummary(); return; }
+  const tickers = [...new Set(positions.map(p => p.t))];
+  const need = tickers.filter(t => force || !prices[t] || Date.now() - prices[t].ts > 5 * 60 * 1000);
+  if (!need.length) { pxSummary(); return; }
+  pxBusy = true;
+  setPxStatus(`Updating ${need.length} price${need.length > 1 ? "s" : ""}…`);
+  const missing = []; let problem = "";
+  for (const t of need) {
+    try {
+      const r = await fetch(`https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(t)}&token=${encodeURIComponent(pxKey)}`, {cache: "no-store"});
+      if (r.status === 401 || r.status === 403) { problem = "The price service didn't accept that key. Check it on your Finnhub dashboard and save it again."; break; }
+      if (r.status === 429) { problem = "Too many price requests at once. Wait a minute and tap Refresh prices."; break; }
+      const j = await r.json();
+      if (j && j.c > 0) prices[t] = {p: j.c, chg: typeof j.dp === "number" ? j.dp : null, ts: Date.now()};
+      else { missing.push(t); prices[t] = {p: 0, ts: Date.now()}; }
+    } catch {
+      problem = "Couldn't reach the price service. Check your connection; the last prices are still shown.";
+      break;
+    }
+  }
+  pxBusy = false;
+  store.set("lt.prices", prices);
+  renderAll();
+  if (problem) setPxStatus(problem, true);
+  else if (missing.length) setPxStatus(`No price found for ${missing.join(", ")}. Type the price in next to ${missing.length > 1 ? "those positions" : "that position"}.`, true);
+  else pxSummary();
+}
+$("px-key").value = pxKey;
+$("px-save").onclick = () => {
+  pxKey = $("px-key").value.trim(); store.set("lt.pxkey", pxKey);
+  if (!pxKey) { pxSummary(); toast("Key removed."); return; }
+  toast("Key saved."); refreshPrices(true);
+};
+$("px-refresh").onclick = () => { if (!pxKey) { setPxStatus("Paste your Finnhub key above first.", true); $("px-key").focus(); return; } refreshPrices(true); };
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") refreshPrices(false); });
 
 /* ---------------- Results interaction ---------------- */
 $("search").addEventListener("input", e => { query = e.target.value; renderResults(); });
@@ -704,6 +843,7 @@ $("dlg-reset").onclick = () => {
 };
 
 renderAll();
+refreshPrices(false);
 })();
 if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
