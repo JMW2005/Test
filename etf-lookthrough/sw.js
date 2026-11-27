@@ -1,5 +1,5 @@
 // Offline support: keep the app shell cached, and cache fonts once they've loaded.
-const CACHE = "look-through-v2";
+const CACHE = "look-through-v3";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-180.png", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", e => {
