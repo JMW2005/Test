@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio Look-Through</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: brokerage-statement tool. Left rail = what you own; right = what you actually own, company by company. */
+:root {
+  --bg: #f4f6f5;
+  --surface: #ffffff;
+  --ink: #15211d;
+  --muted: #5b6b65;
+  --line: #dde4e1;
+  --accent: #0f6b5c;      /* direct holdings */
+  --accent-2: #7fb8ab;    /* exposure through funds */
+  --accent-soft: #e3f0ec;
+  --warn: #9a5b00;
+  --warn-soft: #fbf0dc;
+  --danger: #b4232f;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1513; --surface: #17201d; --ink: #e6eeeb; --muted: #95a8a1; --line: #2a3632;
+    --accent: #43b39c; --accent-2: #2b6458; --accent-soft: #1c2f2a;
+    --warn: #e2ad5a; --warn-soft: #2e2617; --danger: #f07a83;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1513; --surface: #17201d; --ink: #e6eeeb; --muted: #95a8a1; --line: #2a3632;
+  --accent: #43b39c; --accent-2: #2b6458; --accent-soft: #1c2f2a;
+  --warn: #e2ad5a; --warn-soft: #2e2617; --danger: #f07a83;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 var(--font-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 48px;
+}
+.wrap { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+header h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+header p { margin: 4px 0 0; color: var(--muted); max-width: 70ch; }
+.grid { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 900px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.panel h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; margin: 0; }
+.label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+.mono, .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+form.add { display: grid; grid-template-columns: 1fr 1.2fr auto; gap: 8px; align-items: end; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+input, textarea, select {
+  font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; width: 100%; min-width: 0;
+}
+textarea { font-family: var(--font-mono); font-size: 0.85rem; resize: vertical; }
+input:focus-visible, textarea:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+button {
+  font: inherit; font-weight: 600; cursor: pointer; border-radius: 6px; padding: 8px 14px;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--surface);
+}
+button.ghost { background: transparent; color: var(--accent); }
+button.link { background: none; border: none; color: var(--accent); padding: 0; font-weight: 500; text-decoration: underline; text-underline-offset: 2px; }
+button.icon { background: none; border: none; color: var(--muted); padding: 4px 6px; font-size: 1.1rem; line-height: 1; }
+button.icon:hover { color: var(--danger); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.hint { font-size: 0.82rem; color: var(--muted); margin: 0; }
+.banner { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 10px 12px; font-size: 0.88rem; display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.banner button { border-color: var(--warn); background: transparent; color: var(--warn); padding: 4px 10px; }
+
+.positions { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.positions li { display: grid; grid-template-columns: minmax(0, 1fr) 118px auto; gap: 8px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.positions li:first-child { border-top: none; }
+.pos-name { min-width: 0; }
+.pos-name b { font-family: var(--font-mono); font-weight: 500; }
+.pos-name small { display: block; color: var(--muted); font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.positions input { text-align: right; padding: 6px 8px; font-family: var(--font-mono); }
+.chip { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px; font-family: var(--font-body); }
+.chip.fund { background: var(--accent-soft); color: var(--accent); }
+.chip.stock { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.chip.custom { background: var(--warn-soft); color: var(--warn); }
+.total-line { display: flex; justify-content: space-between; border-top: 2px solid var(--ink); padding-top: 8px; font-weight: 600; }
+
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 1100px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-width: 0; }
+.tile .v { font-family: var(--font-mono); font-size: 1.45rem; font-weight: 500; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tile .s { font-size: 0.8rem; color: var(--muted); }
+
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.toolbar .row { gap: 14px; }
+.toolbar input[type="search"] { width: 220px; }
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 0.88rem; color: var(--muted); cursor: pointer; }
+.check input { width: auto; }
+.legend { display: flex; gap: 14px; font-size: 0.8rem; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th { text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 600; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer; user-select: none; }
+th.r, td.r { text-align: right; }
+th[aria-sort="descending"]::after { content: " ↓"; }
+th[aria-sort="ascending"]::after { content: " ↑"; }
+td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr.co { cursor: pointer; }
+tr.co:hover td { background: var(--accent-soft); }
+td.rank { color: var(--muted); font-family: var(--font-mono); width: 2.5em; }
+td.co-name { min-width: 180px; }
+td.co-name b { font-weight: 500; }
+td.co-name .tk { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); margin-left: 6px; }
+.bar { display: flex; height: 10px; width: 160px; background: var(--bg); border-radius: 2px; overflow: hidden; }
+.bar span { display: block; height: 100%; }
+.bar .d { background: var(--accent); }
+.bar .e { background: var(--accent-2); }
+tr.detail td { background: var(--bg); padding: 10px 10px 12px 44px; }
+.sources { display: grid; grid-template-columns: auto auto 1fr; gap: 2px 16px; font-size: 0.85rem; font-family: var(--font-mono); }
+.sources span:nth-child(3n) { color: var(--muted); }
+.more { display: flex; justify-content: center; padding-top: 6px; }
+.empty { color: var(--muted); padding: 30px 10px; text-align: center; }
+
+.unit-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; }
+.unit-list li { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.unit-list li span:first-child { min-width: 0; }
+
+details.funds summary { cursor: pointer; font-weight: 600; }
+.fund-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.fund-list button { font-family: var(--font-mono); font-weight: 500; font-size: 0.82rem; padding: 3px 8px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); }
+.fund-list button.edited { border-color: var(--warn); color: var(--warn); }
+
+dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 0; width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 32px); }
+dialog::backdrop { background: rgba(10, 20, 17, 0.45); }
+dialog form { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+dialog h3 { font-family: var(--font-display); font-weight: 500; margin: 0; font-size: 1.25rem; }
+dialog textarea { min-height: 260px; }
+.dlg-actions { display: flex; gap: 8px; justify-content: space-between; flex-wrap: wrap; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; z-index: 20; }
+footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
+@media (max-width: 520px) {
+  form.add { grid-template-columns: 1fr 1fr; }
+  form.add button { grid-column: 1 / -1; }
+  .toolbar input[type="search"] { width: 100%; }
+  .bar { width: 90px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Portfolio Look-Through</h1>
+    <p>Enter your stocks and funds with their dollar values. Each ETF is broken out into the companies it holds, so you can see how many dollars you really have in Apple, Nvidia, Microsoft and the rest.</p>
+  </header>
+
+  <div class="grid">
+    <!-- Left: what you own -->
+    <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+      <section class="panel" aria-labelledby="h-pos">
+        <h2 id="h-pos">Your positions</h2>
+        <div class="banner" id="example-banner" hidden>
+          <span>This is an example portfolio. Replace it with your own.</span>
+          <button type="button" id="clear-example">Start empty</button>
+        </div>
+        <form class="add" id="add-form" autocomplete="off">
+          <div class="field">
+            <label class="label" for="add-ticker">Ticker</label>
+            <input id="add-ticker" placeholder="VOO" required>
+          </div>
+          <div class="field">
+            <label class="label" for="add-value">Value ($)</label>
+            <input id="add-value" inputmode="decimal" placeholder="25,000" required>
+          </div>
+          <button type="submit">Add</button>
+        </form>
+        <p class="hint" id="add-msg">Use the market value of the position. Adding a ticker you already have adds to it.</p>
+        <ul class="positions" id="positions"></ul>
+        <div class="total-line"><span>Total</span><span class="num" id="pos-total">$0</span></div>
+        <div class="row">
+          <button type="button" class="link" id="toggle-bulk">Paste a list instead</button>
+          <span class="hint">·</span>
+          <button type="button" class="link" id="clear-all">Remove all</button>
+        </div>
+        <div id="bulk" hidden style="display:flex;flex-direction:column;gap:8px">
+          <label class="label" for="bulk-text">One position per line: ticker, value</label>
+          <textarea id="bulk-text" rows="6" placeholder="VOO, 40000&#10;QQQ 15000&#10;AAPL $8,200"></textarea>
+          <div class="row">
+            <button type="button" id="bulk-add">Add these</button>
+            <button type="button" class="ghost" id="bulk-replace">Replace my list</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="h-funds">
+        <h2 id="h-funds">Fund holdings data</h2>
+        <p class="hint">Built-in holdings are approximate top holdings for popular funds. Fund weights change daily, so for exact numbers paste the current holdings from the fund provider's website. Any ticker not listed here is treated as an individual stock unless you add its holdings.</p>
+        <div class="row">
+          <button type="button" class="ghost" id="new-fund">Add or update a fund</button>
+        </div>
+        <details class="funds">
+          <summary>Funds with holdings data (<span id="fund-count">0</span>)</summary>
+          <div class="fund-list" id="fund-list"></div>
+        </details>
+      </section>
+    </div>
+
+    <!-- Right: what you actually own -->
+    <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+      <div class="tiles" id="tiles"></div>
+
+      <section class="panel" aria-labelledby="h-exp">
+        <div class="toolbar">
+          <h2 id="h-exp">Exposure by company</h2>
+          <div class="legend"><span><i style="background:var(--accent)"></i>Owned directly</span><span><i style="background:var(--accent-2)"></i>Through funds</span></div>
+        </div>
+        <div class="toolbar">
+          <input type="search" id="search" placeholder="Find a company or ticker" aria-label="Find a company or ticker">
+          <div class="row">
+            <label class="check"><input type="checkbox" id="merge" checked> Combine share classes (GOOG + GOOGL)</label>
+            <button type="button" class="ghost" id="copy-csv">Copy as CSV</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="exp-table">
+            <thead>
+              <tr>
+                <th scope="col" data-k="rank">#</th>
+                <th scope="col" data-k="name">Company</th>
+                <th scope="col" class="r" data-k="direct">Direct</th>
+                <th scope="col" class="r" data-k="via">Via funds</th>
+                <th scope="col" class="r" data-k="total" aria-sort="descending">Total</th>
+                <th scope="col" class="r" data-k="pct">% of portfolio</th>
+                <th scope="col" data-k="bar" aria-label="Direct versus through funds"></th>
+              </tr>
+            </thead>
+            <tbody id="exp-body"></tbody>
+          </table>
+        </div>
+        <div class="more" id="more" hidden><button type="button" class="ghost" id="show-all">Show all</button></div>
+        <p class="hint">Click a row to see which positions the dollars come from.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="h-unit" id="unit-panel" hidden>
+        <h2 id="h-unit">Not broken out</h2>
+        <p class="hint">The part of each fund outside its listed holdings: smaller positions, bonds, or cash. Paste a fund's full holdings to break these out too.</p>
+        <ul class="unit-list" id="unit-list"></ul>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    Built-in fund weights are approximations of recent top holdings and are for exploring your exposure, not for trading or tax decisions. Your positions are saved only in this browser.
+  </footer>
+</div>
+
+<dialog id="fund-dlg">
+  <form method="dialog" id="fund-form">
+    <h3 id="dlg-title">Fund holdings</h3>
+    <div class="field">
+      <label class="label" for="dlg-ticker">Fund ticker</label>
+      <input id="dlg-ticker" placeholder="e.g. VOO">
+    </div>
+    <div class="field">
+      <label class="label" for="dlg-name">Fund name (optional)</label>
+      <input id="dlg-name" placeholder="Vanguard S&amp;P 500 ETF">
+    </div>
+    <div class="field">
+      <label class="label" for="dlg-text">Holdings: one per line, ticker and weight %</label>
+      <textarea id="dlg-text" placeholder="AAPL, Apple Inc, 6.9&#10;MSFT, Microsoft Corp, 6.2&#10;NVDA 7.6%"></textarea>
+    </div>
+    <p class="hint" id="dlg-msg">Paste straight from a provider's holdings CSV or table. Each line needs a ticker and a weight; a company name in between is kept. Weights left over after the listed holdings show under “Not broken out”.</p>
+    <div class="dlg-actions">
+      <button type="button" class="ghost" id="dlg-reset">Restore built-in data</button>
+      <div class="row">
+        <button type="button" class="ghost" id="dlg-cancel">Cancel</button>
+        <button type="button" id="dlg-save">Save holdings</button>
+      </div>
+    </div>
+  </form>
+</dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+/* ---------------- Company names ---------------- */
+const NAMES = {
+  NVDA:"Nvidia", AAPL:"Apple", MSFT:"Microsoft", AMZN:"Amazon", GOOGL:"Alphabet (Class A)", GOOG:"Alphabet (Class C)",
+  AVGO:"Broadcom", META:"Meta Platforms", TSLA:"Tesla", "BRK.B":"Berkshire Hathaway (B)", "BRK.A":"Berkshire Hathaway (A)",
+  JPM:"JPMorgan Chase", LLY:"Eli Lilly", V:"Visa", ORCL:"Oracle", XOM:"Exxon Mobil", WMT:"Walmart", MA:"Mastercard",
+  JNJ:"Johnson & Johnson", NFLX:"Netflix", PLTR:"Palantir", COST:"Costco", AMD:"Advanced Micro Devices", ABBV:"AbbVie",
+  BAC:"Bank of America", HD:"Home Depot", PG:"Procter & Gamble", GE:"GE Aerospace", CSCO:"Cisco", UNH:"UnitedHealth",
+  CVX:"Chevron", KO:"Coca-Cola", IBM:"IBM", MU:"Micron", WFC:"Wells Fargo", CAT:"Caterpillar", MS:"Morgan Stanley",
+  GS:"Goldman Sachs", AXP:"American Express", MRK:"Merck", PM:"Philip Morris", TMUS:"T-Mobile US", CRM:"Salesforce",
+  LRCX:"Lam Research", AMAT:"Applied Materials", RTX:"RTX", MCD:"McDonald's", ABT:"Abbott Laboratories", LIN:"Linde",
+  ISRG:"Intuitive Surgical", PEP:"PepsiCo", INTU:"Intuit", APP:"AppLovin", DIS:"Walt Disney", T:"AT&T", C:"Citigroup",
+  UBER:"Uber", NOW:"ServiceNow", QCOM:"Qualcomm", INTC:"Intel", TXN:"Texas Instruments", VZ:"Verizon", BKNG:"Booking Holdings",
+  ADBE:"Adobe", KLAC:"KLA", APH:"Amphenol", ANET:"Arista Networks", ACN:"Accenture", ADI:"Analog Devices", MRVL:"Marvell",
+  SNPS:"Synopsys", CDNS:"Cadence Design", NXPI:"NXP Semiconductors", MCHP:"Microchip Technology", TSM:"Taiwan Semiconductor",
+  ASML:"ASML", AMGN:"Amgen", LMT:"Lockheed Martin", BMY:"Bristol-Myers Squibb", MO:"Altria", COP:"ConocoPhillips",
+  PFE:"Pfizer", SHW:"Sherwin-Williams", TRV:"Travelers", HON:"Honeywell", BA:"Boeing", MMM:"3M", NKE:"Nike",
+  SPGI:"S&P Global", BLK:"BlackRock", SCHW:"Charles Schwab", PGR:"Progressive", TMO:"Thermo Fisher", BSX:"Boston Scientific",
+  GILD:"Gilead Sciences", DHR:"Danaher", SYK:"Stryker", VRTX:"Vertex Pharmaceuticals", WMB:"Williams Cos", EOG:"EOG Resources",
+  KMI:"Kinder Morgan", MPC:"Marathon Petroleum", PSX:"Phillips 66", SLB:"SLB", OKE:"ONEOK", VLO:"Valero", BKR:"Baker Hughes",
+  PLD:"Prologis", AMT:"American Tower", WELL:"Welltower", EQIX:"Equinix", SPG:"Simon Property", O:"Realty Income",
+  PSA:"Public Storage", DLR:"Digital Realty", CCI:"Crown Castle", CBRE:"CBRE Group", COIN:"Coinbase", ROKU:"Roku",
+  HOOD:"Robinhood", CRSP:"CRISPR Therapeutics", SHOP:"Shopify", TEM:"Tempus AI", RBLX:"Roblox", CRCL:"Circle Internet",
+  BEAM:"Beam Therapeutics", TWST:"Twist Bioscience", DKNG:"DraftKings", TCEHY:"Tencent", "005930.KS":"Samsung Electronics",
+  SAP:"SAP", NSRGY:"Nestlé", NVS:"Novartis", RHHBY:"Roche", AZN:"AstraZeneca", BABA:"Alibaba", HSBC:"HSBC",
+  SHEL:"Shell", TM:"Toyota Motor", SONY:"Sony Group", MUFG:"Mitsubishi UFJ Financial", RY:"Royal Bank of Canada",
+  SIEGY:"Siemens", NVO:"Novo Nordisk", UL:"Unilever", LVMUY:"LVMH", HDB:"HDFC Bank", "RELIANCE.NS":"Reliance Industries",
+  XIACY:"Xiaomi", PDD:"PDD Holdings", MPNGY:"Meituan", CICHY:"China Construction Bank", IBN:"ICICI Bank",
+  "000660.KS":"SK Hynix", INFY:"Infosys", "2317.TW":"Hon Hai Precision (Foxconn)", ETN:"Eaton", ADP:"ADP", UNP:"Union Pacific",
+  ELV:"Elevance Health", CMCSA:"Comcast", LOW:"Lowe's", SBUX:"Starbucks", CB:"Chubb", MDT:"Medtronic", UPS:"UPS",
+  ITW:"Illinois Tool Works", GD:"General Dynamics", NEE:"NextEra Energy", DUK:"Duke Energy", SO:"Southern Co",
+  CL:"Colgate-Palmolive", KMB:"Kimberly-Clark", BX:"Blackstone", ARM:"Arm Holdings", MSTR:"Strategy", CRWD:"CrowdStrike",
+  PANW:"Palo Alto Networks", SNOW:"Snowflake", DDOG:"Datadog", ADSK:"Autodesk", ABNB:"Airbnb", MELI:"MercadoLibre",
+  ASTS:"AST SpaceMobile", HIMS:"Hims & Hers", GEV:"GE Vernova", VRT:"Vertiv", ANF:"Abercrombie & Fitch"
+};
+const ALIAS = { GOOG: "GOOGL", "BRK.A": "BRK.B" };
+const ALIAS_NAME = { GOOGL: "Alphabet", "BRK.B": "Berkshire Hathaway" };
+
+/* ---------------- Built-in fund holdings (approximate, % of fund) ---------------- */
+const SP500 = [["NVDA",7.6],["AAPL",6.9],["MSFT",6.2],["AMZN",3.8],["GOOGL",2.9],["AVGO",2.7],["META",2.6],["GOOG",2.3],["TSLA",2.1],["BRK.B",1.6],["JPM",1.4],["LLY",1.4],["V",1.0],["XOM",0.9],["WMT",0.9],["ORCL",0.8],["MA",0.8],["JNJ",0.8],["PLTR",0.8],["NFLX",0.7],["COST",0.7],["AMD",0.7],["ABBV",0.7],["BAC",0.6],["HD",0.6],["PG",0.6],["GE",0.5],["CSCO",0.5],["UNH",0.5],["CVX",0.5],["KO",0.5],["IBM",0.5],["MU",0.5],["WFC",0.5],["CAT",0.4],["MS",0.4],["GS",0.4],["MRK",0.4],["PM",0.4],["CRM",0.4],["AXP",0.3],["TMUS",0.3],["LRCX",0.3],["AMAT",0.3],["RTX",0.3],["MCD",0.3],["ABT",0.3],["LIN",0.3],["ISRG",0.3],["PEP",0.3],["INTU",0.3],["APP",0.3],["DIS",0.3],["T",0.3],["C",0.3],["UBER",0.3],["NOW",0.3],["QCOM",0.3],["INTC",0.3],["TXN",0.3],["VZ",0.3],["BKNG",0.3]];
+const NDX100 = [["NVDA",9.5],["AAPL",8.5],["MSFT",7.8],["AMZN",5.4],["AVGO",5.0],["GOOGL",3.8],["META",3.6],["GOOG",3.5],["TSLA",3.2],["NFLX",2.4],["COST",2.3],["PLTR",2.2],["AMD",1.8],["CSCO",1.5],["TMUS",1.3],["MU",1.2],["PEP",1.1],["LRCX",1.0],["AMAT",1.0],["LIN",1.0],["ISRG",1.0],["INTU",1.0],["APP",0.9],["QCOM",0.9],["TXN",0.9],["BKNG",0.9],["INTC",0.8],["ADBE",0.8],["KLAC",0.7],["SHOP",0.7],["AMGN",0.7],["GILD",0.6],["PANW",0.6],["CRWD",0.6],["ADI",0.6],["HON",0.6],["MELI",0.5],["CMCSA",0.5],["ARM",0.4],["SBUX",0.4]];
+const VXUS_H = [["TSM",2.6],["TCEHY",1.2],["ASML",0.9],["005930.KS",0.8],["SAP",0.7],["NSRGY",0.6],["NVS",0.6],["RHHBY",0.6],["AZN",0.6],["BABA",0.6],["HSBC",0.6],["RY",0.5],["SIEGY",0.5],["SHEL",0.5],["TM",0.5],["SONY",0.4],["MUFG",0.4],["SHOP",0.4],["NVO",0.4],["UL",0.4],["000660.KS",0.4],["LVMUY",0.3]];
+const VEA_H = [["ASML",1.2],["005930.KS",1.1],["SAP",1.0],["NSRGY",0.8],["NVS",0.8],["RHHBY",0.8],["AZN",0.8],["HSBC",0.8],["RY",0.7],["SIEGY",0.7],["SHEL",0.7],["TM",0.7],["SONY",0.6],["MUFG",0.6],["SHOP",0.6],["000660.KS",0.6],["NVO",0.5],["UL",0.5],["LVMUY",0.4]];
+const IEFA_H = [["ASML",1.4],["SAP",1.1],["NSRGY",0.9],["NVS",0.9],["RHHBY",0.9],["AZN",0.9],["HSBC",0.9],["SIEGY",0.8],["SHEL",0.8],["TM",0.8],["SONY",0.7],["MUFG",0.7],["NVO",0.6],["UL",0.6],["LVMUY",0.5]];
+const VWO_H = [["TSM",9.5],["TCEHY",4.3],["BABA",2.8],["HDB",1.3],["RELIANCE.NS",1.2],["XIACY",1.1],["PDD",0.8],["MPNGY",0.8],["CICHY",0.8],["IBN",0.8],["2317.TW",0.7],["INFY",0.6]];
+const IEMG_H = [["TSM",9.0],["TCEHY",4.2],["005930.KS",3.4],["BABA",2.6],["000660.KS",1.6],["HDB",1.1],["RELIANCE.NS",1.0],["XIACY",1.0],["PDD",0.7],["MPNGY",0.7],["CICHY",0.7],["IBN",0.7],["2317.TW",0.7]];
+
+const scale = (list, f) => list.map(([t, w]) => [t, Math.round(w * f * 1000) / 1000]);
+const mix = (...parts) => {
+  const m = {};
+  parts.forEach(([list, f]) => list.forEach(([t, w]) => { m[t] = (m[t] || 0) + w * f; }));
+  return Object.entries(m).map(([t, w]) => [t, Math.round(w * 1000) / 1000]).sort((a, b) => b[1] - a[1]);
+};
+const TOTAL_US = scale(SP500, 0.86);
+
+const FUNDS = {
+  VOO:{name:"Vanguard S&P 500 ETF", h:SP500}, SPY:{name:"SPDR S&P 500 ETF Trust", h:SP500},
+  IVV:{name:"iShares Core S&P 500 ETF", h:SP500}, SPLG:{name:"SPDR Portfolio S&P 500 ETF", h:SP500},
+  SPYM:{name:"State Street SPDR Portfolio S&P 500 ETF", h:SP500},
+  VFIAX:{name:"Vanguard 500 Index Admiral (mutual fund)", h:SP500}, FXAIX:{name:"Fidelity 500 Index (mutual fund)", h:SP500},
+  SWPPX:{name:"Schwab S&P 500 Index (mutual fund)", h:SP500}, VV:{name:"Vanguard Large-Cap ETF", h:scale(SP500, 0.97)},
+  SCHX:{name:"Schwab U.S. Large-Cap ETF", h:scale(SP500, 0.96)},
+  VTI:{name:"Vanguard Total Stock Market ETF", h:TOTAL_US}, ITOT:{name:"iShares Core S&P Total U.S. Stock Market ETF", h:TOTAL_US},
+  SCHB:{name:"Schwab U.S. Broad Market ETF", h:TOTAL_US}, VTSAX:{name:"Vanguard Total Stock Market Admiral (mutual fund)", h:TOTAL_US},
+  FSKAX:{name:"Fidelity Total Market Index (mutual fund)", h:TOTAL_US}, FZROX:{name:"Fidelity ZERO Total Market Index", h:TOTAL_US},
+  QQQ:{name:"Invesco QQQ Trust (Nasdaq-100)", h:NDX100}, QQQM:{name:"Invesco Nasdaq 100 ETF", h:NDX100},
+  VGT:{name:"Vanguard Information Technology ETF", h:[["NVDA",17.5],["AAPL",15.0],["MSFT",12.5],["AVGO",5.2],["ORCL",2.0],["PLTR",2.2],["AMD",1.9],["CSCO",1.5],["IBM",1.3],["MU",1.3],["CRM",1.2],["INTU",1.0],["NOW",1.0],["LRCX",1.0],["AMAT",1.0],["QCOM",0.9],["TXN",0.9],["ADBE",0.8],["APP",0.9],["KLAC",0.8],["ACN",0.8],["APH",0.8],["ANET",0.8],["INTC",0.8],["ADI",0.6],["PANW",0.6],["CRWD",0.6]]},
+  XLK:{name:"Technology Select Sector SPDR", h:[["NVDA",14.5],["AAPL",13.0],["MSFT",12.0],["AVGO",5.5],["PLTR",3.5],["ORCL",3.0],["AMD",2.6],["CSCO",2.5],["IBM",2.2],["MU",2.1],["CRM",2.0],["APP",1.7],["LRCX",1.7],["AMAT",1.7],["INTU",1.6],["QCOM",1.5],["NOW",1.5],["TXN",1.4],["INTC",1.4],["KLAC",1.3],["ANET",1.3],["APH",1.3],["ADBE",1.2],["ACN",1.2]]},
+  SMH:{name:"VanEck Semiconductor ETF", h:[["NVDA",19.5],["TSM",10.5],["AVGO",8.0],["AMD",5.5],["MU",5.0],["ASML",4.6],["AMAT",4.5],["LRCX",4.5],["KLAC",4.4],["INTC",4.3],["QCOM",4.0],["TXN",3.8],["ADI",3.8],["MRVL",2.4],["SNPS",2.4],["CDNS",2.4],["NXPI",2.0],["MCHP",1.5]]},
+  SOXX:{name:"iShares Semiconductor ETF", h:[["NVDA",8.5],["AVGO",8.0],["AMD",7.5],["MU",6.5],["QCOM",5.5],["TXN",5.5],["INTC",5.5],["LRCX",5.0],["AMAT",5.0],["KLAC",5.0],["ADI",4.5],["MRVL",4.0],["TSM",4.0],["NXPI",3.5],["MCHP",3.0],["ASML",3.0]]},
+  SCHD:{name:"Schwab U.S. Dividend Equity ETF", h:[["CVX",4.4],["AMGN",4.2],["KO",4.2],["MRK",4.2],["ABBV",4.1],["MO",4.1],["COP",4.1],["VZ",4.1],["CSCO",4.0],["PEP",4.0],["LMT",4.0],["HD",3.9],["TXN",3.9],["BMY",3.8],["PFE",3.5]]},
+  VYM:{name:"Vanguard High Dividend Yield ETF", h:[["AVGO",6.5],["JPM",4.0],["XOM",2.6],["JNJ",2.2],["WMT",2.0],["PG",2.0],["ABBV",2.0],["HD",1.7],["BAC",1.6],["KO",1.4],["CVX",1.4],["CSCO",1.4],["PM",1.3],["WFC",1.2],["IBM",1.2],["MRK",1.2],["GS",1.1],["CAT",1.0],["PEP",1.0],["MS",0.9]]},
+  DGRO:{name:"iShares Core Dividend Growth ETF", h:[["JPM",3.2],["MSFT",3.0],["AAPL",2.8],["AVGO",2.8],["XOM",2.8],["JNJ",2.6],["ABBV",2.5],["PG",2.1],["HD",2.0],["CVX",2.0],["UNH",1.8],["MRK",1.6],["BAC",1.6],["KO",1.6],["CSCO",1.6],["PEP",1.5],["IBM",1.4]]},
+  VUG:{name:"Vanguard Growth ETF", h:[["NVDA",12.5],["AAPL",11.5],["MSFT",11.0],["AMZN",6.5],["AVGO",4.5],["GOOGL",4.5],["META",4.4],["GOOG",3.6],["TSLA",3.5],["LLY",2.3],["V",1.7],["MA",1.4],["PLTR",1.3],["NFLX",1.2],["COST",1.2],["AMD",1.1],["ISRG",0.6],["NOW",0.6],["INTU",0.5]]},
+  SCHG:{name:"Schwab U.S. Large-Cap Growth ETF", h:[["NVDA",12.0],["MSFT",10.5],["AAPL",10.0],["AMZN",6.5],["AVGO",5.0],["META",4.6],["GOOGL",3.8],["GOOG",3.2],["TSLA",3.4],["LLY",2.8],["V",2.0],["MA",1.7],["PLTR",1.5],["NFLX",1.4],["COST",1.3],["AMD",1.2]]},
+  MGK:{name:"Vanguard Mega Cap Growth ETF", h:[["NVDA",14.5],["AAPL",13.5],["MSFT",13.0],["AMZN",7.5],["AVGO",5.3],["GOOGL",5.2],["META",5.1],["GOOG",4.2],["TSLA",4.1],["LLY",2.7],["V",2.0],["MA",1.6],["PLTR",1.5],["NFLX",1.4],["COST",1.4]]},
+  IWF:{name:"iShares Russell 1000 Growth ETF", h:[["NVDA",12.5],["AAPL",11.0],["MSFT",10.5],["AVGO",5.0],["AMZN",4.8],["META",4.0],["GOOGL",3.6],["TSLA",3.6],["GOOG",3.0],["LLY",2.2],["V",1.6],["MA",1.4],["NFLX",1.4],["PLTR",1.4],["COST",1.2]]},
+  VTV:{name:"Vanguard Value ETF", h:[["JPM",3.6],["BRK.B",3.2],["XOM",2.1],["WMT",2.0],["JNJ",2.0],["ORCL",1.6],["ABBV",1.6],["PG",1.6],["HD",1.5],["BAC",1.4],["CSCO",1.2],["UNH",1.2],["CVX",1.2],["KO",1.1],["WFC",1.1],["GE",1.1],["IBM",1.0],["PM",1.0],["CAT",1.0],["MRK",1.0],["GS",1.0],["MS",0.9]]},
+  DIA:{name:"SPDR Dow Jones Industrial Average ETF", h:[["GS",11.0],["CAT",6.5],["MSFT",6.3],["HD",5.3],["SHW",4.8],["V",4.7],["AXP",4.6],["JPM",4.4],["UNH",4.3],["AMGN",4.3],["MCD",4.2],["IBM",4.0],["TRV",3.6],["AAPL",3.6],["CRM",3.3],["AMZN",3.1],["HON",3.0],["BA",3.0],["JNJ",2.9],["NVDA",2.6],["CVX",2.1],["MMM",2.2],["PG",2.0],["WMT",1.4],["DIS",1.5],["MRK",1.2],["NKE",0.9],["CSCO",1.0],["KO",1.0],["VZ",0.5]]},
+  XLF:{name:"Financial Select Sector SPDR", h:[["BRK.B",12.0],["JPM",11.0],["V",8.0],["MA",6.5],["BAC",4.6],["WFC",3.8],["GS",3.4],["MS",2.7],["AXP",2.4],["SPGI",2.3],["C",2.3],["SCHW",2.0],["PGR",2.0],["BLK",1.9],["BX",1.6],["CB",1.4]]},
+  XLV:{name:"Health Care Select Sector SPDR", h:[["LLY",13.0],["JNJ",8.0],["ABBV",7.0],["UNH",5.5],["ABT",4.6],["MRK",4.5],["TMO",4.0],["ISRG",3.8],["AMGN",3.5],["BSX",3.2],["GILD",3.0],["DHR",2.7],["PFE",2.7],["SYK",2.5],["VRTX",2.2],["MDT",2.2],["BMY",1.8],["ELV",1.4]]},
+  XLE:{name:"Energy Select Sector SPDR", h:[["XOM",23.0],["CVX",17.0],["COP",7.0],["WMB",4.6],["EOG",4.4],["KMI",4.0],["MPC",4.0],["PSX",4.0],["SLB",3.8],["OKE",3.0],["VLO",3.0],["BKR",2.8]]},
+  VNQ:{name:"Vanguard Real Estate ETF", h:[["WELL",6.5],["PLD",6.5],["AMT",5.0],["EQIX",4.4],["SPG",3.2],["DLR",3.0],["O",3.0],["PSA",2.6],["CBRE",2.6],["CCI",2.2]]},
+  ARKK:{name:"ARK Innovation ETF", h:[["TSLA",10.5],["COIN",7.0],["ROKU",6.0],["HOOD",6.0],["CRSP",5.2],["SHOP",5.0],["TEM",4.6],["PLTR",4.5],["CRCL",4.0],["RBLX",4.0],["AMD",3.5],["BEAM",3.0],["TWST",2.5],["DKNG",2.5],["META",2.0]]},
+  VXUS:{name:"Vanguard Total International Stock ETF", h:VXUS_H}, VTIAX:{name:"Vanguard Total Intl Stock Admiral (mutual fund)", h:VXUS_H},
+  IXUS:{name:"iShares Core MSCI Total International Stock ETF", h:VXUS_H},
+  VEA:{name:"Vanguard FTSE Developed Markets ETF", h:VEA_H}, IEFA:{name:"iShares Core MSCI EAFE ETF", h:IEFA_H},
+  EFA:{name:"iShares MSCI EAFE ETF", h:IEFA_H}, SCHF:{name:"Schwab International Equity ETF", h:VEA_H},
+  VWO:{name:"Vanguard FTSE Emerging Markets ETF", h:VWO_H}, IEMG:{name:"iShares Core MSCI Emerging Markets ETF", h:IEMG_H},
+  VT:{name:"Vanguard Total World Stock ETF", h:mix([TOTAL_US, 0.62], [VXUS_H, 0.37])},
+  ACWI:{name:"iShares MSCI ACWI ETF", h:mix([SP500, 0.6], [VXUS_H, 0.34])},
+  IWM:{name:"iShares Russell 2000 ETF (small caps)", h:[]}, VB:{name:"Vanguard Small-Cap ETF", h:[]},
+  VO:{name:"Vanguard Mid-Cap ETF", h:[]}, RSP:{name:"Invesco S&P 500 Equal Weight ETF (about 0.2% each)", h:[]},
+  IJR:{name:"iShares Core S&P Small-Cap ETF", h:[]}, IJH:{name:"iShares Core S&P Mid-Cap ETF", h:[]},
+  BND:{name:"Vanguard Total Bond Market ETF", h:[], kind:"bond"}, AGG:{name:"iShares Core U.S. Aggregate Bond ETF", h:[], kind:"bond"},
+  BNDX:{name:"Vanguard Total International Bond ETF", h:[], kind:"bond"}, TLT:{name:"iShares 20+ Year Treasury Bond ETF", h:[], kind:"bond"},
+  SGOV:{name:"iShares 0-3 Month Treasury Bond ETF", h:[], kind:"bond"}, BIL:{name:"SPDR Bloomberg 1-3 Month T-Bill ETF", h:[], kind:"bond"},
+  SCHZ:{name:"Schwab U.S. Aggregate Bond ETF", h:[], kind:"bond"}, VGIT:{name:"Vanguard Intermediate-Term Treasury ETF", h:[], kind:"bond"},
+  GLD:{name:"SPDR Gold Shares", h:[], kind:"commodity"}, IAU:{name:"iShares Gold Trust", h:[], kind:"commodity"},
+  IBIT:{name:"iShares Bitcoin Trust", h:[], kind:"commodity"}
+};
+
+/* ---------------- State ---------------- */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const EXAMPLE = [{t:"VOO",v:40000},{t:"QQQ",v:15000},{t:"SCHD",v:10000},{t:"VXUS",v:8000},{t:"AAPL",v:8200},{t:"NVDA",v:5500},{t:"BND",v:6000}];
+let positions = store.get("lt.positions", null);
+let isExample = store.get("lt.isExample", positions === null);
+if (!positions) positions = EXAMPLE.map(p => ({...p}));
+let custom = store.get("lt.custom", {});
+let merge = store.get("lt.merge", true);
+let sortKey = "total", sortDir = -1, showAll = false, query = "";
+const open = new Set();
+let lastRows = [];
+
+const $ = id => document.getElementById(id);
+const fmt$ = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD", maximumFractionDigits:0});
+const fmtC = new Intl.NumberFormat("en-US", {style:"currency", currency:"USD", minimumFractionDigits:2, maximumFractionDigits:2});
+const money = v => (Math.abs(v) < 100 && v !== 0 ? fmtC : fmt$).format(v);
+const pct = v => (v >= 10 ? v.toFixed(1) : v >= 0.1 ? v.toFixed(2) : v.toFixed(3)) + "%";
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const normT = t => String(t || "").trim().toUpperCase().replace(/^\$/, "").replace(/[\/\- ](?=[A-Z]$)/, ".");
+const parseMoney = s => { const n = parseFloat(String(s).replace(/[$,\s]/g, "")); return isFinite(n) ? n : NaN; };
+
+function save() { store.set("lt.positions", positions); store.set("lt.isExample", isExample); }
+function getFund(t) { return custom[t] || FUNDS[t] || null; }
+function nameOf(t) {
+  if (NAMES[t]) return NAMES[t];
+  for (const f of Object.values(custom)) if (f.names && f.names[t]) return f.names[t];
+  return t;
+}
+function keyOf(t) { return merge && ALIAS[t] ? ALIAS[t] : t; }
+
+let toastTimer;
+function toast(msg) { const el = $("toast"); el.textContent = msg; el.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => el.hidden = true, 2200); }
+
+/* ---------------- Look-through math ---------------- */
+function compute() {
+  const exp = new Map();
+  const unitem = [];
+  let total = 0, mapped = 0;
+  const add = (t, amt, src) => {
+    const k = keyOf(t);
+    let e = exp.get(k);
+    if (!e) { e = {key:k, tickers:new Set(), direct:0, via:0, sources:[]}; exp.set(k, e); }
+    e.tickers.add(t);
+    if (src.fund) e.via += amt; else e.direct += amt;
+    e.sources.push({...src, t, amt});
+  };
+  for (const p of positions) {
+    total += p.v;
+    const f = getFund(p.t);
+    if (!f) { add(p.t, p.v, {fund:null}); mapped += p.v; continue; }
+    let sum = 0;
+    for (const [t, w] of f.h) {
+      const amt = p.v * w / 100; sum += w; mapped += amt;
+      add(t, amt, {fund:p.t, w, base:p.v});
+    }
+    const rem = Math.max(0, 100 - sum);
+    if (rem > 0.001) unitem.push({fund:p.t, name:f.name, pct:rem, amt:p.v * rem / 100, kind:f.kind});
+  }
+  const rows = [...exp.values()].map(e => {
+    const tickers = [...e.tickers].sort();
+    const name = (merge && ALIAS_NAME[e.key] && tickers.length > 1) ? ALIAS_NAME[e.key] : nameOf(e.key);
+    return {...e, tickers, name, total:e.direct + e.via, pct: total ? (e.direct + e.via) / total * 100 : 0};
+  });
+  return {rows, unitem: unitem.sort((a, b) => b.amt - a.amt), total, mapped};
+}
+
+/* ---------------- Rendering ---------------- */
+function renderPositions() {
+  const ul = $("positions");
+  $("example-banner").hidden = !isExample || positions.length === 0;
+  if (!positions.length) { ul.innerHTML = '<li class="empty" style="display:block">No positions yet. Add a ticker above.</li>'; }
+  else ul.innerHTML = positions.map((p, i) => {
+    const f = getFund(p.t);
+    const chip = f ? (custom[p.t] ? '<span class="chip custom">Fund · your data</span>' : '<span class="chip fund">Fund</span>') : '<span class="chip stock">Stock</span>';
+    const sub = f ? esc(f.name) : (NAMES[p.t] ? esc(NAMES[p.t]) : `Not a fund we know. <button type="button" class="link" data-fund="${esc(p.t)}">It's a fund</button>`);
+    return `<li><div class="pos-name"><b>${esc(p.t)}</b>${chip}<small>${sub}</small></div>
+      <input id="pos-${i}" data-i="${i}" value="${p.v.toLocaleString("en-US")}" aria-label="Value of ${esc(p.t)} in dollars">
+      <button type="button" class="icon" data-del="${i}" aria-label="Remove ${esc(p.t)}">×</button></li>`;
+  }).join("");
+  $("pos-total").textContent = fmt$.format(positions.reduce((s, p) => s + p.v, 0));
+}
+
+function renderFundList() {
+  const all = [...new Set([...Object.keys(FUNDS), ...Object.keys(custom)])].sort();
+  $("fund-count").textContent = all.length;
+  $("fund-list").innerHTML = all.map(t => `<button type="button" class="${custom[t] ? "edited" : ""}" data-fund="${esc(t)}" title="${esc(getFund(t).name)}">${esc(t)}</button>`).join("");
+}
+
+function renderResults() {
+  const {rows, unitem, total, mapped} = compute();
+  lastRows = rows;
+  const sorted = [...rows].sort((a, b) => b.total - a.total);
+  const top = sorted[0];
+  const top10 = sorted.slice(0, 10).reduce((s, r) => s + r.total, 0);
+  const funds = positions.filter(p => getFund(p.t)).length;
+  $("tiles").innerHTML = `
+    <div class="tile"><div class="label">Portfolio value</div><div class="v">${fmt$.format(total)}</div><div class="s">${positions.length} positions · ${funds} funds</div></div>
+    <div class="tile"><div class="label">Companies owned</div><div class="v">${rows.length.toLocaleString()}</div><div class="s">${total ? pct(mapped / total * 100) : "0%"} of dollars mapped to a company</div></div>
+    <div class="tile"><div class="label">Largest exposure</div><div class="v">${top ? esc(top.name) : "None"}</div><div class="s">${top ? `${money(top.total)} · ${pct(top.pct)}` : "Add positions to begin"}</div></div>
+    <div class="tile"><div class="label">Top 10 companies</div><div class="v">${total ? pct(top10 / total * 100) : "0%"}</div><div class="s">${fmt$.format(top10)} of your portfolio</div></div>`;
+
+  // rank by total, regardless of display sort
+  const rank = new Map(sorted.map((r, i) => [r.key, i + 1]));
+  const q = query.trim().toLowerCase();
+  let list = rows.filter(r => !q || r.name.toLowerCase().includes(q) || r.tickers.some(t => t.toLowerCase().includes(q)));
+  const val = r => sortKey === "name" ? r.name.toLowerCase() : sortKey === "rank" ? rank.get(r.key) : sortKey === "bar" ? r.via / (r.total || 1) : r[sortKey];
+  list.sort((a, b) => { const x = val(a), y = val(b); return (x < y ? -1 : x > y ? 1 : 0) * sortDir; });
+  const limit = showAll || q ? list.length : 50;
+  const maxTotal = top ? top.total : 1;
+  document.querySelectorAll("#exp-table th").forEach(th => th.removeAttribute("aria-sort"));
+  const th = document.querySelector(`#exp-table th[data-k="${sortKey}"]`);
+  if (th) th.setAttribute("aria-sort", sortDir < 0 ? "descending" : "ascending");
+
+  $("exp-body").innerHTML = list.length ? list.slice(0, limit).map(r => {
+    const dW = r.direct / maxTotal * 100, eW = r.via / maxTotal * 100;
+    let html = `<tr class="co" data-key="${esc(r.key)}" tabindex="0" aria-expanded="${open.has(r.key)}">
+      <td class="rank">${rank.get(r.key)}</td>
+      <td class="co-name"><b>${esc(r.name)}</b><span class="tk">${esc(r.tickers.join(" / "))}</span></td>
+      <td class="r num">${r.direct ? money(r.direct) : "–"}</td>
+      <td class="r num">${r.via ? money(r.via) : "–"}</td>
+      <td class="r num"><b>${money(r.total)}</b></td>
+      <td class="r num">${pct(r.pct)}</td>
+      <td><div class="bar" title="Direct ${money(r.direct)} · via funds ${money(r.via)}"><span class="d" style="width:${dW}%"></span><span class="e" style="width:${eW}%"></span></div></td></tr>`;
+    if (open.has(r.key)) {
+      const src = [...r.sources].sort((a, b) => b.amt - a.amt).map(s => s.fund
+        ? `<span>${esc(s.fund)}${r.tickers.length > 1 ? " (" + esc(s.t) + ")" : ""}</span><span>${money(s.amt)}</span><span>${pct(s.w)} of ${fmt$.format(s.base)}</span>`
+        : `<span>${esc(s.t)} shares</span><span>${money(s.amt)}</span><span>owned directly</span>`).join("");
+      html += `<tr class="detail"><td colspan="7"><div class="sources">${src}</div></td></tr>`;
+    }
+    return html;
+  }).join("") : `<tr><td colspan="7" class="empty">${q ? "No company matches that search." : "Add a position to see your exposure."}</td></tr>`;
+  $("more").hidden = !(list.length > limit);
+  $("show-all").textContent = `Show all ${list.length.toLocaleString()}`;
+
+  $("unit-panel").hidden = !unitem.length;
+  $("unit-list").innerHTML = unitem.map(u => {
+    const what = u.kind === "bond" ? "bonds and cash" : u.kind === "commodity" ? "not company stock" : u.pct >= 99.99 ? "no holdings listed" : "smaller holdings";
+    return `<li><span><b class="mono">${esc(u.fund)}</b> · ${what} (${pct(u.pct)} of fund)</span><span class="num">${money(u.amt)}</span></li>`;
+  }).join("");
+}
+
+function renderAll() { renderPositions(); renderFundList(); renderResults(); }
+
+/* ---------------- Position input ---------------- */
+function addPosition(t, v) {
+  t = normT(t);
+  if (!t || !/^[A-Z0-9][A-Z0-9.]{0,11}$/.test(t)) return `“${t}” doesn't look like a ticker.`;
+  if (!(v > 0)) return "Enter a dollar value above zero.";
+  if (isExample) { positions = []; isExample = false; }
+  const ex = positions.find(p => p.t === t);
+  if (ex) ex.v = Math.round((ex.v + v) * 100) / 100; else positions.push({t, v: Math.round(v * 100) / 100});
+  return "";
+}
+$("add-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const err = addPosition($("add-ticker").value, parseMoney($("add-value").value));
+  $("add-msg").textContent = err || "Added. Use the market value of each position.";
+  $("add-msg").style.color = err ? "var(--danger)" : "";
+  if (!err) { $("add-ticker").value = ""; $("add-value").value = ""; $("add-ticker").focus(); save(); renderAll(); }
+});
+$("positions").addEventListener("change", e => {
+  const i = e.target.dataset.i; if (i === undefined) return;
+  const v = parseMoney(e.target.value);
+  if (v > 0) { positions[i].v = v; isExample = false; save(); renderAll(); } else { e.target.value = positions[i].v.toLocaleString("en-US"); }
+});
+$("positions").addEventListener("click", e => {
+  const d = e.target.closest("[data-del]");
+  if (d) { positions.splice(+d.dataset.del, 1); isExample = false; save(); renderAll(); }
+});
+$("clear-example").onclick = () => { positions = []; isExample = false; save(); renderAll(); $("add-ticker").focus(); };
+let confirmClear = false;
+$("clear-all").onclick = e => {
+  if (!positions.length) return;
+  if (!confirmClear) { confirmClear = true; e.target.textContent = "Click again to remove all"; setTimeout(() => { confirmClear = false; e.target.textContent = "Remove all"; }, 3000); return; }
+  confirmClear = false; e.target.textContent = "Remove all"; positions = []; isExample = false; save(); renderAll();
+};
+$("toggle-bulk").onclick = () => { const b = $("bulk"); b.hidden = !b.hidden; if (!b.hidden) $("bulk-text").focus(); };
+function parseBulk(text) {
+  const out = [], bad = [];
+  text.split(/\r?\n/).forEach(line => {
+    if (!line.trim()) return;
+    const m = line.match(/^\s*\$?([A-Za-z0-9.\-\/]+)[\s,;:\t]+\$?\s*([\d,]+(?:\.\d+)?)\s*$/);
+    if (m) out.push([m[1], parseMoney(m[2])]); else bad.push(line.trim());
+  });
+  return {out, bad};
+}
+function bulk(replace) {
+  const {out, bad} = parseBulk($("bulk-text").value);
+  if (!out.length) { toast("No lines matched “ticker, value”."); return; }
+  if (replace || isExample) { positions = []; isExample = false; }
+  out.forEach(([t, v]) => addPosition(t, v));
+  save(); renderAll();
+  $("bulk-text").value = bad.join("\n");
+  toast(`Added ${out.length} position${out.length > 1 ? "s" : ""}` + (bad.length ? `. ${bad.length} line${bad.length > 1 ? "s" : ""} left in the box didn't match.` : "."));
+}
+$("bulk-add").onclick = () => bulk(false);
+$("bulk-replace").onclick = () => bulk(true);
+
+/* ---------------- Results interaction ---------------- */
+$("search").addEventListener("input", e => { query = e.target.value; renderResults(); });
+$("merge").checked = merge;
+$("merge").addEventListener("change", e => { merge = e.target.checked; store.set("lt.merge", merge); open.clear(); renderResults(); });
+document.querySelector("#exp-table thead").addEventListener("click", e => {
+  const th = e.target.closest("th"); if (!th) return;
+  const k = th.dataset.k;
+  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "name" || k === "rank") ? 1 : -1; }
+  renderResults();
+});
+function toggleRow(tr) { const k = tr.dataset.key; open.has(k) ? open.delete(k) : open.add(k); renderResults(); }
+$("exp-body").addEventListener("click", e => { const tr = e.target.closest("tr.co"); if (tr) toggleRow(tr); });
+$("exp-body").addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches("tr.co")) { e.preventDefault(); const k = e.target.dataset.key; toggleRow(e.target); const again = document.querySelector(`tr.co[data-key="${CSS.escape(k)}"]`); if (again) again.focus(); } });
+$("show-all").onclick = () => { showAll = true; renderResults(); };
+$("copy-csv").onclick = () => {
+  const lines = [["Rank","Company","Tickers","Direct","Via funds","Total","Percent of portfolio"].join(",")];
+  [...lastRows].sort((a, b) => b.total - a.total).forEach((r, i) => lines.push([i + 1, `"${r.name.replace(/"/g, '""')}"`, r.tickers.join(" "), r.direct.toFixed(2), r.via.toFixed(2), r.total.toFixed(2), r.pct.toFixed(4)].join(",")));
+  const text = lines.join("\n");
+  const fallback = () => { $("bulk").hidden = false; $("bulk-text").value = text; $("bulk-text").select(); toast("Copy was blocked. The CSV is selected in the paste box, press Ctrl+C."); };
+  try { navigator.clipboard.writeText(text).then(() => toast(`Copied ${lastRows.length} rows as CSV.`), fallback); } catch { fallback(); }
+};
+
+/* ---------------- Fund holdings editor ---------------- */
+const dlg = $("fund-dlg");
+function openFund(t) {
+  t = t ? normT(t) : "";
+  const f = t ? getFund(t) : null;
+  $("dlg-title").textContent = t ? `Holdings for ${t}` : "Add or update a fund";
+  $("dlg-ticker").value = t;
+  $("dlg-name").value = f ? f.name : "";
+  $("dlg-text").value = f ? f.h.map(([h, w]) => `${h}, ${nameOf(h)}, ${w}`).join("\n") : "";
+  $("dlg-reset").hidden = !(t && custom[t] && FUNDS[t]);
+  $("dlg-msg").style.color = "";
+  if (typeof dlg.showModal === "function") dlg.showModal(); else dlg.setAttribute("open", "");
+  ($("dlg-ticker").value ? $("dlg-text") : $("dlg-ticker")).focus();
+}
+function closeDlg() { if (dlg.open) dlg.close ? dlg.close() : dlg.removeAttribute("open"); }
+function parseHoldings(text) {
+  const h = {}, names = {};
+  let wCol = -1;
+  const split = line => line.split(/\t|,(?=(?:[^"]*"[^"]*")*[^"]*$)|;/).map(c => c.replace(/^"|"$/g, "").trim());
+  text.split(/\r?\n/).forEach(line => {
+    if (!line.trim()) return;
+    if (/weight|% of (fund|net)/i.test(line) && !/\d/.test(line.replace(/\(%\)/g, ""))) { wCol = split(line).findIndex(c => /weight|% of/i.test(c)); return; }
+    const raw = split(line);
+    if (wCol >= 0 && raw[wCol] !== undefined) {
+      const n = parseFloat(raw[wCol].replace(/[%,\s]/g, ""));
+      const cellsW = raw.filter(Boolean);
+      const isTk0 = c => /^[A-Z][A-Z0-9.\-\/]{0,9}$/.test(c);
+      const tk = cellsW.find(isTk0);
+      if (tk && n > 0) { const t = normT(tk); h[t] = (h[t] || 0) + n; const nm = cellsW.find(c => c !== tk && /[a-z]/i.test(c) && c.length > 3 && !isTk0(c)); if (nm) names[t] = nm; }
+      return;
+    }
+    let cells = raw.filter(Boolean);
+    if (cells.length < 2) cells = line.trim().split(/\s+/);
+    let ticker = null, weight = NaN, name = "";
+    const isTk = c => { const u = normT(c); return /^[A-Z][A-Z0-9.]{0,9}$/.test(u) || /^\d{4,6}\.[A-Z]{2}$/.test(u); };
+    const strict = cells.find(c => !/\s/.test(c) && c === c.toUpperCase() && /[A-Z]/.test(c) && isTk(c));
+    const loose = cells.find(isTk);
+    ticker = (strict || loose) ? normT(strict || loose) : null;
+    // weight = last cell that parses as a number (optionally with %)
+    const pc = cells.find(c => /^\s*[\d.]+\s*%\s*$/.test(c));
+    if (pc) weight = parseFloat(pc);
+    else for (let i = cells.length - 1; i >= 0; i--) { const n = parseFloat(cells[i].replace(/[%,\s]/g, "")); if (isFinite(n) && /^[\d.,%\s-]+$/.test(cells[i])) { weight = n; break; } }
+    name = cells.find(c => normT(c) !== ticker && !/^[\d.,%$\s-]+$/.test(c) && c.length > 2) || "";
+    if (ticker && isFinite(weight) && weight > 0) { h[ticker] = (h[ticker] || 0) + weight; if (name && name.toUpperCase() !== ticker) names[ticker] = name; }
+  });
+  let list = Object.entries(h);
+  const sum = list.reduce((s, [, w]) => s + w, 0);
+  if (list.length && sum <= 1.0001) list = list.map(([t, w]) => [t, w * 100]); // weights given as fractions
+  return {h: list.map(([t, w]) => [t, Math.round(w * 10000) / 10000]).sort((a, b) => b[1] - a[1]), names};
+}
+$("new-fund").onclick = () => openFund("");
+$("fund-list").addEventListener("click", e => { const b = e.target.closest("[data-fund]"); if (b) openFund(b.dataset.fund); });
+$("positions").addEventListener("click", e => { const b = e.target.closest("[data-fund]"); if (b) openFund(b.dataset.fund); });
+$("dlg-cancel").onclick = closeDlg;
+$("dlg-save").onclick = () => {
+  const t = normT($("dlg-ticker").value);
+  const msg = $("dlg-msg");
+  if (!t) { msg.textContent = "Enter the fund's ticker."; msg.style.color = "var(--danger)"; return; }
+  const {h, names} = parseHoldings($("dlg-text").value);
+  if (!h.length) { msg.textContent = "No lines had both a ticker and a weight. Example: AAPL, 6.9"; msg.style.color = "var(--danger)"; return; }
+  const sum = h.reduce((s, [, w]) => s + w, 0);
+  if (sum > 100.5) { msg.textContent = `Weights add up to ${sum.toFixed(1)}%, which is over 100%. Check for duplicate or header rows.`; msg.style.color = "var(--danger)"; return; }
+  Object.keys(names).forEach(k => { if (NAMES[k]) delete names[k]; });
+  custom[t] = {name: $("dlg-name").value.trim() || (FUNDS[t] && FUNDS[t].name) || t, h, names, edited: new Date().toISOString().slice(0, 10)};
+  store.set("lt.custom", custom);
+  closeDlg(); renderAll();
+  toast(`Saved ${h.length} holdings for ${t} (${sum.toFixed(1)}% of the fund).`);
+};
+$("dlg-reset").onclick = () => {
+  const t = normT($("dlg-ticker").value);
+  delete custom[t]; store.set("lt.custom", custom); closeDlg(); renderAll(); toast(`${t} is back to the built-in holdings.`);
+};
+
+renderAll();
+})();
+</script>
+</body>
+</html>
