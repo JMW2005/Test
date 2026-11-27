@@ -59,8 +59,6 @@ body {
   padding-block: 24px 48px;
 }
 .wrap { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
-header h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
-header p { margin: 4px 0 0; color: var(--muted); max-width: 70ch; }
 .grid { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 24px; align-items: start; }
 @media (max-width: 900px) { .grid { grid-template-columns: minmax(0, 1fr); } }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
@@ -102,7 +100,8 @@ button.icon:hover { color: var(--danger); }
 .pos-name b { font-family: var(--font-mono); font-weight: 500; }
 .pos-name small { display: block; color: var(--muted); font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .positions input { text-align: right; padding: 5px 8px; font-family: var(--font-mono); }
-#add-mode { padding: 0 2px; border: none; background: transparent; color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; width: auto; }
+a { color: var(--accent); text-underline-offset: 2px; }
+#add-mode { -webkit-appearance: none; appearance: none; cursor: pointer; padding: 0 2px; border: none; background: transparent; color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; width: auto; }
 .chip { display: inline-block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px; font-family: var(--font-body); }
 .chip.fund { background: var(--accent-soft); color: var(--accent); }
 .chip.stock { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
@@ -169,128 +168,174 @@ footer { color: var(--muted); font-size: 0.82rem; max-width: 90ch; }
   .toolbar input[type="search"] { width: 100%; }
   .bar { width: 90px; }
 }
+.appbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.01em; }
+.brand img { border-radius: 7px; }
+.tabs { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 4px; }
+.tabs a { display: flex; align-items: center; gap: 7px; padding: 7px 14px; border-radius: 7px; color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.92rem; }
+.tabs a svg { width: 18px; height: 18px; }
+.tabs a:hover { color: var(--ink); }
+.tabs a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
+.tabs a:focus-visible, .btnlink:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.view { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.view.narrow { max-width: 720px; width: 100%; margin: 0 auto; }
+.page-title { font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; margin: 0; }
+.btnlink { display: inline-block; font-weight: 600; text-decoration: none; border-radius: 6px; padding: 8px 14px; border: 1px solid var(--accent); color: var(--accent); text-align: center; }
+.btnlink.wide { display: block; }
+.banner .btnlink { border-color: var(--warn); color: var(--warn); padding: 4px 10px; }
+.total-head { font-size: 1.15rem; font-weight: 500; }
+.pxline { margin: 0; font-size: 0.82rem; color: var(--muted); }
+.pxline:empty { display: none; }
+.check { line-height: 1.4; }
+@media (max-width: 700px) {
+  body { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)); }
+  .tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; border-radius: 0; border-width: 1px 0 0; justify-content: space-around;
+    padding: 6px max(8px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(8px, env(safe-area-inset-left, 0px)); }
+  .tabs a { flex-direction: column; gap: 2px; font-size: 0.72rem; padding: 6px 10px; flex: 1; }
+  .tabs a svg { width: 22px; height: 22px; }
+  .toast { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+}
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Portfolio Look-Through</h1>
-    <p>Enter your stocks and funds with their dollar values. Each ETF is broken out into the companies it holds, so you can see how many dollars you really have in Apple, Nvidia, Microsoft and the rest.</p>
+  <header class="appbar">
+    <div class="brand">
+      <img src="icons/icon-192.png" alt="" width="28" height="28" onerror="this.remove()">
+      <span>Portfolio Look-Through</span>
+    </div>
+    <nav class="tabs" aria-label="Pages">
+      <a href="#holdings" data-tab="holdings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12 4a8 8 0 0 1 8 8h-8z" fill="currentColor"/></svg><span>Holdings</span></a>
+      <a href="#positions" data-tab="positions"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Positions</span></a>
+      <a href="#options" data-tab="options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="15" cy="7" r="2.3" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="9" cy="17" r="2.3" fill="none" stroke="currentColor" stroke-width="2.2"/></svg><span>Settings</span></a>
+    </nav>
   </header>
 
-  <div class="grid">
-    <!-- Left: what you own -->
-    <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
-      <section class="panel" aria-labelledby="h-pos">
+  <!-- Page 1: breakout of holdings -->
+  <main class="view" data-view="holdings" aria-labelledby="h-exp">
+    <div class="tiles" id="tiles"></div>
+    <div class="banner" id="holdings-example" hidden>
+      <span>You're looking at an example portfolio.</span>
+      <a class="btnlink" href="#positions">Enter your positions</a>
+    </div>
+
+    <section class="panel">
+      <div class="toolbar">
+        <h2 id="h-exp">Exposure by company</h2>
+        <div class="legend"><span><i style="background:var(--accent)"></i>Owned directly</span><span><i style="background:var(--accent-2)"></i>Through funds</span></div>
+      </div>
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="Find a company or ticker" aria-label="Find a company or ticker">
+        <button type="button" class="ghost" id="copy-csv">Copy as CSV</button>
+      </div>
+      <div class="table-wrap">
+        <table id="exp-table">
+          <thead>
+            <tr>
+              <th scope="col" data-k="rank">#</th>
+              <th scope="col" data-k="name">Company</th>
+              <th scope="col" class="r" data-k="direct">Direct</th>
+              <th scope="col" class="r" data-k="via">Via funds</th>
+              <th scope="col" class="r" data-k="total" aria-sort="descending">Total</th>
+              <th scope="col" class="r" data-k="pct">% of portfolio</th>
+              <th scope="col" data-k="bar" aria-label="Direct versus through funds"></th>
+            </tr>
+          </thead>
+          <tbody id="exp-body"></tbody>
+        </table>
+      </div>
+      <div class="more" id="more" hidden><button type="button" class="ghost" id="show-all">Show all</button></div>
+      <p class="hint">Tap a row to see which positions the dollars come from.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-unit" id="unit-panel" hidden>
+      <h2 id="h-unit">Not broken out</h2>
+      <p class="hint">The part of each fund outside its listed holdings: smaller positions, bonds, or cash. Paste a fund's full holdings in Settings to break these out too.</p>
+      <ul class="unit-list" id="unit-list"></ul>
+    </section>
+  </main>
+
+  <!-- Page 2: enter stocks and shares -->
+  <main class="view narrow" data-view="positions" aria-labelledby="h-pos" hidden>
+    <section class="panel">
+      <div class="toolbar">
         <h2 id="h-pos">Your positions</h2>
-        <div class="banner" id="example-banner" hidden>
-          <span>This is an example portfolio. Replace it with your own.</span>
-          <button type="button" id="clear-example">Start empty</button>
-        </div>
-        <form class="add" id="add-form" autocomplete="off">
-          <div class="field">
-            <label class="label" for="add-ticker">Ticker</label>
-            <input id="add-ticker" placeholder="VOO" required>
-          </div>
-          <div class="field">
-            <select id="add-mode" aria-label="Enter shares or a dollar value"><option value="sh">Shares ▾</option><option value="v">Value ($) ▾</option></select>
-            <input id="add-value" inputmode="decimal" placeholder="25" aria-label="Number of shares" required>
-          </div>
-          <button type="submit">Add</button>
-        </form>
-        <p class="hint" id="add-msg">Enter how many shares you own; the value comes from the latest price. Adding a ticker you already have adds to it.</p>
-        <ul class="positions" id="positions"></ul>
-        <div class="total-line"><span>Total</span><span class="num" id="pos-total">$0</span></div>
-        <div class="row">
-          <button type="button" class="link" id="toggle-bulk">Paste a list instead</button>
-          <span class="hint">·</span>
-          <button type="button" class="link" id="clear-all">Remove all</button>
-        </div>
-        <div id="bulk" hidden style="display:flex;flex-direction:column;gap:8px">
-          <label class="label" for="bulk-text">One position per line: ticker and shares (or a $ amount)</label>
-          <textarea id="bulk-text" rows="6" placeholder="VOO, 65&#10;QQQ 24.5&#10;AAPL $8,200"></textarea>
-          <div class="row">
-            <button type="button" id="bulk-add">Add these</button>
-            <button type="button" class="ghost" id="bulk-replace">Replace my list</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel" aria-labelledby="h-px">
-        <h2 id="h-px">Live prices</h2>
-        <p class="hint" id="px-status">Add a free price key to value your shares at current prices.</p>
+        <span class="num total-head" id="pos-total-head">$0</span>
+      </div>
+      <div class="banner" id="example-banner" hidden>
+        <span>This is an example portfolio. Replace it with your own.</span>
+        <button type="button" id="clear-example">Start empty</button>
+      </div>
+      <form class="add" id="add-form" autocomplete="off">
         <div class="field">
-          <label class="label" for="px-key">Finnhub API key</label>
-          <input id="px-key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your key">
+          <label class="label" for="add-ticker">Ticker</label>
+          <input id="add-ticker" placeholder="VOO" required>
         </div>
+        <div class="field">
+          <select id="add-mode" aria-label="Enter shares or a dollar value"><option value="sh">Shares ▾</option><option value="v">Value ($) ▾</option></select>
+          <input id="add-value" inputmode="decimal" placeholder="25" aria-label="Number of shares" required>
+        </div>
+        <button type="submit">Add</button>
+      </form>
+      <p class="hint" id="add-msg">Enter how many shares you own; the value comes from the latest price. Adding a ticker you already have adds to it.</p>
+      <p class="pxline" id="pos-px-note"></p>
+      <ul class="positions" id="positions"></ul>
+      <div class="total-line"><span>Total</span><span class="num" id="pos-total">$0</span></div>
+      <div class="row">
+        <button type="button" class="link" id="toggle-bulk">Paste a list instead</button>
+        <span class="hint">·</span>
+        <button type="button" class="link" id="clear-all">Remove all</button>
+      </div>
+      <div id="bulk" hidden style="display:flex;flex-direction:column;gap:8px">
+        <label class="label" for="bulk-text">One position per line: ticker and shares (or a $ amount)</label>
+        <textarea id="bulk-text" rows="6" placeholder="VOO, 65&#10;QQQ 24.5&#10;AAPL $8,200"></textarea>
         <div class="row">
-          <button type="button" id="px-save">Save key</button>
-          <button type="button" class="ghost" id="px-refresh">Refresh prices</button>
+          <button type="button" id="bulk-add">Add these</button>
+          <button type="button" class="ghost" id="bulk-replace">Replace my list</button>
         </div>
-        <p class="hint">Get a free key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io</a>: sign up, then copy the API key from your dashboard. The key stays on this device. Prices refresh when you open the app, at most every 5 minutes. Mutual funds and some foreign tickers have no price there; type their price in by hand.</p>
-      </section>
+      </div>
+    </section>
+    <a class="btnlink wide" href="#holdings">See the breakout of your holdings</a>
+  </main>
 
-      <section class="panel" aria-labelledby="h-funds">
-        <h2 id="h-funds">Fund holdings data</h2>
-        <p class="hint">Built-in holdings are approximate top holdings for popular funds. Fund weights change daily, so for exact numbers paste the current holdings from the fund provider's website. Any ticker not listed here is treated as an individual stock unless you add its holdings.</p>
-        <div class="row">
-          <button type="button" class="ghost" id="new-fund">Add or update a fund</button>
-        </div>
-        <details class="funds">
-          <summary>Funds with holdings data (<span id="fund-count">0</span>)</summary>
-          <div class="fund-list" id="fund-list"></div>
-        </details>
-      </section>
-    </div>
+  <!-- Page 3: settings -->
+  <main class="view narrow" data-view="options" aria-labelledby="h-set" hidden>
+    <h2 class="page-title" id="h-set">Settings</h2>
 
-    <!-- Right: what you actually own -->
-    <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
-      <div class="tiles" id="tiles"></div>
+    <section class="panel" aria-labelledby="h-px">
+      <h2 id="h-px">Live prices</h2>
+      <p class="hint" id="px-status">Add a free price key to value your shares at current prices.</p>
+      <div class="field">
+        <label class="label" for="px-key">Finnhub API key</label>
+        <input id="px-key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your key">
+      </div>
+      <div class="row">
+        <button type="button" id="px-save">Save key</button>
+        <button type="button" class="ghost" id="px-refresh">Refresh prices</button>
+      </div>
+      <p class="hint">Get a free key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io</a>: sign up, then copy the API key from your dashboard. The key stays on this device. Prices refresh when you open the app, at most every 5 minutes. Mutual funds and some foreign tickers have no price there; type their price in on the Positions page.</p>
+    </section>
 
-      <section class="panel" aria-labelledby="h-exp">
-        <div class="toolbar">
-          <h2 id="h-exp">Exposure by company</h2>
-          <div class="legend"><span><i style="background:var(--accent)"></i>Owned directly</span><span><i style="background:var(--accent-2)"></i>Through funds</span></div>
-        </div>
-        <div class="toolbar">
-          <input type="search" id="search" placeholder="Find a company or ticker" aria-label="Find a company or ticker">
-          <div class="row">
-            <label class="check"><input type="checkbox" id="merge" checked> Combine share classes (GOOG + GOOGL)</label>
-            <button type="button" class="ghost" id="copy-csv">Copy as CSV</button>
-          </div>
-        </div>
-        <div class="table-wrap">
-          <table id="exp-table">
-            <thead>
-              <tr>
-                <th scope="col" data-k="rank">#</th>
-                <th scope="col" data-k="name">Company</th>
-                <th scope="col" class="r" data-k="direct">Direct</th>
-                <th scope="col" class="r" data-k="via">Via funds</th>
-                <th scope="col" class="r" data-k="total" aria-sort="descending">Total</th>
-                <th scope="col" class="r" data-k="pct">% of portfolio</th>
-                <th scope="col" data-k="bar" aria-label="Direct versus through funds"></th>
-              </tr>
-            </thead>
-            <tbody id="exp-body"></tbody>
-          </table>
-        </div>
-        <div class="more" id="more" hidden><button type="button" class="ghost" id="show-all">Show all</button></div>
-        <p class="hint">Click a row to see which positions the dollars come from.</p>
-      </section>
+    <section class="panel" aria-labelledby="h-funds">
+      <h2 id="h-funds">Fund holdings data</h2>
+      <p class="hint">Built-in holdings are approximate top holdings for popular funds. Fund weights change daily, so for exact numbers paste the current holdings from the fund provider's website. Any ticker not listed here is treated as an individual stock unless you add its holdings. Tap a fund to see or edit its holdings; funds with your own data are outlined.</p>
+      <div class="row">
+        <button type="button" class="ghost" id="new-fund">Add or update a fund</button>
+      </div>
+      <div class="label">Funds with holdings data (<span id="fund-count">0</span>)</div>
+      <div class="fund-list" id="fund-list"></div>
+    </section>
 
-      <section class="panel" aria-labelledby="h-unit" id="unit-panel" hidden>
-        <h2 id="h-unit">Not broken out</h2>
-        <p class="hint">The part of each fund outside its listed holdings: smaller positions, bonds, or cash. Paste a fund's full holdings to break these out too.</p>
-        <ul class="unit-list" id="unit-list"></ul>
-      </section>
-    </div>
-  </div>
+    <section class="panel" aria-labelledby="h-disp">
+      <h2 id="h-disp">Display</h2>
+      <label class="check"><input type="checkbox" id="merge" checked> Combine share classes into one company (GOOG + GOOGL, BRK.A + BRK.B)</label>
+    </section>
 
-  <footer>
-    Built-in fund weights are approximations of recent top holdings and are for exploring your exposure, not for trading or tax decisions. Your positions, prices and key are saved only in this browser. Prices can be delayed and are for estimates only.
-  </footer>
+    <footer>
+      Built-in fund weights are approximations of recent top holdings and are for exploring your exposure, not for trading or tax decisions. Your positions, prices and key are saved only on this device. Prices can be delayed and are for estimates only.
+    </footer>
+  </main>
 </div>
 
 <dialog id="fund-dlg">
@@ -549,7 +594,8 @@ function renderPositions() {
       <button type="button" class="icon" data-del="${i}" aria-label="Remove ${esc(p.t)}">×</button>
       <div class="pos-edit">${edit}</div></li>`;
   }).join("");
-  $("pos-total").textContent = fmt$.format(positions.reduce((s, p) => s + valueOf(p), 0));
+  $("pos-total").textContent = $("pos-total-head").textContent = fmt$.format(positions.reduce((s, p) => s + valueOf(p), 0));
+  $("holdings-example").hidden = !isExample || positions.length === 0;
 }
 
 function renderFundList() {
@@ -600,7 +646,7 @@ function renderResults() {
       html += `<tr class="detail"><td colspan="7"><div class="sources">${src}</div></td></tr>`;
     }
     return html;
-  }).join("") : `<tr><td colspan="7" class="empty">${q ? "No company matches that search." : "Add a position to see your exposure."}</td></tr>`;
+  }).join("") : `<tr><td colspan="7" class="empty">${q ? "No company matches that search." : 'No positions yet. <a href="#positions">Add your stocks and funds</a> to see your exposure.'}</td></tr>`;
   $("more").hidden = !(list.length > limit);
   $("show-all").textContent = `Show all ${list.length.toLocaleString()}`;
 
@@ -703,7 +749,14 @@ $("bulk-replace").onclick = () => bulk(true);
 
 /* ---------------- Live prices (Finnhub) ---------------- */
 let pxBusy = false;
-const setPxStatus = (msg, warn) => { $("px-status").textContent = msg; $("px-status").style.color = warn ? "var(--warn)" : ""; };
+const setPxStatus = (msg, warn) => {
+  $("px-status").textContent = msg; $("px-status").style.color = warn ? "var(--warn)" : "";
+  const note = $("pos-px-note");
+  if (!pxKey) note.innerHTML = `Values use prices you type in. <a href="#options">Turn on live prices</a> in Settings.`;
+  else note.innerHTML = `${esc(msg)} <button type="button" class="link" id="pos-refresh">Refresh</button>`;
+  note.style.color = warn ? "var(--warn)" : "";
+};
+document.addEventListener("click", e => { if (e.target.id === "pos-refresh") refreshPrices(true); });
 function pxSummary() {
   const ts = Object.values(prices).map(x => x.ts).filter(Boolean);
   if (!pxKey) return setPxStatus("Add a free price key to value your shares at current prices.");
@@ -842,7 +895,19 @@ $("dlg-reset").onclick = () => {
   delete custom[t]; store.set("lt.custom", custom); closeDlg(); renderAll(); toast(`${t} is back to the built-in holdings.`);
 };
 
+/* ---------------- Pages ---------------- */
+const VIEWS = ["holdings", "positions", "options"];
+function route() {
+  const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "holdings";
+  document.querySelectorAll("[data-view]").forEach(el => { el.hidden = el.dataset.view !== v; });
+  document.querySelectorAll("[data-tab]").forEach(a => a.dataset.tab === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", route);
+
+route();
 renderAll();
+pxSummary();
 refreshPrices(false);
 })();
 if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
