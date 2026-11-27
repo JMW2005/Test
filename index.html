@@ -86,6 +86,14 @@ canvas#game { position: fixed; inset: 0; width: 100%; height: 100%; display: blo
 #fireBtn { width: 92px; height: 92px; right: calc(26px + env(safe-area-inset-right, 0px)); bottom: calc(120px + env(safe-area-inset-bottom, 0px)); font-size: 16px; }
 #reloadBtn { width: 60px; height: 60px; right: calc(130px + env(safe-area-inset-right, 0px)); bottom: calc(150px + env(safe-area-inset-bottom, 0px)); background: rgba(240,192,78,0.45); }
 #jumpBtn { width: 60px; height: 60px; right: calc(130px + env(safe-area-inset-right, 0px)); bottom: calc(76px + env(safe-area-inset-bottom, 0px)); background: rgba(92,138,53,0.55); }
+#strike { display: flex; align-items: center; gap: 8px; padding-top: 2px; }
+#strike .sbar { width: 96px; height: 8px; border: 2px solid rgba(251,238,210,0.6); border-radius: 2px; background: rgba(20,12,6,0.5); overflow: hidden; }
+#sfill { height: 100%; width: 0%; background: var(--danger); transition: width 0.2s; }
+#scount { font: 400 18px/1 var(--display); color: rgba(251,238,210,0.45); min-width: 16px; text-align: right; }
+#strike.ready #scount { color: var(--danger); text-shadow: 0 0 10px rgba(255,75,58,0.8); }
+#strike.ready .label { color: var(--danger); }
+#strikeBtn { width: 60px; height: 60px; right: calc(170px + env(safe-area-inset-right, 0px)); bottom: calc(222px + env(safe-area-inset-bottom, 0px)); background: rgba(255,75,58,0.55); font-size: 12px; }
+#strikeBtn.off { opacity: 0.35; }
 #nadeBtn { width: 60px; height: 60px; right: calc(26px + env(safe-area-inset-right, 0px)); bottom: calc(222px + env(safe-area-inset-bottom, 0px)); background: rgba(102,116,63,0.7); font-size: 11px; }
 #swapBtn { width: 60px; height: 60px; right: calc(98px + env(safe-area-inset-right, 0px)); bottom: calc(222px + env(safe-area-inset-bottom, 0px)); background: rgba(20,12,6,0.55); font-size: 11px; }
 body.touch .slot b { display: none; }
@@ -149,6 +157,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
     <span class="label" id="wName">12-gauge pump</span>
     <div id="slots"></div>
     <div id="nades"></div>
+    <div id="strike"><span class="label" id="strikeLbl">Missile strike</span><div class="sbar"><div id="sfill"></div></div><b id="scount">1</b></div>
   </div>
   <div id="cross"><i></i><i></i><i></i><i></i><b></b></div>
   <div id="hitmark"></div>
@@ -162,6 +171,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
   <div class="tbtn" id="reloadBtn">R</div>
   <div class="tbtn" id="jumpBtn">JUMP</div>
   <div class="tbtn" id="nadeBtn">GREN</div>
+  <div class="tbtn" id="strikeBtn">AIR</div>
   <div class="tbtn" id="swapBtn">SWAP</div>
   <div class="tbtn" id="pauseBtn">II</div>
 </div>
@@ -183,6 +193,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
       <kbd>Mouse</kbd><span>Aim and click to fire. Headshots do double damage.</span>
       <kbd>1 2 3</kbd><span>Pistol, shotgun, machine gun (or scroll the mouse wheel)</span>
       <kbd>G / Right click</kbd><span>Throw a grenade</span>
+      <kbd>F</kbd><span>Call a missile strike where you aim. Kill animals to earn more.</span>
       <kbd>R</kbd><span>Reload</span>
       <kbd>Esc / P</kbd><span>Pause</span>
     </div>
@@ -190,6 +201,7 @@ button.ghost { font: 600 17px/1 var(--body); letter-spacing: 0.12em; text-transf
       <kbd>Left thumb</kbd><span>Drag to move</span>
       <kbd>Right thumb</kbd><span>Drag to aim, hold FIRE to shoot</span>
       <kbd>SWAP / GREN</kbd><span>Change gun, throw a grenade</span>
+      <kbd>AIR</kbd><span>Call a missile strike where you aim</span>
     </div>
     <div class="row">
       <button class="big" id="playBtn" type="button" disabled>Loading&hellip;</button>
@@ -487,6 +499,9 @@ const sfx = {
   swap() { noise(0.07, 0.25, 'highpass', 3000, 2000); tone('square', 1800, 1600, 0.025, 0.06, 0, 0.05); },
   toss() { tone('square', 2400, 2200, 0.03, 0.08); noise(0.25, 0.3, 'bandpass', 700, 2200, 0, 0.04); },
   clink(v, p) { tone('triangle', 1100 + Math.random() * 300, 800, 0.06, 0.15 * v, p); },
+  beep() { [0, 0.16, 0.32].forEach(d => tone('square', 1250, 1250, 0.08, 0.12, 0, d)); },
+  ready() { [880, 1175, 1568].forEach((f, i) => tone('square', f, f, 0.1, 0.1, 0, i * 0.08, { type: 'lowpass', f: 3000 })); },
+  whistle(v, p) { tone('sine', 2300, 380, 1.0, 0.22 * v, p); tone('sawtooth', 1150, 190, 1.0, 0.05 * v, p, 0, { type: 'lowpass', f: 1500 }); },
   boom(v, p) { noise(1.6, 1.3 * v, 'lowpass', 1800, 50, p); tone('sine', 95, 24, 0.9, 1.2 * v, p); noise(0.45, 0.45 * v, 'highpass', 3200, 700, p); },
   pump() { noise(0.06, 0.35, 'highpass', 2500, 1800, 0, 0); noise(0.07, 0.4, 'highpass', 1800, 1200, 0, 0.13); },
   shell() { noise(0.05, 0.3, 'bandpass', 3000, 2000); tone('square', 900, 700, 0.03, 0.05); },
@@ -609,7 +624,9 @@ let yaw = 0, pitch = 0, mode = 'menu', time = 0;
 let wave = 0, score = 0, kills = 0, combo = 0, lastKill = -10, toSpawn = [], spawnTimer = 0, interT = 0, waveActive = false;
 let reloading = false, reloadT = 0, fireCd = 0, recoil = 0, flashT = 0, pumpPending = -1, shake = 0, vign = 0, hitT = 0;
 let bobT = 0;
-let cur = 1, drawT = 0, grenades = 3, nadeCd = 0, throwAnim = 0;
+let cur = 1, drawT = 0, grenades = 3, nadeCd = 0, throwAnim = 0, strikes = 1, strikeCharge = 0, strikeCd = 0;
+const MAX_STRIKES = 2, STRIKE_COST = 30;
+const strikeMarkers = [], missiles = [];
 const MAX_NADES = 5;
 const enemies = [], particles = [], pickups = [], pops = [], liveNades = [], blasts = [];
 const keys = {};
@@ -676,7 +693,23 @@ const nadeMat = new THREE.MeshLambertMaterial({ color: 0x5d6b3a });
 const fireGeo = new THREE.SphereGeometry(1, 16, 12);
 const scorchGeo = new THREE.CircleGeometry(2.6, 20);
 const boomLight = new THREE.PointLight(0xffa040, 0, 28); scene.add(boomLight);
-const NADE_R = 7.5;
+const NADE = { r: 7.5, dmg: 16, self: 30, size: 1, shake: 0.7, vol: 1, kb: 10 };
+const MISSILE = { r: 10, dmg: 38, self: 45, size: 1.6, shake: 1.1, vol: 1.5, kb: 16 };
+// missile model, built along +Y so it can be aimed with setFromUnitVectors
+const missileProto = (() => {
+  const g = new THREE.Group();
+  const body = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 2.2, 12), new THREE.MeshLambertMaterial({ color: 0xd8d6cf })); g.add(body);
+  const nose = new THREE.Mesh(new THREE.ConeGeometry(0.22, 0.6, 12), new THREE.MeshLambertMaterial({ color: 0xc0302a })); nose.position.y = 1.4; g.add(nose);
+  const band = new THREE.Mesh(new THREE.CylinderGeometry(0.23, 0.23, 0.15, 12), new THREE.MeshLambertMaterial({ color: 0xf0c04e })); band.position.y = 0.8; g.add(band);
+  const finMat = new THREE.MeshLambertMaterial({ color: 0x55595f });
+  for (let i = 0; i < 4; i++) { const f = new THREE.Mesh(BOX, finMat); f.scale.set(0.04, 0.5, 0.45); f.position.set(Math.cos(i * Math.PI / 2) * 0.3, -0.9, Math.sin(i * Math.PI / 2) * 0.3); f.rotation.y = -i * Math.PI / 2; g.add(f); }
+  const flame = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.9, 10), new THREE.MeshBasicMaterial({ color: 0xffc14a, transparent: true, opacity: 0.9, blending: THREE.AdditiveBlending, depthWrite: false }));
+  flame.rotation.x = Math.PI; flame.position.y = -1.55; g.add(flame);
+  g.traverse(o => { if (o.isMesh) o.castShadow = true; });
+  return g;
+})();
+const ringGeo = new THREE.RingGeometry(2.6, 3.2, 32);
+const UPV = new THREE.Vector3(0, 1, 0);
 
 /* ================= HUD ================= */
 const ammoEl = $('ammo');
@@ -700,7 +733,7 @@ let lastHud = '';
 function updateHud(dt) {
   const hp = Math.max(0, Math.ceil(player.hp));
   const w = W();
-  const sig = hp + '|' + score + '|' + wave + '|' + cur + '|' + w.ammo + '|' + reloading + '|' + grenades + '|' + enemiesLeft();
+  const sig = hp + '|' + score + '|' + wave + '|' + cur + '|' + w.ammo + '|' + reloading + '|' + grenades + '|' + strikes + '|' + strikeCharge + '|' + enemiesLeft();
   if (sig !== lastHud) {
     lastHud = sig;
     $('hpLabel').textContent = 'Health ' + hp;
@@ -715,6 +748,11 @@ function updateHud(dt) {
     $('wName').textContent = w.name;
     [...$('slots').children].forEach((s, i) => s.classList.toggle('on', i === cur));
     [...$('nades').children].forEach((s, i) => s.classList.toggle('spent', i >= grenades));
+    $('scount').textContent = strikes;
+    $('sfill').style.width = (strikes >= MAX_STRIKES ? 100 : strikeCharge / STRIKE_COST * 100) + '%';
+    $('strike').classList.toggle('ready', strikes > 0);
+    $('strikeLbl').textContent = strikes > 0 ? (isTouch ? 'Strike ready' : 'Strike ready · F') : 'Missile strike';
+    $('strikeBtn').classList.toggle('off', strikes <= 0);
     $('reloadTxt').style.opacity = reloading ? 1 : (w.ammo === 0 ? 0.8 : 0);
     $('reloadTxt').textContent = reloading ? 'Reloading' : 'Press R';
   }
@@ -757,6 +795,11 @@ function drawRadar() {
     const dx = p.mesh.position.x - player.x, dz = p.mesh.position.z - player.z;
     const r = dx * cy - dz * sy, f = -dx * sy - dz * cy; if (Math.hypot(r, f) > range) continue;
     rctx.fillStyle = p.kind === 'nade' ? '#9ee07a' : '#f0c04e'; rctx.fillRect(c + r * s - 4, c - f * s - 4, 8, 8);
+  }
+  for (const mk of strikeMarkers) {
+    const dx = mk.x - player.x, dz = mk.z - player.z;
+    const r = dx * cy - dz * sy, f = -dx * sy - dz * cy; if (Math.hypot(r, f) > range) continue;
+    rctx.strokeStyle = '#ff4b3a'; rctx.lineWidth = 3; rctx.beginPath(); rctx.arc(c + r * s, c - f * s, MISSILE.r * s, 0, Math.PI * 2); rctx.stroke();
   }
   rctx.fillStyle = '#f0c04e';
   rctx.beginPath(); rctx.moveTo(c, c - 10); rctx.lineTo(c + 7, c + 7); rctx.lineTo(c - 7, c + 7); rctx.closePath(); rctx.fill();
@@ -980,35 +1023,96 @@ function updateNades(dt) {
     if (g.t > 1.9) { explode(p.x, p.y, p.z); scene.remove(g.m); liveNades.splice(i, 1); }
   }
 }
-function explode(x, y, z) {
-  const a = nadePan(x, z);
-  sfx.boom(Math.max(0.35, 1 - a.d / 90), a.pan);
+function explode(x, y, z, o = NADE) {
+  const a = nadePan(x, z), R = o.r, k = o.size;
+  sfx.boom(Math.max(0.35, 1 - a.d / 90) * o.vol, a.pan);
+  if (k > 1) sfx.thud(Math.max(0.4, 1 - a.d / 80), a.pan);
   const ball = new THREE.Mesh(fireGeo, new THREE.MeshBasicMaterial({ color: 0xffb347, transparent: true, opacity: 0.95, depthWrite: false }));
-  ball.position.set(x, Math.max(0.4, y), z); scene.add(ball); blasts.push({ m: ball, t: 0, kind: 'ball' });
+  ball.position.set(x, Math.max(0.4, y), z); scene.add(ball); blasts.push({ m: ball, t: 0, kind: 'ball', r: R });
   const scorch = new THREE.Mesh(scorchGeo, new THREE.MeshBasicMaterial({ color: 0x2a1c12, transparent: true, opacity: 0.7, depthWrite: false }));
-  scorch.rotation.x = -Math.PI / 2; scorch.position.set(x, 0.03, z); scene.add(scorch); blasts.push({ m: scorch, t: 0, kind: 'scorch' });
-  boomLight.position.set(x, 2.5, z); boomLight.intensity = 7;
-  burst(x, 0.6, z, 0xff8a2a, 12, { speed: 9, life: 0.45, size: 0.28, g: 0, drag: 4 });
-  burst(x, 0.3, z, 0x7a5c3a, 18, { speed: 11, life: 1.1, size: 0.2, up: 5 });
-  burst(x, 0.8, z, 0x6b625a, 14, { speed: 6, life: 1.6, size: 0.6, g: -1.5, drag: 2.5 });
+  scorch.rotation.x = -Math.PI / 2; scorch.position.set(x, 0.03 + Math.random() * 0.01, z); scorch.scale.setScalar(k); scene.add(scorch); blasts.push({ m: scorch, t: 0, kind: 'scorch' });
+  boomLight.position.set(x, 2.5 * k, z); boomLight.intensity = 7 * k;
+  burst(x, 0.6, z, 0xff8a2a, Math.round(12 * k), { speed: 9 * k, life: 0.45, size: 0.28 * k, g: 0, drag: 4 });
+  burst(x, 0.3, z, 0x7a5c3a, Math.round(18 * k), { speed: 11 * k, life: 1.1, size: 0.2 * k, up: 5 * k });
+  burst(x, 0.8, z, 0x6b625a, Math.round(14 * k), { speed: 6 * k, life: 1.6 * k, size: 0.6 * k, g: -1.5, drag: 2.5 });
   for (const e of enemies) {
     if (!e.alive) continue;
     const ex = e.root.position.x - x, ez = e.root.position.z - z, d = Math.max(0, Math.hypot(ex, ez) - e.radius * 0.5);
-    if (d >= NADE_R) continue;
+    if (d >= R) continue;
     const l = Math.hypot(ex, ez) || 1;
     dir.set(ex / l, 0, ez / l);
-    damage(e, 16 * (1 - d / NADE_R) + 2, dir);
-    e.kx += dir.x * 10 * (1 - d / NADE_R); e.kz += dir.z * 10 * (1 - d / NADE_R);
+    damage(e, o.dmg * (1 - d / R) + 2, dir);
+    e.kx += dir.x * o.kb * (1 - d / R); e.kz += dir.z * o.kb * (1 - d / R);
   }
-  if (a.d < NADE_R) { const dmg = Math.round(30 * (1 - a.d / NADE_R)); if (dmg > 2) hurtPlayer(dmg, x, z, 12); }
-  shake = Math.max(shake, 0.7 * (1 - Math.min(1, a.d / 45)));
+  if (a.d < R) { const dmg = Math.round(o.self * (1 - a.d / R)); if (dmg > 2) hurtPlayer(dmg, x, z, 12 * k); }
+  shake = Math.max(shake, o.shake * (1 - Math.min(1, a.d / (45 * k))));
+}
+function callStrike() {
+  if (mode !== 'playing' || strikes <= 0 || strikeCd > 0) return;
+  camera.updateMatrixWorld(); camera.getWorldDirection(fwd);
+  ray.set(camera.position, fwd); ray.far = 140;
+  const hits = ray.intersectObjects(blockers, false);
+  let tx, tz;
+  if (hits.length) { tx = hits[0].point.x; tz = hits[0].point.z; }
+  else { tx = camera.position.x + fwd.x * 45; tz = camera.position.z + fwd.z * 45; }
+  const lim = ARENA + 4;
+  tx = Math.max(-lim, Math.min(lim, tx)); tz = Math.max(-lim, Math.min(lim, tz));
+  strikes--; strikeCd = 1; lastHud = '';
+  const ring = new THREE.Mesh(ringGeo, new THREE.MeshBasicMaterial({ color: 0xff3a24, transparent: true, opacity: 0.9, depthWrite: false, side: THREE.DoubleSide }));
+  ring.rotation.x = -Math.PI / 2; ring.position.set(tx, 0.06, tz); scene.add(ring);
+  strikeMarkers.push({ m: ring, x: tx, z: tz, t: 0, life: 2.9 });
+  for (let i = 0; i < 3; i++) {
+    const a = Math.random() * Math.PI * 2, r = i === 0 ? 0 : 2.5 + Math.random() * 2;
+    missiles.push({ tx: tx + Math.cos(a) * r, tz: tz + Math.sin(a) * r, delay: 1.3 + i * 0.32, t: 0, dur: 0.95, m: null });
+  }
+  sfx.beep();
+  const dPlayer = Math.hypot(tx - player.x, tz - player.z);
+  banner('Missile strike inbound', dPlayer < MISSILE.r + 3 ? 'Danger close. Get clear!' : 'Three missiles on the marker', 1.8);
+}
+function addStrikeCharge(type) {
+  if (strikes >= MAX_STRIKES) { strikeCharge = 0; return; }
+  strikeCharge += { chicken: 1, pig: 2, cow: 4, bull: 15 }[type];
+  if (strikeCharge >= STRIKE_COST) {
+    strikeCharge -= STRIKE_COST; strikes++;
+    if (strikes >= MAX_STRIKES) strikeCharge = 0;
+    sfx.ready(); banner('Missile strike ready', isTouch ? 'Tap AIR to call it in' : 'Press F to call it in', 1.6);
+  }
+  lastHud = '';
+}
+function updateStrikes(dt) {
+  strikeCd -= dt;
+  for (let i = strikeMarkers.length - 1; i >= 0; i--) {
+    const mk = strikeMarkers[i]; mk.t += dt;
+    mk.m.scale.setScalar(1 + Math.sin(mk.t * 10) * 0.08);
+    mk.m.material.opacity = 0.9 * (mk.t > mk.life - 0.4 ? Math.max(0, (mk.life - mk.t) / 0.4) : (0.6 + Math.abs(Math.sin(mk.t * 8)) * 0.4));
+    if (Math.random() < dt * 14) burst(mk.x + (Math.random() - 0.5), 0.2, mk.z + (Math.random() - 0.5), 0xe8402a, 1, { speed: 0.6, life: 1.6, size: 0.45, g: -2.2, drag: 1.5, up: 0.5 });
+    if (mk.t > mk.life) { scene.remove(mk.m); mk.m.material.dispose(); strikeMarkers.splice(i, 1); }
+  }
+  for (let i = missiles.length - 1; i >= 0; i--) {
+    const ms = missiles[i];
+    if (ms.delay > 0) { ms.delay -= dt; continue; }
+    if (!ms.m) {
+      ms.m = missileProto.clone(); scene.add(ms.m);
+      ms.sx = ms.tx - 26; ms.sy = 90; ms.sz = ms.tz - 20;
+      dir.set(ms.tx - ms.sx, -ms.sy, ms.tz - ms.sz).normalize();
+      ms.m.quaternion.setFromUnitVectors(UPV, dir);
+      ms.dx = dir.x; ms.dy = dir.y; ms.dz = dir.z;
+      const a = nadePan(ms.tx, ms.tz); sfx.whistle(Math.max(0.4, 1 - a.d / 90), a.pan);
+    }
+    ms.t += dt;
+    const f = Math.min(1, ms.t / ms.dur);
+    const x = ms.sx + (ms.tx - ms.sx) * f, y = ms.sy * (1 - f), z = ms.sz + (ms.tz - ms.sz) * f;
+    ms.m.position.set(x, y, z);
+    burst(x - ms.dx * 1.6, y - ms.dy * 1.6, z - ms.dz * 1.6, Math.random() < 0.5 ? 0xd9d2c4 : 0xa59d90, 3, { speed: 0.8, life: 1.5, size: 0.7, g: -0.6, drag: 2, up: 0 });
+    if (f >= 1) { scene.remove(ms.m); missiles.splice(i, 1); explode(ms.tx, 0.3, ms.tz, MISSILE); }
+  }
 }
 function updateBlasts(dt) {
   boomLight.intensity = Math.max(0, boomLight.intensity - dt * 22);
   for (let i = blasts.length - 1; i >= 0; i--) {
     const b = blasts[i]; b.t += dt;
     if (b.kind === 'ball') {
-      b.m.scale.setScalar(0.5 + Math.min(1, b.t / 0.25) * NADE_R * 0.55);
+      b.m.scale.setScalar(0.5 + Math.min(1, b.t / 0.25) * b.r * 0.55);
       b.m.material.opacity = Math.max(0, 0.95 - b.t / 0.4);
       b.m.material.color.setHex(b.t < 0.1 ? 0xfff0b0 : 0xff9a3a);
       if (b.t > 0.4) { scene.remove(b.m); b.m.material.dispose(); blasts.splice(i, 1); }
@@ -1026,7 +1130,7 @@ function damage(e, dmg, d) {
   else if (Math.random() < 0.4) voice(e);
 }
 function kill(e) {
-  e.alive = false; e.t = 0; kills++;
+  e.alive = false; e.t = 0; kills++; addStrikeCharge(e.type);
   combo = time - lastKill < 2.5 ? combo + 1 : 1; lastKill = time;
   const mult = Math.min(combo, 5), pts = e.T.pts * mult;
   score += pts;
@@ -1222,13 +1326,15 @@ function clearWorld() {
   pickups.forEach(p => scene.remove(p.mesh)); pickups.length = 0;
   pops.forEach(p => p.el.remove()); pops.length = 0;
   liveNades.forEach(g => scene.remove(g.m)); liveNades.length = 0;
+  strikeMarkers.forEach(mk => scene.remove(mk.m)); strikeMarkers.length = 0;
+  missiles.forEach(ms => ms.m && scene.remove(ms.m)); missiles.length = 0;
   blasts.forEach(b => scene.remove(b.m)); blasts.length = 0; boomLight.intensity = 0;
 }
 function newGame() {
   clearWorld();
   Object.assign(player, { x: 0, y: 0, z: 10, vx: 0, vz: 0, vy: 0, kx: 0, kz: 0, hp: 100, onGround: true });
   yaw = 0; pitch = 0; wave = 0; score = 0; kills = 0; combo = 0; lastKill = -10; toSpawn = []; waveActive = false; interT = 1.5;
-  WEAPONS.forEach(w => { w.ammo = w.mag; }); cur = 1; drawT = 0; throwAnim = 0; nadeCd = 0; grenades = 3;
+  WEAPONS.forEach(w => { w.ammo = w.mag; }); cur = 1; drawT = 0; throwAnim = 0; nadeCd = 0; grenades = 3; strikes = 1; strikeCharge = 0; strikeCd = 0;
   models.forEach((m, i) => { m.visible = i === cur; }); buildAmmoIcons();
   reloading = false; fireCd = 0; recoil = 0; vign = 0; shake = 0; time = 0; lastHud = '';
   banner('Hold the yard', 'They are coming through the gates', 1.6);
@@ -1286,6 +1392,7 @@ window.addEventListener('keydown', e => {
   if (e.code === 'Digit2') switchWeapon(1);
   if (e.code === 'Digit3') switchWeapon(2);
   if (e.code === 'KeyG') throwGrenade();
+  if (e.code === 'KeyF') callStrike();
   if ((e.code === 'KeyP' || e.code === 'Escape') && !document.pointerLockElement) pause();
   if (['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) e.preventDefault();
 });
@@ -1335,6 +1442,7 @@ btn('fireBtn', () => { firing = true; fire(); }, () => { firing = false; });
 btn('reloadBtn', () => startReload());
 btn('swapBtn', () => switchWeapon((cur + 1) % WEAPONS.length));
 btn('nadeBtn', () => throwGrenade());
+btn('strikeBtn', () => callStrike());
 btn('jumpBtn', () => { jumpHeld = true; }, () => { jumpHeld = false; });
 btn('pauseBtn', () => pause());
 window.addEventListener('touchstart', e => {
@@ -1389,6 +1497,7 @@ function frame(now) {
     updateParticles(dt);
     updateNades(dt);
     updateBlasts(dt);
+    updateStrikes(dt);
     updateHud(dt);
   } else if (mode === 'menu') {
     menuT += dt * 0.06;
