@@ -146,7 +146,6 @@ The Old Man and the Sea
 Death of a Salesman
 A Raisin in the Sun
 The Glass Menagerie
-Their Eyes Were Watching God
 Invisible Man
 The House on Mango Street
 The Kite Runner
@@ -157,10 +156,8 @@ One Flew Over the Cuckoo's Nest
 Native Son
 The Joy Luck Club
 The Color Purple
-Of Mice and Men
 Julius Caesar
 Othello
-The Odyssey
 The Iliad
 Beowulf
 The Canterbury Tales
@@ -209,7 +206,6 @@ Don't Let the Pigeon Drive the Bus!
 Make Way for Ducklings
 Madeline
 The Little Engine That Could
-Goodnight Moon
 The Runaway Bunny
 Winnie-the-Pooh
 The Tale of Peter Rabbit | peter rabbit
@@ -254,7 +250,6 @@ Horton Hears a Who!
 Fox in Socks
 Hop on Pop
 The Cat in the Hat Comes Back
-Green Eggs and Ham
 Yertle the Turtle
 The Sneetches
 Horton Hatches the Egg
@@ -1210,7 +1205,6 @@ Joker's goons
 KGBeast
 Anarky
 Azrael
-The Riddler
 Lady Shiva
 Bronze Tiger
 *Kite Man

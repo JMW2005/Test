@@ -15,3 +15,7 @@ quick-a.txt
 quick-b.txt
 quick-c.txt
 quick-d.txt
+quick-e.txt
+quick-f.txt
+quick-g.txt
+quick-h.txt

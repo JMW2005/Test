@@ -453,7 +453,6 @@ Vanilla Ice
 Coolio
 Sisqó
 Mýa
-Brandy
 
 # Name a celebrity who has hosted the Oscars {names}
 Billy Crystal
@@ -521,7 +520,6 @@ Howard Thurston
 Jean Eugène Robert-Houdin | robert houdin
 Chung Ling Soo
 Dai Vernon
-Ricky Jay
 Michael Carbonaro
 Collins Key
 Rick Lax
@@ -607,7 +605,6 @@ Rowan Atkinson | mr bean
 John Cleese
 Steve Coogan
 Bo Burnham
-Chris Farley
 Martin Lawrence
 Bernie Mac
 Steve Harvey
@@ -947,11 +944,9 @@ Chris Matthews
 Chris Wallace
 Chris Hayes
 Chris Nolan | christopher nolan
-Chris Columbus
 Chris Lilley
 Chris Hardwick
 Chris D'Elia
-Chris Rock
 Chris Messina
 Chris Meloni
 Chris Sarandon
@@ -1491,7 +1486,6 @@ Rant
 Reaction
 POV
 Transition
-Lip sync
 Thirst trap
 Sea shanty
 Book talk | booktok

@@ -64,10 +64,17 @@ GitHub Pages on a private repository needs a paid GitHub plan. On a free plan, t
 
 When you change `deep-cut/index.html`, bump `VERSION` in `deep-cut/sw.js` so installed copies pick up the update.
 
-- Each day gives you **7 prompts**, such as "Name a breed of dog", with **20 seconds** each to type one answer.
+- Each day gives you **7 pop-culture prompts**, such as "Name a Pixar movie", with **20 seconds** each to type one answer.
 - **The rarer your answer, the deeper you dig.** Answers are grouped into strata: Topsoil 10 m, Clay 25 m, Shale 40 m, Bedrock 60 m, Magma 80 m.
 - Every prompt hides one **Mother Lode** (120 m), a satisfying answer some players will find.
 - Guesses that aren't on the list don't use up your turn. Small typos and common alternative names are accepted.
-- **Practice shaft** gives endless random prompts. Your streak, best depth and Mother Lodes found are saved in your browser.
+- **Practice shaft** gives random prompts, from everything or from one category. Your streak, best depth and Mother Lodes found are saved in your browser.
 
-There is no server. The popularity figures ("X diggers picked this") are estimated from a built-in ranking of each answer list. To add prompts, edit the `PROMPTS` array: answers are listed from most to least common, `|` separates alternative names and `*` marks the Mother Lode.
+There is no game server. The popularity figures ("X diggers picked this") are estimated from the order of each answer list.
+
+### Editing the questions (the prompt bank)
+The game loads more than 1,000 pop-culture prompts from plain-text files in `deep-cut/prompts/` (movies, TV, music, games, sports, food and brands, celebrities and the internet, books and comics, and mixed quick rounds). To change the questions, edit those files on github.com and commit. The live game picks up the changes after GitHub Pages republishes. See `deep-cut/prompts/README.md` for the format.
+
+Open `deep-cut/bank.html` (the "Prompt bank" link on the game's home screen) to browse every prompt, test guesses, and see mistakes with links to the exact line on GitHub.
+
+The game loads the bank over the web, so play it from GitHub Pages or a local web server (for example `python3 -m http.server` in the repo folder). Opening `index.html` directly from your disk won't load the bank.

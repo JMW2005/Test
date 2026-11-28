@@ -984,7 +984,6 @@ Gremlins
 Fred Claus
 Deck the Halls
 The Family Stone | family stone
-Elf
 Krampus
 Noelle
 Red One
@@ -1094,7 +1093,6 @@ Oklahoma!
 Nine
 Burlesque
 Footloose
-Footloose
 Enchanted
 The Color Purple (2023)
 Emilia Pérez | emilia perez
@@ -1192,7 +1190,6 @@ Space Jam
 Spaceballs
 Galaxy Quest
 Elysium
-Interstellar
 Arrival
 Solaris
 Contact
@@ -1546,7 +1543,6 @@ Teen Wolf
 Back to the Future
 Donnie Darko
 The Faculty | faculty
-Not Another Teen Movie
 
 # Name a famous movie set in New York City
 Home Alone 2: Lost in New York | home alone 2
@@ -1751,7 +1747,6 @@ Guardians of the Galaxy
 Spider-Man (MCU) | home trilogy
 The Maze Runner | maze runner
 Divergent
-Toy Story
 Twilight
 Fifty Shades | fifty shades of grey
 Bad Boys
@@ -2367,7 +2362,6 @@ BlacKkKlansman | blackkklansman
 Inside Man
 Da 5 Bloods
 She's Gotta Have It
-Do the Right Thing
 Jungle Fever
 He Got Game
 25th Hour
@@ -2555,7 +2549,6 @@ Ghoulies
 Rodan
 Bigfoot
 Yeti
-Kaiju
 Swamp Thing
 
 # Name a character from The Lion King

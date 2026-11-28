@@ -1,0 +1,914 @@
+// Deep Cut prompt bank: QUICK ROUNDS G (short lists, titles and names only)
+// Answers go most common first. * marks the Mother Lode.
+
+## Quick Rounds: Mix
+
+# Name a character from Toy Story who isn't Woody or Buzz
+Jessie
+Rex
+Hamm
+Slinky Dog
+Mr. Potato Head
+Mrs. Potato Head
+Bo Peep
+Lotso
+Bullseye
+Forky
+Aliens
+Duke Caboom
+Ken
+Barbie
+Sarge
+Wheezy
+Stinky Pete
+Gabby Gabby
+Trixie
+Buttercup
+Mr. Pricklepants
+Dolly
+Chuckles
+Ducky
+Bunny
+Big Baby
+Combat Carl
+Lenny
+Etch
+Rocky Gibraltar
+*Bookworm
+Mr. Spell
+Mike the tape recorder
+
+# Name a character from Harry Potter who dies
+Dumbledore
+Sirius Black
+Fred Weasley
+Dobby
+Hedwig
+Snape
+Voldemort
+Cedric Diggory
+Lupin
+Tonks
+Mad-Eye Moody
+Lily Potter
+James Potter
+Colin Creevey
+Bellatrix Lestrange
+Quirrell
+Peter Pettigrew
+Barty Crouch Sr.
+Barty Crouch Jr.
+Charity Burbage
+Bathilda Bagshot
+Scrimgeour
+Vincent Crabbe
+Nagini
+Aragog
+Frank Bryce
+Myrtle
+Lavender Brown (movie)
+*Gregorovitch
+Ted Tonks
+Dirk Cresswell
+Gellert Grindelwald
+Kendra Dumbledore
+Ariana Dumbledore
+
+# Name a famous character who is an orphan
+Harry Potter
+Batman | bruce wayne
+Superman | clark kent
+Spider-Man | peter parker
+Annie
+Oliver Twist
+Anne of Green Gables
+Luke Skywalker
+Frodo Baggins
+Tarzan
+Mowgli
+Cinderella
+Pippi Longstocking
+Jane Eyre
+Heidi
+Dorothy Gale
+James (Giant Peach)
+The Baudelaires
+Huckleberry Finn
+Kal-El
+Moses
+Bambi
+Elsa
+Anna
+Lilo
+Nani
+Aang
+Rey
+Jon Snow
+Daenerys Targaryen
+Tony Stark
+Captain America
+Wolverine
+Daredevil
+Robin | dick grayson
+Black Widow
+Gamora
+Star-Lord
+Pip
+David Copperfield
+Remy
+Meet the Robinsons' Lewis | lewis
+Hiro Hamada
+Penny (The Rescuers)
+Little Orphan Annie
+Mary Lennox
+Sara Crewe
+Madeline
+Paddington
+
+# Name a famous person who's been on Shark Tank as a Shark {names}
+Mark Cuban
+Kevin O'Leary | mr wonderful
+Barbara Corcoran
+Lori Greiner
+Daymond John
+Robert Herjavec
+Daniel Lubetzky
+Emma Grede
+Kevin Hart
+Ashton Kutcher
+Gwyneth Paltrow
+Alex Rodriguez
+Rohan Oza
+Peter Jones
+Kendra Scott
+Nirav Tolia
+Jamie Siminoff
+Todd Graves
+Candace Nelson
+Kevin Harrington
+Jeff Foxworthy
+Chris Sacca
+Troy Carter
+Richard Branson
+Bethenny Frankel
+*Jeff Foxworthy
+Matt Higgins
+Sara Blakely
+Michael Rubin
+Rashaun Williams
+Allison Ellsworth
+Fawn Weaver
+Jason Blum
+
+# Name a famous person who's appeared in a Marvel movie in a cameo {names}
+Stan Lee
+Bill Murray
+Matt Damon
+Sam Neill
+Luke Hemsworth
+Melissa McCarthy
+Chris Hemsworth (Thor: Ragnarok's play)
+Jeff Goldblum
+Michael Rooker
+Sylvester Stallone
+David Hasselhoff
+Howard the Duck
+Patrick Stewart
+John Krasinski
+Charlize Theron
+Harry Styles
+Henry Cavill
+Jennifer Garner
+Wesley Snipes
+Dafne Keen
+Channing Tatum
+Hayley Atwell
+Lashana Lynch
+Anson Mount
+Andrew Garfield
+Tobey Maguire
+Charlie Cox
+Tom Hardy
+Chris Evans (as Johnny Storm)
+Matthew McConaughey
+*Billy Dee Williams
+Gwyneth Paltrow
+Benedict Wong
+Natalie Portman
+Rob Delaney
+Brad Pitt
+Ryan Reynolds
+
+# Name something you'd find in Willy Wonka's factory
+Chocolate river
+Oompa Loompas
+Everlasting Gobstopper
+Golden ticket
+Wonka Bar
+Chocolate waterfall
+Glass elevator
+Great Glass Elevator
+Fizzy Lifting Drinks
+Lickable wallpaper
+Three-course-dinner gum
+Squirrels
+Nut room
+TV room
+Wonkavision
+Inventing room
+Candy grass
+Gummy bears
+Hair toffee
+Square sweets that look round
+Snozzberries
+Boat
+Bad egg chute
+Golden geese
+Veruca Salt's chute
+Augustus Gloop's pipe
+Violet blueberry
+Mike Teavee
+Grandpa Joe
+Charlie Bucket
+Willy Wonka
+Slugworth
+Chocolate
+Toffee
+Candy
+*Hornswogglers
+Vermicious Knids
+Whangdoodles
+Snozzwangers
+Wonkamobile
+
+# Name something associated with Barbie's friend Ken or "Kenergy"
+Kenergy
+I'm Just Ken
+Beach
+Malibu
+Ryan Gosling
+Simu Liu
+Kingsley Ben-Adir
+Mojo Dojo Casa House
+Horses
+Patriarchy
+Fur coat
+Sunglasses
+Rollerblades
+Neon outfits
+Barbie
+Allan
+Ken's job is beach
+Guitar
+Matchbox Twenty
+The Godfather
+Pink
+Sublime
+"Sublime" Ken
+*Earring Magic Ken
+Sugar Daddy Ken
+Totally Hair Ken
+Malibu Ken
+
+# Name a famous character from a cereal box
+Tony the Tiger
+Toucan Sam
+Lucky the Leprechaun
+Cap'n Crunch
+Trix Rabbit
+Snap, Crackle and Pop
+Count Chocula
+Franken Berry
+Boo Berry
+Sonny the Cuckoo Bird
+Dig 'Em Frog
+Honey Nut Cheerios Bee | buzz
+Cornelius the Rooster
+Fred Flintstone (Fruity Pebbles)
+Barney Rubble (Cocoa Pebbles)
+Chip the Wolf (Cookie Crisp)
+Wendell (Cinnamon Toast Crunch)
+Sugar Bear
+Quisp
+Quake
+King Vitaman
+Crazy Squares
+Kix Rabbit
+Honey Smacks Frog
+*Fruit Brute
+Yummy Mummy
+Lucky's Marshmallows
+Crunch Berry Beast
+Jean LaFoote
+Seaweedy
+
+# Name a famous restaurant mascot
+Ronald McDonald
+Colonel Sanders
+Wendy
+The Burger King
+Jack Box
+Big Boy
+Chuck E. Cheese
+Hamburglar
+Grimace
+Birdie
+Mayor McCheese
+Little Caesar
+Noid
+Taco Bell Chihuahua
+Speedee
+Bob's Big Boy
+Jollibee
+Dairy Queen's Dennis the Menace
+Pizza Hut Pizza Head
+Papa John
+Long John Silver
+Captain D
+Carl's Jr. star
+Arby's hat
+Del Taco Del
+*Mac Tonight
+Sonic carhops
+Speedee
+Mr. Burger
+
+# Name a famous person who has been married more than three times {names}
+Elizabeth Taylor
+Larry King
+Jennifer Lopez
+Kim Kardashian
+Britney Spears
+Mickey Rooney
+Zsa Zsa Gabor
+Martin Scorsese
+Richard Pryor
+Billy Bob Thornton
+Christie Brinkley
+Kelsey Grammer
+Nicolas Cage
+Pamela Anderson
+Johnny Carson
+Henry VIII
+Donald Trump
+Rupert Murdoch
+Clint Eastwood
+Jerry Lee Lewis
+Frank Sinatra
+Ernest Hemingway
+Rod Stewart
+Liza Minnelli
+Judy Garland
+Lana Turner
+Joan Collins
+Charlie Sheen
+Eddie Fisher
+*Stan Laurel
+George Foreman
+Larry Fortensky
+Rita Hayworth
+Hedy Lamarr
+Ava Gardner
+
+# Name a famous person who's been in space as a tourist or celebrity {names}
+William Shatner
+Jeff Bezos
+Richard Branson
+Katy Perry
+Gayle King
+Lauren Sánchez
+Michael Strahan
+Wally Funk
+Dennis Tito
+Guy Laliberté
+Anousheh Ansari
+Jared Isaacman
+Yusaku Maezawa
+Sian Proctor
+Hayley Arceneaux
+Chris Sembroski
+Laura Shepard Churchley
+Aisha Bowe
+Amanda Nguyen
+Kerianne Flynn
+John Glenn (returned at 77)
+*Christa McAuliffe (intended)
+Tom Cruise (planned)
+Mark Shuttleworth
+Greg Olsen
+Charles Simonyi
+Richard Garriott
+
+# Name something associated with Kim Kardashian
+Kanye West
+North West
+Saint West
+Chicago West
+Psalm West
+Keeping Up with the Kardashians
+The Kardashians
+Hulu
+Skims
+KKW Beauty
+SKKN
+Kris Jenner
+Khloé
+Kourtney
+Kylie
+Kendall
+Met Gala
+Marilyn Monroe dress
+Pete Davidson
+Ray J
+Kris Humphries
+72-day marriage
+Paris Hilton
+Selfies
+Selfish (book)
+Break the internet
+Paper magazine
+Law school
+Baby bar exam
+Prison reform
+American Horror Story
+Calabasas
+Kimoji
+Kim Kardashian: Hollywood
+Contour
+Crying face meme
+Robbery in Paris
+*Kimono
+Balenciaga
+Ozempic rumor
+Ok Ok game
+Armenian
+Robert Kardashian
+
+# Name something associated with Beyoncé
+Destiny's Child
+Jay-Z
+Blue Ivy
+Rumi
+Sir
+Single Ladies
+Crazy in Love
+Halo
+Lemonade
+Renaissance
+Cowboy Carter
+Texas Hold 'Em
+Beyhive
+Coachella | beychella
+Super Bowl halftime
+Grammys
+Sasha Fierce
+Formation
+Ivy Park
+Adidas
+Parkwood
+Tina Knowles
+Solange
+Mathew Knowles
+Houston
+Texas
+Dreamgirls
+Austin Powers in Goldmember
+The Lion King
+Nala
+Black Is King
+Homecoming
+Renaissance Tour
+Silver
+Cowboy hat
+Lemonade bat | hot sauce
+Becky with the good hair
+Surfboard
+*Bey Day
+Queen Bey
+Club Renaissance
+Bodyguard
+Jolene cover
+
+# Name something associated with Elon Musk
+Tesla
+SpaceX
+Twitter
+X
+Mars
+Rockets
+Starship
+Falcon 9
+Neuralink
+The Boring Company
+Hyperloop
+PayPal
+Zip2
+Cybertruck
+Model S
+Model 3
+Model X
+Model Y
+Roadster
+Starman
+Dogecoin
+Bitcoin
+Grimes
+X Æ A-12
+Saturday Night Live
+DOGE
+Billionaire
+Richest man
+Grok
+xAI
+OpenAI
+Flamethrower
+Joe Rogan
+South Africa
+Tweets
+Blue checkmark
+Starlink
+Gigafactory
+Solar City
+Optimus robot
+*Not a Flamethrower
+Tunnels
+Iron Man inspiration
+
+# Name something associated with Oprah
+The Oprah Winfrey Show
+You get a car!
+Book club
+Harpo
+OWN
+O, The Oprah Magazine
+Gayle King
+Stedman Graham
+Favorite Things
+Chicago
+The Color Purple
+Beloved
+A Wrinkle in Time
+Super Soul Sunday
+Weight Watchers | ww
+Dr. Phil
+Dr. Oz
+Rachael Ray
+Tom Cruise jumping on the couch
+Meghan and Harry interview
+Michael Jackson interview
+Golden Globes speech
+Presidential Medal of Freedom
+Billionaire
+Mississippi
+Nashville
+Montecito
+Oprah's Angel Network
+Leadership Academy
+Aha moment
+Live your best life
+What I know for sure
+*Sophia
+Maui
+Bread
+Tom Hanks
+Harpo Studios
+
+# Name a famous person who's known for their sneaker collection or shoe line {names}
+Michael Jordan
+Kanye West
+LeBron James
+Kobe Bryant
+Stephen Curry
+Travis Scott
+Pharrell
+Rihanna
+Kevin Durant
+Kyrie Irving
+Allen Iverson
+Shaquille O'Neal
+Derrick Rose
+Damian Lillard
+Giannis
+Ja Morant
+Anthony Edwards
+Luka Dončić
+Jayson Tatum
+DJ Khaled
+Bad Bunny
+Virgil Abloh
+Jerry Seinfeld
+Chuck Taylor
+Stan Smith
+Rod Laver
+Run-DMC
+Missy Elliott
+Sabrina Ionescu
+A'ja Wilson
+Caitlin Clark
+*Spud Webb
+Penny Hardaway
+Grant Hill
+Vince Carter
+Tracy McGrady
+
+# Name a famous person who's famous for a dance move {names}
+Michael Jackson
+John Travolta
+Patrick Swayze
+Fred Astaire
+Gene Kelly
+Elvis Presley
+James Brown
+Beyoncé
+Usher
+Chris Brown
+Soulja Boy
+Psy
+Silentó
+Blocboy JB
+Charli D'Amelio
+Jalaiah Harmon
+Big Freedia
+Miley Cyrus
+Carlton Banks | alfonso ribeiro
+Napoleon Dynamite
+Elaine Benes
+Tom Cruise (Risky Business)
+Uma Thurman (Pulp Fiction)
+Kevin Bacon (Footloose)
+Hugh Grant (Love Actually)
+Joker (stairs)
+Snoopy
+Groot
+Peter Quill
+Squidward
+*Raygun
+Mr. Bean
+Christopher Walken (Weapon of Choice)
+Chuck Berry (duckwalk)
+Tina Turner
+MC Hammer
+Vanilla Ice
+Paula Abdul
+Janet Jackson
+
+# Name a famous person who's been a coach on The Voice {names}
+Blake Shelton
+Adam Levine
+Kelly Clarkson
+Gwen Stefani
+John Legend
+Christina Aguilera
+CeeLo Green
+Usher
+Shakira
+Pharrell Williams
+Miley Cyrus
+Alicia Keys
+Ariana Grande
+Nick Jonas
+Camila Cabello
+Chance the Rapper
+Niall Horan
+Reba McEntire
+Dan + Shay
+Michael Bublé
+Snoop Dogg
+Kelsea Ballerini
+*Dan Smyers
+Shay Mooney
+Bebe Rexha
+Kane Brown
+Jennifer Hudson
+Tom Jones
+will.i.am
+Jessie J
+Ricky Wilson
+Rita Ora
+Paloma Faith
+Olly Murs
+Anne-Marie
+Tom Fletcher
+Danny Jones
+
+# Name something associated with Shrek
+Ogre
+Swamp
+Donkey
+Fiona
+Dragon
+Lord Farquaad
+Far Far Away
+Duloc
+Puss in Boots
+Gingerbread Man | gingy
+All Star
+Smash Mouth
+Layers
+Onions
+Shrek is love
+Waffles
+Get out of my swamp
+Mike Myers
+Eddie Murphy
+Cameron Diaz
+Antonio Banderas
+John Lithgow
+Shrek 2
+Fairy Godmother
+Prince Charming
+Hallelujah
+I'm a Believer
+Holding Out for a Hero
+Pinocchio
+Three Blind Mice
+Big Bad Wolf
+Magic Mirror
+Rumpelstiltskin
+Ogre babies
+Shrek the Musical
+Shrek 5
+Shrek Forever After
+Shrek the Third
+Earwax candle
+Fish in the pond
+*Eyeball martini
+Mud bath
+Weedrat
+Slime ball
+Ear wax
+
+# Name something associated with Mario Kart
+Rainbow Road
+Blue Shell
+Banana peel
+Red shell
+Green shell
+Mushroom boost
+Star
+Lightning bolt
+Bullet Bill
+Blooper
+Bob-omb
+Coins
+Drift
+Mini-turbo
+Rocket start
+Lakitu
+Grand Prix
+Battle mode
+150cc
+200cc
+Mirror mode
+Moo Moo Meadows
+Coconut Mall
+Mario Circuit
+Bowser's Castle
+Toad's Turnpike
+DK Mountain
+Baby Park
+Koopa Troopa Beach
+Wario Stadium
+Luigi's Mansion
+Mute City
+Yoshi Valley
+Mushroom Cup
+Flower Cup
+Star Cup
+Special Cup
+Mario Kart 64
+Mario Kart Wii
+Mario Kart 8 Deluxe
+Mario Kart World
+Double Dash
+Wii Wheel
+Funky Kong
+Baby Luigi
+*Spiny shell
+Super Horn
+Crazy Eight
+Golden mushroom
+Boomerang flower
+
+# Name a famous person who's appeared in a Pixar movie as a voice {names}
+Tom Hanks
+Tim Allen
+Billy Crystal
+John Goodman
+Ellen DeGeneres
+Albert Brooks
+Owen Wilson
+Larry the Cable Guy
+Paul Newman
+Craig T. Nelson
+Holly Hunter
+Samuel L. Jackson
+Brad Bird
+Patton Oswalt
+Ed Asner
+Amy Poehler
+Phyllis Smith
+Lewis Black
+Bill Hader
+Mindy Kaling
+Richard Kind
+Jamie Foxx
+Tina Fey
+Kelly Macdonald
+Billy Connolly
+Emma Thompson
+Joan Cusack
+Wallace Shawn
+John Ratzenberger
+Don Rickles
+Annie Potts
+Keanu Reeves
+Tony Hale
+Christina Hendricks
+Michael Keaton
+Ned Beatty
+Kristen Schaal
+Timothy Dalton
+Jordan Peele
+Keegan-Michael Key
+Tom Holland
+Chris Pratt
+Julia Louis-Dreyfus
+Kevin Spacey
+Dave Foley
+Denis Leary
+Willem Dafoe
+Geoffrey Rush
+Steve Buscemi
+Bonnie Hunt
+Michael Caine
+Anthony Gonzalez
+Gael García Bernal
+Benjamin Bratt
+Jacob Tremblay
+Leah Lewis
+Maya Hawke
+*Sohee Park
+Lou Romano
+Peter Sohn
+
+# Name something associated with Dungeons & Dragons
+Dice
+D20
+Dungeon Master | dm
+Dragons
+Dungeons
+Character sheet
+Wizard
+Fighter
+Rogue
+Cleric
+Paladin
+Bard
+Ranger
+Barbarian
+Druid
+Monk
+Sorcerer
+Warlock
+Elf
+Dwarf
+Halfling
+Tiefling
+Dragonborn
+Orc
+Beholder
+Mind flayer
+Owlbear
+Tarrasque
+Gelatinous cube
+Mimic
+Critical hit
+Nat 20
+Natural 1
+Saving throw
+Initiative
+Hit points
+Spell slots
+Campaign
+Session
+Party
+Tavern
+Quest
+Loot
+Treasure
+Stranger Things
+Critical Role
+Honor Among Thieves
+Baldur's Gate
+Forgotten Realms
+Waterdeep
+Wizards of the Coast
+Gary Gygax
+*Bag of Holding
+Rust monster
+Bulette
+Displacer beast
+Flumph
+Tiamat
+Vecna

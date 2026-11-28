@@ -91,7 +91,6 @@ Dunkaroos
 Surge
 Crystal Pepsi
 Zima
-Pogs
 *Moon Shoes
 Floam
 Sky Dancers
@@ -312,7 +311,6 @@ Musical chairs
 Pin the tail on the donkey
 Friends
 Family
-Streamers
 Plates
 Napkins
 Paper cups
@@ -496,7 +494,6 @@ Needles
 Sharks
 Flying
 Ghosts
-Spiders
 Small spaces | claustrophobia
 Drowning
 Bees
@@ -761,7 +758,6 @@ Alton Towers
 Thorpe Park
 Blackpool Pleasure Beach
 PortAventura
-Port Aventura
 Coney Island
 Santa Cruz Beach Boardwalk
 Silverwood
@@ -1141,7 +1137,6 @@ Ren and Stimpy
 Pinky and the Brain
 Calvin and Hobbes
 Wallace and Gromit
-Bonnie and Clyde
 Hall & Oates
 The White Stripes
 Daft Punk
@@ -1296,7 +1291,6 @@ Buttercup
 Hidalgo
 Philippe
 Samson
-Seabiscuit
 American Pharoah
 Justify
 War Admiral
@@ -2458,7 +2452,6 @@ Michael Dell
 Michael Faraday
 Michael Collins
 Michael Crichton
-Michael Bublé
 Michael Ealy
 Michael Peña
 Michael Imperioli
@@ -2507,7 +2500,6 @@ Jennifer Check
 Jennifer Parker
 Jennifer Melfi
 Jennifer Keller
-Jennifer Beals
 Jenna Ortega
 Jenna Fischer
 Jenna Coleman

@@ -821,7 +821,6 @@ Victoria Jackson
 Kevin Nealon
 Rob Schneider
 Tim Meadows
-Jimmy Fallon
 Janeane Garofalo
 *Robert Downey Jr.
 Ben Stiller
@@ -901,7 +900,6 @@ Dancing with the Stars
 The Voice | voice
 America's Got Talent | americas got talent
 RuPaul's Drag Race | drag race
-Survivor
 Shark Tank
 The Bachelorette | bachelorette
 Vanderpump Rules
@@ -999,13 +997,11 @@ Beat Shazam
 Name That Tune
 The Wall
 Tic-Tac-Dough
-Jeopardy
 Love Connection
 The Newlywed Game
 The Dating Game
 Win Ben Stein's Money
 Distraction
-Who Wants to Be a Millionaire
 The Floor
 Celebrity Wheel of Fortune
 Ninja Warrior
@@ -1105,7 +1101,6 @@ Corner Gas
 Newhart
 Spaced
 Father Ted
-Arrested Development
 
 # Name a Disney Channel show
 Hannah Montana
@@ -1259,7 +1254,6 @@ Nicky, Ricky, Dicky & Dawn
 Bella and the Bulldogs
 Back at the Barnyard
 The Angry Beavers | angry beavers
-Rocket Power
 El Tigre
 My Life as a Teenage Robot
 ChalkZone
@@ -1797,7 +1791,6 @@ Bartholomew Kuma | kuma
 Perona
 Bon Clay | mr 2
 Ivankov
-Kizaru
 Dragon | monkey d dragon
 Uta
 Pedro
@@ -1940,7 +1933,6 @@ Jake
 Gwen Currie
 Ivan
 Wendy Kurtz
-Ivan
 *Mrs. Wilkins
 Heather
 Rachel
@@ -2456,7 +2448,6 @@ Trauma
 Night Shift | the night shift
 Hawkeye
 Dr. Quinn, Medicine Woman
-Grey's Anatomy
 
 # Name a TV crime or police show
 Law & Order | law and order
@@ -2790,7 +2781,6 @@ Atypical
 Dead to Me
 The Diplomat
 Kaos
-Wednesday
 Ripley
 Monsters
 

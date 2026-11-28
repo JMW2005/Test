@@ -1,0 +1,1900 @@
+// Deep Cut prompt bank: QUICK ROUNDS F (short lists, titles and names only)
+// Answers go most common first. * marks the Mother Lode.
+
+## Quick Rounds: Mix
+
+# Name a famous character who wears glasses
+Harry Potter
+Velma
+Clark Kent
+Steve Urkel
+Mr. Magoo
+Milhouse
+Daria
+Waldo
+Professor X
+Dexter
+Arthur
+Ugly Betty
+Austin Powers
+Edna Mode
+Mike Wazowski
+Nick Fury
+Cyclops
+Hermes Conrad
+Dwight Schrute
+Ned Flanders
+Lisa Loeb
+Buddy Holly
+John Lennon
+Elton John
+Woody Allen
+Harry Caray
+Drew Carey
+Sally Jessy Raphael
+Lenny (Simpsons)
+Ralph Wiggum
+Comic Book Guy
+Martin Prince
+Brain (Arthur)
+Piggy (Lord of the Flies)
+*Ponch
+Velma Dinkley
+Edna Krabappel
+Professor Utonium
+
+# Name a famous character with red hair
+Ariel
+Anne of Green Gables
+Annie
+Pippi Longstocking
+Ron Weasley
+Ginny Weasley
+Merida
+Jessica Rabbit
+Poison Ivy
+Black Widow
+Jean Grey
+Mary Jane Watson
+Daphne Blake
+Fred Weasley
+George Weasley
+Chuckie Finster
+Wilma Flintstone
+Peppermint Patty
+Lucille Ball
+Raggedy Ann
+Ronald McDonald
+Wendy
+Archie Andrews
+Cheryl Blossom
+Joan Holloway
+Ygritte
+Sansa Stark
+Melisandre
+Lily Potter
+Misty
+Starfire
+Kim Possible
+Pepper Potts
+*Little Red-Haired Girl
+Red Sonja
+Chucky
+Hellboy
+Fiona
+
+# Name a famous character with a famous laugh or catchphrase laugh
+The Joker
+Woody Woodpecker
+SpongeBob
+Mr. Krabs
+Patrick
+Muttley
+Beavis
+Butt-Head
+Elmo
+Santa Claus
+Bowser
+Count von Count
+Ursula
+The Wicked Witch
+Dr. Evil
+Jabba the Hutt
+Emperor Palpatine
+Skeletor
+Mojo Jojo
+Goofy
+Gilbert Gottfried
+Janice (Friends)
+Nelson Muntz
+Butters
+Cartman
+Seth Rogen
+Arsenio Hall
+Ed (Lion King hyena)
+*Mutley
+Sideshow Mel
+Tickle Me Elmo
+Dr. Doofenshmirtz
+Doctor Robotnik
+
+# Name a famous left-handed person {names}
+Barack Obama
+Bill Gates
+Oprah Winfrey
+Lady Gaga
+Paul McCartney
+Jimi Hendrix
+Kurt Cobain
+Justin Bieber
+Tom Cruise
+Angelina Jolie
+Jennifer Lawrence
+Scarlett Johansson
+Robert De Niro
+Morgan Freeman
+Nicole Kidman
+Keanu Reeves
+Julia Roberts
+Babe Ruth
+Rafael Nadal
+Phil Mickelson
+Lionel Messi
+Diego Maradona
+Bill Russell
+Michael Vick
+Steve Young
+Sandy Koufax
+Ted Williams
+Randy Johnson
+Clayton Kershaw
+Martina Navratilova
+John McEnroe
+Monica Seles
+Leonardo da Vinci
+Michelangelo
+Albert Einstein
+Marie Curie
+Napoleon
+Joan of Arc
+Bill Clinton
+George H. W. Bush
+Ronald Reagan
+Gerald Ford
+Harry Truman
+Ned Flanders
+Bart Simpson
+*Kermit the Frog
+Ringo Starr
+Jimmy Page
+Celine Dion
+Phil Collins
+
+# Name a famous person who is very tall {names}
+Shaquille O'Neal
+Yao Ming
+Kevin Durant
+Victor Wembanyama
+Manute Bol
+Gheorghe Mureșan
+Wilt Chamberlain
+Kareem Abdul-Jabbar
+Dirk Nowitzki
+Tacko Fall
+Boban Marjanović
+Hafþór Björnsson | the mountain
+André the Giant
+The Big Show
+Kane
+The Undertaker
+Peter Mayhew
+Richard Kiel
+Gwendoline Christie
+Stephen Merchant
+Jeff Goldblum
+Vince Vaughn
+Liam Neeson
+Hugh Laurie
+Tom Hiddleston
+Jason Segel
+Chris Hemsworth
+Alexander Skarsgård
+Abraham Lincoln
+George Washington
+Taylor Swift
+Uma Thurman
+Nicole Kidman
+Brooke Shields
+Brittney Griner
+Lisa Leslie
+Bol Bol
+Robert Wadlow
+Sultan Kösen
+Hagrid
+Groot
+Chewbacca
+*Lurch
+Herman Munster
+Big Bird
+Slender Man
+
+# Name a famous person who is very short {names}
+Danny DeVito
+Kevin Hart
+Peter Dinklage
+Tom Cruise
+Prince
+Bruno Mars
+Lady Gaga
+Kristen Bell
+Ariana Grande
+Selena Gomez
+Dolly Parton
+Kylie Minogue
+Mila Kunis
+Jada Pinkett Smith
+Salma Hayek
+Snooki
+Simone Biles
+Muggsy Bogues
+Spud Webb
+Earl Boykins
+Jose Altuve
+Lionel Messi
+Napoleon
+Verne Troyer
+Warwick Davis
+Gary Coleman
+Emmanuel Lewis
+Seth Green
+Daniel Radcliffe
+Elijah Wood
+Michael J. Fox
+Al Pacino
+Sylvester Stallone
+Martin Scorsese
+Danny Elfman
+Joe Pesci
+Willow Smith
+Jessica Alba
+*Linda Hunt
+Billy Barty
+Mini-Me
+Yoda
+Frodo
+Bilbo
+Dobby
+Grogu
+Gru's Minions
+
+# Name something you'd find in a superhero's lair or headquarters
+Batcave
+Batmobile
+Batcomputer
+Fortress of Solitude
+Avengers Tower
+Stark Tower
+Baxter Building
+Hall of Justice
+Watchtower
+X-Mansion
+Danger Room
+Cerebro
+Helicarrier
+Quinjet
+Sanctum Sanctorum
+Wakanda lab
+Vibranium
+Iron Man suits
+Utility belt
+Grappling hook
+Costumes
+Trophies
+Giant penny
+T-Rex statue
+Robin's costume memorial
+Joker card
+Alfred
+Bats
+Computers
+Gym
+Weapons
+Training room
+Medical bay
+Secret entrance
+Sliding pole
+Fireman's pole
+Teen Titans Tower
+Justice League satellite
+Wayne Manor
+*Phantom Zone projector
+Kryptonite vault
+Crystals
+Jarvis
+Friday
+Mind Stone
+Infinity Gauntlet
+
+# Name a famous superhero weakness
+Kryptonite
+Magic
+Wood (Green Lantern)
+Yellow (Green Lantern)
+Water (Wicked Witch)
+Sunlight (vampires)
+Garlic
+Silver (werewolves)
+Fire (Martian Manhunter)
+His heart (Iron Man)
+Arc reactor
+Anger (Hulk)
+Loved ones
+Mary Jane
+Aunt May
+Spider-sense dampener
+Vibranium
+Adamantium
+Electricity
+Cold
+Mjolnir worthiness
+Hubris
+Alcohol
+Pride
+Speed force
+Gravity
+The Phantom Zone
+Doomsday
+Red sun
+Blindness (Daredevil) | sound
+Sonic weapons
+Being out of the water (Aquaman)
+*Magnetism (Wolverine)
+Kryptonite gum
+Sleep
+Food
+
+# Name something you'd find in a haunted house
+Ghosts
+Cobwebs
+Spiders
+Bats
+Skeletons
+Creaky doors
+Creaky stairs
+Candles
+Candelabra
+Portraits with moving eyes
+Secret passages
+Trapdoors
+Coffins
+Zombies
+Vampires
+Witches
+Rattling chains
+Moaning
+Fog
+Thunder
+Lightning
+Dust
+Sheets over furniture
+Old dolls
+Music box
+Grandfather clock
+Rocking chair
+Attic
+Basement
+Ouija board
+Crystal ball
+Mirrors
+Blood
+Screaming
+Black cat
+Rats
+Scarecrow
+Pumpkins
+Graveyard
+Skeleton in the closet
+Butler
+Hitchhiking ghosts
+Madame Leota
+Stretching room
+Haunted Mansion
+*Bathroom with a bloody tub
+Poltergeist
+Demon
+Possessed child
+
+# Name a famous character who is a ghost
+Casper
+Slimer
+Moaning Myrtle
+Nearly Headless Nick
+The Grey Lady
+The Bloody Baron
+The Fat Friar
+Peeves
+Patrick Swayze in Ghost | sam wheat
+Beetlejuice
+Adam and Barbara Maitland
+Bloody Mary
+Danny Phantom
+Jacob Marley
+Ghost of Christmas Past
+Ghost of Christmas Present
+Ghost of Christmas Yet to Come
+Hamlet's father
+Banquo
+Obi-Wan Kenobi (Force ghost)
+Yoda (Force ghost)
+Anakin (Force ghost)
+King Boo
+Boo
+Blinky
+Inky
+Pinky
+Clyde
+Kayako
+Samara
+Sadako
+Headless Horseman
+The Flying Dutchman
+Hector (Coco)
+Mama Imelda
+Ghostly Trio
+Stretch
+Stinkie
+Fatso
+*Mr. Boogedy
+Zero
+The Hitchhiking Ghosts
+Madame Leota
+Gozer
+
+# Name a famous character who is a witch or wizard in a TV show
+Sabrina Spellman
+Samantha Stephens
+Endora
+Tabitha
+Willow Rosenberg
+Tara Maclay
+Prue Halliwell
+Piper Halliwell
+Phoebe Halliwell
+Paige Matthews
+Bonnie Bennett
+Agatha Harkness
+Wanda Maximoff
+Hilda Spellman
+Zelda Spellman
+Salem
+Alex Russo
+Justin Russo
+Max Russo
+Jerry Russo
+Merlin
+Morgana
+Juniper Lee
+Luz Noceda
+Eda Clawthorne
+King
+Amity Blight
+Star Butterfly
+Glossaryck
+Harry Dresden
+Yennefer
+Triss
+Marcy Wu
+*Mildred Hubble
+Miss Cackle
+Ethel Hallow
+Rincewind
+Gargamel
+Madame Medusa
+
+# Name a famous person who is a twin {names}
+Mary-Kate Olsen
+Ashley Olsen
+Dylan Sprouse
+Cole Sprouse
+Scarlett Johansson
+Ashton Kutcher
+Kiefer Sutherland
+Alanis Morissette
+Vin Diesel
+Gisele Bündchen
+Jenna Bush
+Barbara Bush
+Tia Mowry
+Tamera Mowry
+Brie Bella
+Nikki Bella
+Jimmy Uso
+Jey Uso
+Tiki Barber
+Ronde Barber
+Brook Lopez
+Robin Lopez
+Markieff Morris
+Marcus Morris
+Henrik Sedin
+Daniel Sedin
+Jose Canseco
+Ozzie Canseco
+Ann Landers
+Abigail Van Buren
+Benji Madden
+Joel Madden
+Linda Hamilton
+Leslie Hamilton
+Fred Weasley
+George Weasley
+Parvati Patil
+Padma Patil
+Tweedledum
+Tweedledee
+Luke Skywalker
+Leia Organa
+Jaime Lannister
+Cersei Lannister
+Mario
+Luigi
+*Elvis Presley
+Jesse Garon Presley
+Romulus
+Remus
+Castor
+Pollux
+Apollo
+Artemis
+
+# Name a famous person with a famous voice {names}
+Morgan Freeman
+James Earl Jones
+Gilbert Gottfried
+Fran Drescher
+Christopher Walken
+Sam Elliott
+Jeff Goldblum
+Kristen Schaal
+Owen Wilson
+Matthew McConaughey
+Scarlett Johansson
+Nancy Cartwright
+Jennifer Tilly
+Kathleen Turner
+Barry White
+Barbra Streisand
+Mariah Carey
+Whitney Houston
+Adele
+Freddie Mercury
+Elvis Presley
+Frank Sinatra
+Johnny Cash
+Tom Waits
+Bob Dylan
+Louis Armstrong
+Michael Jackson
+Celine Dion
+Andrea Bocelli
+Pavarotti
+David Attenborough
+Patrick Stewart
+Alan Rickman
+Benedict Cumberbatch
+Tilda Swinton
+Bill Murray
+Danny DeVito
+Seth Rogen
+Kevin Hart
+Bobcat Goldthwait
+Pee-wee Herman
+Ben Stein
+Vin Diesel
+Christian Bale's Batman
+Mark Hamill's Joker
+Don LaFontaine | in a world
+*Casey Kasem
+Mel Blanc
+Ernie Hudson
+
+# Name a famous person who is a vegetarian or vegan {names}
+Paul McCartney
+Stella McCartney
+Joaquin Phoenix
+Natalie Portman
+Billie Eilish
+Ariana Grande
+Lizzo
+Miley Cyrus
+Benedict Cumberbatch
+Woody Harrelson
+Alicia Silverstone
+Pamela Anderson
+Moby
+Morrissey
+Lewis Hamilton
+Venus Williams
+Serena Williams
+Novak Djokovic
+Tom Brady
+Mike Tyson
+Carl Lewis
+Kyrie Irving
+Chris Paul
+Bill Clinton
+Al Gore
+Peter Dinklage
+Ellen DeGeneres
+Portia de Rossi
+Jessica Chastain
+Jared Leto
+Russell Brand
+Kristen Bell
+Gandhi
+Leonardo da Vinci
+Lisa Simpson
+Phoebe Buffay
+*Prince
+Jay-Z (plant-based)
+Beyoncé (plant-based)
+Madonna
+Bryan Adams
+
+# Name a famous person who's been on the cover of a Wheaties box {names}
+Michael Jordan
+Tiger Woods
+LeBron James
+Tom Brady
+Michael Phelps
+Simone Biles
+Mary Lou Retton
+Bruce Jenner
+Babe Ruth
+Lou Gehrig
+Jackie Robinson
+Walter Payton
+Pete Rose
+Cal Ripken Jr.
+Kobe Bryant
+Shaquille O'Neal
+Larry Bird
+Magic Johnson
+Peyton Manning
+Derek Jeter
+Lindsey Vonn
+Shaun White
+Kerri Strug
+Dominique Dawes
+Carl Lewis
+Jackie Joyner-Kersee
+Dan Marino
+John Elway
+Kurt Warner
+Dale Earnhardt Jr.
+Chris Evert
+Billie Jean King
+Pete Sampras
+Mia Hamm
+Brandi Chastain
+Bob Richards
+*Jim Thorpe
+Johnny Unitas
+Bart Starr
+Jack Nicklaus
+Arnold Palmer
+Rocky Marciano
+
+# Name a word that comes after "Super"
+Man
+Bowl
+Mario
+Market
+Hero
+Star
+Model
+Nova
+Glue
+Size
+Nintendo
+Sonic
+Villain
+Woman
+Girl
+Moon
+Power
+Sayan | saiyan
+Bad
+Freak
+Fly
+Natural
+Charged
+Computer
+Food
+Fan
+Car
+Highway
+Mom
+Dad
+Sub
+Bike
+Soaker
+Tuesday
+Bloom
+Smash Bros
+Trooper
+Chunk
+Store
+Heavyweight
+Bass
+*Califragilisticexpialidocious
+Collider
+Conductor
+Cell
+Max
+Nanny
+Spreader
+
+# Name a word that comes after "Star"
+Wars
+Trek
+Fish
+Light
+Bucks | starbucks
+Dust
+Burst
+Gazer
+Fruit
+Lord
+Boy
+Ship
+Craft
+Field
+Fox
+Fall
+Ling
+Board
+Dom
+Let
+Struck
+Sign
+Power
+Player
+Child
+Sapphire
+Studded
+Crossed
+Gate
+Search
+Seed
+Anise
+Bright
+Sky
+Man
+Girl
+Walker
+Fleet
+Destroyer
+Kist | starkist
+Base
+*Spangled
+Chaser
+Scream
+Stuff
+Light Express
+
+# Name a word that comes before "ball"
+Basket
+Base
+Foot
+Volley
+Soft
+Snow
+Dodge
+Kick
+Hand
+Paint
+Eye
+Meat
+Fire
+Gum
+Pin
+Golf
+Beach
+Bowling
+Cheese
+Matzo
+Rice
+Cotton
+Hair
+Odd
+Screw
+Curve
+Fast
+Knuckle
+Fly
+Spit
+Moth
+Dragon
+Poke
+Crystal
+Wrecking
+Disco
+Masquerade
+Yule
+Cannon
+Medicine
+Tennis
+Pickle
+Hard
+*Butter
+Puff
+Wiffle
+Skee
+Stress
+Track
+High
+
+# Name a word that comes before "house"
+Green
+White
+Light
+Fire
+Ware
+Dog
+Tree
+Club
+Doll
+Fun
+Haunted
+Ranch
+Farm
+Beach
+Guest
+Glass
+Hen
+Hot
+Out
+Pent
+Play
+Power
+School
+Mad
+Boat
+Bird
+Bath
+Court
+Big
+Little
+Full
+Dream
+Gingerbread
+Pancake
+Opera
+Steak
+Coffee
+Store
+Field
+Alms
+Poor
+Work
+Halfway
+Frat
+Sorority
+Safe
+Tiny
+Smoke
+*Ice
+Custom
+Gate
+Wheel
+Pump
+Road
+
+# Name something you can do with a pumpkin
+Carve it
+Make a jack-o'-lantern
+Make pumpkin pie
+Roast the seeds
+Paint it
+Decorate with it
+Make soup
+Make pumpkin bread
+Make muffins
+Smash it
+Throw it
+Grow it
+Pick it at a patch
+Make a pumpkin spice latte
+Turn it into a carriage
+Make a costume
+Make a candle holder
+Feed it to animals
+Compost it
+Bowl with it
+Launch it with a catapult | punkin chunkin
+Enter a giant pumpkin contest
+Make a planter
+Make a cooler
+Make a bowl
+Wear it as a hat
+Make puree
+Make pumpkin cheesecake
+Make pumpkin ravioli
+Make a face mask
+*Make a pumpkin boat
+Paddle in it
+Make pumpkin butter
+Make a pumpkin pie smoothie
+
+# Name something associated with a mermaid
+Ariel
+Tail
+Shells
+Seashell bra
+Ocean
+Sea
+Fish
+Sebastian
+Flounder
+Ursula
+King Triton
+Atlantis
+Trident
+Singing
+Siren
+Hair
+Comb
+Dinglehopper
+Rocks
+Waves
+Scales
+Splash
+Daryl Hannah
+Madison
+Aquamarine
+H2O: Just Add Water
+The Little Mermaid
+Halle Bailey
+Hans Christian Andersen
+Merman
+Mermaid Man
+Barnacle Boy
+Pearl
+Coral
+Treasure
+Shipwreck
+Pirates
+Weeki Wachee
+Starbucks logo
+Mako Mermaids
+*Selkie
+Undine
+Melusine
+Dugong
+Manatee
+
+# Name something associated with a vampire
+Fangs
+Blood
+Coffin
+Bat
+Cape
+Garlic
+Stake
+Cross
+Sunlight
+Dracula
+Transylvania
+Castle
+Night
+Immortality
+Bite
+Neck
+Mirror (no reflection)
+Holy water
+Pale skin
+Red eyes
+Twilight
+Edward Cullen
+Lestat
+Nosferatu
+Count Chocula
+The Count
+Buffy
+Blade
+Vampire Diaries
+True Blood
+What We Do in the Shadows
+Hotel Transylvania
+Interview with the Vampire
+Bram Stoker
+Bela Lugosi
+Christopher Lee
+Gary Oldman
+Invitation to enter
+Sleeping upside down
+Turning into mist
+Castlevania
+*Carmilla
+Varney the Vampire
+Vlad the Impaler
+Count von Count
+Sinners
+
+# Name something associated with zombies
+Brains
+Walking dead
+The Walking Dead
+Undead
+Apocalypse
+Outbreak
+Virus
+Infection
+Bite
+Shuffling
+Groaning
+Rotting flesh
+Headshot
+Shotgun
+Survivors
+Night of the Living Dead
+Shaun of the Dead
+World War Z
+28 Days Later
+Zombieland
+Resident Evil
+The Last of Us
+Plants vs. Zombies
+Left 4 Dead
+Dead Rising
+Call of Duty Zombies
+Thriller
+Michael Jackson
+Zombie walk
+Halloween
+George A. Romero
+Rick Grimes
+Daryl Dixon
+Fungus
+Cordyceps
+Clickers
+Horde
+Barricades
+Safe zones
+Rule #1: Cardio
+Double tap
+Twinkies
+*Fido
+Warm Bodies
+Train to Busan
+Army of the Dead
+All of Us Are Dead
+Kingdom
+
+# Name a famous unsolved mystery or conspiracy theory
+Bigfoot
+Loch Ness Monster
+Area 51
+Roswell
+Moon landing hoax
+JFK assassination
+Jack the Ripper
+Zodiac Killer
+D.B. Cooper
+Bermuda Triangle
+Amelia Earhart
+Atlantis
+Stonehenge
+Easter Island
+Flat Earth
+Illuminati
+Elvis is alive
+Tupac is alive
+Paul is dead
+Birds aren't real
+Lizard people
+Chemtrails
+Fake moon landing
+Princess Diana
+Marilyn Monroe
+Malaysia Airlines Flight 370 | mh370
+Roanoke Colony
+Mary Celeste
+Voynich manuscript
+Kryptos
+Shroud of Turin
+Holy Grail
+Ark of the Covenant
+Black Dahlia
+Lizzie Borden
+JonBenét Ramsey
+Tamam Shud
+Dyatlov Pass
+Mothman
+Chupacabra
+Jersey Devil
+Men in Black
+Crop circles
+Ancient aliens
+*The Taos Hum
+Max Headroom incident
+Toynbee tiles
+Wow! signal
+Oak Island
+Beale ciphers
+
+# Name a famous myth or legend creature (not Greek)
+Bigfoot
+Loch Ness Monster | nessie
+Yeti
+Dragon
+Unicorn
+Mermaid
+Vampire
+Werewolf
+Chupacabra
+Mothman
+Jersey Devil
+Kraken
+Leprechaun
+Banshee
+Fairy
+Troll
+Goblin
+Elf
+Dwarf
+Gnome
+Phoenix
+Griffin
+Thunderbird
+Wendigo
+Skinwalker
+Kitsune
+Tengu
+Kappa
+Oni
+Djinn | genie
+Golem
+Basilisk
+Cockatrice
+Wyvern
+Bunyip
+Yowie
+Kelpie
+Selkie
+Valkyrie
+Jörmungandr
+Fenrir
+Sleipnir
+Baba Yaga
+La Llorona
+El Cucuy | boogeyman
+Krampus
+Tooth Fairy
+Easter Bunny
+Santa Claus
+Jackalope
+*Fresno Nightcrawler
+Hodag
+Snallygaster
+Ogopogo
+Bake-kujira
+Tikbalang
+Aswang
+Manananggal
+Rakshasa
+Naga
+
+# Name a famous cartoon couple
+Mickey and Minnie
+Donald and Daisy
+Homer and Marge
+Peter and Lois
+Fred and Wilma
+Barney and Betty
+George and Jane Jetson
+Shrek and Fiona
+Gomez and Morticia
+Kermit and Miss Piggy
+Popeye and Olive Oyl
+Bugs and Lola
+Pepé Le Pew and Penelope
+Carl and Ellie
+WALL-E and EVE
+Lady and the Tramp
+Simba and Nala
+Aladdin and Jasmine
+Ariel and Eric
+Belle and the Beast
+Rapunzel and Flynn
+Anna and Kristoff
+Tiana and Naveen
+Hercules and Meg
+Mulan and Shang
+Pocahontas and John Smith
+Sleeping Beauty and Phillip
+Cinderella and Prince Charming
+Bob and Linda Belcher
+Hank and Peggy Hill
+Stan and Francine Smith
+Mr. and Mrs. Incredible
+Gru and Lucy
+Aang and Katara
+Zuko and Mai
+Sokka and Suki
+Korra and Asami
+Finn and Princess Bubblegum
+Marceline and Princess Bubblegum
+Rick and Unity
+Arnold and Helga
+Timmy and Trixie
+Danny and Sam
+Kim and Ron
+Ruby and Sapphire
+Steven and Connie
+*Pinky and Brain
+Jessica and Roger Rabbit
+Fiona and Cake
+Jake and Lady Rainicorn
+Bender and the Fembot
+
+# Name a famous person who's been on The Masked Singer {names}
+T-Pain
+Wayne Brady
+LeAnn Rimes
+Kandi Burruss
+Jesse McCartney
+Bow Wow
+Rob Gronkowski
+Lil Wayne
+Busta Rhymes
+Gladys Knight
+Patti LaBelle
+Kelly Osbourne
+Ricki Lake
+Tori Spelling
+Joey Fatone
+Nick Lachey
+Drew Carey
+Sarah Palin
+Rudy Giuliani
+Dwight Howard
+Kenny Loggins
+Seal
+Taylor Dayne
+Bebe Rexha
+Sheryl Crow
+Teyana Taylor
+Natalie Imbruglia
+Jewel
+Chris Daughtry
+Duck Dynasty's Willie Robertson
+Mel B
+Tom Bergeron
+JoJo Siwa
+*Mickey Rourke
+Ken Jeong
+Nicole Scherzinger
+Robin Thicke
+Jenny McCarthy
+Rita Ora
+Nick Cannon
+
+# Name something associated with the Super Bowl
+Halftime show
+Commercials
+Football
+Touchdown
+Wings
+Chips and dip
+Guacamole
+Nachos
+Pizza
+Beer
+Party
+Lombardi Trophy
+Rings
+MVP
+Coin toss
+National anthem
+Gatorade shower
+Disney World
+Kansas City Chiefs
+Patriots
+Tom Brady
+Patrick Mahomes
+Taylor Swift
+Rihanna
+Usher
+Kendrick Lamar
+Prince
+Michael Jackson
+Janet Jackson
+Wardrobe malfunction
+Puppy Bowl
+Kitten Bowl
+Squares
+Prop bets
+Gambling
+Super Bowl Sunday
+Roman numerals
+Fly-over
+Confetti
+Parade
+Media Day
+Overtime
+Hail Mary
+Philly Special
+Helmet catch
+*Left Shark
+Bud Bowl
+Doritos ad
+
+# Name something associated with a beach vacation in Florida
+Miami
+Orlando
+Key West
+Tampa
+Daytona Beach
+Panama City Beach
+Clearwater
+Destin
+Fort Lauderdale
+Spring break
+Disney World
+Universal Studios
+Kennedy Space Center
+Everglades
+Alligators
+Flamingos
+Manatees
+Dolphins
+Oranges
+Orange juice
+Key lime pie
+Cuban sandwich
+Stone crabs
+Hurricanes
+Humidity
+Sunburn
+Retirees
+Florida Man
+Margaritaville
+Jimmy Buffett
+South Beach
+Art Deco
+Ocean Drive
+Palm trees
+Theme parks
+Gators
+Seminoles
+Hurricanes (team)
+Dolphins (team)
+Lightning (team)
+Heat (team)
+Magic (team)
+*Weeki Wachee mermaids
+Coral Castle
+Spongeorama
+Gatorland
+Dry Tortugas
+
+# Name a famous reality TV catchphrase or moment
+You're fired!
+The tribe has spoken
+GTL
+Bye, Felicia
+Gurl, sit down
+Sashay away
+Lip sync for your life
+Not today, Satan
+Make it work
+You're the weakest link, goodbye
+I'm not here to make friends
+Kim, there's people that are dying
+Kourtney, you're the one
+My wife!
+Bish!
+Table flip
+Kris, I'm sorry
+Hideaway
+Here's the deal
+Final rose
+Dramatic
+Fantasy suite
+Hell's Kitchen "IT'S RAW!" | its raw
+Idiot sandwich
+Gordon "Donkey"
+Your dish is beautiful
+*Vape Naysh
+Bones in Cyndi's trunk
+Pump Rules "sandoval"
+Tom Sandoval scandal
+Scandoval
+
+# Name a famous person who's appeared on Sesame Street {names}
+Elmo
+Big Bird
+Kermit
+Robin Williams
+Katy Perry
+Ryan Reynolds
+Neil Patrick Harris
+Jimmy Fallon
+Lin-Manuel Miranda
+Michelle Obama
+Bruno Mars
+Usher
+Will.i.am
+Feist
+Jason Mraz
+Ellen DeGeneres
+Jim Carrey
+Jack Black
+Zach Galifianakis
+Ricky Gervais
+Tina Fey
+Amy Poehler
+Natalie Portman
+Anne Hathaway
+Jennifer Garner
+Sarah Jessica Parker
+Johnny Cash
+Ray Charles
+Stevie Wonder
+Paul Simon
+James Taylor
+Smokey Robinson
+Norah Jones
+R.E.M.
+Destiny's Child
+Alicia Keys
+Mariah Carey
+Patti LaBelle
+John Legend
+Michael Jordan
+LeBron James
+Kevin Durant
+*Johnny Cash
+James Earl Jones
+Itzhak Perlman
+Yo-Yo Ma
+
+# Name something associated with the 1950s
+Poodle skirts
+Sock hops
+Jukeboxes
+Diners
+Milkshakes
+Elvis Presley
+Rock and roll
+Greasers
+Leather jackets
+Drive-in movies
+Hula hoops
+TV dinners
+I Love Lucy
+Leave It to Beaver
+Father Knows Best
+The Honeymooners
+Marilyn Monroe
+James Dean
+Cadillacs
+Tail fins
+Suburbs
+Levittown
+Polio vaccine
+Cold War
+Sputnik
+Space race
+Atomic bomb drills
+Duck and cover
+McCarthyism
+Korean War
+Eisenhower
+Beatniks
+Jack Kerouac
+Frisbee
+Barbie (1959)
+Mr. Potato Head
+Disneyland
+Happy Days
+Grease
+Bobby socks
+Saddle shoes
+Pompadour
+Buddy Holly
+Chuck Berry
+Little Richard
+Jerry Lee Lewis
+American Bandstand
+*Davy Crockett hats
+Pez
+Silly Putty
+
+# Name something associated with the 1960s
+Hippies
+Woodstock
+The Beatles
+Beatlemania
+Moon landing
+JFK
+MLK
+Civil rights
+Vietnam War
+Peace signs
+Tie-dye
+Bell-bottoms
+Flower power
+Go-go boots
+Miniskirts
+Twiggy
+Mod
+Lava lamps
+VW Bus
+Psychedelic
+Summer of Love
+Jimi Hendrix
+Janis Joplin
+The Rolling Stones
+The Beach Boys
+Motown
+The Supremes
+Bob Dylan
+Star Trek
+The Twilight Zone
+The Flintstones
+The Jetsons
+Batman TV show
+Andy Warhol
+Pop art
+Marilyn Diptych
+Barbie
+G.I. Joe
+Etch A Sketch
+Easy-Bake Oven
+Twister
+Space race
+Cuban Missile Crisis
+Berlin Wall
+Muhammad Ali
+Mad Men
+*Nehru jackets
+Hootenannies
+Love-ins
+Be-ins
+
+# Name something associated with the 2010s
+Smartphones
+iPhone
+Instagram
+Snapchat
+Vine
+Selfies
+Selfie sticks
+Hashtags
+Emojis
+Netflix
+Binge-watching
+Game of Thrones
+Breaking Bad
+Avengers
+Frozen
+Let It Go
+Gangnam Style
+Harlem Shake
+Ice Bucket Challenge
+Planking
+Dabbing
+Fidget spinners
+Pokémon Go
+Minecraft
+Fortnite
+Hoverboards
+Uber
+Airbnb
+Tinder
+Obama
+Trump
+Brexit
+Taylor Swift
+Justin Bieber
+One Direction
+Drake
+Adele
+Beyoncé's Lemonade
+Hamilton
+Kardashians
+Kylie Lip Kit
+Millennial pink
+Man buns
+Hipsters
+Avocado toast
+Kale
+Cronuts
+Unicorn Frappuccino
+Bottle flip
+Mannequin Challenge
+Yanny or Laurel
+The Dress
+Grumpy Cat
+Doge
+*Harlem Shake
+Tide pods
+Momo challenge
+Old Town Road
+
+# Name something associated with the 2000s
+Flip phones
+Razr
+BlackBerry
+iPod
+MySpace
+Facebook
+YouTube
+AIM
+Napster
+LimeWire
+Burned CDs
+Y2K
+Low-rise jeans
+Juicy tracksuits
+Von Dutch
+Ugg boots
+Crocs
+Paris Hilton
+Britney Spears
+Lindsay Lohan
+American Idol
+The O.C.
+Laguna Beach
+The Hills
+TRL
+Disney Channel
+Hannah Montana
+High School Musical
+Harry Potter
+Twilight
+Lord of the Rings
+Pirates of the Caribbean
+Shrek
+Guitar Hero
+Wii
+Xbox 360
+PS2
+Halo
+World of Warcraft
+The Sims
+Webkinz
+Club Penguin
+Neopets
+Livestrong bracelets
+Silly Bandz
+Tamagotchi (revival)
+Bratz
+Heelys
+Emo
+Scene kids
+Frosted tips
+Trucker hats
+Ed Hardy
+Jersey Shore
+*Zune
+Friendster
+Xanga
+Snuggies
+Shake Weight
+Pogo.com
+
+# Name something associated with a royal wedding or coronation
+Crown
+Carriage
+Westminster Abbey
+St. Paul's Cathedral
+Buckingham Palace
+Balcony kiss
+Wedding dress
+Tiara
+Veil
+Train
+Bridesmaids
+Pageboys
+Fascinators
+Hats
+Guards
+Trumpets
+Choir
+Archbishop of Canterbury
+Vows
+Ring
+Welsh gold
+Bouquet
+Flypast
+Crowds
+Union Jack
+Bunting
+Street parties
+Pippa Middleton
+Kate Middleton
+Prince William
+Prince Harry
+Meghan Markle
+Princess Diana
+Prince Charles
+King Charles III
+Queen Camilla
+Coronation chicken
+Anointing oil
+Sceptre
+Orb
+Throne
+Stone of Destiny
+Coronation chair
+Gold State Coach
+*St Edward's Crown
+Imperial State Crown
+Spurs
+Ampulla
+
+# Name a famous person who has been on the cover of Time's Person of the Year {names}
+Taylor Swift
+Elon Musk
+Donald Trump
+Barack Obama
+Joe Biden
+Kamala Harris
+Volodymyr Zelenskyy
+Greta Thunberg
+Mark Zuckerberg
+Jeff Bezos
+Pope Francis
+Angela Merkel
+Bono
+Bill Gates
+Melinda Gates
+George W. Bush
+Bill Clinton
+Ronald Reagan
+Martin Luther King Jr.
+John F. Kennedy
+Winston Churchill
+Franklin D. Roosevelt
+Gandhi
+Queen Elizabeth II
+Ted Turner
+Andy Grove
+Rudy Giuliani
+Vladimir Putin
+Ben Bernanke
+The Protester
+You
+The Computer
+The Silence Breakers
+*Charles Lindbergh
+Wallis Simpson
+Pierre Laval
+Hugh Johnson
+Owen D. Young
+
+# Name a famous person who has hosted a cooking show and isn't a chef {names}
+Snoop Dogg
+Martha Stewart
+Ina Garten
+Rachael Ray
+Ree Drummond
+Paula Deen
+Sandra Lee
+Guy Fieri
+Valerie Bertinelli
+Trisha Yearwood
+Selena Gomez
+Amy Schumer
+Nicole Byer
+Jeff Foxworthy
+Tiffani Thiessen
+Eva Longoria
+Gwyneth Paltrow
+Jessica Seinfeld
+Ayesha Curry
+Kardea Brown
+Haylie Duff
+Stanley Tucci
+Phil Rosenthal
+Seth Rogen
+Jennifer Garner
+Drew Barrymore
+Kelly Clarkson
+*Vincent Price
+Dean Martin
+Cheech Marin
+
+# Name something associated with Wimbledon
+Grass courts
+Strawberries and cream
+White clothing
+Pimm's
+Royal box
+Centre Court
+Henman Hill | murray mound
+Ball boys
+Ball girls
+Rain delays
+Roof
+Queue
+Roger Federer
+Serena Williams
+Venus Williams
+Novak Djokovic
+Rafael Nadal
+Andy Murray
+Carlos Alcaraz
+Jannik Sinner
+Björn Borg
+John McEnroe
+Martina Navratilova
+Steffi Graf
+Pete Sampras
+Trophy
+Venus Rosewater Dish
+Gentlemen's Singles Trophy
+All England Club
+London
+SW19
+Tiebreak
+Ace
+Love
+Deuce
+Advantage
+Line judges
+Hawk-Eye
+Champagne
+Rufus the hawk
+Cliff Richard singing in the rain
+*Middle Sunday
+Strawberries
+Slazenger balls
+Rolex clock
+
+# Name something associated with the Kentucky Derby
+Big hats
+Mint juleps
+Horses
+Jockeys
+Churchill Downs
+Louisville
+Roses | run for the roses
+Garland of roses
+Triple Crown
+Bourbon
+Seersucker suits
+Bow ties
+Betting
+Exacta
+Trifecta
+Long shot
+Favorite
+Secretariat
+American Pharoah
+Justify
+Rich Strike
+My Old Kentucky Home
+Bugle call to the post
+First Saturday in May
+Fascinators
+Infield
+Millionaires Row
+Paddock
+Starting gate
+Thoroughbreds
+Kentucky
+Fried chicken
+Burgoo
+Derby pie
+Kentucky Oaks
+Bob Baffert
+*Twin Spires
+Benedictine sandwiches
+Hot Brown
+Pegasus Parade
+Thunder Over Louisville

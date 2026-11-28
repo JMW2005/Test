@@ -1094,7 +1094,6 @@ Rob Lowe
 Leslie Jones
 Jimmy Fallon
 Gene Rayburn
-Ryan Seacrest
 Wink Martindale
 Marc Summers
 Kirk Fogg
@@ -1243,7 +1242,6 @@ My Little Pony
 Jem
 She-Ra
 Voltron
-Thundercats
 Gargoyles
 Pokémon
 Digimon
@@ -1325,7 +1323,6 @@ We were on a break!
 Pivot!
 Could I be any more...
 Smell ya later
-Oh. My. God.
 *Norm!
 Good grief
 Sock it to me
@@ -2042,7 +2039,6 @@ Primal Fear
 The Others
 Oldboy
 Inception
-Shutter Island
 Identity
 The Village
 Unbreakable
@@ -2070,11 +2066,9 @@ Secret Window
 Hereditary
 Barbarian
 Talk to Me
-The Prestige
 Remember Me
 *Sleepaway Camp
 Witness for the Prosecution
-Les Diaboliques
 The Wicker Man
 Don't Look Now
 Jacob's Ladder
@@ -2134,7 +2128,6 @@ Jungle Cruise
 Dumbo the Flying Elephant
 Mad Tea Party | teacups
 Peter Pan's Flight
-Haunted Mansion
 Harry Potter and the Forbidden Journey
 Hagrid's Magical Creatures Motorbike Adventure
 Escape from Gringotts

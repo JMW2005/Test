@@ -1945,7 +1945,6 @@ Rip Curl
 Billabong
 Quiksilver
 Burton
-Oakley
 
 # Name a famous hockey player {names}
 Wayne Gretzky
@@ -2083,7 +2082,6 @@ UMBC | retrievers
 VCU | rams
 Davidson
 Wichita State
-Gonzaga
 South Carolina | gamecocks
 Stanford
 Iowa State | cyclones

@@ -193,7 +193,6 @@ Sticky
 Gyalchester
 Signs
 Emotionless
-Nice for What
 *Pound Cake
 Furthest Thing
 Tuscan Leather
@@ -277,7 +276,6 @@ Get Back
 Revolution
 Day Tripper
 Drive My Car
-Let It Be
 Paperback Writer
 With a Little Help from My Friends
 Sgt. Pepper's Lonely Hearts Club Band | sgt peppers
@@ -449,7 +447,6 @@ Breakin' Dishes
 *Same Ol' Mistakes
 Higher
 Never Ending
-Same Ol' Mistakes
 If It's Lovin' That You Want
 Friend of Mine
 
@@ -501,7 +498,6 @@ Fake Smile
 Ghostin
 *Better Off
 Bye
-Twilight Zone
 
 # Name a Billie Eilish song
 Bad Guy
@@ -549,7 +545,6 @@ The 30th
 *Hostage
 Party Favor
 Come Out and Play
-Six Feet Under
 
 # Name an Eminem song
 Lose Yourself
@@ -774,7 +769,6 @@ Venus
 Sour Candy
 Free Woman
 Joanne
-Born This Way
 Government Hooker
 Scheiße | scheisse
 Disease
@@ -1021,7 +1015,6 @@ Stranger
 So American
 *Scared of My Guitar
 All I Want
-Can't Catch Me Now
 
 # Name a Sabrina Carpenter song
 Espresso
@@ -1046,8 +1039,6 @@ Slim Pickins
 Sharpest Tool
 Lie to Girls
 Diet Pepsi
-Thumbs
-Nonsense
 Why
 Almost Love
 On My Way
@@ -1110,7 +1101,6 @@ Pray for Me
 Secrets
 Party Monster
 Reminder
-Starboy
 Moth to a Flame
 The Morning
 High for This
@@ -1250,7 +1240,6 @@ Daydreamer
 Lovesong
 He Won't Go
 Take It All
-Set Fire to the Rain
 I Miss You
 Sweetest Devotion
 Can I Get It
@@ -1357,7 +1346,6 @@ Friction
 Polaroid
 Children of the Sky
 Wake Up
-Nice to Meet You
 Bloody Valentine
 
 # Name a Maroon 5 song
@@ -1391,7 +1379,6 @@ Nobody's Love
 Lovesick
 Middle Ground
 Love Is Like
-Sunday Morning
 Lucky Strike
 Must Get Out
 *Secret
@@ -1485,7 +1472,6 @@ I Could Have Lied
 If You Have to Ask
 Funky Monks
 Mellowship Slinky in B Major
-Aeroplane
 Desecration Smile
 Wet Sand
 Hard to Concentrate
@@ -1580,7 +1566,6 @@ No More Sorrow
 Valentine's Day
 *Krwlng
 Pts.OF.Athrty
-Bleed It Out
 Lies Greed Misery
 Powerless
 Roads Untraveled
@@ -1712,7 +1697,6 @@ I'm on Fire
 Atlantic City
 Badlands
 Jungleland
-Born to Run
 Cover Me
 My Hometown
 Brilliant Disguise
@@ -1738,7 +1722,6 @@ The Ghost of Tom Joad
 Lonesome Day
 Land of Hope and Dreams
 Wrecking Ball
-Dancing in the Dark
 Letter to You
 
 # Name a Whitney Houston song
@@ -2144,7 +2127,6 @@ Joni
 Smoking on My Ex Pack
 *Go Gina
 Child's Play
-Drew Barrymore
 Twenty Something
 F2F
 Diamond Boy
@@ -2217,7 +2199,6 @@ One Thing at a Time
 Everything I Love
 Spin You Around
 Livin' the Dream
-Lies Lies Lies
 Don't Think Jesus
 This Bar
 Somebody's Problem
@@ -2467,7 +2448,6 @@ Whole Lotta Rosie
 Let There Be Rock
 Rock and Roll Train
 Money Talks
-Moneytalks
 Are You Ready
 Big Balls
 Problem Child
@@ -2622,7 +2602,6 @@ Lovers in the Night
 Girl Can't Help It
 Ask the Lonely
 Lovin', Touchin', Squeezin'
-Anyway You Want It
 
 # Name a Billy Joel song
 Piano Man
@@ -2807,7 +2786,6 @@ O Come, All Ye Faithful
 The Twelve Days of Christmas | twelve days of christmas
 Grandma Got Run Over by a Reindeer
 Baby, It's Cold Outside
-Feliz Navidad
 Mary, Did You Know?
 Carol of the Bells
 Away in a Manger
@@ -3006,7 +2984,6 @@ Giants in the Sky
 Into the Woods
 No One Is Alone
 Children Will Listen
-Defying Gravity
 
 # Name a one-hit wonder song
 Macarena
@@ -3049,11 +3026,8 @@ Funkytown
 Stacy's Mom
 Teenage Dirtbag
 Mr. Jones
-Mambo No. 5
-Who Let the Dogs Out
 Harlem Shake
 What's Up?
-Tubthumping
 I Want Candy
 Rock Lobster
 Jessie's Girl
@@ -3061,7 +3035,6 @@ Hey Mickey
 Gonna Make You Sweat (Everybody Dance Now) | everybody dance now
 Pump Up the Jam
 U Can't Touch This
-Ice Ice Baby
 Bust a Move
 Whoomp! (There It Is)
 Rump Shaker
@@ -3126,7 +3099,6 @@ Shipping Up to Boston
 *Gary Glitter Rock and Roll
 Zombie
 Hall of Fame
-Seven Nation Army
 Can't Hold Us
 Power
 Remember the Name
@@ -3188,7 +3160,6 @@ Ruby Tuesday
 Tie a Yellow Ribbon
 Crimson and Clover
 Nights in White Satin
-Black Velvet
 Lavender Haze
 Maroon
 Blue Ain't Your Color
@@ -3422,7 +3393,7 @@ Freddie Gibbs
 
 # Name a boy band
 Backstreet Boys
-*NSYNC | nsync
+NSYNC | *nsync | n sync
 One Direction
 BTS
 New Kids on the Block
@@ -4026,7 +3997,6 @@ Kiss
 James Brown
 ZZ Top
 *New Kids on the Block
-Gloria Estefan
 Chubby Checker
 Patti LaBelle
 Clint Black
@@ -4081,7 +4051,6 @@ The Chemical Brothers
 Fatboy Slim
 The Prodigy
 Aphex Twin
-Deadmau5
 Kraftwerk
 Jean-Michel Jarre
 Giorgio Moroder
@@ -4102,7 +4071,6 @@ Kungs
 Purple Disco Machine
 Gesaffelstein
 Justice
-Peggy Gou
 Kaytranada
 Four Tet
 Jamie xx
@@ -4145,7 +4113,6 @@ Fyre Festival
 Warped Tour | vans warped tour
 Lilith Fair
 Ozzfest
-Burning Man
 Newport Folk Festival
 Newport Jazz Festival
 Montreux Jazz Festival
@@ -4210,7 +4177,6 @@ Discman
 MiniDisc
 Boombox
 Jukebox
-Napster
 Rhapsody
 Google Play Music
 Groove Music

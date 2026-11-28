@@ -8,6 +8,7 @@
      Toy Story                      answers, one per line, MOST common first
      Monsters, Inc. | monsters inc  "|" separates extra spellings that also count
      *Luca                          a leading * marks the Mother Lode (optional)
+     #MeToo                         an answer may start with # (prompts need "# " with a space)
      # Name a Friends character {names}
                                     {names}: a first or last name on its own also counts
 */
@@ -18,7 +19,7 @@ function fnv(s){ let h = 2166136261; for(let i=0;i<s.length;i++){ h ^= s.charCod
 function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
 function norm(s){
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")
-    .replace(/&/g," and ").replace(/\+/g,"plus").replace(/#/g,"sharp").replace(/['’]/g,"")
+    .replace(/&/g," and ").replace(/\+/g,"plus").replace(/([a-z])#/g,"$1sharp").replace(/#/g,"").replace(/['’]/g,"")
     .replace(/[^a-z0-9]+/g," ").trim().replace(/^(the|a|an) /,"").replace(/ /g,"");
 }
 function lev(a,b,max){
@@ -47,8 +48,9 @@ function parseBankText(text, file){
   lines.forEach((raw, idx) => {
     const line = raw.trim(), n = idx+1;
     if(!line || line.startsWith("//")) return;
-    if(line.startsWith("##")){ close(); cat = line.replace(/^##\s*/,"") || "General"; return; }
-    if(line.startsWith("#")){
+    // "## Category" and "# Prompt" need a space after the hashes, so answers like "#MeToo" stay answers
+    if(/^##\s/.test(line)){ close(); cat = line.replace(/^##\s*/,"") || "General"; return; }
+    if(/^#\s/.test(line)){
       close();
       let q = line.replace(/^#\s*/,""); const flags = new Set();
       q = q.replace(/\{([^}]*)\}\s*$/, (_,f)=>{ f.split(/[\s,]+/).filter(Boolean).forEach(x=>flags.add(x.toLowerCase())); return ""; }).trim();

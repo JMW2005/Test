@@ -537,7 +537,6 @@ Camp Cretaceous
 Totally Killer
 Fear Street: 1978
 *Gorp
-Indian Summer
 Poison Ivy
 The Burning
 Camp
@@ -1003,7 +1002,6 @@ Robot
 Sprinkler
 Shopping Cart
 Lawnmower
-Running man
 Harlem Shake
 Stanky Leg
 Soulja Boy
@@ -1521,7 +1519,6 @@ Siegfried & Roy's Montecore
 Elsa
 Sabor
 Clarence the cross-eyed lion
-Aslan
 *Lambert the Sheepish Lion
 Kovu
 Kiara
@@ -1588,7 +1585,6 @@ Woodstock
 Foghorn Leghorn
 Heihei
 Kevin
-Zazu
 Rio's Blu
 Jewel
 Red (Angry Birds)
@@ -1606,7 +1602,6 @@ Camilla the Chicken
 Chicken Little
 Rocky the Rooster
 Ginger
-Big Bird
 The Penguin
 Pingu
 Mumble
@@ -1878,7 +1873,6 @@ Kevin Nealon
 Kevin Pollak
 Kevin Kline
 Kevin Sorbo
-Kevin Bacon
 Kevin Richardson
 Kevin Parker
 Kevin Owens
@@ -2282,7 +2276,6 @@ The Wolf Man
 Them!
 Tremors
 Arachnophobia
-Snakes on a Plane
 The Shaggy Dog
 Shark Tank
 Duck Dynasty

@@ -1,0 +1,231 @@
+// Deep Cut prompt bank: QUICK ROUNDS H (short lists, titles and names only)
+// Answers go most common first. * marks the Mother Lode.
+
+## Quick Rounds: Mix
+
+# Name a famous Disney prince or love interest
+Prince Charming
+Prince Eric
+Aladdin
+The Beast | prince adam
+Prince Phillip
+Flynn Rider | eugene fitzherbert
+Kristoff
+Li Shang
+John Smith
+Prince Naveen
+Hercules
+Tarzan
+Hans
+Prince Florian
+Ralph
+Maui
+Kocoum
+Phoebus
+Milo Thatch
+Robin Hood
+Tramp
+Kenai
+Wreck-It Ralph
+*Captain Li Shang
+Lewis
+Tadashi
+Prince Charming (Shrek)
+Dimitri
+
+# Name a famous Pixar or Disney sidekick who is an insect or bug
+Jiminy Cricket
+Cri-Kee
+Flik
+Heimlich
+Ray the firefly
+Francis
+Dim
+Slim
+Rosie
+Gypsy
+Tuck and Roll
+Hopper
+Atta
+Dot
+Molt
+P.T. Flea
+Manny
+*Thumper's bug friend
+Miss Spider
+Centipede
+Grasshopper
+Earthworm
+Glowworm
+Ladybug
+Pinocchio's cricket
+
+# Name a famous Muppet movie or special
+The Muppet Movie
+The Great Muppet Caper
+The Muppets Take Manhattan
+The Muppet Christmas Carol
+Muppet Treasure Island
+Muppets from Space
+The Muppets (2011)
+Muppets Most Wanted
+The Muppets' Wizard of Oz
+It's a Very Merry Muppet Christmas Movie
+Muppets Haunted Mansion
+The Muppets Mayhem
+Muppet Babies
+The Muppet Show
+Fraggle Rock
+Sesame Street
+Emmet Otter's Jug-Band Christmas
+A Muppet Family Christmas
+*Kermit's Swamp Years
+The Dark Crystal
+Labyrinth
+
+# Name a famous Broadway star {names}
+Lin-Manuel Miranda
+Idina Menzel
+Kristin Chenoweth
+Audra McDonald
+Patti LuPone
+Bernadette Peters
+Hugh Jackman
+Neil Patrick Harris
+Sutton Foster
+Leslie Odom Jr.
+Ben Platt
+Jonathan Groff
+Nathan Lane
+Matthew Broderick
+Lea Michele
+Ariana DeBose
+Renée Elise Goldsberry
+Phillipa Soo
+Daveed Diggs
+Cynthia Erivo
+Billy Porter
+Ethel Merman
+Julie Andrews
+Barbra Streisand
+Liza Minnelli
+Chita Rivera
+Angela Lansbury
+Mandy Patinkin
+Lea Salonga
+Jessie Mueller
+Kelli O'Hara
+Michael Crawford
+Sarah Brightman
+*Stephen Sondheim
+Andrew Lloyd Webber
+Bob Fosse
+
+# Name something associated with Taylor Swift's Eras Tour
+Friendship bracelets
+Swifties
+Lover
+Fearless
+Evermore
+Reputation
+Speak Now
+Red
+Folklore
+1989
+TTPD
+Midnights
+Surprise songs
+Piano
+Guitar
+Sequins
+Bodysuits
+Snakes
+Cardigan
+The Eras Tour movie
+Travis Kelce
+22 hat
+Mirrorball
+Rainbow
+Mastermind
+Karma
+Anti-Hero
+Champagne Problems
+Delicate
+Cruel Summer
+Bejeweled
+Glitter
+Concert film
+Record-breaking
+Billion dollars
+Stadiums
+Earthquake (Swift Quake)
+Paramore
+Sabrina Carpenter
+Gracie Abrams
+Phoebe Bridgers
+HAIM
+Muna
+*Moss cabin
+Ice skating
+Dive into the stage
+Light-up wristbands
+
+# Name a virtual assistant or celebrity GPS voice
+Siri
+Alexa
+Google Assistant
+Cortana
+Bixby
+Samuel L. Jackson
+Morgan Freeman
+Snoop Dogg
+John Cena
+Melissa McCarthy
+Issa Rae
+Shaquille O'Neal
+Kevin Hart
+Mr. T
+T-Pain
+Arnold Schwarzenegger
+Darth Vader
+Yoda
+Homer Simpson
+Gordon Ramsay
+*Jarvis
+Karen (Waze voice)
+Susan Bennett
+
+# Name a famous person known for their cooking on YouTube or TikTok {names}
+Joshua Weissman
+Nick DiGiovanni
+Babish | andrew rea
+Gordon Ramsay
+Jamie Oliver
+Nara Smith
+Emily Mariko
+Keith Lee
+Matty Matheson
+Kenji López-Alt
+Ethan Chlebowski
+Adam Ragusea
+Sorted Food
+Tasty
+Bon Appétit
+Claire Saffitz
+Brad Leone
+Molly Baz
+Uncle Roger
+Maangchi
+Laura Vitale
+Rosanna Pansino
+Sauce Stache
+Max the Meat Guy
+Jacques Pépin
+Salt Bae
+Guga Foods
+*Sam the Cooking Guy
+Pasta Grammar
+Chef John | food wishes
+Feeding the Nation
+Thomas Straker
+Poppy O'Toole

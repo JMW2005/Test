@@ -62,7 +62,6 @@ Smashburger
 Freddy's
 Cook Out
 Portillo's
-Checkers
 *Burgerville
 Roy Rogers
 Boston Market
@@ -470,7 +469,6 @@ Cotton candy
 Bubblegum
 Superman
 Pralines and cream
-Cookies and cream
 Peach
 Banana
 Matcha | green tea
@@ -677,7 +675,6 @@ Lasagna | lasagne
 Ravioli
 Risotto
 Fettuccine Alfredo | alfredo
-Lasagna
 Gnocchi
 Tiramisu
 Gelato
@@ -765,7 +762,6 @@ Fish sandwich
 Lobster roll
 Cucumber sandwich
 Fluffernutter
-Gyro
 Falafel wrap
 Shawarma
 Torta
@@ -966,7 +962,6 @@ Brandy Alexander
 Irish coffee
 Hot toddy
 Michelada
-Tequila sunrise
 Kamikaze
 *Harvey Wallbanger
 Fuzzy navel
@@ -976,7 +971,6 @@ Bay Breeze
 Rusty Nail
 Godfather
 Rob Roy
-Sex on the Beach
 
 # Name a famous restaurant chain (sit-down)
 Olive Garden
@@ -1423,7 +1417,6 @@ Yu-Gi-Oh! cards
 Pokémon cards
 Webkinz
 Littlest Pet Shop
-Polly Pocket
 Strawberry Shortcake
 Care Bears
 Trolls
@@ -1432,7 +1425,6 @@ Glo Worm
 *View-Master
 Lawn Darts
 Stretch Armstrong
-Teddy Ruxpin
 Big Wheel
 Moon Shoes
 Skip-It
@@ -1599,7 +1591,6 @@ B. Dalton
 Musicland
 Tower Records
 Blockbuster
-Sbarro
 Mrs. Fields
 
 # Name a famous company logo or mascot
@@ -1890,7 +1881,6 @@ Kirin
 Tsingtao
 Peroni
 Beck's
-Becks
 Carlsberg
 Amstel
 Newcastle

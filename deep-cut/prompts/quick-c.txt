@@ -1295,7 +1295,6 @@ Jemaine Clement
 Bret McKenzie
 Rhys Darby
 Karl Urban
-Russell Crowe
 Anna Paquin
 Lucy Lawless
 Sam Neill
@@ -1796,7 +1795,6 @@ Geralt
 Aragorn
 Gimli
 Thorin
-Hagrid
 Tyrion
 Robert Baratheon
 Captain Haddock
@@ -1882,7 +1880,6 @@ Catch Me If You Can
 Whoopee cushion
 Joy buzzer
 Fake vomit
-Whoopee cushion
 Prank call
 Dine and dash
 Pretending it's your birthday
