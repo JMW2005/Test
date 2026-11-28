@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Deep Cut</title>
+<meta name="description" content="A daily word game: 7 prompts, 20 seconds each, and the rarer your answer the deeper you dig.">
+<meta name="theme-color" content="#17110d">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Deep Cut">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -19,7 +29,13 @@ html,body{margin:0;min-height:100%}
 body{background:var(--bg);background-attachment:fixed;color:var(--ink);font-family:var(--mono);font-size:15px;line-height:1.5;
   background-image:linear-gradient(180deg,#2b2014 0%,#1d150e 30%,#161013 65%,#120d10 100%);min-height:100%}
 button{font:inherit;cursor:pointer}
-.wrap{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.wrap{max-width:720px;margin:0 auto;
+  padding-top:calc(24px + env(safe-area-inset-top,0px));padding-bottom:calc(48px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+html{-webkit-text-size-adjust:100%;overscroll-behavior-y:none}
+body{-webkit-tap-highlight-color:transparent}
+.install{border-style:dashed}
+.install[hidden]{display:none}
 .screen{display:none}.screen.on{display:block}
 h1{font-family:var(--display);font-weight:800;font-size:clamp(48px,12vw,92px);line-height:.9;margin:24px 0 8px;letter-spacing:-.02em;
   background:linear-gradient(180deg,var(--accent) 0%,var(--accent2) 60%,#9b3b22 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -95,6 +111,7 @@ textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--i
   <button class="btn primary" id="bDaily"><b>Today's dig →</b><span id="dailyNote">A new set of prompts every day.</span></button>
   <button class="btn" id="bPractice"><b>Practice shaft</b><span>Endless random prompts. Doesn't count toward your stats.</span></button>
   <button class="btn" id="bHow"><b>How to play</b><span>Strata, scoring and the Mother Lode.</span></button>
+  <button class="btn install" id="bInstall" hidden><b>Install the app</b><span id="installNote">Add Deep Cut to your home screen and play offline.</span></button>
   <div class="stats" id="stats"></div>
   <div class="strata" id="strataKey"></div>
   <p class="small" style="margin-top:18px">This is a single-player game with no server. "How many players picked it" is estimated from a built-in popularity ranking of each answer list.</p>
@@ -515,6 +532,27 @@ $("bCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("shareT
 $("bAgain").onclick=()=>startGame("practice");
 $("bDaily").onclick=()=>{ const done=store.get("daily:"+todayKey(),null); if(done) showResults(done,"daily"); else startGame("daily"); };
 $("bPractice").onclick=()=>startGame("practice");
+
+/* ---------------- APP INSTALL + OFFLINE ---------------- */
+(function(){
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(()=>{}));
+  }
+  if (standalone) return;
+  const btn = $("bInstall"), note = $("installNote");
+  let deferred = null;
+  // Chrome, Edge and Android: use the browser's own install prompt.
+  window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; btn.hidden = false; });
+  window.addEventListener("appinstalled", () => { btn.hidden = true; });
+  // iPhone and iPad Safari have no prompt, so explain the Share-sheet steps instead.
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (ios) { btn.hidden = false; note.textContent = "Tap the Share button, then \u201cAdd to Home Screen\u201d."; }
+  btn.onclick = async () => {
+    if (deferred) { deferred.prompt(); await deferred.userChoice.catch(()=>{}); deferred = null; btn.hidden = true; }
+    else if (ios) { note.textContent = "In Safari: tap Share (the square with an arrow), scroll down, then tap \u201cAdd to Home Screen\u201d."; }
+  };
+})();
 
 renderHome();
 </script>

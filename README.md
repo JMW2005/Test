@@ -45,7 +45,24 @@ Kill animals quickly to build a combo multiplier (up to x5). Eggs restore 20 hea
 
 # Deep Cut
 
-A separate daily word game in `deep-cut/index.html`. Open the file in a browser to play; it works offline (only the fonts load from the web).
+A separate daily word game in `deep-cut/`. It's an installable web app: once it's on GitHub Pages, open it on your phone and add it to your home screen. It runs full-screen like a normal app and works offline. You can also just open `deep-cut/index.html` in a browser.
+
+**Play online:** https://jmw2005.github.io/Test/deep-cut/ (works once GitHub Pages is turned on, see below).
+
+### Publishing with GitHub Pages
+1. On GitHub, open the repo's **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Pick the branch that has this code and the **/ (root)** folder, then **Save**.
+4. After a minute or two the game is live at `https://jmw2005.github.io/Test/deep-cut/`, and Barnyard Uprising at `https://jmw2005.github.io/Test/`.
+
+GitHub Pages on a private repository needs a paid GitHub plan. On a free plan, the repository must be public.
+
+### Installing it as an app
+- **iPhone / iPad (Safari):** tap Share, then **Add to Home Screen**.
+- **Android (Chrome):** tap **Install the app** on the home screen of the game, or use the browser menu's **Install app**.
+- **Desktop Chrome / Edge:** click the install icon in the address bar.
+
+When you change `deep-cut/index.html`, bump `VERSION` in `deep-cut/sw.js` so installed copies pick up the update.
 
 - Each day gives you **7 prompts**, such as "Name a breed of dog", with **20 seconds** each to type one answer.
 - **The rarer your answer, the deeper you dig.** Answers are grouped into strata: Topsoil 10 m, Clay 25 m, Shale 40 m, Bedrock 60 m, Magma 80 m.
