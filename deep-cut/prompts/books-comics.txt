@@ -1,0 +1,1488 @@
+// Deep Cut prompt bank: BOOKS & COMICS
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Books
+
+# Name a Harry Potter book
+Harry Potter and the Sorcerer's Stone | sorcerers stone | philosophers stone
+Harry Potter and the Chamber of Secrets | chamber of secrets
+Harry Potter and the Prisoner of Azkaban | prisoner of azkaban
+Harry Potter and the Goblet of Fire | goblet of fire
+Harry Potter and the Order of the Phoenix | order of the phoenix
+Harry Potter and the Half-Blood Prince | half blood prince
+Harry Potter and the Deathly Hallows | deathly hallows
+Harry Potter and the Cursed Child | cursed child
+Fantastic Beasts and Where to Find Them | fantastic beasts
+*Quidditch Through the Ages
+The Tales of Beedle the Bard | beedle the bard
+
+# Name a Hogwarts subject or spell
+Expelliarmus
+Wingardium Leviosa
+Avada Kedavra
+Expecto Patronum
+Lumos
+Accio
+Alohomora
+Crucio
+Imperio
+Stupefy
+Obliviate
+Petrificus Totalus
+Riddikulus
+Sectumsempra
+Nox
+Reparo
+Episkey
+Expulso
+Confundo
+Incendio
+Aguamenti
+Morsmordre
+Protego
+Silencio
+Levicorpus
+Rictusempra
+Tarantallegra
+Finite Incantatem
+Potions
+Transfiguration
+Charms
+Herbology
+Defence Against the Dark Arts | defense against the dark arts
+Divination
+Care of Magical Creatures
+Astronomy
+History of Magic
+Arithmancy
+Muggle Studies
+Ancient Runes
+*Serpensortia
+Diffindo
+Engorgio
+Densaugeo
+Furnunculus
+Muffliato
+Langlock
+
+# Name a book by Stephen King
+It
+The Shining | shining
+Carrie
+Misery
+Pet Sematary
+The Stand | stand
+Cujo
+Christine
+Salem's Lot | salems lot
+The Green Mile | green mile
+The Dark Tower | dark tower
+11/22/63
+Doctor Sleep
+Under the Dome
+The Outsider | outsider
+Firestarter
+The Dead Zone | dead zone
+Rita Hayworth and Shawshank Redemption | shawshank
+The Body | stand by me
+The Mist | mist
+Thinner
+Needful Things
+Gerald's Game
+Dolores Claiborne
+Billy Summers
+Holly
+Fairy Tale
+The Institute
+Mr. Mercedes
+Duma Key
+Lisey's Story
+Insomnia
+Rose Madder
+Desperation
+The Long Walk | long walk
+The Running Man | running man
+*The Tommyknockers | tommyknockers
+Dreamcatcher
+Cell
+From a Buick 8
+Joyland
+Revival
+Sleeping Beauties
+The Eyes of the Dragon
+
+# Name a book that's assigned in high school English
+To Kill a Mockingbird
+The Great Gatsby | great gatsby
+1984 | nineteen eighty four
+Of Mice and Men
+Romeo and Juliet
+Lord of the Flies
+The Catcher in the Rye | catcher in the rye
+Animal Farm
+Fahrenheit 451
+Macbeth
+Hamlet
+The Crucible | crucible
+The Scarlet Letter | scarlet letter
+The Odyssey | odyssey
+Pride and Prejudice
+Frankenstein
+Brave New World
+The Outsiders | outsiders
+Night
+The Giver | giver
+A Separate Peace
+Their Eyes Were Watching God
+Things Fall Apart
+The Grapes of Wrath
+Beloved
+Jane Eyre
+Wuthering Heights
+Great Expectations
+A Tale of Two Cities
+Heart of Darkness
+The Old Man and the Sea
+Death of a Salesman
+A Raisin in the Sun
+The Glass Menagerie
+Their Eyes Were Watching God
+Invisible Man
+The House on Mango Street
+The Kite Runner
+The Bluest Eye
+Slaughterhouse-Five
+Catch-22
+One Flew Over the Cuckoo's Nest
+Native Son
+The Joy Luck Club
+The Color Purple
+Of Mice and Men
+Julius Caesar
+Othello
+The Odyssey
+The Iliad
+Beowulf
+The Canterbury Tales
+Siddhartha
+*A Day No Pigs Would Die
+Ethan Frome
+Bartleby, the Scrivener
+The Red Badge of Courage
+Hatchet
+Holes
+Speak
+The Hate U Give
+
+# Name a children's book
+The Very Hungry Caterpillar
+Goodnight Moon
+Where the Wild Things Are
+The Cat in the Hat
+Green Eggs and Ham
+Charlotte's Web
+The Giving Tree
+Oh, the Places You'll Go!
+Brown Bear, Brown Bear, What Do You See?
+Corduroy
+Curious George
+Clifford the Big Red Dog
+Matilda
+Charlie and the Chocolate Factory
+James and the Giant Peach
+The BFG
+Harold and the Purple Crayon
+The Polar Express
+The Lorax
+How the Grinch Stole Christmas
+Chicka Chicka Boom Boom
+If You Give a Mouse a Cookie
+Love You Forever
+The Rainbow Fish
+The Snowy Day
+Guess How Much I Love You
+Llama Llama Red Pajama
+Pete the Cat
+The Gruffalo
+Room on the Broom
+Don't Let the Pigeon Drive the Bus!
+Make Way for Ducklings
+Madeline
+The Little Engine That Could
+Goodnight Moon
+The Runaway Bunny
+Winnie-the-Pooh
+The Tale of Peter Rabbit | peter rabbit
+Stuart Little
+Where the Sidewalk Ends
+Alexander and the Terrible, Horrible, No Good, Very Bad Day
+Diary of a Wimpy Kid
+Captain Underpants
+Dog Man
+Junie B. Jones
+Magic Tree House
+Amelia Bedelia
+Frog and Toad
+Arthur
+Berenstain Bears
+Little Critter
+Fancy Nancy
+Pinkalicious
+Olivia
+The Day the Crayons Quit
+The Kissing Hand
+Strega Nona
+Owl Moon
+Jumanji
+Tikki Tikki Tembo
+*Caps for Sale
+Sylvester and the Magic Pebble
+Blueberries for Sal
+The Story of Ferdinand
+Mike Mulligan and His Steam Shovel
+Millions of Cats
+The Paper Bag Princess
+
+# Name a Dr. Seuss book
+The Cat in the Hat
+Green Eggs and Ham
+Oh, the Places You'll Go!
+How the Grinch Stole Christmas!
+The Lorax
+One Fish, Two Fish, Red Fish, Blue Fish | one fish two fish
+Horton Hears a Who!
+Fox in Socks
+Hop on Pop
+The Cat in the Hat Comes Back
+Green Eggs and Ham
+Yertle the Turtle
+The Sneetches
+Horton Hatches the Egg
+Mr. Brown Can Moo! Can You?
+There's a Wocket in My Pocket!
+Oh, the Thinks You Can Think!
+Dr. Seuss's ABC
+Ten Apples Up on Top!
+Are You My Mother?
+Go, Dog. Go!
+Wacky Wednesday
+Happy Birthday to You!
+I Can Read with My Eyes Shut!
+The Butter Battle Book
+Bartholomew and the Oobleck
+The 500 Hats of Bartholomew Cubbins
+And to Think That I Saw It on Mulberry Street | mulberry street
+Did I Ever Tell You How Lucky You Are?
+Oh Say Can You Say?
+*Gerald McBoing Boing
+If I Ran the Zoo
+If I Ran the Circus
+McElligot's Pool
+Thidwick the Big-Hearted Moose
+Daisy-Head Mayzie
+Hunches in Bunches
+Scrambled Eggs Super!
+Dr. Seuss's Sleep Book
+
+# Name a Roald Dahl book
+Charlie and the Chocolate Factory
+Matilda
+The BFG | bfg
+James and the Giant Peach
+The Witches
+Fantastic Mr. Fox
+The Twits
+George's Marvellous Medicine
+Charlie and the Great Glass Elevator
+Danny, the Champion of the World
+Esio Trot
+The Enormous Crocodile
+Boy
+Going Solo
+The Magic Finger
+The Minpins
+The Giraffe and the Pelly and Me
+Revolting Rhymes
+Dirty Beasts
+*The Vicar of Nibbleswicke
+Tales of the Unexpected
+Kiss Kiss
+Someone Like You
+Billy and the Minpins
+The Gremlins
+
+# Name a young adult book series
+Harry Potter
+The Hunger Games | hunger games
+Twilight
+Percy Jackson
+Divergent
+The Maze Runner | maze runner
+Diary of a Wimpy Kid
+The Chronicles of Narnia | narnia
+A Series of Unfortunate Events
+Goosebumps
+The Baby-Sitters Club | babysitters club
+Nancy Drew
+The Hardy Boys
+Warriors
+The Mortal Instruments
+Shadow and Bone
+Throne of Glass
+A Court of Thorns and Roses | acotar
+The Inheritance Cycle | eragon
+His Dark Materials
+The Giver Quartet
+Artemis Fowl
+Alex Rider
+Cirque du Freak
+Vampire Academy
+Pretty Little Liars
+Gossip Girl
+The Sisterhood of the Traveling Pants
+The Princess Diaries
+Heroes of Olympus
+Magnus Chase
+The Kane Chronicles
+The Selection
+Red Queen
+The Lunar Chronicles
+Legend
+Uglies
+Matched
+Delirium
+Shatter Me
+Six of Crows
+Fourth Wing
+The Summer I Turned Pretty
+To All the Boys I've Loved Before
+Wings of Fire
+The 39 Clues
+Animorphs
+Redwall
+Keeper of the Lost Cities
+Fablehaven
+Wayside School
+Magic Tree House
+The Spiderwick Chronicles
+Gregor the Overlander
+Bartimaeus
+The Mysterious Benedict Society
+*The Edge Chronicles
+Abarat
+Septimus Heap
+Sabriel | old kingdom
+Tamora Pierce | tortall
+Dragonriders of Pern
+
+# Name a famous author {names}
+William Shakespeare
+J.K. Rowling
+Stephen King
+Charles Dickens
+Mark Twain
+Jane Austen
+Ernest Hemingway
+F. Scott Fitzgerald
+Edgar Allan Poe
+George Orwell
+J.R.R. Tolkien
+Dr. Seuss
+Roald Dahl
+Agatha Christie
+Maya Angelou
+Toni Morrison
+Harper Lee
+John Steinbeck
+Leo Tolstoy
+Fyodor Dostoevsky
+Virginia Woolf
+Oscar Wilde
+James Joyce
+Homer
+Charlotte Brontë | charlotte bronte
+Emily Brontë | emily bronte
+Mary Shelley
+Bram Stoker
+H.G. Wells
+Jules Verne
+Lewis Carroll
+C.S. Lewis
+Rick Riordan
+Suzanne Collins
+Stephenie Meyer
+John Green
+James Patterson
+Danielle Steel
+Nicholas Sparks
+Dan Brown
+John Grisham
+Michael Crichton
+Tom Clancy
+Neil Gaiman
+George R.R. Martin
+Brandon Sanderson
+Colleen Hoover
+Sarah J. Maas
+Rebecca Yarros
+Emily Henry
+Taylor Jenkins Reid
+Sally Rooney
+Margaret Atwood
+Kurt Vonnegut
+Ray Bradbury
+Isaac Asimov
+Philip K. Dick
+Frank Herbert
+Ursula K. Le Guin
+Terry Pratchett
+Douglas Adams
+Herman Melville
+Nathaniel Hawthorne
+Walt Whitman
+Emily Dickinson
+Robert Frost
+Langston Hughes
+Zora Neale Hurston
+James Baldwin
+Gabriel García Márquez | gabriel garcia marquez
+Haruki Murakami
+Franz Kafka
+Victor Hugo
+Alexandre Dumas
+Miguel de Cervantes
+Dante Alighieri | dante
+Geoffrey Chaucer
+John Milton
+Jonathan Swift
+Daniel Defoe
+Thomas Hardy
+Arthur Conan Doyle
+Ian Fleming
+Beverly Cleary
+Judy Blume
+Shel Silverstein
+Maurice Sendak
+Eric Carle
+Jeff Kinney
+R.L. Stine
+Ann M. Martin
+Lemony Snicket
+*Thomas Pynchon
+Cormac McCarthy
+Don DeLillo
+David Foster Wallace
+Jonathan Franzen
+Zadie Smith
+Kazuo Ishiguro
+Salman Rushdie
+Chinua Achebe
+Toni Cade Bambara
+
+# Name a Sherlock Holmes or Agatha Christie character
+Sherlock Holmes
+Dr. Watson | john watson
+Moriarty | professor moriarty
+Mrs. Hudson
+Inspector Lestrade | lestrade
+Mycroft Holmes
+Irene Adler
+Hercule Poirot | poirot
+Miss Marple
+Captain Hastings | hastings
+Inspector Japp | japp
+Ariadne Oliver
+Tommy and Tuppence
+Miss Lemon
+Colonel Moran | sebastian moran
+Mary Morstan
+Toby
+The Baker Street Irregulars
+Wiggins
+Charles Augustus Milverton
+Jabez Wilson
+Hound of the Baskervilles
+*Parker Pyne
+Harley Quin
+Superintendent Battle
+Colonel Race
+
+# Name a Lord of the Rings or Narnia location
+Mordor
+The Shire | shire
+Rivendell
+Gondor
+Rohan
+Mount Doom
+Middle-earth
+Minas Tirith
+Isengard
+Moria | mines of moria
+Lothlórien | lothlorien
+Helm's Deep
+Bag End
+Hobbiton
+Mirkwood
+Erebor | lonely mountain
+Fangorn Forest | fangorn
+Edoras
+Barad-dûr | barad dur
+Osgiliath
+Dead Marshes
+Bree
+Weathertop
+Grey Havens
+Narnia
+Cair Paravel
+Aslan's How
+Archenland
+Calormen
+The Lamppost | lamppost
+The Wardrobe | wardrobe
+Lantern Waste
+The Stone Table | stone table
+Telmar
+The Lone Islands
+Aslan's Country
+*Charn
+Wood between the Worlds
+Valinor
+Númenor | numenor
+Angmar
+
+# Name a classic monster from literature
+Dracula
+Frankenstein's monster | frankenstein
+The Invisible Man | invisible man
+Mr. Hyde | jekyll and hyde
+The Phantom of the Opera | phantom
+The Headless Horseman | headless horseman
+Moby Dick
+The Hound of the Baskervilles
+Grendel
+The Kraken
+Cthulhu
+The Jabberwock | jabberwocky
+Medusa
+The Minotaur | minotaur
+Cyclops | polyphemus
+Scylla
+Charybdis
+The Sirens
+Smaug
+Shelob
+The Balrog
+The Wendigo
+Pennywise
+The Creature | the monster
+Quasimodo
+The Picture of Dorian Gray | dorian gray
+Carmilla
+The Mummy
+The Wolf Man
+The Golem
+*The Bandersnatch
+The Woman in White
+Lestat
+The Thing
+The Midwich Cuckoos
+
+# Name a fairy tale
+Cinderella
+Snow White
+Sleeping Beauty
+Little Red Riding Hood
+Hansel and Gretel
+Rapunzel
+Goldilocks and the Three Bears
+Jack and the Beanstalk
+The Three Little Pigs
+Beauty and the Beast
+The Little Mermaid
+The Frog Prince
+Rumpelstiltskin
+The Ugly Duckling
+The Princess and the Pea
+Thumbelina
+The Gingerbread Man
+Puss in Boots
+The Emperor's New Clothes
+The Snow Queen
+The Elves and the Shoemaker
+The Pied Piper of Hamelin | pied piper
+Pinocchio
+Peter Pan
+Aladdin
+Ali Baba and the Forty Thieves
+The Tortoise and the Hare
+The Boy Who Cried Wolf
+The Three Billy Goats Gruff
+Chicken Little
+The Little Red Hen
+The Twelve Dancing Princesses
+Bluebeard
+The Steadfast Tin Soldier
+The Little Match Girl
+Tom Thumb
+Rose Red
+Snow-White and Rose-Red
+The Golden Goose
+*The Six Swans
+The Fisherman and His Wife
+The Bremen Town Musicians
+The Wolf and the Seven Young Kids
+Donkeyskin
+East of the Sun and West of the Moon
+Vasilisa the Beautiful
+
+# Name a character from Greek mythology
+Zeus
+Hercules | heracles
+Achilles
+Medusa
+Poseidon
+Hades
+Athena
+Aphrodite
+Apollo
+Odysseus | ulysses
+Perseus
+Pandora
+Prometheus
+Icarus
+Narcissus
+Theseus
+Jason
+Helen of Troy | helen
+Paris
+Hector
+Ajax
+Agamemnon
+Orpheus
+Eurydice
+Persephone
+Demeter
+Hera
+Ares
+Hermes
+Artemis
+Dionysus
+Hephaestus
+Cerberus
+Pegasus
+The Minotaur
+Cyclops
+Atlas
+Kronos
+Gaia
+Eros
+Psyche
+Midas
+Sisyphus
+Tantalus
+Arachne
+Echo
+Daedalus
+Ariadne
+Penelope
+Telemachus
+Circe
+Calypso
+Cassandra
+Andromeda
+Bellerophon
+Chimera
+Hydra
+Scylla
+Charybdis
+Antigone
+Oedipus
+Electra
+Medea
+Atalanta
+*Tiresias
+Philoctetes
+Patroclus
+Briseis
+Hippolyta
+Ganymede
+Endymion
+Tithonus
+Actaeon
+Niobe
+
+# Name a famous fictional detective
+Sherlock Holmes
+Hercule Poirot
+Miss Marple
+Nancy Drew
+The Hardy Boys
+Scooby-Doo
+Inspector Gadget
+Columbo
+Batman
+Encyclopedia Brown
+Dick Tracy
+Sam Spade
+Philip Marlowe
+Inspector Clouseau
+Jessica Fletcher
+Adrian Monk
+Shawn Spencer
+Benoit Blanc
+Detective Pikachu
+Veronica Mars
+Lisbeth Salander
+Jack Reacher
+Alex Cross
+Harry Bosch
+Kinsey Millhone
+Easy Rawlins
+Lord Peter Wimsey
+Father Brown
+Inspector Morse
+Inspector Lynley
+Cormoran Strike
+Mma Ramotswe
+Nero Wolfe
+Ellery Queen
+Philo Vance
+Charlie Chan
+Cam Jansen
+Basil of Baker Street
+Ace Ventura
+Frank Drebin
+Jake Peralta
+Rust Cohle
+Mare Sheehan
+*Auguste Dupin
+Sergeant Cuff
+Maigret
+Kurt Wallander
+Harry Hole
+Precious Ramotswe
+Tom Ripley
+Temperance Brennan
+Kay Scarpetta
+Lincoln Rhyme
+
+# Name a famous book that became a movie
+Harry Potter
+The Hunger Games
+The Lord of the Rings
+Twilight
+The Great Gatsby
+To Kill a Mockingbird
+Jurassic Park
+Jaws
+The Godfather
+Gone with the Wind
+Little Women
+Pride and Prejudice
+The Notebook
+The Fault in Our Stars
+Fight Club
+Forrest Gump
+The Shawshank Redemption
+The Silence of the Lambs
+Gone Girl
+The Help
+Dune
+The Martian
+Ready Player One
+It
+The Shining
+Carrie
+Misery
+Life of Pi
+The Hobbit
+Charlie and the Chocolate Factory
+Matilda
+The Wizard of Oz
+Mary Poppins
+The Princess Bride
+The Devil Wears Prada
+Bridget Jones's Diary
+Crazy Rich Asians
+Where the Crawdads Sing
+It Ends with Us
+Wicked
+Oppenheimer | american prometheus
+Killers of the Flower Moon
+The Color Purple
+The Outsiders
+Holes
+Hatchet
+Bridge to Terabithia
+Wonder
+The Giver
+Divergent
+Maze Runner
+Percy Jackson
+Coraline
+Stardust
+The Perks of Being a Wallflower
+Call Me by Your Name
+Normal People
+Room
+Me Before You
+A Clockwork Orange
+Psycho
+Rebecca
+The Exorcist
+No Country for Old Men
+The Road
+American Psycho
+Trainspotting
+Atonement
+Schindler's List | schindlers ark
+Children of Men
+Blade Runner | do androids dream of electric sheep
+Total Recall
+Minority Report
+2001: A Space Odyssey
+*Forrest Gump
+Mrs. Doubtfire | alias madame doubtfire
+Die Hard | nothing lasts forever
+Shrek
+How to Train Your Dragon
+The Iron Giant | the iron man
+Babe | the sheep pig
+Bambi
+Ratatouille
+
+# Name a famous poem or poet {names}
+Robert Frost
+Edgar Allan Poe
+Emily Dickinson
+Maya Angelou
+William Shakespeare
+Langston Hughes
+Walt Whitman
+Shel Silverstein
+Dr. Seuss
+E.E. Cummings
+Sylvia Plath
+William Wordsworth
+John Keats
+Lord Byron
+Percy Bysshe Shelley
+T.S. Eliot
+Rumi
+Pablo Neruda
+Amanda Gorman
+Rupi Kaur
+Allen Ginsberg
+Charles Bukowski
+Dylan Thomas
+W.B. Yeats
+Seamus Heaney
+Homer
+Virgil
+Dante
+Geoffrey Chaucer
+John Milton
+William Blake
+Samuel Taylor Coleridge
+Alfred Lord Tennyson | tennyson
+Elizabeth Barrett Browning
+Robert Browning
+Rudyard Kipling
+Oscar Wilde
+Christina Rossetti
+Gwendolyn Brooks
+Mary Oliver
+Billy Collins
+Louise Glück
+Sappho
+Ovid
+Basho
+Mark Twain
+The Raven
+The Road Not Taken
+Stopping by Woods on a Snowy Evening
+Do Not Go Gentle into That Good Night
+I Wandered Lonely as a Cloud
+Ozymandias
+If—
+The Tyger
+Still I Rise
+Phenomenal Woman
+Annabel Lee
+Paradise Lost
+The Odyssey
+The Iliad
+Beowulf
+The Waste Land
+Howl
+Leaves of Grass
+Jabberwocky
+Casey at the Bat
+'Twas the Night Before Christmas | a visit from st nicholas
+The Hill We Climb
+*Kubla Khan
+The Rime of the Ancient Mariner
+Ode to a Nightingale
+Sonnet 18
+Dulce et Decorum Est
+In Flanders Fields
+The Love Song of J. Alfred Prufrock
+Because I could not stop for Death
+
+## Comics & Superheroes
+
+# Name a Marvel superhero
+Spider-Man | spiderman
+Iron Man
+Captain America
+Thor
+Hulk
+Black Widow
+Wolverine
+Black Panther
+Doctor Strange
+Deadpool
+Captain Marvel
+Ant-Man
+Hawkeye
+Scarlet Witch
+Vision
+Star-Lord | star lord
+Groot
+Rocket Raccoon | rocket
+Gamora
+Daredevil
+Punisher
+Ghost Rider
+Silver Surfer
+Storm
+Cyclops
+Jean Grey
+Professor X
+Gambit
+Rogue
+Mister Fantastic
+Invisible Woman
+Human Torch
+The Thing
+She-Hulk
+Ms. Marvel | kamala khan
+Moon Knight
+Blade
+Luke Cage
+Iron Fist
+Jessica Jones
+Shang-Chi
+Falcon
+Winter Soldier
+War Machine
+Nova
+Quicksilver
+Nick Fury
+Spider-Gwen | ghost spider
+Miles Morales
+Squirrel Girl
+Cable
+Domino
+Colossus
+Nightcrawler
+Iceman
+Beast
+Elektra
+Namor
+Hercules
+Adam Warlock
+Moon Girl
+Silk
+Spider-Woman
+Kate Bishop
+America Chavez
+Agatha Harkness
+Wonder Man
+Sentry
+Blue Marvel
+*Howard the Duck
+Man-Thing
+Dazzler
+Speedball
+Sleepwalker
+Darkhawk
+Cloak
+Dagger
+Power Man
+Captain Britain
+Black Knight
+Brother Voodoo
+Ironheart
+Echo
+White Tiger
+
+# Name a DC superhero
+Batman
+Superman
+Wonder Woman
+The Flash | flash
+Aquaman
+Green Lantern
+Robin
+Supergirl
+Batgirl
+Cyborg
+Martian Manhunter
+Green Arrow
+Shazam | captain marvel
+Nightwing
+Black Canary
+Catwoman
+Harley Quinn
+Hawkman
+Hawkgirl
+Raven
+Starfire
+Beast Boy
+Blue Beetle
+Booster Gold
+Zatanna
+Constantine
+Swamp Thing
+The Atom
+Firestorm
+Plastic Man
+Static Shock | static
+Red Hood
+Batwoman
+Huntress
+Oracle
+Kid Flash
+Superboy
+Power Girl
+Doctor Fate
+Black Lightning
+Mister Miracle
+Big Barda
+Orion
+Vixen
+Steel
+Peacemaker
+Jonah Hex
+Animal Man
+Green Lantern (John Stewart) | john stewart
+Hal Jordan
+Guy Gardner
+Kyle Rayner
+Jessica Cruz
+Wally West
+Barry Allen
+Jay Garrick
+Krypto
+Bat-Mite
+Aqualad
+Mera
+Stargirl
+*Ambush Bug
+Metamorpho
+Elongated Man
+Blue Devil
+Hourman
+Sandman
+The Spectre
+Doctor Mid-Nite
+Wildcat
+Ragman
+Mister Terrific
+Question
+
+# Name a supervillain from Marvel or DC
+The Joker | joker
+Thanos
+Lex Luthor
+Magneto
+Loki
+Doctor Doom
+Green Goblin
+Venom
+Harley Quinn
+Catwoman
+The Penguin | penguin
+The Riddler | riddler
+Two-Face
+Bane
+Poison Ivy
+Scarecrow
+Mr. Freeze
+Ra's al Ghul
+Darkseid
+Brainiac
+General Zod
+Doomsday
+Sinestro
+Reverse-Flash
+Black Adam
+Deathstroke
+Doctor Octopus
+Sandman
+Electro
+Mysterio
+Vulture
+Kraven
+Lizard
+Carnage
+Red Skull
+Ultron
+Galactus
+Kang
+Mephisto
+Dormammu
+Apocalypse
+Sabretooth
+Mystique
+Juggernaut
+Kingpin
+Bullseye
+Killmonger
+Hela
+Enchantress
+Cheetah
+Gorilla Grodd
+Captain Cold
+Black Manta
+Killer Croc
+Hush
+Clayface
+Mad Hatter
+Firefly
+Victor Zsasz
+Professor Hugo Strange
+*Condiment King
+Polka-Dot Man
+Kite Man
+Calendar Man
+Egghead
+Paste-Pot Pete
+Matter-Eater Lad
+Arcade
+MODOK
+The Leader
+Abomination
+Absorbing Man
+Taskmaster
+Baron Zemo
+Ego the Living Planet
+Annihilus
+Dr. Light
+
+# Name a Batman villain
+The Joker | joker
+The Penguin | penguin
+The Riddler | riddler
+Catwoman
+Two-Face
+Bane
+Poison Ivy
+Harley Quinn
+Scarecrow
+Mr. Freeze
+Ra's al Ghul
+Talia al Ghul
+Killer Croc
+Clayface
+Mad Hatter
+Hush
+Deathstroke
+Hugo Strange
+Firefly
+Black Mask
+Victor Zsasz
+Man-Bat
+The Court of Owls | court of owls
+Red Hood
+Ventriloquist
+Scarface
+Killer Moth
+Calendar Man
+Solomon Grundy
+Professor Pyg
+Mr. Zsasz
+Carmine Falcone
+Sal Maroni
+Rupert Thorne
+Joker's goons
+KGBeast
+Anarky
+Azrael
+The Riddler
+Lady Shiva
+Bronze Tiger
+*Kite Man
+Condiment King
+Egghead
+King Tut
+Bookworm
+Mr. Mxyzptlk
+Polka-Dot Man
+Crazy Quilt
+Ten-Eyed Man
+
+# Name a member of the Fantastic Four, Justice League or Teen Titans
+Batman
+Superman
+Wonder Woman
+The Flash
+Aquaman
+Green Lantern
+Cyborg
+Martian Manhunter
+Mister Fantastic | reed richards
+Invisible Woman | sue storm
+Human Torch | johnny storm
+The Thing | ben grimm
+Robin
+Starfire
+Raven
+Beast Boy
+Nightwing
+Kid Flash
+Aqualad
+Terra
+Wonder Girl
+Speedy
+Green Arrow
+Black Canary
+Hawkgirl
+Zatanna
+Shazam
+Firestorm
+The Atom
+Plastic Man
+Booster Gold
+Blue Beetle
+Silver Surfer
+She-Hulk
+Crystal
+Medusa
+*H.E.R.B.I.E. | herbie
+Franklin Richards
+Valeria Richards
+Snapper Carr
+Bumblebee
+Jinx
+Red X
+
+# Name a comic strip
+Peanuts
+Garfield
+Calvin and Hobbes
+The Far Side
+Dilbert
+Doonesbury
+Blondie
+Beetle Bailey
+Hagar the Horrible
+Family Circus
+Zits
+Pearls Before Swine
+Baby Blues
+For Better or For Worse
+Cathy
+Marmaduke
+Dennis the Menace
+Hi and Lois
+B.C.
+The Wizard of Id
+Bloom County
+Get Fuzzy
+Mutts
+Non Sequitur
+Rose Is Rose
+Sally Forth
+Mother Goose and Grimm
+Frazz
+Ziggy
+Andy Capp
+Archie
+Popeye | thimble theater
+Little Orphan Annie
+Dick Tracy
+Prince Valiant
+The Phantom
+Mary Worth
+Rex Morgan, M.D.
+Judge Parker
+Brenda Starr
+Funky Winkerbean
+Gasoline Alley
+Pogo
+Li'l Abner
+Krazy Kat
+Little Nemo
+The Katzenjammer Kids
+Mutt and Jeff
+Bringing Up Father
+*Nancy
+Sluggo
+The Boondocks
+xkcd
+Cyanide & Happiness
+Penny Arcade
+Sarah's Scribbles
+Hark! A Vagrant
+Questionable Content
+Strange Planet
+Heathcliff
+Shoe
+Herman
+Over the Hedge
+Liō
+
+# Name a Peanuts character
+Charlie Brown
+Snoopy
+Linus | linus van pelt
+Lucy | lucy van pelt
+Woodstock
+Sally Brown | sally
+Peppermint Patty
+Marcie
+Schroeder
+Pig-Pen | pigpen
+Franklin
+Rerun
+Spike
+Frieda
+Shermy
+Violet
+Patty
+The Little Red-Haired Girl
+Eudora
+Belle
+Olaf
+Andy
+Marbles
+Charlotte Braun
+*Joe Cool
+The Red Baron
+Flying Ace
+Great Pumpkin
+Miss Othmar
+Lila
+Molly Volley
+Royanne Hobbs
+
+# Name a manga
+One Piece
+Naruto
+Dragon Ball
+Attack on Titan
+Death Note
+Demon Slayer
+My Hero Academia
+Jujutsu Kaisen
+Chainsaw Man
+Bleach
+Hunter x Hunter
+Fullmetal Alchemist
+Berserk
+Tokyo Ghoul
+One-Punch Man
+Spy x Family
+JoJo's Bizarre Adventure
+Vagabond
+Vinland Saga
+Haikyu!!
+Slam Dunk
+Sailor Moon
+Fruits Basket
+Akira
+Ghost in the Shell
+Monster
+20th Century Boys
+Pluto
+Yotsuba&!
+Chi's Sweet Home
+Bakuman
+Blue Lock
+Kaiju No. 8
+Sakamoto Days
+Dandadan
+Frieren
+Oshi no Ko
+Black Clover
+Fairy Tail
+Soul Eater
+Inuyasha
+Ranma ½
+Rurouni Kenshin
+Yu Yu Hakusho
+Yu-Gi-Oh!
+Detective Conan | case closed
+Doraemon
+Astro Boy
+Lone Wolf and Cub
+Golgo 13
+Nana
+Ouran High School Host Club
+Kimi ni Todoke
+Horimiya
+Kaguya-sama
+Uzumaki
+Tomie
+Junji Ito Collection
+Dorohedoro
+Made in Abyss
+Goodnight Punpun | oyasumi punpun
+Solo Leveling
+Tower of God
+The Promised Neverland
+Dr. Stone
+Fire Force
+Mob Psycho 100
+Mashle
+*Cromartie High School
+Nichijou
+Azumanga Daioh
+Lucky Star
+Ping Pong
+Mushishi
+Aria
+Barefoot Gen
+Phoenix | hi no tori
+Black Jack
+Buddha
+Ashita no Joe
+Hajime no Ippo
+
+# Name a Disney or Pixar princess's animal sidekick
+Abu
+Rajah
+Flounder
+Sebastian
+Pascal
+Maximus
+Meeko
+Flit
+Percy
+Mushu
+Cri-Kee
+Heihei
+Pua
+Sven
+Olaf
+Gus
+Jaq
+Bruno
+Louis
+Ray
+Angus
+Sisu
+Tuk Tuk
+Valentino
+*Little Brother
+Khan
+Achilles
+Frou-Frou
+Djali
+Prince Naveen (frog)
+Scuttle
+Max
+Chip
+Lumière
