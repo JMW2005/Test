@@ -1,0 +1,2385 @@
+// Deep Cut prompt bank: BRANDS, FOOD & DRINK
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Food & Drink
+
+# Name a fast food chain
+McDonald's | mcdonalds
+Burger King
+Wendy's | wendys
+Taco Bell
+KFC | kentucky fried chicken
+Chick-fil-A | chick fil a
+Subway
+Popeyes
+Arby's | arbys
+Sonic
+Five Guys
+In-N-Out | in n out
+Jack in the Box
+Carl's Jr. | carls jr
+Hardee's | hardees
+Dairy Queen
+Whataburger
+Culver's | culvers
+Shake Shack
+Panda Express
+Chipotle
+Domino's | dominos
+Pizza Hut
+Little Caesars
+Papa John's | papa johns
+Wingstop
+Raising Cane's | raising canes | canes
+Zaxby's | zaxbys
+Bojangles
+Church's Chicken | churchs
+Del Taco
+Checkers
+Rally's
+White Castle
+Krystal
+Jersey Mike's | jersey mikes
+Jimmy John's | jimmy johns
+Firehouse Subs
+Potbelly
+Panera Bread | panera
+Steak 'n Shake | steak n shake
+Long John Silver's | long john silvers
+Captain D's
+A&W
+Wienerschnitzel
+Nathan's Famous | nathans
+Qdoba
+Moe's Southwest Grill | moes
+El Pollo Loco
+Jollibee
+Tim Hortons
+Dunkin' | dunkin donuts
+Starbucks
+Krispy Kreme
+Smashburger
+Freddy's
+Cook Out
+Portillo's
+Checkers
+*Burgerville
+Roy Rogers
+Boston Market
+Quiznos
+Sbarro
+Blimpie
+Taco John's
+Taco Cabana
+Pollo Tropical
+
+# Name a candy bar
+Snickers
+Kit Kat
+Reese's Peanut Butter Cups | reeses
+Twix
+Milky Way
+Hershey's | hersheys | hershey bar
+3 Musketeers | three musketeers
+Butterfinger
+Baby Ruth
+Almond Joy
+Mounds
+Crunch | nestle crunch
+PayDay
+Mr. Goodbar
+Heath
+Skor
+100 Grand
+Whatchamacallit
+Take 5
+Zero
+Toblerone
+Mars
+Bounty
+Aero
+Crunchie
+Wispa
+Dairy Milk | cadbury dairy milk
+Caramello
+Rolo
+Twirl
+Flake
+Double Decker
+Lion
+Yorkie
+Picnic
+Boost
+Star Bar
+Fruit & Nut
+Marathon
+Charleston Chew
+Clark Bar
+Oh Henry!
+Chunky
+Abba-Zaba
+*Idaho Spud
+Big Hunk
+Look!
+Valomilk
+Zagnut
+Bit-O-Honey
+Cherry Mash
+Goo Goo Cluster
+Kinder Bueno
+Galaxy
+Ritter Sport
+Milka
+Snickers Almond
+Mallo Cup
+
+# Name a breakfast cereal
+Cheerios
+Frosted Flakes
+Froot Loops
+Lucky Charms
+Cinnamon Toast Crunch
+Cap'n Crunch | capn crunch
+Cocoa Puffs
+Rice Krispies
+Corn Flakes
+Honey Nut Cheerios
+Fruity Pebbles
+Cocoa Pebbles
+Trix
+Apple Jacks
+Raisin Bran
+Special K
+Frosted Mini-Wheats | mini wheats
+Honey Bunches of Oats
+Life
+Kix
+Golden Grahams
+Reese's Puffs
+Cookie Crisp
+Corn Pops
+Count Chocula
+Franken Berry
+Boo Berry
+Chex
+Wheaties
+Grape-Nuts
+Honeycomb
+Golden Crisp
+Smacks
+Rice Chex
+Crispix
+Krave
+Captain Crunch Crunch Berries | crunch berries
+Cracklin' Oat Bran
+Fiber One
+Kashi
+Shredded Wheat
+Weetabix
+Coco Pops
+Crunchy Nut
+Oatmeal Squares
+Peanut Butter Crunch
+French Toast Crunch
+Waffle Crisp
+Oreo O's
+*Mr. T Cereal
+Urkel-Os
+Ghostbusters Cereal
+Pac-Man Cereal
+Nerds Cereal
+Sir Grapefellow
+Quisp
+King Vitaman
+Mini Wheats
+Corn Chex
+Wheat Chex
+Basic 4
+Total
+Product 19
+Puffins
+Barbara's Puffins
+
+# Name a soda or soft drink
+Coca-Cola | coke | coca cola
+Pepsi
+Sprite
+Dr Pepper | dr. pepper
+Mountain Dew
+Fanta
+7 Up | seven up
+Root beer
+Ginger ale
+A&W
+Mug Root Beer | mug
+Barq's | barqs
+Canada Dry
+Diet Coke
+Coke Zero
+Pepsi Max
+Sierra Mist | starry
+Sunkist
+Crush
+Squirt
+Fresca
+Schweppes
+Cherry Coke
+Vanilla Coke
+Big Red
+Cheerwine
+Moxie
+RC Cola
+Shasta
+Faygo
+Jolt Cola
+Surge
+Mello Yello
+Pibb Xtra | mr pibb
+Vernors
+Irn-Bru
+Tango
+Lilt
+Inca Kola
+Jarritos
+Mexican Coke
+Orangina
+Olipop
+Poppi
+Bubly
+LaCroix
+Red Bull
+Monster
+Celsius
+*Crystal Pepsi
+Josta
+OK Soda
+Pepsi Blue
+New Coke
+Tab
+Slice
+
+# Name a pizza topping
+Pepperoni
+Cheese
+Sausage
+Mushrooms
+Onions
+Green peppers | peppers | bell peppers
+Olives | black olives
+Bacon
+Ham
+Pineapple
+Jalapeños | jalapenos
+Chicken
+Beef
+Spinach
+Tomatoes
+Anchovies
+Extra cheese
+Garlic
+Basil
+Feta
+Ricotta
+Mozzarella
+Parmesan
+Buffalo chicken
+BBQ chicken
+Meatballs
+Salami
+Prosciutto
+Artichokes
+Banana peppers
+Red onion
+Sun-dried tomatoes
+Pesto
+Arugula | rocket
+Hot honey
+Pickles
+Broccoli
+Corn
+Eggplant
+Zucchini
+Capers
+Canadian bacon
+Chorizo
+Shrimp
+Clams
+Tuna
+Egg
+Potato
+Mac and cheese
+*Calamari
+Gorgonzola
+Goat cheese
+Figs
+Truffle oil
+Pistachios
+Kimchi
+Sauerkraut
+
+# Name a fruit-flavoured candy (not chocolate)
+Skittles
+Starburst
+Sour Patch Kids
+Gummy Bears
+Jolly Ranchers
+Nerds
+Twizzlers
+Swedish Fish
+Airheads
+Laffy Taffy
+Sweet Tarts
+Life Savers
+Warheads
+Mike and Ike
+Hi-Chew
+Trolli
+Haribo
+Gushers
+Fruit by the Foot
+Fruit Roll-Ups
+Runts
+Bottle Caps
+Lemonheads
+Hot Tamales
+Red Vines
+Sour Punch Straws
+Jelly Belly
+Push Pop
+Ring Pop
+Blow Pop
+Dum Dums
+Tootsie Pops
+Pez
+Smarties
+Fun Dip
+Pixy Stix
+Nerds Rope
+Mamba
+Now and Later
+Chewy Sprees
+Bazooka
+Big League Chew
+Juicy Fruit
+Cry Baby
+Atomic Fireball
+Gobstopper | everlasting gobstopper
+Candy Corn
+Peeps
+Jujubes
+*Chuckles
+Dots
+Good & Plenty
+Mary Janes
+Necco Wafers
+Candy buttons
+Wax lips
+Charms
+Razzles
+
+# Name a type of potato chip or salty snack brand
+Lay's | lays
+Doritos
+Pringles
+Cheetos
+Ruffles
+Fritos
+Tostitos
+Sun Chips
+Funyuns
+Takis
+Kettle Chips | kettle brand
+Cape Cod
+Utz
+Wise
+Herr's
+Popchips
+Goldfish
+Cheez-Its
+Pretzels
+Popcorn
+Smartfood
+Chex Mix
+Gardettos
+Bugles
+Combos
+Munchies
+Hot Fries
+Andy Capp's | andy capps
+Corn Nuts
+Pork rinds
+Terra Chips
+Stacy's Pita Chips
+Late July
+Siete
+Walkers
+Quavers
+Wotsits
+Monster Munch
+Hula Hoops
+Skips
+Frazzles
+Twiglets
+Kettle Corn
+Veggie Straws
+Harvest Snaps
+Ritz Crackers
+Wheat Thins
+Triscuit
+Club Crackers
+*Zapp's
+Lay's Stax
+Old Dutch
+Grandma Utz
+Zapps Voodoo
+Route 11
+Dirty Chips
+Boulder Canyon
+Deep River
+Miss Vickie's
+Tim's Cascade
+
+# Name an ice cream flavour
+Vanilla
+Chocolate
+Strawberry
+Cookies and cream
+Mint chocolate chip
+Rocky road
+Cookie dough
+Butter pecan
+Neapolitan
+Coffee
+Pistachio
+Chocolate chip
+Salted caramel
+Birthday cake
+Moose tracks
+Rum raisin
+French vanilla
+Peanut butter cup
+Cherry Garcia
+Phish Food
+Chunky Monkey
+Half Baked
+Mango
+Coconut
+Black raspberry
+Butterscotch
+Cotton candy
+Bubblegum
+Superman
+Pralines and cream
+Cookies and cream
+Peach
+Banana
+Matcha | green tea
+Black sesame
+Ube
+Lemon
+Raspberry
+Rainbow sherbet
+Spumoni
+Tutti frutti
+Maple walnut
+Cinnamon
+Cake batter
+Fudge ripple
+Chocolate chip cookie dough
+Brownie batter
+S'mores
+Pumpkin
+Eggnog
+Peppermint
+Dulce de leche
+Horchata
+Lavender
+Honey
+Earl Grey
+*Grape-Nuts
+Licorice
+Olive oil
+Avocado
+Rose
+Durian
+Blue moon
+
+# Name a coffee drink
+Latte
+Cappuccino
+Espresso
+Americano
+Mocha
+Macchiato
+Frappuccino
+Cold brew
+Iced coffee
+Flat white
+Cortado
+Caramel macchiato
+Pumpkin spice latte | psl
+Black coffee
+Drip coffee
+Decaf
+Affogato
+Ristretto
+Lungo
+Doppio
+Red eye
+Café au lait | cafe au lait
+Irish coffee
+Turkish coffee
+Vietnamese iced coffee
+Café de olla
+Cafe con leche
+Cafe cubano | cuban coffee
+Breve
+Nitro cold brew
+Dalgona coffee
+Frappé | frappe
+Shaken espresso
+Iced latte
+Chai latte
+Dirty chai
+Matcha latte
+London Fog
+Mochaccino
+White mocha
+Vanilla latte
+Oat milk latte
+Gibraltar
+Piccolo
+*Galão
+Café bombón
+Marocchino
+Espresso con panna
+Corretto
+Long black
+Bulletproof coffee
+Einspänner
+
+# Name a Starbucks menu item
+Pumpkin Spice Latte | psl
+Caramel Macchiato
+Frappuccino
+Caramel Frappuccino
+Mocha Frappuccino
+Java Chip Frappuccino
+Pink Drink
+Iced Coffee
+Cold Brew
+Vanilla Sweet Cream Cold Brew
+Iced Brown Sugar Oatmilk Shaken Espresso | brown sugar shaken espresso
+Chai Tea Latte | chai latte
+Matcha Latte
+White Chocolate Mocha
+Peppermint Mocha
+Salted Caramel Mocha
+Flat White
+Cappuccino
+Latte
+Americano
+Espresso
+Strawberry Açaí Refresher | strawberry acai refresher
+Mango Dragonfruit Refresher
+Dragon Drink
+Paradise Drink
+Passion Tango Iced Tea
+Hot Chocolate
+Cake Pop
+Bacon, Gouda & Egg Sandwich
+Egg Bites | sous vide egg bites
+Croissant
+Chocolate Croissant
+Banana Bread
+Lemon Loaf
+Blueberry Muffin
+Cheese Danish
+Pumpkin Cream Cold Brew
+Chestnut Praline Latte
+Toasted White Chocolate Mocha
+Irish Cream Cold Brew
+Iced Lavender Cream Oatmilk Matcha
+Apple Crisp Oatmilk Macchiato
+Pistachio Latte
+*Unicorn Frappuccino
+Zombie Frappuccino
+Christmas Tree Frappuccino
+Clover
+Pike Place
+Puppuccino
+
+# Name a food from Mexican cuisine
+Taco
+Burrito
+Quesadilla
+Nachos
+Enchilada
+Guacamole
+Salsa
+Tamale
+Fajitas
+Chimichanga
+Churros
+Tortilla
+Tostada
+Chalupa
+Pozole
+Mole
+Elote
+Carne asada
+Carnitas
+Al pastor
+Barbacoa
+Birria
+Chiles rellenos
+Flautas
+Taquitos
+Sopes
+Gorditas
+Huaraches
+Tlayuda
+Menudo
+Chilaquiles
+Huevos rancheros
+Queso
+Refried beans
+Mexican rice
+Pico de gallo
+Ceviche
+Tres leches
+Flan
+Horchata
+Agua fresca
+Margarita
+Michelada
+Tequila
+Mezcal
+Conchas
+Tortas
+Cemitas
+Esquites
+Chapulines
+*Huitlacoche
+Cochinita pibil
+Mole poblano
+Pozole rojo
+Caldo de res
+Albondigas
+Sopa de lima
+Pambazo
+Tacos de canasta
+
+# Name an Italian food
+Pizza
+Spaghetti
+Lasagna | lasagne
+Ravioli
+Risotto
+Fettuccine Alfredo | alfredo
+Lasagna
+Gnocchi
+Tiramisu
+Gelato
+Cannoli
+Bruschetta
+Calzone
+Carbonara
+Bolognese
+Pesto
+Focaccia
+Caprese salad | caprese
+Minestrone
+Panna cotta
+Prosciutto
+Mozzarella
+Parmesan
+Meatballs
+Chicken parmesan | chicken parm
+Eggplant parmesan
+Osso buco
+Arancini
+Polenta
+Ciabatta
+Biscotti
+Panettone
+Antipasto
+Carpaccio
+Saltimbocca
+Cacio e pepe
+Amatriciana
+Puttanesca
+Vitello tonnato
+Piadina
+Stromboli
+Garlic bread
+Penne alla vodka
+Tortellini
+Cannelloni
+Zeppole
+Sfogliatella
+Affogato
+Limoncello
+Espresso
+*Supplì
+Pizzelle
+Ribollita
+Pappa al pomodoro
+Bottarga
+Burrata
+Porchetta
+Panzanella
+
+# Name a type of sandwich
+Grilled cheese
+BLT
+Peanut butter and jelly | pbj
+Ham and cheese
+Club sandwich
+Reuben
+Philly cheesesteak | cheesesteak
+Turkey sandwich
+Tuna sandwich | tuna melt
+Egg salad
+Chicken salad
+Meatball sub
+Sloppy Joe
+French dip
+Cuban sandwich | cuban
+Po' boy | po boy
+Muffuletta
+Monte Cristo
+Croque monsieur
+Panini
+Bánh mì | banh mi
+Gyro
+Hoagie | sub
+Italian sub
+Patty melt
+Hamburger
+Hot dog
+Pulled pork sandwich
+Chicken sandwich
+Fried chicken sandwich
+Fish sandwich
+Lobster roll
+Cucumber sandwich
+Fluffernutter
+Gyro
+Falafel wrap
+Shawarma
+Torta
+Pastrami on rye
+Corned beef
+Breakfast sandwich
+Bacon egg and cheese
+Chopped cheese
+Beef on weck
+Italian beef
+Hot brown
+Pimento cheese
+Elvis sandwich
+*Chip butty
+Bacon butty
+Ploughman's
+Tramezzino
+Smørrebrød
+Sando
+Katsu sando
+
+# Name something you'd find at a Thanksgiving dinner
+Turkey
+Stuffing
+Mashed potatoes
+Gravy
+Cranberry sauce
+Pumpkin pie
+Sweet potatoes
+Green bean casserole
+Corn
+Rolls | dinner rolls
+Mac and cheese
+Pecan pie
+Apple pie
+Ham
+Cornbread
+Yams
+Candied yams
+Deviled eggs
+Brussels sprouts
+Squash
+Carrots
+Salad
+Cranberry
+Wishbone
+Pie
+Whipped cream
+Wine
+Cider
+Football
+Parade
+Family
+Napkins
+Centerpiece
+Cornucopia
+Gourds
+Turkey baster
+Leftovers
+Sweet potato pie
+Corn casserole
+Collard greens
+Biscuits
+Oyster stuffing
+Turducken
+Tofurky
+Giblet gravy
+Jell-O salad
+Ambrosia
+*Watergate salad
+Succotash
+Creamed onions
+Parker House rolls
+Mincemeat pie
+Chess pie
+Persimmon pudding
+
+# Name a fast food menu item
+Big Mac
+Whopper
+French fries | fries
+Chicken nuggets | nuggets
+McFlurry
+Frosty
+Crunchwrap Supreme
+Happy Meal
+Quarter Pounder
+Filet-O-Fish
+McChicken
+Egg McMuffin
+Hash brown
+Baconator
+Spicy Chicken Sandwich
+Chick-fil-A Sandwich
+Waffle fries
+Animal style fries
+Double-Double
+Blizzard
+Doritos Locos Tacos
+Chalupa
+Mexican Pizza
+Gordita Crunch
+Nacho Fries
+Baja Blast
+Curly fries
+Beef 'n Cheddar
+Chicken tenders
+Popcorn chicken
+Famous Bowl
+Biscuits
+Mashed potatoes
+Coleslaw
+Onion rings
+Milkshake
+Apple pie
+McRib
+Shamrock Shake
+Big Mac Sauce
+Chicken Fries
+Jr. Bacon Cheeseburger
+Footlong
+Meatball Marinara
+Cookie
+Breadsticks
+Cheesy bread
+Stuffed crust pizza
+Cinnamon twists
+Cinnabon Delights
+Caniac Combo
+Box Combo
+Spicy Deluxe
+Nuggets Meal
+Chicken Biscuit
+Sausage McMuffin
+Hotcakes
+*Arch Deluxe
+McPizza
+McDLT
+Hula Burger
+Enchirito
+Bell Beefer
+Pizza Burger
+
+# Name a cocktail
+Margarita
+Mojito
+Martini
+Piña colada | pina colada
+Cosmopolitan
+Old fashioned
+Manhattan
+Long Island iced tea
+Daiquiri
+Bloody Mary
+Moscow mule
+Mimosa
+Whiskey sour
+Mai tai
+Sex on the Beach
+Tequila sunrise
+Negroni
+Aperol spritz
+Gin and tonic
+Rum and Coke | cuba libre
+Screwdriver
+White Russian
+Black Russian
+Espresso martini
+Paloma
+Sangria
+Bellini
+Tom Collins
+Sidecar
+French 75
+Gimlet
+Mint julep
+Sazerac
+Hurricane
+Zombie
+Blue Hawaiian
+Lemon drop
+Appletini
+Dark 'n' Stormy | dark and stormy
+Caipirinha
+Pisco sour
+Aviation
+Boulevardier
+Bramble
+Clover Club
+Last Word
+Corpse Reviver
+Paper Plane
+Penicillin
+Vesper
+Mudslide
+Grasshopper
+Brandy Alexander
+Irish coffee
+Hot toddy
+Michelada
+Tequila sunrise
+Kamikaze
+*Harvey Wallbanger
+Fuzzy navel
+Alabama Slammer
+Sea Breeze
+Bay Breeze
+Rusty Nail
+Godfather
+Rob Roy
+Sex on the Beach
+
+# Name a famous restaurant chain (sit-down)
+Olive Garden
+Applebee's | applebees
+Chili's | chilis
+Red Lobster
+Outback Steakhouse | outback
+TGI Fridays | fridays
+Texas Roadhouse
+Cheesecake Factory
+Buffalo Wild Wings | bdubs
+Denny's | dennys
+IHOP
+Cracker Barrel
+Waffle House
+Red Robin
+Hooters
+LongHorn Steakhouse | longhorn
+Ruby Tuesday
+P.F. Chang's | pf changs
+Benihana
+Maggiano's | maggianos
+Carrabba's | carrabbas
+Bonefish Grill
+Bob Evans
+Perkins
+Golden Corral
+Chuck E. Cheese
+Dave & Buster's | dave and busters
+Hard Rock Cafe
+Rainforest Cafe
+Planet Hollywood
+Bubba Gump Shrimp Co. | bubba gump
+Joe's Crab Shack
+Logan's Roadhouse
+Ruth's Chris Steak House | ruths chris
+Morton's
+Fogo de Chão
+Texas de Brazil
+Yard House
+BJ's Restaurant
+Twin Peaks
+Cheddar's
+Famous Dave's
+Old Country Buffet
+Ryan's
+Sizzler
+Ponderosa
+Bennigan's
+Friendly's
+Howard Johnson's
+Boston Market
+California Pizza Kitchen | cpk
+Romano's Macaroni Grill | macaroni grill
+Black Angus
+Marie Callender's
+Village Inn
+Huddle House
+First Watch
+Snooze
+Eggs Up Grill
+*Steak and Ale
+Chi-Chi's
+Bakers Square
+Lone Star Steakhouse
+Ground Round
+Max & Erma's
+
+# Name a type of alcohol or spirit
+Vodka
+Tequila
+Whiskey | whisky
+Rum
+Gin
+Beer
+Wine
+Bourbon
+Scotch
+Champagne
+Brandy
+Cognac
+Mezcal
+Sake
+Soju
+Absinthe
+Moonshine
+Rye
+Prosecco
+Cider
+Mead
+Port
+Sherry
+Vermouth
+Schnapps
+Liqueur
+Amaretto
+Baileys
+Kahlúa | kahlua
+Grand Marnier
+Cointreau
+Triple sec
+Jägermeister | jagermeister
+Fireball
+Ouzo
+Sambuca
+Limoncello
+Grappa
+Pisco
+Cachaça | cachaca
+Aquavit | akvavit
+Baijiu
+Shochu
+Armagnac
+Calvados
+Hard seltzer
+White Claw
+Malibu
+Everclear
+Campari
+Aperol
+Chartreuse
+Bénédictine
+Drambuie
+Frangelico
+Midori
+Chambord
+St-Germain
+Pimm's
+Kombucha
+*Mezcal worm
+Arak
+Raki
+Slivovitz
+Palinka
+Poitín
+Kvass
+Pulque
+Makgeolli
+
+## Brands
+
+# Name a car brand
+Toyota
+Ford
+Honda
+Chevrolet | chevy
+BMW
+Mercedes-Benz | mercedes
+Tesla
+Audi
+Nissan
+Jeep
+Dodge
+Volkswagen | vw
+Hyundai
+Kia
+Subaru
+Mazda
+Lexus
+Porsche
+Ferrari
+Lamborghini
+Ram
+GMC
+Cadillac
+Buick
+Lincoln
+Chrysler
+Acura
+Infiniti
+Volvo
+Jaguar
+Land Rover
+Range Rover
+Mini
+Fiat
+Alfa Romeo
+Maserati
+Bentley
+Rolls-Royce | rolls royce
+Aston Martin
+McLaren
+Bugatti
+Genesis
+Mitsubishi
+Rivian
+Lucid
+Polestar
+Peugeot
+Renault
+Citroën | citroen
+Skoda
+Seat
+Opel
+Vauxhall
+Lotus
+Koenigsegg
+Pagani
+Suzuki
+Isuzu
+Saab
+Pontiac
+Oldsmobile
+Plymouth
+Mercury
+Saturn
+Hummer
+Scion
+DeLorean
+AMC
+Studebaker
+Packard
+Tata
+BYD
+Geely
+Lada
+*Yugo
+Trabant
+Edsel
+Tucker
+Hudson
+Nash
+Smart
+
+# Name a social media app or website
+Facebook
+Instagram
+TikTok
+Twitter | x
+Snapchat
+YouTube
+Reddit
+Pinterest
+LinkedIn
+WhatsApp
+Discord
+Tumblr
+Threads
+BeReal
+Twitch
+Telegram
+Bluesky
+Mastodon
+MySpace
+Vine
+Friendster
+Google+ | google plus
+WeChat
+Weibo
+Kik
+Clubhouse
+Quora
+Flickr
+Yik Yak
+Periscope
+Musical.ly | musically
+Tinder
+Bumble
+Hinge
+Nextdoor
+Truth Social
+Substack
+Patreon
+OnlyFans
+Signal
+Messenger
+Line
+VK
+Xanga
+LiveJournal
+Bebo
+Orkut
+Hi5
+Digg
+StumbleUpon
+Ask.fm
+Formspring
+Path
+Ello
+*Peach
+Vero
+Lemon8
+Poparazzi
+Dispo
+Gas
+Yubo
+Houseparty
+IRL
+
+# Name a clothing or fashion brand
+Nike
+Adidas
+Gucci
+Louis Vuitton
+Chanel
+Prada
+Zara
+H&M
+Gap
+Old Navy
+Levi's | levis
+Ralph Lauren | polo
+Tommy Hilfiger
+Calvin Klein
+Versace
+Dior
+Balenciaga
+Hermès | hermes
+Burberry
+Fendi
+Givenchy
+Saint Laurent | ysl
+Armani
+Dolce & Gabbana
+Michael Kors
+Coach
+Kate Spade
+Supreme
+Off-White
+Abercrombie & Fitch | abercrombie
+Hollister
+American Eagle
+Forever 21
+Uniqlo
+Shein
+Urban Outfitters
+Lululemon
+Patagonia
+The North Face
+Champion
+Fila
+Guess
+Diesel
+Lacoste
+Hugo Boss
+J.Crew
+Banana Republic
+Express
+Aeropostale
+Hot Topic
+Victoria's Secret
+Skims
+Fashion Nova
+Aritzia
+Free People
+Anthropologie
+Madewell
+Everlane
+Carhartt
+Dickies
+Wrangler
+Stüssy | stussy
+Bape | a bathing ape
+Palace
+Kith
+Fear of God
+Stone Island
+Moncler
+Canada Goose
+Valentino
+Miu Miu
+Loewe
+Bottega Veneta
+Celine
+Alexander McQueen
+Vivienne Westwood
+Stella McCartney
+Tory Burch
+Marc Jacobs
+Moschino
+*Comme des Garçons
+Maison Margiela
+Rick Owens
+Yohji Yamamoto
+Issey Miyake
+Jil Sander
+Helmut Lang
+Fiorucci
+Von Dutch
+Ed Hardy
+Juicy Couture
+Baby Phat
+FUBU
+
+# Name a toy brand or famous toy
+Lego
+Barbie
+Hot Wheels
+Nerf
+Play-Doh | playdoh
+Monopoly
+Rubik's Cube | rubiks cube
+Etch A Sketch
+Slinky
+Furby
+Tamagotchi
+Beanie Babies
+Cabbage Patch Kids
+Teddy Ruxpin
+Mr. Potato Head
+G.I. Joe | gi joe
+Transformers
+My Little Pony
+Polly Pocket
+Bratz
+American Girl
+Hatchimals
+L.O.L. Surprise! | lol surprise
+Squishmallows
+Labubu
+Fisher-Price
+Mattel
+Hasbro
+Playmobil
+K'Nex
+Lincoln Logs
+Tinkertoys
+Lite-Brite
+Spirograph
+Easy-Bake Oven
+Magic 8 Ball
+Yo-yo
+Frisbee
+Hula hoop
+Super Soaker
+Tickle Me Elmo
+Bop It
+Simon
+Speak & Spell
+Lego Technic
+Matchbox
+Tonka
+Little Tikes
+Power Wheels
+Razor scooter
+Fidget spinner
+Pop It
+Silly Putty
+Koosh ball
+Pogs
+Beyblade
+Bakugan
+Yu-Gi-Oh! cards
+Pokémon cards
+Webkinz
+Littlest Pet Shop
+Polly Pocket
+Strawberry Shortcake
+Care Bears
+Trolls
+Pound Puppies
+Glo Worm
+*View-Master
+Lawn Darts
+Stretch Armstrong
+Teddy Ruxpin
+Big Wheel
+Moon Shoes
+Skip-It
+Socker Boppers
+Water Wiggle
+Creepy Crawlers
+
+# Name a tech company
+Apple
+Google
+Microsoft
+Amazon
+Meta | facebook
+Tesla
+Samsung
+Netflix
+Nvidia
+Intel
+IBM
+Oracle
+Sony
+Dell
+HP | hewlett packard
+Adobe
+Salesforce
+Uber
+Lyft
+Airbnb
+Spotify
+Twitter | x
+OpenAI
+Anthropic
+SpaceX
+PayPal
+eBay
+Zoom
+Slack
+Snap
+Pinterest
+Reddit
+Dropbox
+Shopify
+Stripe
+Cisco
+Qualcomm
+AMD
+Lenovo
+Asus
+Acer
+LG
+Huawei
+Xiaomi
+Alibaba
+Tencent
+ByteDance
+Baidu
+Yahoo
+AOL
+Netscape
+Myspace
+Palantir
+Coinbase
+Robinhood
+DoorDash
+Instacart
+Atlassian
+GitHub
+Twilio
+Square | block
+Roku
+Fitbit
+GoPro
+Garmin
+Logitech
+Razer
+Nokia
+BlackBerry
+Motorola
+Xerox
+*Pets.com
+Theranos
+Juicero
+Quibi
+WeWork
+Kodak
+Polaroid
+Palm
+Compaq
+Gateway
+Commodore
+
+# Name a store you'd find at a mall
+Macy's | macys
+JCPenney | jc penney
+Nordstrom
+Sears
+Foot Locker
+Victoria's Secret
+Bath & Body Works
+Apple Store
+GameStop
+Forever 21
+H&M
+Zara
+Gap
+Old Navy
+American Eagle
+Abercrombie & Fitch
+Hollister
+Aeropostale
+Hot Topic
+Spencer's
+Claire's
+Build-A-Bear Workshop
+Sephora
+Ulta
+Lush
+Express
+Banana Republic
+J.Crew
+Pandora
+Kay Jewelers
+Zales
+Journeys
+Champs
+Finish Line
+Lids
+Disney Store
+Lego Store
+Barnes & Noble
+Bookstore
+Cinnabon
+Auntie Anne's
+Hot Dog on a Stick
+Orange Julius
+Sbarro
+Panda Express
+Food court
+Starbucks
+Dillard's
+Belk
+Kohl's
+Dick's Sporting Goods
+Urban Outfitters
+Pacsun
+Zumiez
+Torrid
+Lane Bryant
+Charlotte Russe
+Wet Seal
+Rue21
+Abercrombie Kids
+Gymboree
+Children's Place
+Kay
+Brookstone
+Sharper Image
+*RadioShack
+KB Toys
+Sam Goody
+Suncoast Video
+Waldenbooks
+B. Dalton
+Musicland
+Tower Records
+Blockbuster
+Sbarro
+Mrs. Fields
+
+# Name a famous company logo or mascot
+Ronald McDonald
+Colonel Sanders
+Tony the Tiger
+The Pillsbury Doughboy | doughboy
+The Kool-Aid Man | kool aid man
+Mr. Peanut
+The M&M's | red m&m | yellow m&m
+Geico Gecko | gecko
+Flo
+Energizer Bunny
+Trix Rabbit
+Lucky the Leprechaun
+Cap'n Crunch
+Snap, Crackle and Pop
+Toucan Sam
+The Michelin Man | bibendum
+Mr. Clean
+Jolly Green Giant
+Chester Cheetah
+Wendy
+The Burger King
+Jack (Jack in the Box)
+Taco Bell Chihuahua
+Spuds MacKenzie
+Joe Camel
+Smokey Bear
+McGruff
+The Aflac Duck | aflac duck
+Progressive's Flo
+Mayhem
+Old Spice Guy
+The Most Interesting Man in the World
+Snuggle Bear
+The Quaker Oats Man
+Aunt Jemima
+Uncle Ben
+Betty Crocker
+Chef Boyardee
+Little Debbie
+Sun-Maid girl
+Morton Salt Girl
+The Gerber Baby
+Elsie the Cow
+The Starbucks Siren | siren
+The Nike Swoosh | swoosh
+Apple logo
+Golden Arches
+Twitter bird
+Mr. Monopoly | rich uncle pennybags
+Duolingo Owl | duo
+Clippy
+Android robot
+Firefox fox
+Charmin bears
+Count Chocula
+Sonny the Cuckoo Bird
+Dig 'Em Frog
+Honey Nut Cheerios Bee | buzz the bee
+Cornelius the Rooster
+*Speedy Alka-Seltzer
+Reddy Kilowatt
+Big Boy
+The Noid
+Mac Tonight
+The Hamburglar
+Grimace
+Birdie
+Mayor McCheese
+Captain Crook
+Officer Big Mac
+
+# Name a brand of sneakers
+Nike
+Adidas
+Converse
+Vans
+Jordan | air jordan
+New Balance
+Puma
+Reebok
+Asics
+Skechers
+Under Armour
+Fila
+Saucony
+Brooks
+Hoka
+On | on running
+Salomon
+Allbirds
+Veja
+K-Swiss
+Le Coq Sportif
+Diadora
+Onitsuka Tiger
+Mizuno
+Keds
+Heelys
+LA Gear
+British Knights
+Ellesse
+Lacoste
+Golden Goose
+Common Projects
+Balenciaga
+Yeezy
+Off-White
+Autry
+Axel Arigato
+Spalding
+Etnies
+DC Shoes
+Osiris
+Globe
+Supra
+Lakai
+Airwalk
+Pony
+Starter
+*Troop
+Avia
+Ryka
+Etonic
+Saucony Jazz
+Crocs
+Birkenstock
+
+# Name a famous perfume or fragrance brand
+Chanel No. 5 | chanel
+Dior Sauvage | sauvage
+Calvin Klein | ck one
+Gucci
+Versace
+Tom Ford
+Yves Saint Laurent | ysl
+Armani
+Marc Jacobs | daisy
+Viktor & Rolf
+Jo Malone
+Le Labo
+Byredo
+Creed
+Maison Francis Kurkdjian | baccarat rouge
+Paco Rabanne | one million
+Jean Paul Gaultier
+Thierry Mugler | angel
+Lancôme | lancome
+Estée Lauder | estee lauder
+Clinique Happy
+Ralph Lauren
+Burberry
+Hermès | hermes
+Prada
+Valentino
+Givenchy
+Carolina Herrera | good girl
+Dolce & Gabbana | light blue
+Davidoff Cool Water | cool water
+Acqua di Gio
+Axe
+Old Spice
+Bath & Body Works
+Victoria's Secret
+Britney Spears Fantasy | fantasy
+Ariana Grande Cloud | cloud
+Sol de Janeiro
+Glossier You
+Kayali
+Phlur
+Ellis Brooklyn
+Diptyque
+Penhaligon's
+Guerlain
+Hugo Boss
+Kenzo
+Issey Miyake
+Montblanc
+Bvlgari
+Cartier
+Chloé | chloe
+*Brut
+Jovan Musk
+Charlie
+Love's Baby Soft
+Electric Youth
+Curve
+Drakkar Noir
+Polo
+
+# Name a grocery store chain
+Walmart
+Kroger
+Costco
+Target
+Whole Foods
+Trader Joe's
+Aldi
+Publix
+Safeway
+Albertsons
+H-E-B | heb
+Wegmans
+Sam's Club
+Food Lion
+Meijer
+Giant
+Stop & Shop
+ShopRite
+Piggly Wiggly
+Winn-Dixie
+Sprouts
+Harris Teeter
+Hy-Vee
+Lidl
+Ralphs
+Vons
+Fred Meyer
+King Soopers
+Smith's
+Fry's
+Food 4 Less
+WinCo
+Save-A-Lot
+Grocery Outlet
+Market Basket
+Hannaford
+Price Chopper
+Shaw's
+Jewel-Osco
+Acme
+Tops
+Giant Eagle
+Schnucks
+Dillons
+Raley's
+Stater Bros.
+Ingles
+Lowes Foods
+Bi-Lo
+Weis
+99 Ranch
+H Mart
+Fresh Market
+Erewhon
+Tesco
+Sainsbury's
+Asda
+Morrisons
+Waitrose
+Loblaws
+*Earth Fare
+A&P
+Pathmark
+Kmart
+Dominick's
+Grand Union
+Bashas'
+Brookshire's
+
+# Name a brand of beer
+Budweiser
+Coors Light
+Bud Light
+Miller Lite
+Corona
+Heineken
+Modelo
+Guinness
+Michelob Ultra
+Stella Artois
+Blue Moon
+Samuel Adams | sam adams
+Pabst Blue Ribbon | pbr
+Busch Light
+Natural Light | natty light
+Keystone Light
+Coors Banquet
+Yuengling
+Dos Equis
+Pacifico
+Tecate
+Sapporo
+Asahi
+Kirin
+Tsingtao
+Peroni
+Beck's
+Becks
+Carlsberg
+Amstel
+Newcastle
+Fosters
+Labatt
+Molson
+Sierra Nevada
+Lagunitas
+Goose Island
+Shiner
+Rolling Rock
+Schlitz
+Old Milwaukee
+Hamm's
+Olympia
+Genesee
+Narragansett
+Leinenkugel's
+New Belgium | fat tire
+Dogfish Head
+Stone
+Ballast Point
+Founders
+Bell's
+Kona
+Sierra Nevada Pale Ale
+Hoegaarden
+Leffe
+Chimay
+Duvel
+Pilsner Urquell
+Paulaner
+Spaten
+Erdinger
+Weihenstephaner
+Kronenbourg
+Singha
+Red Stripe
+Kingfisher
+Efes
+Victoria
+Estrella Damm
+*Billy Beer
+Schaefer
+Iron City
+Falstaff
+Utica Club
+Rainier
+
+# Name an airline
+Delta
+American Airlines | american
+United
+Southwest
+JetBlue
+Alaska Airlines | alaska
+Spirit
+Frontier
+Hawaiian Airlines | hawaiian
+Allegiant
+Sun Country
+British Airways
+Air Canada
+WestJet
+Lufthansa
+Air France
+KLM
+Emirates
+Qatar Airways
+Etihad
+Singapore Airlines
+Cathay Pacific
+Qantas
+Virgin Atlantic
+Virgin Australia
+Ryanair
+easyJet
+Wizz Air
+Aer Lingus
+Iberia
+Turkish Airlines
+Swiss
+Austrian
+SAS
+Finnair
+Icelandair
+Norwegian
+TAP Air Portugal
+ITA Airways | alitalia
+Aeroméxico | aeromexico
+Volaris
+LATAM
+Avianca
+Copa
+Japan Airlines | jal
+ANA | all nippon airways
+Korean Air
+Asiana
+China Airlines
+EVA Air
+Air China
+China Eastern
+China Southern
+Air India
+IndiGo
+Thai Airways
+Vietnam Airlines
+Philippine Airlines
+Garuda
+Malaysia Airlines
+AirAsia
+El Al
+Ethiopian Airlines
+Kenya Airways
+South African Airways
+*Pan Am
+TWA
+Eastern
+Braniff
+Continental
+Northwest
+US Airways
+Concorde
+Oceanic Airlines
+
+# Name a type of sushi or Japanese food
+Sushi
+Sashimi
+Ramen
+Tempura
+Teriyaki
+Miso soup
+Edamame
+California roll
+Spicy tuna roll
+Nigiri
+Udon
+Soba
+Gyoza
+Tonkatsu
+Katsu curry
+Bento
+Onigiri
+Yakitori
+Okonomiyaki
+Takoyaki
+Mochi
+Matcha
+Wasabi
+Pickled ginger | gari
+Unagi
+Dragon roll
+Rainbow roll
+Philadelphia roll
+Spider roll
+Salmon roll
+Tuna roll
+Hand roll | temaki
+Chirashi
+Donburi
+Katsudon
+Gyudon
+Oyakodon
+Tamago
+Ikura
+Uni
+Natto
+Karaage
+Shabu-shabu
+Sukiyaki
+Teppanyaki
+Hibachi
+Wagyu
+Kobe beef
+Dango
+Taiyaki
+Dorayaki
+Melonpan
+Sake
+Japanese curry
+Yakisoba
+Furikake
+Ponzu
+*Fugu
+Kaiseki
+Omakase
+Chawanmushi
+Agedashi tofu
+Shirasu
+Konbini sandwich
+Tamagoyaki
+Nattō
+
+# Name a famous chef {names}
+Gordon Ramsay
+Guy Fieri
+Julia Child
+Bobby Flay
+Anthony Bourdain
+Emeril Lagasse
+Rachael Ray
+Ina Garten
+Jamie Oliver
+Martha Stewart
+Wolfgang Puck
+Paula Deen
+Giada De Laurentiis
+Alton Brown
+Mario Batali
+Ree Drummond | pioneer woman
+Nigella Lawson
+Mary Berry
+Paul Hollywood
+Jose Andres
+Thomas Keller
+Marco Pierre White
+Heston Blumenthal
+Massimo Bottura
+Joël Robuchon | joel robuchon
+Alain Ducasse
+Daniel Boulud
+Eric Ripert
+David Chang
+Roy Choi
+Christina Tosi
+Samin Nosrat
+Padma Lakshmi
+Tom Colicchio
+Andrew Zimmern
+Duff Goldman
+Buddy Valastro | cake boss
+Carla Hall
+Marcus Samuelsson
+Masaharu Morimoto
+Nobu Matsuhisa | nobu
+Curtis Stone
+Ted Allen
+Sandra Lee
+Robert Irvine
+Jacques Pépin | jacques pepin
+Graham Elliot
+Joe Bastianich
+Aarón Sánchez
+Amanda Freitag
+Alex Guarnaschelli
+Michael Symon
+Andrew Rea | babish
+Nick DiGiovanni
+Joshua Weissman
+Salt Bae | nusret
+Swedish Chef
+Remy
+Chef Boyardee
+Carmen Berzatto | carmy
+*Auguste Gusteau | gusteau
+Fannie Farmer
+Escoffier
+Paul Bocuse
+Ferran Adrià
+René Redzepi
+Grant Achatz
+Dominique Crenn
+Nancy Silverton
+Alice Waters
+
+# Name a type of pasta sauce or condiment
+Ketchup
+Mustard
+Mayonnaise | mayo
+Ranch
+Barbecue sauce | bbq sauce
+Hot sauce
+Soy sauce
+Sriracha
+Relish
+Salsa
+Marinara
+Alfredo
+Pesto
+Honey mustard
+Tartar sauce
+Thousand Island
+Italian dressing
+Blue cheese dressing
+Caesar dressing
+Vinaigrette
+Teriyaki
+Hoisin
+Sweet and sour
+Buffalo sauce
+Worcestershire sauce
+Tabasco
+Frank's RedHot
+Cholula
+Valentina
+Tapatío
+Chili crisp
+Gochujang
+Sambal
+Harissa
+Tzatziki
+Hummus
+Tahini
+Aioli
+Chimichurri
+Hollandaise
+Gravy
+Horseradish
+Wasabi
+Fish sauce
+Oyster sauce
+Ponzu
+Chutney
+Mint sauce
+Cranberry sauce
+Applesauce
+Maple syrup
+Honey
+Malt vinegar
+Balsamic vinegar
+Duck sauce
+Comeback sauce
+Fry sauce
+Big Mac sauce
+Polynesian sauce
+Chick-fil-A sauce
+Raising Cane's sauce
+*Mumbo sauce
+Henderson's Relish
+Branston Pickle
+HP Sauce
+Marmite
+Vegemite
+Piccalilli
+Salad cream
+
+# Name a famous drink brand that isn't soda
+Gatorade
+Red Bull
+Monster
+Starbucks
+Snapple
+Arizona
+Capri Sun
+Kool-Aid
+Tropicana
+Minute Maid
+Simply
+Ocean Spray
+V8
+Hi-C
+Sunny D | sunny delight
+Powerade
+Vitaminwater
+BodyArmor
+Prime
+Celsius
+Bang
+Rockstar
+5-hour Energy
+Nesquik
+Ovaltine
+Yoo-hoo
+Lipton
+Brisk
+Pure Leaf
+Gold Peak
+Honest Tea
+Nestea
+Fiji
+Evian
+Dasani
+Aquafina
+Smartwater
+Poland Spring
+Liquid Death
+LaCroix
+Topo Chico
+Perrier
+San Pellegrino
+Voss
+Essentia
+Core
+Glaceau
+Juicy Juice
+Welch's
+Mott's
+Odwalla
+Naked
+Bolthouse
+Silk
+Oatly
+Fairlife
+Chobani
+Califia
+Muscle Milk
+Premier Protein
+Ensure
+Pedialyte
+Liquid IV
+Kombucha | gt's
+Yerba Mate | guayaki
+Bubble tea
+*Surge
+Orbitz
+Fruitopia
+Clearly Canadian
+Tang
+Squeezit
+Little Hug
+Mistic
+Ecto Cooler
+SoBe
+Jolt
+
+# Name a dessert
+Cake
+Ice cream
+Pie
+Brownies
+Cookies
+Cheesecake
+Cupcakes
+Pudding
+Apple pie
+Tiramisu
+Crème brûlée | creme brulee
+Donuts
+Chocolate cake
+Pumpkin pie
+Key lime pie
+Banana split
+Sundae
+Milkshake
+Cobbler
+Crumble
+Strawberry shortcake
+Banana pudding
+Bread pudding
+Rice pudding
+Flan
+Panna cotta
+Mousse
+Soufflé | souffle
+Éclair | eclair
+Macarons
+Cannoli
+Baklava
+Churros
+Funnel cake
+Fudge
+S'mores
+Jell-O
+Popsicle
+Gelato
+Sorbet
+Frozen yogurt
+Carrot cake
+Red velvet cake
+Angel food cake
+Pound cake
+Black Forest cake
+Lava cake
+Ice cream cake
+Baked Alaska
+Pavlova
+Trifle
+Sticky toffee pudding
+Spotted dick
+Mochi
+Tres leches
+Cinnamon rolls
+Beignets
+Gulab jamun
+Kulfi
+Halo-halo
+Bingsu
+Dango
+Knafeh
+*Bananas Foster
+Cherries Jubilee
+Peach Melba
+Floating island
+Croquembouche
+Kouign-amann
+Mille-feuille
+Paris-Brest
+Opera cake
+Charlotte
+Clafoutis
+Galette
+Tarte Tatin
