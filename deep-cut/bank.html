@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deep Cut Prompt Bank</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#17110d">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#17110d; --panel:#2a1f15; --line:#4a3826; --ink:#f3e6d3; --muted:#b39c80;
+  --accent:#f2b33d; --bad:#e0503a; --warn:#e0a03a; --ok:#7fbf6a; --gem:#5fe0c8;
+  --display:"Bricolage Grotesque",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:#120d10}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 var(--mono)}
+.wrap{max-width:900px;margin:0 auto;padding-top:calc(24px + env(safe-area-inset-top,0px));padding-bottom:48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+h1{font-family:var(--display);font-size:clamp(30px,7vw,48px);margin:8px 0 4px;color:var(--accent);text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:32px 0 10px}
+.muted{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+.card b{display:block;font-family:var(--display);font-size:28px;font-variant-numeric:tabular-nums}
+.card span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.howto{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.howto ol{margin:6px 0;padding-left:20px}
+pre{background:#0f0b08;border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto;margin:10px 0}
+.issue{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:8px 0;border-bottom:1px dashed var(--line)}
+.issue .lv{font-size:11px;font-weight:600;padding:2px 8px;border-radius:99px;color:#160f0a;align-self:start}
+.issue .lv.error{background:var(--bad)} .issue .lv.warn{background:var(--warn)}
+.issue div{min-width:0;overflow-wrap:anywhere}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+input,select{font:inherit;background:#0f0b08;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 11px;min-width:0}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+#q{flex:1 1 240px}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;padding:10px 0;display:flex;gap:10px;align-items:baseline;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary .c{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
+summary .t{flex:1;min-width:0}
+summary .n{color:var(--muted);font-size:12px;white-space:nowrap}
+.ans{columns:2 220px;column-gap:24px;margin:0 0 12px;padding:0;list-style:none;font-size:13px}
+.ans li{display:flex;justify-content:space-between;gap:8px;break-inside:avoid;padding:1px 0}
+.ans li.gem{color:var(--gem)}
+.ans em{font-style:normal;color:var(--muted);font-variant-numeric:tabular-nums}
+.test{display:flex;gap:8px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+.test output{font-size:13px}
+.more{margin:14px 0;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font:inherit;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="./">← Back to the game</a>
+  <h1>Prompt bank</h1>
+  <p class="muted" id="status">Loading…</p>
+  <div class="cards" id="cards"></div>
+
+  <div class="howto">
+    <b>How to edit the questions</b>
+    <ol>
+      <li>Pick a file below, or open <code>deep-cut/prompts/</code> on GitHub, and tap the pencil to edit it.</li>
+      <li>Change, add or delete prompts using the format below, then tap <b>Commit changes</b>.</li>
+      <li>GitHub Pages republishes in a minute or two. Reload this page to check for mistakes, then the game picks up the new bank.</li>
+    </ol>
+<pre>## Movies                       ← category for the prompts below
+# Name a Pixar movie             ← a new prompt
+Toy Story                        ← answers, most common first
+Finding Nemo
+Monsters, Inc. | monsters inc    ← | adds another spelling that counts
+*Luca                            ← * marks the Mother Lode (optional)
+
+# Name a Friends character {names}   ← first or last name alone counts</pre>
+    <span class="muted">Each prompt needs at least 5 answers. Without a *, the game picks a Mother Lode about 70% of the way down the list. To add a new file, also add its name to <code>prompts/_files.txt</code>.</span>
+    <div id="files" style="margin-top:8px"></div>
+  </div>
+
+  <h2 id="issuesH">Problems</h2>
+  <div id="issues"></div>
+
+  <h2>Browse and test</h2>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search prompts or answers…" aria-label="Search prompts or answers">
+    <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+  </div>
+  <div id="list"></div>
+  <button class="more" id="more" hidden>Show more</button>
+</div>
+<script src="bank.js"></script>
+<script>
+// Where "Edit on GitHub" links point. Change the branch if GitHub Pages deploys from a different one.
+const GITHUB_EDIT = "https://github.com/JMW2005/Test/edit/claude/determined-allen-6g9xtk/deep-cut/prompts/";
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const STRATA = [[.06,"Topsoil"],[.025,"Clay"],[.01,"Shale"],[.004,"Bedrock"],[0,"Magma"]];
+const tier = a => a.gem ? "Mother Lode" : STRATA.find(s=>a.share>=s[0])[1];
+const pct = x => x>=.1 ? (x*100).toFixed(0)+"%" : x>=.01 ? (x*100).toFixed(1)+"%" : (x*100).toFixed(2)+"%";
+let all = [], shown = 60;
+
+loadBank().then(({prompts, issues, files})=>{
+  all = prompts;
+  const answers = prompts.reduce((s,p)=>s+p.answers.length,0);
+  const cats = [...new Set(prompts.map(p=>p.cat))].sort();
+  const errs = issues.filter(i=>i.level==="error").length, warns = issues.length-errs;
+  $("status").textContent = errs ? `${errs} prompt${errs>1?"s have":" has"} errors and ${errs>1?"are":"is"} left out of the game. See Problems below.` : "Everything loaded.";
+  $("cards").innerHTML = [["Prompts",prompts.length],["Answers",answers],["Categories",cats.length],["Days before repeats",Math.floor(prompts.length/7)],["Errors",errs],["Warnings",warns]]
+    .map(([l,v])=>`<div class="card"><b>${v.toLocaleString()}</b><span>${l}</span></div>`).join("");
+  $("files").innerHTML = "Files: " + files.map(f=>`<a href="${GITHUB_EDIT}${encodeURIComponent(f)}" target="_blank" rel="noopener">${esc(f)}</a> (${prompts.filter(p=>p.file===f).length})`).join(" · ");
+  $("cat").innerHTML += cats.map(c=>`<option>${esc(c)}</option>`).join("");
+  $("issuesH").textContent = issues.length ? `Problems (${issues.length})` : "Problems";
+  $("issues").innerHTML = issues.length ? issues.map(i=>`<div class="issue"><span class="lv ${i.level}">${i.level==="error"?"Error":"Warning"}</span>
+    <div><a href="${GITHUB_EDIT}${encodeURIComponent(i.file)}" target="_blank" rel="noopener">${esc(i.file)}${i.line?` line ${i.line}`:""}</a>${i.q?` · ${esc(i.q)}`:""}<br>${esc(i.msg)}</div></div>`).join("")
+    : `<p class="muted">No problems found.</p>`;
+  render();
+}).catch(e=>{
+  $("status").textContent = location.protocol==="file:" ? "Open this page from GitHub Pages or a local web server; browsers block loading the bank from a file." : "Couldn't load the bank: "+e.message;
+});
+
+function render(){
+  const q = $("q").value.trim().toLowerCase(), c = $("cat").value, nq = norm(q);
+  const hits = all.filter(p=>(!c||p.cat===c) && (!q || p.q.toLowerCase().includes(q) || (nq && p.answers.some(a=>a.keys.some(k=>k.includes(nq))))));
+  $("list").innerHTML = hits.slice(0,shown).map((p,i)=>`<details data-i="${all.indexOf(p)}">
+    <summary><span class="c">${esc(p.cat)}</span><span class="t">${esc(p.q)}</span><span class="n">${p.answers.length}</span></summary>
+    <div class="test"><input placeholder="Test a guess…" aria-label="Test a guess for ${esc(p.q)}"><output></output></div>
+    <ul class="ans">${[...p.answers].sort((a,b)=>a.rank-b.rank).map(a=>`<li class="${a.gem?"gem":""}"><span>${a.gem?"💎 ":""}${esc(a.name)}</span><em>${tier(a)} · ${pct(a.share)}</em></li>`).join("")}</ul>
+    <p class="muted" style="margin-top:0">${esc(p.file)} line ${p.line}${p.autoGem?" · Mother Lode picked automatically":""}</p>
+  </details>`).join("") || `<p class="muted">No prompts match.</p>`;
+  $("more").hidden = hits.length<=shown;
+  $("more").textContent = `Show more (${(hits.length-shown).toLocaleString()} left)`;
+}
+$("q").addEventListener("input",()=>{shown=60;render();});
+$("cat").addEventListener("change",()=>{shown=60;render();});
+$("more").onclick=()=>{shown+=120;render();};
+$("list").addEventListener("input",e=>{
+  if(!e.target.matches(".test input")) return;
+  const p = all[+e.target.closest("details").dataset.i], v = e.target.value, out = e.target.nextElementSibling;
+  if(!v.trim()){ out.textContent=""; return; }
+  const a = matchAnswer(p,v);
+  out.textContent = a ? `→ ${a.name} (${tier(a)}, ${pct(a.share)})` : "→ not accepted";
+  out.style.color = a ? "var(--ok)" : "var(--bad)";
+});
+</script>
+</body>
+</html>

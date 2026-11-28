@@ -1,0 +1,4227 @@
+// Deep Cut prompt bank: MUSIC
+// Song and album titles only. Answers go most common first. * marks the Mother Lode.
+
+## Music: Songs
+
+# Name a Taylor Swift song
+Shake It Off
+Love Story
+Blank Space
+Anti-Hero
+You Belong with Me
+Cruel Summer
+Bad Blood
+We Are Never Ever Getting Back Together | never ever getting back together
+All Too Well
+Style
+Look What You Made Me Do
+Cardigan
+Willow
+Lover
+Delicate
+Wildest Dreams
+22
+Fearless
+Teardrops on My Guitar
+Our Song
+I Knew You Were Trouble
+Mine
+Enchanted
+Fortnight
+The Fate of Ophelia
+Karma
+Lavender Haze
+Midnight Rain
+August
+Betty
+Exile
+Champagne Problems
+Mirrorball
+The Man
+ME!
+Getaway Car
+Gorgeous
+Ready for It? | ready for it
+Mean
+Back to December
+White Horse
+Fifteen
+Red
+Begin Again
+Out of the Woods
+Clean
+New Romantics
+Paper Rings
+Cornelia Street
+Down Bad
+So Long, London | so long london
+But Daddy I Love Him
+Florida!!!
+Opalite
+Tim McGraw
+Picture to Burn
+Should've Said No
+Long Live
+Dear John
+The Last Great American Dynasty | last great american dynasty
+Tolerate It
+Marjorie
+Ivy
+Seven
+Invisible String
+Mastermind
+Bejeweled
+Maroon
+Snow on the Beach
+Is It Over Now?
+Slut!
+Now That We Don't Talk
+I Can Do It with a Broken Heart
+The Tortured Poets Department
+Clara Bow
+*The Lucky One
+Dancing with Our Hands Tied
+Holy Ground
+Death by a Thousand Cuts
+The Archer
+Epiphany
+
+# Name a Beyoncé song
+Single Ladies (Put a Ring on It) | single ladies
+Crazy in Love
+Halo
+Formation
+Drunk in Love
+Irreplaceable
+Love On Top
+Run the World (Girls) | run the world
+Texas Hold 'Em | texas hold em
+Break My Soul
+If I Were a Boy
+Sorry
+Hold Up
+Partition
+Baby Boy
+Naughty Girl
+Beautiful Liar
+Déjà Vu | deja vu
+Diva
+Sweet Dreams
+Countdown
+Best Thing I Never Had
+XO
+Flawless | flawless
+7/11
+Freedom
+Cuff It
+Alien Superstar
+Virgo's Groove
+Daddy Lessons
+Jolene
+16 Carriages
+Ya Ya
+Bodyguard
+Me, Myself and I
+Upgrade U
+Get Me Bodied
+Listen
+Ring the Alarm
+Love Drought
+Pretty Hurts
+Blow
+Spirit
+Already
+Mood 4 Eva
+Summer Renaissance
+Church Girl
+Energy
+Plastic Off the Sofa
+*Schoolin' Life
+1+1
+Party
+End of Time
+Green Light
+
+# Name a Drake song
+Hotline Bling
+God's Plan | gods plan
+One Dance
+In My Feelings
+Started from the Bottom
+Hold On, We're Going Home | hold on were going home
+Nice for What
+Passionfruit
+Controlla
+Fake Love
+Best I Ever Had
+Take Care
+Headlines
+Marvins Room
+Nonstop
+Toosie Slide
+Laugh Now Cry Later
+Way 2 Sexy
+Rich Flex
+Jimmy Cooks
+Hold On
+Back to Back
+Energy
+Know Yourself
+Too Good
+Work
+Forever
+Over
+Find Your Love
+The Motto
+HYFR
+Worst Behavior
+0 to 100 / The Catch Up | 0 to 100
+Jumpman
+Life Is Good
+Money in the Grave
+Wants and Needs
+Knife Talk
+Search & Rescue
+First Person Shooter
+Push Ups
+Family Matters
+Nokia
+Fair Trade
+Massive
+Falling Back
+Sticky
+Gyalchester
+Signs
+Emotionless
+Nice for What
+*Pound Cake
+Furthest Thing
+Tuscan Leather
+Legend
+Child's Play
+
+# Name a Michael Jackson song
+Billie Jean
+Thriller
+Beat It
+Smooth Criminal
+Man in the Mirror
+Black or White
+Don't Stop 'til You Get Enough | dont stop til you get enough
+Bad
+Rock with You
+Remember the Time
+The Way You Make Me Feel
+They Don't Care About Us
+Human Nature
+Wanna Be Startin' Somethin' | wanna be startin somethin
+Heal the World
+Earth Song
+Dirty Diana
+P.Y.T. (Pretty Young Thing) | pyt
+Off the Wall
+You Rock My World
+Scream
+Leave Me Alone
+Liberian Girl
+Jam
+In the Closet
+Will You Be There
+Ben
+Rockin' Robin
+Got to Be There
+I Just Can't Stop Loving You
+Another Part of Me
+Speed Demon
+Who Is It
+Give In to Me
+Stranger in Moscow
+You Are Not Alone
+Blood on the Dance Floor
+Ghosts
+Butterflies
+Xscape
+Love Never Felt So Good
+*Dancing Machine
+ABC
+I Want You Back
+I'll Be There
+Can You Feel It
+Shake Your Body (Down to the Ground)
+
+# Name a song by The Beatles
+Hey Jude
+Let It Be
+Yesterday
+Here Comes the Sun
+Come Together
+Twist and Shout
+I Want to Hold Your Hand
+Help!
+A Hard Day's Night | hard days night
+Yellow Submarine
+All You Need Is Love
+Eleanor Rigby
+Penny Lane
+Strawberry Fields Forever
+Something
+Blackbird
+Love Me Do
+She Loves You
+In My Life
+Ob-La-Di, Ob-La-Da | obladi oblada
+Lucy in the Sky with Diamonds
+While My Guitar Gently Weeps
+Can't Buy Me Love | cant buy me love
+Get Back
+Revolution
+Day Tripper
+Drive My Car
+Let It Be
+Paperback Writer
+With a Little Help from My Friends
+Sgt. Pepper's Lonely Hearts Club Band | sgt peppers
+Norwegian Wood
+I Saw Her Standing There
+Ticket to Ride
+Nowhere Man
+Helter Skelter
+Back in the U.S.S.R. | back in the ussr
+The Long and Winding Road | long and winding road
+Across the Universe
+Golden Slumbers
+Octopus's Garden
+Michelle
+Girl
+Taxman
+Got to Get You into My Life
+Here, There and Everywhere
+A Day in the Life | day in the life
+Dear Prudence
+I Am the Walrus
+Magical Mystery Tour
+Hello, Goodbye | hello goodbye
+We Can Work It Out
+Don't Let Me Down
+The Ballad of John and Yoko
+Rain
+Tomorrow Never Knows
+I Feel Fine
+Please Please Me
+From Me to You
+Eight Days a Week
+Two of Us
+Maxwell's Silver Hammer
+Oh! Darling
+Because
+Sun King
+Mean Mr. Mustard
+Polythene Pam
+*Rocky Raccoon
+Martha My Dear
+Why Don't We Do It in the Road?
+Savoy Truffle
+Glass Onion
+Happiness Is a Warm Gun
+Now and Then
+
+# Name a Queen song
+Bohemian Rhapsody
+We Will Rock You
+We Are the Champions
+Don't Stop Me Now
+Another One Bites the Dust
+Under Pressure
+Somebody to Love
+Killer Queen
+Radio Ga Ga
+I Want to Break Free
+Fat Bottomed Girls
+Crazy Little Thing Called Love
+The Show Must Go On
+Who Wants to Live Forever
+A Kind of Magic | kind of magic
+Bicycle Race
+You're My Best Friend | youre my best friend
+I Want It All
+Innuendo
+Flash
+Love of My Life
+Hammer to Fall
+These Are the Days of Our Lives
+One Vision
+Seven Seas of Rhye
+Now I'm Here
+Too Much Love Will Kill You
+Princes of the Universe
+Tie Your Mother Down
+Spread Your Wings
+Keep Yourself Alive
+Breakthru
+*'39
+Good Old-Fashioned Lover Boy
+Body Language
+It's a Hard Life
+Heaven for Everyone
+Headlong
+
+# Name an Elton John song
+Rocket Man
+Tiny Dancer
+Your Song
+I'm Still Standing
+Candle in the Wind
+Bennie and the Jets
+Can You Feel the Love Tonight
+Crocodile Rock
+Don't Go Breaking My Heart
+Goodbye Yellow Brick Road
+Circle of Life
+Saturday Night's Alright for Fighting
+Sorry Seems to Be the Hardest Word
+Don't Let the Sun Go Down on Me
+Cold Heart
+Daniel
+Philadelphia Freedom
+I Guess That's Why They Call It the Blues
+Levon
+Nikita
+Sacrifice
+Someone Saved My Life Tonight
+Island Girl
+Honky Cat
+Mona Lisas and Mad Hatters
+Funeral for a Friend
+Border Song
+The Bitch Is Back
+Blue Eyes
+I Want Love
+Are You Ready for Love
+Hold Me Closer
+*Madman Across the Water
+Indian Sunset
+Skyline Pigeon
+Grey Seal
+Pinball Wizard
+
+# Name a Rihanna song
+Umbrella
+Diamonds
+We Found Love
+Work
+Rude Boy
+Only Girl (In the World) | only girl
+Don't Stop the Music
+Pon de Replay
+SOS
+Love on the Brain
+Needed Me
+Stay
+Disturbia
+Take a Bow
+What's My Name? | whats my name
+S&M
+Shut Up and Drive
+Where Have You Been
+Bitch Better Have My Money | bbhmm
+FourFiveSeconds
+Lift Me Up
+Wild Thoughts
+The Monster
+Love the Way You Lie
+Unfaithful
+Man Down
+California King Bed
+Cheers (Drink to That)
+Russian Roulette
+Hate That I Love You
+Kiss It Better
+Consideration
+Rehab
+Cockiness
+Te Amo
+Pour It Up
+This Is What You Came For
+Loyalty
+Birthday Cake
+Desperado
+Breakin' Dishes
+*Same Ol' Mistakes
+Higher
+Never Ending
+Same Ol' Mistakes
+If It's Lovin' That You Want
+Friend of Mine
+
+# Name an Ariana Grande song
+Thank U, Next | thank u next
+7 Rings
+Positions
+Problem
+Break Free
+No Tears Left to Cry
+Side to Side
+Dangerous Woman
+God Is a Woman
+Into You
+Bang Bang
+Love Me Harder
+Yes, And? | yes and
+We Can't Be Friends | we cant be friends
+The Way
+Breathin
+Focus
+One Last Time
+34+35
+Santa Tell Me
+Stuck with U
+Rain on Me
+Break Up with Your Girlfriend, I'm Bored | break up with your girlfriend
+Imagine
+NASA
+Boyfriend
+Save Your Tears
+Popular
+Defying Gravity
+Twilight Zone
+Supernatural
+The Boy Is Mine
+Eternal Sunshine
+Pov
+Motive
+Just Like Magic
+Baby I
+Honeymoon Avenue
+Be Alright
+Everyday
+Greedy
+Moonlight
+Bloodline
+Fake Smile
+Ghostin
+*Better Off
+Bye
+Twilight Zone
+
+# Name a Billie Eilish song
+Bad Guy
+Lovely
+Ocean Eyes
+Birds of a Feather
+What Was I Made For?
+Happier Than Ever
+When the Party's Over
+Everything I Wanted
+Bury a Friend
+No Time to Die
+Lunch
+Therefore I Am
+Wildflower
+Idontwannabeyouanymore
+Six Feet Under
+You Should See Me in a Crown
+Bellyache
+Copycat
+Watch
+My Future
+Your Power
+Lost Cause
+NDA
+Getting Older
+Male Fantasy
+Chihiro
+The Greatest
+Blue
+Skinny
+Halley's Comet
+L'Amour de Ma Vie
+Xanny
+All the Good Girls Go to Hell
+I Love You
+My Strange Addiction
+Ilomilo
+Listen Before I Go
+8
+Goodbye
+Bitches Broken Hearts
+TV
+The 30th
+*Hostage
+Party Favor
+Come Out and Play
+Six Feet Under
+
+# Name an Eminem song
+Lose Yourself
+Without Me
+The Real Slim Shady | real slim shady
+Stan
+Mockingbird
+Not Afraid
+Love the Way You Lie
+'Till I Collapse | till i collapse
+Rap God
+Superman
+My Name Is
+When I'm Gone
+Sing for the Moment
+Cleanin' Out My Closet | cleaning out my closet
+Like Toy Soldiers
+Beautiful
+The Monster
+Berzerk
+River
+Venom
+Godzilla
+Killshot
+Houdini
+Just Lose It
+Ass Like That
+We Made You
+Crack a Bottle
+Hailie's Song
+Business
+White America
+Kim
+The Way I Am
+Guilty Conscience
+Role Model
+Shake That
+Smack That
+Forgot About Dre
+*Brain Damage
+Rock Bottom
+Darkness
+Lucky You
+Walk on Water
+Space Bound
+Survival
+
+# Name a Kanye West (Ye) song
+Gold Digger
+Stronger
+Heartless
+Power
+Flashing Lights
+All of the Lights
+Runaway
+Through the Wire
+Jesus Walks
+Good Life
+Touch the Sky
+Monster
+Bound 2
+Black Skinheads
+Famous
+Ultralight Beam
+Father Stretch My Hands
+I Wonder
+Homecoming
+Can't Tell Me Nothing | cant tell me nothing
+Love Lockdown
+Diamonds from Sierra Leone
+Slow Jamz
+All Falls Down
+Hey Mama
+Champion
+Mercy
+Clique
+N****s in Paris | niggas in paris | ni in paris
+Otis
+Blood on the Leaves
+New Slaves
+Fade
+Waves
+Real Friends
+I Love It
+Ghost Town
+Yikes
+Violent Crimes
+Follow God
+Closed on Sunday
+Hurricane
+Off the Grid
+Carnival
+Vultures
+*Spaceship
+Family Business
+Blame Game
+Devil in a New Dress
+Street Lights
+Say You Will
+Welcome to Heartbreak
+
+# Name a Bruno Mars song
+Uptown Funk
+Just the Way You Are
+Grenade
+Locked Out of Heaven
+24K Magic
+That's What I Like | thats what i like
+When I Was Your Man
+Treasure
+The Lazy Song
+Finesse
+Versace on the Floor
+Marry You
+Count on Me
+Leave the Door Open
+Die with a Smile
+APT.
+It Will Rain
+Talking to the Moon
+Nothin' on You | nothing on you
+Billionaire
+Young, Wild & Free
+Smokin Out the Window
+Gorilla
+Chunky
+Calling All My Lovelies
+Too Good to Say Goodbye
+Liquor Store Blues
+Runaway Baby
+Moonshine
+If I Knew
+Skate
+Fly as Me
+Please Me
+Wake Up in the Sky
+*Natalie
+Show Me
+Money Make Her Smile
+Somewhere in Brooklyn
+Our First Time
+
+# Name an Ed Sheeran song
+Shape of You
+Perfect
+Thinking Out Loud
+Photograph
+Castle on the Hill
+The A Team | a team
+Bad Habits
+Shivers
+Galway Girl
+Lego House
+Sing
+I See Fire
+Don't | dont
+Happier
+Give Me Love
+Kiss Me
+Afterglow
+Eyes Closed
+Azizam
+Sapphire
+Overpass Graffiti
+2step
+Celestial
+Supermarket Flowers
+Tenerife Sea
+Dive
+How Would You Feel
+Barcelona
+Nancy Mulligan
+Visiting Hours
+South of the Border
+I Don't Care
+Beautiful People
+Antisocial
+Take Me Back to London
+Small Bump
+Drunk
+You Need Me, I Don't Need You
+*Bloodstream
+Wake Me Up
+Grade 8
+Runaway
+Make It Rain
+Boat
+Salt Water
+Bibia Be Ye Ye
+
+# Name a Lady Gaga song
+Bad Romance
+Poker Face
+Just Dance
+Shallow
+Born This Way
+Telephone
+Paparazzi
+Alejandro
+Rain on Me
+Applause
+Million Reasons
+Die with a Smile
+Abracadabra
+LoveGame
+The Edge of Glory | edge of glory
+Always Remember Us This Way
+Judas
+Marry the Night
+Hold My Hand
+Bloody Mary
+Stupid Love
+911
+Perfect Illusion
+Do What U Want
+Yoü and I | you and i
+Speechless
+Dance in the Dark
+Til It Happens to You
+G.U.Y.
+Venus
+Sour Candy
+Free Woman
+Joanne
+Born This Way
+Government Hooker
+Scheiße | scheisse
+Disease
+Mayhem
+*Monster
+Hair
+Dope
+Teeth
+I'll Never Love Again
+Is That Alright?
+The Cure
+
+# Name a Justin Bieber song
+Baby
+Sorry
+Love Yourself
+What Do You Mean?
+Peaches
+Stay
+Ghost
+Never Say Never
+Boyfriend
+Beauty and a Beat
+One Time
+As Long As You Love Me
+Despacito
+Let Me Love You
+Cold Water
+Yummy
+Intentions
+Holy
+Anyone
+Lonely
+Somebody to Love
+U Smile
+Eenie Meenie
+Mistletoe
+Company
+Purpose
+Where Are Ü Now | where are u now
+I Don't Care
+10,000 Hours
+Daisies
+Confident
+All That Matters
+Heartbreaker
+Hold Tight
+One Less Lonely Girl
+Favorite Girl
+Pray
+Down to Earth
+*Bigger
+Never Let You Go
+Next to You
+Off My Face
+Die for You
+Hailey
+2 Much
+
+# Name a Dua Lipa song
+Levitating
+Don't Start Now
+New Rules
+One Kiss
+IDGAF
+Physical
+Houdini
+Dance the Night
+Cold Heart
+Break My Heart
+Training Season
+Be the One
+Hallucinate
+Love Again
+Blow Your Mind (Mwah) | blow your mind
+Electricity
+Kiss and Make Up
+Scared to Be Lonely
+Illusion
+Future Nostalgia
+Fever
+Pretty Please
+Last Dance
+Hotter than Hell
+Want To
+Lost in Your Light
+Sweetest Pie
+Prisoner
+These Walls
+*Thinking 'Bout You
+No Lie
+Swan Song
+Garden
+Running
+
+# Name a Harry Styles song
+As It Was
+Watermelon Sugar
+Adore You
+Sign of the Times
+Golden
+Falling
+Late Night Talking
+Kiwi
+Satellite
+Lights Up
+Matilda
+Music for a Sushi Restaurant
+Treat People with Kindness
+Fine Line
+Daydreaming
+Cherry
+Sweet Creature
+Two Ghosts
+Carolina
+Ever Since New York
+She
+Canyon Moon
+Grapejuice
+Little Freak
+Keep Driving
+Boyfriends
+Daylight
+Only Angel
+Woman
+*Meet Me in the Hallway
+To Be So Lonely
+Medicine
+Love of My Life
+From the Dining Table
+Sunflower, Vol. 6 | sunflower vol 6
+
+# Name a Katy Perry song
+Firework
+Roar
+I Kissed a Girl
+California Gurls
+Dark Horse
+Teenage Dream
+Hot n Cold
+Last Friday Night (T.G.I.F.) | last friday night
+Wide Awake
+E.T. | et
+Part of Me
+The One That Got Away | one that got away
+Chained to the Rhythm
+Bon Appétit | bon appetit
+Swish Swish
+Unconditionally
+This Is How We Do
+Birthday
+Rise
+Never Really Over
+Harleys in Hawaii
+Smile
+Waking Up in Vegas
+Thinking of You
+Ur So Gay
+Woman's World
+Daisies
+Lifetimes
+Peacock
+Hummingbird Heartbeat
+Walking on Air
+Legendary Lovers
+Witness
+Hey Hey Hey
+*Circle the Drain
+Who Am I Living For?
+Pearl
+Not Like the Movies
+Mannequin
+
+# Name a Miley Cyrus or Hannah Montana song
+Party in the U.S.A. | party in the usa
+Wrecking Ball
+Flowers
+The Climb
+We Can't Stop | we cant stop
+Malibu
+Best of Both Worlds
+See You Again
+7 Things
+Midnight Sky
+Adore You
+Can't Be Tamed
+Hoedown Throwdown
+Nothing Breaks Like a Heart
+Prisoner
+Used to Be Young
+River
+Jaded
+Angels Like You
+Slide Away
+Younger Now
+Nobody but You
+Mother's Daughter
+Plastic Hearts
+Nobody's Perfect
+Rock Star
+He Could Be the One
+Life's What You Make It
+True Friend
+Ready, Set, Don't Go
+Butterfly Fly Away
+Start All Over
+Fly on the Wall
+Who Owns My Heart
+Edge of Midnight
+End of the World
+Easy Lover
+*Ice Cream Freeze
+Pumpin' Up the Party
+Kicking and Screaming
+Bang Me Box
+
+# Name an Olivia Rodrigo song
+Drivers License
+Good 4 U
+Deja Vu | déjà vu
+Vampire
+Traitor
+Happier
+Brutal
+Enough for You
+Favorite Crime
+Jealousy, Jealousy | jealousy jealousy
+Hope Ur OK
+1 Step Forward, 3 Steps Back
+Bad Idea Right?
+Get Him Back!
+Ballad of a Homeschooled Girl
+Lacy
+Making the Bed
+Logical
+Pretty Isn't Pretty
+Teenage Dream
+Obsessed
+Love Is Embarrassing
+The Grudge
+All-American Bitch
+Can't Catch Me Now
+Stranger
+So American
+*Scared of My Guitar
+All I Want
+Can't Catch Me Now
+
+# Name a Sabrina Carpenter song
+Espresso
+Please Please Please
+Feather
+Nonsense
+Taste
+Bed Chem
+Juno
+Manchild
+Because I Liked a Boy
+Tears
+Thumbs
+Skin
+Sue Me
+Read Your Mind
+Fast Times
+Good Graces
+Dumb & Poetic
+Coincidence
+Slim Pickins
+Sharpest Tool
+Lie to Girls
+Diet Pepsi
+Thumbs
+Nonsense
+Why
+Almost Love
+On My Way
+Opposite
+Emails I Can't Send
+Decode
+Smoke and Fire
+*Can't Blame a Girl for Trying
+Eyes Wide Open
+Alien
+Tornado Warnings
+Busy Woman
+House Tour
+A Nonsense Christmas
+
+# Name a Chappell Roan song
+Good Luck, Babe! | good luck babe
+Pink Pony Club
+Hot to Go!
+Femininomenon
+Red Wine Supernova
+Casual
+Naked in Manhattan
+After Midnight
+My Kink Is Karma
+Super Graphic Ultra Modern Girl
+Picture You
+Coffee
+Kaleidoscope
+California
+Guilty Pleasure
+Love Me Anyway
+The Subway
+*School Nights
+Die Young
+Bitter
+
+# Name a The Weeknd song
+Blinding Lights
+Save Your Tears
+Starboy
+Can't Feel My Face
+The Hills
+I Feel It Coming
+Earned It
+Die for You
+Call Out My Name
+In Your Eyes
+Heartless
+Often
+Wicked Games
+Out of Time
+Popular
+Less Than Zero
+Sacrifice
+Take My Breath
+Is There Someone Else?
+After Hours
+Pray for Me
+Secrets
+Party Monster
+Reminder
+Starboy
+Moth to a Flame
+The Morning
+High for This
+Love Me Harder
+Kiss Land
+Dancing in the Flames
+São Paulo | sao paulo
+Timeless
+*Belong to the World
+Montreal
+Rolling Stone
+House of Balloons
+Lost in the Fire
+Creepin'
+
+# Name a Kendrick Lamar song
+HUMBLE.
+Not Like Us
+Alright
+DNA.
+Money Trees
+Swimming Pools (Drank) | swimming pools
+Bitch, Don't Kill My Vibe | dont kill my vibe
+King Kunta
+Poetic Justice
+LOVE.
+Loyalty
+All the Stars
+Euphoria
+Squabble Up
+TV Off
+Luther
+N95
+Count Me Out
+Die Hard
+Backseat Freestyle
+The Recipe
+Maad City
+Sing About Me, I'm Dying of Thirst
+The Blacker the Berry
+i
+These Walls
+Element.
+Feel.
+Pride.
+Fear.
+DUCKWORTH.
+United in Grief
+Rich Spirit
+Father Time
+Mother I Sober
+Silent Hill
+Savior
+We Cry Together
+Like That
+Meet the Grahams
+Wacced Out Murals
+Gloria
+*Rigamortis
+A.D.H.D | adhd
+Hiiipower
+Real
+Sherane
+Momma
+Wesley's Theory
+For Free?
+How Much a Dollar Cost
+Mortal Man
+
+# Name a Post Malone song
+Circles
+Sunflower
+Rockstar
+Congratulations
+Better Now
+Psycho
+White Iverson
+Wow.
+I Fall Apart
+Goodbyes
+Take What You Want
+Hollywood's Bleeding
+Chemical
+I Had Some Help
+Pour Me a Drink
+Mourning
+Motley Crew
+Cooped Up
+Go Flex
+Candy Paint
+Too Young
+Paranoid
+Saint-Tropez
+Die for Me
+Feeling Whitney
+Stay
+Over Now
+Spoil My Night
+Allergic
+Enemies
+Fortnight
+Losers
+Guy for That
+*Deja Vu
+Jonestown (Interlude)
+Hateful
+Insane
+Ball for Me
+Wrapped Around Your Finger
+
+# Name an Adele song
+Hello
+Rolling in the Deep
+Someone Like You
+Set Fire to the Rain
+Skyfall
+Easy on Me
+When We Were Young
+Chasing Pavements
+Make You Feel My Love
+Send My Love (To Your New Lover) | send my love
+Rumour Has It
+Turning Tables
+Water Under the Bridge
+Hometown Glory
+I Drink Wine
+Oh My God
+Love Is a Game
+Don't You Remember
+All I Ask
+Remedy
+River Lea
+Million Years Ago
+To Be Loved
+Cold Shoulder
+Daydreamer
+Lovesong
+He Won't Go
+Take It All
+Set Fire to the Rain
+I Miss You
+Sweetest Devotion
+Can I Get It
+*Tired
+Melt My Heart to Stone
+Best for Last
+Right as Rain
+First Love
+My Little Love
+Hold On
+Strangers by Nature
+
+# Name a Coldplay song
+Viva la Vida
+Yellow
+Fix You
+The Scientist
+Clocks
+Paradise
+A Sky Full of Stars | sky full of stars
+Something Just Like This
+Hymn for the Weekend
+Adventure of a Lifetime
+My Universe
+Higher Power
+Speed of Sound
+In My Place
+Trouble
+Magic
+Every Teardrop Is a Waterfall
+Up&Up | up and up
+Talk
+Lovers in Japan
+Violet Hill
+Princess of China
+Charlie Brown
+Orphans
+feelslikeimfallinginlove
+We Pray
+Christmas Lights
+Shiver
+Lost!
+Don't Panic
+Sparks
+Politik
+Daylight
+Swallowed in the Sea
+Midnight
+Ink
+True Love
+Everglow
+Atlas
+Hurts Like Heaven
+Us Against the World
+Strawberry Swing
+42
+Life in Technicolor
+Amsterdam
+*Moses
+Warning Sign
+Square One
+White Shadows
+Low
+Fun
+Birds
+Army of One
+Champion of the World
+Coloratura
+
+# Name an Imagine Dragons song
+Radioactive
+Believer
+Thunder
+Demons
+It's Time
+Natural
+Bad Liar
+Whatever It Takes
+Enemy
+On Top of the World
+Bones
+Sharks
+Shots
+I Bet My Life
+Gold
+Birds
+Wrecked
+Follow You
+Zero
+Battle Cry
+Next to Me
+Walking the Wire
+Machine
+Amsterdam
+Hear Me
+Tiptoe
+Nice to Meet You
+Eyes Closed
+*Ready Aim Fire
+Smoke and Mirrors
+Monster
+Warriors
+Friction
+Polaroid
+Children of the Sky
+Wake Up
+Nice to Meet You
+Bloody Valentine
+
+# Name a Maroon 5 song
+Moves Like Jagger
+Sugar
+She Will Be Loved
+This Love
+Girls Like You
+Memories
+Payphone
+Animals
+One More Night
+Maps
+Harder to Breathe
+Makes Me Wonder
+Misery
+Don't Wanna Know
+Daylight
+Wait
+What Lovers Do
+Cold
+Beautiful Mistakes
+Sunday Morning
+Won't Go Home Without You
+Love Somebody
+Lost Stars
+It Was Always You
+Never Gonna Leave This Bed
+Give a Little More
+Nobody's Love
+Lovesick
+Middle Ground
+Love Is Like
+Sunday Morning
+Lucky Strike
+Must Get Out
+*Secret
+Shiver
+Tangled
+Wake Up Call
+Goodnight Goodnight
+Stutter
+
+# Name a Nirvana or Foo Fighters song
+Smells Like Teen Spirit
+Come as You Are
+Heart-Shaped Box | heart shaped box
+Lithium
+In Bloom
+Everlong
+The Pretender | pretender
+Learn to Fly
+My Hero
+Best of You
+Times Like These
+Monkey Wrench
+All Apologies
+Rape Me
+About a Girl
+Polly
+Breed
+Dumb
+Something in the Way
+The Man Who Sold the World
+Where Did You Sleep Last Night
+Lake of Fire
+Pennyroyal Tea
+Sliver
+Drain You
+Lounge Act
+Territorial Pissings
+Big Me
+Walk
+Rope
+Long Road to Ruin
+These Days
+All My Life
+Breakout
+This Is a Call
+Arlandria
+Run
+Shame Shame
+*Aneurysm
+Negative Creep
+School
+Smoke
+Stay Away
+Dive
+Tourette's
+
+# Name a Red Hot Chili Peppers song
+Californication
+Under the Bridge
+Scar Tissue
+Can't Stop
+Otherside
+Dani California
+Give It Away
+By the Way
+Snow (Hey Oh) | snow
+Soul to Squeeze
+Suck My Kiss
+Around the World
+The Zephyr Song
+Parallel Universe
+Tell Me Baby
+Higher Ground
+Breaking the Girl
+Aeroplane
+My Friends
+Road Trippin'
+Universally Speaking
+Dosed
+Fortune Faded
+Charlie
+Hump de Bump
+Dark Necessities
+Black Summer
+Tippa My Tongue
+Throw Away Your Television
+Knock Me Down
+*Fight Like a Brave
+Love Rollercoaster
+I Could Have Lied
+If You Have to Ask
+Funky Monks
+Mellowship Slinky in B Major
+Aeroplane
+Desecration Smile
+Wet Sand
+Hard to Concentrate
+
+# Name a song by Green Day or blink-182
+Boulevard of Broken Dreams
+American Idiot
+Basket Case
+Good Riddance (Time of Your Life) | good riddance | time of your life
+Wake Me Up When September Ends
+Holiday
+When I Come Around
+Longview
+21 Guns
+Welcome to Paradise
+Jesus of Suburbia
+Know Your Enemy
+Minority
+Brain Stew
+Warning
+Father of All...
+All the Small Things
+What's My Age Again?
+I Miss You
+Adam's Song
+First Date
+The Rock Show
+Feeling This
+Dammit
+Down
+Always
+Stay Together for the Kids
+Josie
+Edging
+One More Time
+Bored to Death
+Carousel
+Waggy
+*Nice Guys Finish Last
+She
+Hitchin' a Ride
+Redundant
+Geek Stink Breath
+Stuck with Me
+Walking Contradiction
+Poprocks & Coke
+Last Night on Earth
+Oh Love
+Bang Bang
+Kill the DJ
+
+# Name a Linkin Park song
+In the End
+Numb
+Crawling
+What I've Done
+Faint
+Breaking the Habit
+Somewhere I Belong
+One Step Closer
+Bleed It Out
+Papercut
+Shadow of the Day
+Leave Out All the Rest
+New Divide
+Given Up
+Points of Authority
+Burn It Down
+Castle of Glass
+The Catalyst
+Waiting for the End
+Iridescent
+Lost
+Heavy
+Talking to Myself
+The Emptiness Machine
+Final Masquerade
+Guilty All the Same
+Runaway
+With You
+By Myself
+Pushing Me Away
+Lying from You
+Hit the Floor
+Don't Stay
+Easier to Run
+From the Inside
+Nobody's Listening
+Session
+Hands Held High
+No More Sorrow
+Valentine's Day
+*Krwlng
+Pts.OF.Athrty
+Bleed It Out
+Lies Greed Misery
+Powerless
+Roads Untraveled
+Heavy Is the Crown
+Two Faced
+
+# Name a Fleetwood Mac song
+Dreams
+Go Your Own Way
+Landslide
+The Chain
+Rhiannon
+Don't Stop
+Everywhere
+Little Lies
+Gypsy
+Seven Wonders
+Songbird
+Sara
+Tusk
+Hold Me
+Say You Love Me
+You Make Loving Fun
+Big Love
+Never Going Back Again
+Silver Springs
+Albatross
+Oh Well
+Black Magic Woman
+Over My Head
+Gold Dust Woman
+Second Hand News
+I Don't Want to Know
+Think About Me
+Family Man
+*Man of the World
+Isn't It Midnight
+Storms
+Sisters of the Moon
+Brown Eyes
+Hypnotized
+Monday Morning
+
+# Name an ABBA song
+Dancing Queen
+Mamma Mia
+Waterloo
+Take a Chance on Me
+Gimme! Gimme! Gimme! (A Man After Midnight) | gimme gimme gimme
+The Winner Takes It All | winner takes it all
+Fernando
+Super Trouper
+Money, Money, Money | money money money
+Chiquitita
+Voulez-Vous
+Knowing Me, Knowing You | knowing me knowing you
+Lay All Your Love on Me
+Does Your Mother Know
+SOS
+I Have a Dream
+Thank You for the Music
+Honey, Honey | honey honey
+The Name of the Game
+One of Us
+Summer Night City
+Ring Ring
+Head Over Heels
+I Do, I Do, I Do, I Do, I Do
+Hasta Mañana
+Our Last Summer
+Slipping Through My Fingers
+Angeleyes
+Andante, Andante
+Under Attack
+When All Is Said and Done
+*Eagle
+Cassandra
+I Still Have Faith in You
+Don't Shut Me Down
+Little Things
+
+# Name a Bob Marley song
+Three Little Birds
+One Love
+Redemption Song
+Buffalo Soldier
+No Woman, No Cry | no woman no cry
+Is This Love
+Could You Be Loved
+Jamming
+Stir It Up
+Get Up, Stand Up | get up stand up
+I Shot the Sheriff
+Exodus
+Sun Is Shining
+Natural Mystic
+Waiting in Vain
+Iron Lion Zion
+Lively Up Yourself
+Satisfy My Soul
+Turn Your Lights Down Low
+Concrete Jungle
+War
+Africa Unite
+Easy Skanking
+Positive Vibration
+Small Axe
+Trenchtown Rock
+Punky Reggae Party
+Coming in from the Cold
+*Kaya
+Soul Rebel
+Mr. Brown
+Duppy Conqueror
+Rastaman Vibration
+So Much Trouble in the World
+Zimbabwe
+
+# Name a Bruce Springsteen song
+Born to Run
+Born in the U.S.A. | born in the usa
+Dancing in the Dark
+Thunder Road
+Glory Days
+Hungry Heart
+The River
+Streets of Philadelphia
+I'm on Fire
+Atlantic City
+Badlands
+Jungleland
+Born to Run
+Cover Me
+My Hometown
+Brilliant Disguise
+Tougher Than the Rest
+Human Touch
+Secret Garden
+The Rising
+Radio Nowhere
+Waiting on a Sunny Day
+Santa Claus Is Comin' to Town
+Rosalita
+Tenth Avenue Freeze-Out
+Nebraska
+Darkness on the Edge of Town
+Racing in the Street
+The Promised Land
+I'm Goin' Down
+Spirit in the Night
+Blinded by the Light
+4th of July, Asbury Park (Sandy) | sandy
+*Wreck on the Highway
+The Ghost of Tom Joad
+Lonesome Day
+Land of Hope and Dreams
+Wrecking Ball
+Dancing in the Dark
+Letter to You
+
+# Name a Whitney Houston song
+I Will Always Love You
+I Wanna Dance with Somebody
+Greatest Love of All
+How Will I Know
+I Have Nothing
+Saving All My Love for You
+I'm Every Woman
+One Moment in Time
+Run to You
+It's Not Right but It's Okay
+My Love Is Your Love
+Exhale (Shoop Shoop)
+So Emotional
+Didn't We Almost Have It All
+Queen of the Night
+When You Believe
+Heartbreak Hotel
+I Believe in You and Me
+Where Do Broken Hearts Go
+All the Man That I Need
+Step by Step
+I Look to You
+Million Dollar Bill
+The Star-Spangled Banner
+You Give Good Love
+Love Will Save the Day
+Count on Me
+I'm Your Baby Tonight
+*Same Script, Different Cast
+Could I Have This Kiss Forever
+Try It on My Own
+Love That Man
+
+# Name a Mariah Carey song
+All I Want for Christmas Is You
+We Belong Together
+Hero
+Fantasy
+Always Be My Baby
+Vision of Love
+Emotions
+One Sweet Day
+Heartbreaker
+Touch My Body
+Obsessed
+Without You
+Honey
+Dreamlover
+My All
+Shake It Off
+Don't Forget About Us
+Someday
+I'll Be There
+Love Takes Time
+Butterfly
+Thank God I Found You
+Can't Let Go
+Make It Happen
+It's Like That
+Loverboy
+Through the Rain
+Endless Love
+I Know What You Want
+When You Believe
+Infinity
+#Beautiful | beautiful
+I Stay in Love
+Up Out My Face
+It's a Wrap
+*Breakdown
+Bye Bye
+Migrate
+Boy (I Need You)
+Fly Like a Bird
+
+# Name a Prince song
+Purple Rain
+When Doves Cry
+Kiss
+Little Red Corvette
+1999
+Let's Go Crazy
+Raspberry Beret
+I Wanna Be Your Lover
+Nothing Compares 2 U
+Cream
+Diamonds and Pearls
+Sign o' the Times
+U Got the Look
+Batdance
+Alphabet St.
+Controversy
+Delirious
+Pop Life
+I Would Die 4 U
+7
+The Most Beautiful Girl in the World
+Gett Off
+Darling Nikki
+Take Me with U
+Erotic City
+Manic Monday
+I Feel for You
+Thieves in the Temple
+If I Was Your Girlfriend
+Mountains
+Musicology
+Black Sweat
+*Starfish and Coffee
+The Beautiful Ones
+Computer Blue
+Adore
+Uptown
+Dirty Mind
+Head
+Paisley Park
+
+# Name a song by Madonna
+Like a Prayer
+Vogue
+Material Girl
+Like a Virgin
+Holiday
+Hung Up
+Papa Don't Preach
+La Isla Bonita
+Into the Groove
+Express Yourself
+Frozen
+Music
+Lucky Star
+Borderline
+Crazy for You
+Ray of Light
+Live to Tell
+True Blue
+Open Your Heart
+Cherish
+4 Minutes
+Like It or Not
+Erotica
+Justify My Love
+Take a Bow
+Don't Cry for Me Argentina
+Beautiful Stranger
+American Pie
+Die Another Day
+Give Me All Your Luvin'
+Celebration
+Sorry
+Dress You Up
+Burning Up
+Everybody
+Secret
+Bedtime Story
+Human Nature
+Rain
+*Bad Girl
+Deeper and Deeper
+This Used to Be My Playground
+Who's That Girl
+Causing a Commotion
+Get Together
+Jump
+
+# Name a Britney Spears song
+...Baby One More Time | baby one more time
+Toxic
+Oops!... I Did It Again | oops i did it again
+Womanizer
+Gimme More
+Circus
+Lucky
+Stronger
+Sometimes
+Everytime
+I'm a Slave 4 U
+Hold It Against Me
+Till the World Ends
+Radar
+Piece of Me
+Boys
+Overprotected
+I'm Not a Girl, Not Yet a Woman
+(You Drive Me) Crazy | you drive me crazy
+3
+Scream & Shout
+Work Bitch
+Criminal
+I Wanna Go
+Hold Me Closer
+Me Against the Music
+Born to Make You Happy
+Do Somethin'
+My Prerogative
+Outrageous
+Ooh La La
+Break the Ice
+Slumber Party
+Make Me...
+*Mona Lisa
+Gasoline
+Kill the Lights
+Shattered Glass
+Don't Let Me Be the Last to Know
+From the Bottom of My Broken Heart
+
+# Name a song by Usher
+Yeah!
+OMG
+Burn
+U Remind Me
+Confessions Part II
+DJ Got Us Fallin' in Love
+You Make Me Wanna...
+My Boo
+Nice & Slow
+Without You
+Love in This Club
+Caught Up
+U Got It Bad
+U Don't Have to Call
+Scream
+Climax
+More
+There Goes My Baby
+Lil Freak
+Papers
+Hey Daddy (Daddy's Home)
+Good Kisser
+I Don't Mind
+Superstar
+Bad Girl
+Moving Mountains
+Trading Places
+Here I Stand
+Pop Ya Collar
+*My Way
+Think of You
+Can U Handle It?
+Coming Home
+Ruin
+Glu
+
+# Name a song by Justin Timberlake or *NSYNC
+SexyBack
+Can't Stop the Feeling!
+Cry Me a River
+Mirrors
+Rock Your Body
+Bye Bye Bye
+It's Gonna Be Me
+Tearin' Up My Heart
+My Love
+What Goes Around... Comes Around
+Suit & Tie
+Señorita
+Not a Bad Thing
+Like I Love You
+Summer Love
+Pusher Love Girl
+Filthy
+Say Something
+Tunnel Vision
+TKO
+Take Back the Night
+Selfish
+Pop
+Girlfriend
+Gone
+This I Promise You
+I Want You Back
+Sailing
+God Must Have Spent a Little More Time on You
+Merry Christmas, Happy Holidays
+Space Cowboy
+Digital Get Down
+Better Place
+*Lovestoned
+Damn Girl
+Until the End of Time
+Losing My Way
+Drink You Away
+
+# Name a Backstreet Boys or One Direction song
+I Want It That Way
+Everybody (Backstreet's Back) | everybody | backstreets back
+As Long as You Love Me
+Larger than Life
+Shape of My Heart
+Quit Playing Games (with My Heart) | quit playing games
+I'll Never Break Your Heart
+Show Me the Meaning of Being Lonely
+The Call
+Incomplete
+Drowning
+All I Have to Give
+Straight Through My Heart
+Don't Want You Back
+What Makes You Beautiful
+Story of My Life
+Drag Me Down
+Best Song Ever
+One Thing
+Live While We're Young
+Little Things
+Night Changes
+Steal My Girl
+Kiss You
+Perfect
+History
+Little Black Dress
+You & I
+Midnight Memories
+Gotta Be You
+Diana
+Fireproof
+Infinity
+18
+Change My Mind
+Moments
+Truly Madly Deeply
+Rock Me
+Strong
+They Don't Know
+*Last First Kiss
+Over Again
+Olivia
+Happily
+Through the Dark
+Don't Forget Where You Belong
+
+# Name a Frank Ocean song
+Thinkin Bout You
+Pink + White
+Nights
+Ivy
+Self Control
+Lost
+Novacane
+Swim Good
+Pyramids
+Super Rich Kids
+Chanel
+Godspeed
+Nikes
+Solo
+White Ferrari
+Bad Religion
+Forrest Gump
+Sweet Life
+Seigfried
+Moon River
+In My Room
+Provider
+Biking
+Lens
+Crack Rock
+Pilot Jones
+Pink Matter
+Sierra Leone
+*Facebook Story
+Futura Free
+Dust
+Songs for Women
+Strawberry Swing
+American Wedding
+Close to You
+
+# Name an SZA song
+Kill Bill
+Snooze
+Good Days
+The Weekend
+Saturn
+Love Galore
+Broken Clocks
+Nobody Gets Me
+Drew Barrymore
+I Hate U
+Supermodel
+All the Stars
+Shirt
+Low
+Open Arms
+Blind
+Kiss Me More
+Normal Girl
+Garden (Say It Like Dat)
+Prom
+Doves in the Wind
+Babylon
+Seek & Destroy
+Ghost in the Machine
+Far
+Special
+Conceited
+Gone Girl
+Joni
+Smoking on My Ex Pack
+*Go Gina
+Child's Play
+Drew Barrymore
+Twenty Something
+F2F
+Diamond Boy
+Scorsese Baby Daddy
+Crybaby
+Luther
+
+# Name a Bad Bunny song
+Dákiti | dakiti
+Tití Me Preguntó | titi me pregunto
+Me Porto Bonito
+Mía | mia
+Callaíta | callaita
+I Like It
+Yonaguni
+Safaera
+Moscow Mule
+Ojitos Lindos
+Después de la Playa | despues de la playa
+Efecto
+Un Verano Sin Ti
+Party
+Neverita
+Where She Goes
+Monaco
+Un Preview
+Baile Inolvidable
+DtMF
+Nuevayol
+Voy a Llevarte pa PR
+Vete
+Soltera
+La Canción | la cancion
+Yo Perreo Sola
+Si Veo a Tu Mamá
+Chambea
+Amorfoda
+Estamos Bien
+Te Boté
+Solo de Mi
+MIA
+Vuelve
+Ignorantes
+*Booker T
+Andrea
+El Apagón | el apagon
+Tarot
+Coco Chanel
+Perro Negro
+
+# Name a Morgan Wallen song
+Last Night
+Whiskey Glasses
+Wasted on You
+Sand in My Boots
+You Proof
+Thinkin' Bout Me
+7 Summers
+Chasin' You
+More Than My Hometown
+Cover Me Up
+Thought You Should Know
+Love Somebody
+Lies Lies Lies
+I Had Some Help
+Up Down
+Dangerous
+Man Made a Bar
+One Thing at a Time
+Everything I Love
+Spin You Around
+Livin' the Dream
+Lies Lies Lies
+Don't Think Jesus
+This Bar
+Somebody's Problem
+Neon Eyes
+Broadway Girls
+Tennessee Fan
+Dying Man
+*If I Know Me
+Still Goin Down
+Heartless
+Smile
+Whatcha Think of Country Now
+
+# Name a Dolly Parton song
+Jolene
+9 to 5 | nine to five
+I Will Always Love You
+Coat of Many Colors
+Islands in the Stream
+Here You Come Again
+Two Doors Down
+Love Is Like a Butterfly
+Heartbreaker
+Baby I'm Burnin'
+The Bargain Store
+Old Flames Can't Hold a Candle to You
+Why'd You Come in Here Lookin' Like That
+Yellow Roses
+Tennessee Mountain Home
+My Tennessee Mountain Home
+Applejack
+Light of a Clear Blue Morning
+Dumb Blonde
+Mule Skinner Blues
+To Daddy
+Joshua
+Touch Your Woman
+Banks of the Ohio
+Little Sparrow
+Silver Threads and Golden Needles
+Rockstar
+World on Fire
+Seven Bridges Road
+*Down from Dover
+Better Get to Livin'
+Hard Candy Christmas
+Holding Everything
+Eagle When She Flies
+
+# Name a Johnny Cash song
+Ring of Fire
+Folsom Prison Blues
+I Walk the Line
+Hurt
+A Boy Named Sue
+Jackson
+Man in Black
+Get Rhythm
+Cry! Cry! Cry!
+One Piece at a Time
+Sunday Mornin' Comin' Down
+I've Been Everywhere
+Ghost Riders in the Sky
+The Man Comes Around
+Highwayman
+Personal Jesus
+Five Feet High and Rising
+Big River
+Don't Take Your Guns to Town
+Daddy Sang Bass
+Home of the Blues
+God's Gonna Cut You Down
+Ballad of Ira Hayes
+San Quentin
+Tennessee Flat Top Box
+Delia's Gone
+*Cocaine Blues
+I Still Miss Someone
+Hey Porter
+The Wreck of the Old 97
+
+# Name a song by Elvis Presley
+Hound Dog
+Jailhouse Rock
+Can't Help Falling in Love
+Suspicious Minds
+Blue Suede Shoes
+Heartbreak Hotel
+Love Me Tender
+All Shook Up
+Burning Love
+Don't Be Cruel
+Return to Sender
+A Little Less Conversation | little less conversation
+In the Ghetto
+It's Now or Never
+Viva Las Vegas
+Blue Christmas
+That's All Right
+Are You Lonesome Tonight?
+Always on My Mind
+Teddy Bear
+Way Down
+Trouble
+King Creole
+Guitar Man
+Devil in Disguise
+Good Luck Charm
+Stuck on You
+Kentucky Rain
+An American Trilogy
+If I Can Dream
+*Polk Salad Annie
+Mystery Train
+Hard Headed Woman
+Wear My Ring Around Your Neck
+Rubberneckin'
+
+# Name a song by The Rolling Stones
+(I Can't Get No) Satisfaction | satisfaction
+Paint It Black
+Sympathy for the Devil
+Gimme Shelter
+Start Me Up
+Angie
+Brown Sugar
+Jumpin' Jack Flash
+You Can't Always Get What You Want
+Wild Horses
+Beast of Burden
+Miss You
+Honky Tonk Women
+Ruby Tuesday
+Under My Thumb
+Get Off of My Cloud
+Tumbling Dice
+It's Only Rock 'n Roll
+Emotional Rescue
+Mother's Little Helper
+Street Fighting Man
+Waiting on a Friend
+Dead Flowers
+19th Nervous Breakdown
+Let's Spend the Night Together
+Can't You Hear Me Knocking
+Happy
+Shattered
+Doom and Gloom
+Angry
+*She's a Rainbow
+Lady Jane
+Play with Fire
+As Tears Go By
+Time Is on My Side
+Undercover of the Night
+Harlem Shuffle
+Mixed Emotions
+
+# Name a song by Led Zeppelin
+Stairway to Heaven
+Whole Lotta Love
+Immigrant Song
+Black Dog
+Kashmir
+Rock and Roll
+Ramble On
+Dazed and Confused
+Good Times Bad Times
+When the Levee Breaks
+Over the Hills and Far Away
+Going to California
+Heartbreaker
+Communication Breakdown
+D'yer Mak'er
+Fool in the Rain
+Since I've Been Loving You
+The Ocean
+The Rain Song
+Babe I'm Gonna Leave You
+Houses of the Holy
+In My Time of Dying
+Achilles Last Stand
+All My Love
+Moby Dick
+Trampled Under Foot
+No Quarter
+Misty Mountain Hop
+*Hey Hey What Can I Do
+Bron-Y-Aur Stomp
+Tangerine
+Thank You
+What Is and What Should Never Be
+Gallows Pole
+Four Sticks
+
+# Name a song by Pink Floyd
+Another Brick in the Wall
+Wish You Were Here
+Comfortably Numb
+Money
+Time
+Hey You
+Shine On You Crazy Diamond
+Us and Them
+The Great Gig in the Sky
+Brain Damage
+Eclipse
+Breathe
+Echoes
+Learning to Fly
+High Hopes
+Have a Cigar
+Dogs
+Pigs (Three Different Ones)
+Sheep
+Mother
+Run Like Hell
+Young Lust
+Arnold Layne
+See Emily Play
+Astronomy Domine
+Interstellar Overdrive
+One of These Days
+Fearless
+*Bike
+Careful with That Axe, Eugene
+Set the Controls for the Heart of the Sun
+Is There Anybody Out There?
+The Happiest Days of Our Lives
+Goodbye Blue Sky
+In the Flesh?
+Nobody Home
+The Trial
+
+# Name an AC/DC song
+Highway to Hell
+Back in Black
+Thunderstruck
+You Shook Me All Night Long
+Hells Bells
+T.N.T. | tnt
+Shoot to Thrill
+It's a Long Way to the Top (If You Wanna Rock 'n' Roll)
+Dirty Deeds Done Dirt Cheap
+For Those About to Rock (We Salute You)
+Whole Lotta Rosie
+Let There Be Rock
+Rock and Roll Train
+Money Talks
+Moneytalks
+Are You Ready
+Big Balls
+Problem Child
+Jailbreak
+Who Made Who
+Heatseeker
+Sin City
+Rock 'n' Roll Damnation
+Touch Too Much
+If You Want Blood (You've Got It)
+Have a Drink on Me
+*Ride On
+High Voltage
+The Jack
+Shot Down in Flames
+Hard as a Rock
+Stiff Upper Lip
+Realize
+Shot in the Dark
+
+# Name a Metallica song
+Enter Sandman
+Master of Puppets
+Nothing Else Matters
+One
+The Unforgiven
+Fade to Black
+For Whom the Bell Tolls
+Seek & Destroy
+Sad but True
+Wherever I May Roam
+Battery
+Creeping Death
+Ride the Lightning
+Fuel
+Whiskey in the Jar
+Welcome Home (Sanitarium) | sanitarium
+Orion
+Hardwired
+Moth into Flame
+St. Anger
+The Day That Never Comes
+Until It Sleeps
+The Memory Remains
+Turn the Page
+Harvester of Sorrow
+...And Justice for All | and justice for all
+Blackened
+Am I Evil?
+Lux Æterna
+72 Seasons
+Atlas, Rise!
+*Disposable Heroes
+The Call of Ktulu
+The Four Horsemen
+Hit the Lights
+Motorbreath
+Holier Than Thou
+King Nothing
+Mama Said
+
+# Name a song by Guns N' Roses
+Sweet Child o' Mine
+Welcome to the Jungle
+November Rain
+Paradise City
+Knockin' on Heaven's Door
+Patience
+Don't Cry
+You Could Be Mine
+Live and Let Die
+Civil War
+Estranged
+Nightrain
+Mr. Brownstone
+It's So Easy
+Rocket Queen
+Used to Love Her
+Chinese Democracy
+Yesterdays
+Garden of Eden
+Dead Horse
+Since I Don't Have You
+Out ta Get Me
+*Coma
+14 Years
+Pretty Tied Up
+Get in the Ring
+Absurd
+Perhaps
+The General
+
+# Name a song by Bon Jovi
+Livin' on a Prayer | living on a prayer
+It's My Life
+You Give Love a Bad Name
+Wanted Dead or Alive
+Always
+Bed of Roses
+Runaway
+Have a Nice Day
+Who Says You Can't Go Home
+Bad Medicine
+I'll Be There for You
+Blaze of Glory
+Keep the Faith
+Lay Your Hands on Me
+Born to Be My Baby
+In These Arms
+These Days
+Everyday
+Thank You for Loving Me
+This Ain't a Love Song
+Never Say Goodbye
+Dry County
+Someday I'll Be Saturday Night
+We Weren't Born to Follow
+Because We Can
+Misunderstood
+Lost Highway
+*Hey God
+Santa Fe
+Social Disease
+Raise Your Hands
+Living in Sin
+
+# Name a Journey or Toto song
+Don't Stop Believin' | dont stop believing
+Any Way You Want It
+Faithfully
+Open Arms
+Separate Ways (Worlds Apart) | separate ways
+Wheel in the Sky
+Lights
+Who's Crying Now
+When You Love a Woman
+Stone in Love
+Send Her My Love
+Be Good to Yourself
+Only the Young
+Africa
+Hold the Line
+Rosanna
+99
+I Won't Hold You Back
+Georgy Porgy
+Stop Loving You
+Pamela
+I'll Be Over You
+Lovers in the Night
+*Feelin' That Way
+Girl Can't Help It
+Ask the Lonely
+Lovin', Touchin', Squeezin'
+Anyway You Want It
+
+# Name a Billy Joel song
+Piano Man
+Uptown Girl
+We Didn't Start the Fire
+Just the Way You Are
+Only the Good Die Young
+My Life
+Scenes from an Italian Restaurant
+Vienna
+She's Always a Woman
+It's Still Rock and Roll to Me
+The River of Dreams
+Movin' Out (Anthony's Song)
+Tell Her About It
+Allentown
+Pressure
+New York State of Mind
+Big Shot
+Honesty
+You May Be Right
+The Longest Time
+Goodnight Saigon
+Keeping the Faith
+An Innocent Man
+Captain Jack
+Say Goodbye to Hollywood
+Leningrad
+A Matter of Trust
+Lullabye (Goodnight, My Angel)
+Turn the Lights Back On
+*Zanzibar
+The Downeaster "Alexa" | downeaster alexa
+And So It Goes
+Summer, Highland Falls
+Everybody Loves You Now
+The Stranger
+
+# Name a song by Stevie Wonder
+Superstition
+Isn't She Lovely
+Sir Duke
+I Just Called to Say I Love You
+Signed, Sealed, Delivered I'm Yours | signed sealed delivered
+My Cherie Amour
+You Are the Sunshine of My Life
+Higher Ground
+Living for the City
+I Wish
+Part-Time Lover
+For Once in My Life
+Uptight (Everything's Alright)
+Master Blaster (Jammin')
+Ribbon in the Sky
+Overjoyed
+Happy Birthday
+Boogie On Reggae Woman
+Don't You Worry 'bout a Thing
+As
+Lately
+Fingertips
+Yester-Me, Yester-You, Yesterday
+Golden Lady
+Knocks Me Off My Feet
+Love's in Need of Love Today
+Pastime Paradise
+Send One Your Love
+That Girl
+Do I Do
+*Too High
+Visions
+Heaven Help Us All
+Contusion
+I Was Made to Love Her
+
+# Name a song by Aretha Franklin
+Respect
+(You Make Me Feel Like) A Natural Woman | natural woman
+Think
+Chain of Fools
+I Say a Little Prayer
+Freeway of Love
+Rock Steady
+Day Dreaming
+Spanish Harlem
+Bridge over Troubled Water
+Until You Come Back to Me
+I Never Loved a Man (The Way I Love You) | i never loved a man
+Who's Zoomin' Who
+A Rose Is Still a Rose
+Do Right Woman, Do Right Man
+Ain't No Way
+Baby I Love You
+Since You've Been Gone
+Call Me
+The House That Jack Built
+Share Your Love with Me
+Don't Play That Song
+Jump to It
+Amazing Grace
+I Knew You Were Waiting (for Me)
+Sisters Are Doin' It for Themselves
+*Angel
+Young, Gifted and Black
+Precious Lord
+Mary, Don't You Weep
+
+# Name a song by Frank Sinatra
+My Way
+New York, New York | theme from new york new york
+Fly Me to the Moon
+Strangers in the Night
+That's Life
+The Way You Look Tonight
+I've Got You Under My Skin
+Come Fly with Me
+Summer Wind
+It Was a Very Good Year
+Somethin' Stupid
+Luck Be a Lady
+The Lady Is a Tramp
+Witchcraft
+Young at Heart
+All the Way
+Love and Marriage
+High Hopes
+Night and Day
+I Get a Kick Out of You
+Chicago (That Toddlin' Town) | chicago
+The Best Is Yet to Come
+One for My Baby
+In the Wee Small Hours of the Morning
+Let It Snow! Let It Snow! Let It Snow! | let it snow
+Have Yourself a Merry Little Christmas
+Jingle Bells
+That Old Black Magic
+Nice 'n' Easy
+Cycles
+*Mrs. Robinson
+Theme from New York, New York
+Learnin' the Blues
+Three Coins in the Fountain
+I'll Never Smile Again
+
+# Name a Christmas song
+All I Want for Christmas Is You
+Jingle Bells
+Last Christmas
+Rockin' Around the Christmas Tree
+Jingle Bell Rock
+Feliz Navidad
+It's the Most Wonderful Time of the Year
+White Christmas
+Silent Night
+Santa Baby
+Let It Snow! Let It Snow! Let It Snow! | let it snow
+Rudolph the Red-Nosed Reindeer | rudolph
+Frosty the Snowman
+Deck the Halls
+Joy to the World
+O Holy Night
+Have Yourself a Merry Little Christmas
+Little Drummer Boy
+The Christmas Song | chestnuts roasting on an open fire
+Winter Wonderland
+Sleigh Ride
+Santa Claus Is Comin' to Town
+Here Comes Santa Claus
+Blue Christmas
+Do They Know It's Christmas?
+Happy Xmas (War Is Over) | happy xmas
+Wonderful Christmastime
+Underneath the Tree
+Mistletoe
+Santa Tell Me
+Holly Jolly Christmas
+It's Beginning to Look a Lot Like Christmas
+I'll Be Home for Christmas
+We Wish You a Merry Christmas
+Hark! The Herald Angels Sing
+O Come, All Ye Faithful
+The Twelve Days of Christmas | twelve days of christmas
+Grandma Got Run Over by a Reindeer
+Baby, It's Cold Outside
+Feliz Navidad
+Mary, Did You Know?
+Carol of the Bells
+Away in a Manger
+God Rest Ye Merry Gentlemen
+O Christmas Tree
+Up on the Housetop
+Silver Bells
+Run Rudolph Run
+Merry Christmas Everyone
+Step into Christmas
+Christmas Wrapping
+Fairytale of New York
+Driving Home for Christmas
+Do You Hear What I Hear?
+Christmas Tree Farm
+You're a Mean One, Mr. Grinch | mr grinch
+Where Are You Christmas?
+*Snoopy's Christmas
+Dominick the Donkey
+Christmas in Hollis
+Hard Candy Christmas
+Please Come Home for Christmas
+Merry Christmas, Darling
+Santa Claus Lane
+
+# Name a Disney song
+Let It Go
+Hakuna Matata
+A Whole New World
+Under the Sea
+How Far I'll Go
+We Don't Talk About Bruno
+You've Got a Friend in Me
+Circle of Life
+Can You Feel the Love Tonight
+Part of Your World
+Be Our Guest
+Beauty and the Beast | tale as old as time
+I Just Can't Wait to Be King
+Friend Like Me
+Colors of the Wind
+Reflection
+I'll Make a Man Out of You
+Go the Distance
+You're Welcome
+When You Wish Upon a Star
+Bibbidi-Bobbidi-Boo
+Supercalifragilisticexpialidocious
+Bare Necessities | the bare necessities
+Into the Unknown
+Surface Pressure
+Remember Me
+Do You Want to Build a Snowman?
+For the First Time in Forever
+Love Is an Open Door
+I See the Light
+When Will My Life Begin
+Almost There
+Poor Unfortunate Souls
+Kiss the Girl
+Gaston
+Belle
+Prince Ali
+Arabian Nights
+Be Prepared
+Zero to Hero
+I Won't Say (I'm in Love)
+A Dream Is a Wish Your Heart Makes
+Someday My Prince Will Come
+Whistle While You Work
+Heigh-Ho
+Chim Chim Cher-ee
+A Spoonful of Sugar
+I Wan'na Be Like You
+Trashin' the Camp
+Shiny
+Where You Are
+We Know the Way
+Mother Knows Best
+Dos Oruguitas
+What Else Can I Do?
+The Family Madrigal
+Show Yourself
+Lost in the Woods
+This Wish
+Real Gone
+Life Is a Highway
+Married Life
+*Les Poissons
+Mine
+Savages
+Just Around the Riverbend
+Out There
+Hellfire
+God Help the Outcasts
+Strangers Like Me
+Two Worlds
+You'll Be in My Heart
+Son of Man
+Can't Help Falling in Love
+Hawaiian Roller Coaster Ride
+He Mele No Lilo
+
+# Name a song from a Broadway musical
+Defying Gravity
+My Shot
+Memory
+The Phantom of the Opera
+Seasons of Love
+I Dreamed a Dream
+One Day More
+Don't Cry for Me Argentina
+Popular
+Wait for It
+Satisfied
+You'll Be Back
+The Room Where It Happens
+Alexander Hamilton
+Do You Hear the People Sing?
+Tomorrow
+Maybe
+All That Jazz
+Cell Block Tango
+Summer Nights
+You're the One That I Want
+Greased Lightnin'
+Mamma Mia
+Dancing Queen
+Music of the Night
+All I Ask of You
+Think of Me
+Waving Through a Window
+For Forever
+Somewhere
+Tonight
+America
+I Feel Pretty
+Maria
+Do-Re-Mi
+My Favorite Things
+Climb Ev'ry Mountain
+The Sound of Music
+Edelweiss
+If I Were a Rich Man
+Matchmaker
+Sunrise, Sunset
+Tradition
+On My Own
+Bring Him Home
+Master of the House
+Stars
+Suddenly Seymour
+Skid Row (Downtown)
+Somewhere That's Green
+Feed Me
+Wicked Little Town
+The Origin of Love
+Corner of the Sky
+Willkommen
+Cabaret
+Mein Herr
+Oklahoma!
+Oh, What a Beautiful Mornin'
+Send in the Clowns
+Being Alive
+Everything's Coming Up Roses
+Some People
+Rose's Turn
+Hello, Dolly!
+Don't Rain on My Parade
+People
+Burn
+Dear Theodosia
+The Schuyler Sisters
+History Has Its Eyes on You
+One Short Day
+For Good
+No Good Deed
+Dancing Through Life
+As Long as You're Mine
+I'm Not That Girl
+The Wizard and I
+*Ya Got Trouble
+Seventy-Six Trombones
+The Rain in Spain
+I Could Have Danced All Night
+Wouldn't It Be Loverly
+Get Me to the Church on Time
+Luck Be a Lady
+Sit Down, You're Rockin' the Boat
+Bui Doi
+The Heat Is On in Saigon
+Your Fault
+Agony
+Giants in the Sky
+Into the Woods
+No One Is Alone
+Children Will Listen
+Defying Gravity
+
+# Name a one-hit wonder song
+Macarena
+Mambo No. 5
+Who Let the Dogs Out
+Gangnam Style
+Ice Ice Baby
+Tubthumping
+Somebody That I Used to Know
+Come On Eileen
+Take On Me
+Kung Fu Fighting
+Play That Funky Music
+Bitter Sweet Symphony
+Blue (Da Ba Dee) | blue
+Barbie Girl
+Ridin'
+Hey There Delilah
+I'm Too Sexy
+Rico Suave
+What Is Love
+Thong Song
+Baby Got Back
+Chocolate Rain
+The Ketchup Song (Aserejé) | ketchup song | asereje
+Crazy Train
+Spirit in the Sky
+Video Killed the Radio Star
+Turning Japanese
+Tainted Love
+Don't Worry, Be Happy
+Two Princes
+Steal My Sunshine
+How Bizarre
+Mmmbop
+Achy Breaky Heart
+The Safety Dance | safety dance
+867-5309/Jenny | jenny | 867 5309
+Funkytown
+Stacy's Mom
+Teenage Dirtbag
+Mr. Jones
+Mambo No. 5
+Who Let the Dogs Out
+Harlem Shake
+What's Up?
+Tubthumping
+I Want Candy
+Rock Lobster
+Jessie's Girl
+Hey Mickey
+Gonna Make You Sweat (Everybody Dance Now) | everybody dance now
+Pump Up the Jam
+U Can't Touch This
+Ice Ice Baby
+Bust a Move
+Whoomp! (There It Is)
+Rump Shaker
+*Lapdance
+Breakfast at Tiffany's
+Torn
+Bulletproof
+Gold
+99 Luftballons
+Come and Get Your Love
+In the Year 2525
+Popcorn
+Sugar, Sugar
+My Sharona
+Mickey
+Pop Muzik
+Kids in America
+Everybody Have Fun Tonight
+Cotton Eye Joe
+
+# Name a song that's played at sports games
+We Will Rock You
+Seven Nation Army
+Sweet Caroline
+Y.M.C.A. | ymca
+Rock and Roll Part 2 | the hey song
+Crazy Train
+Zombie Nation
+Kernkraft 400
+Thunderstruck
+Enter Sandman
+Song 2
+Eye of the Tiger
+We Are the Champions
+Welcome to the Jungle
+Jump Around
+Cotton Eye Joe
+Shout
+Take Me Out to the Ball Game
+Centerfield
+Na Na Hey Hey Kiss Him Goodbye
+Another One Bites the Dust
+Lose Yourself
+All I Do Is Win
+Get Ready for This
+Pump Up the Jam
+Tequila
+Let's Get It Started
+The Final Countdown
+Mr. Brightside
+Living on a Prayer
+Don't Stop Believin'
+Gonna Fly Now
+Kids
+Sandstorm
+Blitzkrieg Bop
+Rock You Like a Hurricane
+Iron Man
+Black Betty
+Let's Go Band
+Shipping Up to Boston
+*Gary Glitter Rock and Roll
+Zombie
+Hall of Fame
+Seven Nation Army
+Can't Hold Us
+Power
+Remember the Name
+Whoomp! (There It Is)
+Kickstart My Heart
+
+# Name a song with a colour in its title
+Purple Rain
+Yellow
+Yellow Submarine
+Back in Black
+Paint It Black
+Blue (Da Ba Dee)
+Black Hole Sun
+Red Red Wine
+Green Onions
+Brown Eyed Girl
+Black Magic Woman
+White Rabbit
+Lady in Red
+Blue Suede Shoes
+Blue Christmas
+White Christmas
+99 Red Balloons
+Little Red Corvette
+Mellow Yellow
+Purple Haze
+Yellow Ledbetter
+Black Dog
+Blue Velvet
+Red
+White Wedding
+Black or White
+Orange Crush
+Green River
+Pink
+Pink Pony Club
+Big Yellow Taxi
+Goodbye Yellow Brick Road
+Black Beatles
+Red Light Special
+Blue Bayou
+Black Velvet
+Raspberry Beret
+Silver Springs
+Golden
+Gold Digger
+Blue Monday
+Little Green Bag
+Green Light
+Black Parade | welcome to the black parade
+Blue Jeans
+Pink + White
+Behind Blue Eyes
+Fade to Black
+Red Wine Supernova
+Ruby Tuesday
+*Whiter Shade of Pale | a whiter shade of pale
+Tie a Yellow Ribbon
+Crimson and Clover
+Nights in White Satin
+Black Velvet
+Lavender Haze
+Maroon
+Blue Ain't Your Color
+Brown Sugar
+Red Rubber Ball
+Indigo
+Orange Juice
+Black Skinhead
+Purple Hat
+Blue Bird
+
+# Name a song with a girl's name in the title
+Jolene
+Roxanne
+Layla
+Billie Jean
+Sweet Caroline
+Hey There Delilah
+Mrs. Robinson
+Rosanna
+Gloria
+Angie
+Valerie
+Proud Mary
+Hey Jude
+Peggy Sue
+Barbara Ann
+Help Me, Rhonda
+Michelle
+Lola
+Jessie's Girl
+Beth
+Rhiannon
+Sara
+Mandy
+Iris
+Martha My Dear
+Diana
+Maria
+Cecilia
+Jenny | 867 5309 jenny
+My Sharona
+Clementine
+Wendy
+Allison
+Alison
+Daisy
+Delilah
+Mary Jane's Last Dance
+Ruby Tuesday
+Sweet Jane
+Suzanne
+Cherry Pie
+Lucy in the Sky with Diamonds
+Eleanor Rigby
+Dirty Diana
+Stacy's Mom
+Olivia
+Ana
+Vanessa
+Juliet
+Josie
+Sherry
+Bernadette
+Rosalita
+Veronica
+Emily
+*Matilda
+Nikita
+Marjorie
+Ivy
+Betty
+Carolina
+Kathy's Song
+Penny Lane
+Hey Soul Sister
+Gimme Gimme Gimme
+
+# Name a song that mentions a US city or state in its title
+New York, New York
+Empire State of Mind
+Sweet Home Alabama
+California Gurls
+Hotel California
+Viva Las Vegas
+Georgia on My Mind
+Country Roads (Take Me Home) | take me home country roads
+Party in the U.S.A.
+Kansas City
+Chicago
+Philadelphia Freedom
+Streets of Philadelphia
+Detroit Rock City
+Leaving Las Vegas
+Californication
+California Dreamin'
+I Left My Heart in San Francisco
+Born in the U.S.A.
+Miami
+Welcome to Miami
+New York State of Mind
+Memphis, Tennessee
+Walking in Memphis
+Houston
+Galveston
+Tallahassee Lassie
+Texas Hold 'Em
+All the Way to Reno
+Do You Know the Way to San Jose?
+L.A. Woman
+Malibu
+Sweet Home Chicago
+Massachusetts
+Ohio
+Nebraska
+Oklahoma!
+Rocky Mountain High
+Arizona
+Atlantic City
+Boston
+Seattle
+Big Yellow Taxi
+Kentucky Rain
+*Tennessee Whiskey
+Wichita Lineman
+By the Time I Get to Phoenix
+Pittsburgh
+Minneapolis
+Montana
+Florida!!!
+Daddy's Little Girl
+Iowa
+New Orleans
+Mississippi Queen
+Carolina in My Mind
+
+## Music: Artists and Albums
+
+# Name a rapper {names}
+Eminem
+Drake
+Kendrick Lamar
+Jay-Z
+Kanye West
+Tupac
+The Notorious B.I.G. | biggie | biggie smalls | notorious big
+Snoop Dogg
+Nicki Minaj
+Lil Wayne
+Travis Scott
+J. Cole
+50 Cent
+Cardi B
+Post Malone
+Megan Thee Stallion
+Dr. Dre
+Ice Cube
+Nas
+Lil Nas X
+Doja Cat
+Future
+21 Savage
+Tyler, the Creator | tyler the creator
+Lil Uzi Vert
+Childish Gambino
+Missy Elliott
+Queen Latifah
+LL Cool J
+Ludacris
+Pitbull
+Logic
+Mac Miller
+Juice WRLD
+XXXTentacion
+A$AP Rocky | asap rocky
+Chance the Rapper
+Lil Baby
+DaBaby
+Lizzo
+Busta Rhymes
+Method Man
+Wu-Tang Clan
+Ice-T
+Vanilla Ice
+MC Hammer
+Flo Rida
+T.I.
+Lil Kim
+Lauryn Hill
+Pusha T
+Rick Ross
+Gucci Mane
+Young Thug
+Gunna
+Playboi Carti
+Lil Yachty
+Kid Cudi
+Wiz Khalifa
+Big Sean
+Meek Mill
+2 Chainz
+Jack Harlow
+Ice Spice
+GloRilla
+Latto
+Sexyy Red
+Doechii
+Common
+Mos Def
+Talib Kweli
+Rakim
+KRS-One
+Run-DMC
+Eazy-E
+Too Short
+DMX
+Nelly
+Chamillionaire
+Bow Wow
+Soulja Boy
+Lupe Fiasco
+Wale
+*MF DOOM
+Aesop Rock
+Earl Sweatshirt
+Danny Brown
+Denzel Curry
+Run the Jewels
+Vince Staples
+Freddie Gibbs
+
+# Name a boy band
+Backstreet Boys
+*NSYNC | nsync
+One Direction
+BTS
+New Kids on the Block
+Jonas Brothers
+The Jackson 5 | jackson five
+Boyz II Men
+Westlife
+Take That
+98 Degrees
+The Wanted
+Big Time Rush
+Hanson
+O-Town
+Boyzone
+New Edition
+Menudo
+The Monkees
+Why Don't We
+Five
+Blue
+Busted
+McFly
+5 Seconds of Summer
+EXO
+Stray Kids
+Seventeen
+Super Junior
+Big Bang
+NCT
+The Osmonds
+Bay City Rollers
+LFO
+Dream Street
+B2K
+Color Me Badd
+Immature
+Jodeci
+The Beach Boys
+PrettyMuchIt
+CNCO
+Plus One
+Hometown
+Union J
+Brockhampton
+Il Divo
+*Code Red
+East 17
+Another Level
+A1
+Mindless Behavior
+Varsity Fanclub
+Natural
+
+# Name a girl group
+Spice Girls
+Destiny's Child
+TLC
+The Supremes
+Little Mix
+Fifth Harmony
+The Pussycat Dolls | pussycat dolls
+BLACKPINK
+Twice
+En Vogue
+Salt-N-Pepa
+The Go-Go's
+Bananarama
+Sugababes
+Girls Aloud
+All Saints
+The Ronettes
+The Shirelles
+The Andrews Sisters
+The Pointer Sisters
+Wilson Phillips
+The Bangles
+SWV
+Xscape
+3LW
+Danity Kane
+Dream
+The Cheetah Girls
+Red Velvet
+Girls' Generation | snsd
+NewJeans
+Aespa
+ITZY
+Le Sserafim
+IVE
+2NE1
+The Chicks | dixie chicks
+Haim
+The Saturdays
+B*Witched
+Atomic Kitten
+Bratz
+Wonder Girls
+f(x)
+The Marvelettes
+The Shangri-Las
+The Crystals
+Martha and the Vandellas
+Labelle
+Heart
+The Runaways
+Bikini Kill
+Sleater-Kinney
+*Shampoo
+Mel & Kim
+Exposé
+Cleopatra
+Eternal
+Honeyz
+Fem2Fem
+
+# Name a K-pop group
+BTS
+BLACKPINK
+Twice
+Stray Kids
+EXO
+Seventeen
+NewJeans
+Red Velvet
+Big Bang
+TXT | tomorrow x together
+Aespa
+ITZY
+IVE
+Le Sserafim
+NCT
+ATEEZ
+Enhypen
+Girls' Generation | snsd
+Super Junior
+Mamamoo
+(G)I-DLE | gidle
+2NE1
+SHINee
+Monsta X
+GOT7
+iKON
+Winner
+Treasure
+Kep1er
+NMIXX
+Babymonster
+Illit
+Kiss of Life
+Wonder Girls
+f(x)
+Infinite
+Highlight
+Apink
+Oh My Girl
+Loona
+Dreamcatcher
+Everglow
+Cravity
+Zerobaseone
+Riize
+Boynextdoor
+TWS
+Katseye
+H.O.T.
+*Sechs Kies
+Shinhwa
+g.o.d
+S.E.S.
+Fin.K.L
+Brown Eyed Girls
+4Minute
+Sistar
+After School
+T-ara
+Kara
+Miss A
+
+# Name a rock band
+The Beatles
+Queen
+Led Zeppelin
+The Rolling Stones
+AC/DC | acdc
+Nirvana
+Pink Floyd
+Metallica
+Guns N' Roses | guns n roses
+Foo Fighters
+Red Hot Chili Peppers
+Aerosmith
+The Who
+Green Day
+Linkin Park
+U2
+Coldplay
+Pearl Jam
+Fleetwood Mac
+Eagles
+Journey
+Kiss
+Bon Jovi
+Van Halen
+The Doors
+Black Sabbath
+Def Leppard
+Radiohead
+The Killers
+Arctic Monkeys
+Imagine Dragons
+The Strokes
+Oasis
+Blur
+Fall Out Boy
+Paramore
+My Chemical Romance
+Panic! at the Disco
+Muse
+The Clash
+Sex Pistols
+Ramones
+The Police
+Rush
+Deep Purple
+Lynyrd Skynyrd
+Creedence Clearwater Revival | ccr
+Boston
+Kansas
+Styx
+Foreigner
+Heart
+ZZ Top
+The Black Keys
+The White Stripes
+Weezer
+Smashing Mouth
+Smash Mouth
+Soundgarden
+Alice in Chains
+Stone Temple Pilots
+Rage Against the Machine
+System of a Down
+Tool
+Slipknot
+Korn
+Limp Bizkit
+Nickelback
+Creed
+3 Doors Down
+Matchbox Twenty
+Goo Goo Dolls
+Third Eye Blind
+Blink-182
+The Offspring
+Sum 41
+Good Charlotte
+Greta Van Fleet
+Måneskin
+Royal Blood
+*Can
+Television
+Big Star
+The Replacements
+Hüsker Dü
+Sonic Youth
+Pixies
+The Smiths
+The Cure
+Joy Division
+Talking Heads
+R.E.M.
+The Velvet Underground
+The Kinks
+Cream
+The Yardbirds
+Jefferson Airplane
+Grateful Dead
+Steely Dan
+Dire Straits
+The Byrds
+
+# Name a country music singer {names}
+Dolly Parton
+Johnny Cash
+Garth Brooks
+Carrie Underwood
+Shania Twain
+Luke Bryan
+Blake Shelton
+Morgan Wallen
+Kenny Chesney
+Tim McGraw
+Faith Hill
+Reba McEntire
+Willie Nelson
+Keith Urban
+Luke Combs
+Kacey Musgraves
+Miranda Lambert
+Chris Stapleton
+George Strait
+Alan Jackson
+Zac Brown
+Brad Paisley
+Jason Aldean
+Florida Georgia Line
+Lainey Wilson
+Zach Bryan
+Thomas Rhett
+Kane Brown
+Sam Hunt
+Toby Keith
+Hank Williams
+Patsy Cline
+Loretta Lynn
+Merle Haggard
+Waylon Jennings
+Randy Travis
+Brooks & Dunn
+Rascal Flatts
+Lady A
+Dierks Bentley
+Eric Church
+Little Big Town
+Maren Morris
+Kelsea Ballerini
+Gabby Barrett
+Jelly Roll
+Cody Johnson
+Bailey Zimmerman
+Riley Green
+Jordan Davis
+Chris Young
+Darius Rucker
+Hardy
+Old Dominion
+Chase Rice
+Brett Young
+Lee Brice
+Tyler Childers
+Sturgill Simpson
+Jason Isbell
+Kenny Rogers
+Glen Campbell
+Charley Pride
+Tammy Wynette
+George Jones
+Conway Twitty
+Vince Gill
+Trisha Yearwood
+Martina McBride
+Wynonna Judd
+LeAnn Rimes
+Clint Black
+Travis Tritt
+Dwight Yoakam
+Brooks and Dunn
+Billy Ray Cyrus
+Lyle Lovett
+*Townes Van Zandt
+Emmylou Harris
+Gram Parsons
+John Prine
+Hank Williams Jr.
+Marty Robbins
+Buck Owens
+Roy Clark
+
+# Name a Taylor Swift album
+1989
+Red
+Folklore
+Midnights
+Lover
+Fearless
+Reputation
+Speak Now
+Evermore
+Taylor Swift
+The Tortured Poets Department | ttpd
+The Life of a Showgirl
+Fearless (Taylor's Version)
+Red (Taylor's Version)
+1989 (Taylor's Version)
+Speak Now (Taylor's Version)
+*The Taylor Swift Holiday Collection
+Beautiful Eyes
+
+# Name a Beyoncé album
+Lemonade
+Renaissance
+Cowboy Carter
+Beyoncé
+4
+Dangerously in Love
+I Am... Sasha Fierce | sasha fierce
+B'Day
+The Lion King: The Gift
+Homecoming: The Live Album
+*Everything Is Love
+
+# Name an album by Michael Jackson
+Thriller
+Bad
+Off the Wall
+Dangerous
+HIStory
+Invincible
+Blood on the Dance Floor
+Xscape
+Michael
+Ben
+Got to Be There
+Music & Me
+Forever, Michael
+*Farewell My Summer Love
+
+# Name a Beatles album
+Abbey Road
+Sgt. Pepper's Lonely Hearts Club Band | sgt peppers
+The White Album | white album | the beatles
+Revolver
+Let It Be
+Rubber Soul
+Help!
+A Hard Day's Night
+Magical Mystery Tour
+Yellow Submarine
+Please Please Me
+With the Beatles
+Beatles for Sale
+1
+Meet the Beatles!
+Past Masters
+*Beatles VI
+Introducing... The Beatles
+Love
+Anthology
+
+# Name a famous album by any artist
+Thriller
+Back in Black
+The Dark Side of the Moon | dark side of the moon
+Abbey Road
+Rumours
+Nevermind
+21
+Hotel California
+Purple Rain
+1989
+Lemonade
+Sgt. Pepper's Lonely Hearts Club Band
+Born in the U.S.A.
+Bad
+The Wall
+Led Zeppelin IV
+Appetite for Destruction
+The Joshua Tree
+Pet Sounds
+Kind of Blue
+Blonde
+Channel Orange
+To Pimp a Butterfly
+good kid, m.A.A.d city | good kid maad city
+My Beautiful Dark Twisted Fantasy
+The College Dropout
+Graduation
+808s & Heartbreak
+The Marshall Mathers LP
+The Eminem Show
+Illmatic
+Ready to Die
+All Eyez on Me
+The Chronic
+Doggystyle
+The Miseducation of Lauryn Hill
+Back to Black
+Jagged Little Pill
+Tapestry
+Blue
+Songs in the Key of Life
+What's Going On
+Off the Wall
+Like a Prayer
+...Baby One More Time
+Oops!... I Did It Again
+Confessions
+Future Nostalgia
+Sour
+Folklore
+Midnights
+Renaissance
+Cowboy Carter
+Un Verano Sin Ti
+Scorpion
+Take Care
+After Hours
+Starboy
+Hollywood's Bleeding
+When We All Fall Asleep, Where Do We Go?
+Happier Than Ever
+Short n' Sweet
+Brat
+Hit Me Hard and Soft
+The Rise and Fall of Ziggy Stardust
+OK Computer
+Kid A
+In Rainbows
+Is This It
+Funeral
+American Idiot
+Dookie
+Hybrid Theory
+Meteora
+Black Album | metallica
+Master of Puppets
+Ten
+London Calling
+Never Mind the Bollocks
+Highway 61 Revisited
+Blood on the Tracks
+Exile on Main St.
+Sticky Fingers
+Who's Next
+Revolver
+The Velvet Underground & Nico
+Remain in Light
+Unknown Pleasures
+*Loveless
+Grace
+Astral Weeks
+Bitches Brew
+A Love Supreme
+Paul's Boutique
+3 Feet High and Rising
+The Low End Theory
+Aquemini
+Stankonia
+Speakerboxxx/The Love Below
+
+# Name a Super Bowl halftime show performer {names}
+Beyoncé
+Michael Jackson
+Rihanna
+Kendrick Lamar
+Prince
+Shakira
+Jennifer Lopez
+Lady Gaga
+Katy Perry
+Bruno Mars
+The Weeknd
+Justin Timberlake
+Janet Jackson
+Madonna
+Usher
+Dr. Dre
+Snoop Dogg
+Eminem
+50 Cent
+Mary J. Blige
+Coldplay
+Maroon 5
+Bruce Springsteen
+The Rolling Stones
+U2
+Paul McCartney
+Tom Petty
+The Who
+Black Eyed Peas
+Aerosmith
+NSYNC
+Britney Spears
+Gloria Estefan
+Stevie Wonder
+Diana Ross
+Missy Elliott
+Lenny Kravitz
+Travis Scott
+Big Boi
+Bad Bunny
+SZA
+Ludacris
+Lil Jon
+Shania Twain
+No Doubt
+Sting
+Kid Rock
+Nelly
+P. Diddy
+Phil Collins
+Christina Aguilera
+Enrique Iglesias
+Toni Braxton
+Tina Turner
+Smokey Robinson
+Martha Reeves
+Boyz II Men
+Queen Latifah
+Kiss
+James Brown
+ZZ Top
+*New Kids on the Block
+Gloria Estefan
+Chubby Checker
+Patti LaBelle
+Clint Black
+Tanya Tucker
+Travis Tritt
+The Judds
+Up with People
+Anderson .Paak
+Mickey Guyton
+
+# Name a famous DJ or electronic music producer {names}
+Calvin Harris
+David Guetta
+Avicii
+Marshmello
+Skrillex
+Diplo
+Deadmau5
+Tiësto | tiesto
+Martin Garrix
+The Chainsmokers | chainsmokers
+Zedd
+Kygo
+Daft Punk
+Swedish House Mafia
+Steve Aoki
+DJ Khaled
+Fred again..
+Armin van Buuren
+Alan Walker
+Major Lazer
+Disclosure
+Flume
+Kaskade
+Afrojack
+Hardwell
+Porter Robinson
+Madeon
+Illenium
+Alesso
+Axwell
+Galantis
+Clean Bandit
+Robin Schulz
+Martin Solveig
+Bob Sinclar
+Benny Benassi
+Eric Prydz
+Paul Oakenfold
+Moby
+The Chemical Brothers
+Fatboy Slim
+The Prodigy
+Aphex Twin
+Deadmau5
+Kraftwerk
+Jean-Michel Jarre
+Giorgio Moroder
+*Frankie Knuckles
+Larry Levan
+Carl Cox
+Richie Hawtin
+Peggy Gou
+Fisher
+John Summit
+Dom Dolla
+Chris Lake
+Mau P
+Anyma
+Black Coffee
+DJ Snake
+Kungs
+Purple Disco Machine
+Gesaffelstein
+Justice
+Peggy Gou
+Kaytranada
+Four Tet
+Jamie xx
+Caribou
+Bonobo
+ODESZA
+RL Grime
+Rezz
+Subtronics
+Excision
+Zeds Dead
+Alison Wonderland
+
+# Name a famous music festival
+Coachella
+Lollapalooza
+Glastonbury
+Woodstock
+Bonnaroo
+Burning Man
+Tomorrowland
+Ultra Music Festival | ultra
+Electric Daisy Carnival | edc
+Austin City Limits | acl
+SXSW | south by southwest
+Governors Ball
+Rolling Loud
+Stagecoach
+Outside Lands
+Reading and Leeds | reading festival
+Primavera Sound | primavera
+Download Festival | download
+Rock in Rio
+Summerfest
+Firefly
+Pitchfork Music Festival
+Wireless
+Isle of Wight Festival
+Fyre Festival
+Warped Tour | vans warped tour
+Lilith Fair
+Ozzfest
+Burning Man
+Newport Folk Festival
+Newport Jazz Festival
+Montreux Jazz Festival
+Roskilde
+Sziget
+Exit Festival
+Creamfields
+Parklife
+Electric Forest
+Life Is Beautiful
+When We Were Young
+Riot Fest
+Hangout Festival
+CMA Fest
+Essence Festival
+Made in America
+Afropunk
+Camp Flog Gnaw
+Day N Vegas
+Lovebox
+Boomtown
+Benicàssim | fib
+*Monterey Pop
+Altamont
+Isle of Wight 1970
+Live Aid
+Farm Aid
+Hard Summer
+Movement
+Shambhala
+Splendour in the Grass
+Laneway
+
+# Name a music streaming service or way to listen to music
+Spotify
+Apple Music
+YouTube Music
+Amazon Music
+Pandora
+SoundCloud
+Tidal
+Deezer
+iHeartRadio
+Napster
+Sirius XM | siriusxm
+Bandcamp
+Audiomack
+Shazam
+iTunes
+Last.fm
+LimeWire
+Kazaa
+Qobuz
+Radio
+Vinyl
+CD
+Cassette
+iPod
+Walkman
+Discman
+8-track
+MiniDisc
+Boombox
+Jukebox
+Napster
+Rhapsody
+Google Play Music
+Groove Music
+Zune
+*Songza
+Grooveshark
+Turntable.fm
+Rdio
+MySpace
+Mixcloud
+Anghami
+JioSaavn
+Boomplay
+Tencent Music

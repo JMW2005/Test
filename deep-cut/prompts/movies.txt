@@ -1,0 +1,2583 @@
+// Deep Cut prompt bank: MOVIES
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+// {names} lets a first or last name on its own count.
+
+## Movies
+
+# Name a Pixar movie
+Toy Story
+Finding Nemo
+Up
+The Incredibles | incredibles
+Monsters, Inc. | monsters inc
+Cars
+Inside Out
+Coco
+WALL-E | wall e | walle
+Ratatouille
+Toy Story 2
+Toy Story 3
+Brave
+Finding Dory
+A Bug's Life | bugs life
+Monsters University
+Soul
+Luca
+Turning Red
+Incredibles 2
+Toy Story 4
+Inside Out 2
+Cars 2
+Cars 3
+Onward
+The Good Dinosaur | good dinosaur
+Lightyear
+*Elemental
+Elio
+
+# Name a Disney animated movie
+The Lion King | lion king
+Frozen
+Aladdin
+The Little Mermaid | little mermaid
+Beauty and the Beast
+Cinderella
+Snow White and the Seven Dwarfs | snow white
+Moana
+Tangled
+Mulan
+Encanto
+Zootopia
+Bambi
+Pinocchio
+Peter Pan
+Sleeping Beauty
+Lilo & Stitch | lilo and stitch
+Dumbo
+The Jungle Book | jungle book
+101 Dalmatians | one hundred and one dalmatians
+Lady and the Tramp
+Hercules
+Pocahontas
+Tarzan
+Frozen II | frozen 2
+Big Hero 6
+Wreck-It Ralph | wreck it ralph
+The Princess and the Frog | princess and the frog
+Alice in Wonderland
+The Hunchback of Notre Dame | hunchback of notre dame
+Robin Hood
+The Aristocats | aristocats
+Fantasia
+Bolt
+The Emperor's New Groove | emperors new groove
+Treasure Planet
+Atlantis: The Lost Empire | atlantis
+Raya and the Last Dragon | raya
+Wish
+Meet the Robinsons
+Chicken Little
+Brother Bear
+Home on the Range
+The Fox and the Hound | fox and the hound
+Oliver & Company | oliver and company
+The Rescuers | rescuers
+*The Great Mouse Detective | great mouse detective
+The Black Cauldron | black cauldron
+Strange World
+
+# Name a DreamWorks animated movie
+Shrek
+Kung Fu Panda
+Madagascar
+How to Train Your Dragon
+Shrek 2
+Shark Tale
+Bee Movie
+Over the Hedge
+Megamind
+The Boss Baby | boss baby
+Trolls
+Monsters vs. Aliens | monsters vs aliens
+Chicken Run
+Puss in Boots
+The Prince of Egypt | prince of egypt
+Antz
+Spirit: Stallion of the Cimarron | spirit
+The Croods | croods
+Home
+The Road to El Dorado | road to el dorado
+The Bad Guys | bad guys
+Flushed Away
+Turbo
+Rise of the Guardians
+Mr. Peabody & Sherman | mr peabody and sherman
+*Sinbad: Legend of the Seven Seas | sinbad
+The Wild Robot | wild robot
+Abominable
+Captain Underpants
+
+# Name a Marvel Cinematic Universe movie
+Avengers: Endgame | endgame
+Iron Man
+The Avengers | avengers
+Avengers: Infinity War | infinity war
+Black Panther
+Guardians of the Galaxy
+Captain America: Civil War | civil war
+Thor: Ragnarok | ragnarok
+Spider-Man: No Way Home | no way home
+Captain America: The Winter Soldier | winter soldier
+Spider-Man: Homecoming | homecoming
+Doctor Strange
+Captain Marvel
+Thor
+Ant-Man | ant man
+Iron Man 2
+Iron Man 3
+Avengers: Age of Ultron | age of ultron
+Captain America: The First Avenger | first avenger
+Guardians of the Galaxy Vol. 2
+Guardians of the Galaxy Vol. 3
+Spider-Man: Far From Home | far from home
+Shang-Chi and the Legend of the Ten Rings | shang chi
+Black Widow
+Eternals
+Thor: The Dark World | dark world
+Thor: Love and Thunder | love and thunder
+Doctor Strange in the Multiverse of Madness | multiverse of madness
+Black Panther: Wakanda Forever | wakanda forever
+Ant-Man and the Wasp
+Ant-Man and the Wasp: Quantumania | quantumania
+Deadpool & Wolverine | deadpool and wolverine
+The Marvels | marvels
+*The Incredible Hulk | incredible hulk
+Captain America: Brave New World | brave new world
+Thunderbolts
+
+# Name a member of the Avengers (MCU) {names}
+Iron Man | tony stark
+Captain America | steve rogers
+Thor
+Hulk | bruce banner
+Black Widow | natasha romanoff
+Hawkeye | clint barton
+Spider-Man | peter parker
+Black Panther | tchalla
+Doctor Strange
+Scarlet Witch | wanda | wanda maximoff
+Vision
+Ant-Man | scott lang
+Captain Marvel | carol danvers
+Falcon | sam wilson
+War Machine | rhodey
+Winter Soldier | bucky
+Star-Lord | star lord | peter quill
+Wasp | hope van dyne
+Rocket
+Groot
+Gamora
+Nebula
+Drax
+Mantis
+Okoye
+Shuri
+Valkyrie
+Wong
+*Quicksilver | pietro
+Hulkbuster
+
+# Name a Marvel movie villain
+Thanos
+Loki
+Ultron
+Killmonger | erik killmonger
+Red Skull
+Hela
+Vulture
+Mysterio
+Green Goblin
+Doctor Octopus | doc ock
+Ronan | ronan the accuser
+Kang | kang the conqueror
+Dormammu
+Ego
+Yellowjacket
+Whiplash
+The Mandarin | mandarin
+Obadiah Stane | iron monger
+Abomination
+Zemo | baron zemo
+Malekith
+Electro
+Sandman
+Venom
+Gorr | gorr the god butcher
+Arnim Zola
+*Ghost | ava starr
+Kaecilius
+The High Evolutionary | high evolutionary
+Ebony Maw
+
+# Name a Star Wars movie
+A New Hope | star wars
+The Empire Strikes Back | empire strikes back
+Return of the Jedi
+The Phantom Menace | phantom menace
+Attack of the Clones
+Revenge of the Sith
+The Force Awakens | force awakens
+The Last Jedi | last jedi
+The Rise of Skywalker | rise of skywalker
+Rogue One
+Solo
+*The Clone Wars (2008) | clone wars
+The Mandalorian & Grogu | mandalorian and grogu
+
+# Name a Star Wars character {names}
+Darth Vader | vader
+Luke Skywalker
+Han Solo
+Princess Leia | leia organa
+Yoda
+Chewbacca | chewie
+Obi-Wan Kenobi | obi wan | ben kenobi
+R2-D2 | r2d2 | r2
+C-3PO | c3po | threepio
+Anakin Skywalker
+Emperor Palpatine | palpatine | darth sidious
+Boba Fett
+Rey
+Kylo Ren | ben solo
+Jar Jar Binks
+Padmé Amidala | padme
+Grogu | baby yoda
+Darth Maul
+Mace Windu
+Lando Calrissian
+Jabba the Hutt | jabba
+Finn
+Poe Dameron
+BB-8 | bb8
+Qui-Gon Jinn | qui gon
+Count Dooku | dooku
+General Grievous | grievous
+Ahsoka Tano
+The Mandalorian | din djarin | mando
+Jango Fett
+Admiral Ackbar | ackbar
+Wedge Antilles
+Greedo
+Grand Moff Tarkin | tarkin
+Jyn Erso
+Cassian Andor
+K-2SO | k2so
+Snoke
+Captain Phasma | phasma
+Wicket
+Bossk
+*Salacious B. Crumb | salacious crumb
+Watto
+Bib Fortuna
+Rose Tico
+Cad Bane
+Darth Plagueis
+
+# Name a Lord of the Rings or Hobbit character {names}
+Frodo Baggins
+Gandalf
+Gollum | smeagol
+Aragorn | strider
+Legolas
+Gimli
+Samwise Gamgee | sam
+Bilbo Baggins
+Sauron
+Saruman
+Boromir
+Merry | meriadoc brandybuck
+Pippin | peregrin took
+Arwen
+Galadriel
+Elrond
+Smaug
+Théoden | theoden
+Éowyn | eowyn
+Faramir
+Thorin Oakenshield
+Treebeard
+Gríma Wormtongue | wormtongue | grima
+Denethor
+Radagast
+Tom Bombadil
+Witch-king of Angmar | witch king
+Shelob
+Éomer | eomer
+Bard the Bowman | bard
+Haldir
+Glorfindel
+Celeborn
+Rosie Cotton
+Kíli | kili
+Fíli | fili
+Balin
+Dwalin
+*Beorn
+Thranduil
+Tauriel
+Lurtz
+Gothmog
+Azog
+
+# Name a James Bond movie
+Casino Royale
+Skyfall
+Goldfinger
+GoldenEye | golden eye
+Dr. No | dr no | doctor no
+From Russia with Love
+Spectre
+No Time to Die
+Quantum of Solace
+Die Another Day
+Thunderball
+Moonraker
+The Spy Who Loved Me | spy who loved me
+Tomorrow Never Dies
+The World Is Not Enough | world is not enough
+Live and Let Die
+You Only Live Twice
+A View to a Kill | view to a kill
+The Man with the Golden Gun | man with the golden gun
+Octopussy
+For Your Eyes Only
+Licence to Kill | license to kill
+Diamonds Are Forever
+The Living Daylights | living daylights
+*On Her Majesty's Secret Service | ohmss
+
+# Name an actor who has played James Bond {names}
+Daniel Craig
+Sean Connery
+Roger Moore
+Pierce Brosnan
+Timothy Dalton
+*George Lazenby
+David Niven
+Barry Nelson
+
+# Name a Fast & Furious movie
+The Fast and the Furious | fast and the furious
+2 Fast 2 Furious | too fast too furious
+The Fast and the Furious: Tokyo Drift | tokyo drift
+Fast & Furious (2009) | fast and furious
+Fast Five | fast 5
+Fast & Furious 6 | fast 6 | furious 6
+Furious 7 | fast 7
+The Fate of the Furious | fate of the furious | fast 8
+F9 | fast 9
+Fast X | fast 10
+*Hobbs & Shaw | hobbs and shaw
+
+# Name a Fast & Furious character {names}
+Dominic Toretto | dom
+Brian O'Conner | brian oconner
+Letty Ortiz
+Luke Hobbs
+Roman Pearce
+Tej Parker
+Han Lue | han
+Deckard Shaw
+Mia Toretto
+Gisele Yashar
+Cipher
+Mr. Nobody | mr nobody
+Ramsey
+Owen Shaw
+Jakob Toretto
+Dante Reyes
+Little Nobody
+Sean Boswell
+*Vince
+Hattie Shaw
+Elena Neves
+Magdalene Shaw
+
+# Name a dinosaur that appears in Jurassic Park or Jurassic World
+Tyrannosaurus | t rex | trex | tyrannosaurus rex
+Velociraptor | raptor
+Triceratops
+Brachiosaurus
+Dilophosaurus
+Indominus Rex
+Mosasaurus
+Pteranodon
+Stegosaurus
+Spinosaurus
+Gallimimus
+Parasaurolophus
+Ankylosaurus
+Indoraptor
+Compsognathus
+Pachycephalosaurus
+Apatosaurus
+Giganotosaurus
+Therizinosaurus
+Carnotaurus
+Baryonyx
+Quetzalcoatlus
+Atrociraptor
+*Distortus Rex
+Sinoceratops
+Dimorphodon
+Allosaurus
+Stygimoloch
+Pyroraptor
+Microceratus
+
+# Name a Disney princess
+Cinderella
+Ariel
+Belle
+Jasmine
+Aurora | sleeping beauty
+Snow White
+Mulan
+Rapunzel
+Moana
+Pocahontas
+Tiana
+Merida
+Elsa
+Anna
+Raya
+*Kida
+Giselle
+Vanellope
+Esmeralda
+Megara | meg
+Asha
+Mirabel
+
+# Name a Disney villain
+Scar
+Ursula
+Maleficent
+Jafar
+Cruella de Vil | cruella
+Captain Hook
+Gaston
+Hades
+The Evil Queen | evil queen | queen grimhilde
+Mother Gothel
+Lady Tremaine | stepmother
+Shere Khan
+Dr. Facilier | facilier | shadow man
+Queen of Hearts
+Frollo | judge frollo
+Yzma
+Shan Yu
+Governor Ratcliffe | ratcliffe
+Prince Hans | hans
+Madam Mim
+Medusa
+Kaa
+Sid Phillips | sid
+Stromboli
+Professor Ratigan | ratigan
+Clayton
+Prince John
+The Horned King | horned king
+Chernabog
+*Edgar Balthazar | edgar
+King Candy | turbo
+Hopps
+Te Kā | te ka
+Magnifico | king magnifico
+
+# Name a Toy Story character
+Woody
+Buzz Lightyear | buzz
+Jessie
+Mr. Potato Head | mr potato head
+Rex
+Slinky Dog | slinky
+Hamm
+Bo Peep
+Andy
+Lotso | lots o huggin bear
+Bullseye
+Forky
+Sid
+Aliens | little green men
+Mrs. Potato Head | mrs potato head
+Stinky Pete | prospector
+Duke Caboom
+Ken
+Barbie
+Zurg | emperor zurg
+Bonnie
+Gabby Gabby
+Big Baby
+Ducky
+Bunny
+Wheezy
+Trixie
+Buttercup
+Mr. Pricklepants | mr pricklepants
+Chuckles
+*Combat Carl
+Al | al mcwhiggin
+Sarge
+Bonnie's mom
+Giggle McDimples
+
+# Name a Shrek character
+Shrek
+Donkey
+Fiona | princess fiona
+Puss in Boots | puss
+Lord Farquaad | farquaad
+Dragon
+Gingerbread Man | gingy
+Pinocchio
+Prince Charming
+Fairy Godmother
+The Three Little Pigs | three little pigs
+Big Bad Wolf
+Dronkeys
+King Harold
+Queen Lillian
+Rumpelstiltskin
+Artie | arthur
+Muffin Man
+Three Blind Mice
+Doris
+*Mongo
+Cyclops
+Merlin
+Brogan
+Cookie
+
+# Name a Studio Ghibli movie
+Spirited Away
+My Neighbor Totoro | totoro
+Howl's Moving Castle | howls moving castle
+Princess Mononoke
+Kiki's Delivery Service | kikis delivery service
+Ponyo
+Castle in the Sky | laputa
+Nausicaä of the Valley of the Wind | nausicaa
+The Wind Rises | wind rises
+Grave of the Fireflies
+Arrietty | the secret world of arrietty
+The Boy and the Heron | boy and the heron
+Porco Rosso
+Whisper of the Heart
+The Cat Returns | cat returns
+Pom Poko
+Only Yesterday
+When Marnie Was There
+From Up on Poppy Hill
+The Tale of the Princess Kaguya | princess kaguya
+Tales from Earthsea
+*My Neighbors the Yamadas
+Ocean Waves
+Earwig and the Witch
+
+# Name a Batman movie
+The Dark Knight | dark knight
+Batman Begins
+The Dark Knight Rises | dark knight rises
+The Batman
+Batman (1989) | batman
+Batman Returns
+Batman Forever
+Batman & Robin | batman and robin
+Batman v Superman: Dawn of Justice | batman v superman | batman vs superman
+The Lego Batman Movie | lego batman
+*Batman: Mask of the Phantasm | mask of the phantasm
+Joker
+Batman: The Movie (1966)
+Justice League
+
+# Name an actor who has played Batman {names}
+Christian Bale
+Michael Keaton
+Ben Affleck
+Robert Pattinson
+George Clooney
+Val Kilmer
+Adam West
+Kevin Conroy
+Will Arnett
+Lewis Wilson
+*Robert Lowery
+
+# Name an actor who has played the Joker {names}
+Heath Ledger
+Jack Nicholson
+Joaquin Phoenix
+Jared Leto
+Mark Hamill
+*Cesar Romero
+Barry Keoghan
+Zach Galifianakis
+Troy Baker
+
+# Name an actor who has played Spider-Man {names}
+Tom Holland
+Tobey Maguire
+Andrew Garfield
+Shameik Moore
+Jake Johnson
+*Nicholas Hammond
+Chris Pine
+Oscar Isaac
+
+# Name a Spider-Man movie
+Spider-Man (2002) | spider man
+Spider-Man 2 | spider man 2
+Spider-Man 3 | spider man 3
+The Amazing Spider-Man | amazing spider man
+The Amazing Spider-Man 2 | amazing spider man 2
+Spider-Man: Homecoming | homecoming
+Spider-Man: Far From Home | far from home
+Spider-Man: No Way Home | no way home
+Spider-Man: Into the Spider-Verse | into the spider verse
+Spider-Man: Across the Spider-Verse | across the spider verse
+Venom
+*Madame Web
+Morbius
+Kraven the Hunter | kraven
+
+# Name an X-Men character {names}
+Wolverine | logan
+Professor X | charles xavier
+Magneto
+Storm
+Jean Grey
+Cyclops
+Mystique
+Rogue
+Beast
+Deadpool
+Gambit
+Nightcrawler
+Iceman
+Jubilee
+Colossus
+Kitty Pryde | shadowcat
+Psylocke
+Sabretooth
+Juggernaut
+Apocalypse
+Quicksilver
+Emma Frost
+Cable
+Bishop
+Havok
+Angel | archangel
+X-23 | laura
+Sunfire
+Toad
+Blob
+Domino
+Dazzler
+Banshee
+Mister Sinister
+Pyro
+*Morph
+Forge
+Polaris
+Sebastian Shaw
+Negasonic Teenage Warhead
+
+# Name a Transformer
+Optimus Prime
+Bumblebee
+Megatron
+Starscream
+Ironhide
+Jazz
+Ratchet
+Soundwave
+Grimlock
+Shockwave
+Arcee
+Hot Rod | rodimus prime
+Unicron
+Galvatron
+Sideswipe
+Jetfire
+Devastator
+Wheeljack
+Blackout
+Barricade
+Optimus Primal
+Mirage
+Prowl
+Cliffjumper
+*Wheelie
+Ravage
+Lockdown
+Sentinel Prime
+
+# Name a Pirates of the Caribbean character {names}
+Jack Sparrow | captain jack sparrow
+Will Turner
+Elizabeth Swann
+Hector Barbossa
+Davy Jones
+Joshamee Gibbs | gibbs
+Tia Dalma | calypso
+Blackbeard
+Angelica
+Cutler Beckett
+Bootstrap Bill
+James Norrington | norrington
+Pintel
+Ragetti
+Captain Salazar | salazar
+Henry Turner
+Carina Smyth
+Jack the Monkey
+Sao Feng
+Philip Swift
+*Cotton
+Marty
+Scrum
+
+# Name a Hunger Games character {names}
+Katniss Everdeen
+Peeta Mellark
+Gale Hawthorne
+Haymitch Abernathy
+Effie Trinket
+President Snow | coriolanus snow
+Primrose Everdeen | prim
+Rue
+Cinna
+Finnick Odair
+Johanna Mason
+Caesar Flickerman
+Plutarch Heavensbee
+President Coin | alma coin
+Cato
+Clove
+Foxface
+Thresh
+Glimmer
+Marvel
+Lucy Gray Baird
+Beetee
+*Mags
+Annie Cresta
+Tigris
+Sejanus Plinth
+Boggs
+Madge Undersee
+Seneca Crane
+Castor
+
+# Name a Twilight character {names}
+Bella Swan
+Edward Cullen
+Jacob Black
+Alice Cullen
+Charlie Swan
+Carlisle Cullen
+Esme Cullen
+Rosalie Hale
+Emmett Cullen
+Jasper Hale
+Renesmee Cullen
+Victoria
+James
+Aro
+Jane
+Laurent
+Billy Black
+Seth Clearwater
+Leah Clearwater
+Sam Uley
+Mike Newton
+Jessica Stanley
+Angela Weber
+Riley Biers
+*Bree Tanner
+Caius
+Marcus
+Demetri
+Alec
+Embry Call
+
+# Name a Star Trek character {names}
+Spock
+Captain Kirk | james t kirk
+Captain Picard | jean luc picard
+Data
+Worf
+Uhura
+Scotty | montgomery scott
+Bones | leonard mccoy | dr mccoy
+Sulu | hikaru sulu
+Chekov
+Riker | william riker
+Geordi La Forge | geordi
+Deanna Troi | troi
+Beverly Crusher
+Wesley Crusher
+Q
+Seven of Nine
+Captain Janeway | kathryn janeway
+Benjamin Sisko | sisko
+Kira Nerys
+Odo
+Quark
+Tuvok
+Chakotay
+B'Elanna Torres | belanna torres
+The Doctor | emh
+Khan
+Guinan
+*Garak
+Neelix
+Michael Burnham
+Captain Pike
+Archer | jonathan archer
+T'Pol | tpol
+Gul Dukat | dukat
+Lwaxana Troi
+Ro Laren
+Kes
+Harry Kim
+Tom Paris
+
+# Name a horror movie villain
+Freddy Krueger
+Jason Voorhees
+Michael Myers
+Chucky
+Ghostface
+Pennywise
+Leatherface
+Jigsaw
+Pinhead
+Hannibal Lecter
+Annabelle
+Samara
+Pazuzu | the demon
+Candyman
+Art the Clown
+The Babadook | babadook
+M3GAN | megan
+Damien
+Norman Bates
+Carrie
+Jack Torrance
+Pearl
+The Nun | valak
+Mama
+Leprechaun
+Pumpkinhead
+Herbert West
+The Tall Man
+Michael Myers' mask
+*Captain Spaulding
+The Creeper
+Esther
+Regan
+Samara Morgan
+Sadako
+Kayako
+The Grabber
+Smile entity
+Baghead
+
+# Name a horror movie
+Halloween
+The Exorcist | exorcist
+Scream
+It
+A Nightmare on Elm Street | nightmare on elm street
+Friday the 13th
+The Conjuring | conjuring
+The Shining | shining
+Saw
+Get Out
+Paranormal Activity
+The Texas Chain Saw Massacre | texas chainsaw massacre
+Hereditary
+Insidious
+Psycho
+The Ring | ring
+Annabelle
+Child's Play | childs play
+Us
+A Quiet Place | quiet place
+Sinister
+The Babadook | babadook
+Midsommar
+The Nun | nun
+Smile
+Final Destination
+The Blair Witch Project | blair witch
+Poltergeist
+Jaws
+Alien
+The Thing | thing
+Carrie
+Nope
+Terrifier
+Talk to Me
+M3GAN | megan
+The Witch | the vvitch
+It Follows
+Barbarian
+Pearl
+X
+Longlegs
+The Substance | substance
+Sinners
+The Omen | omen
+Rosemary's Baby | rosemarys baby
+Night of the Living Dead
+Hellraiser
+Candyman
+The Strangers | strangers
+Evil Dead
+*The Cabin in the Woods | cabin in the woods
+Drag Me to Hell
+The Others | others
+28 Days Later
+Annihilation
+
+# Name a Christmas movie
+Home Alone
+Elf
+The Polar Express | polar express
+How the Grinch Stole Christmas | the grinch | grinch
+A Christmas Story | christmas story
+The Santa Clause | santa clause
+Love Actually
+It's a Wonderful Life | its a wonderful life
+National Lampoon's Christmas Vacation | christmas vacation
+Home Alone 2: Lost in New York | home alone 2
+The Nightmare Before Christmas | nightmare before christmas
+Die Hard
+Miracle on 34th Street
+A Christmas Carol | christmas carol
+Jingle All the Way
+The Muppet Christmas Carol | muppet christmas carol
+Four Christmases
+Arthur Christmas
+Klaus
+The Holiday | holiday
+Rudolph the Red-Nosed Reindeer | rudolph
+Frosty the Snowman | frosty
+White Christmas
+Bad Santa
+Last Christmas
+Scrooged
+Gremlins
+Fred Claus
+Deck the Halls
+The Family Stone | family stone
+Elf
+Krampus
+Noelle
+Red One
+Happiest Season
+*Jack Frost
+Christmas with the Kranks
+Surviving Christmas
+The Night Before
+A Charlie Brown Christmas | charlie brown christmas
+The Grinch (2018)
+Spirited
+
+# Name a romantic comedy movie
+The Proposal | proposal
+Crazy Rich Asians
+10 Things I Hate About You
+How to Lose a Guy in 10 Days
+Notting Hill
+When Harry Met Sally | when harry met sally
+Pretty Woman
+13 Going on 30
+Clueless
+Love Actually
+Crazy, Stupid, Love | crazy stupid love
+Sleepless in Seattle
+You've Got Mail | youve got mail
+27 Dresses
+Anyone But You
+She's All That | shes all that
+The Wedding Planner | wedding planner
+Hitch
+Bridget Jones's Diary | bridget jones
+My Big Fat Greek Wedding
+Just Go with It
+Friends with Benefits
+No Strings Attached
+50 First Dates
+The Ugly Truth | ugly truth
+Sweet Home Alabama
+Pretty in Pink
+Forgetting Sarah Marshall
+Knocked Up
+The Holiday | holiday
+Runaway Bride
+Maid in Manhattan
+Two Weeks Notice
+Leap Year
+Set It Up
+To All the Boys I've Loved Before | to all the boys
+*Palm Springs
+Love & Other Drugs | love and other drugs
+What Women Want
+Something Borrowed
+Bride Wars
+The Princess Diaries | princess diaries
+Ticket to Paradise
+Always Be My Maybe
+The Lost City | lost city
+Isn't It Romantic | isnt it romantic
+Moonstruck
+Groundhog Day
+Roman Holiday
+
+# Name a movie musical
+The Greatest Showman | greatest showman
+Grease
+La La Land
+The Sound of Music | sound of music
+Mamma Mia!
+Les Misérables | les miserables
+Hamilton
+Wicked
+West Side Story
+Chicago
+High School Musical
+Hairspray
+The Wizard of Oz | wizard of oz
+Moulin Rouge!
+Singin' in the Rain | singing in the rain
+Mary Poppins
+Into the Woods
+Dreamgirls
+Rent
+Annie
+Cats
+The Phantom of the Opera | phantom of the opera
+Little Shop of Horrors
+Rocketman
+Sweeney Todd
+The Rocky Horror Picture Show | rocky horror
+Pitch Perfect
+A Star Is Born
+Mean Girls (2024)
+My Fair Lady
+Fiddler on the Roof
+Cabaret
+In the Heights
+Willy Wonka & the Chocolate Factory | willy wonka
+Dear Evan Hansen
+Tick, Tick... Boom! | tick tick boom
+Encanto
+Matilda the Musical
+*Hedwig and the Angry Inch | hedwig
+Jesus Christ Superstar
+The King and I | king and i
+Oklahoma!
+Nine
+Burlesque
+Footloose
+Footloose
+Enchanted
+The Color Purple (2023)
+Emilia Pérez | emilia perez
+
+# Name a movie that won the Oscar for Best Picture
+Titanic
+The Godfather | godfather
+Forrest Gump
+Parasite
+Oppenheimer
+Gladiator
+Schindler's List | schindlers list
+The Silence of the Lambs | silence of the lambs
+Everything Everywhere All at Once
+The Lord of the Rings: The Return of the King | return of the king
+Casablanca
+Braveheart
+Slumdog Millionaire
+The Shape of Water | shape of water
+Moonlight
+Green Book
+CODA
+Nomadland
+Argo
+Spotlight
+Birdman
+12 Years a Slave
+The King's Speech | kings speech
+The Departed | departed
+No Country for Old Men
+The Hurt Locker | hurt locker
+Chicago
+A Beautiful Mind | beautiful mind
+American Beauty
+Rocky
+The Artist | artist
+Gone with the Wind
+Ben-Hur | ben hur
+The Sound of Music | sound of music
+Rain Man
+One Flew Over the Cuckoo's Nest | one flew over the cuckoos nest
+Dances with Wolves
+Unforgiven
+Million Dollar Baby
+Crash
+The English Patient | english patient
+Shakespeare in Love
+Amadeus
+Platoon
+Gandhi
+The Godfather Part II | godfather part 2
+Annie Hall
+Kramer vs. Kramer | kramer vs kramer
+Driving Miss Daisy
+Out of Africa
+Terms of Endearment
+Chariots of Fire
+Ordinary People
+The Deer Hunter | deer hunter
+The Sting | sting
+The French Connection | french connection
+Midnight Cowboy
+Lawrence of Arabia
+West Side Story
+The Apartment | apartment
+My Fair Lady
+Anora
+*Wings
+Marty
+All About Eve
+How Green Was My Valley
+
+# Name a movie set in space
+Interstellar
+Gravity
+Star Wars
+The Martian | martian
+Alien
+Guardians of the Galaxy
+2001: A Space Odyssey | 2001
+Apollo 13
+Armageddon
+WALL-E | wall e
+Star Trek
+Passengers
+Lightyear
+Ad Astra
+Event Horizon
+Sunshine
+Moon
+Prometheus
+First Man
+Treasure Planet
+Space Jam
+Spaceballs
+Galaxy Quest
+Elysium
+Interstellar
+Arrival
+Solaris
+Contact
+Hidden Figures
+Life
+The Black Hole
+Dune
+*Silent Running
+Pandorum
+Aliens
+High Life
+Mission to Mars
+Apollo 18
+Space Cowboys
+Zathura
+
+# Name a famous dog from a movie
+Beethoven
+Marley
+Hachi | hachiko
+Lassie
+Toto
+Bolt
+Air Bud | buddy
+Old Yeller
+Scooby-Doo | scooby
+Benji
+Clifford
+Dug
+Lady
+Tramp
+Pongo
+Perdita
+Slinky Dog | slinky
+Gromit
+Bruiser
+Rex
+Hooch
+Marmaduke
+Shadow
+Chance
+Sassy
+*Einstein
+Max
+Snowball
+Brian
+Bullseye
+Copper
+Dodger
+Hound
+Frank
+Krypto
+Dante
+Sparky
+Snoopy
+Odie
+Pluto
+Goofy
+Cujo
+Fang
+Sam
+Jerry Lee
+Skip
+Buddy
+Otis
+
+# Name a sports movie
+Rocky
+Remember the Titans
+The Blind Side | blind side
+Space Jam
+Moneyball
+Creed
+Coach Carter
+Rudy
+The Sandlot | sandlot
+Miracle
+Friday Night Lights
+Field of Dreams
+A League of Their Own | league of their own
+The Karate Kid | karate kid
+Raging Bull
+The Mighty Ducks | mighty ducks
+Bend It Like Beckham
+Million Dollar Baby
+Cool Runnings
+Happy Gilmore
+Dodgeball
+Talladega Nights
+The Waterboy | waterboy
+Caddyshack
+Air
+Ford v Ferrari | ford vs ferrari
+Rush
+Invincible
+42
+Hoosiers
+Bull Durham
+Major League
+White Men Can't Jump | white men cant jump
+He Got Game
+Love & Basketball | love and basketball
+Glory Road
+We Are Marshall
+The Fighter | fighter
+Warrior
+Southpaw
+Cinderella Man
+Ali
+Hustle
+King Richard
+I, Tonya | i tonya
+Battle of the Sexes
+Eddie the Eagle
+*Slap Shot
+Blades of Glory
+Kingpin
+Tin Cup
+Jerry Maguire
+Any Given Sunday
+The Longest Yard | longest yard
+F1
+Challengers
+Varsity Blues
+Little Giants
+Rookie of the Year
+Angels in the Outfield
+The Replacements | replacements
+The Iron Claw | iron claw
+Seabiscuit
+Secretariat
+
+# Name a movie based on a video game
+Super Mario Bros. Movie | the super mario bros movie | mario movie
+Sonic the Hedgehog | sonic
+Detective Pikachu | pokemon detective pikachu
+Five Nights at Freddy's | fnaf
+Mortal Kombat
+Resident Evil
+Uncharted
+Tomb Raider | lara croft tomb raider
+Street Fighter
+Prince of Persia
+Warcraft
+Assassin's Creed | assassins creed
+A Minecraft Movie | minecraft movie
+Angry Birds Movie | angry birds
+Silent Hill
+Doom
+Need for Speed
+Rampage
+Hitman
+Max Payne
+Wreck-It Ralph
+Pixels
+Free Guy
+Ready Player One
+Monster Hunter
+Borderlands
+Gran Turismo
+Sonic the Hedgehog 2
+Sonic the Hedgehog 3
+Pokémon: The First Movie | pokemon the first movie
+Final Fantasy: The Spirits Within | spirits within
+*Mortal Kombat: Annihilation | annihilation
+Dead or Alive
+Bloodrayne
+House of the Dead
+Werewolves Within
+Tekken
+Alone in the Dark
+Postal
+Until Dawn
+
+# Name a movie based on a toy or game
+Barbie
+Transformers
+The Lego Movie | lego movie
+G.I. Joe | gi joe
+Battleship
+Clue
+Jumanji
+Toy Story
+Trolls
+Bratz
+Polly Pocket
+Masters of the Universe | he man
+Dungeons & Dragons: Honor Among Thieves | dungeons and dragons
+Ouija
+Small Soldiers
+My Little Pony
+Hot Wheels
+Teenage Mutant Ninja Turtles | ninja turtles
+Monster High
+UglyDolls | ugly dolls
+Pixels
+Kit Kittredge | american girl
+The Garbage Pail Kids Movie | garbage pail kids
+*Max Steel
+Strawberry Shortcake
+Care Bears
+Cabbage Patch Kids
+Beyblade
+
+# Name a famous movie villain
+Darth Vader
+The Joker | joker
+Thanos
+Hannibal Lecter
+Voldemort
+Freddy Krueger
+Norman Bates
+Michael Myers
+Scar
+Hans Gruber
+The Wicked Witch of the West | wicked witch
+Agent Smith
+Nurse Ratched
+Anton Chigurh
+Bane
+Loki
+Annie Wilkes
+Gollum
+Sauron
+Biff Tannen
+Gordon Gekko
+Patrick Bateman
+Jack Torrance
+Cruella de Vil
+Ursula
+Emperor Palpatine
+The Terminator | terminator
+HAL 9000 | hal
+Dolores Umbridge
+Hans Landa
+Amon Goeth
+Alonzo Harris
+Frank Booth
+Regina George
+Bellatrix Lestrange
+Magneto
+Khan
+Lex Luthor
+Pennywise
+Jigsaw
+Chucky
+Draco Malfoy
+Count Olaf
+Miss Trunchbull | trunchbull
+Syndrome
+Lotso
+*Judge Doom
+Captain Hook
+Gaston
+Ivan Drago
+Mr. Potter | henry potter
+Auric Goldfinger | goldfinger
+Ernst Stavro Blofeld | blofeld
+Le Chiffre
+Raoul Silva
+
+# Name a famous robot or AI from a movie
+R2-D2 | r2d2
+C-3PO | c3po
+WALL-E | wall e
+The Terminator | terminator | t 800
+HAL 9000 | hal
+Optimus Prime
+Bumblebee
+Baymax
+EVE
+Iron Giant
+Johnny 5 | number 5
+Ultron
+Vision
+BB-8 | bb8
+Robby the Robot | robby
+M3GAN | megan
+Ava
+Sonny
+K-2SO | k2so
+Data
+Samantha
+TARS
+Roz | the wild robot
+Rosie
+Marvin
+Gort
+Maria
+Bender
+Chappie
+Mother
+*Twiki
+Bishop
+Ash
+Ed-209
+RoboCop
+Skynet
+Jarvis
+Friday
+Megatron
+GERTY
+Number 5
+Bicentennial Man | andrew
+
+# Name a movie set in high school
+Mean Girls
+The Breakfast Club | breakfast club
+Clueless
+High School Musical
+Superbad
+Ferris Bueller's Day Off | ferris bueller
+10 Things I Hate About You
+Easy A
+Grease
+Napoleon Dynamite
+Booksmart
+Lady Bird
+The Perks of Being a Wallflower | perks of being a wallflower
+She's All That | shes all that
+Juno
+Pretty in Pink
+Sixteen Candles
+Bring It On
+Fast Times at Ridgemont High
+American Pie
+Heathers
+Dazed and Confused
+John Tucker Must Die
+Not Another Teen Movie
+The Edge of Seventeen | edge of seventeen
+Love, Simon | love simon
+Eighth Grade
+Never Been Kissed
+Can't Hardly Wait | cant hardly wait
+Election
+The DUFF | duff
+Mean Girls (2024)
+Bottoms
+Freaky Friday
+To All the Boys I've Loved Before | to all the boys
+Footloose
+Dead Poets Society
+Carrie
+Spider-Man: Homecoming
+*Brick
+Rushmore
+Varsity Blues
+Hairspray
+Teen Wolf
+Back to the Future
+Donnie Darko
+The Faculty | faculty
+Not Another Teen Movie
+
+# Name a famous movie set in New York City
+Home Alone 2: Lost in New York | home alone 2
+Ghostbusters
+Elf
+The Devil Wears Prada | devil wears prada
+Breakfast at Tiffany's | breakfast at tiffanys
+Taxi Driver
+The Avengers
+Spider-Man
+King Kong
+Night at the Museum
+Big
+Enchanted
+Sex and the City
+Annie Hall
+Manhattan
+When Harry Met Sally
+West Side Story
+Joker
+Cloverfield
+I Am Legend
+Men in Black
+The Wolf of Wall Street | wolf of wall street
+Wall Street
+The Godfather | godfather
+Do the Right Thing
+Saturday Night Fever
+Gangs of New York
+Midnight Cowboy
+The Day After Tomorrow
+Stuart Little
+Uncut Gems
+Ocean's 8 | oceans 8
+Hitch
+You've Got Mail
+Serendipity
+Kate & Leopold
+Spider-Man: Into the Spider-Verse
+*Inside Llewyn Davis
+Birdman
+Teenage Mutant Ninja Turtles
+Godzilla (1998)
+Independence Day
+Glass Onion
+Anora
+Frances Ha
+Requiem for a Dream
+
+# Name a movie with time travel
+Back to the Future
+Avengers: Endgame | endgame
+The Terminator | terminator
+Interstellar
+Looper
+Groundhog Day
+Harry Potter and the Prisoner of Azkaban | prisoner of azkaban
+Bill & Ted's Excellent Adventure | bill and teds excellent adventure
+Hot Tub Time Machine
+About Time
+Edge of Tomorrow
+Tenet
+Primer
+The Butterfly Effect | butterfly effect
+Hot Tub Time Machine 2
+12 Monkeys
+Men in Black 3
+Deadpool 2
+Source Code
+Midnight in Paris
+Click
+Happy Death Day
+Palm Springs
+Meet the Robinsons
+Mr. Peabody & Sherman
+X-Men: Days of Future Past | days of future past
+Star Trek IV: The Voyage Home | the voyage home
+Kate & Leopold
+13 Going on 30
+The Time Traveler's Wife | time travelers wife
+Austin Powers: The Spy Who Shagged Me
+Napoleon Dynamite
+*Time Bandits
+The Adam Project | adam project
+Somewhere in Time
+Donnie Darko
+Frequency
+Déjà Vu | deja vu
+Planet of the Apes
+Flight of the Navigator
+Timecop
+Terminator 2: Judgment Day | terminator 2
+Lightyear
+
+# Name a movie where the title is just a single number
+21
+42
+300
+1917
+2012
+9
+10
+23
+54
+88
+*99
+12
+13
+1408
+2001
+365
+3000
+1922
+100
+
+# Name a movie with a colour in its title
+The Green Mile | green mile
+Black Panther
+Red Notice
+The Color Purple | color purple
+Pink Panther | the pink panther
+Blue Velvet
+Black Swan
+Snow White
+Reservoir Dogs
+White Chicks
+Green Lantern
+Red Sparrow
+Orange County
+Blue Beetle
+The Green Knight | green knight
+Black Widow
+The Hunt for Red October | hunt for red october
+Red Dragon
+Blue Is the Warmest Colour
+Green Book
+Brown Sugar
+*Gold
+Silver Linings Playbook
+Purple Rain
+Red Dawn
+Black Hawk Down
+Men in Black
+White Christmas
+Blue Crush
+Red
+Red One
+Yellow Submarine
+The Grey | grey
+Fifty Shades of Grey
+A Clockwork Orange | clockwork orange
+Black Adam
+Under the Silver Lake
+White House Down
+Pink Flamingos
+Green Street
+Red Eye
+Blue Lagoon | the blue lagoon
+Black Christmas
+Red Riding Hood
+
+# Name a movie trilogy
+The Lord of the Rings | lord of the rings
+The Godfather | godfather
+Back to the Future
+The Dark Knight | dark knight trilogy
+The Matrix | matrix
+Star Wars original trilogy | star wars
+The Hunger Games | hunger games
+Toy Story
+Spider-Man (Raimi) | spider man
+The Hobbit | hobbit
+Jurassic Park
+Indiana Jones
+Pirates of the Caribbean
+Shrek
+Austin Powers
+Ocean's | oceans eleven
+The Hangover | hangover
+Before Sunrise | before trilogy
+Three Colours | three colors
+Cornetto | cornetto trilogy | three flavours cornetto
+Bourne
+Kung Fu Panda
+Madagascar
+Men in Black
+Rush Hour
+Meet the Parents
+Night at the Museum
+How to Train Your Dragon
+The Mummy | mummy
+Blade
+Evil Dead
+Taken
+Scream
+Mad Max
+Despicable Me
+Rocky
+Paddington
+John Wick
+Guardians of the Galaxy
+Spider-Man (MCU) | home trilogy
+The Maze Runner | maze runner
+Divergent
+Toy Story
+Twilight
+Fifty Shades | fifty shades of grey
+Bad Boys
+Iron Man
+Captain America
+Thor
+X-Men
+*The Dollars Trilogy | dollars trilogy | man with no name
+Fear Street
+Planet of the Apes
+Spider-Verse
+Twister
+Insidious
+
+# Name a famous movie car
+DeLorean
+Batmobile
+Herbie
+General Lee
+Lightning McQueen
+Mater
+Bumblebee
+Ecto-1
+KITT
+Eleanor
+The Mystery Machine | mystery machine
+Christine
+Aston Martin DB5 | db5
+The Bluesmobile | bluesmobile
+Ford Gran Torino | gran torino
+Dom's Charger | dodge charger
+Brian's Supra | toyota supra
+Chitty Chitty Bang Bang
+Doc Hudson
+Optimus Prime
+The Wagon Queen Family Truckster | family truckster
+Ferris Bueller's Ferrari | ferrari 250 gt
+Mini Cooper (The Italian Job) | mini cooper
+Mad Max Interceptor | interceptor
+The Tumbler | tumbler
+*Bluesmobile
+Greased Lightnin' | greased lightning
+The Love Bug
+Cadillac Ecto-1
+Pontiac Firebird
+Plymouth Fury
+Shaggin' Wagon | shaggin wagon
+Duesenberg
+1964 Ford Mustang
+
+# Name a Disney sidekick
+Olaf
+Timon
+Pumbaa
+Sebastian
+Flounder
+Mushu
+Abu
+Genie
+Lumière | lumiere
+Cogsworth
+Mrs. Potts
+Chip
+Pascal
+Meeko
+Flit
+Iago
+Jiminy Cricket
+Heihei
+Pua
+Sven
+Rajah
+Zazu
+Dory
+Baloo
+Gus
+Jaq
+Ray
+Louis
+Maximus
+Bruno
+Pegasus
+Phil | philoctetes
+Pain
+Panic
+Kronk
+Thumper
+Flower
+Tinker Bell
+*Hugo
+Scuttle
+Pinky
+Nick Wilde
+
+# Name a Christopher Robin's friend from Winnie the Pooh
+Winnie the Pooh | pooh | pooh bear
+Piglet
+Tigger
+Eeyore
+Rabbit
+Owl
+Kanga
+Roo
+Christopher Robin
+Heffalump
+Woozle
+Gopher
+Lumpy
+*Kessie
+Darby
+Buster
+
+# Name a Muppet
+Kermit the Frog | kermit
+Miss Piggy
+Fozzie Bear | fozzie
+Gonzo
+Animal
+Elmo
+Big Bird
+Cookie Monster
+Oscar the Grouch
+Rowlf
+Swedish Chef
+Statler
+Waldorf
+Beaker
+Dr. Bunsen Honeydew | bunsen honeydew
+Grover
+Bert
+Ernie
+Count von Count | the count
+Scooter
+Sam Eagle
+Rizzo the Rat | rizzo
+Pepe the King Prawn | pepe
+Dr. Teeth
+Janice
+Floyd Pepper
+Zoot
+Sweetums
+Abby Cadabby
+Telly
+Snuffleupagus | mr snuffleupagus
+Rosita
+Walter
+Camilla the Chicken
+*Lew Zealand
+Uncle Deadly
+Crazy Harry
+Robin
+Bobo the Bear
+Constantine
+
+# Name a Ghostbusters character {names}
+Peter Venkman
+Ray Stantz
+Egon Spengler
+Winston Zeddemore
+Janine Melnitz
+Slimer
+Stay Puft Marshmallow Man | stay puft
+Louis Tully
+Dana Barrett
+Gozer
+Zuul
+Vinz Clortho
+Walter Peck
+Vigo
+Callie Spengler
+Phoebe Spengler
+Trevor Spengler
+Gary Grooberson
+Podcast
+Kevin Beckman
+Abby Yates
+Erin Gilbert
+Jillian Holtzmann
+Patty Tolan
+*Muncher
+Garraka
+Mini-Pufts | mini pufts
+
+# Name an animated movie that is NOT from Disney or Pixar
+Shrek
+Despicable Me
+Minions
+Kung Fu Panda
+Spider-Man: Into the Spider-Verse | into the spider verse
+How to Train Your Dragon
+Ice Age
+The Lego Movie | lego movie
+The Super Mario Bros. Movie | super mario bros movie
+Madagascar
+Spirited Away
+Sing
+The Secret Life of Pets | secret life of pets
+Hotel Transylvania
+Cloudy with a Chance of Meatballs
+Rio
+Coraline
+The Iron Giant | iron giant
+Happy Feet
+Megamind
+Puss in Boots: The Last Wish | the last wish
+The Mitchells vs. the Machines | mitchells vs the machines
+Rango
+Fantastic Mr. Fox
+Chicken Run
+Wallace & Gromit: The Curse of the Were-Rabbit | curse of the were rabbit
+The Land Before Time | land before time
+An American Tail | american tail
+All Dogs Go to Heaven
+The Prince of Egypt
+Anastasia
+The Wild Robot | wild robot
+KPop Demon Hunters
+Kubo and the Two Strings
+Paranorman
+The Boxtrolls
+Your Name
+Akira
+Persepolis
+Flow
+The Polar Express
+Corpse Bride
+Open Season
+Bolt
+Over the Hedge
+Turbo
+The Croods
+Trolls
+Ferdinand
+Storks
+Klaus
+Nimona
+*The Triplets of Belleville | triplets of belleville
+Song of the Sea
+Wolfwalkers
+The Secret of NIMH | secret of nimh
+Watership Down
+The Last Unicorn | last unicorn
+Fern Gully | ferngully
+Thumbelina
+Quest for Camelot
+The Swan Princess | swan princess
+
+# Name a superhero movie from DC
+The Dark Knight | dark knight
+Wonder Woman
+Man of Steel
+Aquaman
+Joker
+The Batman
+Justice League
+Shazam!
+Superman (1978)
+Superman (2025)
+Suicide Squad
+The Suicide Squad
+Batman v Superman | batman vs superman
+Birds of Prey
+Black Adam
+The Flash | flash
+Blue Beetle
+Green Lantern
+Watchmen
+Catwoman
+Constantine
+Superman Returns
+Batman Begins
+Superman II
+Steel
+Jonah Hex
+*Supergirl (1984)
+V for Vendetta
+Zack Snyder's Justice League | snyder cut
+Wonder Woman 1984 | ww84
+Aquaman and the Lost Kingdom
+Shazam! Fury of the Gods
+Joker: Folie à Deux | folie a deux
+
+# Name a Quentin Tarantino movie
+Pulp Fiction
+Kill Bill | kill bill vol 1
+Django Unchained | django
+Inglourious Basterds | inglorious bastards
+Reservoir Dogs
+Once Upon a Time in Hollywood
+The Hateful Eight | hateful eight
+Kill Bill: Volume 2 | kill bill vol 2
+Jackie Brown
+*Death Proof
+From Dusk Till Dawn
+Four Rooms
+True Romance
+
+# Name a Christopher Nolan movie
+Inception
+The Dark Knight | dark knight
+Interstellar
+Oppenheimer
+Memento
+The Prestige | prestige
+Batman Begins
+The Dark Knight Rises
+Dunkirk
+Tenet
+Insomnia
+*Following
+The Odyssey
+
+# Name a Steven Spielberg movie
+Jaws
+Jurassic Park
+E.T. the Extra-Terrestrial | et
+Raiders of the Lost Ark | indiana jones
+Schindler's List | schindlers list
+Saving Private Ryan
+Catch Me If You Can
+Close Encounters of the Third Kind | close encounters
+War of the Worlds
+Ready Player One
+Minority Report
+The Terminal | terminal
+Lincoln
+West Side Story
+The Fabelmans | fabelmans
+Bridge of Spies
+Munich
+A.I. Artificial Intelligence | ai
+Hook
+The BFG | bfg
+War Horse
+The Post | post
+The Color Purple | color purple
+Indiana Jones and the Temple of Doom | temple of doom
+Indiana Jones and the Last Crusade | last crusade
+Indiana Jones and the Kingdom of the Crystal Skull | kingdom of the crystal skull
+The Lost World: Jurassic Park | the lost world
+Amistad
+Empire of the Sun
+The Adventures of Tintin | tintin
+*Duel
+1941
+Always
+The Sugarland Express | sugarland express
+
+# Name a Martin Scorsese movie
+Goodfellas
+The Wolf of Wall Street | wolf of wall street
+Taxi Driver
+The Departed | departed
+Raging Bull
+Casino
+Shutter Island
+The Irishman | irishman
+Killers of the Flower Moon
+Gangs of New York
+The Aviator | aviator
+Hugo
+Cape Fear
+Mean Streets
+The King of Comedy | king of comedy
+Silence
+After Hours
+The Last Temptation of Christ
+The Color of Money
+Bringing Out the Dead
+*Alice Doesn't Live Here Anymore
+Kundun
+The Age of Innocence | age of innocence
+New York, New York
+
+# Name a Tim Burton movie
+Edward Scissorhands
+Beetlejuice
+The Nightmare Before Christmas | nightmare before christmas
+Corpse Bride
+Charlie and the Chocolate Factory
+Alice in Wonderland
+Batman (1989) | batman
+Batman Returns
+Sweeney Todd
+Big Fish
+Sleepy Hollow
+Beetlejuice Beetlejuice
+Frankenweenie
+Dark Shadows
+Miss Peregrine's Home for Peculiar Children | miss peregrine
+Mars Attacks!
+Ed Wood
+Pee-wee's Big Adventure | pee wees big adventure
+Planet of the Apes
+Dumbo
+Big Eyes
+*Vincent
+
+# Name a Wes Anderson movie
+The Grand Budapest Hotel | grand budapest hotel
+Fantastic Mr. Fox
+Moonrise Kingdom
+The Royal Tenenbaums | royal tenenbaums
+Isle of Dogs
+The French Dispatch | french dispatch
+Asteroid City
+Rushmore
+The Life Aquatic with Steve Zissou | life aquatic
+The Darjeeling Limited | darjeeling limited
+Bottle Rocket
+The Phoenician Scheme
+*The Wonderful Story of Henry Sugar | henry sugar
+
+# Name a James Cameron movie
+Titanic
+Avatar
+The Terminator | terminator
+Terminator 2: Judgment Day | terminator 2
+Aliens
+Avatar: The Way of Water | the way of water
+True Lies
+The Abyss | abyss
+Avatar: Fire and Ash | fire and ash
+*Piranha II: The Spawning | piranha 2
+
+# Name a Ridley Scott movie
+Gladiator
+Alien
+Blade Runner
+The Martian | martian
+Black Hawk Down
+Thelma & Louise | thelma and louise
+Prometheus
+American Gangster
+House of Gucci
+Napoleon
+Gladiator II | gladiator 2
+Kingdom of Heaven
+Hannibal
+Robin Hood
+Alien: Covenant
+Exodus: Gods and Kings
+The Last Duel | last duel
+Body of Lies
+Matchstick Men
+G.I. Jane | gi jane
+All the Money in the World
+*Legend
+A Good Year
+The Counselor
+White Squall
+1492: Conquest of Paradise
+The Duellists
+
+# Name a Stanley Kubrick movie
+The Shining | shining
+2001: A Space Odyssey | 2001
+A Clockwork Orange | clockwork orange
+Full Metal Jacket
+Dr. Strangelove | dr strangelove
+Eyes Wide Shut
+Spartacus
+Barry Lyndon
+Lolita
+Paths of Glory
+*The Killing
+Killer's Kiss
+Fear and Desire
+
+# Name an Alfred Hitchcock movie
+Psycho
+The Birds | birds
+Rear Window
+Vertigo
+North by Northwest
+Dial M for Murder
+Rebecca
+Strangers on a Train
+Rope
+To Catch a Thief
+The Man Who Knew Too Much
+Notorious
+Spellbound
+Shadow of a Doubt
+Lifeboat
+Marnie
+Frenzy
+Family Plot
+The 39 Steps
+The Lady Vanishes
+Saboteur
+Torn Curtain
+Topaz
+The Trouble with Harry
+*Mr. & Mrs. Smith (1941)
+Suspicion
+Foreign Correspondent
+The Wrong Man
+I Confess
+Stage Fright
+
+# Name a Denis Villeneuve movie
+Dune
+Dune: Part Two | dune part 2
+Arrival
+Blade Runner 2049
+Sicario
+Prisoners
+Enemy
+Incendies
+*Polytechnique
+Maelström
+
+# Name a Guillermo del Toro movie
+Pan's Labyrinth | pans labyrinth
+The Shape of Water | shape of water
+Pacific Rim
+Hellboy
+Crimson Peak
+Nightmare Alley
+Pinocchio
+Hellboy II: The Golden Army | hellboy 2
+Blade II | blade 2
+The Devil's Backbone | devils backbone
+Mimic
+Frankenstein
+*Cronos
+
+# Name a David Fincher movie
+Fight Club
+Se7en | seven
+The Social Network | social network
+Gone Girl
+Zodiac
+The Girl with the Dragon Tattoo | girl with the dragon tattoo
+The Curious Case of Benjamin Button | benjamin button
+Panic Room
+The Game | game
+Mank
+The Killer | killer
+*Alien 3
+
+# Name a Coen brothers movie
+Fargo
+The Big Lebowski | big lebowski
+No Country for Old Men
+O Brother, Where Art Thou? | o brother where art thou
+Raising Arizona
+True Grit
+Burn After Reading
+Inside Llewyn Davis
+A Serious Man | serious man
+Hail, Caesar! | hail caesar
+Barton Fink
+Miller's Crossing
+The Ballad of Buster Scruggs | ballad of buster scruggs
+Blood Simple
+The Hudsucker Proxy | hudsucker proxy
+Intolerable Cruelty
+The Ladykillers | ladykillers
+*The Man Who Wasn't There
+The Tragedy of Macbeth
+Drive-Away Dolls
+
+# Name a Peter Jackson movie
+The Lord of the Rings: The Fellowship of the Ring | fellowship of the ring
+The Lord of the Rings: The Two Towers | two towers
+The Lord of the Rings: The Return of the King | return of the king
+The Hobbit: An Unexpected Journey | an unexpected journey
+King Kong
+The Hobbit: The Desolation of Smaug | desolation of smaug
+The Hobbit: The Battle of the Five Armies | battle of the five armies
+The Lovely Bones | lovely bones
+Heavenly Creatures
+The Frighteners | frighteners
+Bad Taste
+Braindead | dead alive
+*Meet the Feebles
+They Shall Not Grow Old
+The Beatles: Get Back | get back
+
+# Name a Michael Bay movie
+Transformers
+Armageddon
+Bad Boys
+Pearl Harbor
+The Rock | rock
+Bad Boys II | bad boys 2
+Transformers: Revenge of the Fallen | revenge of the fallen
+Transformers: Dark of the Moon | dark of the moon
+Transformers: Age of Extinction | age of extinction
+Transformers: The Last Knight | the last knight
+The Island | island
+Pain & Gain | pain and gain
+13 Hours
+6 Underground
+*Ambulance
+
+# Name a Taika Waititi movie
+Thor: Ragnarok | ragnarok
+Jojo Rabbit
+What We Do in the Shadows
+Hunt for the Wilderpeople
+Thor: Love and Thunder | love and thunder
+Boy
+Next Goal Wins
+*Eagle vs Shark
+
+# Name a Spike Lee movie
+Do the Right Thing
+Malcolm X
+BlacKkKlansman | blackkklansman
+Inside Man
+Da 5 Bloods
+She's Gotta Have It
+Do the Right Thing
+Jungle Fever
+He Got Game
+25th Hour
+Crooklyn
+Mo' Better Blues | mo better blues
+School Daze
+Chi-Raq
+Bamboozled
+Oldboy (2013)
+Summer of Sam
+Highest 2 Lowest
+*Clockers
+Get on the Bus
+
+# Name an M. Night Shyamalan movie
+The Sixth Sense | sixth sense
+Signs
+Unbreakable
+Split
+Glass
+The Village | village
+Old
+Knock at the Cabin
+The Happening | happening
+Lady in the Water
+The Visit | visit
+Trap
+After Earth
+The Last Airbender | last airbender
+*Wide Awake
+Praying with Anger
+
+# Name a Robert Zemeckis movie
+Forrest Gump
+Back to the Future
+Who Framed Roger Rabbit
+Cast Away
+The Polar Express | polar express
+Back to the Future Part II
+Back to the Future Part III
+Contact
+Romancing the Stone
+Flight
+Death Becomes Her
+What Lies Beneath
+Beowulf
+A Christmas Carol (2009)
+The Walk | walk
+Allied
+Welcome to Marwen
+The Witches (2020)
+Pinocchio (2022)
+Here
+*Used Cars
+I Wanna Hold Your Hand
+
+# Name a John Hughes movie
+The Breakfast Club | breakfast club
+Ferris Bueller's Day Off | ferris bueller
+Sixteen Candles
+Home Alone
+Pretty in Pink
+Planes, Trains and Automobiles | planes trains and automobiles
+Weird Science
+National Lampoon's Christmas Vacation | christmas vacation
+Uncle Buck
+Some Kind of Wonderful
+She's Having a Baby
+The Great Outdoors | great outdoors
+Curly Sue
+Beethoven
+Dennis the Menace
+*Baby's Day Out
+Flubber
+101 Dalmatians (1996)
+Career Opportunities
+Mr. Mom
+
+# Name an Edgar Wright movie
+Shaun of the Dead
+Hot Fuzz
+Baby Driver
+Scott Pilgrim vs. the World | scott pilgrim
+The World's End | worlds end
+Last Night in Soho
+The Running Man (2025) | the running man
+The Sparks Brothers | sparks brothers
+*A Fistful of Fingers
+
+# Name a Danny Boyle movie
+Slumdog Millionaire
+Trainspotting
+28 Days Later
+127 Hours
+Sunshine
+Yesterday
+Steve Jobs
+T2 Trainspotting
+Shallow Grave
+The Beach | beach
+Millions
+Trance
+*A Life Less Ordinary
+28 Years Later
+
+# Name a Sofia Coppola movie
+Lost in Translation
+The Virgin Suicides | virgin suicides
+Marie Antoinette
+The Bling Ring | bling ring
+Priscilla
+The Beguiled | beguiled
+Somewhere
+On the Rocks
+*A Very Murray Christmas
+
+# Name a Godzilla-universe monster
+Godzilla
+King Kong | kong
+Mothra
+King Ghidorah | ghidorah
+Rodan
+Mechagodzilla
+Gamera
+Gigan
+Biollante
+Destoroyah
+Hedorah
+Anguirus
+Space Godzilla | spacegodzilla
+Megalon
+Minilla | minya
+Jet Jaguar
+Skar King
+Shimo
+Battra
+Kumonga
+Ebirah
+Titanosaurus
+Orga
+Muto
+Scylla
+Tiamat
+*Methuselah
+Behemoth
+Kamacuras
+Megaguirus
+
+# Name a famous movie monster
+Godzilla
+King Kong
+Frankenstein's monster | frankenstein
+Dracula
+The Wolf Man | wolfman
+The Mummy | mummy
+The Creature from the Black Lagoon | creature from the black lagoon | gill man
+The Blob | blob
+Xenomorph | alien
+Predator
+The Thing | thing
+Gremlins
+Jaws
+The Babadook | babadook
+Pennywise
+Cloverfield monster
+Mothra
+The Invisible Man | invisible man
+Pale Man
+Demogorgon
+Graboids | tremors
+Chupacabra
+Kaiju
+Rancor
+The Kraken | kraken
+Sarlacc
+Pumpkinhead
+Leviathan
+Tall Man
+The Fly | fly
+Cujo
+Slender Man
+*The Host monster | gwoemul
+Critters
+Ghoulies
+Rodan
+Bigfoot
+Yeti
+Kaiju
+Swamp Thing
+
+# Name a character from The Lion King
+Simba
+Mufasa
+Scar
+Nala
+Timon
+Pumbaa
+Rafiki
+Zazu
+Sarabi
+Shenzi
+Banzai
+Ed
+Kiara
+Kovu
+Zira
+Vitani
+Nuka
+Kion
+Sarafina
+*Kopa
+Taka
+Kiros

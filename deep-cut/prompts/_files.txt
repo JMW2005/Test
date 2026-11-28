@@ -1,0 +1,5 @@
+// Prompt bank files, loaded in this order. Add a new file here after creating it.
+movies.txt
+movie-stars.txt
+tv.txt
+music.txt

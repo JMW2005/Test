@@ -1,0 +1,3100 @@
+// Deep Cut prompt bank: MOVIE STARS (filmographies)
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Movie Stars
+
+# Name a movie starring Tom Hanks
+Forrest Gump
+Cast Away
+Toy Story
+Big
+Saving Private Ryan
+The Green Mile | green mile
+Philadelphia
+Apollo 13
+Catch Me If You Can
+The Terminal | terminal
+Sleepless in Seattle
+You've Got Mail | youve got mail
+The Da Vinci Code | da vinci code
+Captain Phillips
+Sully
+Elvis
+A League of Their Own | league of their own
+Splash
+The Polar Express | polar express
+Bridge of Spies
+Angels & Demons | angels and demons
+A Man Called Otto | man called otto
+Cloud Atlas
+Road to Perdition
+Saving Mr. Banks | saving mr banks
+The Post | post
+Greyhound
+News of the World
+Finch
+Turner & Hooch | turner and hooch
+The Money Pit | money pit
+Charlie Wilson's War
+Larry Crowne
+Inferno
+A Beautiful Day in the Neighborhood | beautiful day in the neighborhood
+Asteroid City
+*The 'Burbs | the burbs
+Joe Versus the Volcano
+Bachelor Party
+Dragnet
+Here
+That Thing You Do!
+
+# Name a movie starring Tom Cruise
+Top Gun
+Top Gun: Maverick | maverick
+Mission: Impossible | mission impossible
+Jerry Maguire
+Risky Business
+Rain Man
+A Few Good Men | few good men
+Edge of Tomorrow
+Minority Report
+War of the Worlds
+The Last Samurai | last samurai
+Collateral
+Interview with the Vampire
+Eyes Wide Shut
+Vanilla Sky
+Oblivion
+Jack Reacher
+Tropic Thunder
+Days of Thunder
+Cocktail
+The Outsiders | outsiders
+Born on the Fourth of July
+The Firm | firm
+Knight and Day
+Magnolia
+Rock of Ages
+The Mummy (2017)
+Valkyrie
+Mission: Impossible – Fallout | fallout
+Mission: Impossible – Ghost Protocol | ghost protocol
+Mission: Impossible – Rogue Nation | rogue nation
+Mission: Impossible – Dead Reckoning | dead reckoning
+Mission: Impossible – The Final Reckoning | final reckoning
+American Made
+*Legend
+Far and Away
+The Color of Money
+All the Right Moves
+Taps
+Lions for Lambs
+Endless Love
+
+# Name a movie starring Leonardo DiCaprio
+Titanic
+Inception
+The Wolf of Wall Street | wolf of wall street
+The Revenant | revenant
+Catch Me If You Can
+Shutter Island
+The Departed | departed
+Django Unchained | django
+The Great Gatsby | great gatsby
+Once Upon a Time in Hollywood
+Romeo + Juliet | romeo and juliet
+Blood Diamond
+Killers of the Flower Moon
+Don't Look Up | dont look up
+The Aviator | aviator
+What's Eating Gilbert Grape | whats eating gilbert grape
+Gangs of New York
+The Beach | beach
+Revolutionary Road
+The Man in the Iron Mask | man in the iron mask
+Body of Lies
+J. Edgar | j edgar
+The Basketball Diaries | basketball diaries
+One Battle After Another
+*Critters 3
+This Boy's Life
+Marvin's Room
+The Quick and the Dead | quick and the dead
+Total Eclipse
+Celebrity
+
+# Name a movie starring Brad Pitt
+Fight Club
+Troy
+Mr. & Mrs. Smith | mr and mrs smith
+Ocean's Eleven | oceans eleven
+Seven | se7en
+Once Upon a Time in Hollywood
+Moneyball
+Inglourious Basterds | inglorious bastards
+World War Z
+Bullet Train
+The Curious Case of Benjamin Button | benjamin button
+Fury
+Legends of the Fall
+Interview with the Vampire
+12 Monkeys
+Snatch
+Babylon
+F1
+Meet Joe Black
+Thelma & Louise | thelma and louise
+Burn After Reading
+Ad Astra
+Allied
+The Big Short | big short
+Megamind
+Babel
+Spy Game
+The Mexican | mexican
+Seven Years in Tibet
+Ocean's Twelve | oceans twelve
+Ocean's Thirteen | oceans thirteen
+A River Runs Through It | river runs through it
+True Romance
+Kalifornia
+Sleepers
+*Johnny Suede
+The Tree of Life | tree of life
+The Assassination of Jesse James
+Killing Them Softly
+Wolfs
+
+# Name a movie starring Will Smith
+Men in Black
+Independence Day
+Bad Boys
+I Am Legend
+The Pursuit of Happyness | pursuit of happyness
+Hitch
+Aladdin (2019)
+Ali
+King Richard
+I, Robot | i robot
+Suicide Squad
+Hancock
+Enemy of the State
+Wild Wild West
+Shark Tale
+Seven Pounds
+Focus
+Concussion
+After Earth
+Bright
+Gemini Man
+Bad Boys II
+Bad Boys for Life
+Bad Boys: Ride or Die
+Men in Black II
+Men in Black 3
+Collateral Beauty
+Emancipation
+Spies in Disguise
+The Legend of Bagger Vance | legend of bagger vance
+*Six Degrees of Separation
+Where the Day Takes You
+Made in America
+
+# Name a movie starring Denzel Washington
+Training Day
+Remember the Titans
+The Equalizer | equalizer
+Man on Fire
+Malcolm X
+Glory
+American Gangster
+Philadelphia
+Flight
+Fences
+The Book of Eli | book of eli
+Inside Man
+Déjà Vu | deja vu
+John Q
+The Hurricane | hurricane
+Gladiator II | gladiator 2
+The Magnificent Seven | magnificent seven
+Unstoppable
+Safe House
+The Bone Collector | bone collector
+Crimson Tide
+The Pelican Brief | pelican brief
+Devil in a Blue Dress
+Courage Under Fire
+The Manchurian Candidate
+The Tragedy of Macbeth
+The Little Things | little things
+2 Guns
+The Equalizer 2
+The Equalizer 3
+Denial
+Highest 2 Lowest
+*Mo' Better Blues | mo better blues
+Cry Freedom
+He Got Game
+Out of Time
+Antwone Fisher
+
+# Name a movie starring Meryl Streep
+The Devil Wears Prada | devil wears prada
+Mamma Mia!
+Sophie's Choice | sophies choice
+Kramer vs. Kramer | kramer vs kramer
+The Iron Lady | iron lady
+Julie & Julia | julie and julia
+Out of Africa
+Doubt
+Into the Woods
+Little Women
+The Post | post
+Don't Look Up | dont look up
+It's Complicated | its complicated
+The Bridges of Madison County | bridges of madison county
+Death Becomes Her
+Mamma Mia! Here We Go Again
+Fantastic Mr. Fox
+Florence Foster Jenkins
+Adaptation
+The Hours | hours
+August: Osage County
+Silkwood
+The Deer Hunter | deer hunter
+Manhattan
+Postcards from the Edge
+Ricki and the Flash
+The River Wild | river wild
+Hope Springs
+Mary Poppins Returns
+*She-Devil
+Ironweed
+Heartburn
+Music of the Heart
+The Laundromat | laundromat
+
+# Name a movie starring Julia Roberts
+Pretty Woman
+Erin Brockovich
+Notting Hill
+My Best Friend's Wedding | my best friends wedding
+Ocean's Eleven | oceans eleven
+Runaway Bride
+Eat Pray Love
+Steel Magnolias
+Ticket to Paradise
+Wonder
+Mystic Pizza
+Closer
+Mona Lisa Smile
+Valentine's Day | valentines day
+Leave the World Behind
+Sleeping with the Enemy
+The Pelican Brief | pelican brief
+Hook
+Flatliners
+Stepmom
+Charlie Wilson's War
+August: Osage County
+Mirror Mirror
+The Mexican | mexican
+America's Sweethearts
+Ben Is Back
+Duplicity
+Larry Crowne
+*Something to Talk About
+Conspiracy Theory
+After the Hunt
+
+# Name a movie starring Sandra Bullock
+Speed
+Miss Congeniality
+The Blind Side | blind side
+Gravity
+The Proposal | proposal
+Bird Box
+While You Were Sleeping
+Ocean's 8 | oceans 8
+The Lost City | lost city
+Two Weeks Notice
+Practical Magic
+Demolition Man
+The Heat | heat
+Minions
+The Net | net
+A Time to Kill
+Hope Floats
+28 Days
+Crash
+The Lake House | lake house
+Bullet Train
+Speed 2: Cruise Control | speed 2
+Murder by Numbers
+Forces of Nature
+Divine Secrets of the Ya-Ya Sisterhood
+Premonition
+All About Steve
+The Unforgivable | unforgivable
+Extremely Loud & Incredibly Close
+*Love Potion No. 9
+Practical Magic 2
+
+# Name a movie starring Jennifer Lawrence
+The Hunger Games | hunger games
+Silver Linings Playbook
+X-Men: First Class | first class
+American Hustle
+Don't Look Up | dont look up
+Passengers
+Red Sparrow
+Joy
+Winter's Bone | winters bone
+No Hard Feelings
+Mother!
+Catching Fire
+Mockingjay
+X-Men: Days of Future Past
+X-Men: Apocalypse
+Causeway
+House at the End of the Street
+Serena
+Like Crazy
+*The Burning Plain
+The Beaver | beaver
+Die My Love
+
+# Name a movie starring Scarlett Johansson
+Black Widow
+The Avengers | avengers
+Lost in Translation
+Lucy
+Her
+Marriage Story
+Jojo Rabbit
+Under the Skin
+Iron Man 2
+Ghost in the Shell
+Sing
+The Prestige | prestige
+Match Point
+Vicky Cristina Barcelona
+He's Just Not That Into You
+Don Jon
+The Island | island
+Girl with a Pearl Earring
+Asteroid City
+Fly Me to the Moon
+Jurassic World Rebirth
+The Jungle Book (2016)
+Ghost World
+We Bought a Zoo
+The Horse Whisperer | horse whisperer
+The Nanny Diaries | nanny diaries
+The Other Boleyn Girl | other boleyn girl
+Hitchcock
+Chef
+*Home Alone 3
+Rough Night
+The Black Dahlia | black dahlia
+Eight Legged Freaks
+
+# Name a movie starring Dwayne "The Rock" Johnson
+Jumanji: Welcome to the Jungle | jumanji
+Moana
+Fast Five
+San Andreas
+Rampage
+Skyscraper
+Central Intelligence
+Jungle Cruise
+Black Adam
+Red Notice
+The Scorpion King | scorpion king
+Hobbs & Shaw | hobbs and shaw
+The Mummy Returns | mummy returns
+Journey 2: The Mysterious Island | journey 2
+Baywatch
+The Game Plan | game plan
+Tooth Fairy
+Pain & Gain | pain and gain
+Walking Tall
+G.I. Joe: Retaliation | gi joe retaliation
+Hercules
+Red One
+DC League of Super-Pets | league of super pets
+Jumanji: The Next Level
+Moana 2
+Race to Witch Mountain
+The Rundown | rundown
+Get Smart
+The Other Guys | other guys
+The Smashing Machine | smashing machine
+*Southland Tales
+Doom
+Be Cool
+Gridiron Gang
+Snitch
+Faster
+
+# Name a movie starring Keanu Reeves
+The Matrix | matrix
+John Wick
+Speed
+Point Break
+Bill & Ted's Excellent Adventure | bill and teds excellent adventure
+Constantine
+The Devil's Advocate | devils advocate
+The Lake House | lake house
+Toy Story 4
+John Wick: Chapter 2
+John Wick: Chapter 3 – Parabellum | parabellum
+John Wick: Chapter 4
+The Matrix Reloaded | matrix reloaded
+The Matrix Revolutions | matrix revolutions
+The Matrix Resurrections | matrix resurrections
+Bram Stoker's Dracula | dracula
+Sonic the Hedgehog 3
+Something's Gotta Give | somethings gotta give
+A Scanner Darkly | scanner darkly
+Johnny Mnemonic
+The Day the Earth Stood Still
+47 Ronin
+My Own Private Idaho
+Always Be My Maybe
+Bill & Ted's Bogus Journey
+Bill & Ted Face the Music
+Knock Knock
+Street Kings
+DC League of Super-Pets
+*Chain Reaction
+River's Edge
+Parenthood
+Little Buddha
+Dangerous Liaisons
+
+# Name a movie starring Adam Sandler
+Happy Gilmore
+Billy Madison
+The Waterboy | waterboy
+50 First Dates
+Grown Ups
+Big Daddy
+The Wedding Singer | wedding singer
+Click
+Uncut Gems
+Hotel Transylvania
+Just Go with It
+Mr. Deeds | mr deeds
+Anger Management
+Blended
+Murder Mystery
+Hubie Halloween
+Hustle
+You Don't Mess with the Zohan | zohan
+I Now Pronounce You Chuck & Larry | chuck and larry
+Jack and Jill
+That's My Boy | thats my boy
+Pixels
+Little Nicky
+The Longest Yard | longest yard
+Grown Ups 2
+Bedtime Stories
+Funny People
+Punch-Drunk Love | punch drunk love
+Spaceman
+Leo
+Happy Gilmore 2
+Eight Crazy Nights
+Reign Over Me
+You Are So Not Invited to My Bat Mitzvah
+The Ridiculous 6 | ridiculous six
+*Bulletproof
+Airheads
+Mixed Nuts
+Going Overboard
+Spanglish
+The Meyerowitz Stories
+
+# Name a movie starring Jim Carrey
+Ace Ventura: Pet Detective | ace ventura
+The Mask | mask
+Dumb and Dumber
+Liar Liar
+Bruce Almighty
+The Truman Show | truman show
+Eternal Sunshine of the Spotless Mind | eternal sunshine
+How the Grinch Stole Christmas | the grinch | grinch
+Yes Man
+Sonic the Hedgehog
+Man on the Moon
+Me, Myself & Irene | me myself and irene
+Batman Forever
+Fun with Dick and Jane
+Horton Hears a Who!
+A Christmas Carol (2009)
+Lemony Snicket's A Series of Unfortunate Events | series of unfortunate events
+Mr. Popper's Penguins | mr poppers penguins
+The Cable Guy | cable guy
+Ace Ventura: When Nature Calls
+The Number 23 | number 23
+Kick-Ass 2
+I Love You Phillip Morris
+The Majestic | majestic
+*Earth Girls Are Easy
+Once Bitten
+Peggy Sue Got Married
+The Dead Pool | dead pool
+
+# Name a movie starring Robin Williams
+Mrs. Doubtfire | mrs doubtfire
+Good Will Hunting
+Jumanji
+Aladdin
+Dead Poets Society
+Hook
+Night at the Museum
+Patch Adams
+Good Morning, Vietnam | good morning vietnam
+The Birdcage | birdcage
+Flubber
+Awakenings
+Bicentennial Man
+One Hour Photo
+Insomnia
+What Dreams May Come
+Jack
+RV
+Popeye
+Robots
+Happy Feet
+Hook
+The Fisher King | fisher king
+Toys
+Mork & Mindy
+Old Dogs
+License to Wed
+Man of the Year
+World's Greatest Dad
+Death to Smoochy
+*The World According to Garp
+Moscow on the Hudson
+Cadillac Man
+Father's Day
+
+# Name a movie starring Johnny Depp
+Pirates of the Caribbean | pirates
+Edward Scissorhands
+Charlie and the Chocolate Factory
+Alice in Wonderland
+Sweeney Todd
+A Nightmare on Elm Street | nightmare on elm street
+Fantastic Beasts
+Sleepy Hollow
+Fear and Loathing in Las Vegas
+Corpse Bride
+Donnie Brasco
+Blow
+Rango
+Public Enemies
+Black Mass
+What's Eating Gilbert Grape | whats eating gilbert grape
+Cry-Baby | cry baby
+Chocolat
+Finding Neverland
+The Lone Ranger | lone ranger
+Dark Shadows
+Ed Wood
+Benny & Joon
+Secret Window
+Transcendence
+The Tourist | tourist
+Murder on the Orient Express (2017)
+Platoon
+From Hell
+Mortdecai
+Into the Woods
+Jeanne du Barry
+*Arizona Dream
+Dead Man
+The Ninth Gate | ninth gate
+The Astronaut's Wife
+Nick of Time
+Once Upon a Time in Mexico
+21 Jump Street
+
+# Name a movie starring Harrison Ford
+Star Wars
+Raiders of the Lost Ark | indiana jones
+Blade Runner
+The Fugitive | fugitive
+Air Force One
+Witness
+Patriot Games
+Clear and Present Danger
+What Lies Beneath
+The Empire Strikes Back
+Return of the Jedi
+The Force Awakens
+Indiana Jones and the Temple of Doom | temple of doom
+Indiana Jones and the Last Crusade | last crusade
+Indiana Jones and the Dial of Destiny | dial of destiny
+Blade Runner 2049
+American Graffiti
+The Call of the Wild (2020)
+Working Girl
+Sabrina
+Six Days, Seven Nights | six days seven nights
+42
+Cowboys & Aliens | cowboys and aliens
+Ender's Game | enders game
+Captain America: Brave New World
+Firewall
+K-19: The Widowmaker
+Regarding Henry
+The Mosquito Coast | mosquito coast
+Morning Glory
+Presumed Innocent
+Frantic
+The Secret Life of Pets 2
+*Hollywood Homicide
+The Conversation | conversation
+Apocalypse Now
+Hanover Street
+
+# Name a movie starring Morgan Freeman
+The Shawshank Redemption | shawshank redemption
+Bruce Almighty
+Seven | se7en
+Driving Miss Daisy
+Million Dollar Baby
+Invictus
+The Dark Knight | dark knight
+Batman Begins
+Glory
+Unforgiven
+Now You See Me
+Lucy
+Evan Almighty
+The Bucket List | bucket list
+Deep Impact
+Kiss the Girls
+Along Came a Spider
+March of the Penguins
+Wanted
+Oblivion
+Olympus Has Fallen
+London Has Fallen
+Angel Has Fallen
+Robin Hood: Prince of Thieves
+Lean on Me
+Gone Baby Gone
+Red
+The Sum of All Fears
+Outbreak
+Dreamcatcher
+Transcendence
+Going in Style
+Lucky Number Slevin
+*Chain Reaction
+Hard Rain
+Amistad
+Nurse Betty
+Edison
+
+# Name a movie starring Samuel L. Jackson
+Pulp Fiction
+Snakes on a Plane
+Jurassic Park
+Django Unchained | django
+The Avengers | avengers
+Captain Marvel
+Star Wars: The Phantom Menace | phantom menace
+Jackie Brown
+Die Hard with a Vengeance
+Coach Carter
+Unbreakable
+Glass
+The Hateful Eight | hateful eight
+Kingsman: The Secret Service | kingsman
+Shaft
+A Time to Kill
+Deep Blue Sea
+The Negotiator | negotiator
+xXx
+S.W.A.T. | swat
+Kong: Skull Island
+The Incredibles | incredibles
+Jungle Fever
+Goodfellas
+Patriot Games
+Lakeview Terrace
+Changing Lanes
+Black Snake Moan
+1408
+The Spirit | spirit
+The Hitman's Bodyguard | hitmans bodyguard
+Spiral
+Argylle
+*Eve's Bayou
+187
+The Long Kiss Goodnight
+Rules of Engagement
+Basic
+
+# Name a movie starring Robert Downey Jr.
+Iron Man
+The Avengers | avengers
+Sherlock Holmes
+Oppenheimer
+Tropic Thunder
+Avengers: Endgame | endgame
+Iron Man 2
+Iron Man 3
+Captain America: Civil War | civil war
+Spider-Man: Homecoming | homecoming
+Avengers: Infinity War | infinity war
+Avengers: Age of Ultron
+Sherlock Holmes: A Game of Shadows | game of shadows
+Due Date
+Chaplin
+Zodiac
+Kiss Kiss Bang Bang
+The Judge | judge
+Dolittle
+Less Than Zero
+Weird Science
+Natural Born Killers
+Gothika
+The Soloist | soloist
+Short Cuts
+Wonder Boys
+A Scanner Darkly
+*Air America
+Back to School
+Johnny Be Good
+Heart and Souls
+Two Girls and a Guy
+
+# Name a movie starring Ryan Reynolds
+Deadpool
+Free Guy
+The Proposal | proposal
+Deadpool & Wolverine | deadpool and wolverine
+Deadpool 2
+Red Notice
+The Hitman's Bodyguard | hitmans bodyguard
+Green Lantern
+Van Wilder
+The Adam Project | adam project
+Detective Pikachu
+6 Underground
+Definitely, Maybe | definitely maybe
+Just Friends
+Safe House
+The Croods | croods
+Buried
+Turbo
+Waiting...
+X-Men Origins: Wolverine
+Spirited
+IF
+Life
+Self/less
+R.I.P.D. | ripd
+Woman in Gold
+The Amityville Horror (2005)
+Blade: Trinity | blade trinity
+Smokin' Aces
+Adventureland
+*The Voices
+Mississippi Grind
+Criminal
+Paper Towns
+
+# Name a movie starring Ryan Gosling
+La La Land
+Barbie
+The Notebook | notebook
+Drive
+Blade Runner 2049
+Crazy, Stupid, Love | crazy stupid love
+The Nice Guys | nice guys
+The Gray Man | gray man
+The Fall Guy | fall guy
+The Big Short | big short
+First Man
+Half Nelson
+Lars and the Real Girl
+Blue Valentine
+The Place Beyond the Pines | place beyond the pines
+Only God Forgives
+Gangster Squad
+The Ides of March | ides of march
+Remember the Titans
+Murder by Numbers
+Fracture
+Song to Song
+Project Hail Mary
+*Lost River
+The Believer | believer
+Stay
+All Good Things
+
+# Name a movie starring Margot Robbie
+Barbie
+The Wolf of Wall Street | wolf of wall street
+Suicide Squad
+I, Tonya | i tonya
+Birds of Prey
+Once Upon a Time in Hollywood
+Babylon
+About Time
+Focus
+The Suicide Squad
+Bombshell
+Mary Queen of Scots
+Amsterdam
+The Legend of Tarzan | legend of tarzan
+Asteroid City
+Peter Rabbit
+Whiskey Tango Foxtrot
+Z for Zachariah
+A Big Bold Beautiful Journey
+Wuthering Heights
+Goodbye Christopher Robin
+*Terminal
+Dreamland
+
+# Name a movie starring Emma Stone
+La La Land
+Easy A
+The Amazing Spider-Man | amazing spider man
+Cruella
+Poor Things
+Crazy, Stupid, Love | crazy stupid love
+Zombieland
+The Help | help
+Birdman
+The Favourite | favourite
+Superbad
+Battle of the Sexes
+The Croods | croods
+Kinds of Kindness
+Bugonia
+Gangster Squad
+The House Bunny | house bunny
+Ghosts of Girlfriends Past
+Friends with Benefits
+Aloha
+Irrational Man
+Magic in the Moonlight
+Zombieland: Double Tap
+The Amazing Spider-Man 2
+Movie 43
+Paper Man
+*Marmaduke
+
+# Name a movie starring Zendaya
+Spider-Man: Homecoming | homecoming
+Dune
+The Greatest Showman | greatest showman
+Challengers
+Dune: Part Two
+Spider-Man: Far From Home | far from home
+Spider-Man: No Way Home | no way home
+Malcolm & Marie | malcolm and marie
+Space Jam: A New Legacy
+Smallfoot
+Zapped
+Frenemies
+*Super Buddies
+The Drama
+The Odyssey
+
+# Name a movie starring Timothée Chalamet
+Dune
+Call Me by Your Name
+Wonka
+Little Women
+Lady Bird
+Dune: Part Two
+A Complete Unknown
+Don't Look Up | dont look up
+Interstellar
+Beautiful Boy
+The King | king
+Bones and All
+The French Dispatch | french dispatch
+Marty Supreme
+Hostiles
+A Rainy Day in New York
+*Hot Summer Nights
+Miss Stevens
+Men, Women & Children
+
+# Name a movie starring Florence Pugh
+Midsommar
+Little Women
+Black Widow
+Oppenheimer
+Don't Worry Darling | dont worry darling
+Dune: Part Two
+We Live in Time
+Thunderbolts
+A Good Person | good person
+Fighting with My Family
+Lady Macbeth
+The Wonder | wonder
+Puss in Boots: The Last Wish
+Outlaw King
+*Malevolent
+The Falling
+
+# Name a movie starring Matt Damon
+Good Will Hunting
+The Bourne Identity | bourne identity
+The Martian | martian
+Saving Private Ryan
+Ocean's Eleven | oceans eleven
+The Departed | departed
+Interstellar
+Oppenheimer
+Ford v Ferrari | ford vs ferrari
+The Talented Mr. Ripley | talented mr ripley
+Air
+Invictus
+Elysium
+We Bought a Zoo
+Downsizing
+The Great Wall | great wall
+Contagion
+Dogma
+Rounders
+The Bourne Supremacy
+The Bourne Ultimatum
+Jason Bourne
+The Adjustment Bureau | adjustment bureau
+Hereafter
+True Grit
+The Informant!
+Stuck on You
+Green Zone
+The Last Duel | last duel
+Stillwater
+The Odyssey
+*Mystic Pizza
+School Ties
+Courage Under Fire
+The Rainmaker | rainmaker
+Promised Land
+Syriana
+
+# Name a movie starring Ben Affleck
+Good Will Hunting
+Gone Girl
+Argo
+Armageddon
+Pearl Harbor
+Batman v Superman | batman vs superman
+Justice League
+The Town | town
+The Accountant | accountant
+Daredevil
+Air
+Dogma
+Chasing Amy
+Mallrats
+Dazed and Confused
+Gigli
+Shakespeare in Love
+Paycheck
+Hollywoodland
+He's Just Not That Into You
+Deep Water
+The Last Duel | last duel
+The Way Back | way back
+Hypnotic
+Triple Frontier
+Changing Lanes
+The Sum of All Fears
+Jersey Girl
+Surviving Christmas
+Forces of Nature
+*Phantoms
+Reindeer Games
+The Accountant 2
+Bounce
+
+# Name a movie starring Christian Bale
+The Dark Knight | dark knight
+Batman Begins
+American Psycho
+The Prestige | prestige
+The Dark Knight Rises
+The Fighter | fighter
+Ford v Ferrari | ford vs ferrari
+The Machinist | machinist
+American Hustle
+The Big Short | big short
+Vice
+Thor: Love and Thunder | love and thunder
+Newsies
+Empire of the Sun
+Terminator Salvation
+3:10 to Yuma
+Equilibrium
+Reign of Fire
+Little Women (1994)
+Public Enemies
+Rescue Dawn
+Hostiles
+Amsterdam
+The Pale Blue Eye | pale blue eye
+Out of the Furnace
+Exodus: Gods and Kings
+Knight of Cups
+Velvet Goldmine
+*Swing Kids
+Howl's Moving Castle
+The Bride!
+
+# Name a movie starring Hugh Jackman
+X-Men | x men
+The Greatest Showman | greatest showman
+Logan
+Les Misérables | les miserables
+The Prestige | prestige
+Prisoners
+Deadpool & Wolverine | deadpool and wolverine
+Real Steel
+Van Helsing
+Australia
+Kate & Leopold
+Swordfish
+X-Men Origins: Wolverine
+The Wolverine | wolverine
+Chappie
+Pan
+Eddie the Eagle
+Rise of the Guardians
+Happy Feet
+Flushed Away
+The Fountain | fountain
+Scoop
+Bad Education
+The Front Runner | front runner
+The Son | son
+Reminiscence
+Someone Like You
+*Deception
+Missing Link
+
+# Name a movie starring Nicolas Cage
+National Treasure
+Face/Off | face off
+Con Air
+The Rock | rock
+Ghost Rider
+Gone in 60 Seconds | gone in sixty seconds
+Leaving Las Vegas
+Raising Arizona
+Moonstruck
+The Wicker Man | wicker man
+Adaptation
+Pig
+The Croods | croods
+Mandy
+Matchstick Men
+City of Angels
+Snake Eyes
+8MM
+Lord of War
+The Family Man | family man
+Bangkok Dangerous
+Knowing
+Kick-Ass | kick ass
+The Sorcerer's Apprentice | sorcerers apprentice
+Drive Angry
+Renfield
+Dream Scenario
+Longlegs
+The Unbearable Weight of Massive Talent | unbearable weight of massive talent
+Spider-Man: Into the Spider-Verse
+Valley Girl
+Peggy Sue Got Married
+Wild at Heart
+World Trade Center
+Windtalkers
+Next
+Season of the Witch
+Color Out of Space
+Willy's Wonderland | willys wonderland
+*Vampire's Kiss
+Zandalee
+Captain Corelli's Mandolin
+
+# Name a movie starring Kevin Hart
+Jumanji: Welcome to the Jungle | jumanji
+Central Intelligence
+Ride Along
+Get Hard
+The Secret Life of Pets | secret life of pets
+Night School
+The Upside | upside
+Think Like a Man
+Ride Along 2
+Jumanji: The Next Level
+Fatherhood
+Lift
+Me Time
+Captain Underpants
+The Wedding Ringer | wedding ringer
+About Last Night
+Grudge Match
+Borderlands
+Die Hart
+Scary Movie 3
+Soul Plane
+Little Fockers
+Paper Soldiers
+Top Five
+*Laugh at My Pain
+Superintelligence
+40-Year-Old Virgin | the 40 year old virgin
+
+# Name a movie starring Will Ferrell
+Elf
+Anchorman
+Step Brothers
+Talladega Nights
+Old School
+Blades of Glory
+The Other Guys | other guys
+Megamind
+Zoolander
+Stranger than Fiction
+Daddy's Home | daddys home
+Barbie
+Semi-Pro | semi pro
+Eurovision Song Contest: The Story of Fire Saga | eurovision
+The Lego Movie | lego movie
+Spirited
+Kicking & Screaming
+Bewitched
+The Campaign | campaign
+Get Hard
+Land of the Lost
+Wedding Crashers
+A Night at the Roxbury | night at the roxbury
+Austin Powers
+Superstar
+Anchorman 2
+Holmes & Watson
+Downhill
+Strays
+You're Cordially Invited
+*Casa de mi Padre
+Everything Must Go
+Winter Passing
+Melinda and Melinda
+
+# Name a movie starring Steve Carell
+The 40-Year-Old Virgin | 40 year old virgin
+Despicable Me
+Anchorman
+Crazy, Stupid, Love | crazy stupid love
+Little Miss Sunshine
+The Big Short | big short
+Bruce Almighty
+Evan Almighty
+Get Smart
+Date Night
+Foxcatcher
+Dan in Real Life
+Horton Hears a Who!
+Minions
+Battle of the Sexes
+Beautiful Boy
+Vice
+The Way Way Back
+Seeking a Friend for the End of the World
+Last Flag Flying
+Welcome to Marwen
+Irresistible
+Hope Springs
+Alexander and the Terrible, Horrible, No Good, Very Bad Day
+The Incredible Burt Wonderstone
+Dinner for Schmucks
+IF
+Asteroid City
+*Melinda and Melinda
+Over the Hedge
+Despicable Me 4
+
+# Name a movie starring Jack Black
+School of Rock
+Kung Fu Panda
+Jumanji: Welcome to the Jungle | jumanji
+Nacho Libre
+Shallow Hal
+Tropic Thunder
+The Super Mario Bros. Movie | super mario bros movie
+A Minecraft Movie | minecraft movie
+The Holiday | holiday
+Goosebumps
+High Fidelity
+Year One
+Gulliver's Travels | gullivers travels
+The House with a Clock in Its Walls
+Bernie
+Borderlands
+Tenacious D in The Pick of Destiny | the pick of destiny
+King Kong
+Orange County
+Be Kind Rewind
+The Big Year
+Saving Silverman
+Envy
+Jumanji: The Next Level
+Mars Attacks!
+Enemy of the State
+The Cable Guy
+Anaconda
+*Bob Roberts
+Ice Age
+Shark Tale
+Waterworld
+
+# Name a movie starring Eddie Murphy
+Coming to America
+Beverly Hills Cop
+Shrek
+The Nutty Professor | nutty professor
+Trading Places
+Dr. Dolittle | dr dolittle
+Mulan
+48 Hrs. | 48 hours
+Daddy Day Care
+Norbit
+Bowfinger
+Dreamgirls
+The Haunted Mansion | haunted mansion
+Coming 2 America
+Dolemite Is My Name
+Beverly Hills Cop II
+Beverly Hills Cop: Axel F | axel f
+Life
+Tower Heist
+Boomerang
+Harlem Nights
+The Golden Child | golden child
+Meet Dave
+Imagine That
+A Thousand Words
+Showtime
+The Adventures of Pluto Nash | pluto nash
+I Spy
+You People
+Candy Cane Lane
+Holy Man
+*Vampire in Brooklyn
+Metro
+The Distinguished Gentleman
+
+# Name a movie starring Arnold Schwarzenegger
+The Terminator | terminator
+Terminator 2: Judgment Day | terminator 2
+Predator
+Total Recall
+Kindergarten Cop
+True Lies
+Commando
+Twins
+Conan the Barbarian
+Jingle All the Way
+Junior
+Last Action Hero
+The Running Man | running man
+Eraser
+End of Days
+The 6th Day
+Collateral Damage
+Terminator 3: Rise of the Machines | terminator 3
+The Expendables | expendables
+The Last Stand | last stand
+Escape Plan
+Sabotage
+Maggie
+Terminator Genisys
+Terminator: Dark Fate
+Red Heat
+Raw Deal
+Batman & Robin | batman and robin
+Around the World in 80 Days
+Conan the Destroyer
+Red Sonja
+*Hercules in New York
+Pumping Iron
+The Villain
+
+# Name a movie starring Sylvester Stallone
+Rocky
+Rambo | first blood
+Creed
+The Expendables | expendables
+Cliffhanger
+Demolition Man
+Cop Land
+Rocky II
+Rocky III
+Rocky IV
+Rocky Balboa
+Rambo: First Blood Part II
+Over the Top
+Tango & Cash | tango and cash
+Judge Dredd
+Escape Plan
+Guardians of the Galaxy Vol. 2
+Spy Kids 3-D: Game Over
+Antz
+Daylight
+Assassins
+Stop! Or My Mom Will Shoot
+Oscar
+Lock Up
+Cobra
+Nighthawks
+Victory
+Grudge Match
+Samaritan
+Creed II
+Rambo: Last Blood
+The Suicide Squad
+*Paradise Alley
+F.I.S.T.
+Get Carter
+Driven
+
+# Name a movie starring Bruce Willis
+Die Hard
+The Sixth Sense | sixth sense
+Pulp Fiction
+Armageddon
+The Fifth Element | fifth element
+12 Monkeys
+Unbreakable
+Sin City
+Looper
+Red
+Die Hard 2
+Die Hard with a Vengeance
+Live Free or Die Hard
+A Good Day to Die Hard
+The Expendables | expendables
+Glass
+Moonrise Kingdom
+Look Who's Talking
+The Whole Nine Yards | whole nine yards
+Hostage
+Lucky Number Slevin
+Last Man Standing
+The Jackal | jackal
+Mercury Rising
+Tears of the Sun
+Surrogates
+Death Becomes Her
+Hudson Hawk
+The Last Boy Scout | last boy scout
+Over the Hedge
+Motherless Brooklyn
+*Breakfast of Champions
+The Kid
+Color of Night
+16 Blocks
+
+# Name a movie starring Jackie Chan
+Rush Hour
+Shanghai Noon
+The Karate Kid (2010) | karate kid
+Kung Fu Panda
+Police Story
+Drunken Master
+Rumble in the Bronx
+Rush Hour 2
+Rush Hour 3
+Shanghai Knights
+The Tuxedo | tuxedo
+Around the World in 80 Days
+The Forbidden Kingdom | forbidden kingdom
+The Spy Next Door | spy next door
+The Foreigner | foreigner
+Armour of God
+Project A
+Who Am I?
+Mr. Nice Guy
+Supercop
+Twin Dragons
+Wheels on Meals
+New Police Story
+The Medallion | medallion
+Karate Kid: Legends
+Teenage Mutant Ninja Turtles: Mutant Mayhem | mutant mayhem
+The Lego Ninjago Movie | lego ninjago
+Snake in the Eagle's Shadow
+*The Big Brawl
+Cannonball Run
+Chinese Zodiac
+1911
+
+# Name a movie starring Liam Neeson
+Taken
+Schindler's List | schindlers list
+Star Wars: The Phantom Menace | phantom menace
+Batman Begins
+Love Actually
+The Grey | grey
+Non-Stop | non stop
+Taken 2
+Taken 3
+Rob Roy
+Michael Collins
+Kinsey
+Gangs of New York
+The Chronicles of Narnia | narnia
+Clash of the Titans
+The A-Team | a team
+Unknown
+The Commuter | commuter
+Cold Pursuit
+Run All Night
+Darkman
+Kingdom of Heaven
+Battleship
+Silence
+A Monster Calls
+The Naked Gun (2025) | the naked gun
+Marlowe
+Memory
+Blacklight
+Honest Thief
+The Ice Road | ice road
+Nell
+Ethan Frome
+*Krull
+The Bounty
+Excalibur
+Husbands and Wives
+Les Misérables (1998)
+
+# Name a movie starring Anne Hathaway
+The Devil Wears Prada | devil wears prada
+The Princess Diaries | princess diaries
+Les Misérables | les miserables
+Interstellar
+The Dark Knight Rises | dark knight rises
+Ocean's 8 | oceans 8
+The Intern | intern
+Ella Enchanted
+Brokeback Mountain
+Love & Other Drugs | love and other drugs
+Bride Wars
+Alice in Wonderland
+Rio
+One Day
+Get Smart
+The Witches (2020)
+Valentine's Day | valentines day
+Rachel Getting Married
+Becoming Jane
+The Princess Diaries 2: Royal Engagement | royal engagement
+Havoc
+The Hustle | hustle
+Colossal
+Serenity
+The Idea of You | idea of you
+Mothers' Instinct
+Eileen
+Armageddon Time
+Locked Down
+*Passengers (2008)
+Hoodwinked!
+Nicholas Nickleby
+The Other Side of Heaven
+
+# Name a movie starring Natalie Portman
+Black Swan
+Star Wars: The Phantom Menace | phantom menace
+Thor
+V for Vendetta
+Léon: The Professional | leon | the professional
+Closer
+Jackie
+No Strings Attached
+Garden State
+Annihilation
+Thor: Love and Thunder | love and thunder
+Thor: The Dark World
+Attack of the Clones
+Revenge of the Sith
+The Other Boleyn Girl
+Brothers
+Your Highness
+Where the Heart Is
+Mars Attacks!
+Heat
+Beautiful Girls
+Cold Mountain
+Hesher
+Vox Lux
+Lucy in the Sky
+May December
+*Goya's Ghosts
+Mr. Magorium's Wonder Emporium
+Anywhere but Here
+Everyone Says I Love You
+
+# Name a movie starring Cameron Diaz
+There's Something About Mary | theres something about mary
+The Mask | mask
+Charlie's Angels | charlies angels
+Shrek
+The Holiday | holiday
+My Best Friend's Wedding | my best friends wedding
+What Happens in Vegas
+Bad Teacher
+The Other Woman | other woman
+Knight and Day
+Annie (2014)
+Vanilla Sky
+Gangs of New York
+Being John Malkovich
+In Her Shoes
+Charlie's Angels: Full Throttle
+Any Given Sunday
+The Green Hornet | green hornet
+Sex Tape
+My Sister's Keeper | my sisters keeper
+The Sweetest Thing | sweetest thing
+Back in Action
+The Box | box
+The Counselor
+Feeling Minnesota
+*She's the One
+Head Above Water
+A Life Less Ordinary
+Very Bad Things
+
+# Name a movie starring Reese Witherspoon
+Legally Blonde
+Walk the Line
+Sweet Home Alabama
+Wild
+Cruel Intentions
+Election
+Pleasantville
+Legally Blonde 2: Red, White & Blonde | legally blonde 2
+Four Christmases
+This Means War
+Water for Elephants
+Just Like Heaven
+Sing
+A Wrinkle in Time
+Home Again
+Big Little Lies
+Monsters vs. Aliens
+Your Place or Mine
+Fear
+The Man in the Moon
+Vanity Fair
+Mud
+Inherent Vice
+Hot Pursuit
+How Do You Know
+Penelope
+Rendition
+American Psycho
+*Freeway
+Little Nicky
+The Importance of Being Earnest
+
+# Name a movie starring Nicole Kidman
+Moulin Rouge!
+The Others | others
+Eyes Wide Shut
+Practical Magic
+Big Little Lies
+Lion
+Aquaman
+The Hours | hours
+Australia
+Being the Ricardos
+Babygirl
+Days of Thunder
+Far and Away
+Batman Forever
+Bewitched
+The Stepford Wives (2004)
+Cold Mountain
+Happy Feet
+The Golden Compass | golden compass
+Dogville
+Rabbit Hole
+The Killing of a Sacred Deer
+The Northman | northman
+The Undoing
+A Family Affair
+Destroyer
+Bombshell
+To Die For
+Dead Calm
+The Paperboy | paperboy
+Grace of Monaco
+Paddington
+*BMX Bandits
+Flirting
+Birthday Girl
+
+# Name a movie starring Angelina Jolie
+Maleficent
+Mr. & Mrs. Smith | mr and mrs smith
+Lara Croft: Tomb Raider | tomb raider
+Girl, Interrupted | girl interrupted
+Salt
+Wanted
+Kung Fu Panda
+Changeling
+The Tourist | tourist
+Gone in 60 Seconds | gone in sixty seconds
+Eternals
+Maria
+Hackers
+Gia
+The Bone Collector | bone collector
+Original Sin
+Beowulf
+Alexander
+A Mighty Heart
+Shark Tale
+Those Who Wish Me Dead
+Maleficent: Mistress of Evil
+The Good Shepherd | good shepherd
+Taking Lives
+Sky Captain and the World of Tomorrow
+Pushing Tin
+Playing by Heart
+Beyond Borders
+*Cyborg 2
+Without Evidence
+Mojave Moon
+
+# Name a movie starring Jennifer Aniston
+The Break-Up | break up
+Marley & Me | marley and me
+Horrible Bosses
+We're the Millers | were the millers
+Just Go with It
+Bruce Almighty
+Along Came Polly
+Office Space
+Murder Mystery
+The Bounty Hunter | bounty hunter
+He's Just Not That Into You
+Rumor Has It
+Picture Perfect
+The Good Girl | good girl
+Dumplin'
+Leprechaun
+Wanderlust
+Cake
+The Switch | switch
+Love Happens
+Friends with Money
+Mother's Day
+Horrible Bosses 2
+Murder Mystery 2
+Derailed
+Management
+*The Object of My Affection
+Life of Crime
+Storks
+
+# Name a movie starring Cate Blanchett
+The Lord of the Rings | lord of the rings
+Elizabeth
+Blue Jasmine
+Carol
+Tár | tar
+Thor: Ragnarok | ragnarok
+Cinderella (2015)
+Ocean's 8 | oceans 8
+The Aviator | aviator
+The Curious Case of Benjamin Button | benjamin button
+Babel
+Notes on a Scandal
+I'm Not There
+Nightmare Alley
+Don't Look Up | dont look up
+Pinocchio (2022)
+Indiana Jones and the Kingdom of the Crystal Skull
+The Talented Mr. Ripley | talented mr ripley
+The Hobbit
+How to Train Your Dragon 2
+Borderlands
+Rumours
+Hanna
+The House with a Clock in Its Walls
+Where'd You Go, Bernadette | whered you go bernadette
+Elizabeth: The Golden Age
+Black Bag
+*Charlotte Gray
+Veronica Guerin
+Bandits
+The Gift
+Heaven
+
+# Name a movie starring Viola Davis
+Fences
+The Help | help
+Ma Rainey's Black Bottom | ma raineys black bottom
+The Woman King | woman king
+Suicide Squad
+Widows
+Doubt
+The Suicide Squad
+Prisoners
+Air
+The Hunger Games: The Ballad of Songbirds & Snakes | ballad of songbirds and snakes
+Get On Up
+Beautiful Creatures
+Ender's Game
+Eat Pray Love
+Knight and Day
+Solaris
+Antwone Fisher
+Far from Heaven
+Traffic
+The Unforgivable
+Blackhat
+G20
+Lila & Eve
+*Kate & Leopold
+Disturbia
+Madea Goes to Jail
+
+# Name a movie starring Melissa McCarthy
+Bridesmaids
+Spy
+The Heat | heat
+Identity Thief
+Tammy
+Ghostbusters (2016)
+The Boss | boss
+Life of the Party
+Can You Ever Forgive Me?
+The Little Mermaid (2023)
+Thunder Force
+Superintelligence
+The Happytime Murders | happytime murders
+Monsters University
+St. Vincent | st vincent
+This Is 40
+The Hangover Part II
+Mike & Molly
+Gilmore Girls
+Charlie's Angels
+The Kitchen | kitchen
+Unsung Hero
+Life as We Know It
+*The Nines
+Go
+Drunk Parents
+
+# Name a movie starring Seth Rogen
+Superbad
+Knocked Up
+Pineapple Express
+This Is the End
+The Interview | interview
+Neighbors
+The 40-Year-Old Virgin | 40 year old virgin
+Sausage Party
+50/50
+Kung Fu Panda
+The Green Hornet | green hornet
+Paul
+The Night Before
+Steve Jobs
+The Fabelmans | fabelmans
+The Lion King (2019)
+The Super Mario Bros. Movie
+Teenage Mutant Ninja Turtles: Mutant Mayhem
+Zack and Miri Make a Porno
+Funny People
+Observe and Report
+Monsters vs. Aliens
+Horton Hears a Who!
+Long Shot
+An American Pickle
+Neighbors 2
+Take This Waltz
+*Donnie Darko
+Anchorman
+You, Me and Dupree
+
+# Name a movie starring Jonah Hill
+Superbad
+21 Jump Street
+The Wolf of Wall Street | wolf of wall street
+Moneyball
+22 Jump Street
+This Is the End
+Get Him to the Greek
+Forgetting Sarah Marshall
+Knocked Up
+Don't Look Up | dont look up
+How to Train Your Dragon
+Megamind
+Cyrus
+War Dogs
+Hail, Caesar! | hail caesar
+The Sitter | sitter
+Accepted
+Click
+The Watch | watch
+You People
+Night at the Museum
+The 40-Year-Old Virgin
+Grandma's Boy
+Funny People
+Django Unchained
+*True Story
+Mid90s
+Maniac
+Don't Worry, He Won't Get Far on Foot
+
+# Name a movie starring Owen Wilson
+Wedding Crashers
+Cars
+Night at the Museum
+Zoolander
+Marley & Me | marley and me
+Midnight in Paris
+Meet the Parents
+Shanghai Noon
+Armageddon
+The Royal Tenenbaums | royal tenenbaums
+The Internship | internship
+Shanghai Knights
+Starsky & Hutch | starsky and hutch
+You, Me and Dupree
+The Grand Budapest Hotel | grand budapest hotel
+Fantastic Mr. Fox
+Wonder
+Haunted Mansion (2023)
+Loki
+Bottle Rocket
+Rushmore
+The Darjeeling Limited | darjeeling limited
+Behind Enemy Lines
+I Spy
+Drillbit Taylor
+How Do You Know
+Hall Pass
+The Life Aquatic | life aquatic
+Inherent Vice
+No Escape
+The French Dispatch | french dispatch
+Paint
+Secret Headquarters
+Father Figures
+Anaconda
+The Haunting (1999)
+The Cable Guy
+*Minus Man
+
+# Name a movie starring Ben Stiller
+Meet the Parents
+Zoolander
+Night at the Museum
+Madagascar
+Dodgeball
+Tropic Thunder
+There's Something About Mary | theres something about mary
+The Secret Life of Walter Mitty | walter mitty
+Meet the Fockers
+Along Came Polly
+Starsky & Hutch | starsky and hutch
+Reality Bites
+The Royal Tenenbaums | royal tenenbaums
+Tower Heist
+Mystery Men
+The Cable Guy
+Heavyweights
+Duplex
+Envy
+Greenberg
+The Watch | watch
+Little Fockers
+Keeping the Faith
+Flirting with Disaster
+Happy Gilmore
+Permanent Midnight
+The Heartbreak Kid | heartbreak kid
+Brad's Status
+While We're Young
+Zoolander 2
+*Empire of the Sun
+The Meyerowitz Stories
+
+# Name a movie starring Mark Wahlberg
+The Departed | departed
+Ted
+The Other Guys | other guys
+Transformers: Age of Extinction | age of extinction
+Boogie Nights
+The Fighter | fighter
+Lone Survivor
+Daddy's Home | daddys home
+Deepwater Horizon
+Uncharted
+Four Brothers
+Pain & Gain | pain and gain
+Shooter
+The Italian Job | italian job
+The Perfect Storm | perfect storm
+Planet of the Apes
+Max Payne
+Rock Star
+Three Kings
+The Happening | happening
+Contraband
+Broken City
+2 Guns
+Instant Family
+Mile 22
+Spenser Confidential
+Patriots Day
+Me Time
+The Union | union
+Arthur the King
+Flight Risk
+The Lovely Bones | lovely bones
+Invincible
+We Own the Night
+Fear
+*Renaissance Man
+The Basketball Diaries
+
+# Name a movie starring Jason Statham
+The Transporter | transporter
+The Expendables | expendables
+Crank
+Snatch
+Lock, Stock and Two Smoking Barrels | lock stock
+The Meg | meg
+Furious 7
+Hobbs & Shaw | hobbs and shaw
+Spy
+The Italian Job | italian job
+Wrath of Man
+The Beekeeper | beekeeper
+Fast X
+Meg 2: The Trench
+Operation Fortune
+The Mechanic | mechanic
+Safe
+Parker
+Homefront
+Killer Elite
+Death Race
+War
+The Bank Job | bank job
+Cellular
+Revolver
+Collateral
+A Working Man
+Expend4bles | expendables 4
+Transporter 2
+Transporter 3
+Crank: High Voltage
+The Fate of the Furious
+*Ghosts of Mars
+Mean Machine
+Chaos
+Gnomeo & Juliet
+
+# Name a movie starring Vin Diesel
+The Fast and the Furious | fast and the furious
+Guardians of the Galaxy
+xXx
+Saving Private Ryan
+The Pacifier | pacifier
+Riddick
+Pitch Black
+The Chronicles of Riddick
+Furious 7
+Fast Five
+The Iron Giant | iron giant
+Bloodshot
+The Last Witch Hunter | last witch hunter
+Babylon A.D.
+A Man Apart
+Find Me Guilty
+Boiler Room
+Knockaround Guys
+Avengers: Infinity War
+F9
+Fast X
+xXx: Return of Xander Cage
+Billy Lynn's Long Halftime Walk
+*Multi-Facial
+Strays
+
+# Name a movie starring Michael B. Jordan
+Black Panther
+Creed
+Fruitvale Station
+Creed II
+Creed III
+Sinners
+Chronicle
+Fantastic Four (2015)
+Just Mercy
+Without Remorse
+A Journal for Jordan
+That Awkward Moment
+Red Tails
+Space Jam: A New Legacy
+Hardball
+Blackout
+*Pastor Brown
+Black Panther: Wakanda Forever
+
+# Name a movie starring Jake Gyllenhaal
+Donnie Darko
+Brokeback Mountain
+Nightcrawler
+Prisoners
+Spider-Man: Far From Home | far from home
+Zodiac
+Source Code
+Southpaw
+End of Watch
+Road House (2024)
+Ambulance
+Prince of Persia
+The Day After Tomorrow | day after tomorrow
+October Sky
+Jarhead
+Love & Other Drugs | love and other drugs
+Nocturnal Animals
+Enemy
+Life
+Stronger
+Okja
+The Guilty | guilty
+Strange World
+The Covenant | covenant
+Presumed Innocent
+Velvet Buzzsaw
+Wildlife
+Demolition
+Everest
+Rendition
+Brothers
+Bubble Boy
+Moonlight Mile
+The Good Girl
+*City Slickers
+A Man Called Ove
+Proof
+
+# Name a movie starring Joaquin Phoenix
+Joker
+Gladiator
+Walk the Line
+Her
+Signs
+The Master | master
+Inherent Vice
+Joker: Folie à Deux | folie a deux
+Napoleon
+Beau Is Afraid
+The Village | village
+Ladder 49
+Hotel Rwanda
+Two Lovers
+Brother Bear
+Quills
+8MM
+You Were Never Really Here
+C'mon C'mon
+Don't Worry, He Won't Get Far on Foot
+The Sisters Brothers
+Mary Magdalene
+Irrational Man
+We Own the Night
+Reservation Road
+To Die For
+Parenthood
+Eddington
+*SpaceCamp
+Russkies
+U Turn
+The Yards
+
+# Name a movie starring Anthony Hopkins
+The Silence of the Lambs | silence of the lambs
+The Father | father
+Thor
+Hannibal
+Red Dragon
+The Mask of Zorro | mask of zorro
+Meet Joe Black
+The Two Popes | two popes
+Legends of the Fall
+Westworld
+The Remains of the Day | remains of the day
+Bram Stoker's Dracula | dracula
+Transformers: The Last Knight
+Noah
+Nixon
+Amistad
+The Elephant Man | elephant man
+Fracture
+Instinct
+Beowulf
+The Wolfman (2010)
+Hitchcock
+Armageddon Time
+Howards End
+Shadowlands
+Proof
+Freud's Last Session
+The World's Fastest Indian
+Thor: Ragnarok
+Thor: The Dark World
+84 Charing Cross Road
+*Magic
+A Bridge Too Far
+The Lion in Winter
+Freejack
+
+# Name a movie starring Al Pacino
+The Godfather | godfather
+Scarface
+Heat
+Scent of a Woman
+The Godfather Part II
+The Devil's Advocate | devils advocate
+Dog Day Afternoon
+Serpico
+Carlito's Way
+The Irishman | irishman
+Donnie Brasco
+Any Given Sunday
+Insomnia
+Ocean's Thirteen | oceans thirteen
+The Insider | insider
+Glengarry Glen Ross
+House of Gucci
+Once Upon a Time in Hollywood
+Dick Tracy
+The Godfather Part III
+Frankie and Johnny
+Sea of Love
+Jack and Jill
+88 Minutes
+Righteous Kill
+Danny Collins
+Hunters
+The Merchant of Venice (2004)
+*Bobby Deerfield
+Cruising
+...And Justice for All | and justice for all
+Panic in Needle Park
+The Recruit
+
+# Name a movie starring Robert De Niro
+Taxi Driver
+Goodfellas
+Raging Bull
+The Godfather Part II
+Meet the Parents
+The Irishman | irishman
+Casino
+Heat
+Joker
+Cape Fear
+The Deer Hunter | deer hunter
+Killers of the Flower Moon
+The Intern | intern
+Silver Linings Playbook
+Analyze This
+Meet the Fockers
+A Bronx Tale
+Awakenings
+The Untouchables | untouchables
+Once Upon a Time in America
+Midnight Run
+Ronin
+Mean Streets
+The King of Comedy | king of comedy
+Jackie Brown
+Stardust
+Shark Tale
+Little Fockers
+The Family | family
+Wag the Dog
+Sleepers
+Backdraft
+Cop Land
+Analyze That
+Righteous Kill
+Machete
+Dirty Grandpa
+Ezra
+The Alto Knights
+*Brazil
+New York, New York
+1900
+The Mission
+Angel Heart
+
+# Name a movie starring Clint Eastwood
+Gran Torino
+Million Dollar Baby
+Dirty Harry
+The Good, the Bad and the Ugly | good bad and the ugly
+Unforgiven
+A Fistful of Dollars | fistful of dollars
+For a Few Dollars More
+Escape from Alcatraz
+In the Line of Fire
+The Bridges of Madison County | bridges of madison county
+Every Which Way but Loose
+Space Cowboys
+The Mule | mule
+Trouble with the Curve
+Magnum Force
+The Outlaw Josey Wales | outlaw josey wales
+Where Eagles Dare
+Hang 'Em High | hang em high
+Kelly's Heroes
+Heartbreak Ridge
+Pale Rider
+High Plains Drifter
+Sudden Impact
+The Enforcer | enforcer
+The Dead Pool | dead pool
+Absolute Power
+Blood Work
+Cry Macho
+Firefox
+Tightrope
+Paint Your Wagon
+*Pink Cadillac
+Thunderbolt and Lightfoot
+Play Misty for Me
+The Beguiled (1971)
+
+# Name a movie starring Kate Winslet
+Titanic
+The Holiday | holiday
+Eternal Sunshine of the Spotless Mind | eternal sunshine
+The Reader | reader
+Revolutionary Road
+Sense and Sensibility
+Avatar: The Way of Water | the way of water
+Steve Jobs
+Divergent
+Finding Neverland
+Contagion
+Heavenly Creatures
+Little Children
+Lee
+Mare of Easttown
+Ammonite
+Wonder Wheel
+The Mountain Between Us | mountain between us
+Carnage
+Labor Day
+Insurgent
+The Dressmaker | dressmaker
+Collateral Beauty
+Hamlet (1996)
+Quills
+Iris
+Hideous Kinky
+Jude
+Holy Smoke
+*Enigma
+All the King's Men
+Romance & Cigarettes
+
+# Name a movie starring Amy Adams
+Enchanted
+Arrival
+Man of Steel
+Julie & Julia | julie and julia
+American Hustle
+The Fighter | fighter
+Catch Me If You Can
+Doubt
+Nocturnal Animals
+Big Eyes
+Her
+The Master | master
+Night at the Museum: Battle of the Smithsonian
+Junebug
+Talladega Nights
+Leap Year
+The Muppets | muppets
+Batman v Superman
+Justice League
+Vice
+Hillbilly Elegy
+Disenchanted
+The Woman in the Window
+Dear Evan Hansen
+Nightbitch
+Sunshine Cleaning
+Charlie Wilson's War
+Trouble with the Curve
+On the Road
+The Wedding Date
+*Drop Dead Gorgeous
+Cruel Intentions 2
+Psycho Beach Party
+
+# Name a movie starring Charlize Theron
+Mad Max: Fury Road | fury road
+Monster
+Atomic Blonde
+The Italian Job | italian job
+Snow White and the Huntsman
+The Old Guard | old guard
+Bombshell
+Prometheus
+Hancock
+The Devil's Advocate | devils advocate
+Fast X
+The Fate of the Furious
+Long Shot
+Tully
+Young Adult
+Kubo and the Two Strings
+The Addams Family (2019)
+Aeon Flux
+North Country
+The Cider House Rules | cider house rules
+Mighty Joe Young
+Sweet November
+The Road | road
+Gringo
+A Million Ways to Die in the West
+The Huntsman: Winter's War
+Dark Places
+Reindeer Games
+The Astronaut's Wife
+In the Valley of Elah
+*Head in the Clouds
+Trapped
+Two Days in the Valley
+
+# Name a movie starring Pedro Pascal
+Wonder Woman 1984 | ww84
+Gladiator II | gladiator 2
+The Unbearable Weight of Massive Talent | unbearable weight of massive talent
+Kingsman: The Golden Circle | golden circle
+The Fantastic Four: First Steps | fantastic four
+Materialists
+Eddington
+Triple Frontier
+The Equalizer 2
+Prospect
+We Can Be Heroes
+Strange Way of Life
+Freaky Tales
+Weekend in Taipei
+*Bloodshot (2020) | bloodshot
+If Beale Street Could Talk
+Sweet Girl
+The Great Wall | great wall
+
+# Name a movie starring Tom Holland
+Spider-Man: Homecoming | homecoming
+Spider-Man: Far From Home | far from home
+Spider-Man: No Way Home | no way home
+Uncharted
+The Impossible | impossible
+Captain America: Civil War | civil war
+Avengers: Infinity War | infinity war
+Avengers: Endgame | endgame
+Onward
+Cherry
+The Devil All the Time
+Spies in Disguise
+Dolittle
+In the Heart of the Sea
+Chaos Walking
+The Lost City of Z | lost city of z
+The Current War
+Pilgrimage
+*Edge of Winter
+How I Live Now
+The Odyssey
+
+# Name a movie starring Paul Rudd
+Ant-Man | ant man
+Clueless
+Anchorman
+I Love You, Man | i love you man
+Knocked Up
+The 40-Year-Old Virgin | 40 year old virgin
+This Is 40
+Role Models
+Forgetting Sarah Marshall
+Wet Hot American Summer
+Ghostbusters: Afterlife
+Ghostbusters: Frozen Empire
+Avengers: Endgame | endgame
+Ant-Man and the Wasp
+Quantumania
+Romeo + Juliet
+The Object of My Affection
+Dinner for Schmucks
+Wanderlust
+How Do You Know
+Our Idiot Brother
+Monsters vs. Aliens
+The Perks of Being a Wallflower | perks of being a wallflower
+Captain America: Civil War
+Friends with Kids
+Prince Avalanche
+Death of a Unicorn
+Friendship
+*Halloween: The Curse of Michael Myers
+The Shape of Things
+Living with Yourself
+Mute
+
+# Name a movie starring Bill Murray
+Ghostbusters
+Groundhog Day
+Lost in Translation
+Caddyshack
+Stripes
+What About Bob?
+Rushmore
+Scrooged
+Space Jam
+The Royal Tenenbaums | royal tenenbaums
+Zombieland
+Fantastic Mr. Fox
+The Life Aquatic | life aquatic
+Moonrise Kingdom
+The Grand Budapest Hotel | grand budapest hotel
+St. Vincent | st vincent
+Garfield
+Meatballs
+Kingpin
+Broken Flowers
+Isle of Dogs
+The Jungle Book (2016)
+Ghostbusters II
+Ghostbusters: Afterlife
+On the Rocks
+The French Dispatch
+Ant-Man and the Wasp: Quantumania
+Tootsie
+Little Shop of Horrors
+Ed Wood
+Charlie's Angels
+Larger than Life
+Mad Dog and Glory
+Quick Change
+*The Razor's Edge
+Where the Buffalo Roam
+Osmosis Jones
+The Dead Don't Die
+
+# Name a movie starring Cillian Murphy
+Oppenheimer
+28 Days Later
+Inception
+Batman Begins
+The Dark Knight Rises | dark knight rises
+Dunkirk
+A Quiet Place Part II
+Red Eye
+In Time
+Sunshine
+The Wind That Shakes the Barley | wind that shakes the barley
+Breakfast on Pluto
+Peaky Blinders
+Small Things Like These
+Girl with a Pearl Earring
+Transcendence
+In the Heart of the Sea
+Anthropoid
+Free Fire
+Cold Mountain
+Intermission
+Disco Pigs
+Watching the Detectives
+28 Years Later
+Retreat
+*Perrier's Bounty
+Steve
+
+# Name a movie starring Jennifer Lopez
+Selena
+The Wedding Planner | wedding planner
+Maid in Manhattan
+Hustlers
+Monster-in-Law | monster in law
+Shotgun Wedding
+Anaconda
+Out of Sight
+The Cell | cell
+Enough
+Marry Me
+The Mother | mother
+Atlas
+Second Act
+Shall We Dance
+Angel Eyes
+Jersey Girl
+Gigli
+The Back-up Plan
+Parker
+The Boy Next Door | boy next door
+Ice Age
+Home
+What to Expect When You're Expecting
+U Turn
+Money Train
+Jack
+Blood and Wine
+Kiss of the Spider Woman (2025)
+Unstoppable
+*Mi Familia | my family
+Bordertown
+This Is Me... Now
+
+# Name a movie starring Kristen Stewart
+Twilight
+Snow White and the Huntsman
+Spencer
+Panic Room
+Charlie's Angels (2019)
+Happiest Season
+Clouds of Sils Maria
+Adventureland
+Into the Wild
+Personal Shopper
+The Runaways | runaways
+Still Alice
+Zathura
+Underwater
+Love Lies Bleeding
+Crimes of the Future
+American Ultra
+Equals
+Seberg
+On the Road
+Certain Women
+The Messengers | messengers
+*Cold Creek Manor
+Speak
+Catch That Kid
+In the Land of Women
+Welcome to the Rileys
+
+# Name a movie starring Robert Pattinson
+Twilight
+The Batman
+Tenet
+Harry Potter and the Goblet of Fire | goblet of fire
+Good Time
+The Lighthouse | lighthouse
+Remember Me
+Water for Elephants
+Mickey 17
+The Devil All the Time
+High Life
+Cosmopolis
+The Lost City of Z | lost city of z
+Bel Ami
+Maps to the Stars
+The Rover | rover
+Damsel
+The King | king
+The Boy and the Heron | boy and the heron
+Life
+Little Ashes
+How to Be
+*Vanity Fair
+Queen of the Desert
+Die My Love
+
+# Name a movie starring Idris Elba
+Thor
+Beasts of No Nation
+Pacific Rim
+The Suicide Squad
+Zootopia
+Finding Dory
+The Jungle Book (2016)
+Molly's Game
+Mandela: Long Walk to Freedom
+American Gangster
+Prometheus
+Star Trek Beyond
+The Dark Tower | dark tower
+The Mountain Between Us | mountain between us
+Hobbs & Shaw | hobbs and shaw
+Cats
+Beast
+Three Thousand Years of Longing
+Sonic the Hedgehog 2
+Luther
+Obsessed
+Takers
+28 Weeks Later
+Ghost Rider: Spirit of Vengeance
+Concrete Cowboy
+Heads of State
+The Harder They Fall | harder they fall
+*The Losers
+Daddy's Little Girls
+This Christmas
+Bastille Day
+
+# Name a movie starring Gal Gadot
+Wonder Woman
+Red Notice
+Justice League
+Wonder Woman 1984 | ww84
+Batman v Superman | batman vs superman
+Death on the Nile
+Fast & Furious (2009)
+Fast Five
+Fast & Furious 6
+Furious 7
+Ralph Breaks the Internet
+Heart of Stone
+Snow White (2025)
+Keeping Up with the Joneses
+Criminal
+Triple 9
+Date Night
+Knight and Day
+*Kicking & Screaming
+
+# Name a movie starring Chris Evans
+Captain America: The First Avenger | first avenger
+The Avengers | avengers
+Knives Out
+Captain America: The Winter Soldier | winter soldier
+Fantastic Four
+Snowpiercer
+Gifted
+Not Another Teen Movie
+Lightyear
+The Gray Man | gray man
+Red One
+Scott Pilgrim vs. the World | scott pilgrim
+Sunshine
+Cellular
+The Nanny Diaries | nanny diaries
+What's Your Number?
+Push
+Before We Go
+Playing It Cool
+The Losers
+Street Kings
+Defending Jacob
+Ghosted
+Pain Hustlers
+Materialists
+Puncture
+The Iceman
+London
+*The Perfect Score
+Fierce People
+Battle of the Sexes
+
+# Name a movie starring Henry Cavill
+Man of Steel
+The Man from U.N.C.L.E. | man from uncle
+Mission: Impossible – Fallout | fallout
+Enola Holmes
+Argylle
+Batman v Superman
+Justice League
+The Ministry of Ungentlemanly Warfare
+Immortals
+The Count of Monte Cristo (2002)
+Stardust
+Tristan & Isolde
+Blood Creek
+Whatever Works
+The Cold Light of Day
+Night Hunter
+Sand Castle
+*Red Riding Hood
+The Witcher
+Enola Holmes 2
+
+# Name a movie starring Mark Ruffalo
+The Avengers | avengers
+Spotlight
+Poor Things
+Zodiac
+Shutter Island
+13 Going on 30
+Now You See Me
+Eternal Sunshine of the Spotless Mind
+Foxcatcher
+The Kids Are All Right
+Collateral
+Begin Again
+Just Like Heaven
+Avengers: Endgame
+Thor: Ragnarok
+Dark Waters
+Mickey 17
+The Adam Project
+Infinitely Polar Bear
+Reservation Road
+You Can Count on Me
+Rumor Has It
+View from the Top
+Sympathy for Delicious
+Margaret
+In the Cut
+Windtalkers
+*Safe Men
+Blindness
+What Doesn't Kill You
+
+# Name a movie starring Jeff Bridges
+The Big Lebowski | big lebowski
+Tron
+Tron: Legacy
+Iron Man
+True Grit
+Crazy Heart
+Hell or High Water
+Starman
+The Fabulous Baker Boys | fabulous baker boys
+Seabiscuit
+The Fisher King | fisher king
+King Kong (1976)
+The Last Picture Show | last picture show
+Thunderbolt and Lightfoot
+Kingsman: The Golden Circle
+Bad Times at the El Royale
+R.I.P.D.
+The Giver | giver
+Surf's Up
+Against All Odds
+Jagged Edge
+Tucker
+Fearless
+The Contender | contender
+Arlington Road
+Blown Away
+Only the Brave
+The Door in the Floor
+*Cutter's Way
+Tron: Ares
+Heaven's Gate
+
+# Name a movie starring Daniel Radcliffe
+Harry Potter and the Sorcerer's Stone | sorcerers stone | philosophers stone
+Harry Potter and the Deathly Hallows | deathly hallows
+The Woman in Black | woman in black
+Swiss Army Man
+Now You See Me 2
+The Lost City | lost city
+Weird: The Al Yankovic Story | weird
+Kill Your Darlings
+Horns
+Guns Akimbo
+Imperium
+Victor Frankenstein
+Escape from Pretoria
+What If
+Jungle
+December Boys
+The Tailor of Panama
+*Beast of Burden
+Miracle Workers
+David Copperfield (1999)
+
+# Name a movie starring Emma Watson
+Harry Potter and the Sorcerer's Stone | sorcerers stone | philosophers stone
+Beauty and the Beast (2017)
+The Perks of Being a Wallflower | perks of being a wallflower
+Little Women
+The Bling Ring | bling ring
+Noah
+This Is the End
+The Circle | circle
+Colonia
+Regression
+My Week with Marilyn
+The Tale of Despereaux
+Ballet Shoes
+*Harry Potter and the Chamber of Secrets
+Harry Potter and the Deathly Hallows – Part 2
+
+# Name a movie starring Bradley Cooper
+The Hangover | hangover
+A Star Is Born
+Silver Linings Playbook
+American Sniper
+Guardians of the Galaxy
+Limitless
+Maestro
+The A-Team | a team
+Wedding Crashers
+Yes Man
+American Hustle
+He's Just Not That Into You
+Valentine's Day
+Burnt
+Joy
+Nightmare Alley
+Licorice Pizza
+The Place Beyond the Pines
+Aloha
+Serena
+War Dogs
+Wet Hot American Summer
+Case 39
+All About Steve
+The Midnight Meat Train
+Hit and Run
+*Rocket Raccoon voice
+Avengers: Endgame
+Is This Thing On?
+
+# Name a movie starring Chris Pratt
+Guardians of the Galaxy
+Jurassic World
+The Lego Movie | lego movie
+The Super Mario Bros. Movie | super mario bros movie
+Passengers
+The Magnificent Seven | magnificent seven
+Onward
+The Tomorrow War | tomorrow war
+Avengers: Infinity War
+Jurassic World: Fallen Kingdom
+Jurassic World Dominion
+Moneyball
+Her
+Zero Dark Thirty
+The Garfield Movie | garfield
+Bride Wars
+Jennifer's Body
+Wanted
+Delivery Man
+10 Years
+The Five-Year Engagement
+The Electric State | electric state
+Mercy
+*Take Me Home Tonight
+What's Your Number?
+
+# Name a movie starring Chris Hemsworth
+Thor
+The Avengers | avengers
+Extraction
+Thor: Ragnarok | ragnarok
+Furiosa
+Men in Black: International
+Rush
+Snow White and the Huntsman
+In the Heart of the Sea
+Star Trek
+The Cabin in the Woods | cabin in the woods
+Ghostbusters (2016)
+Bad Times at the El Royale
+Spiderhead
+12 Strong
+Red Dawn
+Blackhat
+Vacation
+Thor: Love and Thunder
+Thor: The Dark World
+The Huntsman: Winter's War
+Transformers One
+Extraction 2
+Crime 101
+*A Perfect Getaway
+Ca$h
+
+# Name a movie starring Mila Kunis
+Black Swan
+Ted
+Friends with Benefits
+Bad Moms
+Forgetting Sarah Marshall
+Oz the Great and Powerful
+The Book of Eli | book of eli
+Date Night
+Jupiter Ascending
+Luckiest Girl Alive
+The Spy Who Dumped Me | spy who dumped me
+A Bad Moms Christmas
+Max Payne
+Extract
+Moving On
+Four Good Days
+Third Person
+Blood Ties
+Boot Camp
+*Gia
+Family Guy
+That '70s Show
+
+# Name a movie starring Channing Tatum
+Magic Mike
+21 Jump Street
+The Vow
+Step Up
+She's the Man
+22 Jump Street
+Dear John
+White House Down
+Foxcatcher
+G.I. Joe: The Rise of Cobra
+Jupiter Ascending
+Logan Lucky
+The Lost City | lost city
+Dog
+Hail, Caesar! | hail caesar
+The Hateful Eight | hateful eight
+Kingsman: The Golden Circle
+Smallfoot
+Magic Mike XXL
+Magic Mike's Last Dance
+Fly Me to the Moon
+Blink Twice
+Roofman
+Haywire
+Fighting
+The Eagle | eagle
+Side Effects
+*Coach Carter
+Stop-Loss
+Public Enemies
+
+## Movie Characters
+
+# Name a character from Harry Potter {names}
+Harry Potter
+Hermione Granger
+Ron Weasley
+Albus Dumbledore | dumbledore
+Lord Voldemort | voldemort | tom riddle
+Severus Snape | snape
+Draco Malfoy
+Rubeus Hagrid | hagrid
+Sirius Black
+Neville Longbottom
+Luna Lovegood
+Ginny Weasley
+Fred Weasley
+George Weasley
+Dobby
+Minerva McGonagall | mcgonagall
+Bellatrix Lestrange
+Lucius Malfoy
+Dolores Umbridge | umbridge
+Remus Lupin | lupin
+Cedric Diggory
+Hedwig
+Molly Weasley
+Arthur Weasley
+Percy Weasley
+Bill Weasley
+Charlie Weasley
+Cho Chang
+Nymphadora Tonks | tonks
+Mad-Eye Moody | alastor moody
+Peter Pettigrew | wormtail
+Gilderoy Lockhart | lockhart
+Kreacher
+Argus Filch | filch
+Mrs. Norris
+Fleur Delacour
+Viktor Krum
+Dudley Dursley
+Vernon Dursley
+Petunia Dursley
+Lily Potter
+James Potter
+Moaning Myrtle
+Nearly Headless Nick
+Peeves
+Fawkes
+Buckbeak
+Crookshanks
+Scabbers
+Horace Slughorn | slughorn
+Sybill Trelawney | trelawney
+Quirinus Quirrell | quirrell
+Cornelius Fudge | fudge
+Kingsley Shacklebolt
+Gellert Grindelwald | grindelwald
+Aberforth Dumbledore
+Seamus Finnigan
+Dean Thomas
+Lavender Brown
+Parvati Patil
+Padma Patil
+Oliver Wood
+Colin Creevey
+Vincent Crabbe | crabbe
+Gregory Goyle | goyle
+Pansy Parkinson
+Narcissa Malfoy
+Barty Crouch Jr. | barty crouch
+Rita Skeeter
+Xenophilius Lovegood
+Pomona Sprout | professor sprout
+Filius Flitwick | flitwick
+Madam Pomfrey
+Madam Hooch
+Griphook
+Ollivander
+Aragog
+Nagini
+Fang
+Hokey
+Winky
+Teddy Lupin
+Scorpius Malfoy
+*Mundungus Fletcher
+Grawp
+Firenze
+Bathilda Bagshot
+Rolanda Hooch
+Cuthbert Binns | professor binns
+Charity Burbage
+Hannah Abbott
+Ernie Macmillan
+Zacharias Smith
+Marcus Flint
+Romilda Vane
+Cormac McLaggen
+Katie Bell
+Angelina Johnson
+Lee Jordan
+Mafalda Hopkirk

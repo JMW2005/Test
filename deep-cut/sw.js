@@ -1,9 +1,11 @@
 // Deep Cut service worker: keeps the game playable offline.
 // Bump VERSION whenever index.html or the icons change so phones pick up the update.
-const VERSION = "deepcut-v1";
+const VERSION = "deepcut-v2";
 const SHELL = [
   "./",
   "./index.html",
+  "./bank.js",
+  "./bank.html",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -41,15 +43,12 @@ self.addEventListener("fetch", e => {
 
   if (url.origin !== location.origin) return;
 
-  // The page itself: network first so new versions show up, cache when offline.
-  if (req.mode === "navigate") {
-    e.respondWith(
-      fetch(req).then(r => { const copy = r.clone(); caches.open(VERSION).then(c => c.put("./index.html", copy)); return r; })
-        .catch(() => caches.match("./index.html"))
-    );
-    return;
-  }
-
-  // Everything else (icons, manifest): cache first.
-  e.respondWith(caches.match(req).then(hit => hit || fetch(req)));
+  // Our own files (the page, bank.js and the prompt bank): always try the network first so
+  // edits to the bank show up right away, and fall back to the saved copy when offline.
+  e.respondWith(
+    fetch(req, {cache: "no-cache"}).then(r => {
+      if (r.ok) { const copy = r.clone(); caches.open(VERSION).then(c => c.put(req.mode === "navigate" ? "./index.html" : req, copy)); }
+      return r;
+    }).catch(() => caches.match(req.mode === "navigate" ? "./index.html" : req, {ignoreSearch: true}))
+  );
 });
