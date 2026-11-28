@@ -1,0 +1,2731 @@
+// Deep Cut prompt bank: QUICK ROUNDS C (short lists, titles and names only)
+// Answers go most common first. * marks the Mother Lode.
+
+## Quick Rounds
+
+# Name an actor who played a Marvel or DC superhero {names}
+Robert Downey Jr.
+Chris Evans
+Chris Hemsworth
+Scarlett Johansson
+Mark Ruffalo
+Tom Holland
+Chadwick Boseman
+Benedict Cumberbatch
+Paul Rudd
+Brie Larson
+Elizabeth Olsen
+Jeremy Renner
+Chris Pratt
+Zoe Saldaña
+Ryan Reynolds
+Hugh Jackman
+Gal Gadot
+Henry Cavill
+Ben Affleck
+Jason Momoa
+Ezra Miller
+Christian Bale
+Robert Pattinson
+Michael Keaton
+Christopher Reeve
+David Corenswet
+Tobey Maguire
+Andrew Garfield
+Anthony Mackie
+Sebastian Stan
+Don Cheadle
+Simu Liu
+Florence Pugh
+Iman Vellani
+Oscar Isaac
+Tatiana Maslany
+Hailee Steinfeld
+Margot Robbie
+Zachary Levi
+Dolph Lundgren
+Thomas Jane
+Eric Bana
+Edward Norton
+
+# Name a famous voice actor or a celebrity who voiced an animated character {names}
+Tom Hanks
+Tim Allen
+Eddie Murphy
+Mike Myers
+Robin Williams
+Billy Crystal
+John Goodman
+Ellen DeGeneres
+Idina Menzel
+Kristen Bell
+Josh Gad
+Dwayne Johnson
+Auli'i Cravalho
+Jack Black
+Steve Carell
+Chris Pratt
+Seth Rogen
+Mark Hamill
+Tara Strong
+Nancy Cartwright
+Dan Castellaneta
+Seth MacFarlane
+Mel Blanc
+Frank Welker
+Tom Kenny
+Bill Fagerbakke
+Hank Azaria
+Julie Kavner
+Yeardley Smith
+Cree Summer
+Rob Paulsen
+Jess Harnell
+Jim Cummings
+Christopher Lloyd
+James Earl Jones
+Jeremy Irons
+Matthew Broderick
+Nathan Lane
+Ming-Na Wen
+Lea Salonga
+Jodi Benson
+Paige O'Hara
+Scott Weinger
+Brad Garrett
+Patton Oswalt
+Amy Poehler
+Phyllis Smith
+Lewis Black
+*June Foray
+Daws Butler
+Don Messick
+Casey Kasem
+Clarence Nash
+
+# Name a song from the musical Hamilton
+My Shot
+Alexander Hamilton
+Wait for It
+Satisfied
+You'll Be Back
+The Room Where It Happens
+Helpless
+The Schuyler Sisters
+Non-Stop
+Burn
+It's Quiet Uptown
+Dear Theodosia
+Guns and Ships
+Yorktown
+Right Hand Man
+History Has Its Eyes on You
+Aaron Burr, Sir
+The Story of Tonight
+One Last Time
+Say No to This
+Washington on Your Side
+Cabinet Battle #1
+Cabinet Battle #2
+What'd I Miss
+Take a Break
+Hurricane
+The Reynolds Pamphlet
+Blow Us All Away
+Stay Alive
+The World Was Wide Enough
+Who Lives, Who Dies, Who Tells Your Story
+Farmer Refuted
+That Would Be Enough
+Ten Duel Commandments
+Meet Me Inside
+We Know
+The Election of 1800
+Your Obedient Servant
+Best of Wives and Best of Women
+*I Know Him
+A Winter's Ball
+Schuyler Defeated
+
+# Name a song from Wicked
+Defying Gravity
+Popular
+For Good
+The Wizard and I
+No One Mourns the Wicked
+Dancing Through Life
+What Is This Feeling?
+I'm Not That Girl
+As Long as You're Mine
+No Good Deed
+One Short Day
+Wonderful
+Something Bad
+Dear Old Shiz
+Thank Goodness
+March of the Witch Hunters
+A Sentimental Man
+The Wicked Witch of the East
+*Ozdust Duet
+The Girl in the Bubble
+No Place Like Home
+
+# Name a song from Grease or Mamma Mia!
+Summer Nights
+You're the One That I Want
+Greased Lightnin'
+Hopelessly Devoted to You
+Grease
+Beauty School Dropout
+We Go Together
+Look at Me, I'm Sandra Dee
+There Are Worse Things I Could Do
+Born to Hand Jive
+Mamma Mia
+Dancing Queen
+The Winner Takes It All
+Lay All Your Love on Me
+Voulez-Vous
+Honey, Honey
+Money, Money, Money
+Super Trouper
+Waterloo
+Gimme! Gimme! Gimme!
+Does Your Mother Know
+Take a Chance on Me
+I Have a Dream
+Slipping Through My Fingers
+Our Last Summer
+When I Kissed the Teacher
+Fernando
+Andante, Andante
+One of Us
+*Sandy
+Rock 'n' Roll Party Queen
+Those Magic Changes
+
+# Name a song from The Greatest Showman or La La Land
+This Is Me
+The Greatest Show
+A Million Dreams
+Rewrite the Stars
+Never Enough
+Come Alive
+The Other Side
+From Now On
+Tightrope
+City of Stars
+Another Day of Sun
+Someone in the Crowd
+Audition (The Fools Who Dream)
+A Lovely Night
+Start a Fire
+Mia & Sebastian's Theme
+Epilogue
+Planetarium
+Engagement Party
+*Herman's Habit
+Summer Montage
+
+# Name a song from High School Musical
+Breaking Free
+We're All in This Together
+Start of Something New
+Get'cha Head in the Game
+What I've Been Looking For
+Stick to the Status Quo
+Bop to the Top
+When There Was Me and You
+I Can't Take My Eyes Off of You
+What Time Is It
+Fabulous
+Gotta Go My Own Way
+Bet on It
+You Are the Music in Me
+I Don't Dance
+Everyday
+All for One
+Now or Never
+Can I Have This Dance
+Scream
+A Night to Remember
+Just Wanna Be with You
+I Want It All
+Senior Year Spring Musical
+High School Musical
+Walk Away
+*Humuhumunukunukuapua'a
+The Boys Are Back
+Right Here Right Now
+
+# Name a song from Frozen or Encanto
+Let It Go
+Do You Want to Build a Snowman?
+For the First Time in Forever
+Love Is an Open Door
+In Summer
+Fixer Upper
+Reindeer(s) Are Better Than People
+Frozen Heart
+Into the Unknown
+Show Yourself
+Lost in the Woods
+Some Things Never Change
+All Is Found
+When I Am Older
+The Next Right Thing
+We Don't Talk About Bruno
+Surface Pressure
+The Family Madrigal
+What Else Can I Do?
+Dos Oruguitas
+Waiting on a Miracle
+All of You
+Colombia, Mi Encanto
+*Vuelve
+Let It Go (Reprise)
+
+# Name a famous movie soundtrack composer {names}
+John Williams
+Hans Zimmer
+Danny Elfman
+James Horner
+Howard Shore
+Alan Menken
+Ennio Morricone
+Ludwig Göransson
+Michael Giacchino
+Alexandre Desplat
+Thomas Newman
+Randy Newman
+Joe Hisaishi
+John Powell
+Alan Silvestri
+Jerry Goldsmith
+Bernard Herrmann
+James Newton Howard
+Trent Reznor
+Atticus Ross
+Hildur Guðnadóttir | hildur gudnadottir
+Jonny Greenwood
+Justin Hurwitz
+Nicholas Britell
+Ramin Djawadi
+Bear McCreary
+Lin-Manuel Miranda
+Henry Mancini
+Elmer Bernstein
+Max Steiner
+Vangelis
+Philip Glass
+Clint Mansell
+Michael Kamen
+Harry Gregson-Williams
+Rachel Portman
+*Basil Poledouris
+Maurice Jarre
+Nino Rota
+Ryuichi Sakamoto
+John Barry
+Kris Bowers
+
+# Name a famous rapper's real first name
+Marshall (Eminem)
+Shawn (Jay-Z)
+Aubrey (Drake)
+Kendrick
+Tupac
+Christopher (Biggie)
+Calvin (Snoop Dogg)
+Andre (Dr. Dre)
+O'Shea (Ice Cube)
+Curtis (50 Cent)
+Dwayne (Lil Wayne)
+Jacques (Travis Scott)
+Austin (Post Malone)
+Onika (Nicki Minaj)
+Belcalis (Cardi B)
+Megan
+Jermaine (J. Cole)
+Montero (Lil Nas X)
+Malcolm (Mac Miller)
+Jarad (Juice WRLD)
+Donald (Childish Gambino)
+Tyler
+Kanye
+Nasir (Nas)
+Sean (Diddy)
+Christopher (Ludacris)
+Armando (Pitbull)
+Earl (DMX)
+*Daniel (MF DOOM)
+Trevor (Busta Rhymes)
+Clifford (T.I.)
+Melissa (Lizzo)
+
+# Name a famous celebrity child {names}
+North West
+Blue Ivy Carter
+Suri Cruise
+Shiloh Jolie-Pitt
+Apple Martin
+Stormi Webster
+Maddox Jolie-Pitt
+Zahara Jolie-Pitt
+Brooklyn Beckham
+Romeo Beckham
+Harper Beckham
+Jaden Smith
+Willow Smith
+Malia Obama
+Sasha Obama
+Prince George
+Princess Charlotte
+Archie Harrison
+Lily-Rose Depp
+Kaia Gerber
+Ireland Baldwin
+Zoë Kravitz
+Dakota Johnson
+Gwyneth Paltrow
+Kate Hudson
+Miley Cyrus
+Noah Cyrus
+Lourdes Leon
+Rocco Ritchie
+Moses Martin
+Rumer Willis
+Scout Willis
+Tallulah Willis
+Paris Jackson
+Prince Jackson
+Blanket | bigi jackson
+Ava Phillippe
+Deacon Phillippe
+Violet Affleck
+Seraphina Affleck
+Sam Affleck
+*Moon Unit Zappa
+Dweezil Zappa
+Frances Bean Cobain
+Pilot Inspektor
+Saint West
+Psalm West
+Chicago West
+
+# Name something associated with Harry Potter (not a character)
+Hogwarts
+Quidditch
+Wand
+Owl
+Sorting Hat
+Gryffindor
+Slytherin
+Hufflepuff
+Ravenclaw
+Platform 9¾ | platform nine and three quarters
+Hogwarts Express
+Diagon Alley
+Gringotts
+Butterbeer
+Golden Snitch
+Invisibility Cloak
+Marauder's Map
+Horcrux
+Deathly Hallows
+Elder Wand
+Resurrection Stone
+Philosopher's Stone | sorcerers stone
+Time-Turner
+Pensieve
+Patronus
+Dementor
+Floo powder
+Portkey
+Broomstick
+Nimbus 2000
+Firebolt
+Howler
+Remembrall
+Bertie Bott's Every Flavour Beans
+Chocolate Frog
+Polyjuice Potion
+Felix Felicis
+Mirror of Erised
+Room of Requirement
+Chamber of Secrets
+Forbidden Forest
+Whomping Willow
+Hogsmeade
+Azkaban
+Ministry of Magic
+Quibbler
+Daily Prophet
+Muggle
+Squib
+Mudblood
+Order of the Phoenix
+Death Eaters
+Dark Mark
+Triwizard Tournament
+Yule Ball
+O.W.L.s
+N.E.W.T.s
+House points
+House cup
+Lightning bolt scar
+*Weasleys' Wizard Wheezes
+Spew | s p e w
+Knight Bus
+Leaky Cauldron
+Three Broomsticks
+Shrieking Shack
+Godric's Hollow
+The Burrow
+Privet Drive
+Cupboard under the stairs
+
+# Name something associated with Star Wars (not a character)
+Lightsaber
+The Force
+Jedi
+Sith
+Death Star
+Millennium Falcon
+X-wing
+TIE fighter
+Stormtroopers
+Clone troopers
+Darth Vader's helmet
+Blaster
+Hyperspace
+Lightspeed
+Tatooine
+Hoth
+Endor
+Rebel Alliance
+Galactic Empire
+First Order
+Resistance
+Republic
+Senate
+Kyber crystal
+Holocron
+Carbonite
+Sarlacc
+Rancor
+Bantha
+Tauntaun
+Ewoks
+Wookiees
+Jawas
+Tusken Raiders | sand people
+Mandalorian armor
+Beskar
+AT-AT
+AT-ST
+Star Destroyer
+Podracing
+Midi-chlorians
+Order 66
+Kessel Run
+Bacta tank
+Blue milk
+Cantina
+Mos Eisley
+May the 4th
+John Williams
+Opening crawl
+*Porg
+Gonk droid
+Mouse droid
+Death Star plans
+Thermal detonator
+Han shot first
+
+# Name something associated with Pokémon (not a Pokémon)
+Poké Ball | pokeball
+Pokédex | pokedex
+Ash Ketchum
+Team Rocket
+Gym
+Gym badge
+Pokémon Center
+Nurse Joy
+Professor Oak
+Trainer
+Evolution
+Pallet Town
+Kanto
+Johto
+Hoenn
+Sinnoh
+Unova
+Kalos
+Alola
+Galar
+Paldea
+Master Ball
+Great Ball
+Ultra Ball
+Potion
+Rare Candy
+TM
+HM
+Shiny
+Legendary
+Mega Evolution
+Gigantamax
+Terastal
+Z-Move
+Elite Four
+Champion
+Pokémon League
+Gotta Catch 'Em All
+Trading cards
+Pokémon Go
+Game Boy
+Nintendo
+Game Freak
+Safari Zone
+Victory Road
+Mt. Moon
+Cerulean Cave
+Rocket Hideout
+Lavender Town
+*Missingno
+Bill's PC
+Old Rod
+Bike
+Pokéflute
+Silph Co.
+
+# Name something associated with Minecraft (not a mob or block)
+Steve
+Alex
+Herobrine
+Notch
+Mojang
+Nether
+The End
+Overworld
+Ender Dragon
+Creative mode
+Survival mode
+Hardcore mode
+Redstone
+Enchanting
+Crafting
+Mining
+Diamonds
+Villages
+Pillager outposts
+Woodland mansion
+Ocean monument
+Stronghold
+Bastion
+Nether fortress
+Ancient city
+Trial chambers
+Biome
+Spawn point
+Respawn
+Seed
+Server
+Hypixel
+Realms
+Mods
+Skins
+Texture packs
+Shaders
+Bedrock Edition
+Java Edition
+Minecraft Dungeons
+Minecraft Legends
+A Minecraft Movie
+Chicken jockey
+Achievements
+Speedrun
+Dream
+Technoblade
+Stampy
+DanTDM
+*Far Lands
+Sweden
+C418
+Pigstep
+Lena Raine
+
+# Name something associated with Fortnite (not a location)
+Battle Bus
+Victory Royale
+Llama
+Storm
+Building
+Edit
+Emotes
+Default Dance
+Floss
+Orange Justice
+Skins
+Battle Pass
+V-Bucks
+Item Shop
+Peely
+Jonesy
+Fishstick
+Midas
+Drift
+Raven
+Renegade Raider
+Travis Scott concert
+Marshmello concert
+Ariana Grande concert
+Eminem
+Zero Build
+Creative mode
+Save the World
+Lego Fortnite
+Fortnite Festival
+Rocket Racing
+OG Fortnite
+Chapter 1
+Live events
+The Cube | kevin the cube
+The Rocket launch
+The Black Hole
+Ninja
+Bugha
+Tfue
+Clix
+Mongraal
+Epic Games
+Unreal Engine
+*Durr Burger
+Boogie Bomb
+Chug Jug
+Shield Potion
+Slurp Juice
+
+# Name something associated with Disney World or Disneyland
+Mickey Mouse
+Cinderella Castle
+Sleeping Beauty Castle
+Fireworks
+Parades
+Churros
+Dole Whip
+Turkey legs
+Mickey ears
+Mickey pretzels
+Space Mountain
+Pirates of the Caribbean
+Haunted Mansion
+It's a Small World
+FastPass
+Lightning Lane
+Genie+
+MagicBand
+Monorail
+Epcot
+Spaceship Earth
+Hollywood Studios
+Animal Kingdom
+Tree of Life
+Magic Kingdom
+Main Street, U.S.A.
+Tomorrowland
+Fantasyland
+Galaxy's Edge
+Character meet-and-greets
+Princesses
+Long lines
+Fireworks show
+Happily Ever After
+Wishes
+Fantasmic!
+Electrical Parade
+Hidden Mickeys
+Disney Springs
+Downtown Disney
+Contemporary Resort
+Grand Floridian
+Animal Kingdom Lodge
+Club 33
+Disney Vacation Club
+Orlando
+Anaheim
+Walt Disney
+Cast members
+*Utilidors
+Haunted Mansion stretching room
+Tiki Room
+Carousel of Progress
+Country Bear Jamboree
+Splash Mountain
+Tiana's Bayou Adventure
+
+# Name something associated with Christmas
+Santa Claus
+Christmas tree
+Presents | gifts
+Reindeer
+Rudolph
+Elves
+Stockings
+Snow
+Snowman
+Candy canes
+Gingerbread
+Cookies
+Milk and cookies
+Mistletoe
+Wreath
+Lights
+Ornaments
+Tinsel
+Star
+Angel
+Nativity
+Baby Jesus
+Mary and Joseph
+Three Wise Men
+Bethlehem
+North Pole
+Sleigh
+Chimney
+Fireplace
+Carols
+Jingle Bells
+Eggnog
+Hot cocoa
+Ugly sweaters
+Advent calendar
+Christmas Eve
+Christmas morning
+Wrapping paper
+Bows
+Ribbons
+Elf on the Shelf
+Nutcracker
+Poinsettia
+Holly
+Yule log
+Fruitcake
+Candles
+Bells
+Grinch
+Scrooge
+Home Alone
+Mariah Carey
+*Krampus
+Befana
+Saint Nicholas
+Kris Kringle
+Festivus pole
+Christmas pickle
+
+# Name something associated with Halloween
+Pumpkins
+Jack-o'-lanterns
+Costumes
+Candy
+Trick-or-treating
+Witches
+Ghosts
+Vampires
+Zombies
+Skeletons
+Bats
+Black cats
+Spiders
+Cobwebs
+Haunted houses
+Graveyards
+Tombstones
+Monsters
+Werewolves
+Mummies
+Frankenstein
+Dracula
+Candy corn
+Caramel apples
+Bobbing for apples
+Corn mazes
+Hayrides
+Scarecrows
+Full moon
+Broomsticks
+Cauldrons
+October 31
+Scary movies
+Michael Myers
+Hocus Pocus
+Nightmare Before Christmas
+Pumpkin carving
+Pumpkin spice
+Fun-size candy bars
+Full-size candy bars
+Toilet paper (TP-ing houses)
+Smashing pumpkins
+Monster Mash
+Thriller
+Spooky
+Ouija board
+Séance
+Fog machine
+Fake blood
+Masks
+*Samhain
+Day of the Dead
+All Hallows' Eve
+Soul cakes
+Barmbrack
+Pillowcase for candy
+
+# Name something associated with Valentine's Day
+Roses
+Chocolate
+Hearts
+Cupid
+Love
+Cards
+Candy hearts | conversation hearts
+Teddy bears
+Jewelry
+Dinner date
+Romance
+Kisses
+Red
+Pink
+Champagne
+Strawberries
+Chocolate-covered strawberries
+Lingerie
+Proposal
+Engagement ring
+Balloons
+Love letters
+Poems
+Galentine's Day
+February 14
+St. Valentine
+XOXO
+Hallmark
+Box of chocolates
+Sweethearts
+Valentines for classmates
+Bouquet
+Perfume
+Candles
+Bubble bath
+Romantic movies
+Singles Awareness Day
+Bow and arrow
+Lovebirds
+Doves
+*Lupercalia
+Saint Valentine's Day Massacre
+Anti-Valentine's Day
+Palentine's
+
+# Name something associated with Easter
+Easter Bunny
+Easter eggs
+Egg hunt
+Chocolate eggs
+Jelly beans
+Peeps
+Easter basket
+Bonnets
+Lilies
+Chicks
+Lambs
+Ham
+Hot cross buns
+Church
+Sunrise service
+Resurrection
+Jesus
+Good Friday
+Palm Sunday
+Lent
+Spring
+Pastel colors
+Dyeing eggs
+Cadbury Creme Egg
+Chocolate bunny
+Robin eggs
+Easter grass
+Egg roll
+White House Easter Egg Roll
+Easter parade
+Easter Monday
+Daffodils
+Tulips
+Bunny ears
+Plastic eggs
+Deviled eggs
+Carrot cake
+Lamb roast
+Paska
+*Pysanky
+Simnel cake
+Easter Island
+Easter bilby
+
+# Name a famous Thanksgiving tradition or thing
+Turkey
+Macy's Thanksgiving Day Parade
+Football
+Pumpkin pie
+Stuffing
+Cranberry sauce
+Mashed potatoes
+Gravy
+Family dinner
+Saying what you're thankful for
+Wishbone
+Pilgrims
+Mayflower
+Plymouth Rock
+Turkey pardon
+Black Friday
+Friendsgiving
+Leftovers
+Turkey sandwich
+Naps
+Food coma
+Detroit Lions game
+Dallas Cowboys game
+Snoopy balloon
+Charlie Brown Thanksgiving
+Turkey trot
+Volunteering
+Cornucopia
+Hand turkeys
+Paper pilgrim hats
+Kids' table
+Carving the turkey
+Deep-fried turkey
+Tofurky
+Pie
+Football in the yard
+National Dog Show
+Christmas decorations go up
+Native Americans
+Squanto
+Thanksgiving Day proclamation
+Plymouth colony
+Harvest
+
+# Name a famous American city
+New York City
+Los Angeles
+Chicago
+Houston
+Miami
+San Francisco
+Las Vegas
+Boston
+Seattle
+Washington, D.C.
+Philadelphia
+Atlanta
+Dallas
+Denver
+Phoenix
+San Diego
+Austin
+Nashville
+New Orleans
+Detroit
+Orlando
+Portland
+Minneapolis
+Baltimore
+St. Louis
+Kansas City
+Pittsburgh
+Cleveland
+Cincinnati
+Milwaukee
+Salt Lake City
+Charlotte
+Indianapolis
+Columbus
+San Antonio
+San Jose
+Sacramento
+Honolulu
+Anchorage
+Memphis
+Louisville
+Oklahoma City
+Tampa
+Raleigh
+Albuquerque
+Tucson
+Boise
+Omaha
+Des Moines
+Buffalo
+*Walla Walla
+Kalamazoo
+Punxsutawney
+Truth or Consequences
+Boring, Oregon
+
+# Name a famous city outside the US
+London
+Paris
+Tokyo
+Rome
+Toronto
+Sydney
+Dubai
+Barcelona
+Berlin
+Hong Kong
+Mexico City
+Rio de Janeiro
+Moscow
+Beijing
+Shanghai
+Seoul
+Mumbai
+Cairo
+Istanbul
+Amsterdam
+Madrid
+Venice
+Florence
+Athens
+Vienna
+Prague
+Dublin
+Edinburgh
+Montreal
+Vancouver
+Buenos Aires
+Lima
+Bangkok
+Singapore
+Bali
+Cape Town
+Johannesburg
+Lagos
+Nairobi
+Melbourne
+Auckland
+Kyoto
+Osaka
+Delhi
+Jerusalem
+Havana
+Cancún
+Lisbon
+Stockholm
+Copenhagen
+Reykjavik
+*Ulaanbaatar
+Timbuktu
+Kathmandu
+Llanfairpwllgwyngyll
+Ouagadougou
+
+# Name a famous American road trip destination or national park
+Grand Canyon
+Yellowstone
+Yosemite
+Zion
+Route 66
+Las Vegas
+Mount Rushmore
+Niagara Falls
+Glacier National Park
+Great Smoky Mountains
+Arches
+Bryce Canyon
+Rocky Mountain National Park
+Grand Teton
+Death Valley
+Joshua Tree
+Sequoia
+Redwood
+Olympic
+Acadia
+Everglades
+Big Sur
+Pacific Coast Highway
+Key West
+Nashville
+New Orleans
+Monument Valley
+Antelope Canyon
+Badlands
+Black Hills
+Devils Tower
+Mesa Verde
+Carlsbad Caverns
+Mammoth Cave
+Hot Springs
+Shenandoah
+Blue Ridge Parkway
+Denali
+Hawaii Volcanoes
+Haleakalā
+Crater Lake
+Mount Rainier
+White Sands
+Canyonlands
+Capitol Reef
+Petrified Forest
+Saguaro
+Great Sand Dunes
+*Dry Tortugas
+Isle Royale
+Gates of the Arctic
+Congaree
+Wind Cave
+American Samoa
+Kobuk Valley
+
+# Name a famous person from Canada {names}
+Justin Bieber
+Drake
+Celine Dion
+Ryan Reynolds
+Ryan Gosling
+Shania Twain
+Avril Lavigne
+The Weeknd
+Michael Bublé
+Jim Carrey
+Mike Myers
+Keanu Reeves
+Seth Rogen
+Michael J. Fox
+Rachel McAdams
+Wayne Gretzky
+Sidney Crosby
+Connor McDavid
+Shawn Mendes
+Alanis Morissette
+Joni Mitchell
+Neil Young
+Leonard Cohen
+Bryan Adams
+Nelly Furtado
+Carly Rae Jepsen
+Alessia Cara
+Tate McRae
+Justin Trudeau
+Pierre Trudeau
+William Shatner
+Dan Aykroyd
+John Candy
+Martin Short
+Eugene Levy
+Catherine O'Hara
+Dan Levy
+Will Arnett
+Sandra Oh
+Elliot Page
+Nina Dobrev
+Simu Liu
+Michael Cera
+Jay Baruchel
+Cobie Smulders
+Pamela Anderson
+Kiefer Sutherland
+Donald Sutherland
+Christopher Plummer
+Margaret Atwood
+Alex Trebek
+Howie Mandel
+*Tommy Chong
+Rush
+Barenaked Ladies
+Nickelback
+Arcade Fire
+Grimes
+Lilly Singh
+Vladimir Guerrero Jr.
+
+# Name a famous person from Australia or New Zealand {names}
+Hugh Jackman
+Chris Hemsworth
+Liam Hemsworth
+Margot Robbie
+Nicole Kidman
+Cate Blanchett
+Russell Crowe
+Heath Ledger
+Mel Gibson
+Kylie Minogue
+Sia
+Keith Urban
+Olivia Newton-John
+Steve Irwin
+Bindi Irwin
+Robert Irwin
+Rebel Wilson
+Naomi Watts
+Isla Fisher
+Toni Collette
+Geoffrey Rush
+Eric Bana
+Guy Pearce
+Jacob Elordi
+Troye Sivan
+5 Seconds of Summer
+The Kid LAROI
+Iggy Azalea
+Tame Impala
+AC/DC
+INXS
+Men at Work
+Bee Gees
+Crowded House
+Lorde
+Taika Waititi
+Peter Jackson
+Jemaine Clement
+Bret McKenzie
+Rhys Darby
+Karl Urban
+Russell Crowe
+Anna Paquin
+Lucy Lawless
+Sam Neill
+Jacinda Ardern
+Ash Barty
+Ian Thorpe
+Cathy Freeman
+Greg Norman
+*Rolf Harris
+Paul Hogan
+Dame Edna
+Yahoo Serious
+Mick Fanning
+Jordan Mailata
+
+# Name a famous person from the UK {names}
+Queen Elizabeth II
+Prince William
+Harry Styles
+Ed Sheeran
+Adele
+David Beckham
+Paul McCartney
+John Lennon
+Elton John
+Freddie Mercury
+Mick Jagger
+David Bowie
+Daniel Radcliffe
+Emma Watson
+Benedict Cumberbatch
+Tom Holland
+Daniel Craig
+Idris Elba
+Kate Winslet
+Helen Mirren
+Judi Dench
+Maggie Smith
+Hugh Grant
+Colin Firth
+Jude Law
+Orlando Bloom
+Keira Knightley
+Florence Pugh
+Dua Lipa
+Lewis Hamilton
+Andy Murray
+Wayne Rooney
+Harry Kane
+Gordon Ramsay
+Jamie Oliver
+Simon Cowell
+Ricky Gervais
+Rowan Atkinson
+John Cleese
+Stephen Fry
+Winston Churchill
+Margaret Thatcher
+Boris Johnson
+Princess Diana
+Charles Darwin
+Isaac Newton
+Stephen Hawking
+William Shakespeare
+J.K. Rowling
+Charles Dickens
+Jane Austen
+Agatha Christie
+Roald Dahl
+Sir David Attenborough
+Charlie Chaplin
+Alfred Hitchcock
+Christopher Nolan
+Ridley Scott
+Amy Winehouse
+Robbie Williams
+Spice Girls
+One Direction
+Sam Smith
+Stormzy
+Raye
+Charli XCX
+*Tim Berners-Lee
+Alan Turing
+Ada Lovelace
+Florence Nightingale
+Guy Fawkes
+
+# Name a famous person from Ireland or Scotland {names}
+Bono
+Liam Neeson
+Cillian Murphy
+Saoirse Ronan
+Colin Farrell
+Paul Mescal
+Barry Keoghan
+Jamie Dornan
+Conor McGregor
+Hozier
+Niall Horan
+Enya
+Sinéad O'Connor
+The Cranberries
+U2
+Pierce Brosnan
+Michael Fassbender
+Brendan Gleeson
+Domhnall Gleeson
+Chris O'Dowd
+Andrew Scott
+Ruth Negga
+Oscar Wilde
+James Joyce
+W.B. Yeats
+Samuel Beckett
+Seamus Heaney
+Bram Stoker
+C.S. Lewis
+Sean Connery
+Ewan McGregor
+Gerard Butler
+James McAvoy
+David Tennant
+Karen Gillan
+Billy Connolly
+Lewis Capaldi
+Calvin Harris
+Annie Lennox
+Rod Stewart
+Andy Murray
+Gordon Ramsay
+Robert Burns
+Arthur Conan Doyle
+Robert Louis Stevenson
+Alexander Graham Bell
+*Saint Patrick
+William Wallace
+Robert the Bruce
+Mary, Queen of Scots
+Nessie
+
+# Name a famous person from Latin America {names}
+Shakira
+Bad Bunny
+Jennifer Lopez
+Selena Quintanilla
+Ricky Martin
+Marc Anthony
+Gloria Estefan
+Celia Cruz
+Carlos Santana
+Karol G
+J Balvin
+Maluma
+Daddy Yankee
+Peso Pluma
+Sofía Vergara
+Salma Hayek
+Gael García Bernal
+Diego Luna
+Pedro Pascal
+Oscar Isaac
+Eva Longoria
+America Ferrera
+Jenna Ortega
+Zoe Saldaña
+Lionel Messi
+Pelé
+Diego Maradona
+Neymar
+Ronaldinho
+Frida Kahlo
+Diego Rivera
+Gabriel García Márquez
+Pablo Neruda
+Che Guevara
+Fidel Castro
+Eva Perón
+Simón Bolívar
+Guillermo del Toro
+Alfonso Cuarón
+Alejandro G. Iñárritu
+Rosalía
+Becky G
+Anitta
+Thalía
+Enrique Iglesias
+Julio Iglesias
+Luis Miguel
+Juan Gabriel
+Vicente Fernández
+Canelo Álvarez
+Julio César Chávez
+*Cantinflas
+Chespirito
+El Chavo
+Don Francisco
+Walter Mercado
+
+# Name a famous person from India or of Indian descent {names}
+Mahatma Gandhi
+Priyanka Chopra
+Shah Rukh Khan
+Aishwarya Rai
+Deepika Padukone
+Amitabh Bachchan
+Salman Khan
+Aamir Khan
+Ranveer Singh
+Alia Bhatt
+Hrithik Roshan
+Dev Patel
+Mindy Kaling
+Aziz Ansari
+Kal Penn
+Hasan Minhaj
+Lilly Singh
+Kumail Nanjiani
+Padma Lakshmi
+Sundar Pichai
+Satya Nadella
+Kamala Harris
+Nikki Haley
+Vivek Ramaswamy
+Rishi Sunak
+Narendra Modi
+Indira Gandhi
+Jawaharlal Nehru
+Mother Teresa
+A.R. Rahman
+Ravi Shankar
+Norah Jones
+Freddie Mercury
+Sachin Tendulkar
+Virat Kohli
+MS Dhoni
+Rohit Sharma
+Neeraj Chopra
+Sania Mirza
+Viswanathan Anand
+Rabindranath Tagore
+Salman Rushdie
+Jhumpa Lahiri
+Arundhati Roy
+Deepak Chopra
+M. Night Shyamalan
+Sanjay Gupta
+Avani Gregg
+*Ramanujan
+APJ Abdul Kalam
+Kalpana Chawla
+Sunita Williams
+
+# Name a famous K-drama or Korean movie
+Squid Game
+Parasite
+Crash Landing on You
+Goblin | guardian the lonely and great god
+Descendants of the Sun
+Boys Over Flowers
+Itaewon Class
+Extraordinary Attorney Woo
+The Glory
+Vincenzo
+All of Us Are Dead
+Sweet Home
+Kingdom
+Hometown Cha-Cha-Cha
+Business Proposal
+Reply 1988
+Hospital Playlist
+My Love from the Star
+What's Wrong with Secretary Kim
+Strong Woman Do Bong-soon
+Train to Busan
+Oldboy
+The Handmaiden
+Memories of Murder
+The Host
+Snowpiercer
+Decision to Leave
+Burning
+I Saw the Devil
+Okja
+Past Lives
+Minari
+Physical: 100
+Moving
+Queen of Tears
+Lovely Runner
+When Life Gives You Tangerines
+Weak Hero
+Dr. Romantic
+Start-Up
+It's Okay to Not Be Okay
+Twenty-Five Twenty-One
+King the Land
+*Pinocchio (2014)
+Signal
+Stranger
+Mr. Sunshine
+Hotel Del Luna
+
+# Name a famous Bollywood movie
+Dilwale Dulhania Le Jayenge | ddlj
+3 Idiots
+Lagaan
+Kuch Kuch Hota Hai
+Kabhi Khushi Kabhie Gham | k3g
+Sholay
+Dangal
+PK
+RRR
+Baahubali
+Bajrangi Bhaijaan
+Om Shanti Om
+My Name Is Khan
+Chennai Express
+Jawan
+Pathaan
+Devdas
+Mughal-e-Azam
+Mother India
+Taare Zameen Par
+Zindagi Na Milegi Dobara
+Yeh Jawaani Hai Deewani
+Gully Boy
+Padmaavat
+Bajirao Mastani
+Kal Ho Naa Ho
+Jab We Met
+Rang De Basanti
+Swades
+Dil Chahta Hai
+Queen
+Kahaani
+Andhadhun
+Article 15
+Barfi!
+Animal
+Stree
+KGF
+Pushpa
+Slumdog Millionaire
+Monsoon Wedding
+Bend It Like Beckham
+*Pakeezah
+Guide
+Pyaasa
+Awaara
+Deewaar
+Don
+
+# Name an app or internet company
+Google
+Amazon
+Apple
+Yahoo
+Uber
+Lyft
+Twitter
+Etsy
+Zillow
+Hulu
+Roku
+Kayak
+Trivago
+Expedia
+Groupon
+Venmo
+Zoom
+Slack
+Discord
+Twitch
+Reddit
+Tumblr
+Pinterest
+Snapchat
+TikTok
+Spotify
+Pandora
+Shazam
+Duolingo
+Grammarly
+Canva
+Figma
+Notion
+Asana
+Trello
+Airbnb
+DoorDash
+Grubhub
+Postmates
+Instacart
+Chewy
+Wayfair
+Shein
+Temu
+Klarna
+Affirm
+Stripe
+Square
+Robinhood
+Coinbase
+*Ask Jeeves
+Excite
+Lycos
+Bing
+DuckDuckGo
+Ecosia
+
+# Name a famous person known for their hair {names}
+Rapunzel
+Albert Einstein
+Donald Trump
+Boris Johnson
+Jennifer Aniston (The Rachel)
+Farrah Fawcett
+Marge Simpson
+Sideshow Bob
+Elvis Presley
+James Brown
+Bob Ross
+Slash
+Diana Ross
+Dolly Parton
+Cher
+Prince
+Billy Ray Cyrus (mullet)
+Guy Fieri
+Kramer
+Bernie Sanders
+Doc Brown
+Medusa
+Troll dolls
+Goku
+Cloud Strife
+Sonic
+Johnny Bravo
+Danny Zuko
+Fabio
+Jimi Hendrix
+Angela Davis
+Bob Marley
+Lil Wayne
+Travis Scott
+Billie Eilish
+Rihanna
+Katy Perry
+Lady Gaga
+Ed Sheeran
+Harry Styles
+Justin Bieber
+Zayn Malik
+Jared Leto
+Jason Momoa
+Keanu Reeves
+Kurt Cobain
+*Phil Spector
+Don King
+Carrot Top
+Weird Al
+Bonnie Tyler
+Rod Stewart
+Tina Turner
+
+# Name a famous person with a famous beard {names}
+Santa Claus
+Abraham Lincoln
+Gandalf
+Dumbledore
+Hagrid
+Zeus
+Jesus
+Charles Darwin
+Karl Marx
+Leonardo da Vinci
+ZZ Top
+James Harden
+Brian Wilson
+Rick Ross
+Jason Momoa
+Chris Hemsworth
+Kenny Rogers
+Grizzly Adams
+Ulysses S. Grant
+Rutherford B. Hayes
+Paul Bunyan
+Blackbeard
+Rasputin
+Che Guevara
+Fidel Castro
+Ernest Hemingway
+Leo Tolstoy
+Walt Whitman
+Kratos
+Geralt
+Aragorn
+Gimli
+Thorin
+Hagrid
+Tyrion
+Robert Baratheon
+Captain Haddock
+Brian Blessed
+Rick Rubin
+Jerry Garcia
+Dave Grohl
+Zach Galifianakis
+*Rollie Fingers
+Uncle Si
+
+# Name something people do at a sleepover
+Watch movies
+Eat pizza
+Eat popcorn
+Eat candy
+Stay up late
+Play truth or dare
+Tell ghost stories
+Prank calls
+Pillow fights
+Paint nails
+Do makeovers
+Play video games
+Build a fort
+Talk about crushes
+Play Never Have I Ever
+Light as a feather, stiff as a board
+Bloody Mary
+Ouija board
+Make friendship bracelets
+Bake cookies
+Have a dance party
+Karaoke
+Take selfies
+Make TikToks
+Sleep in sleeping bags
+Play MASH
+Play board games
+Play cards
+Do face masks
+Prank whoever falls asleep first
+Eat breakfast pancakes
+Freeze someone's bra
+Seven minutes in heaven
+Spin the bottle
+Watch scary movies
+*Prank call the radio
+Draw on sleeping friend's face
+Hot hands
+Toilet paper someone's house
+
+# Name a famous prank, scam or hoax
+Rickroll
+April Fools' Day
+Fyre Festival
+Milli Vanilli
+Bernie Madoff
+Theranos
+Catfishing
+Nigerian prince scam
+Pyramid scheme
+Ponzi scheme
+Balloon Boy
+Loch Ness Monster photo
+Bigfoot film
+Cottingley Fairies
+Piltdown Man
+War of the Worlds broadcast
+Spaghetti trees
+Crop circles
+Alien autopsy
+Anna Delvey
+Frank Abagnale
+Elizabeth Holmes
+Sam Bankman-Friedman | sbf
+FTX
+Enron
+Charles Ponzi
+Tinder Swindler
+Dirty John
+Catch Me If You Can
+Whoopee cushion
+Joy buzzer
+Fake vomit
+Whoopee cushion
+Prank call
+Dine and dash
+Pretending it's your birthday
+Plastic wrap on the toilet
+Salt in the sugar bowl
+Fake spider
+Pie in the face
+Cellophane on the doorway
+Bucket of water on the door
+*Great Moon Hoax
+Cardiff Giant
+Feejee Mermaid
+Turk chess machine
+Hitler Diaries
+
+# Name a famous person who started on YouTube or Vine {names}
+Justin Bieber
+Shawn Mendes
+Charlie Puth
+Troye Sivan
+Lilly Singh
+Liza Koshy
+Emma Chamberlain
+MrBeast
+Logan Paul
+Jake Paul
+David Dobrik
+King Bach
+Lele Pons
+Amanda Cerny
+Bo Burnham
+Rhett and Link
+Bretman Rock
+Issa Rae
+Tyler Oakley
+Grace Helbig
+Hannah Hart
+Mamrie Hart
+Jenna Marbles
+Colleen Ballinger
+Miranda Sings
+Ryan Higa
+Kevin Wu | kevjumba
+Smosh
+PewDiePie
+Markiplier
+Jacksepticeye
+KSI
+Ninja
+Casey Neistat
+Zach King
+Cody Ko
+Noel Miller
+Danny Gonzalez
+Drew Gooden
+Kurtis Conner
+Gus Johnson
+Brittany Broski
+Matt Rife
+*Cameron Dallas
+Nash Grier
+Rudy Mancuso
+Andrew Bachelor
+Jerome Jarre
+Thomas Sanders
+
+# Name a word or phrase made famous by a movie
+Bazinga
+Hakuna Matata
+To infinity and beyond
+Supercalifragilisticexpialidocious
+Cowabunga
+Yippee-ki-yay
+Hasta la vista
+Fetch
+Inconceivable
+As you wish
+Wingardium Leviosa
+Muggle
+Wakanda Forever
+Snap (Thanos)
+Groot
+Ohana
+Ohana means family
+Yeet
+Avengers, assemble
+Expecto Patronum
+My precious
+Bond, James Bond
+Live long and prosper
+Nerf herder
+Scruffy-looking nerf herder
+Lightsaber
+The Force
+Jedi mind trick
+Red pill
+Blue pill
+Matrix
+Catch-22
+Big Brother
+Gaslight
+Stepford wife
+Mrs. Robinson
+Frankenstein
+Jaws music
+Rosebud
+Here's Johnny
+I'll be back
+Sharknado
+Bennifer
+Barbenheimer
+*Kobayashi Maru
+McGuffin
+Deus ex machina
+Shark jumping
+Uncanny valley
+
+# Name a music genre
+Pop
+Rock
+Hip-hop | rap
+Country
+Jazz
+Blues
+Classical
+R&B
+Reggae
+Reggaeton
+Metal
+Punk
+EDM
+House
+Techno
+Dubstep
+Trance
+Disco
+Funk
+Soul
+Gospel
+Folk
+Indie
+Alternative
+Grunge
+K-pop
+J-pop
+Latin
+Salsa
+Bachata
+Merengue
+Cumbia
+Afrobeats
+Amapiano
+Dancehall
+Ska
+Swing
+Big band
+Bluegrass
+Opera
+Lo-fi
+Drill
+Trap
+Grime
+Emo
+Screamo
+Hyperpop
+Shoegaze
+Synthwave
+Vaporwave
+Drum and bass
+*Polka
+Zydeco
+Bossa nova
+Tango
+Flamenco
+Fado
+Klezmer
+Sea shanty
+Yodeling
+Gregorian chant
+Barbershop
+A cappella
+Mariachi
+Corridos
+Norteño
+
+# Name a musical instrument you'd find in an orchestra
+Violin
+Viola
+Cello
+Double bass
+Flute
+Piccolo
+Oboe
+Clarinet
+Bassoon
+Contrabassoon
+French horn
+Trumpet
+Trombone
+Tuba
+Timpani
+Snare drum
+Bass drum
+Cymbals
+Triangle
+Xylophone
+Glockenspiel
+Harp
+Piano
+Celesta
+Tambourine
+Gong
+Chimes | tubular bells
+Castanets
+Marimba
+Vibraphone
+English horn
+Bass clarinet
+Saxophone
+Organ
+Harpsichord
+Wood block
+*Wind machine
+Anvil
+Typewriter
+Cannon
+Theremin
+Ondes Martenot
+
+# Name a classical composer {names}
+Ludwig van Beethoven
+Wolfgang Amadeus Mozart
+Johann Sebastian Bach
+Pyotr Ilyich Tchaikovsky
+Frédéric Chopin
+Antonio Vivaldi
+George Frideric Handel
+Franz Schubert
+Johannes Brahms
+Joseph Haydn
+Claude Debussy
+Richard Wagner
+Giuseppe Verdi
+Giacomo Puccini
+Franz Liszt
+Felix Mendelssohn
+Robert Schumann
+Igor Stravinsky
+Sergei Rachmaninoff
+Gustav Mahler
+Antonín Dvořák
+Edvard Grieg
+Maurice Ravel
+Erik Satie
+Camille Saint-Saëns
+Gioachino Rossini
+George Gershwin
+Aaron Copland
+Leonard Bernstein
+Philip Glass
+John Cage
+Hildegard von Bingen
+Clara Schumann
+Fanny Mendelssohn
+Scott Joplin
+Johann Strauss II
+Jean Sibelius
+Sergei Prokofiev
+Dmitri Shostakovich
+Modest Mussorgsky
+Nikolai Rimsky-Korsakov
+Gustav Holst
+Edward Elgar
+Benjamin Britten
+Ralph Vaughan Williams
+Samuel Barber
+*Hector Berlioz
+Georges Bizet
+Engelbert Humperdinck
+Arvo Pärt
+Max Richter
+Ludovico Einaudi
+Yiruma
+
+# Name a famous piece of classical music
+Für Elise
+Moonlight Sonata
+Beethoven's Fifth | symphony no 5
+Ode to Joy
+The Four Seasons
+Canon in D | pachelbels canon
+Clair de Lune
+Swan Lake
+The Nutcracker
+Dance of the Sugar Plum Fairy
+Eine kleine Nachtmusik
+Flight of the Bumblebee
+Ride of the Valkyries
+The Blue Danube
+William Tell Overture
+1812 Overture
+Hallelujah Chorus | messiah
+Bolero
+Rhapsody in Blue
+The Planets
+Carmen
+Habanera
+O Fortuna | carmina burana
+In the Hall of the Mountain King
+Gymnopédie No. 1
+Nocturne in E-flat
+Minute Waltz
+Ave Maria
+Air on the G String
+Toccata and Fugue in D minor
+Requiem
+Symphony No. 9
+The Magic Flute
+The Marriage of Figaro
+Nessun Dorma
+La donna è mobile
+Brindisi
+Peter and the Wolf
+The Rite of Spring
+Pictures at an Exhibition
+Night on Bald Mountain
+Also sprach Zarathustra
+Adagio for Strings
+The Lark Ascending
+*Spiegel im Spiegel
+Gnossienne
+Liebestraum
+Hungarian Rhapsody No. 2
+Danse Macabre
+Carnival of the Animals
+Radetzky March
+
+# Name a famous opera or ballet
+The Nutcracker
+Swan Lake
+Carmen
+The Magic Flute
+La Bohème | la boheme
+Madama Butterfly
+La Traviata
+The Marriage of Figaro
+Don Giovanni
+Aida
+Rigoletto
+Tosca
+Turandot
+The Barber of Seville
+Sleeping Beauty
+Romeo and Juliet
+Giselle
+Don Quixote
+Coppélia
+Cinderella
+The Firebird
+The Rite of Spring
+Peter and the Wolf
+The Phantom of the Opera
+Porgy and Bess
+Fidelio
+Otello
+Pagliacci
+Cavalleria rusticana
+Der Ring des Nibelungen
+Tristan und Isolde
+Lohengrin
+Eugene Onegin
+The Pearl Fishers
+Hansel and Gretel
+La Sylphide
+Spartacus
+Les Sylphides
+La Bayadère
+Raymonda
+Apollo
+Jewels
+Serenade
+*Einstein on the Beach
+Nixon in China
+Akhnaten
+Peter Grimes
+Wozzeck
+
+# Name a famous Broadway or West End musical
+Hamilton
+Wicked
+The Phantom of the Opera
+Les Misérables
+The Lion King
+Chicago
+Cats
+Rent
+Grease
+Mamma Mia!
+Dear Evan Hansen
+Hairspray
+The Book of Mormon
+Aladdin
+Frozen
+Moulin Rouge!
+Hadestown
+Six
+Mean Girls
+Beetlejuice
+Into the Woods
+Sweeney Todd
+West Side Story
+The Sound of Music
+Fiddler on the Roof
+Annie
+Oklahoma!
+Cabaret
+A Chorus Line
+Jesus Christ Superstar
+Joseph and the Amazing Technicolor Dreamcoat
+Evita
+Miss Saigon
+Jersey Boys
+Kinky Boots
+Matilda
+Waitress
+Spring Awakening
+Next to Normal
+In the Heights
+Avenue Q
+Rocky Horror Show
+Hedwig and the Angry Inch
+Little Shop of Horrors
+Guys and Dolls
+The Music Man
+Hello, Dolly!
+My Fair Lady
+The King and I
+South Pacific
+Mary Poppins
+Beauty and the Beast
+Newsies
+Come From Away
+& Juliet
+Back to the Future
+Hell's Kitchen
+Maybe Happy Ending
+The Outsiders
+Death Becomes Her
+*Bat Boy
+Urinetown
+The Drowsy Chaperone
+Spamalot
+The Producers
+Something Rotten!
+Bring It On
+Heathers
+Be More Chill
+Starlight Express
+
+# Name a famous dancer or choreographer {names}
+Misty Copeland
+Mikhail Baryshnikov
+Rudolf Nureyev
+Anna Pavlova
+Margot Fonteyn
+Vaslav Nijinsky
+Martha Graham
+Alvin Ailey
+Bob Fosse
+Twyla Tharp
+George Balanchine
+Jerome Robbins
+Merce Cunningham
+Pina Bausch
+Isadora Duncan
+Fred Astaire
+Gene Kelly
+Ginger Rogers
+Gregory Hines
+Savion Glover
+Michael Jackson
+Paula Abdul
+Mia Michaels
+Derek Hough
+Julianne Hough
+Mark Ballas
+Cheryl Burke
+Maddie Ziegler
+Abby Lee Miller
+Parris Goebel
+JaQuel Knight
+Debbie Allen
+Twitch | stephen boss
+Napoleon and Tabitha | nappytabs
+Wade Robson
+Kenny Ortega
+Sergei Polunin
+Natalia Osipova
+Maya Plisetskaya
+*Marie Taglioni
+Carlo Blasis
+Agnes de Mille
+Katherine Dunham
+Josephine Baker
+Bill "Bojangles" Robinson
+
+# Name something you'd see at a rodeo or county fair
+Bull riding
+Bucking broncos
+Cowboys
+Cowgirls
+Rodeo clowns
+Barrel racing
+Calf roping
+Steer wrestling
+Lasso
+Cowboy hats
+Boots
+Horses
+Cattle
+Pigs
+Goats
+Sheep
+4-H
+Blue ribbons
+Funnel cake
+Corn dogs
+Cotton candy
+Lemonade
+Turkey legs
+Deep-fried Oreos
+Deep-fried butter
+Ferris wheel
+Carousel
+Tilt-A-Whirl
+Bumper cars
+Carnival games
+Ring toss
+Duck pond
+Petting zoo
+Pig races
+Pie contest
+Livestock auction
+Demolition derby
+Tractor pull
+Monster trucks
+Country music
+Line dancing
+Rodeo queen
+Mutton busting
+*Butter sculpture
+Biggest pumpkin contest
+Quilt contest
+Mechanical bull
+Hay bale maze
+Llama costume contest
+
+# Name something you'd find on a farm
+Cow
+Pig
+Chicken
+Horse
+Sheep
+Goat
+Duck
+Rooster
+Barn
+Tractor
+Silo
+Hay
+Farmer
+Scarecrow
+Fence
+Pond
+Crops
+Corn
+Wheat
+Apples
+Pumpkins
+Eggs
+Milk
+Dog
+Cat
+Mice
+Turkeys
+Donkey
+Llama
+Alpaca
+Geese
+Bees
+Beehive
+Pitchfork
+Shovel
+Wheelbarrow
+Plow
+Combine
+Trough
+Stable
+Chicken coop
+Pig pen
+Manure
+Mud
+Windmill
+Well
+Farmhouse
+Overalls
+Straw hat
+*Weathervane
+Cow tipping
+Butter churn
+Hayloft
+Root cellar
+Grain elevator
+
+# Name something associated with cowboys and the Wild West
+Cowboy hat
+Boots
+Spurs
+Horse
+Lasso
+Revolver
+Saloon
+Sheriff
+Badge
+Outlaw
+Wanted poster
+Stagecoach
+Gold rush
+Cattle drive
+Tumbleweed
+Cactus
+Desert
+Ghost town
+Bandana
+Chaps
+Duel
+High noon
+Wyatt Earp
+Doc Holliday
+Billy the Kid
+Jesse James
+Butch Cassidy
+Sundance Kid
+Annie Oakley
+Buffalo Bill
+Calamity Jane
+Wild Bill Hickok
+Davy Crockett
+Lone Ranger
+Tonto
+John Wayne
+Clint Eastwood
+Woody
+Yosemite Sam
+Red Dead Redemption
+Yellowstone
+Westworld
+Tombstone
+Dodge City
+Deadwood
+O.K. Corral
+Pony Express
+Transcontinental Railroad
+Campfire
+Beans
+Coffee
+Harmonica
+Banjo
+*Chuckwagon
+Bolo tie
+Ten-gallon hat
+Branding iron
+Sarsaparilla
+
+# Name something associated with pirates
+Treasure
+Treasure map
+X marks the spot
+Ship
+Parrot
+Eye patch
+Peg leg
+Hook
+Sword | cutlass
+Cannon
+Jolly Roger
+Skull and crossbones
+Rum
+Gold
+Doubloons
+Treasure chest
+Walk the plank
+Plank
+Captain
+First mate
+Crew
+Mutiny
+Arr
+Ahoy
+Matey
+Shiver me timbers
+Davy Jones's locker
+Kraken
+Island
+Telescope | spyglass
+Compass
+Anchor
+Crow's nest
+Black Pearl
+Jack Sparrow
+Captain Hook
+Blackbeard
+Long John Silver
+Barbarossa
+Anne Bonny
+Mary Read
+Captain Kidd
+Calico Jack
+One Piece
+Talk Like a Pirate Day
+Pirates of the Caribbean
+Treasure Island
+Peter Pan
+Scurvy
+*Hardtack
+Grog
+Bilge
+Keelhaul
+Letter of marque
+Privateer
+Buccaneer
+Corsair
+
+# Name something associated with outer space
+Moon
+Sun
+Stars
+Planets
+Mars
+Earth
+Jupiter
+Saturn
+Astronaut
+Rocket
+Space shuttle
+International Space Station
+NASA
+SpaceX
+Black hole
+Galaxy
+Milky Way
+Comet
+Asteroid
+Meteor
+Shooting star
+Satellite
+Telescope
+Hubble
+James Webb
+Alien
+UFO
+Gravity
+Zero gravity
+Orbit
+Constellation
+Big Bang
+Nebula
+Supernova
+Light-year
+Solar system
+Moon landing
+Neil Armstrong
+Apollo 11
+Space suit
+Rover
+Curiosity
+Perseverance
+Voyager
+Sputnik
+Laika
+Star Trek
+Star Wars
+Interstellar
+*Oort cloud
+Kuiper belt
+Dark matter
+Dark energy
+Wormhole
+Pulsar
+Quasar
+Exoplanet
+Goldilocks zone
+
+# Name a famous robot or android in real life or fiction
+R2-D2
+C-3PO
+WALL-E
+Terminator
+RoboCop
+Optimus Prime
+Bumblebee
+Baymax
+Data
+Bender
+Rosie the Robot
+Johnny 5
+Iron Giant
+Robby the Robot
+HAL 9000
+Ultron
+Vision
+M3GAN
+BB-8
+K-2SO
+Marvin
+Sonny
+Ava
+Dolores
+David (A.I.)
+Roomba
+Alexa
+Siri
+ASIMO
+Sophia
+Atlas (Boston Dynamics)
+Spot (Boston Dynamics)
+Mars rover
+Furby
+Tamagotchi
+Teddy Ruxpin
+AIBO
+Pepper
+Roz (The Wild Robot)
+Megatron
+Mechagodzilla
+Mega Man
+Zero
+Metal Sonic
+Claptrap
+GLaDOS
+Wheatley
+*Gort
+Maria
+Twiki
+Tik-Tok of Oz
+Robby
