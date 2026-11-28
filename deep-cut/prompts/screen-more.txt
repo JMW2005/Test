@@ -1,0 +1,2166 @@
+// Deep Cut prompt bank: MORE TV & MOVIES (short lists)
+// Answers go most common first. * marks the Mother Lode. {names}: first or last name alone counts.
+
+## TV
+
+# Name a character from Rick and Morty {names}
+Rick Sanchez
+Morty Smith
+Summer Smith
+Beth Smith
+Jerry Smith
+Mr. Meeseeks
+Birdperson
+Squanchy
+Mr. Poopybutthole
+Evil Morty
+Unity
+Tammy
+Pickle Rick
+Scary Terry
+Krombopulos Michael
+*Noob-Noob
+Abradolf Lincler
+Principal Vagina
+Mr. Goldenfold
+Space Beth
+Gearhead
+Snuffles | snowball
+
+# Name a character from South Park {names}
+Eric Cartman
+Kenny McCormick
+Kyle Broflovski
+Stan Marsh
+Butters Stotch
+Randy Marsh
+Chef
+Mr. Garrison
+Mr. Hankey
+Towelie
+Timmy
+Jimmy Valmer
+Token Black
+Wendy Testaburger
+Craig Tucker
+Tweek Tweak
+Mr. Mackey
+PC Principal
+Sharon Marsh
+Shelly Marsh
+Ike Broflovski
+Sheila Broflovski
+Liane Cartman
+Officer Barbrady
+Big Gay Al
+Mr. Slave
+Terrance and Phillip
+Satan
+*Scott Tenorman
+Professor Chaos
+Mysterion
+The Coon
+Mr. Kitty
+Jimbo Kern
+Ned Gerblansky
+Clyde Donovan
+Kevin Stoley
+Pip
+Damien
+
+# Name a character from Bob's Burgers {names}
+Bob Belcher
+Linda Belcher
+Tina Belcher
+Gene Belcher
+Louise Belcher
+Teddy
+Mort
+Jimmy Pesto
+Jimmy Jr.
+Zeke
+Mr. Frond
+Mr. Fischoeder
+Gayle
+Hugo
+Marshmallow
+Darryl
+Andy and Ollie Pesto
+Rudy | regular sized rudy
+Courtney Wheeler
+Tammy
+Jocelyn
+Ron
+*Kuchi Kopi
+Edith Cranwinkle
+Harold Cranwinkle
+Felix Fischoeder
+
+# Name a character from The Flintstones or The Jetsons {names}
+Fred Flintstone
+Wilma Flintstone
+Barney Rubble
+Betty Rubble
+Pebbles Flintstone
+Bamm-Bamm Rubble
+Dino
+Mr. Slate
+The Great Gazoo
+George Jetson
+Jane Jetson
+Judy Jetson
+Elroy Jetson
+Astro
+Rosie the Robot
+Mr. Spacely
+Mr. Cogswell
+Orbitty
+*Hoppy
+Baby Puss
+Arnold the newsboy
+Joe Rockhead
+
+# Name a character from Arthur
+Arthur Read
+D.W. Read | dw
+Buster Baxter
+Francine Frensky
+Muffy Crosswire
+Binky Barnes
+Brain | alan powers
+Sue Ellen Armstrong
+Fern Walters
+Prunella Deegan
+George Lundgren
+Mr. Ratburn
+Kate Read
+Pal
+Grandma Thora
+Jane Read
+David Read
+Emily
+Nadine
+*Mr. Haney
+Bailey
+Rattles
+The Tough Customers
+Mrs. MacGrady
+
+# Name a character from Hey Arnold! or Rugrats
+Arnold
+Helga Pataki
+Gerald
+Phoebe
+Harold
+Stinky
+Sid
+Rhonda
+Grandpa Phil
+Grandma Pookie
+Big Bob Pataki
+Olga Pataki
+Mr. Simmons
+Tommy Pickles
+Chuckie Finster
+Angelica Pickles
+Phil DeVille
+Lil DeVille
+Susie Carmichael
+Kimi
+Dil Pickles
+Spike
+Stu Pickles
+Didi Pickles
+Grandpa Lou
+Reptar
+Cynthia
+*Football Head
+Monkey Man
+Pigeon Man
+Brainy
+
+# Name a Teenage Mutant Ninja Turtles character
+Leonardo
+Michelangelo
+Donatello
+Raphael
+Splinter
+Shredder
+April O'Neil
+Casey Jones
+Krang
+Bebop
+Rocksteady
+Baxter Stockman
+Karai
+Foot Clan
+Leatherhead
+Slash
+Metalhead
+Mondo Gecko
+Irma
+Tiger Claw
+Bishop
+Hun
+*Vernon Fenwick
+Mutagen Man
+Usagi Yojimbo
+
+# Name a character from Teen Titans or Justice League Unlimited cartoons
+Robin
+Starfire
+Raven
+Beast Boy
+Cyborg
+Slade
+Terra
+Trigon
+Brother Blood
+Kid Flash
+Aqualad
+Speedy
+Jinx
+Mumbo Jumbo
+Control Freak
+Silkie
+Mad Mod
+Batman
+Superman
+Wonder Woman
+Green Lantern
+The Flash
+Hawkgirl
+Martian Manhunter
+Green Arrow
+Larry
+Red X
+
+# Name a Power Ranger color or villain
+Red Ranger
+Blue Ranger
+Yellow Ranger
+Pink Ranger
+Black Ranger
+Green Ranger
+White Ranger
+Gold Ranger
+Silver Ranger
+Purple Ranger
+Rita Repulsa
+Lord Zedd
+Zordon
+Alpha 5
+Goldar
+Squatt
+Baboo
+Finster
+Ivan Ooze
+Divatox
+Astronema
+Putty Patrollers
+*Bulk and Skull
+Tommy Oliver
+Jason Lee Scott
+Kimberly Hart
+Trini Kwan
+Billy Cranston
+Zack Taylor
+
+# Name a character from a Disney Channel cartoon {names}
+Kim Possible
+Ron Stoppable
+Rufus
+Shego
+Dr. Drakken
+Jake Long
+Lilo
+Stitch
+Kuzco
+Kronk
+Star Butterfly
+Marco Diaz
+Luz Noceda
+Anne Boonchuy
+Cricket Green
+Penny Proud
+Oscar Proud
+Suga Mama
+Dijonay
+Juniper Lee
+Randy Cunningham
+Milo Murphy
+Wander
+Sylvia
+Lord Hater
+*Dave the Barbarian
+Fu Dog
+Gramma Lin
+Monique
+
+# Name a character from Avatar: The Legend of Korra
+Korra
+Mako
+Bolin
+Asami Sato
+Tenzin
+Lin Beifong
+Amon
+Unalaq
+Zaheer
+Kuvira
+Varrick
+Zhu Li
+Jinora
+Ikki
+Meelo
+Pema
+Naga
+Pabu
+Tarrlok
+Hiroshi Sato
+Suyin Beifong
+Bumi
+Kya
+Raava
+Vaatu
+Wan
+P'Li
+Ghazan
+Ming-Hua
+*Pabu the fire ferret
+Opal Beifong
+Toph
+Zuko
+Iroh II
+
+# Name a character from The Good Place or Abbott Elementary {names}
+Eleanor Shellstrop
+Chidi Anagonye
+Tahani Al-Jamil
+Jason Mendoza
+Michael
+Janet
+Shawn
+Derek
+Mindy St. Claire
+Trevor
+Janine Teagues
+Ava Coleman
+Barbara Howard
+Melissa Schemmenti
+Gregory Eddie
+Jacob Hill
+Mr. Johnson
+Tariq Temple
+Manny
+Gary
+*Glenn
+Vicky Sengupta
+Pillboi
+Doug Forcett
+
+# Name a character from Arrested Development {names}
+Michael Bluth
+George Michael Bluth
+Gob Bluth
+Lindsay Bluth Fünke | lindsay funke
+Tobias Fünke | tobias funke
+Maeby Fünke | maeby funke
+Buster Bluth
+Lucille Bluth
+George Bluth Sr.
+Oscar Bluth
+Lucille Austero | lucille 2
+Barry Zuckerkorn
+Kitty Sanchez
+Ann Veal
+Steve Holt
+Marta
+Rita
+Franklin
+Carl Weathers
+*Bob Loblaw
+Tony Wonder
+Sally Sitwell
+Gene Parmesan
+Lupe
+
+# Name a character from It's Always Sunny in Philadelphia {names}
+Charlie Kelly
+Dennis Reynolds
+Dee Reynolds
+Mac
+Frank Reynolds
+The Waitress
+Rickety Cricket
+Artemis
+Bill Ponderosa
+Uncle Jack
+Gail the Snail
+The McPoyles
+Liam McPoyle
+Ryan McPoyle
+Maureen Ponderosa
+Ben the Soldier
+Da' Maniac
+Gus
+Luther
+Bonnie
+Barbara
+*Z
+Schmitty
+Country Mac
+Ingrid Nelson
+
+# Name a character from Community {names}
+Jeff Winger
+Britta Perry
+Abed Nadir
+Troy Barnes
+Annie Edison
+Shirley Bennett
+Pierce Hawthorne
+Dean Pelton
+Ben Chang
+Professor Duncan
+Magnitude
+Star-Burns
+Leonard
+Garrett
+Todd
+Vicki
+Frankie Dart
+Elroy Patashnik
+Buzz Hickey
+Neil
+*Fat Neil
+Rich
+Vaughn
+Alex "Star-Burns" Osbourne
+Cornelius Hawthorne
+
+# Name a character from Scrubs {names}
+J.D. | john dorian
+Turk | chris turk
+Elliot Reid
+Carla Espinosa
+Dr. Cox | perry cox
+Dr. Kelso | bob kelso
+The Janitor
+Ted Buckland
+Todd
+Laverne
+Jordan Sullivan
+Doug Murphy
+Keith Dudemeister
+Kim Briggs
+Sam Dorian
+Dan Dorian
+Lonnie
+Denise
+Rowdy
+Colonel Doctor
+Hooch
+The Todd
+Ben Sullivan
+
+# Name a character from Futurama
+Fry | philip j fry
+Leela | turanga leela
+Bender
+Professor Farnsworth | professor
+Hermes Conrad
+Amy Wong
+Dr. Zoidberg | zoidberg
+Nibbler
+Zapp Brannigan
+Kif Kroker
+Mom
+Calculon
+Hypnotoad
+Scruffy
+Hedonismbot
+Lrrr
+Nixon's head
+Robot Devil
+Seymour
+Cubert Farnsworth
+Dwight Conrad
+LaBarbara Conrad
+Elzar
+Roberto
+URL
+*Morbo
+Linda
+Slurms MacKenzie
+Flexo
+Clamps
+Joey Mousepad
+Donbot
+
+# Name a character from King of the Hill {names}
+Hank Hill
+Peggy Hill
+Bobby Hill
+Luanne Platter
+Dale Gribble
+Bill Dauterive
+Boomhauer
+Cotton Hill
+Kahn Souphanousinphone
+Connie Souphanousinphone
+Minh Souphanousinphone
+Ladybird
+Buck Strickland
+Nancy Gribble
+Joseph Gribble
+John Redcorn
+Lucky
+Didi Hill
+Enrique
+Joe Jack
+*Chuck Mangione
+Mr. Strickland
+Khan Jr.
+
+# Name a character from The Crown or Downton Abbey {names}
+Queen Elizabeth II
+Prince Philip
+Princess Margaret
+Prince Charles
+Princess Diana
+Camilla Parker Bowles
+Winston Churchill
+Queen Mother
+Margaret Thatcher
+Tony Blair
+Lady Mary Crawley
+Lady Edith Crawley
+Lady Sybil Crawley
+Robert Crawley
+Cora Crawley
+Violet Crawley | the dowager countess
+Matthew Crawley
+Tom Branson
+Mr. Carson
+Mrs. Hughes
+Mr. Bates
+Anna Bates
+Thomas Barrow
+Daisy
+Mrs. Patmore
+Isobel Crawley
+*Mr. Molesley
+Lady Grantham
+Rose MacClare
+Lord Mountbatten
+
+# Name a character from Bridgerton {names}
+Daphne Bridgerton
+Simon Basset
+Anthony Bridgerton
+Kate Sharma
+Colin Bridgerton
+Penelope Featherington
+Eloise Bridgerton
+Benedict Bridgerton
+Violet Bridgerton
+Lady Whistledown
+Queen Charlotte
+Lady Danbury
+Portia Featherington
+Marina Thompson
+Edwina Sharma
+Francesca Bridgerton
+Hyacinth Bridgerton
+Gregory Bridgerton
+Brimsley
+Cressida Cowper
+Sophie Baek
+*Lady Agatha Danbury
+John Stirling
+Will Mondrich
+
+# Name a character from Wednesday or The Addams Family {names}
+Wednesday Addams
+Morticia Addams
+Gomez Addams
+Pugsley Addams
+Uncle Fester
+Grandmama
+Lurch
+Thing
+Cousin Itt
+Enid Sinclair
+Tyler Galpin
+Xavier Thorpe
+Bianca Barclay
+Principal Weems | larissa weems
+Eugene Ottinger
+Ajax Petropolus
+Marilyn Thornhill
+Sheriff Galpin
+Kitty Kat
+Debbie Jellinsky
+Wednesday's pet scorpion
+*Agnes DeMille
+Isaac Night
+Uncle Fester's lightbulb
+
+# Name a character from The Witcher (show or games) {names}
+Geralt of Rivia
+Yennefer of Vengerberg
+Ciri | cirilla
+Jaskier | dandelion
+Triss Merigold
+Roach
+Vesemir
+Emhyr var Emreis
+Eskel
+Lambert
+Fringilla Vigo
+Tissaia de Vries
+Cahir
+Istredd
+Calanthe
+Eist Tuirseach
+Francesca Findabair
+Philippa Eilhart
+Stregobor
+Dijkstra
+Regis
+Keira Metz
+Zoltan Chivay
+Gaunter O'Dimm
+*Shani
+Ves
+Roche
+Avallac'h
+Eredin
+
+# Name a character from Lost {names}
+Jack Shephard
+Kate Austen
+Sawyer | james ford
+John Locke
+Hurley | hugo reyes
+Sayid Jarrah
+Charlie Pace
+Claire Littleton
+Jin Kwon
+Sun Kwon
+Desmond Hume
+Ben Linus
+Juliet Burke
+Michael Dawson
+Walt Lloyd
+Shannon Rutherford
+Boone Carlyle
+Ana Lucia Cortez
+Mr. Eko
+Rose Nadler
+Bernard Nadler
+Richard Alpert
+Charles Widmore
+Penny Widmore
+Daniel Faraday
+Miles Straume
+Frank Lapidus
+Jacob
+The Man in Black | smoke monster
+Danielle Rousseau
+Alex Rousseau
+Vincent
+*Nikki and Paulo
+Ethan Rom
+Tom Friendly
+
+# Name a character from House or ER {names}
+Gregory House
+James Wilson
+Lisa Cuddy
+Eric Foreman
+Robert Chase
+Allison Cameron
+Remy Hadley | thirteen
+Chris Taub
+Lawrence Kutner
+Doug Ross
+John Carter
+Mark Greene
+Susan Lewis
+Peter Benton
+Elizabeth Corday
+Kerry Weaver
+Abby Lockhart
+Luka Kovač | luka kovac
+Carol Hathaway
+Robert Romano
+Neela Rasgotra
+Ray Barnett
+Archie Morris
+*Jerry Markovic
+Michael Robinavitch
+Dana Whitaker
+Samira Mohan
+
+# Name a character from The Vampire Diaries {names}
+Elena Gilbert
+Stefan Salvatore
+Damon Salvatore
+Bonnie Bennett
+Caroline Forbes
+Katherine Pierce
+Klaus Mikaelson
+Elijah Mikaelson
+Rebekah Mikaelson
+Tyler Lockwood
+Matt Donovan
+Jeremy Gilbert
+Alaric Saltzman
+Enzo
+Kai Parker
+Lexi Branson
+Jenna Sommers
+Liz Forbes
+Vicki Donovan
+Anna
+Rose
+Isobel Flemming
+John Gilbert
+Silas
+Amara
+*Sloan
+Qetsiyah
+Lily Salvatore
+Julian
+Sybil
+
+# Name a character from Gossip Girl or One Tree Hill {names}
+Blair Waldorf
+Serena van der Woodsen
+Chuck Bass
+Dan Humphrey
+Nate Archibald
+Jenny Humphrey
+Vanessa Abrams
+Lily van der Woodsen
+Rufus Humphrey
+Eric van der Woodsen
+Georgina Sparks
+Dorota
+Lucas Scott
+Nathan Scott
+Peyton Sawyer
+Brooke Davis
+Haley James Scott
+Dan Scott
+Karen Roe
+Keith Scott
+Mouth McFadden
+Skills Taylor
+Jamie Scott
+Julian Baker
+Clay Evans
+Quinn James
+Whitey Durham
+Millicent Huxtable
+Chase Adams
+
+# Name a character from The O.C. or Dawson's Creek {names}
+Seth Cohen
+Ryan Atwood
+Marissa Cooper
+Summer Roberts
+Sandy Cohen
+Kirsten Cohen
+Julie Cooper
+Jimmy Cooper
+Caleb Nichol
+Luke Ward
+Taylor Townsend
+Kaitlin Cooper
+Theresa Diaz
+Oliver Trask
+Anna Stern
+Dawson Leery
+Joey Potter
+Pacey Witter
+Jen Lindley
+Jack McPhee
+Andie McPhee
+Grams
+Gail Leery
+Mitch Leery
+Bessie Potter
+Captain Oats
+*Princess Sparkle
+Chrismukkah
+Ms. Kerr
+
+# Name a character from Orange Is the New Black {names}
+Piper Chapman
+Alex Vause
+Crazy Eyes | suzanne warren
+Red | galina reznikov
+Taystee | tasha jefferson
+Poussey Washington
+Nicky Nichols
+Pennsatucky | tiffany doggett
+Sophia Burset
+Lorna Morello
+Daya Diaz
+Gloria Mendoza
+Maritza Ramos
+Flaca
+Big Boo
+Cindy Hayes | black cindy
+Healy | sam healy
+Caputo | joe caputo
+Pornstache | george mendez
+Larry Bloom
+Polly Harper
+Yoga Jones
+Miss Claudette
+Vee Parker
+Frieda Berlin
+*Norma Romano
+Brook Soso
+Leanne Taylor
+Angie Rice
+
+# Name a character from Ozark or Narcos {names}
+Marty Byrde
+Wendy Byrde
+Ruth Langmore
+Charlotte Byrde
+Jonah Byrde
+Darlene Snell
+Jacob Snell
+Helen Pierce
+Omar Navarro
+Camino Del Rio
+Wyatt Langmore
+Three Langmore
+Ben Davis
+Roy Petty
+Javi Elizondo
+Pablo Escobar
+Steve Murphy
+Javier Peña
+Gustavo Gaviria
+Tata Escobar
+Gilberto Rodríguez
+Miguel Rodríguez
+Pacho Herrera
+Chepe
+Félix Gallardo
+Kiki Camarena
+*Limón
+Carrillo
+La Quica
+
+# Name a character from Cobra Kai or The Karate Kid {names}
+Daniel LaRusso
+Johnny Lawrence
+Mr. Miyagi
+John Kreese
+Miguel Diaz
+Robby Keene
+Samantha LaRusso
+Tory Nichols
+Hawk | eli moskowitz
+Demetri
+Terry Silver
+Chozen Toguchi
+Kumiko
+Ali Mills
+Amanda LaRusso
+Carmen Diaz
+Kyler
+Anthony LaRusso
+Dutch
+Tommy
+Bobby Brown
+Kenny Payne
+Kim Da-Eun
+Axel Kovačević
+*Stingray
+Mr. Han
+Dre Parker
+Li Fong
+
+# Name a character from This Is Us {names}
+Jack Pearson
+Rebecca Pearson
+Kevin Pearson
+Kate Pearson
+Randall Pearson
+Beth Pearson
+Toby Damon
+Miguel Rivas
+William Hill
+Deja Pearson
+Tess Pearson
+Annie Pearson
+Nicky Pearson
+Sophie Inman
+Madison Simons
+Jack Damon
+Kevin's twins
+*Uncle Nicky
+Dr. K
+Zoe Baker
+Philip
+Hailey Damon
+Marc
+
+# Name a character from The 100 or Alice in Borderland {names}
+Clarke Griffin
+Bellamy Blake
+Octavia Blake
+Finn Collins
+Raven Reyes
+Murphy | john murphy
+Lexa
+Jasper Jordan
+Monty Green
+Abby Griffin
+Marcus Kane
+Thelonious Jaha
+Lincoln
+Indra
+Echo
+Madi
+Emori
+Diyoza
+Arisu
+Usagi
+Chishiya
+Kuina
+Niragi
+Aguni
+Karube
+Chota
+*Tankado
+Mira
+
+# Name a character from Star Trek: The Next Generation {names}
+Jean-Luc Picard
+William Riker
+Data
+Worf
+Geordi La Forge
+Deanna Troi
+Beverly Crusher
+Wesley Crusher
+Q
+Guinan
+Tasha Yar
+Miles O'Brien
+Keiko O'Brien
+Reginald Barclay
+Lwaxana Troi
+Ro Laren
+Lore
+The Borg Queen
+Locutus
+Alexander Rozhenko
+Spot
+*Mr. Homn
+Dr. Pulaski
+Lal
+
+# Name a character from Doctor Who
+The Doctor
+Rose Tyler
+Clara Oswald
+Amy Pond
+Rory Williams
+Martha Jones
+Donna Noble
+River Song
+Captain Jack Harkness
+The Master | missy
+Davros
+Daleks
+Cybermen
+Weeping Angels
+K-9
+Sarah Jane Smith
+Bill Potts
+Yasmin Khan
+Graham O'Brien
+Ryan Sinclair
+Ruby Sunday
+Wilf | wilfred mott
+Brigadier Lethbridge-Stewart
+Ood
+Sontarans
+Silurians
+The Silence
+Zygons
+Strax
+Madame Vastra
+Jenny Flint
+*Adipose
+Ace
+Romana
+Leela
+Jamie McCrimmon
+Susan Foreman
+
+# Name a character from Sherlock (BBC) or Luther {names}
+Sherlock Holmes
+John Watson
+Jim Moriarty
+Mrs. Hudson
+Mycroft Holmes
+Molly Hooper
+Greg Lestrade
+Irene Adler
+Mary Morstan
+Eurus Holmes
+Charles Augustus Magnussen
+Culverton Smith
+John Luther
+Alice Morgan
+Justin Ripley
+Zoe Luther
+Martin Schenk
+Ian Reed
+Mark North
+Benny Silver
+*Sally Donovan
+Anderson
+Howard Stone
+Rose Teller
+
+# Name a character from the Fantastic Beasts films {names}
+Newt Scamander
+Jacob Kowalski
+Tina Goldstein
+Queenie Goldstein
+Credence Barebone
+Gellert Grindelwald
+Albus Dumbledore
+Leta Lestrange
+Theseus Scamander
+Nagini
+Yusuf Kama
+Lally Hicks
+Percival Graves
+Seraphina Picquery
+Bunty
+Vinda Rosier
+Pickett
+Niffler
+Frank the Thunderbird
+Mary Lou Barebone
+Modesty Barebone
+Aberforth Dumbledore
+*Henry Shaw Jr.
+Santos
+Helmut
+
+# Name a game show host {names}
+Alex Trebek
+Pat Sajak
+Vanna White
+Bob Barker
+Drew Carey
+Steve Harvey
+Richard Dawson
+Regis Philbin
+Howie Mandel
+Wayne Brady
+Monty Hall
+Ken Jennings
+Mayim Bialik
+Ryan Seacrest
+Chuck Woolery
+Jeff Foxworthy
+Anne Robinson
+Jane Lynch
+Michael Strahan
+Dick Clark
+Bob Eubanks
+Peter Marshall
+Jeff Probst
+Phil Keoghan
+Tom Bergeron
+Ellen DeGeneres
+Rob Lowe
+Leslie Jones
+Jimmy Fallon
+Gene Rayburn
+Ryan Seacrest
+Wink Martindale
+Marc Summers
+Kirk Fogg
+*Bert Convy
+Ben Stein
+Jimmy Kimmel
+Ben Bailey
+John Michael Higgins
+Rob Belushi
+
+# Name a famous TV doctor {names}
+Gregory House
+Meredith Grey
+Derek Shepherd
+J.D.
+Doogie Howser
+Hawkeye Pierce
+Frasier Crane
+Dr. Phil
+Dr. Oz
+The Doctor
+Leonard McCoy
+Beverly Crusher
+Shaun Murphy
+Michaela Quinn
+John Carter
+Doug Ross
+Mark Greene
+Perry Cox
+Cristina Yang
+Miranda Bailey
+Dr. Hibbert
+Dr. Nick
+Dr. Zoidberg
+Dr. Doofenshmirtz
+Dr. Drew
+Dr. Ruth
+Dr. Quinn
+Dr. Melfi
+Michael Robinavitch
+Doc McStuffins
+*Dr. Leo Spaceman
+Dr. Steve Brule
+Dr. Krieger
+Dr. Spencer Reid
+Dr. Pimple Popper
+Dr. Pol
+
+# Name a famous TV lawyer {names}
+Saul Goodman
+Harvey Specter
+Mike Ross
+Jessica Pearson
+Louis Litt
+Ally McBeal
+Alicia Florrick
+Annalise Keating
+Perry Mason
+Matlock
+Denny Crane
+Alan Shore
+Kim Wexler
+Jack McCoy
+Elle Woods
+Matt Murdock
+She-Hulk | jennifer walters
+Mickey Haller
+Lionel Hutz
+Phoenix Wright
+Barry Zuckerkorn
+Jackie Chiles
+Bob Loblaw
+Diane Lockhart
+Will Gardner
+Kalinda Sharma
+Marshall Eriksen
+*Charles Kingsfield
+Atticus Finch
+My Cousin Vinny | vinny gambini
+
+# Name a famous TV teacher or principal {names}
+Mr. Feeny
+Ms. Frizzle
+Mr. Belding
+Principal Skinner
+Mrs. Krabappel
+Mr. Garrison
+Mr. Hand
+Mr. Ratburn
+Mr. Kotter
+Walter White
+Mr. Schuester | will schuester
+Sue Sylvester
+Janine Teagues
+Barbara Howard
+Melissa Schemmenti
+Gregory Eddie
+Ava Coleman
+Mr. Shue
+Mr. Bean
+Mr. Turner
+Professor Chaps | dean pelton
+Senor Chang
+Jeff Winger
+Coach Beiste
+Mrs. Puff
+Mr. Crocker
+Mr. Rogers
+Mr. Wizard
+Bill Nye
+Professor X
+Miss Honey
+Ms. Trunchbull
+Dewey Finn
+*Mr. Collins
+Professor Utonium
+Mr. Mackey
+Mr. Hankey
+
+# Name a Saturday morning cartoon from the 1980s or 1990s
+Teenage Mutant Ninja Turtles
+The Smurfs
+He-Man and the Masters of the Universe
+Transformers
+G.I. Joe
+ThunderCats
+DuckTales
+Chip 'n Dale Rescue Rangers
+TaleSpin
+Darkwing Duck
+Gummi Bears
+Animaniacs
+Tiny Toon Adventures
+Pinky and the Brain
+X-Men: The Animated Series
+Spider-Man: The Animated Series
+Batman: The Animated Series
+Captain Planet
+Inspector Gadget
+Garfield and Friends
+Muppet Babies
+Alvin and the Chipmunks
+The Real Ghostbusters
+Care Bears
+My Little Pony
+Jem
+She-Ra
+Voltron
+Thundercats
+Gargoyles
+Pokémon
+Digimon
+Doug
+Rugrats
+Rocko's Modern Life
+Recess
+Pepper Ann
+101 Dalmatians: The Series
+The Magic School Bus
+Bill Nye
+Sonic the Hedgehog
+Sailor Moon
+Dragon Ball Z
+Mighty Morphin Power Rangers
+Captain N
+Super Mario Bros. Super Show
+Beetlejuice
+Pee-wee's Playhouse
+Fraggle Rock
+*Pound Puppies
+The Snorks
+Dungeons & Dragons
+Mister T
+The Wuzzles
+Adventures of the Gummi Bears
+BraveStarr
+SilverHawks
+Visionaries
+
+# Name a famous TV catchphrase
+Yada yada yada
+How you doin'?
+D'oh!
+Bazinga!
+That's what she said
+Legendary
+Did I do that?
+Whatever, I'm getting a burrito
+Cowabunga
+Eat my shorts
+I'm Rick James
+Live long and prosper
+Beam me up, Scotty
+Winter is coming
+You're fired!
+Come on down!
+Is that your final answer?
+Here's Johnny!
+Dy-no-mite!
+Kiss my grits
+Sit on it
+Whatchu talkin' 'bout, Willis?
+How rude!
+Cut it out!
+Have mercy!
+Not the bees!
+Isn't that special?
+I pity the fool
+Booyah
+Yabba dabba doo
+Scooby Dooby Doo
+Ruh-roh
+Ay caramba!
+Excellent
+Oh my God, they killed Kenny!
+Respect my authoritah!
+Holy guacamole
+Wubba lubba dub dub
+I'm the one who knocks
+Say my name
+Treat yo self
+Cool cool cool cool
+Noice
+Title of your sex tape
+Bears. Beets. Battlestar Galactica.
+Oh my God!
+We were on a break!
+Pivot!
+Could I be any more...
+Smell ya later
+Oh. My. God.
+*Norm!
+Good grief
+Sock it to me
+Nanu nanu
+Book 'em, Danno
+Just one more thing
+Jinkies
+To the Batmobile!
+Holy smokes, Batman
+I'm Batman
+Is this the Krusty Krab?
+I'm ready!
+
+# Name a famous TV bar, restaurant or coffee shop
+Central Perk
+Cheers
+Monk's Café | monks
+Luke's Diner | lukes
+MacLaren's Pub | maclarens
+Moe's Tavern | moes
+The Krusty Krab
+Los Pollos Hermanos
+Paddy's Pub
+Bada Bing
+Arnold's
+The Peach Pit
+The Max
+Holsten's
+Bob's Burgers
+JJ's Diner
+Pawnee Commons
+Paunch Burger
+The Regal Beagle
+Double R Diner
+The Drip
+Café Nervosa
+The Bronze
+Merlotte's
+The Brick
+The Bluebird Café
+Mel's Diner
+Chumbucket
+Al's Diner
+The Beef | the original beef of chicagoland
+Pop's Chock'lit Shoppe
+*Kwik-E-Mart
+Planet Express
+The Leaky Cauldron
+Granny's Diner
+Rosa's Cantina
+Twin Peaks diner
+Pizza Planet
+The Pit
+Jimmy Pesto's
+
+# Name a TV show with a famous spinoff
+Cheers | frasier
+Happy Days
+The Simpsons
+Family Guy | the cleveland show
+Grey's Anatomy | private practice
+Breaking Bad | better call saul
+The Office
+Friends | joey
+Saved by the Bell
+Star Trek
+Law & Order
+CSI
+NCIS
+The Big Bang Theory | young sheldon
+Gossip Girl
+Pretty Little Liars
+The Vampire Diaries | the originals
+The Walking Dead
+Game of Thrones | house of the dragon
+Yellowstone | 1883 | 1923
+Sex and the City | the carrie diaries
+Boy Meets World | girl meets world
+Full House | fuller house
+That '70s Show | that 90s show
+Buffy the Vampire Slayer | angel
+Doctor Who | torchwood
+The Jeffersons
+All in the Family
+Laverne & Shirley
+Mork & Mindy
+Hannah Montana
+The Suite Life of Zack & Cody
+iCarly | sam and cat
+Victorious
+Hey Arnold!
+Rugrats | all grown up
+Daria
+Beavis and Butt-Head
+The Boys | gen v
+Better Call Saul | el camino
+Mad About You
+*Joanie Loves Chachi
+Benson
+The Ropers
+Joey
+Lou Grant
+Rhoda
+Phyllis
+Maude
+Good Times
+Gimme a Break
+Archie Bunker's Place
+
+## Movies
+
+# Name a Jurassic Park or Jurassic World character {names}
+Alan Grant
+Ellie Sattler
+Ian Malcolm
+John Hammond
+Owen Grady
+Claire Dearing
+Dennis Nedry
+Robert Muldoon
+Tim Murphy
+Lex Murphy
+Henry Wu
+Blue
+Zia Rodriguez
+Franklin Webb
+Maisie Lockwood
+Simon Masrani
+Vic Hoskins
+Ray Arnold
+Donald Gennaro
+Mr. DNA
+Kayla Watts
+Ramsay Cole
+Lewis Dodgson
+Zora Bennett
+*Barry Sembène
+Eli Mills
+Eric Kirby
+Ben Hildebrand
+
+# Name a Back to the Future character {names}
+Marty McFly
+Doc Brown | emmett brown
+Biff Tannen
+George McFly
+Lorraine Baines | lorraine mcfly
+Jennifer Parker
+Einstein
+Mr. Strickland
+Griff Tannen
+Clara Clayton
+Mad Dog Tannen | buford tannen
+Seamus McFly
+Dave McFly
+Linda McFly
+Marvin Berry
+Goldie Wilson
+Red the bum
+*Needles
+Jules Brown
+Verne Brown
+
+# Name a Matrix or John Wick character {names}
+Neo
+Trinity
+Morpheus
+Agent Smith
+The Oracle
+Cypher
+Tank
+Niobe
+The Architect
+The Merovingian
+Persephone
+The Keymaker
+Link
+Dozer
+Mouse
+Switch
+Apoc
+John Wick
+Winston
+Charon
+Viggo Tarasov
+Iosef Tarasov
+Santino D'Antonio
+Ares
+Sofia
+Caine
+The Bowery King
+Marquis
+Killa
+Ms. Perkins
+*Daisy (the puppy)
+Akira
+Shimazu
+Bugs
+
+# Name a Mean Girls or Clueless character {names}
+Cady Heron
+Regina George
+Gretchen Wieners
+Karen Smith
+Janis Ian
+Damian
+Aaron Samuels
+Ms. Norbury
+Mr. Duvall
+Mrs. George
+Kevin Gnapoor
+Glen Coco
+Cher Horowitz
+Dionne Davenport
+Tai Frasier
+Josh Lucas
+Elton Tiscia
+Travis Birkenstock
+Christian Stovitz
+Murray
+Mel Horowitz
+Ms. Geist
+Mr. Hall
+Amber Mariens
+*Lucy the maid
+Trang Pak
+Shane Oman
+
+# Name a Grease or High School Musical character {names}
+Danny Zuko
+Sandy Olsson
+Rizzo
+Kenickie
+Frenchy
+Marty Maraschino
+Jan
+Doody
+Sonny
+Putzie
+Cha-Cha
+Eugene
+Patty Simcox
+Principal McGee
+Vince Fontaine
+Teen Angel
+Troy Bolton
+Gabriella Montez
+Sharpay Evans
+Ryan Evans
+Chad Danforth
+Taylor McKessie
+Kelsi Nielsen
+Zeke Baylor
+Ms. Darbus
+Coach Bolton
+Jason Cross
+Martha Cox
+*Rocket Man
+Tiara Gold
+Jimmie Zara
+
+# Name a Wizard of Oz character
+Dorothy | dorothy gale
+Toto
+The Scarecrow | scarecrow
+The Tin Man | tin man
+The Cowardly Lion | cowardly lion
+The Wicked Witch of the West | wicked witch
+Glinda
+The Wizard
+Munchkins
+Flying monkeys
+Aunt Em
+Uncle Henry
+Miss Gulch
+Wicked Witch of the East
+Elphaba
+Fiyero
+Nessarose
+Boq
+Madame Morrible
+Doctor Dillamond
+Professor Marvel
+Ozma
+*Lollipop Guild
+Lullaby League
+Mayor of Munchkinland
+Winkies
+
+# Name a Pirates, Peter Pan or Neverland character
+Peter Pan
+Tinker Bell
+Captain Hook
+Wendy Darling
+John Darling
+Michael Darling
+Smee
+The Lost Boys
+Tiger Lily
+Nana
+The Crocodile | tick tock
+Rufio
+Mr. Darling
+Mrs. Darling
+Tootles
+Nibs
+Slightly
+The Twins
+Curly
+Starkey
+Cecco
+Bill Jukes
+*Noodler
+Jack Banning
+Granny Wendy
+Moira Banning
+
+# Name a Mary Poppins, Willy Wonka or Roald Dahl movie character
+Mary Poppins
+Bert
+Jane Banks
+Michael Banks
+George Banks
+Winifred Banks
+Uncle Albert
+Admiral Boom
+Willy Wonka
+Charlie Bucket
+Grandpa Joe
+Augustus Gloop
+Veruca Salt
+Violet Beauregarde
+Mike Teavee
+Oompa Loompas
+Slugworth
+Matilda Wormwood
+Miss Honey
+Miss Trunchbull
+Bruce Bogtrotter
+Lavender
+Mr. Wormwood
+Mrs. Wormwood
+The BFG
+Sophie
+Fantastic Mr. Fox
+Boggis
+Bunce
+Bean
+James Henry Trotter
+Grand High Witch
+*Bruno Jenkins
+Mrs. Phelps
+Miss Spider
+Centipede
+Earthworm
+Grasshopper
+
+# Name a character from Despicable Me or Minions
+Gru
+Minions
+Kevin
+Stuart
+Bob
+Agnes
+Margo
+Edith
+Lucy Wilde
+Dr. Nefario
+Vector
+El Macho
+Balthazar Bratt
+Dru
+Scarlet Overkill
+Herb Overkill
+Wild Knuckles
+Belle Bottom
+Gru's mom | marlena
+Kyle
+Maxime Le Mal
+Gru Jr.
+Mr. Perkins
+Silas Ramsbottom
+*Otto
+Phil
+Dave
+Jerry
+Carl
+Tim
+
+# Name a character from Frozen or Encanto
+Elsa
+Anna
+Olaf
+Kristoff
+Sven
+Hans
+Duke of Weselton
+Oaken
+Marshmallow
+Grand Pabbie
+Bruni
+Gale
+Honeymaren
+Ryder
+Lieutenant Mattias
+Mirabel Madrigal
+Abuela Alma
+Bruno
+Isabela
+Luisa
+Pepa
+Félix
+Camilo
+Dolores
+Antonio
+Julieta
+Agustín
+Mariano
+Casita
+Pedro
+
+# Name a character from Moana or Lilo & Stitch
+Moana
+Maui
+Heihei
+Pua
+Gramma Tala
+Chief Tui
+Sina
+Tamatoa
+Te Fiti
+Te Kā
+The Kakamora
+Matangi
+Loto
+Moni
+Kele
+Lilo
+Stitch
+Nani
+Jumba
+Pleakley
+Cobra Bubbles
+David Kawena
+Grand Councilwoman
+Captain Gantu
+Mertle Edmonds
+Angel
+Reuben
+*Scrump
+Mrs. Hasagawa
+Mr. Bubbles
+
+# Name a character from Inside Out, Up or Coco
+Joy
+Sadness
+Anger
+Fear
+Disgust
+Anxiety
+Envy
+Ennui
+Embarrassment
+Nostalgia
+Bing Bong
+Riley Andersen
+Carl Fredricksen
+Russell
+Dug
+Kevin
+Ellie Fredricksen
+Charles Muntz
+Alpha
+Miguel Rivera
+Héctor | hector
+Ernesto de la Cruz
+Mamá Imelda
+Mamá Coco
+Abuelita
+Dante
+Pepita
+Frida Kahlo
+*Chicharrón
+Rainbow Unicorn
+Jangles the Clown
+Lance Slashblade
+Bloofy
+
+# Name a character from Monsters, Inc. or The Incredibles
+Sulley | james p sullivan
+Mike Wazowski | mike
+Boo
+Randall Boggs | randall
+Roz
+Celia
+Henry J. Waternoose | waternoose
+George Sanderson
+Fungus
+Yeti | abominable snowman
+Mr. Incredible | bob parr
+Elastigirl | helen parr
+Violet Parr
+Dash Parr
+Jack-Jack
+Frozone
+Edna Mode
+Syndrome
+Mirage
+Bomb Voyage
+The Underminer
+Screenslaver
+Evelyn Deavor
+Winston Deavor
+Rick Dicker
+Honey
+Gilbert Huph
+Voyd
+*Kari
+Squishy
+Art
+Dean Hardscrabble
+Johnny Worthington
+
+# Name a character from Finding Nemo or Cars
+Nemo
+Marlin
+Dory
+Crush
+Squirt
+Bruce
+Gill
+Nigel
+Mr. Ray
+Bloat
+Peach
+Jacques
+Darla
+Hank
+Destiny
+Bailey
+Lightning McQueen
+Mater
+Sally
+Doc Hudson
+Luigi
+Guido
+Ramone
+Flo
+Fillmore
+Sarge
+Lizzie
+Red
+Mack
+Chick Hicks
+The King | strip weathers
+Francesco Bernoulli
+Finn McMissile
+Holley Shiftwell
+Cruz Ramirez
+Jackson Storm
+Sheriff
+Gerald
+Deb
+Anchor
+
+# Name a character from Kung Fu Panda or How to Train Your Dragon
+Po
+Master Shifu
+Tigress
+Monkey
+Mantis
+Viper
+Crane
+Master Oogway
+Tai Lung
+Lord Shen
+Kai
+Mr. Ping
+Li Shan
+Zhen
+The Chameleon
+Hiccup
+Toothless
+Astrid
+Stoick the Vast
+Gobber
+Snotlout
+Fishlegs
+Ruffnut
+Tuffnut
+Valka
+Drago Bludvist
+Grimmel
+Light Fury
+Stormfly
+Hookfang
+Meatlug
+Barf and Belch
+*Cloudjumper
+Eret
+Dagur
+
+# Name a character from Ice Age or Madagascar
+Manny
+Sid
+Diego
+Scrat
+Ellie
+Peaches
+Buck
+Crash
+Eddie
+Granny
+Alex
+Marty
+Gloria
+Melman
+King Julien
+Maurice
+Mort
+Skipper
+Kowalski
+Rico
+Private
+Captain Chantel DuBois
+Gia
+Vitaly
+Stefano
+*Scratte
+Shira
+Captain Gutt
+Louis
+Mason and Phil
+
+# Name a famous movie line or quote (just the line)
+May the Force be with you
+I'll be back
+Here's looking at you, kid
+You can't handle the truth
+Houston, we have a problem
+To infinity and beyond
+Why so serious?
+Life is like a box of chocolates
+Show me the money
+Hasta la vista, baby
+There's no place like home
+I'm the king of the world
+You talkin' to me?
+I see dead people
+Say hello to my little friend
+I am your father | luke i am your father
+E.T. phone home
+Just keep swimming
+Hakuna matata
+You shall not pass
+My precious
+Wakanda forever
+I am Groot
+I am Iron Man
+Avengers assemble
+Here's Johnny
+Bond. James Bond.
+Shaken, not stirred
+Frankly, my dear, I don't give a damn
+I'll have what she's having
+Nobody puts Baby in a corner
+Elementary, my dear Watson
+Keep the change, ya filthy animal
+Wax on, wax off
+Run, Forrest, run
+Yippee-ki-yay
+Go ahead, make my day
+Toto, I've a feeling we're not in Kansas anymore
+I'm walking here
+You had me at hello
+Inconceivable
+As you wish
+Hello. My name is Inigo Montoya
+On Wednesdays we wear pink
+That's so fetch
+So you're telling me there's a chance
+I'm kind of a big deal
+I'm in a glass case of emotion
+We're gonna need a bigger boat
+Snakes. Why'd it have to be snakes?
+It's alive!
+Heeere's Johnny!
+Carpe diem
+After all, tomorrow is another day
+*Rosebud
+Mrs. Robinson, you're trying to seduce me
+Plastics
+Stella!
+Badges? We don't need no stinking badges
+They call me Mister Tibbs!
+Soylent Green is people!
+
+# Name a movie with a famous plot twist
+The Sixth Sense
+Fight Club
+The Usual Suspects
+Shutter Island
+Psycho
+The Empire Strikes Back
+Planet of the Apes
+Gone Girl
+The Prestige
+Memento
+Se7en
+Get Out
+Parasite
+Saw
+Primal Fear
+The Others
+Oldboy
+Inception
+Shutter Island
+Identity
+The Village
+Unbreakable
+Split
+The Game
+Les Diaboliques
+Vertigo
+Chinatown
+The Crying Game
+Arrival
+Knives Out
+Glass Onion
+Frozen
+Toy Story 2
+Up
+Coco
+Zootopia
+Now You See Me
+Predestination
+Orphan
+The Machinist
+Fractured
+Gone Baby Gone
+Secret Window
+Hereditary
+Barbarian
+Talk to Me
+The Prestige
+Remember Me
+*Sleepaway Camp
+Witness for the Prosecution
+Les Diaboliques
+The Wicker Man
+Don't Look Now
+Jacob's Ladder
+
+# Name a Disney live-action remake
+The Lion King (2019)
+Aladdin (2019)
+Beauty and the Beast (2017)
+The Jungle Book (2016)
+Cinderella (2015)
+The Little Mermaid (2023)
+Mulan (2020)
+Maleficent
+Dumbo (2019)
+Alice in Wonderland (2010)
+Lady and the Tramp (2019)
+Pinocchio (2022)
+Peter Pan & Wendy
+Snow White (2025)
+Lilo & Stitch (2025)
+Cruella
+Christopher Robin
+101 Dalmatians (1996)
+102 Dalmatians
+The Haunted Mansion
+Mufasa: The Lion King | mufasa
+Pete's Dragon (2016)
+Maleficent: Mistress of Evil
+Disenchanted
+Moana (2026)
+Hercules
+Tangled
+
+# Name a theme park ride
+Space Mountain
+Pirates of the Caribbean
+Haunted Mansion
+Splash Mountain
+Big Thunder Mountain Railroad
+It's a Small World
+Tower of Terror
+Expedition Everest
+Soarin'
+Test Track
+Matterhorn Bobsleds
+Rise of the Resistance
+Smugglers Run
+Guardians of the Galaxy: Cosmic Rewind
+Tron Lightcycle Run
+Seven Dwarfs Mine Train
+Avatar Flight of Passage
+Slinky Dog Dash
+Toy Story Mania
+Radiator Springs Racers
+Indiana Jones Adventure
+Jungle Cruise
+Dumbo the Flying Elephant
+Mad Tea Party | teacups
+Peter Pan's Flight
+Haunted Mansion
+Harry Potter and the Forbidden Journey
+Hagrid's Magical Creatures Motorbike Adventure
+Escape from Gringotts
+The Incredible Hulk Coaster
+Jurassic Park River Adventure
+VelociCoaster
+The Amazing Adventures of Spider-Man
+Revenge of the Mummy
+E.T. Adventure
+Men in Black: Alien Attack
+Transformers: The Ride
+The Simpsons Ride
+Mario Kart: Bowser's Challenge
+Mine-Cart Madness
+Kingda Ka
+Top Thrill Dragster
+Millennium Force
+Steel Vengeance
+The Beast
+Cyclone | coney island cyclone
+*Journey into Imagination
+Country Bear Jamboree
+Enchanted Tiki Room
+Hall of Presidents
+Carousel of Progress
+Maelstrom
+Horizons
+Mr. Toad's Wild Ride
+Captain EO
