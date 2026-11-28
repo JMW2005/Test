@@ -1,6 +1,6 @@
 // Deep Cut service worker: keeps the game playable offline.
 // Bump VERSION whenever index.html or the icons change so phones pick up the update.
-const VERSION = "deepcut-v3";
+const VERSION = "deepcut-v4";
 const SHELL = [
   "./",
   "./index.html",

@@ -136,7 +136,7 @@ textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--i
   <h2>The dig</h2>
   <p>Each round shows a prompt like <em>"Name a breed of dog"</em>. You have 20 seconds to type one answer that fits. You only get one locked-in answer per prompt, but a guess that isn't on the list doesn't use it up, so keep trying until the clock runs out.</p>
   <h2>Going deeper</h2>
-  <p>Every accepted answer has a popularity. Answers most people give score little. Answers few people think of score more. Your total is your depth in metres.</p>
+  <p>Every accepted answer has a popularity. Answers most people give score little. Answers few people think of score more. Your total is your depth in feet.</p>
   <div class="strata" id="strataKey2"></div>
   <h2>The Mother Lode</h2>
   <p>Every prompt hides one Mother Lode. It isn't always the rarest answer. It's a satisfying one that some players will actually find. Hit it for the biggest score.</p>
@@ -149,7 +149,7 @@ textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--i
   <div class="topbar">
     <button class="link" id="quit">← Leave</button>
     <div class="core" id="core"></div>
-    <div class="depth"><span id="depthNum">0</span><small> m</small></div>
+    <div class="depth"><span id="depthNum">0</span><small> ft</small></div>
   </div>
   <div class="prompt-n" id="pn"></div>
   <div class="prompt" id="pq"></div>
@@ -167,7 +167,7 @@ textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--i
 <section id="results" class="screen">
   <div class="topbar"><button class="link" data-home>← Home</button><span class="small" id="rDate"></span></div>
   <div class="prompt-n">You reached</div>
-  <div class="big"><span id="rDepth">0</span><span style="font-size:28px"> m</span></div>
+  <div class="big"><span id="rDepth">0</span><span style="font-size:28px"> ft</span></div>
   <p class="tag" id="rLine"></p>
   <div class="rlist" id="rList"></div>
   <div class="row2">
@@ -181,19 +181,19 @@ textarea{width:100%;font:inherit;font-size:13px;background:#0f0b08;color:var(--i
 <script src="bank.js"></script>
 <script>
 const STRATA = [
-  {name:"Topsoil", min:.06,  pts:10, color:"var(--s0)", emoji:"🟫", hint:"what most people say"},
-  {name:"Clay",    min:.025, pts:25, color:"var(--s1)", emoji:"🟧", hint:"well known"},
-  {name:"Shale",   min:.01,  pts:40, color:"var(--s2)", emoji:"🟪", hint:"a step off the path"},
-  {name:"Bedrock", min:.004, pts:60, color:"var(--s3)", emoji:"🟦", hint:"rare"},
-  {name:"Magma",   min:0,    pts:80, color:"var(--s4)", emoji:"🟥", hint:"almost nobody"},
+  {name:"Topsoil", min:.06,  pts:30, color:"var(--s0)", emoji:"🟫", hint:"what most people say"},
+  {name:"Clay",    min:.025, pts:75, color:"var(--s1)", emoji:"🟧", hint:"well known"},
+  {name:"Shale",   min:.01,  pts:120, color:"var(--s2)", emoji:"🟪", hint:"a step off the path"},
+  {name:"Bedrock", min:.004, pts:180, color:"var(--s3)", emoji:"🟦", hint:"rare"},
+  {name:"Magma",   min:0,    pts:240, color:"var(--s4)", emoji:"🟥", hint:"almost nobody"},
 ];
-const LODE = {name:"Mother Lode", pts:120, color:"var(--gem)", emoji:"💎", hint:"the hidden gem"};
+const LODE = {name:"Mother Lode", pts:360, color:"var(--gem)", emoji:"💎", hint:"the hidden gem"};
 const MISS = {name:"Cave-in", pts:0, color:"#3a2e25", emoji:"⬛"};
 const ROUNDS = 7, SECONDS = 20;
 
 /* ---------------- DIG ANIMATION ----------------
    Bands are laid out on the scoring scale, so the depth the miner reaches is the score. */
-const SCALE_MAX = 120;
+const SCALE_MAX = 360;
 function cssVar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim() || "#888"; }
 function colorOf(s){ const m = s.color.match(/--[\w]+/); return m ? cssVar(m[0]) : s.color; }
 let digRaf = 0;
@@ -206,11 +206,11 @@ function playDig(cv, pts, gem, onTick, onDone){
   const bands = [...STRATA,LODE].map((s,i,arr)=>({from:i?arr[i-1].pts:0, to:s.pts, col:colorOf(s), name:s.name}));
   const rnd = mulberry32(pts*97+7);
   const specks = [...Array(160)].map(()=>({x:rnd()*W, d:rnd()*SCALE_MAX, r:rnd()*1.6+.5, l:rnd()<.5}));
-  const crystals = [...Array(12)].map(()=>({x:rnd()*W, d:84+rnd()*30, s:3+rnd()*5}));
+  const crystals = [...Array(12)].map(()=>({x:rnd()*W, d:SCALE_MAX*0.7+rnd()*SCALE_MAX*0.25, s:3+rnd()*5}));
   const stars = [...Array(18)].map(()=>({x:rnd()*W, y:rnd()*(top-10)}));
   const parts = [];
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const dur = reduce ? 0 : (pts ? 700 + pts*12 : 1100);
+  const dur = reduce ? 0 : (pts ? 700 + pts*4 : 1100);
   const t0 = performance.now(); let last = -1, finished = false;
   const ink = cssVar("--ink"), muted = cssVar("--muted"), gemCol = cssVar("--gem"), accent = cssVar("--accent");
   const bandAt = d => bands.find(b=>d<=b.to) || bands[bands.length-1];
@@ -267,7 +267,7 @@ function playDig(cv, pts, gem, onTick, onDone){
     bands.forEach(b=>{
       c.fillStyle = "rgba(243,230,211,.75)"; c.textAlign = "right";
       c.fillText(b.name.toUpperCase(), W-8, (y(b.from)+y(b.to))/2);
-      c.fillStyle = "rgba(243,230,211,.45)"; c.textAlign = "left"; c.fillText(b.to+" m", 6, y(b.to)-6);
+      c.fillStyle = "rgba(243,230,211,.45)"; c.textAlign = "left"; c.fillText(b.to+" ft", 6, y(b.to)-6);
       c.fillStyle = "rgba(0,0,0,.35)"; c.fillRect(0,y(b.to),W,1);
     });
     // shaft
@@ -290,7 +290,7 @@ function playDig(cv, pts, gem, onTick, onDone){
     }
     // depth readout
     c.fillStyle = accent; c.font = "700 13px 'JetBrains Mono', ui-monospace, monospace"; c.textAlign = "left";
-    c.fillText("−" + Math.round(d) + " m", sx+sw/2+8, Math.max(top+10, fy-10));
+    c.fillText("−" + Math.round(d) + " ft", sx+sw/2+8, Math.max(top+10, fy-10));
     const digging = t<1 && pts>0;
     drawMiner(sx, gem && t>=1 ? fy-6 : fy, now, digging, gem && t>=1);
     // dirt chips
@@ -344,13 +344,13 @@ function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;
 /* ---------------- SCREENS ---------------- */
 function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.toggle("on",s.id===id)); window.scrollTo(0,0); }
 function strataHTML(){
-  return [...STRATA,LODE].map(s=>`<div class="stratum" style="background:${s.color}"><span>${s.emoji} ${s.name} <em>· ${s.hint}</em></span><b>${s.pts} m</b></div>`).join("");
+  return [...STRATA,LODE].map(s=>`<div class="stratum" style="background:${s.color}"><span>${s.emoji} ${s.name} <em>· ${s.hint}</em></span><b>${s.pts} ft</b></div>`).join("");
 }
 function renderHome(){
   const st = store.get("stats",{played:0,streak:0,best:0,lodes:0,last:null});
   const done = store.get("daily:"+todayKey(), null);
-  $("dailyNote").textContent = done ? `Dig #${dayNumber()} done: ${done.depth} m. Tap to see your core sample.` : `Dig #${dayNumber()}: a new set of prompts every day.`;
-  $("stats").innerHTML = [["Digs",st.played],["Streak",st.streak],["Best",st.best+" m"],["Lodes",st.lodes]]
+  $("dailyNote").textContent = done ? `Dig #${dayNumber()} done: ${done.depth} ft. Tap to see your core sample.` : `Dig #${dayNumber()}: a new set of prompts every day.`;
+  $("stats").innerHTML = [["Digs",st.played],["Streak",st.streak],["Best",st.best+" ft"],["Lodes",st.lodes]]
     .map(([l,v])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
   $("strataKey").innerHTML = strataHTML();
   show("home");
@@ -422,16 +422,16 @@ function lockIn(a, typed){
     + (a && !top.includes(a) && !a.gem ? `<li class="me"><span>… ${esc(a.name)} (you)</span><span>${pct(a.share)}</span></li>`:"")
     + `<li class="gem"><span>💎 Mother Lode: ${esc(gem.name)}${a===gem?" (you!)":""}</span><span>${pct(gem.share)}</span></li>`;
   const head = a
-    ? `<span class="pts" id="ptsNum">+0m</span><span class="badge" style="background:${s.color};${a.gem?"color:#0b2a25":""}">${s.emoji} ${s.name}</span>
+    ? `<span class="pts" id="ptsNum">+0 ft</span><span class="badge" style="background:${s.color};${a.gem?"color:#0b2a25":""}">${s.emoji} ${s.name}</span>
        <div class="ans">${esc(a.name)}</div>
        <div class="small">${typed && norm(typed)!==norm(a.name)?`You typed "${esc(typed)}". `:""}${Math.max(1,Math.round(a.share*G.crowd)).toLocaleString()} other diggers picked this (${pct(a.share)}).</div>`
-    : `<span class="pts">+0m</span><span class="badge" style="background:${s.color}">⬛ Cave-in</span><div class="ans">Out of time</div><div class="small">No answer locked in.</div>`;
+    : `<span class="pts">+0 ft</span><span class="badge" style="background:${s.color}">⬛ Cave-in</span><div class="ans">Out of time</div><div class="small">No answer locked in.</div>`;
   const last = G.i===G.list.length-1;
-  $("revealBox").innerHTML = `<div class="reveal"><canvas class="dig" id="digCv" aria-label="A miner digs ${s.pts} metres down"></canvas>${head}<ul>${rows}</ul><button class="next" id="nextBtn">${last?"See your core sample →":"Next prompt →"}</button></div>`;
+  $("revealBox").innerHTML = `<div class="reveal"><canvas class="dig" id="digCv" aria-label="A miner digs ${s.pts} feet down"></canvas>${head}<ul>${rows}</ul><button class="next" id="nextBtn">${last?"See your core sample →":"Next prompt →"}</button></div>`;
   renderCore();
   const base = G.depth - s.pts;
   playDig($("digCv"), s.pts, !!(a && a.gem),
-    v=>{ $("depthNum").textContent = base+v; const pn=$("ptsNum"); if(pn) pn.textContent = "+"+v+"m"; },
+    v=>{ $("depthNum").textContent = base+v; const pn=$("ptsNum"); if(pn) pn.textContent = "+"+v+" ft"; },
     ()=>{ if(a && a.gem){ const f=document.createElement("div"); f.className="gemflash"; document.body.appendChild(f); setTimeout(()=>f.remove(),1300); } });
   const nb=$("nextBtn"); nb.focus();
   nb.onclick = ()=>{ G.i++; if(G.i<G.list.length) nextRound(); else finish(); };
@@ -461,15 +461,15 @@ function showResults(r, mode){
   $("rDate").textContent = mode==="daily" ? `Dig #${dayNumber()} · ${todayKey()}` : "Practice shaft";
   $("rDepth").textContent = r.depth;
   const lodes = r.picks.filter(p=>p.s==="Mother Lode").length;
-  const lines = [[600,"Legendary prospector. You went through the planet."],[420,"Deep cuts all round."],[260,"Solid dig. You found some veins."],[120,"You got past the topsoil."],[0,"Mostly surface finds. Try some deeper picks tomorrow."]];
+  const lines = [[1800,"Legendary prospector. You went through the planet."],[1260,"Deep cuts all round."],[780,"Solid dig. You found some veins."],[360,"You got past the topsoil."],[0,"Mostly surface finds. Try some deeper picks tomorrow."]];
   $("rLine").textContent = lines.find(l=>r.depth>=l[0])[1] + (lodes?` ${lodes} Mother Lode${lodes>1?"s":""} found.`:"");
   $("rList").innerHTML = r.picks.map((p,i)=>{ const s=stratumByName(p.s); return `
     <div class="rrow"><div class="sw" style="background:${s.color}"></div>
       <div><div class="q">${esc(p.q)}</div><div class="a">${p.name?esc(p.name):"—"}</div>
       <div class="p">${s.emoji} ${s.name}${p.name?` · ${pct(p.share)} of diggers`:""}</div></div>
-      <div class="m">${s.pts}m</div></div>`; }).join("");
+      <div class="m">${s.pts} ft</div></div>`; }).join("");
   const grid = r.picks.map(p=>stratumByName(p.s).emoji).join("");
-  $("shareTxt").value = `Deep Cut ${mode==="daily"?"#"+dayNumber():"(practice)"}: ${r.depth} m\n${grid}`;
+  $("shareTxt").value = `Deep Cut ${mode==="daily"?"#"+dayNumber():"(practice)"}: ${r.depth} ft\n${grid}`;
   show("results");
 }
 $("bCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("shareTxt").value); $("bCopy").textContent="Copied!"; }catch(e){ $("shareTxt").select(); $("bCopy").textContent="Select & copy below"; } setTimeout(()=>$("bCopy").textContent="Copy result",1500); };

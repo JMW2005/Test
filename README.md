@@ -65,8 +65,8 @@ GitHub Pages on a private repository needs a paid GitHub plan. On a free plan, t
 When you change `deep-cut/index.html`, bump `VERSION` in `deep-cut/sw.js` so installed copies pick up the update.
 
 - Each day gives you **7 pop-culture prompts**, such as "Name a Pixar movie", with **20 seconds** each to type one answer.
-- **The rarer your answer, the deeper you dig.** Answers are grouped into strata: Topsoil 10 m, Clay 25 m, Shale 40 m, Bedrock 60 m, Magma 80 m.
-- Every prompt hides one **Mother Lode** (120 m), a satisfying answer some players will find.
+- **The rarer your answer, the deeper you dig.** Answers are grouped into strata: Topsoil 30 ft, Clay 75 ft, Shale 120 ft, Bedrock 180 ft, Magma 240 ft.
+- Every prompt hides one **Mother Lode** (360 ft), a satisfying answer some players will find.
 - Guesses that aren't on the list don't use up your turn. Small typos and common alternative names are accepted.
 - **Practice shaft** gives random prompts, from everything or from one category. Your streak, best depth and Mother Lodes found are saved in your browser.
 
