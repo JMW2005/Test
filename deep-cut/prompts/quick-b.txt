@@ -1,0 +1,2292 @@
+// Deep Cut prompt bank: QUICK ROUNDS B (short lists, titles and names only)
+// Answers go most common first. * marks the Mother Lode.
+
+## Quick Rounds
+
+# Name a Marvel Netflix or Defenders character
+Daredevil | matt murdock
+Jessica Jones
+Luke Cage
+Iron Fist | danny rand
+The Punisher | frank castle
+Kingpin | wilson fisk
+Elektra
+Kilgrave
+Foggy Nelson
+Karen Page
+Claire Temple
+Stick
+Bullseye
+Colleen Wing
+Misty Knight
+*Trish Walker
+
+# Name a Pixar short film
+Luxo Jr.
+Bao
+Piper
+For the Birds
+Geri's Game
+La Luna
+Lava
+Partly Cloudy
+Presto
+Day & Night
+Knick Knack
+Tin Toy
+Boundin'
+Burn-E
+Lifted
+One Man Band
+The Blue Umbrella
+Sanjay's Super Team
+*Kitbull
+Loop
+Purl
+Float
+Wind
+
+# Name an Oscar-winning Best Actor {names}
+Leonardo DiCaprio
+Tom Hanks
+Daniel Day-Lewis
+Anthony Hopkins
+Denzel Washington
+Joaquin Phoenix
+Matthew McConaughey
+Eddie Redmayne
+Rami Malek
+Cillian Murphy
+Brendan Fraser
+Will Smith
+Gary Oldman
+Casey Affleck
+Jean Dujardin
+Colin Firth
+Sean Penn
+Jamie Foxx
+Philip Seymour Hoffman
+Forest Whitaker
+Adrien Brody
+Russell Crowe
+Kevin Spacey
+Al Pacino
+Jack Nicholson
+Robert De Niro
+Marlon Brando
+Dustin Hoffman
+Jeff Bridges
+*Roberto Benigni
+Nicolas Cage
+Geoffrey Rush
+Michael Douglas
+Henry Fonda
+Humphrey Bogart
+
+# Name an Oscar-winning Best Actress {names}
+Meryl Streep
+Emma Stone
+Julia Roberts
+Sandra Bullock
+Natalie Portman
+Jennifer Lawrence
+Halle Berry
+Charlize Theron
+Nicole Kidman
+Reese Witherspoon
+Cate Blanchett
+Kate Winslet
+Michelle Yeoh
+Frances McDormand
+Olivia Colman
+Renée Zellweger
+Brie Larson
+Julianne Moore
+Jessica Chastain
+Mikey Madison
+Hilary Swank
+Helen Mirren
+Marion Cotillard
+Gwyneth Paltrow
+Holly Hunter
+Jodie Foster
+Kathy Bates
+Susan Sarandon
+Audrey Hepburn
+Katharine Hepburn
+Elizabeth Taylor
+*Kathy Bates
+Grace Kelly
+Vivien Leigh
+Julie Andrews
+Sally Field
+Diane Keaton
+
+# Name a famous movie director {names}
+Steven Spielberg
+Christopher Nolan
+Quentin Tarantino
+Martin Scorsese
+James Cameron
+Alfred Hitchcock
+Stanley Kubrick
+George Lucas
+Tim Burton
+Wes Anderson
+Ridley Scott
+Peter Jackson
+Francis Ford Coppola
+Greta Gerwig
+Jordan Peele
+Denis Villeneuve
+David Fincher
+Guillermo del Toro
+Spike Lee
+Michael Bay
+Zack Snyder
+J.J. Abrams
+Taika Waititi
+Ryan Coogler
+James Gunn
+Sofia Coppola
+Kathryn Bigelow
+Ron Howard
+Clint Eastwood
+Woody Allen
+M. Night Shyamalan
+Sam Raimi
+Robert Zemeckis
+John Hughes
+Hayao Miyazaki
+Akira Kurosawa
+Bong Joon-ho
+Ang Lee
+Paul Thomas Anderson
+Darren Aronofsky
+Ari Aster
+Edgar Wright
+*Agnès Varda
+Federico Fellini
+Ingmar Bergman
+Orson Welles
+Billy Wilder
+Frank Capra
+
+# Name a talking animal from a kids' movie or show
+Winnie the Pooh
+Paddington
+Babe
+Stuart Little
+Garfield
+Scooby-Doo
+Clifford
+Curious George
+Peppa Pig
+Bluey
+Arthur
+Franklin
+Kermit
+Simba
+Nemo
+Dory
+Remy
+Puss in Boots
+Donkey
+Po
+Alex the Lion
+Marty the Zebra
+Judy Hopps
+Nick Wilde
+Bolt
+Bunny (Sing)
+Buster Moon
+Rocket Raccoon
+*Mr. Toad
+Ratty
+Mole
+Badger
+Fantastic Mr. Fox
+
+# Name a word that comes before "Man" in a superhero name
+Spider
+Iron
+Super
+Bat
+Ant
+Aqua
+Hawk
+Ice
+Sand
+Plastic
+Elongated
+Atom
+Animal
+Bird
+Wonder
+Moon
+Night
+Kite
+Magnet
+Captain Marvel's | shazam
+*Matter-Eater
+Doll
+Mighty
+Elastic
+Fly
+
+# Name something from the 1980s
+Walkman
+Cassette tapes
+VHS
+Arcade
+Rubik's Cube
+Atari
+Polaroid
+Boombox
+Leg warmers
+Scrunchies
+Neon
+Big hair
+Shoulder pads
+Mixtapes
+Walkie-talkies
+BMX bikes
+Dungeons & Dragons
+Eggo waffles
+New Coke
+Mall
+Video store
+Pac-Man
+Members Only jackets
+Slap bracelets
+Jelly shoes
+Trapper Keeper
+*Lite-Brite
+Teddy Ruxpin
+Cabbage Patch Kids
+Care Bears
+
+# Name a famous Star Wars planet or place
+Tatooine
+Hoth
+Endor
+Naboo
+Coruscant
+Dagobah
+Alderaan
+Mustafar
+Kashyyyk
+Jakku
+Bespin | cloud city
+Death Star
+Yavin 4
+Scarif
+Mandalore
+Kamino
+Geonosis
+Utapau
+Jedha
+Crait
+Exegol
+Starkiller Base
+Lothal
+Nevarro
+Ahch-To
+Mos Eisley
+Ferrix
+*Batuu | galaxys edge
+Mortis
+Malachor
+Kessel
+
+# Name a Hogwarts professor or staff member {names}
+Albus Dumbledore
+Severus Snape
+Minerva McGonagall
+Rubeus Hagrid
+Remus Lupin
+Gilderoy Lockhart
+Quirinus Quirrell
+Dolores Umbridge
+Horace Slughorn
+Sybill Trelawney
+Filius Flitwick
+Pomona Sprout
+Mad-Eye Moody
+Argus Filch
+Madam Pomfrey
+Madam Hooch
+Cuthbert Binns
+Firenze
+Charity Burbage
+Wilhelmina Grubbly-Plank
+Aurora Sinistra
+Septima Vector
+Bathsheda Babbling
+Silvanus Kettleburn
+*Galatea Merrythought
+Phineas Nigellus Black
+Madam Pince
+Alecto Carrow
+Amycus Carrow
+
+# Name a Harry Potter magical creature
+Dragon
+Hippogriff | buckbeak
+House-elf
+Owl
+Phoenix
+Unicorn
+Centaur
+Giant
+Troll
+Goblin
+Dementor
+Basilisk
+Acromantula
+Thestral
+Niffler
+Bowtruckle
+Werewolf
+Boggart
+Pixie
+Gnome
+Mandrake
+Kneazle
+Grindylow
+Merpeople
+Sphinx
+Blast-Ended Skrewt
+Hungarian Horntail
+Norwegian Ridgeback
+Fluffy
+Aragog
+Nagini
+Fawkes
+Hedwig
+Errol
+Pigwidgeon
+Crookshanks
+Scabbers
+Trevor
+*Occamy
+Erumpent
+Demiguise
+Swooping Evil
+Thunderbird
+Murtlap
+Puffskein
+Pygmy Puff
+
+# Name a Lord of the Rings or Tolkien creature or race
+Hobbit
+Elf
+Dwarf
+Orc
+Uruk-hai
+Ent
+Troll
+Goblin
+Wizard
+Dragon
+Balrog
+Nazgûl | nazgul | ringwraith
+Eagle
+Warg
+Oliphaunt | mumakil
+Fell beast
+Huorn
+Barrow-wight
+Watcher in the Water
+Giant spider
+Stone giant
+Skin-changer | beorn
+Men
+Istari
+Maiar
+Valar
+*Dúnedain
+Easterlings
+Haradrim
+Woses
+Shelob
+Smaug
+
+# Name a famous Disney park land or area
+Tomorrowland
+Fantasyland
+Adventureland
+Frontierland
+Main Street, U.S.A. | main street
+Liberty Square
+Toontown
+Star Wars: Galaxy's Edge | galaxys edge
+Toy Story Land
+Pandora
+Cars Land
+Avengers Campus
+Pixar Pier
+New Orleans Square
+Critter Country
+Bayou Country
+Mickey's Toontown
+World Showcase
+Future World
+Africa
+Asia
+DinoLand U.S.A.
+Discovery Island
+Sunset Boulevard
+Hollywood Boulevard
+Echo Lake
+*Grizzly Peak
+Paradise Gardens Park
+San Fransokyo Square
+Hollywood Land
+
+# Name a famous Christmas TV special or movie character
+Rudolph
+Frosty the Snowman
+The Grinch
+Cindy Lou Who
+Max the dog
+Charlie Brown
+Buddy the Elf
+Kevin McCallister
+Ralphie Parker
+Clark Griswold
+Cousin Eddie
+Scott Calvin
+Jack Skellington
+Sally
+Oogie Boogie
+Ebenezer Scrooge
+Tiny Tim
+Bob Cratchit
+Jacob Marley
+Hermey the Elf
+Yukon Cornelius
+Abominable Snow Monster | bumble
+Heat Miser
+Snow Miser
+Clarice
+The Island of Misfit Toys
+Burgermeister Meisterburger
+Kris Kringle
+Jack Frost
+Hero Boy
+*Sam the Snowman
+Charlie-in-the-Box
+Spotted elephant
+Bumble
+Arthur Christmas
+
+# Name a famous Halloween movie or TV special
+Hocus Pocus
+It's the Great Pumpkin, Charlie Brown
+Halloweentown
+The Nightmare Before Christmas
+Beetlejuice
+Casper
+The Addams Family
+Coraline
+Corpse Bride
+Ghostbusters
+Hotel Transylvania
+Monster House
+ParaNorman
+Frankenweenie
+Scooby-Doo
+Halloween
+Trick 'r Treat
+The Haunted Mansion
+Practical Magic
+Twitches
+Under Wraps
+Girl vs. Monster
+Mr. Boogedy
+Treehouse of Horror
+Garfield's Halloween Adventure
+Disney's Haunted Halloween
+The Legend of Sleepy Hollow
+Spooky Buddies
+*Ernest Scared Stupid
+The Worst Witch
+Return to Oz
+The Witches
+Goosebumps
+
+# Name a famous movie set at a summer camp
+Wet Hot American Summer
+The Parent Trap
+Meatballs
+Friday the 13th
+Heavyweights
+Camp Rock
+Indian Summer
+Little Darlings
+Addams Family Values
+Sleepaway Camp
+Bug Juice
+Camp Nowhere
+Moonrise Kingdom
+Ernest Goes to Camp
+Dirty Dancing
+Space Camp
+Camp Cretaceous
+Totally Killer
+Fear Street: 1978
+*Gorp
+Indian Summer
+Poison Ivy
+The Burning
+Camp
+
+# Name a famous movie set on an island
+Jurassic Park
+Cast Away
+Moana
+King Kong
+Lord of the Flies
+Shutter Island
+Pirates of the Caribbean
+The Blue Lagoon
+Swiss Family Robinson
+Treasure Island
+Jaws
+Mamma Mia!
+Forgetting Sarah Marshall
+Lilo & Stitch
+The Beach
+Couples Retreat
+The Island
+Kong: Skull Island
+Jurassic World
+Fantasy Island
+The Wicker Man
+Six Days, Seven Nights
+50 First Dates
+The Lighthouse
+The Banshees of Inisherin
+Island of Lost Souls
+Nim's Island
+Glass Onion
+Triangle of Sadness
+*Islands in the Stream
+Robinson Crusoe
+The Mysterious Island
+Waterworld
+
+# Name a Christmas song from a movie
+All I Want for Christmas Is You
+Jingle Bell Rock
+White Christmas
+Holly Jolly Christmas
+Somewhere in My Memory
+Where Are You Christmas?
+You're a Mean One, Mr. Grinch
+This Is Halloween
+What's This?
+Christmas Vacation
+Believe
+The Polar Express
+Hot Chocolate
+Santa Claus Is Comin' to Town
+Baby, It's Cold Outside
+Let It Snow
+Have Yourself a Merry Little Christmas
+It's the Most Wonderful Time of the Year
+*When Christmas Comes to Town
+Christmas Wrapping
+Run Rudolph Run
+Linus and Lucy
+Christmas Time Is Here
+Silver Bells
+
+# Name a famous ad slogan
+Just Do It
+I'm Lovin' It
+Got Milk?
+Think Different
+Where's the Beef?
+Have It Your Way
+Taste the Rainbow
+Because You're Worth It
+Melts in Your Mouth, Not in Your Hands
+Finger Lickin' Good
+The Breakfast of Champions
+Eat Fresh
+Think Outside the Bun
+Red Bull Gives You Wings
+What's in Your Wallet?
+Can You Hear Me Now?
+Like a Good Neighbor, State Farm Is There
+Fifteen Minutes Could Save You Fifteen Percent
+Maybe She's Born with It
+The Happiest Place on Earth
+Snap! Crackle! Pop!
+They're Gr-r-reat!
+Gotta Have My Pops
+Silly Rabbit, Trix Are for Kids
+Betcha Can't Eat Just One
+Once You Pop, You Can't Stop
+Wassup?
+Whassup
+The Quicker Picker Upper
+Save Money. Live Better.
+Expect More. Pay Less.
+I Want My MTV
+*Plop Plop, Fizz Fizz
+Mmm Mmm Good
+Look Ma, No Cavities
+Don't Leave Home Without It
+The Ultimate Driving Machine
+Built Ford Tough
+Like a Rock
+
+# Name a famous Super Bowl commercial or ad mascot
+Budweiser Clydesdales
+Budweiser Frogs
+Wassup
+Doritos
+Coca-Cola polar bears
+Mean Joe Greene
+1984 (Apple)
+E*Trade baby
+Darth Vader kid (Volkswagen)
+Puppy Love
+Old Spice Guy
+Terry Tate: Office Linebacker
+It's a Tide ad
+Monkeys (CareerBuilder)
+Cat herders (EDS)
+Where's the Beef?
+Bud Bowl
+Tom Brady Hertz
+Dilly Dilly
+Bud Knight
+Jeep Groundhog Day
+Mountain Dew Puppymonkeybaby
+Snickers Betty White
+Doritos Crash the Super Bowl
+GoDaddy girls
+Squarespace
+Mr. Peanut's funeral
+Cheetos MC Hammer
+*Ally Sheedy
+Chiefs Kelce Tide
+Ben Affleck Dunkin'
+Breaking Bad PopCorners
+Jake from State Farm
+
+# Name a famous video game theme or music
+Super Mario Bros. theme
+Tetris theme | korobeiniki
+Zelda theme
+Pokémon theme
+Halo theme
+Sonic Green Hill Zone
+Final Fantasy Victory Fanfare
+One-Winged Angel
+Still Alive
+Megalovania
+Sweden (Minecraft)
+Wii Shop Channel
+Mii Channel
+Gerudo Valley
+Song of Storms
+Zelda's Lullaby
+Baba Yetu
+Dragonborn
+Snake Eater
+Bloody Tears
+Hyrule Field
+Clocktown
+Super Mario Galaxy Gusty Garden
+Jump Up, Super Star!
+Coconut Mall
+Bob-omb Battlefield
+Dire, Dire Docks
+Corridors of Time
+Aquatic Ambience
+*Rainbow Road
+Undertale Hopes and Dreams
+Doom E1M1
+Halo Gregorian chant
+Kingdom Hearts Simple and Clean
+Animal Crossing 5PM
+
+# Name a famous racehorse or race
+Kentucky Derby
+Preakness Stakes
+Belmont Stakes
+Triple Crown
+Secretariat
+Seabiscuit
+American Pharoah
+Justify
+Man o' War
+War Admiral
+Affirmed
+Seattle Slew
+Citation
+Grand National
+Royal Ascot
+Melbourne Cup
+Breeders' Cup
+Dubai World Cup
+Prix de l'Arc de Triomphe
+Epsom Derby
+Cheltenham
+Red Rum
+Frankel
+Phar Lap
+Winx
+Zenyatta
+Funny Cide
+Smarty Jones
+California Chrome
+Mine That Bird
+Rich Strike
+Barbaro
+Eight Belles
+*Mongolian Groom
+Arrogate
+Flightline
+Sovereignty
+
+# Name something you'd find at a circus
+Clowns
+Elephants
+Lions
+Tigers
+Acrobats
+Trapeze
+Tightrope walker
+Ringmaster
+Big top
+Tent
+Juggler
+Popcorn
+Cotton candy
+Peanuts
+Unicycle
+Stilts
+Fire eater
+Sword swallower
+Strongman
+Bearded lady
+Contortionist
+Human cannonball
+Magician
+Animal tamer
+Horses
+Monkeys
+Seals
+Bears
+Ponies
+Calliope music
+Three rings
+Clown car
+Cages
+Hoops of fire
+Safety net
+Spotlight
+Ringling Bros.
+Cirque du Soleil
+Barnum & Bailey
+Greatest Show on Earth
+*Flea circus
+Freak show
+Funhouse mirrors
+Fortune teller
+Strongwoman
+Knife thrower
+
+# Name something associated with the Olympics
+Gold medal
+Silver medal
+Bronze medal
+Olympic rings
+Torch
+Flame
+Podium
+National anthem
+Opening ceremony
+Closing ceremony
+Parade of nations
+Athletes' village
+Michael Phelps
+Usain Bolt
+Simone Biles
+Team USA
+Track and field
+Swimming
+Gymnastics
+Figure skating
+Bobsled
+Curling
+Snowboarding
+Skiing
+Marathon
+Decathlon
+Paralympics
+Winter Olympics
+Summer Olympics
+Ancient Greece
+Mount Olympus
+Zeus
+Olive wreath
+Doping
+Mascot
+Sponsor
+Medal count
+World record
+Olympic record
+Dream Team
+Miracle on Ice
+Torch relay
+Host city
+Paris 2024
+LA 2028
+Milan Cortina 2026
+Tokyo 2020
+*Pin trading
+Olympic oath
+Pierre de Coubertin
+Olympic motto | citius altius fortius
+
+# Name a famous person from history {names}
+Abraham Lincoln
+George Washington
+Martin Luther King Jr.
+Napoleon Bonaparte
+Julius Caesar
+Cleopatra
+Queen Elizabeth I
+Winston Churchill
+Gandhi
+Nelson Mandela
+Joan of Arc
+Christopher Columbus
+Albert Einstein
+Leonardo da Vinci
+William Shakespeare
+Benjamin Franklin
+Thomas Jefferson
+Alexander the Great
+Genghis Khan
+Marie Antoinette
+King Henry VIII
+Rosa Parks
+Harriet Tubman
+Frederick Douglass
+Susan B. Anthony
+Amelia Earhart
+Anne Frank
+Helen Keller
+Florence Nightingale
+Marco Polo
+Galileo
+Isaac Newton
+Charles Darwin
+Socrates
+Plato
+Aristotle
+Confucius
+Buddha
+Muhammad Ali
+Mother Teresa
+Pocahontas
+Sacagawea
+Davy Crockett
+Daniel Boone
+Paul Revere
+Betsy Ross
+Theodore Roosevelt
+Franklin D. Roosevelt
+John F. Kennedy
+Che Guevara
+Fidel Castro
+Karl Marx
+Catherine the Great
+Peter the Great
+Queen Victoria
+King Tut | tutankhamun
+Ramses II
+Attila the Hun
+Charlemagne
+Richard the Lionheart
+William the Conqueror
+Robin Hood
+King Arthur
+*Hannibal Barca
+Spartacus
+Boudica
+Vlad the Impaler
+Montezuma
+Sitting Bull
+Geronimo
+Crazy Horse
+Lewis and Clark
+
+# Name a famous explorer {names}
+Christopher Columbus
+Marco Polo
+Ferdinand Magellan
+Lewis and Clark
+Neil Armstrong
+Vasco da Gama
+Leif Erikson
+Amerigo Vespucci
+James Cook | captain cook
+Hernán Cortés | hernan cortes
+Francisco Pizarro
+Ponce de León | ponce de leon
+Hernando de Soto
+Sir Walter Raleigh
+Francis Drake
+Henry Hudson
+Jacques Cartier
+Samuel de Champlain
+Ernest Shackleton
+Roald Amundsen
+Robert Falcon Scott
+Robert Peary
+Matthew Henson
+Edmund Hillary
+Tenzing Norgay
+Amelia Earhart
+Charles Lindbergh
+Jacques Cousteau
+Sacagawea
+Zheng He
+Ibn Battuta
+Dr. Livingstone | david livingstone
+Henry Morton Stanley
+John Cabot
+Bartolomeu Dias
+Abel Tasman
+Vitus Bering
+Dora the Explorer
+Indiana Jones
+Lara Croft
+*Erik the Red
+Hanno the Navigator
+Pytheas
+Juan Sebastián Elcano
+Francisco de Orellana
+
+# Name a famous dancer or dance move
+Moonwalk
+Floss
+Dab
+Macarena
+Cha Cha Slide
+Electric Slide
+The Twist
+The Worm
+Running Man
+Cupid Shuffle
+Gangnam Style
+Whip/Nae Nae | nae nae
+Hit the Quan
+Griddy
+Renegade
+Thriller dance
+Single Ladies dance
+YMCA
+Chicken Dance
+Hokey Pokey
+Cotton Eye Joe
+Robot
+Sprinkler
+Shopping Cart
+Lawnmower
+Running man
+Harlem Shake
+Stanky Leg
+Soulja Boy
+Michael Jackson
+Fred Astaire
+Ginger Rogers
+Gene Kelly
+Patrick Swayze
+Mikhail Baryshnikov
+Misty Copeland
+Gregory Hines
+Savion Glover
+Martha Graham
+Bob Fosse
+Paula Abdul
+Janet Jackson
+Usher
+Chris Brown
+Derek Hough
+Julianne Hough
+JoJo Siwa
+Maddie Ziegler
+*Electric Boogaloo
+Charleston
+Lindy Hop
+Tango
+Waltz
+Salsa
+Tap dance
+Breakdance
+Twerk
+Vogue
+
+# Name a famous person who was on Dancing with the Stars {names}
+Bobby Bones
+Kristi Yamaguchi
+Emmitt Smith
+Apolo Ohno
+Shawn Johnson
+Nicole Scherzinger
+Donny Osmond
+Jennifer Grey
+Kellie Pickler
+Hélio Castroneves
+Hines Ward
+Laurie Hernandez
+Rashad Jennings
+Jordan Fisher
+Hannah Brown
+Kaitlyn Bristowe
+Iman Shumpert
+Charli D'Amelio
+Xochitl Gomez
+Joey Fatone
+Mario Lopez
+Drew Lachey
+Kelly Monaco
+Marie Osmond
+Bristol Palin
+Rick Perry
+Sean Spicer
+Kim Kardashian
+Kate Gosselin
+Steve-O
+Mark Cuban
+Jerry Springer
+Billy Ray Cyrus
+Ally Brooke
+Bindi Irwin
+Rumer Willis
+Nyle DiMarco
+Amber Riley
+Alfonso Ribeiro
+Riker Lynch
+Zendaya
+Joey Graziadei
+Jenn Tran
+Stephen Nedoroscik
+Ilona Maher
+Robert Irwin
+Danny Amendola
+*Master P
+Wayne Newton
+Jerry Rice
+Floyd Mayweather
+
+# Name a famous person who was on American Idol {names}
+Kelly Clarkson
+Carrie Underwood
+Jennifer Hudson
+Fantasia Barrino | fantasia
+Adam Lambert
+Chris Daughtry
+Clay Aiken
+Ruben Studdard
+Katharine McPhee
+Jordin Sparks
+David Cook
+David Archuleta
+Scotty McCreery
+Phillip Phillips
+Lauren Alaina
+Gabby Barrett
+Laine Hardy
+Just Sam
+Chayce Beckham
+Noah Thompson
+Iam Tongi
+Abi Carter
+Jamal Roberts
+William Hung
+Sanjaya
+Kris Allen
+Lee DeWyze
+Candice Glover
+Caleb Johnson
+Nick Fradiani
+Trent Harmon
+Taylor Hicks
+Paula Abdul
+Simon Cowell
+Randy Jackson
+Ryan Seacrest
+Katy Perry
+Lionel Richie
+Luke Bryan
+*Justin Guarini
+Bo Bice
+Haley Reinhart
+Jessica Sanchez
+Colton Dixon
+Elliott Yamin
+
+# Name a famous person who was on Survivor {names}
+Richard Hatch
+Boston Rob | rob mariano
+Parvati Shallow
+Sandra Diaz-Twine
+Tony Vlachos
+Russell Hantz
+Jeff Probst
+Amber Mariano
+Kim Spradlin
+Cirie Fields
+Ozzy Lusth
+Coach | benjamin wade
+Rupert Boneham
+Colby Donaldson
+Jerri Manthey
+Rudy Boesch
+Kelly Wiglesworth
+Ethan Zohn
+Tina Wesson
+Jenna Morasca
+Natalie Anderson
+Wendell Holland
+Michele Fitzgerald
+Sarah Lacina
+Kelley Wentworth
+Malcolm Freberg
+Yul Kwon
+Earl Cole
+Todd Herzog
+Bob Crowley
+J.T. Thomas
+Aras Baskauskas
+Danni Boatwright
+Chris Daugherty
+Erika Casupanan
+Maryanne Oketch
+Mike Gabler
+Yam Yam Arocho
+Dee Valladares
+Kenzie Petty
+Kyle Fraser
+Rachel LaMont
+*Fishbach
+Gervase Peterson
+Sue Hawk
+Rodger Bingham
+Elisabeth Hasselbeck
+
+# Name something people put on a hot dog
+Ketchup
+Mustard
+Relish
+Onions
+Chili
+Cheese
+Sauerkraut
+Jalapeños
+Pickles
+Tomatoes
+Bacon
+Mayonnaise
+Sport peppers
+Celery salt
+Coleslaw
+Barbecue sauce
+Sriracha
+Hot sauce
+Avocado
+Guacamole
+Salsa
+Pineapple
+Kimchi
+Cream cheese
+Fried onions
+Crushed chips
+Mac and cheese
+Peanut butter
+*Poppy seed bun
+Pico de gallo
+Ranch
+Teriyaki
+
+# Name a famous sandwich chain or deli item
+Subway
+Jimmy John's
+Jersey Mike's
+Firehouse Subs
+Potbelly
+Quiznos
+Panera
+Which Wich
+Blimpie
+Schlotzsky's
+Jason's Deli
+McAlister's
+Arby's
+Primo Hoagies
+Wawa
+Sheetz
+Publix sub
+Katz's Delicatessen
+Carnegie Deli
+Pastrami
+Corned beef
+Turkey
+Ham
+Roast beef
+Salami
+Provolone
+Swiss
+Pickle
+Coleslaw
+Potato salad
+Matzo ball soup
+*Capriotti's
+Cousins Subs
+Mr. Goodcents
+Erbert & Gerbert's
+
+# Name a famous breakfast food
+Pancakes
+Waffles
+Eggs
+Bacon
+Sausage
+Toast
+Cereal
+Oatmeal
+French toast
+Bagel
+Muffin
+Croissant
+Yogurt
+Fruit
+Hash browns
+Omelet
+Breakfast burrito
+Breakfast sandwich
+Biscuits and gravy
+Grits
+Smoothie
+Avocado toast
+Granola
+Donut
+Danish
+Cinnamon roll
+Pop-Tarts
+Eggo waffles
+Quiche
+Eggs Benedict
+Huevos rancheros
+Chilaquiles
+Shakshuka
+Full English breakfast
+Crêpes
+Scones
+Porridge
+Congee
+Dim sum
+Kippers
+Black pudding
+Beans on toast
+*Scrapple
+Corned beef hash
+Chicken and waffles
+Johnnycakes
+Kolaches
+
+# Name a famous sports team mascot
+Mr. Met
+Phillie Phanatic
+Gritty
+Benny the Bull
+Rally Monkey
+Big Red
+Brutus Buckeye
+Bucky Badger
+Mike the Tiger
+Uga
+Ralphie
+Smokey
+Bevo
+The Stanford Tree
+Sebastian the Ibis
+Aubie the Tiger
+The Oregon Duck
+Herbie Husker
+Albert the Alligator
+Otto the Orange
+Chester Cheetah
+Youppi!
+Slider
+Wally the Green Monster
+Mr. Red
+The Pirate Parrot
+Clutch the Bear
+Rocky the Mountain Lion
+Go the Gorilla
+Harry the Hawk
+Burnie
+Swoop
+Freddie Falcon
+Blitz
+Jaxson de Ville
+Who Dey
+Sir Purr
+Billy Buffalo
+*Stomper
+Bernie Brewer
+Dinger
+Orbit
+Paws
+Screech
+Fredbird
+Sluggerrr
+Southpaw
+TC Bear
+Mariner Moose
+Raymond
+Ace
+Junction Jack
+Tommy Hawk
+Iceburgh
+Harvey the Hound
+
+# Name a cartoon dog
+Scooby-Doo
+Snoopy
+Pluto
+Goofy
+Clifford
+Brian Griffin
+Santa's Little Helper
+Odie
+Astro
+Dino
+Gromit
+Courage
+Spike
+Droopy
+Huckleberry Hound
+Scrappy-Doo
+Blue
+Bolt
+Dug
+Lady
+Tramp
+Pongo
+Perdita
+Copper
+Slinky
+Dogmeat
+Bingo
+Bluey
+Chase
+Marshall
+Skye
+Rubble
+Rocky
+Zuma
+Everest
+Jake the Dog
+Krypto
+Ace the Bat-Hound
+Muttley
+Dynomutt
+Spike and Tyke
+Fido Dido
+*Mr. Peabody
+Snowy
+Wishbone
+Pal
+Underdog
+Deputy Dawg
+Precious Pupp
+
+# Name a famous duck, real or fictional
+Donald Duck
+Daffy Duck
+Daisy Duck
+Scrooge McDuck
+Huey
+Dewey
+Louie
+Darkwing Duck
+Howard the Duck
+Ducky
+Psyduck
+Aflac Duck
+Plucky Duck
+Launchpad McQuack
+Webby
+Gladstone Gander
+Ludwig Von Drake
+The Ugly Duckling
+Jemima Puddle-Duck
+Count Duckula
+Mighty Ducks
+Oregon Duck
+Duck Hunt dog
+Duck Dodgers
+Ferdinand
+Rubber Duckie
+Ernie's Rubber Duckie
+Sonia
+Duckworth
+Make Way for Ducklings
+Untitled Goose
+*Mr. Duck
+Quackmore
+Della Duck
+Bumblelion
+
+# Name a famous frog or toad
+Kermit the Frog
+Frogger
+Michigan J. Frog
+Toad (Mario)
+Mr. Toad
+Frog and Toad
+Prince Naveen
+Tiana
+Pepe the Frog
+Crazy Frog
+Hypnotoad
+Frog-Man
+Trevor (Neville's toad)
+Jeremy Fisher
+Ray
+Hopper
+Slippy Toad
+Frogadier
+Froakie
+Greninja
+Gamabunta
+Keroppi
+Freddo
+Budweiser frogs
+Jeremiah
+Wednesday the frog
+Frog Lady
+*Dig 'Em Frog
+Fergus
+Flip
+Wartortle
+Slippy
+Bullywug
+Robin the Frog
+
+# Name a famous lion, tiger or big cat
+Simba
+Mufasa
+Scar
+Nala
+Aslan
+Tigger
+Tony the Tiger
+Shere Khan
+Rajah
+Hobbes
+Bagheera
+Tigress
+Diego
+Cecil the lion
+The Cowardly Lion
+Leo the MGM lion
+Garfield
+Pink Panther
+Richard Parker
+Kimba
+Snagglepuss
+Lion-O
+Cheetara
+Tygra
+Daniel Tiger
+Chester Cheetah
+Thundercats
+Tiger King
+Joe Exotic
+Siegfried & Roy's Montecore
+Elsa
+Sabor
+Clarence the cross-eyed lion
+Aslan
+*Lambert the Sheepish Lion
+Kovu
+Kiara
+Zira
+Tai Lung
+Dash
+Hairy Maclary
+
+# Name a famous monkey or ape
+King Kong
+Curious George
+Caesar
+Donkey Kong
+Diddy Kong
+Abu
+Rafiki
+King Louie
+Harambe
+Koko
+Cheeta
+Bubbles
+Marcel
+Jack the Monkey
+Mojo Jojo
+Monkey (Kung Fu Panda)
+Bonzo
+Grape Ape
+Magilla Gorilla
+Lancelot Link
+Clyde
+Dexter
+Boots
+Mr. Teeny
+Funky Kong
+Cranky Kong
+Dixie Kong
+Gorilla Grodd
+Titano
+Mighty Joe Young
+Sun Wukong | the monkey king
+Hanuman
+*Ham the Chimp
+Enos
+Washoe
+Nim Chimpsky
+Kanzi
+Cornelius
+Zira
+Dr. Zaius
+
+# Name a famous bird, real or fictional
+Big Bird
+Tweety
+Woody Woodpecker
+Donald Duck
+Daffy Duck
+Road Runner
+Iago
+Zazu
+Scuttle
+Hedwig
+Fawkes
+Woodstock
+Foghorn Leghorn
+Heihei
+Kevin
+Zazu
+Rio's Blu
+Jewel
+Red (Angry Birds)
+Chuck
+Bomb
+Pidgey
+Twitter bird
+Sam the Eagle
+Toucan Sam
+Sonny the Cuckoo
+Tucan
+Scrooge McDuck
+Daisy
+Camilla the Chicken
+Chicken Little
+Rocky the Rooster
+Ginger
+Big Bird
+The Penguin
+Pingu
+Mumble
+Skipper
+*Polynesia
+Archimedes
+Ruby
+Shrike
+Pidgeotto
+Edgar Allan Poe's Raven
+Huginn
+Muninn
+
+# Name a famous rabbit or bunny
+Bugs Bunny
+Peter Rabbit
+The Easter Bunny
+Roger Rabbit
+Thumper
+The White Rabbit
+Judy Hopps
+Lola Bunny
+Buster Bunny
+Babs Bunny
+The Energizer Bunny
+Trix Rabbit
+Br'er Rabbit
+Rabbit (Winnie the Pooh)
+Miffy
+Harvey
+The Velveteen Rabbit
+Snowball
+Max and Ruby
+Oswald the Lucky Rabbit
+Bunnicula
+Hazel
+Fiver
+Bigwig
+Rayman Raving Rabbids
+Usagi Yojimbo
+Cream the Rabbit
+Bonnie
+Springtrap
+Frank
+Nesquik Bunny | quicky
+*Hoppity Hooper
+Crusader Rabbit
+Ricochet Rabbit
+Rabbit of Caerbannog
+
+# Name a famous pig
+Wilbur
+Babe
+Piglet
+Porky Pig
+Miss Piggy
+Peppa Pig
+George Pig
+Hamm
+Pumbaa
+Napoleon
+Snowball
+Squealer
+Spider-Pig
+Gub-Gub
+Toot and Puddle
+Olivia
+Mr. Pig
+Waddles
+Pua
+Okja
+Arnold Ziffel
+Hen Wen
+Pigsy
+The Three Little Pigs
+Peter Pig
+Penelope Pig
+*Pigpen
+Petunia Pig
+Lord Emsworth's Empress of Blandings
+Kevin Bacon
+Wild Boar
+
+# Name a famous cow, sheep or goat
+Elsie the Cow
+Clarabelle Cow
+Shaun the Sheep
+Dolly the sheep
+Lamb Chop
+Billy Goat Gruff
+The Laughing Cow
+Ermintrude
+Daisy
+Otis
+Bessie
+Milka cow
+Chick-fil-A cows
+Ben & Jerry's Woody
+Bull (Ferdinand)
+Ferdinand
+Mabel
+The GOAT
+Gruff
+Heidi's goats
+*Ermintrude
+Timmy Time
+Larry the Sheep
+Shirley
+Bitzer
+Mr. Tumnus
+Baahh
+
+# Name a famous snake or reptile
+Kaa
+Nagini
+Sir Hiss
+The Basilisk
+Medusa's snakes
+Rattlesnake Jake
+Jafar (as a snake)
+Godzilla
+Reptar
+Rex (Toy Story)
+Yoshi
+Bowser
+Komodo dragon
+Crocodile (Peter Pan)
+Tick-Tock the Crocodile
+Lyle the Crocodile
+Wally Gator
+Squirtle
+Charmander
+Gex
+Croc
+Spyro
+Pascal
+Rango
+Crush
+Squirt
+Franklin
+Leonardo
+Michelangelo
+Donatello
+Raphael
+Gamera
+Komodo
+Ekans
+Arbok
+*Monty Python snake
+Steve Irwin's crocs
+Crocodile Hunter
+Seymour (Little Shop)
+Audrey II
+
+# Name a famous fish or sea creature from a movie or show
+Nemo
+Dory
+Marlin
+Flounder
+Sebastian
+Jaws
+Bruce
+Crush
+Squirt
+Gill
+Mr. Ray
+SpongeBob
+Patrick
+Squidward
+Mr. Krabs
+Plankton
+Gary
+Bubbles
+Ursula
+Hank
+Destiny
+Bailey
+Free Willy | willy
+Flipper
+Shamu
+Moby Dick
+Magikarp
+Gyarados
+Wanda (A Fish Called Wanda)
+Cleo
+Bubble Guppies
+Rainbow Fish
+Mr. Limpet
+Charlie the Tuna
+Goldie
+Kraken
+Leviathan
+Megalodon
+The Meg
+
+# Name a famous person named John {names}
+John Lennon
+John Travolta
+John Legend
+John Cena
+John Wick
+John F. Kennedy
+John Krasinski
+John Mayer
+John Cusack
+John Goodman
+John Candy
+John Belushi
+John Stamos
+John Oliver
+John Mulaney
+John Wayne
+John Malkovich
+John Hughes
+John Williams
+John Lithgow
+John Leguizamo
+John Boyega
+John Cho
+John C. Reilly
+John Grisham
+John Steinbeck
+John Green
+John Madden
+John Elway
+John McEnroe
+John Daly
+John Stockton
+John Adams
+John Quincy Adams
+John Hancock
+John Glenn
+John Lewis
+John McCain
+John Snow
+Jon Snow
+John Watson
+John McClane
+John Connor
+John Rambo
+John Shaft
+John Constantine
+John Locke
+John Marston
+John Doe
+*John Ratzenberger
+John Waters
+John Carpenter
+John Ford
+John Huston
+
+# Name a famous person named Kevin {names}
+Kevin Hart
+Kevin Bacon
+Kevin Costner
+Kevin James
+Kevin Spacey
+Kevin Durant
+Kevin Garnett
+Kevin Love
+Kevin Jonas
+Kevin Smith
+Kevin McCallister
+Kevin Malone
+Kevin Arnold
+Kevin Feige
+Kevin Federline
+Kevin Nealon
+Kevin Pollak
+Kevin Kline
+Kevin Sorbo
+Kevin Bacon
+Kevin Richardson
+Kevin Parker
+Kevin Owens
+Kevin De Bruyne
+Kevin Magnussen
+Kevin Harvick
+Kevin McHale
+Kevin Conroy
+Kevin O'Leary
+Kevin Rudd
+Kevin McCarthy
+Kevin (Minion)
+Kevin (Up)
+Kevin Cozner
+Kevin Pearson
+Kevin Lima
+Kevin Mitnick
+
+# Name a famous person named Emma or Emily {names}
+Emma Stone
+Emma Watson
+Emma Roberts
+Emma Thompson
+Emma Chamberlain
+Emma Bunton
+Emma Raducanu
+Emma Myers
+Emma Mackey
+Emma Corrin
+Emma Swan
+Emma Woodhouse
+Emma Frost
+Emma Pillsbury
+Emily Blunt
+Emily Dickinson
+Emily Brontë
+Emily Ratajkowski
+Emily Deschanel
+Emily VanCamp
+Emily Mortimer
+Emily Henry
+Emily in Paris | emily cooper
+Emily Gilmore
+Emily Fields
+Emily Charlton
+Emily Osment
+Emily Bett Rickards
+Emily Browning
+*Emma Peel
+Emma Goldman
+Emma Lazarus
+Emily Post
+Emily Mariko
+
+# Name a famous person named Jack or Jackie {names}
+Jack Black
+Jack Nicholson
+Jack Harlow
+Jack Johnson
+Jack White
+Jack Antonoff
+Jack Dorsey
+Jack Ma
+Jack Kerouac
+Jack London
+Jack Lemmon
+Jack Quaid
+Jack Whitehall
+Jack Dylan Grazer
+Jack Sparrow
+Jack Skellington
+Jack Torrance
+Jack Dawson
+Jack Ryan
+Jack Bauer
+Jack Reacher
+Jack Pearson
+Jack Shephard
+Jack Donaghy
+Jack Frost
+Jack Nicklaus
+Jack Dempsey
+Jack Hughes
+Jackie Chan
+Jackie Robinson
+Jackie Kennedy | jacqueline kennedy
+Jackie Joyner-Kersee
+Jackie Gleason
+Jackie Wilson
+Jackie Burkhart
+Jackie Collins
+*Jack the Ripper
+Jack Kirby
+Jack Benny
+Jack Paar
+Jack Kemp
+
+# Name a famous person named Will or William {names}
+Will Smith
+Will Ferrell
+Will Arnett
+Will Forte
+Will Poulter
+Will Sharpe
+Will Byers
+Will Turner
+Will Schuester
+Will Truman
+Will Hunting
+William Shakespeare
+Prince William
+William Shatner
+William H. Macy
+William Dafoe | willem dafoe
+William Hurt
+William Fichtner
+William Wallace
+William the Conqueror
+William Howard Taft
+William McKinley
+William Henry Harrison
+William Faulkner
+William Wordsworth
+William Blake
+Bill Gates
+Bill Murray
+Bill Clinton
+Bill Nye
+Bill Burr
+Bill Hader
+Billy Joel
+Billie Eilish
+Billy Crystal
+Billy Ray Cyrus
+Billy Idol
+Billy the Kid
+Billy Bob Thornton
+*William Tell
+William Penn
+Wilhelm Scream
+Will.i.am
+Will Rogers
+
+# Name a famous person named Lily, Lilly or Lillian {names}
+Lily Allen
+Lily Collins
+Lily James
+Lily-Rose Depp
+Lily Gladstone
+Lily Tomlin
+Lily Aldrin
+Lily Potter
+Lily Evans
+Lily Munster
+Lily van der Woodsen
+Lily Bart
+Lily Tucker-Pritchett
+Lilly Singh
+Lilly Truscott
+Lilly Wachowski
+Lillian Hellman
+Lillian Gish
+Lilli Palmer
+Lily Pons
+Lily Cole
+Lily Donaldson
+Lily Rabe
+Lily Mae
+*Lily St. Regis
+Lily Bloom
+Lilly Pulitzer
+Lily Lebowski
+
+# Name something Mario collects or uses
+Coins
+Mushroom
+Fire Flower
+Super Star
+1-Up Mushroom
+Power Star
+Shine Sprite
+Moon
+Cape Feather
+Tanooki Suit
+Super Leaf
+Mega Mushroom
+Mini Mushroom
+Ice Flower
+Propeller Mushroom
+Bell
+Boomerang Flower
+Cat Suit
+Super Acorn
+Golden Mushroom
+Blue Shell
+Red Shell
+Green Shell
+Banana
+Bob-omb
+Bullet Bill
+Lightning
+Blooper
+Star Bits
+Cappy
+Wonder Flower
+Elephant Fruit
+Yoshi egg
+Pipe
+Warp Pipe
+Flagpole
+Princess Peach
+Hammer
+F.L.U.D.D.
+Poltergust
+*Frog Suit
+Hammer Suit
+Kuribo's Shoe
+P-Wing
+Music Box
+Warp Whistle
+
+# Name a famous person with the last name Smith {names}
+Will Smith
+Jaden Smith
+Willow Smith
+Jada Pinkett Smith
+Sam Smith
+Anna Nicole Smith
+Maggie Smith
+Matt Smith
+Kevin Smith
+Emmitt Smith
+Patti Smith
+Robert Smith
+Adam Smith
+Joseph Smith
+John Smith
+Jordan Smith
+Liz Smith
+Kate Smith
+Jaclyn Smith
+Zadie Smith
+Ozzie Smith
+DeVonta Smith
+Geno Smith
+Elliott Smith
+Bessie Smith
+Captain John Smith
+Morgan Smith
+*Agent Smith
+Mr. Smith
+Mr. and Mrs. Smith
+Jerry Smith
+Morty Smith
+Summer Smith
+Beth Smith
+Sarah Jane Smith
+
+# Name a famous person with the last name Johnson {names}
+Dwayne Johnson
+Magic Johnson
+Lyndon B. Johnson
+Andrew Johnson
+Boris Johnson
+Jack Johnson
+Jimmie Johnson
+Calvin Johnson
+Dakota Johnson
+Don Johnson
+Rian Johnson
+Michael Johnson
+Randy Johnson
+Chad Johnson
+Keyshawn Johnson
+Avery Johnson
+Larry Johnson
+Shawn Johnson
+Katherine Johnson
+Samuel Johnson
+Robert Johnson
+Betsey Johnson
+Aaron Taylor-Johnson
+Brian Johnson
+Jake Johnson
+Kristen Johnston
+Zach Johnson
+Dustin Johnson
+Earvin Johnson
+*Ladybird Johnson
+Sergeant Johnson
+Cave Johnson
+Johnson & Johnson
+
+# Name a TV show or movie with a number in the title
+Ocean's Eleven
+101 Dalmatians
+13 Going on 30
+10 Things I Hate About You
+21 Jump Street
+22 Jump Street
+50 First Dates
+40-Year-Old Virgin
+27 Dresses
+500 Days of Summer
+The Sixth Sense
+Se7en
+1917
+300
+2001: A Space Odyssey
+24
+30 Rock
+13 Reasons Why
+The 100
+9-1-1
+9 to 5
+2 Broke Girls
+Two and a Half Men
+3rd Rock from the Sun
+That '70s Show
+Beverly Hills, 90210
+Hawaii Five-0
+Fantastic Four
+Three Billboards
+Four Weddings and a Funeral
+The Fifth Element
+Super 8
+District 9
+The Hateful Eight
+Apollo 13
+12 Angry Men
+12 Years a Slave
+127 Hours
+28 Days Later
+48 Hrs.
+8 Mile
+10 Cloverfield Lane
+1408
+Seven Pounds
+The Magnificent Seven
+Ocean's 8
+The Number 23
+Catch-22
+Slaughterhouse-Five
+*Plan 9 from Outer Space
+Twelve Monkeys
+Six Feet Under
+7th Heaven
+Eight Is Enough
+Thirteen Ghosts
+Two Weeks Notice
+
+# Name a famous movie or TV show with an animal in the title
+The Lion King
+Jaws
+Snakes on a Plane
+Silence of the Lambs
+Black Swan
+The Wolf of Wall Street
+Kung Fu Panda
+Chicken Run
+Planet of the Apes
+Monkey Business
+Reservoir Dogs
+Isle of Dogs
+Snatch
+Bee Movie
+Horse Feathers
+Black Stallion
+War Horse
+The Fox and the Hound
+Fantastic Mr. Fox
+Ratatouille
+The Mouse That Roared
+Batman
+Spider-Man
+Ant-Man
+Hawkeye
+Catwoman
+Black Panther
+The Pink Panther
+Beverly Hills Chihuahua
+Marley & Me
+Babe
+Charlotte's Web
+Stuart Little
+Kung Fu Hustle
+Zootopia
+Madagascar
+Ice Age
+Bird Box
+Birdman
+The Birds
+Duck Soup
+Dog Day Afternoon
+Raging Bull
+To Kill a Mockingbird
+Free Willy
+Flipper
+The Wolf Man
+*Wolfen
+Them!
+Tremors
+Arachnophobia
+Snakes on a Plane
+The Shaggy Dog
+Shark Tank
+Duck Dynasty
+Bluey
+Peppa Pig
+Animal Kingdom
+Wild Kratts
