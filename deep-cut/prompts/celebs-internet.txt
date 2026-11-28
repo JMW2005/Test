@@ -1,0 +1,1844 @@
+// Deep Cut prompt bank: CELEBRITIES & INTERNET
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Celebrities
+
+# Name a member of the Kardashian-Jenner family {names}
+Kim Kardashian
+Kylie Jenner
+Khloé Kardashian | khloe kardashian
+Kourtney Kardashian
+Kendall Jenner
+Kris Jenner
+Caitlyn Jenner
+Rob Kardashian
+Robert Kardashian
+North West
+Stormi Webster
+True Thompson
+Mason Disick
+Penelope Disick
+Reign Disick
+Saint West
+Chicago West
+Psalm West
+Dream Kardashian
+Aire Webster
+Rocky Thirteen Barker
+*Scott Disick
+Brody Jenner
+Brandon Jenner
+
+# Name a member of the Jonas Brothers or Hanson {names}
+Nick Jonas
+Joe Jonas
+Kevin Jonas
+Frankie Jonas
+Taylor Hanson
+Isaac Hanson
+Zac Hanson
+*Bonus Jonas
+
+# Name a member of One Direction {names}
+Harry Styles
+Niall Horan
+Louis Tomlinson
+Liam Payne
+Zayn Malik
+*Simon Cowell
+
+# Name a member of BTS {names}
+Jungkook | jung kook
+V | taehyung | kim taehyung
+Jimin | park jimin
+Jin | kim seokjin
+Suga | yoongi | min yoongi | agust d
+RM | namjoon | kim namjoon | rap monster
+J-Hope | j hope | hoseok
+*Yeontan
+
+# Name a member of the Spice Girls {names}
+Posh Spice | victoria beckham
+Scary Spice | mel b
+Baby Spice | emma bunton
+Sporty Spice | mel c
+Ginger Spice | geri halliwell
+*Simon Fuller
+
+# Name a member of the Beatles or Rolling Stones {names}
+John Lennon
+Paul McCartney
+George Harrison
+Ringo Starr
+Mick Jagger
+Keith Richards
+Charlie Watts
+Ronnie Wood
+Bill Wyman
+Brian Jones
+Pete Best
+Stuart Sutcliffe
+*Mick Taylor
+Ian Stewart
+Brian Epstein
+Yoko Ono
+
+# Name a judge from a TV talent show {names}
+Simon Cowell
+Paula Abdul
+Randy Jackson
+Katy Perry
+Lionel Richie
+Luke Bryan
+Jennifer Lopez
+Steven Tyler
+Nicki Minaj
+Mariah Carey
+Keith Urban
+Harry Connick Jr.
+Howie Mandel
+Heidi Klum
+Sofía Vergara | sofia vergara
+Mel B
+Sharon Osbourne
+Piers Morgan
+Terry Crews
+Blake Shelton
+Adam Levine
+Kelly Clarkson
+Gwen Stefani
+John Legend
+Miley Cyrus
+Ariana Grande
+Nick Jonas
+Usher
+Pharrell Williams
+Snoop Dogg
+Shakira
+Christina Aguilera
+CeeLo Green
+Alicia Keys
+Camila Cabello
+Reba McEntire
+Michael Bublé
+Niall Horan
+Chance the Rapper
+Amanda Holden
+Alesha Dixon
+David Walliams
+Bruno Tonioli
+Carrie Ann Inaba
+Len Goodman
+Derek Hough
+Ellen DeGeneres
+Kara DioGuardi
+*Ellen DeGeneres (American Idol)
+Demi Lovato
+Britney Spears
+L.A. Reid
+Cheryl Cole
+Louis Walsh
+Dannii Minogue
+
+# Name a famous YouTuber {names}
+MrBeast | jimmy donaldson
+PewDiePie | felix kjellberg
+Markiplier
+Jacksepticeye
+Logan Paul
+Jake Paul
+KSI
+Dude Perfect
+Casey Neistat
+Smosh
+Ryan's World | ryan kaji
+Unspeakable
+Preston
+Ninja
+Dream
+Technoblade
+Sidemen
+Emma Chamberlain
+James Charles
+Jeffree Star
+Shane Dawson
+Zoella
+Lilly Singh | superwoman
+Liza Koshy
+David Dobrik
+Marques Brownlee | mkbhd
+Linus Tech Tips | linus sebastian
+Mark Rober
+Veritasium
+Vsauce | michael stevens
+Kurzgesagt
+CGP Grey
+Good Mythical Morning | rhett and link
+Ludwig
+IShowSpeed | speed
+Kai Cenat
+Sssniperwolf
+Corpse Husband
+Valkyrae
+Pokimane
+Philip DeFranco
+H3H3 | ethan klein
+Hank Green
+John Green
+Vlogbrothers
+Ray William Johnson
+Fred | lucas cruikshank
+Nigahiga | ryan higa
+Jenna Marbles
+Grace Helbig
+Tyler Oakley
+Miranda Sings
+*Charlie bit my finger
+Annoying Orange
+Dan and Phil
+Danisnotonfire
+AmazingPhil
+Yogscast
+Captain Sparklez
+Stampylonghead | stampy
+DanTDM
+Ali-A
+Moist Critikal | penguinz0 | charlie
+Drew Gooden
+Danny Gonzalez
+Kurtis Conner
+Airrack
+Dhar Mann
+Nikocado Avocado
+Mr. Beast Burger
+Ms Rachel
+Cocomelon
+Blippi
+Like Nastya
+Vlad and Niki
+Diana and Roma
+
+# Name a famous TikToker or streamer {names}
+Charli D'Amelio
+Addison Rae
+Khaby Lame
+Bella Poarch
+Dixie D'Amelio
+Zach King
+Spencer X
+Loren Gray
+Noah Beck
+Avani Gregg
+Josh Richards
+Bryce Hall
+Kai Cenat
+IShowSpeed | speed
+xQc
+Ninja
+Pokimane
+Valkyrae
+Shroud
+Tfue
+Dr Disrespect
+Myth
+TimTheTatman
+Sykkuno
+Hasan Piker | hasanabi
+Ludwig
+Mizkif
+Asmongold
+Adin Ross
+Sketch
+Druski
+Alix Earle
+Brittany Broski
+Keith Lee
+Mikayla Nogueira
+Bretman Rock
+Chris Olsen
+Benito Skinner
+Drew Afualo
+Tinx
+Emily Mariko
+Nara Smith
+Ballerina Farm
+Hawk Tuah Girl | haliey welch
+Very Demure | jools lebron
+Corn Kid
+Ocean Spray guy | doggface
+Bernadette Banner
+Kid Mero
+*Jason Derulo
+Gordon Ramsay
+Will Smith
+Dwayne Johnson
+Ryan Reynolds
+Selena Gomez
+Taylor Swift
+
+# Name a famous celebrity couple (past or present)
+Brad Pitt and Angelina Jolie | brangelina
+Beyoncé and Jay-Z
+Kim Kardashian and Kanye West | kimye
+Taylor Swift and Travis Kelce
+Ben Affleck and Jennifer Lopez | bennifer
+Justin Bieber and Hailey Bieber
+Selena Gomez and Justin Bieber | jelena
+Tom Hanks and Rita Wilson
+Barack and Michelle Obama
+Prince William and Kate Middleton
+Prince Harry and Meghan Markle
+Blake Lively and Ryan Reynolds
+Kristen Bell and Dax Shepard
+Johnny Depp and Amber Heard
+Tom Cruise and Katie Holmes | tomkat
+Jennifer Aniston and Brad Pitt
+Britney Spears and Justin Timberlake
+Ashton Kutcher and Mila Kunis
+Will Smith and Jada Pinkett Smith
+John Legend and Chrissy Teigen
+Kylie Jenner and Travis Scott
+Kourtney Kardashian and Travis Barker
+Gwen Stefani and Blake Shelton
+Nick Jonas and Priyanka Chopra
+Zendaya and Tom Holland
+Paul Newman and Joanne Woodward
+Elizabeth Taylor and Richard Burton
+Sonny and Cher
+Johnny Cash and June Carter
+David and Victoria Beckham | posh and becks
+Sean Penn and Madonna
+Pamela Anderson and Tommy Lee
+Jessica Simpson and Nick Lachey
+Kurt Cobain and Courtney Love
+Ozzy and Sharon Osbourne
+Goldie Hawn and Kurt Russell
+Tom Brady and Gisele Bündchen
+Shakira and Gerard Piqué
+Ariana Grande and Pete Davidson
+Kim Kardashian and Pete Davidson
+Selena Gomez and Benny Blanco
+Miley Cyrus and Liam Hemsworth
+Jennifer Lopez and Marc Anthony
+Ellen DeGeneres and Portia de Rossi
+Neil Patrick Harris and David Burtka
+Elton John and David Furnish
+Megan Fox and Machine Gun Kelly
+Kanye West and Bianca Censori
+Hailey and Justin Bieber
+Dua Lipa and Callum Turner
+Sabrina Carpenter and Barry Keoghan
+*Lucille Ball and Desi Arnaz
+Humphrey Bogart and Lauren Bacall
+Spencer Tracy and Katharine Hepburn
+John Lennon and Yoko Ono
+Bill and Hillary Clinton
+Frank Sinatra and Ava Gardner
+
+# Name a member of the British royal family {names}
+Queen Elizabeth II | the queen | elizabeth ii
+King Charles III | prince charles | charles iii
+Prince William
+Prince Harry
+Kate Middleton | catherine princess of wales | princess of wales
+Meghan Markle
+Princess Diana | diana | lady di
+Prince Philip
+Prince George
+Princess Charlotte
+Prince Louis
+Queen Camilla | camilla
+Princess Anne
+Prince Andrew
+Prince Edward
+Princess Margaret
+Archie
+Lilibet
+Princess Beatrice
+Princess Eugenie
+Sarah Ferguson | fergie
+Zara Tindall
+Mike Tindall
+Peter Phillips
+Sophie, Duchess of Edinburgh | sophie wessex
+Lady Louise Windsor
+James, Earl of Wessex
+Queen Victoria
+King George VI
+King Edward VIII
+The Queen Mother
+King Henry VIII
+*Prince Albert
+Timothy Laurence
+Jack Brooksbank
+Edoardo Mapelli Mozzi
+
+# Name a pop star known by one name
+Madonna
+Beyoncé
+Rihanna
+Adele
+Prince
+Cher
+Shakira
+Drake
+Eminem
+Lizzo
+Usher
+Sia
+Pink | p!nk
+Lorde
+Halsey
+Zendaya
+Rosalía | rosalia
+Bjork
+Sting
+Bono
+Seal
+Brandy
+Monica
+Aaliyah
+Ciara
+Ashanti
+Akon
+Pitbull
+Nelly
+Ludacris
+Shaggy
+Moby
+Enya
+Dido
+Selena
+Yanni
+Liberace
+Fergie
+Kesha
+Tinashe
+Doechii
+Raye
+Zara Larsson
+Jessie J
+Charli XCX
+Grimes
+Banks
+Lana Del Rey
+Doja Cat
+Tyga
+Future
+Logic
+SZA
+Kehlani
+Normani
+Ava Max
+Bebe Rexha
+Anitta
+Karol G
+Maluma
+Becky G
+Ozuna
+J Balvin
+Rosé
+Jennie
+Lisa
+Jisoo
+*Morrissey
+Nico
+Lulu
+Donovan
+Melanie
+Tiffany
+Debbie Gibson
+Taylor Dayne
+Vanilla Ice
+Coolio
+Sisqó
+Mýa
+Brandy
+
+# Name a celebrity who has hosted the Oscars {names}
+Billy Crystal
+Bob Hope
+Jimmy Kimmel
+Ellen DeGeneres
+Whoopi Goldberg
+Chris Rock
+Jon Stewart
+Hugh Jackman
+Steve Martin
+Alec Baldwin
+Anne Hathaway
+James Franco
+Seth MacFarlane
+Neil Patrick Harris
+David Letterman
+Johnny Carson
+Conan O'Brien
+Wanda Sykes
+Amy Schumer
+Regina Hall
+Jack Lemmon
+Frank Sinatra
+Jerry Lewis
+David Niven
+Richard Pryor
+Chevy Chase
+Paul Hogan
+Goldie Hawn
+Jane Fonda
+Diana Ross
+Burt Reynolds
+Walter Matthau
+*Will Rogers
+Shirley MacLaine
+Warren Beatty
+
+# Name a famous magician or illusionist {names}
+David Copperfield
+Harry Houdini | houdini
+David Blaine
+Criss Angel
+Penn & Teller | penn jillette | teller
+Siegfried & Roy
+Dynamo
+Lance Burton
+Mac King
+Shin Lim
+Derren Brown
+Doug Henning
+Ricky Jay
+The Amazing Kreskin | kreskin
+The Amazing Randi | james randi
+Uri Geller
+Paul Daniels
+Gob Bluth
+Zach King
+Justin Willman
+Mat Franco
+Jason Bishop
+Nathan Burton
+Harry Blackstone
+Howard Thurston
+Jean Eugène Robert-Houdin | robert houdin
+Chung Ling Soo
+Dai Vernon
+Ricky Jay
+Michael Carbonaro
+Collins Key
+Rick Lax
+*Penn Jillette
+Teller
+Zatanna
+Mandrake the Magician
+Gandalf
+Merlin
+Doctor Strange
+Mysterio
+Prestige's Borden | borden
+Angier
+Oz
+
+# Name a famous comedian {names}
+Kevin Hart
+Dave Chappelle
+Chris Rock
+Jerry Seinfeld
+Eddie Murphy
+Robin Williams
+Adam Sandler
+Jim Carrey
+Steve Martin
+Richard Pryor
+George Carlin
+Joan Rivers
+Ellen DeGeneres
+Amy Schumer
+Ali Wong
+John Mulaney
+Bill Burr
+Louis C.K.
+Sarah Silverman
+Tiffany Haddish
+Trevor Noah
+Hasan Minhaj
+Jim Gaffigan
+Sebastian Maniscalco
+Nate Bargatze
+Taylor Tomlinson
+Matt Rife
+Shane Gillis
+Tom Segura
+Bert Kreischer
+Joe Rogan
+Theo Von
+Andrew Schulz
+Gabriel Iglesias | fluffy
+George Lopez
+Jeff Foxworthy
+Larry the Cable Guy
+Ron White
+Bill Engvall
+Chris Farley
+Phil Hartman
+Mitch Hedberg
+Norm Macdonald
+Rodney Dangerfield
+Don Rickles
+Bob Hope
+Lucille Ball
+Carol Burnett
+Phyllis Diller
+Lily Tomlin
+Whoopi Goldberg
+Wanda Sykes
+Margaret Cho
+Iliza Shlesinger
+Nikki Glaser
+Jo Koy
+Patton Oswalt
+Maria Bamford
+Hannah Gadsby
+Ricky Gervais
+Jimmy Carr
+Eddie Izzard
+Russell Brand
+Michael McIntyre
+Billy Connolly
+Rowan Atkinson | mr bean
+John Cleese
+Steve Coogan
+Bo Burnham
+Chris Farley
+Martin Lawrence
+Bernie Mac
+Steve Harvey
+Cedric the Entertainer
+D.L. Hughley
+Mo'Nique
+Katt Williams
+Mike Epps
+Jamie Foxx
+Keenan Ivory Wayans
+Andy Kaufman
+Lenny Bruce
+Bill Hicks
+Sam Kinison
+Gilda Radner
+Mel Brooks
+Carl Reiner
+Groucho Marx
+Charlie Chaplin
+Buster Keaton
+*Steven Wright
+Demetri Martin
+Gallagher
+Carrot Top
+Pauly Shore
+Andrew Dice Clay
+Gilbert Gottfried
+Emo Philips
+
+# Name a celebrity who has their own makeup or beauty brand
+Rihanna | fenty beauty
+Kylie Jenner | kylie cosmetics
+Selena Gomez | rare beauty
+Kim Kardashian | skkn
+Lady Gaga | haus labs
+Hailey Bieber | rhode
+Ariana Grande | r.e.m. beauty
+Jessica Alba | honest beauty
+Pharrell | humanrace
+Harry Styles | pleasing
+Victoria Beckham
+Jennifer Lopez | jlo beauty
+Kendall Jenner
+Miranda Kerr | kora organics
+Gwyneth Paltrow | goop
+Drew Barrymore | flower beauty
+Halsey | about-face
+Millie Bobby Brown | florence by mills
+Alicia Keys | keys soulcare
+Jennifer Aniston | lolavie
+Scarlett Johansson | the outset
+Reese Witherspoon
+Kristen Bell
+Kourtney Kardashian | poosh
+Huda Kattan | huda beauty
+Jeffree Star | jeffree star cosmetics
+James Charles
+Bobbi Brown
+Lauren Conrad
+Michelle Phan | ipsy
+Iman
+*Tracee Ellis Ross | pattern
+Nicole Richie
+Hailey Baldwin
+Cardi B
+Beyoncé | cécred
+Blake Lively | blake brown
+Lizzo
+Dwayne Johnson | papatui
+
+# Name a famous model {names}
+Kendall Jenner
+Gigi Hadid
+Bella Hadid
+Tyra Banks
+Naomi Campbell
+Kate Moss
+Cindy Crawford
+Heidi Klum
+Gisele Bündchen | gisele bundchen
+Adriana Lima
+Alessandra Ambrosio
+Miranda Kerr
+Karlie Kloss
+Cara Delevingne
+Twiggy
+Christie Brinkley
+Claudia Schiffer
+Linda Evangelista
+Christy Turlington
+Elle Macpherson
+Chrissy Teigen
+Ashley Graham
+Emily Ratajkowski
+Hailey Bieber
+Kaia Gerber
+Irina Shayk
+Candice Swanepoel
+Behati Prinsloo
+Iman
+Paulina Porizkova
+Brooke Shields
+Jerry Hall
+Marilyn Monroe
+Fabio
+Tyson Beckford
+Lucky Blue Smith
+David Gandy
+Jordan Barrett
+Winnie Harlow
+Adut Akech
+Paloma Elsesser
+Precious Lee
+Jourdan Dunn
+Joan Smalls
+Liu Wen
+Doutzen Kroes
+Lily Aldridge
+Lily-Rose Depp
+*Janice Dickinson
+Jean Shrimpton
+Lauren Hutton
+Veruschka
+Pat Cleveland
+Grace Jones
+Stephanie Seymour
+Helena Christensen
+Shalom Harlow
+
+# Name a celebrity chef, interior designer or TV home expert {names}
+Joanna Gaines
+Chip Gaines
+Property Brothers | drew scott | jonathan scott
+Martha Stewart
+Bob Vila
+Ty Pennington
+Nate Berkus
+Jeremiah Brent
+Christina Hall | christina haack
+Tarek El Moussa
+Erin Napier
+Ben Napier
+Hilary Farr
+David Visentin
+Mike Holmes
+Genevieve Gorder
+Bobby Berk
+Marie Kondo
+Kelly Wearstler
+Emily Henderson
+Jonathan Adler
+Candice Olson
+Vern Yip
+Sabrina Soto
+Shea McGee
+Dave and Jenny Marrs
+Mina Starsiak
+Karen Laine
+Leanne Ford
+Jasmine Roth
+Jenn Todryk
+Nicole Curtis
+*Debbie Travis
+Laurence Llewelyn-Bowen
+Kirstie Allsopp
+Phil Spencer
+Sarah Richardson
+Scott McGillivray
+Bryan Baeumler
+
+# Name a famous astronaut {names}
+Neil Armstrong
+Buzz Aldrin
+Sally Ride
+John Glenn
+Yuri Gagarin
+Alan Shepard
+Michael Collins
+Jim Lovell
+Chris Hadfield
+Scott Kelly
+Mark Kelly
+Mae Jemison
+Christa McAuliffe
+Valentina Tereshkova
+Peggy Whitson
+Christina Koch
+Jessica Meir
+Gus Grissom
+Ed White
+Roger Chaffee
+Gene Cernan
+Harrison Schmitt
+Pete Conrad
+Alan Bean
+John Young
+Charlie Duke
+Edgar Mitchell
+Jim Irwin
+David Scott
+Dave Scott
+Deke Slayton
+Gordon Cooper
+Wally Schirra
+Scott Carpenter
+Fred Haise
+Jack Swigert
+Tim Peake
+Thomas Pesquet
+Sunita Williams | suni williams
+Butch Wilmore
+Bob Behnken
+Doug Hurley
+Victor Glover
+Reid Wiseman
+Jeremy Hansen
+Kalpana Chawla
+Ellison Onizuka
+Ronald McNair
+Judith Resnik
+Guion Bluford
+Eileen Collins
+Shannon Lucid
+Story Musgrave
+Leonard Nimoy
+Laika
+Ham the Chimp
+*Rusty Schweickart
+Wally Funk
+William Shatner
+Michael Strahan
+Katy Perry
+Gayle King
+Jeff Bezos
+Richard Branson
+
+# Name a famous billionaire {names}
+Elon Musk
+Jeff Bezos
+Bill Gates
+Mark Zuckerberg
+Warren Buffett
+Oprah Winfrey
+Jay-Z
+Kanye West
+Kim Kardashian
+Kylie Jenner
+Rihanna
+Taylor Swift
+Michael Jordan
+Larry Page
+Sergey Brin
+Steve Ballmer
+Larry Ellison
+Bernard Arnault
+Jensen Huang
+Mukesh Ambani
+Jack Ma
+Richard Branson
+Michael Bloomberg
+Donald Trump
+George Soros
+Charles Koch
+Peter Thiel
+Mark Cuban
+Phil Knight
+Jim Walton | walton family
+Alice Walton
+Rob Walton
+MacKenzie Scott
+Steve Jobs
+Laurene Powell Jobs
+Sam Altman
+Jack Dorsey
+Evan Spiegel
+Daniel Ek
+Brian Chesky
+Travis Kalanick
+Ted Turner
+Rupert Murdoch
+Howard Schultz
+Tyler Perry
+Steven Spielberg
+George Lucas
+Magic Johnson
+LeBron James
+Tiger Woods
+Selena Gomez
+Bruce Springsteen
+Paul McCartney
+*Scrooge McDuck
+Bruce Wayne
+Tony Stark
+Richie Rich
+Mr. Burns
+Lex Luthor
+Daddy Warbucks
+Mr. Monopoly
+
+# Name a famous person named Chris {names}
+Chris Pratt
+Chris Evans
+Chris Hemsworth
+Chris Pine
+Chris Rock
+Chris Brown
+Chris Martin
+Chris Farley
+Chris Tucker
+Chris Paul
+Chris Stapleton
+Chris Cornell
+Chris Hadfield
+Chris Columbus
+Chris Christie
+Chris Cuomo
+Chris Harrison
+Chris Jericho
+Chris Kattan
+Chris O'Donnell
+Chris Noth
+Chris Colfer
+Chris Young
+Chris Isaak
+Chris de Burgh
+Chris Rea
+Chris Kirkpatrick
+Chris Bosh
+Chris Webber
+Chris Mullin
+Chris Sale
+Chris Froome
+Chris Hoy
+Chris Evert
+Chris Hansen
+Chris Matthews
+Chris Wallace
+Chris Hayes
+Chris Nolan | christopher nolan
+Chris Columbus
+Chris Lilley
+Chris Hardwick
+Chris D'Elia
+Chris Rock
+Chris Messina
+Chris Meloni
+Chris Sarandon
+*Chris Kringle | kris kringle
+Christopher Robin
+Christopher Walken
+Christopher Reeve
+Christopher Lee
+Christopher Plummer
+Christopher Lloyd
+
+# Name a famous Taylor or Swift {names}
+Taylor Swift
+Taylor Lautner
+Taylor Hawkins
+Taylor Kitsch
+Taylor Momsen
+Taylor Tomlinson
+Taylor Russell
+Taylor Hanson
+Taylor Dayne
+Taylor Sheridan
+Taylor Fritz
+Taylor Hall
+Taylor Lewan
+Taylor Heinicke
+Taylor Townsend
+Elizabeth Taylor
+James Taylor
+Roger Taylor
+Andy Taylor
+Lili Taylor
+Christine Taylor
+Holland Taylor
+Koko Taylor
+Johnnie Taylor
+Ann Taylor
+Zachary Taylor
+Corey Taylor
+Lawrence Taylor
+Jason Taylor
+Sean Taylor
+Fred Taylor
+Chuck Taylor
+Tom Swift
+Jonathan Swift
+*Taylor the Latte Boy
+Swifties
+Rob Swift
+Mae Taylor
+
+## The Internet
+
+# Name a famous internet meme
+Rickroll | rick roll
+Doge
+Grumpy Cat
+Nyan Cat
+Distracted Boyfriend
+Harambe
+Pepe the Frog | pepe
+Trollface
+Keyboard Cat
+Success Kid
+Bad Luck Brian
+Woman Yelling at a Cat
+This Is Fine
+Kermit sipping tea | but thats none of my business
+Hide the Pain Harold
+Disaster Girl
+Salt Bae
+Arthur's fist
+Mocking SpongeBob
+Drake Hotline Bling
+Galaxy Brain
+Is This a Pigeon?
+Change My Mind
+Two Buttons
+Expanding Brain
+Surprised Pikachu
+Stonks
+Big Chungus
+Ugandan Knuckles
+Dat Boi
+Damn Daniel
+Evil Kermit
+Leave Britney Alone
+Charlie Bit My Finger
+Chocolate Rain
+Numa Numa
+Gangnam Style
+Harlem Shake
+Ice Bucket Challenge
+Planking
+Tide Pod Challenge
+Mannequin Challenge
+Bottle flip
+Dab
+Floss
+Skibidi Toilet
+Rizz
+Sigma
+Ohio
+Gyatt
+Grimace Shake
+Roman Empire
+Girl Dinner
+Very Demure
+Hawk Tuah
+Moo Deng
+Pedro the Raccoon | pedro pedro pedro
+Chill Guy
+Brain rot
+Tralalero Tralala
+6 7 | six seven
+Bernie's mittens
+Shrek is Love
+Loss
+All Your Base Are Belong to Us
+Dramatic Chipmunk
+Star Wars Kid
+Leeroy Jenkins
+Philosoraptor
+Socially Awkward Penguin
+Advice Dog
+Courage Wolf
+Scumbag Steve
+Good Guy Greg
+Overly Attached Girlfriend
+Ridiculously Photogenic Guy
+Confession Bear
+Y U No
+Forever Alone
+Me Gusta
+Rage comics
+Ermahgerd
+Dancing Baby
+Hampster Dance
+*Badger Badger Badger
+Peanut Butter Jelly Time
+Lolcats
+I Can Has Cheezburger
+Longcat
+Ceiling Cat
+O RLY
+Tron Guy
+Bert is Evil
+
+# Name an internet slang word or acronym
+LOL
+OMG
+BRB
+LMAO
+IDK
+TBH
+SMH
+FOMO
+YOLO
+BFF
+DM
+FYI
+IMO
+IMHO
+NGL
+FR | for real
+IYKYK
+GOAT
+TL;DR | tldr
+ICYMI
+AFK
+GG
+OP
+IRL
+TFW
+MFW
+NSFW
+POV
+Rizz
+Bussin
+No cap
+Cap
+Slay
+Sus
+Yeet
+Simp
+Stan
+Lowkey
+Highkey
+Bet
+Mid
+Ate
+Periodt
+Vibe
+Vibe check
+Ghosting
+Salty
+Extra
+Basic
+Shook
+Snatched
+Tea
+Spill the tea
+Flex
+Drip
+Bae
+Fam
+Lit
+Fire
+Glow up
+Main character
+Delulu
+Situationship
+Ick
+Rent free
+Touch grass
+Ratio
+Based
+Cringe
+Skibidi
+Gyatt
+Fanum tax
+Sigma
+Aura
+Mewing
+Brain rot
+Unalive
+Ok boomer
+Karen
+*Pwned
+L33t
+ROFL
+TTYL
+G2G
+BBL
+ASL
+AFAIK
+IIRC
+HMU
+WYD
+NVM
+Kek
+
+# Name an emoji
+Laughing crying face | 😂 | tears of joy
+Heart | red heart | ❤️
+Thumbs up | 👍
+Fire | 🔥
+Skull | 💀
+Crying face | 😭 | loudly crying
+Eyes | 👀
+Smiling face with heart eyes | heart eyes | 😍
+Winking face | wink | 😉
+Thinking face | 🤔
+Eggplant | 🍆
+Peach | 🍑
+Poop | 💩 | pile of poo
+Clown | 🤡
+Prayer hands | pray | 🙏
+Clapping hands | clap | 👏
+100 | 💯
+Sparkles | ✨
+Rolling eyes | 🙄
+Shrug | 🤷
+Face palm | facepalm | 🤦
+Party popper | 🎉
+Pleading face | 🥺
+Smirk | 😏
+Upside-down face | 🙃
+Nail polish | 💅
+Flexed biceps | muscle | 💪
+OK hand | 👌
+Peace sign | ✌️
+Middle finger | 🖕
+Rocket | 🚀
+Goat | 🐐
+Ghost | 👻
+Alien | 👽
+Robot | 🤖
+Unicorn | 🦄
+Rainbow | 🌈
+Sun | ☀️
+Moon | 🌙
+Star | ⭐
+Pizza | 🍕
+Taco | 🌮
+Avocado | 🥑
+Melting face | 🫠
+Saluting face | 🫡
+Face with tears | 🥲
+Sunglasses face | 😎
+Zany face | 🤪
+Nerd face | 🤓
+Angry face | 😡
+Exploding head | 🤯
+Zipper mouth | 🤐
+Hugging face | 🤗
+Shushing face | 🤫
+Money face | 🤑
+Grimacing | 😬
+Sweat smile | 😅
+Moai | 🗿
+*Bubble tea | 🧋
+Lobster | 🦞
+Flamingo | 🦩
+Sloth | 🦥
+Dodo | 🦤
+Mammoth | 🦣
+Troll | 🧌
+Headstone | 🪦
+
+# Name a website people use every day
+Google
+YouTube
+Facebook
+Amazon
+Instagram
+Wikipedia
+Reddit
+Netflix
+Twitter | x
+TikTok
+Gmail
+LinkedIn
+ChatGPT
+Claude
+Yahoo
+Bing
+eBay
+Pinterest
+Craigslist
+Zillow
+Spotify
+Twitch
+Discord
+Snapchat
+WhatsApp
+Etsy
+Walmart
+Target
+Indeed
+Yelp
+TripAdvisor
+Airbnb
+Booking.com
+Expedia
+Weather.com
+ESPN
+CNN
+Fox News
+New York Times | nytimes
+BBC
+Wordle
+IMDb
+Rotten Tomatoes
+Quora
+Stack Overflow
+GitHub
+Canva
+Dropbox
+Google Docs
+Google Maps
+Zoom
+Slack
+Microsoft Teams | teams
+Outlook
+Hotmail
+AOL
+Venmo
+PayPal
+Cash App
+Duolingo
+Khan Academy
+Coursera
+Chegg
+Quizlet
+Canvas
+Blackboard
+Hulu
+Disney+
+Max
+Prime Video
+Peacock
+Paramount+
+*Ask Jeeves
+GeoCities
+AltaVista
+Lycos
+Excite
+Napster
+LimeWire
+Neopets
+Club Penguin
+Miniclip
+Newgrounds
+Addicting Games
+Myspace
+
+# Name a streaming service
+Netflix
+Hulu
+Disney+ | disney plus
+Amazon Prime Video | prime video | amazon prime
+HBO Max | max
+Apple TV+ | apple tv
+Peacock
+Paramount+ | paramount plus
+YouTube TV
+YouTube
+Crunchyroll
+Tubi
+Pluto TV
+Roku Channel
+Sling TV
+Fubo
+ESPN+
+DAZN
+Showtime
+Starz
+AMC+
+Shudder
+BritBox
+Acorn TV
+Mubi
+Criterion Channel
+Funimation
+Discovery+
+Philo
+Hallmark Movies Now
+Freevee
+Plex
+Kanopy
+Hoopla
+Twitch
+Kick
+Vudu
+Fandango at Home
+Redbox
+CBS All Access
+Quibi
+*FilmStruck
+Seeso
+VRV
+Vine
+DramaFever
+Mixer
+Fandor
+
+# Name a famous viral video
+Charlie Bit My Finger
+Gangnam Style
+Evolution of Dance
+Chocolate Rain
+Leave Britney Alone
+Double Rainbow
+David After Dentist
+Sneezing Panda
+Dramatic Chipmunk
+Numa Numa
+Star Wars Kid
+Keyboard Cat
+Rick Astley – Never Gonna Give You Up | rickroll
+Sweet Brown | aint nobody got time for that
+Charlie the Unicorn
+Shoes
+Friday | rebecca black
+Harlem Shake
+Ice Bucket Challenge
+Damn Daniel
+Kid President
+What Does the Fox Say? | the fox
+Baby Shark
+Despacito
+Nyan Cat
+Badger Badger Badger
+Peanut Butter Jelly Time
+Leroy Jenkins
+Afro Ninja
+Boom Goes the Dynamite
+Bed Intruder Song | hide your kids
+Grape Lady
+Antoine Dodson
+Overly Attached Girlfriend
+Hey Hey Hey
+Free Hugs
+OK Go treadmill | here it goes again
+Jizz in My Pants
+Lazy Sunday
+Dick in a Box
+Kony 2012
+Back to the Future Hoverboard
+Shia LaBeouf Just Do It | just do it
+Paul Vasquez | double rainbow guy
+Corn Kid | its corn
+Hawk Tuah
+Bernie Sanders mittens
+*Ultimate Showdown of Ultimate Destiny
+Llamas with Hats
+Marcel the Shell
+Annoying Orange
+Fred
+Christian the Lion
+Battle at Kruger
+Talking Twin Babies
+Cat playing piano
+
+# Name something you can do on TikTok
+Dance
+Duet
+Stitch
+Lip sync
+Go live
+Scroll
+Like
+Comment
+Share
+Follow
+Post
+Film a trend
+Use a filter
+Green screen
+Add a sound
+Repost
+Save
+Shop | tiktok shop
+Get on the For You Page | fyp
+Go viral
+Unboxing
+Get ready with me | grwm
+Day in the life
+Storytime
+Prank
+Challenge
+Tutorial
+Recipe
+Review
+Rant
+Reaction
+POV
+Transition
+Lip sync
+Thirst trap
+Sea shanty
+Book talk | booktok
+Get a following
+Send DMs
+Block
+Report
+Not interested
+Screen time limit
+Gift coins
+Sponsored post
+*Photo mode
+Playlists
+Q&A
+Effects
+Slideshow
+Carousel
+Nudge
+
+# Name a famous hashtag or online movement
+#MeToo
+#BlackLivesMatter | black lives matter
+#ThrowbackThursday | tbt
+#IceBucketChallenge
+#OOTD
+#NoFilter
+#TBT
+#FBF
+#Blessed
+#YOLO
+#FOMO
+#Selfie
+#LoveWins
+#BringBackOurGirls
+#OscarsSoWhite
+#TimesUp
+#FreeBritney
+#MannequinChallenge
+#WCW | woman crush wednesday
+#MCM | man crush monday
+#MotivationMonday
+#TransformationTuesday
+#WednesdayWisdom
+#FollowFriday | ff
+#SelfCareSunday
+#Caturday
+#BookTok
+#CleanTok
+#GymTok
+#FoodTok
+#Swifties
+#Barbenheimer
+#GirlMath
+#HotGirlWalk
+#QuietQuitting
+#BeReal
+#Movember
+#NoShaveNovember
+#DryJanuary
+#Veganuary
+#GivingTuesday
+#SmallBusinessSaturday
+#ShopSmall
+#NationalDogDay
+#ThatGirl
+#Cottagecore
+#Y2K
+*#Covfefe
+#Kony2012
+#TheDress
+#Yanny | yanny or laurel
+#Grexit
+#Brexit
+#Occupy | occupy wall street
+#ArabSpring
+#ALSIceBucketChallenge
+
+# Name a dating app
+Tinder
+Bumble
+Hinge
+Match.com | match
+OkCupid
+Plenty of Fish | pof
+eHarmony
+Coffee Meets Bagel
+Grindr
+Her
+Raya
+Feeld
+The League
+Facebook Dating
+Happn
+Badoo
+Christian Mingle
+JDate
+Farmers Only
+Zoosk
+Elite Singles
+Our Time
+Silver Singles
+Tantan
+Boo
+Lex
+Taimi
+Thursday
+Timeleft
+Ashley Madison
+Chemistry.com
+Snack
+Lox Club
+Sweet Pea
+*Lovoo
+Muzz
+Dil Mil
+Salams
+Tastebuds
+Cuddli
+
+# Name a famous podcast
+The Joe Rogan Experience | joe rogan
+Call Her Daddy
+Serial
+This American Life
+Smartless
+Armchair Expert
+The Daily
+Crime Junkie
+My Favorite Murder
+Stuff You Should Know
+Radiolab
+Freakonomics Radio | freakonomics
+Hidden Brain
+How I Built This
+Conan O'Brien Needs a Friend
+New Heights
+Huberman Lab
+The Diary of a CEO
+The Bill Simmons Podcast
+Pod Save America
+Lex Fridman Podcast
+Impaulsive
+H3 Podcast
+Rotten Mango
+Morbid
+Distractible
+Chicks in the Office
+Unwell
+Shut Up Evan
+Las Culturistas
+Office Ladies
+Fake Doctors, Real Friends
+The Rewatchables
+Planet Money
+Up First
+Wait Wait... Don't Tell Me!
+Car Talk
+The Moth
+Lore
+Welcome to Night Vale
+S-Town
+Dirty John
+Caliphate
+Revisionist History
+99% Invisible
+Reply All
+Hardcore History
+Behind the Bastards
+The Read
+Million Dollaz Worth of Game
+Club Shay Shay
+I've Had It
+Flagrant
+Theo Von | this past weekend
+Bad Friends
+2 Bears 1 Cave
+*My Brother, My Brother and Me
+The Adventure Zone
+Comedy Bang! Bang!
+WTF with Marc Maron
+Hello from the Magic Tavern
+Conspiracy Theories
+
+# Name an online video game streamer or esports team
+Ninja
+Shroud
+Pokimane
+xQc
+Tfue
+Dr Disrespect
+Myth
+TimTheTatman
+Valkyrae
+Sykkuno
+Faker
+s1mple
+Tyler1
+Summit1g
+Lirik
+Sodapoppin
+Asmongold
+Ludwig
+Kai Cenat
+IShowSpeed
+FaZe Clan | faze
+100 Thieves
+OpTic Gaming | optic
+Team Liquid
+Cloud9
+TSM
+Fnatic
+G2 Esports | g2
+T1
+Evil Geniuses
+Team Vitality | vitality
+Natus Vincere | navi
+NRG
+Sentinels
+Gen.G
+Astralis
+Ninjas in Pyjamas
+Team Secret
+OG
+Complexity
+*Dignitas
+Counter Logic Gaming | clg
+Immortals
+Echo Fox
+Splyce
+Team Envy | envy
+Luminosity
+FURIA
+Paper Rex
+LOUD
+
+# Name a famous internet cat or animal
+Grumpy Cat
+Keyboard Cat
+Nyan Cat
+Lil Bub
+Maru
+Doge | kabosu
+Harambe
+Moo Deng
+Pedro the Raccoon
+Pesto the Penguin
+Boo the Pomeranian
+Marnie the Dog
+Tuna the Chiweenie
+Jiff Pom
+Hamilton the Hipster Cat
+Colonel Meow
+Venus the Two-Faced Cat
+Smudge the Cat | woman yelling at a cat
+Longcat
+Ceiling Cat
+Happy Cat
+Big Floppa
+Bongo Cat
+Chonk
+Henri le Chat Noir
+Dramatic Chipmunk
+Sneezing Panda
+Shoebill
+Cheems
+Walter | walter dog
+Bunny the talking dog
+Tucker Budzyn
+Maymo
+Juniper the Fox
+Hosico
+Nala Cat
+Smoothie the Cat
+Garfi
+Uni the Cat
+Popcorn the Polydactyl
+*Chewbacca Mom
+Sir Lancelot
+Jorts
+Jean
+Peanut the Squirrel
+Fiona the Hippo
+Knut the Polar Bear
+Moo Deng the hippo
+Hank the Tank
+Fat Bear Week | 480 otis
+
+# Name a famous person known by their initials or a nickname
+JFK | john f kennedy
+MLK | martin luther king jr
+FDR | franklin roosevelt
+LBJ | lyndon johnson
+JLo | jennifer lopez
+RBG | ruth bader ginsburg
+AOC | alexandria ocasio cortez
+KD | kevin durant
+LBJ (LeBron)
+DMX
+T.I.
+MJ | michael jordan
+OJ | oj simpson
+JK Rowling | j k rowling
+JRR Tolkien | jrr tolkien
+CS Lewis | c s lewis
+EE Cummings
+TS Eliot
+HG Wells
+PT Barnum
+BB King
+DJ Khaled
+KSI
+SZA
+MKBHD
+MrBeast
+The Rock
+Shaq
+Snoop
+Diddy | p diddy | puff daddy
+Bono
+Slash
+The Edge
+Lady Di
+Prince
+Oprah
+Ye
+Weird Al
+Big Papi
+Babe Ruth
+Dr. J
+Magic
+A-Rod
+CR7 | cristiano ronaldo
+Messi
+Ronaldinho
+Kaká
+Neymar Jr.
+*Dubya | george w bush
+Bubba | bill clinton
+Ike | eisenhower
+Teddy | theodore roosevelt
+Honest Abe | abraham lincoln
+Old Hickory | andrew jackson
+Silent Cal | calvin coolidge
+Tricky Dick | richard nixon
+The Gipper | ronald reagan
+Mr. Rogers
+Mr. T
+Mr. Bean
+Mr. Clean
+Mr. Peanut
