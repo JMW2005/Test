@@ -3,3 +3,5 @@ movies.txt
 movie-stars.txt
 tv.txt
 music.txt
+games.txt
+sports.txt

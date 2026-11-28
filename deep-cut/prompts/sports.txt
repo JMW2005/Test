@@ -1,0 +1,2092 @@
+// Deep Cut prompt bank: SPORTS
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Sports
+
+# Name an NFL team
+Dallas Cowboys | cowboys
+New England Patriots | patriots
+Green Bay Packers | packers
+Kansas City Chiefs | chiefs
+Pittsburgh Steelers | steelers
+San Francisco 49ers | 49ers | niners
+Philadelphia Eagles | eagles
+Chicago Bears | bears
+New York Giants | giants
+Seattle Seahawks | seahawks
+Denver Broncos | broncos
+Buffalo Bills | bills
+Miami Dolphins | dolphins
+Baltimore Ravens | ravens
+Las Vegas Raiders | raiders | oakland raiders
+Detroit Lions | lions
+Minnesota Vikings | vikings
+Los Angeles Rams | rams
+New York Jets | jets
+Cincinnati Bengals | bengals
+Cleveland Browns | browns
+New Orleans Saints | saints
+Atlanta Falcons | falcons
+Carolina Panthers | panthers
+Tampa Bay Buccaneers | buccaneers | bucs
+Indianapolis Colts | colts
+Tennessee Titans | titans
+Houston Texans | texans
+Jacksonville Jaguars | jaguars | jags
+Los Angeles Chargers | chargers
+Arizona Cardinals | cardinals
+*Washington Commanders | commanders
+
+# Name an NBA team
+Los Angeles Lakers | lakers
+Chicago Bulls | bulls
+Boston Celtics | celtics
+Golden State Warriors | warriors
+Miami Heat | heat
+New York Knicks | knicks
+Brooklyn Nets | nets
+San Antonio Spurs | spurs
+Cleveland Cavaliers | cavaliers | cavs
+Philadelphia 76ers | 76ers | sixers
+Dallas Mavericks | mavericks | mavs
+Houston Rockets | rockets
+Phoenix Suns | suns
+Milwaukee Bucks | bucks
+Denver Nuggets | nuggets
+Toronto Raptors | raptors
+Los Angeles Clippers | clippers
+Oklahoma City Thunder | thunder
+Atlanta Hawks | hawks
+Detroit Pistons | pistons
+Orlando Magic | magic
+Utah Jazz | jazz
+Portland Trail Blazers | trail blazers | blazers
+Sacramento Kings | kings
+Minnesota Timberwolves | timberwolves | wolves
+Indiana Pacers | pacers
+Memphis Grizzlies | grizzlies
+New Orleans Pelicans | pelicans
+Charlotte Hornets | hornets
+Washington Wizards | wizards
+*Seattle SuperSonics | supersonics | sonics
+Vancouver Grizzlies
+New Jersey Nets
+Charlotte Bobcats | bobcats
+
+# Name an MLB team
+New York Yankees | yankees
+Boston Red Sox | red sox
+Los Angeles Dodgers | dodgers
+Chicago Cubs | cubs
+St. Louis Cardinals | cardinals
+San Francisco Giants | giants
+Atlanta Braves | braves
+New York Mets | mets
+Houston Astros | astros
+Philadelphia Phillies | phillies
+Chicago White Sox | white sox
+Detroit Tigers | tigers
+Texas Rangers | rangers
+Seattle Mariners | mariners
+Toronto Blue Jays | blue jays
+Baltimore Orioles | orioles
+Cleveland Guardians | guardians | cleveland indians
+Minnesota Twins | twins
+Kansas City Royals | royals
+Milwaukee Brewers | brewers
+Cincinnati Reds | reds
+Pittsburgh Pirates | pirates
+San Diego Padres | padres
+Arizona Diamondbacks | diamondbacks | dbacks
+Colorado Rockies | rockies
+Miami Marlins | marlins
+Tampa Bay Rays | rays
+Los Angeles Angels | angels
+Oakland Athletics | athletics | as
+Washington Nationals | nationals | nats
+*Montreal Expos | expos
+Brooklyn Dodgers
+
+# Name an NHL team
+Toronto Maple Leafs | maple leafs | leafs
+Montreal Canadiens | canadiens | habs
+Boston Bruins | bruins
+Chicago Blackhawks | blackhawks
+Detroit Red Wings | red wings
+New York Rangers | rangers
+Pittsburgh Penguins | penguins
+Philadelphia Flyers | flyers
+Edmonton Oilers | oilers
+Vegas Golden Knights | golden knights
+Tampa Bay Lightning | lightning
+Colorado Avalanche | avalanche | avs
+Washington Capitals | capitals | caps
+Los Angeles Kings | kings
+New Jersey Devils | devils
+New York Islanders | islanders
+St. Louis Blues | blues
+Dallas Stars | stars
+Vancouver Canucks | canucks
+Calgary Flames | flames
+Ottawa Senators | senators
+Florida Panthers | panthers
+Anaheim Ducks | ducks | mighty ducks
+San Jose Sharks | sharks
+Minnesota Wild | wild
+Nashville Predators | predators | preds
+Carolina Hurricanes | hurricanes | canes
+Buffalo Sabres | sabres
+Winnipeg Jets | jets
+Columbus Blue Jackets | blue jackets
+Seattle Kraken | kraken
+Utah Mammoth | utah hockey club
+*Hartford Whalers | whalers
+Quebec Nordiques | nordiques
+Atlanta Thrashers | thrashers
+
+# Name a Premier League football club
+Manchester United | man united | man utd
+Liverpool
+Arsenal
+Chelsea
+Manchester City | man city
+Tottenham Hotspur | tottenham | spurs
+Newcastle United | newcastle
+Aston Villa
+West Ham United | west ham
+Everton
+Leeds United | leeds
+Leicester City | leicester
+Brighton & Hove Albion | brighton
+Wolverhampton Wanderers | wolves
+Crystal Palace
+Fulham
+Nottingham Forest | forest
+Brentford
+Southampton
+Burnley
+Bournemouth
+Sunderland
+Sheffield United
+Watford
+Norwich City | norwich
+West Bromwich Albion | west brom
+Stoke City | stoke
+Ipswich Town | ipswich
+Luton Town | luton
+Blackburn Rovers | blackburn
+Bolton Wanderers | bolton
+Middlesbrough
+Wigan Athletic | wigan
+Swansea City | swansea
+Cardiff City | cardiff
+Hull City | hull
+Queens Park Rangers | qpr
+Portsmouth
+Reading
+Derby County | derby
+Birmingham City | birmingham
+*Blackpool
+Huddersfield Town | huddersfield
+Coventry City | coventry
+Charlton Athletic | charlton
+Wimbledon
+Oldham Athletic | oldham
+Barnsley
+Bradford City | bradford
+Swindon Town | swindon
+
+# Name a famous soccer (football) player {names}
+Lionel Messi
+Cristiano Ronaldo
+Pelé | pele
+Diego Maradona
+Neymar
+Kylian Mbappé | mbappe
+David Beckham
+Zinedine Zidane
+Ronaldinho
+Ronaldo Nazário | r9
+Erling Haaland
+Mohamed Salah
+Wayne Rooney
+Thierry Henry
+Johan Cruyff
+Franz Beckenbauer
+Zlatan Ibrahimović | zlatan | ibrahimovic
+Kaká | kaka
+Luka Modrić | modric
+Kevin De Bruyne
+Harry Kane
+Robert Lewandowski
+Karim Benzema
+Sergio Ramos
+Andrés Iniesta | iniesta
+Xavi
+Steven Gerrard
+Frank Lampard
+Paul Scholes
+Ryan Giggs
+Gareth Bale
+Luis Suárez | suarez
+Jude Bellingham
+Vinícius Júnior | vinicius jr | vini jr
+Lamine Yamal
+Bukayo Saka
+Son Heung-min | son
+Virgil van Dijk
+Paolo Maldini
+Roberto Baggio
+Alessandro Del Piero
+Gianluigi Buffon
+Andrea Pirlo
+Francesco Totti
+Eusébio | eusebio
+George Best
+Bobby Charlton
+Gary Lineker
+Alan Shearer
+Eric Cantona
+Didier Drogba
+Samuel Eto'o
+George Weah
+Romário | romario
+Rivaldo
+Roberto Carlos
+Cafu
+Marta
+Mia Hamm
+Megan Rapinoe
+Alex Morgan
+Abby Wambach
+Carli Lloyd
+Christian Pulisic
+Landon Donovan
+Clint Dempsey
+Tim Howard
+Alphonso Davies
+Hugo Lloris
+Manuel Neuer
+Iker Casillas
+Peter Schmeichel
+Lev Yashin
+Michel Platini
+Marco van Basten
+Ruud Gullit
+Dennis Bergkamp
+Arjen Robben
+Robin van Persie
+Wesley Sneijder
+Bastian Schweinsteiger
+Thomas Müller | muller
+Miroslav Klose
+Gerd Müller
+*Garrincha
+Ferenc Puskás | puskas
+Alfredo Di Stéfano | di stefano
+Bobby Moore
+Kenny Dalglish
+Ian Rush
+Jamie Vardy
+Phil Foden
+Declan Rice
+Cole Palmer
+Pedri
+Gavi
+Rodri
+Antoine Griezmann
+Olivier Giroud
+Paul Pogba
+N'Golo Kanté | kante
+Riyad Mahrez
+Sadio Mané | mane
+Achraf Hakimi
+Ousmane Dembélé | dembele
+
+# Name a famous basketball player {names}
+Michael Jordan
+LeBron James
+Kobe Bryant
+Stephen Curry
+Shaquille O'Neal | shaq
+Magic Johnson
+Larry Bird
+Kareem Abdul-Jabbar
+Kevin Durant
+Wilt Chamberlain
+Bill Russell
+Tim Duncan
+Allen Iverson
+Dwyane Wade
+Dirk Nowitzki
+Giannis Antetokounmpo | giannis
+Nikola Jokić | jokic
+Luka Dončić | luka doncic
+Kevin Garnett
+Charles Barkley
+Hakeem Olajuwon
+Scottie Pippen
+Dennis Rodman
+Kawhi Leonard
+James Harden
+Russell Westbrook
+Chris Paul
+Kyrie Irving
+Anthony Davis
+Joel Embiid
+Jayson Tatum
+Ja Morant
+Zion Williamson
+Victor Wembanyama | wemby
+Shai Gilgeous-Alexander | sga
+Anthony Edwards
+Damian Lillard
+Carmelo Anthony
+Vince Carter
+Tracy McGrady
+Yao Ming
+Steve Nash
+Jason Kidd
+Ray Allen
+Reggie Miller
+Paul Pierce
+Patrick Ewing
+Karl Malone
+John Stockton
+Isiah Thomas
+Julius Erving | dr j
+Jerry West
+Oscar Robertson
+Elgin Baylor
+Pete Maravich
+Dwight Howard
+Blake Griffin
+Klay Thompson
+Draymond Green
+Jimmy Butler
+Devin Booker
+Trae Young
+Donovan Mitchell
+Jalen Brunson
+Caitlin Clark
+Diana Taurasi
+Sue Bird
+Lisa Leslie
+Candace Parker
+A'ja Wilson
+Breanna Stewart
+Sheryl Swoopes
+Maya Moore
+Angel Reese
+Paige Bueckers
+Muggsy Bogues
+Manute Bol
+Spud Webb
+Gheorghe Mureșan | gheorghe muresan
+Jeremy Lin
+Pau Gasol
+Manu Ginóbili | manu ginobili
+Tony Parker
+David Robinson
+George Gervin
+Dominique Wilkins
+Clyde Drexler
+Gary Payton
+Shawn Kemp
+Alonzo Mourning
+Penny Hardaway
+Grant Hill
+Chris Webber
+*Bill Walton
+Bob Cousy
+George Mikan
+Moses Malone
+Bernard King
+Kevin McHale
+Robert Parish
+Dennis Johnson
+Sam Jones
+John Havlicek
+
+# Name a famous American football player {names}
+Tom Brady
+Peyton Manning
+Patrick Mahomes
+Jerry Rice
+Joe Montana
+Travis Kelce
+Aaron Rodgers
+Brett Favre
+Dan Marino
+John Elway
+Walter Payton
+Barry Sanders
+Emmitt Smith
+Jim Brown
+Lawrence Taylor
+Ray Lewis
+Deion Sanders
+Randy Moss
+Terrell Owens
+Calvin Johnson | megatron
+Rob Gronkowski | gronk
+Drew Brees
+Eli Manning
+Ben Roethlisberger | big ben
+Russell Wilson
+Josh Allen
+Lamar Jackson
+Joe Burrow
+Jalen Hurts
+Justin Jefferson
+Ja'Marr Chase
+Tyreek Hill
+Cooper Kupp
+Davante Adams
+Saquon Barkley
+Derrick Henry
+Christian McCaffrey
+Adrian Peterson
+LaDainian Tomlinson
+Marshawn Lynch
+Odell Beckham Jr.
+J.J. Watt | jj watt
+Aaron Donald
+Troy Polamalu
+Ed Reed
+Reggie White
+Joe Namath
+Johnny Unitas
+Terry Bradshaw
+Roger Staubach
+Troy Aikman
+Steve Young
+Michael Strahan
+Michael Vick
+Cam Newton
+Tim Tebow
+Colin Kaepernick
+Bo Jackson
+O.J. Simpson
+Jerome Bettis
+Marcus Allen
+Eric Dickerson
+Tony Gonzalez
+Shannon Sharpe
+Larry Fitzgerald
+Julio Jones
+Antonio Brown
+Le'Veon Bell
+Von Miller
+Micah Parsons
+T.J. Watt
+Nick Bosa
+Patrick Peterson
+Darrelle Revis
+Richard Sherman
+Charles Woodson
+Champ Bailey
+Brian Urlacher
+Dick Butkus
+Mike Singletary
+William Perry | the refrigerator
+Gale Sayers
+*Night Train Lane
+Bart Starr
+Vince Lombardi
+Bill Belichick
+Andy Reid
+Mike Ditka
+John Madden
+Jason Kelce
+Brock Purdy
+Shedeur Sanders
+Travis Hunter
+
+# Name a famous baseball player {names}
+Babe Ruth
+Derek Jeter
+Jackie Robinson
+Shohei Ohtani
+Hank Aaron
+Mickey Mantle
+Willie Mays
+Barry Bonds
+Lou Gehrig
+Ken Griffey Jr.
+Mike Trout
+Aaron Judge
+Ted Williams
+Ty Cobb
+Pete Rose
+Cal Ripken Jr.
+Alex Rodriguez | a rod
+Roberto Clemente
+Joe DiMaggio
+Sandy Koufax
+Nolan Ryan
+Randy Johnson
+Pedro Martínez | pedro martinez
+Mariano Rivera
+David Ortiz | big papi
+Albert Pujols
+Mark McGwire
+Sammy Sosa
+Ichiro Suzuki | ichiro
+Tony Gwynn
+Yogi Berra
+Stan Musial
+Reggie Jackson
+Rickey Henderson
+Clayton Kershaw
+Justin Verlander
+Max Scherzer
+Mookie Betts
+Bryce Harper
+Juan Soto
+Fernando Tatís Jr. | tatis
+Ronald Acuña Jr. | acuna
+Vladimir Guerrero Jr.
+Freddie Freeman
+Jose Altuve
+Paul Goldschmidt
+Buster Posey
+Chipper Jones
+Greg Maddux
+Tom Glavine
+John Smoltz
+Roger Clemens
+Bob Gibson
+Satchel Paige
+Josh Gibson
+Cy Young
+Walter Johnson
+Honus Wagner
+Christy Mathewson
+Johnny Bench
+Mike Schmidt
+George Brett
+Ozzie Smith
+Kirby Puckett
+Don Mattingly
+Bo Jackson
+Frank Thomas
+Jim Thome
+Manny Ramirez
+Vladimir Guerrero
+Johnny Damon
+Yadier Molina
+Joey Votto
+Miguel Cabrera
+Paul Skenes
+Shoeless Joe Jackson
+*Moonlight Graham
+Eddie Gaedel
+Bucky Dent
+Bill Buckner
+
+# Name a famous tennis player {names}
+Serena Williams
+Roger Federer
+Rafael Nadal
+Novak Djokovic
+Venus Williams
+Andy Murray
+Pete Sampras
+Andre Agassi
+Steffi Graf
+Billie Jean King
+Martina Navratilova
+Chris Evert
+John McEnroe
+Björn Borg | bjorn borg
+Jimmy Connors
+Maria Sharapova
+Naomi Osaka
+Carlos Alcaraz
+Jannik Sinner
+Coco Gauff
+Iga Świątek | iga swiatek
+Aryna Sabalenka
+Daniil Medvedev
+Stefanos Tsitsipas
+Alexander Zverev
+Nick Kyrgios
+Emma Raducanu
+Arthur Ashe
+Rod Laver
+Boris Becker
+Ivan Lendl
+Monica Seles
+Martina Hingis
+Kim Clijsters
+Justine Henin
+Lindsay Davenport
+Jennifer Capriati
+Anna Kournikova
+Andy Roddick
+Lleyton Hewitt
+Marat Safin
+Juan Martín del Potro | del potro
+Stan Wawrinka
+Dominic Thiem
+Taylor Fritz
+Frances Tiafoe
+Ben Shelton
+Madison Keys
+Sloane Stephens
+Jessica Pegula
+Elena Rybakina
+Ons Jabeur
+Ashleigh Barty
+Petra Kvitová | petra kvitova
+Victoria Azarenka
+Caroline Wozniacki
+Li Na
+Kei Nishikori
+*Goran Ivanišević | goran ivanisevic
+Pat Cash
+Michael Chang
+Gustavo Kuerten
+Yannick Noah
+Arantxa Sánchez Vicario
+
+# Name a famous golfer {names}
+Tiger Woods
+Jack Nicklaus
+Arnold Palmer
+Phil Mickelson
+Rory McIlroy
+Scottie Scheffler
+Jordan Spieth
+Bryson DeChambeau
+Dustin Johnson
+Brooks Koepka
+Gary Player
+Ben Hogan
+Sam Snead
+Bobby Jones
+Seve Ballesteros
+Nick Faldo
+Greg Norman
+Ernie Els
+Vijay Singh
+Sergio García | sergio garcia
+Jon Rahm
+Justin Thomas
+Rickie Fowler
+Xander Schauffele
+Collin Morikawa
+Bubba Watson
+Fred Couples
+Payne Stewart
+John Daly
+Lee Trevino
+Tom Watson
+Annika Sörenstam | annika sorenstam
+Nelly Korda
+Lydia Ko
+Lorena Ochoa
+Michelle Wie
+Babe Didrikson Zaharias
+Nancy Lopez
+Paula Creamer
+Matt Kuchar
+Hideki Matsuyama
+Adam Scott
+Jason Day
+Justin Rose
+Patrick Reed
+Shane Lowry
+Ludvig Åberg | ludvig aberg
+Tommy Fleetwood
+Viktor Hovland
+*Happy Gilmore
+Walter Hagen
+Gene Sarazen
+Byron Nelson
+Old Tom Morris
+Francis Ouimet
+Bernhard Langer
+Colin Montgomerie
+Padraig Harrington
+Darren Clarke
+
+# Name a famous boxer or MMA fighter {names}
+Muhammad Ali
+Mike Tyson
+Floyd Mayweather
+Manny Pacquiao
+Conor McGregor
+Sugar Ray Leonard
+Joe Frazier
+George Foreman
+Evander Holyfield
+Rocky Marciano
+Jake Paul
+Logan Paul
+Canelo Álvarez | canelo
+Lennox Lewis
+Oscar De La Hoya
+Sugar Ray Robinson
+Joe Louis
+Jack Dempsey
+Tyson Fury
+Anthony Joshua
+Deontay Wilder
+Oleksandr Usyk
+Terence Crawford
+Gervonta Davis | tank davis
+Ryan Garcia
+Claressa Shields
+Laila Ali
+Katie Taylor
+Amanda Serrano
+Roberto Durán | roberto duran
+Marvin Hagler
+Thomas Hearns
+Julio César Chávez
+Bernard Hopkins
+Roy Jones Jr.
+Wladimir Klitschko
+Vitali Klitschko
+Larry Holmes
+Ken Norton
+Sonny Liston
+Jack Johnson
+Ronda Rousey
+Jon Jones
+Khabib Nurmagomedov | khabib
+Georges St-Pierre | gsp
+Anderson Silva
+Israel Adesanya
+Alex Pereira
+Islam Makhachev
+Francis Ngannou
+Brock Lesnar
+Chuck Liddell
+Randy Couture
+Nate Diaz
+Nick Diaz
+Dustin Poirier
+Max Holloway
+Amanda Nunes
+Valentina Shevchenko
+Paddy Pimblett
+Sean O'Malley
+Dana White
+Royce Gracie
+*Kimbo Slice
+Butterbean
+Rocky Balboa
+Apollo Creed
+Prince Naseem Hamed
+Ricky Hatton
+Joe Calzaghe
+Naoya Inoue
+
+# Name a famous Olympic athlete {names}
+Michael Phelps
+Usain Bolt
+Simone Biles
+Carl Lewis
+Jesse Owens
+Katie Ledecky
+Shaun White
+Nadia Comăneci | nadia comaneci
+Mary Lou Retton
+Florence Griffith Joyner | flo jo
+Jackie Joyner-Kersee
+Mark Spitz
+Bruce Jenner | caitlyn jenner
+Greg Louganis
+Kerri Strug
+Gabby Douglas
+Suni Lee
+Aly Raisman
+Shawn Johnson
+Nastia Liukin
+Dominique Dawes
+Ryan Lochte
+Missy Franklin
+Caeleb Dressel
+Allyson Felix
+Sha'Carri Richardson
+Noah Lyles
+Sydney McLaughlin-Levrone
+Michael Johnson
+Edwin Moses
+Bob Beamon
+Dick Fosbury
+Paavo Nurmi
+Emil Zátopek
+Abebe Bikila
+Eliud Kipchoge
+Mo Farah
+Paula Radcliffe
+Kelly Holmes
+Sebastian Coe
+Daley Thompson
+Jessica Ennis-Hill
+Chris Hoy
+Bradley Wiggins
+Jason Kenny
+Laura Kenny
+Ian Thorpe
+Cathy Freeman
+Kristi Yamaguchi
+Michelle Kwan
+Tara Lipinski
+Nancy Kerrigan
+Tonya Harding
+Scott Hamilton
+Dorothy Hamill
+Peggy Fleming
+Apolo Ohno
+Bonnie Blair
+Eric Heiden
+Lindsey Vonn
+Mikaela Shiffrin
+Picabo Street
+Bode Miller
+Chloe Kim
+Eileen Gu
+Yuzuru Hanyu
+Kim Yuna
+Jim Thorpe
+Duke Kahanamoku
+Larisa Latynina
+Ole Einar Bjørndalen
+Marit Bjørgen
+Armand Duplantis | mondo duplantis
+Faith Kipyegon
+Femke Bol
+Léon Marchand | leon marchand
+Ilona Maher
+Stephen Nedoroscik | pommel horse guy
+*Eddie the Eagle | eddie edwards
+Jamaican bobsled team
+Eric Moussambani | eric the eel
+
+# Name an Olympic sport
+Swimming
+Gymnastics
+Track and field | athletics
+Basketball
+Soccer | football
+Volleyball
+Diving
+Boxing
+Wrestling
+Tennis
+Golf
+Cycling
+Rowing
+Sailing
+Fencing
+Archery
+Shooting
+Weightlifting
+Judo
+Taekwondo
+Karate
+Equestrian
+Triathlon
+Modern pentathlon
+Canoeing | kayaking
+Badminton
+Table tennis | ping pong
+Handball
+Field hockey | hockey
+Rugby sevens | rugby
+Water polo
+Beach volleyball
+Surfing
+Skateboarding
+Sport climbing | climbing
+Breaking | breakdancing
+BMX
+Mountain biking
+Synchronized swimming | artistic swimming
+Trampoline
+Rhythmic gymnastics
+Marathon
+Decathlon
+Heptathlon
+Baseball
+Softball
+Lacrosse
+Cricket
+Flag football
+Squash
+Ice hockey
+Figure skating
+Speed skating
+Short track
+Skiing | alpine skiing
+Snowboarding
+Bobsled | bobsleigh
+Luge
+Skeleton
+Curling
+Biathlon
+Ski jumping
+Cross-country skiing
+Nordic combined
+Freestyle skiing
+Ski mountaineering
+*Tug of war
+Croquet
+Live pigeon shooting
+Solo synchronized swimming
+Polo
+Motorboating
+Pelota
+Rope climbing
+
+# Name a famous racecar driver {names}
+Lewis Hamilton
+Michael Schumacher
+Max Verstappen
+Ayrton Senna
+Dale Earnhardt
+Jeff Gordon
+Jimmie Johnson
+Danica Patrick
+Mario Andretti
+Richard Petty
+Dale Earnhardt Jr.
+Jackie Stewart
+Niki Lauda
+James Hunt
+Alain Prost
+Fernando Alonso
+Sebastian Vettel
+Kimi Räikkönen | kimi raikkonen
+Charles Leclerc
+Lando Norris
+Carlos Sainz
+Oscar Piastri
+George Russell
+Daniel Ricciardo
+Sergio Pérez | checo
+Valtteri Bottas
+Jenson Button
+Nigel Mansell
+Nelson Piquet
+Juan Manuel Fangio
+Stirling Moss
+Jim Clark
+Graham Hill
+Damon Hill
+Mika Häkkinen | mika hakkinen
+Kyle Busch
+Kurt Busch
+Tony Stewart
+Kevin Harvick
+Denny Hamlin
+Chase Elliott
+Bubba Wallace
+Kyle Larson
+Joey Logano
+Ryan Blaney
+A.J. Foyt | aj foyt
+Al Unser
+Bobby Unser
+Rick Mears
+Helio Castroneves
+Scott Dixon
+Josef Newgarden
+Alex Palou
+Dario Franchitti
+Cale Yarborough
+David Pearson
+Darrell Waltrip
+Bobby Allison
+Rusty Wallace
+Mark Martin
+Carl Edwards
+Tony Kanaan
+*Ricky Bobby
+Lightning McQueen
+Speed Racer
+Kimi Antonelli
+Oliver Bearman
+Yuki Tsunoda
+Pierre Gasly
+Esteban Ocon
+
+# Name a Formula 1 team, past or present
+Ferrari
+Mercedes
+Red Bull | red bull racing
+McLaren
+Williams
+Aston Martin
+Alpine
+Haas
+Sauber
+Racing Bulls | rb | visa cash app rb
+AlphaTauri
+Toro Rosso
+Alfa Romeo
+Renault
+Lotus
+Benetton
+Brabham
+Tyrrell
+Jordan
+Minardi
+Jaguar
+Toyota
+Honda
+BMW Sauber
+Force India
+Racing Point
+Brawn GP | brawn
+Stewart
+Ligier
+March
+Arrows
+Super Aguri
+Caterham
+Manor
+Marussia
+HRT
+Spyker
+Midland
+Cadillac
+Audi
+*Andrea Moda
+Life
+Coloni
+Eurobrun
+Simtek
+Pacific
+Forti
+Prost
+Lola
+Wolf
+
+# Name a famous NBA, NFL or MLB coach {names}
+Phil Jackson
+Gregg Popovich
+Pat Riley
+Red Auerbach
+Steve Kerr
+Erik Spoelstra
+Doc Rivers
+Mike D'Antoni
+Bill Belichick
+Vince Lombardi
+Andy Reid
+Sean McVay
+Kyle Shanahan
+Mike Tomlin
+John Harbaugh
+Jim Harbaugh
+Sean Payton
+Pete Carroll
+Mike Ditka
+Tom Landry
+Don Shula
+Bill Parcells
+Chuck Noll
+Bill Walsh
+Joe Gibbs
+Tony Dungy
+John Madden
+Jimmy Johnson
+Dan Campbell
+Mike McCarthy
+Bill Cowher
+Marv Levy
+Paul Brown
+Joe Torre
+Tony La Russa
+Bobby Cox
+Terry Francona
+Joe Maddon
+Dave Roberts
+Casey Stengel
+Connie Mack
+Sparky Anderson
+Tommy Lasorda
+Earl Weaver
+Lou Piniella
+Billy Martin
+Bobby Valentine
+Aaron Boone
+Mike Krzyzewski | coach k
+Bobby Knight
+John Wooden
+Dean Smith
+Jim Boeheim
+Nick Saban
+Urban Meyer
+Dabo Swinney
+Kirby Smart
+Bear Bryant
+Joe Paterno
+Lou Holtz
+Steve Spurrier
+Pat Summitt
+Geno Auriemma
+Dawn Staley
+Kim Mulkey
+Tom Thibodeau
+Rick Carlisle
+Jerry Sloan
+Larry Brown
+Chuck Daly
+Lenny Wilkens
+Don Nelson
+George Karl
+*Red Holzman
+Ted Lasso
+Coach Taylor | eric taylor
+Herman Boone
+
+# Name a soccer (football) club outside England
+Real Madrid
+Barcelona
+Bayern Munich
+Juventus
+Paris Saint-Germain | psg
+AC Milan
+Inter Milan | inter
+Borussia Dortmund | dortmund
+Ajax
+Atlético Madrid | atletico madrid
+Benfica
+Porto
+Celtic
+Rangers
+Napoli
+Roma
+Lazio
+Galatasaray
+Fenerbahçe | fenerbahce
+Boca Juniors
+River Plate
+Flamengo
+Santos
+Corinthians
+Palmeiras
+São Paulo | sao paulo
+Al Nassr
+Al Hilal
+Inter Miami
+LA Galaxy
+Seattle Sounders
+LAFC
+Toronto FC
+Club América | america
+Chivas | guadalajara
+Monterey | monterrey
+Marseille
+Lyon
+Monaco
+Lille
+Sevilla
+Valencia
+Villarreal
+Real Sociedad
+Athletic Bilbao
+Bayer Leverkusen | leverkusen
+RB Leipzig | leipzig
+Schalke
+Eintracht Frankfurt
+Hamburg
+PSV Eindhoven | psv
+Feyenoord
+Sporting CP | sporting lisbon
+Anderlecht
+Club Brugge
+Red Star Belgrade
+Dinamo Zagreb
+Olympiacos
+Panathinaikos
+Shakhtar Donetsk
+Dynamo Kyiv
+Zenit
+Spartak Moscow
+CSKA Moscow
+Basel
+Salzburg | red bull salzburg
+Fiorentina
+Atalanta
+Torino
+Sampdoria
+Genoa
+Parma
+*St. Pauli
+Union Berlin
+Rayo Vallecano
+Hibernian
+Hearts
+Aberdeen
+Kashima Antlers
+Urawa Reds
+Al Ahly
+Zamalek
+Kaizer Chiefs
+Orlando Pirates
+
+# Name something you'd see at a baseball game
+Hot dog
+Peanuts
+Cracker Jack
+Home run
+Pitcher
+Catcher
+Umpire
+Bat
+Glove | mitt
+Baseball
+Bases
+Dugout
+Bullpen
+Scoreboard
+Jumbotron
+Seventh-inning stretch
+Mascot
+Foul ball
+Kiss Cam
+Wave
+Beer
+Nachos
+Pretzel
+Cotton candy
+Organ
+Peanut vendor
+Bleachers
+Outfield
+Infield
+Pitcher's mound | mound
+Strike
+Ball
+Walk
+Strikeout
+Grand slam
+Double play
+Stolen base
+Bunt
+Fly ball
+Line drive
+Batting helmet
+Chewing tobacco
+Sunflower seeds
+Bubble gum
+Rally cap
+Foam finger
+Scorecard
+Program
+Bobblehead
+Fireworks
+National anthem
+First pitch
+Rain delay
+Tarp
+Foul pole
+Green Monster
+Ivy
+*Rally monkey
+Dot racing
+Sausage race
+Presidents race
+Pierogi race
+
+# Name a team sport
+Soccer | football
+Basketball
+Baseball
+American football
+Hockey | ice hockey
+Volleyball
+Rugby
+Cricket
+Lacrosse
+Softball
+Water polo
+Handball
+Field hockey
+Ultimate frisbee | ultimate
+Netball
+Dodgeball
+Kickball
+Polo
+Curling
+Bobsled
+Rowing
+Relay
+Beach volleyball
+Quidditch | quadball
+Roller derby
+Hurling
+Gaelic football
+Australian rules football | aussie rules
+Korfball
+Sepak takraw
+Kabaddi
+Bandy
+Floorball
+Ringette
+Sledge hockey
+Wheelchair basketball
+Goalball
+Bossaball
+Underwater hockey
+Synchronized swimming
+Cheerleading
+Tug of war
+Paintball
+Laser tag
+Esports
+Dragon boat racing
+*Hornussen
+Shinty
+Camogie
+Jai alai
+Broomball
+
+# Name a sport played with a racket or paddle
+Tennis
+Badminton
+Table tennis | ping pong
+Squash
+Racquetball
+Pickleball
+Padel
+Paddleball
+Platform tennis
+Beach tennis
+Speedminton | crossminton
+Real tennis | court tennis
+Rackets | racquets
+Lacrosse
+Frescobol
+Spikeball
+Jai alai
+*Soft tennis
+Matkot
+Paddle tennis
+Fives
+Pelota
+
+# Name a famous sports stadium or arena
+Madison Square Garden
+Wembley Stadium | wembley
+Yankee Stadium
+Fenway Park
+Wrigley Field
+Lambeau Field
+Dodger Stadium
+Old Trafford
+Camp Nou
+Santiago Bernabéu | bernabeu
+Anfield
+Maracanã | maracana
+Rose Bowl
+SoFi Stadium
+AT&T Stadium | jerry world
+MetLife Stadium
+Arrowhead Stadium
+Mercedes-Benz Stadium
+Allegiant Stadium
+Caesars Superdome | superdome
+Soldier Field
+Staples Center | crypto.com arena
+TD Garden
+United Center
+Chase Center
+Oracle Park
+Coors Field
+Camden Yards
+Petco Park
+Michigan Stadium | the big house
+Ohio Stadium | the horseshoe
+Neyland Stadium
+Death Valley
+Bryant-Denny Stadium
+Indianapolis Motor Speedway
+Daytona International Speedway
+Augusta National
+St Andrews
+Wimbledon | all england club
+Arthur Ashe Stadium
+Roland Garros
+Melbourne Cricket Ground | mcg
+Lord's
+Twickenham
+Croke Park
+Allianz Arena
+Signal Iduna Park | westfalenstadion
+San Siro
+Estadio Azteca | azteca
+La Bombonera
+Tokyo Dome
+Bird's Nest
+Colosseum
+Astrodome
+Kingdome
+Shea Stadium
+Ebbets Field
+Polo Grounds
+Candlestick Park
+Tiger Stadium
+*Forbes Field
+Veterans Stadium
+Three Rivers Stadium
+Riverfront Stadium
+The Spectrum
+Boston Garden
+The Forum
+Hollywood Park
+Sphere
+
+# Name a famous sports trophy or championship
+Super Bowl
+World Series
+Stanley Cup
+NBA Finals | larry obrien trophy
+World Cup | fifa world cup
+Olympics | gold medal
+Wimbledon
+The Masters | masters
+Champions League
+Heisman Trophy | heisman
+Lombardi Trophy
+Ballon d'Or | ballon dor
+Ryder Cup
+Davis Cup
+America's Cup
+Grey Cup
+Stanley Cup Final
+March Madness | final four
+Rose Bowl
+College Football Playoff
+Kentucky Derby
+Triple Crown
+Indy 500 | indianapolis 500
+Daytona 500
+Tour de France
+Boston Marathon
+US Open
+French Open
+Australian Open
+The Open Championship | british open
+PGA Championship
+Players Championship
+FA Cup
+Premier League title
+Copa América
+Euros | european championship
+Copa Libertadores
+Club World Cup
+Cricket World Cup
+The Ashes
+Rugby World Cup | webb ellis cup
+Six Nations
+Calcutta Cup
+Commissioner's Trophy
+Vince Lombardi Trophy
+Larry O'Brien Trophy
+Claret Jug
+Green Jacket
+Cy Young Award
+MVP
+Conn Smythe Trophy
+Hart Trophy
+Norris Trophy
+Vezina Trophy
+Art Ross Trophy
+Golden Boot
+Golden Glove
+Gold Glove
+Silver Slugger
+Sixth Man of the Year
+Rookie of the Year
+*Little Brown Jug
+Stanley Cup's Calder Trophy
+Paul Bunyan's Axe
+Old Oaken Bucket
+Jug Trophy
+
+# Name a WWE wrestler (past or present) {names}
+John Cena
+The Rock
+Stone Cold Steve Austin | stone cold
+Hulk Hogan
+The Undertaker | undertaker
+Randy Orton
+Triple H
+Shawn Michaels
+Roman Reigns
+Ric Flair
+Brock Lesnar
+Macho Man Randy Savage | randy savage | macho man
+André the Giant | andre the giant
+Bret Hart
+Rey Mysterio
+Batista
+Kane
+Edge
+Chris Jericho
+CM Punk
+Seth Rollins
+Cody Rhodes
+Becky Lynch
+Charlotte Flair
+Ronda Rousey
+Rhea Ripley
+Bianca Belair
+Trish Stratus
+Lita
+Sasha Banks | mercedes mone
+Bayley
+AJ Styles
+Kevin Owens
+Sami Zayn
+Dean Ambrose | jon moxley
+Kurt Angle
+Mick Foley | mankind | cactus jack
+Big Show
+Jake the Snake Roberts | jake roberts
+Ultimate Warrior
+Rowdy Roddy Piper | roddy piper
+Dusty Rhodes
+Sgt. Slaughter
+Jimmy Snuka
+Mr. Perfect
+Razor Ramon
+Kevin Nash
+Diesel
+Goldberg
+Sting
+Booker T
+Eddie Guerrero
+Rob Van Dam
+Jeff Hardy
+Matt Hardy
+The Miz
+Dolph Ziggler
+Daniel Bryan | bryan danielson
+Bray Wyatt
+Drew McIntyre
+Jey Uso
+Jimmy Uso
+Solo Sikoa
+LA Knight
+Gunther
+Logan Paul
+Jade Cargill
+Tiffany Stratton
+Liv Morgan
+Iyo Sky
+Asuka
+Mark Henry
+Big E
+Kofi Kingston
+Xavier Woods
+Bobby Lashley
+Jinder Mahal
+Ultimo Dragon
+*Doink the Clown
+Koko B. Ware
+Brutus Beefcake
+The Iron Sheik
+Nikolai Volkoff
+Hacksaw Jim Duggan
+Ted DiBiase | million dollar man
+Papa Shango
+The Godfather
+Val Venis
+X-Pac
+Road Dogg
+Billy Gunn
+
+# Name a famous skateboarder, surfer or extreme sports athlete {names}
+Tony Hawk
+Shaun White
+Bethany Hamilton
+Kelly Slater
+Travis Pastrana
+Rob Dyrdek
+Nyjah Huston
+Sky Brown
+Leticia Bufoni
+Rodney Mullen
+Bam Margera
+Ryan Sheckler
+Bob Burnquist
+Danny Way
+Christian Hosoi
+Stacy Peralta
+Tony Alva
+Jay Adams
+Mat Hoffman
+Dave Mirra
+Ken Block
+Laird Hamilton
+Duke Kahanamoku
+Carissa Moore
+Stephanie Gilmore
+John John Florence
+Gabriel Medina
+Italo Ferreira
+Mick Fanning
+Andy Irons
+Garrett McNamara
+Alex Honnold
+Tommy Caldwell
+Felix Baumgartner
+Robbie Knievel
+Evel Knievel
+Chloe Kim
+Mark McMorris
+Torstein Horgmo
+Jamie Anderson
+Kelly Clark
+Danny MacAskill
+Danny Kass
+Tanner Hall
+Candide Thovex
+Eileen Gu
+Yuto Horigome
+Rayssa Leal
+Jagger Eaton
+*Elissa Steamer
+Steve Caballero
+Mike Vallely
+Chris Cole
+Paul Rodriguez | p rod
+Daewon Song
+Eric Koston
+Andrew Reynolds
+
+# Name a college football team
+Alabama | crimson tide
+Ohio State | buckeyes
+Michigan | wolverines
+Notre Dame | fighting irish
+Georgia | bulldogs
+Texas | longhorns
+USC | trojans
+Oklahoma | sooners
+LSU | tigers
+Clemson
+Florida | gators
+Penn State | nittany lions
+Oregon | ducks
+Florida State | seminoles
+Auburn
+Tennessee | volunteers | vols
+Nebraska | cornhuskers
+Miami | hurricanes
+Texas A&M | aggies
+Wisconsin | badgers
+Iowa | hawkeyes
+Michigan State | spartans
+Ole Miss | rebels
+Arkansas | razorbacks
+Oklahoma State | cowboys
+TCU | horned frogs
+Baylor | bears
+UCLA | bruins
+Washington | huskies
+Stanford | cardinal
+BYU | cougars
+Utah | utes
+Virginia Tech | hokies
+South Carolina | gamecocks
+Kentucky | wildcats
+Missouri
+Mississippi State
+Colorado | buffaloes
+Arizona State | sun devils
+Kansas State
+Louisville | cardinals
+Boise State | broncos
+Army | black knights
+Navy | midshipmen
+Air Force | falcons
+Minnesota | golden gophers
+Purdue | boilermakers
+Indiana | hoosiers
+Illinois | fighting illini
+Northwestern
+Rutgers | scarlet knights
+Maryland | terrapins | terps
+Pitt | panthers
+Syracuse | orange
+Boston College | eagles
+Duke | blue devils
+North Carolina | tar heels
+NC State | wolfpack
+Wake Forest | demon deacons
+Georgia Tech | yellow jackets
+Vanderbilt | commodores
+West Virginia | mountaineers
+Cincinnati | bearcats
+Houston | cougars
+Texas Tech | red raiders
+Kansas | jayhawks
+Iowa State | cyclones
+Cal | golden bears
+Oregon State | beavers
+Washington State | cougars
+SMU | mustangs
+Tulane | green wave
+*Appalachian State | mountaineers
+Coastal Carolina
+Liberty
+James Madison | dukes
+Marshall | thundering herd
+Toledo | rockets
+
+# Name a famous sports nickname
+The Great One | wayne gretzky
+His Airness | michael jordan
+King James | lebron
+The Black Mamba | kobe
+Shaq
+Magic
+The Answer | allen iverson
+The Mailman | karl malone
+Air Jordan
+The Dream | hakeem
+The Greek Freak | giannis
+Chef Curry
+Joker | jokic
+Big Papi | david ortiz
+The Babe | babe ruth
+The Bambino
+Mr. October | reggie jackson
+Hammerin' Hank | hank aaron
+Joltin' Joe | joe dimaggio
+The Iron Horse | lou gehrig
+The Splendid Splinter | ted williams
+Charlie Hustle | pete rose
+The Big Unit | randy johnson
+Iron Mike | mike tyson
+The Greatest | muhammad ali
+Money | floyd mayweather
+The Notorious | conor mcgregor
+Sweetness | walter payton
+Prime Time | deion sanders
+Megatron | calvin johnson
+Beast Mode | marshawn lynch
+Gronk
+Big Ben
+Broadway Joe | joe namath
+Joe Cool | joe montana
+The Bus | jerome bettis
+The Refrigerator | william perry
+Tiger | tiger woods
+The Golden Bear | jack nicklaus
+The King | arnold palmer
+Lefty | phil mickelson
+The Shark | greg norman
+The Big Easy | ernie els
+Lightning Bolt | usain bolt
+The Flying Fish | michael phelps
+Flo-Jo
+Fed Express | roger federer
+Rafa
+The Rocket | rod laver
+Big Dog
+Wemby
+Ant-Man | anthony edwards
+SGA
+The Brow | anthony davis
+The Mamba
+*The Round Mound of Rebound | charles barkley
+Pistol Pete
+Dr. J
+The Admiral | david robinson
+Clyde the Glide
+Penny
+The Worm | dennis rodman
+The Glove | gary payton
+The Microwave | vinnie johnson
+Big Shot Rob
+
+# Name a famous sports moment or play
+The Catch
+Immaculate Reception
+Miracle on Ice
+The Shot
+Hand of God
+Music City Miracle
+The Helmet Catch
+Philly Special
+Hail Mary
+Minneapolis Miracle
+Butt Fumble
+The Fumble
+The Drive
+The Comeback
+28-3
+Malcolm Butler interception
+The Kick Six
+Band Play | the play
+Bartman
+Shot Heard 'Round the World
+Kirk Gibson home run
+Buckner's error
+Called shot
+Perfect game
+Jordan's flu game | flu game
+Last Shot
+LeBron's block | the block
+Ray Allen's corner three
+Kawhi's bounce shot
+Malice at the Palace
+Tyson bites Holyfield's ear
+Rumble in the Jungle
+Thrilla in Manila
+Phantom punch
+Derek Jeter's flip | the flip
+Kerri Strug's vault
+Jesse Owens in Berlin
+Bob Beamon's long jump
+Usain Bolt's 9.58
+Michael Phelps's 8 golds
+Dream Team
+Zidane headbutt
+Agüeroooo
+Gazza's goal
+Beckham's halfway line goal
+Messi's goal against Getafe
+Roberto Carlos free kick
+Maradona's Goal of the Century
+Mario Götze's World Cup winner
+Leicester City's title
+Tiger's chip at 16
+Tiger's 2019 Masters
+*Ickey Shuffle
+Lambeau Leap
+Gatorade shower
+Dirty dancing celebration
+Siuuu
+Griddy
+Moss'd
+Tuck rule
+Spygate
+Deflategate
+
+# Name a sports brand
+Nike
+Adidas
+Under Armour
+Puma
+Reebok
+New Balance
+Converse
+Vans
+Asics
+Champion
+Lululemon
+Gatorade
+Wilson
+Spalding
+Rawlings
+Callaway
+TaylorMade
+Titleist
+Fila
+Umbro
+Skechers
+Jordan | air jordan
+Columbia
+The North Face | north face
+Patagonia
+Oakley
+Speedo
+Head
+Yonex
+Babolat
+Mizuno
+Brooks
+Hoka
+On | on running
+Saucony
+Salomon
+Kappa
+Le Coq Sportif
+Diadora
+Lotto
+Hummel
+Ellesse
+Russell Athletic
+Starter
+Mitchell & Ness
+Fanatics
+New Era
+47 Brand | 47
+Easton
+Louisville Slugger
+Bauer
+CCM
+Gymshark
+Alo Yoga | alo
+Vuori
+Fabletics
+Athleta
+Outdoor Voices
+Body Armor | bodyarmor
+Powerade
+*Spalding
+Everlast
+Venum
+Hayabusa
+Rip Curl
+Billabong
+Quiksilver
+Burton
+Oakley
+
+# Name a famous hockey player {names}
+Wayne Gretzky
+Sidney Crosby
+Alex Ovechkin
+Mario Lemieux
+Connor McDavid
+Gordie Howe
+Bobby Orr
+Mark Messier
+Patrick Kane
+Jaromír Jágr | jaromir jagr
+Maurice Richard | rocket richard
+Steve Yzerman
+Joe Sakic
+Patrick Roy
+Martin Brodeur
+Dominik Hašek | dominik hasek
+Brett Hull
+Bobby Hull
+Jean Béliveau
+Guy Lafleur
+Mike Bossy
+Phil Esposito
+Teemu Selänne | teemu selanne
+Sergei Fedorov
+Pavel Bure
+Nicklas Lidström | nicklas lidstrom
+Chris Chelios
+Ray Bourque
+Paul Coffey
+Denis Potvin
+Eric Lindros
+Peter Forsberg
+Jarome Iginla
+Joe Thornton
+Henrik Lundqvist
+Carey Price
+Marc-André Fleury | marc andre fleury
+Evgeni Malkin
+Nathan MacKinnon
+Auston Matthews
+Leon Draisaitl
+Nikita Kucherov
+Cale Makar
+David Pastrňák | david pastrnak
+Mitch Marner
+Jack Hughes
+Quinn Hughes
+Connor Bedard
+Macklin Celebrini
+Steven Stamkos
+Jonathan Toews
+Erik Karlsson
+Zdeno Chára | zdeno chara
+Pavel Datsyuk
+Henrik Zetterberg
+Shea Weber
+P.K. Subban | pk subban
+Drew Doughty
+Marie-Philip Poulin
+Hilary Knight
+Hayley Wickenheiser
+Cammi Granato
+Tie Domi
+Bob Probert
+Marty McSorley
+Don Cherry
+*Eddie Shore
+Tim Horton
+Terry Sawchuk
+Jacques Plante
+Ken Dryden
+Glenn Hall
+Bernie Parent
+Bobby Clarke
+Darryl Sittler
+Lanny McDonald
+Happy Gilmore
+Gordon Bombay
+Charlie Conway
+
+# Name a famous college basketball program
+Duke | blue devils
+North Carolina | unc | tar heels
+Kentucky | wildcats
+Kansas | jayhawks
+UCLA | bruins
+Gonzaga | bulldogs
+UConn | huskies
+Villanova | wildcats
+Michigan State | spartans
+Syracuse | orange
+Indiana | hoosiers
+Louisville | cardinals
+Arizona | wildcats
+Michigan | wolverines
+Georgetown | hoyas
+Florida | gators
+Ohio State | buckeyes
+Purdue | boilermakers
+Houston | cougars
+Baylor | bears
+Texas | longhorns
+Tennessee | volunteers
+Alabama | crimson tide
+Auburn | tigers
+Arkansas | razorbacks
+Marquette | golden eagles
+Virginia | cavaliers
+Wisconsin | badgers
+Iowa | hawkeyes
+Illinois | fighting illini
+Maryland | terrapins
+Creighton | bluejays
+Xavier | musketeers
+Butler | bulldogs
+St. John's | red storm
+Memphis | tigers
+UNLV | runnin rebels
+Cincinnati | bearcats
+San Diego State | aztecs
+Oregon | ducks
+Texas Tech | red raiders
+NC State | wolfpack
+Wake Forest
+Florida State
+Miami
+Saint Mary's | gaels
+Loyola Chicago | ramblers
+Florida Gulf Coast | dunk city
+Fairleigh Dickinson
+UMBC | retrievers
+*George Mason | patriots
+VCU | rams
+Davidson
+Wichita State
+Gonzaga
+South Carolina | gamecocks
+Stanford
+Iowa State | cyclones
+LSU | tigers
+Notre Dame
+Tennessee Lady Vols

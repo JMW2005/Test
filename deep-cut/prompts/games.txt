@@ -1,0 +1,2484 @@
+// Deep Cut prompt bank: VIDEO GAMES
+// Answers go most common first. * marks the Mother Lode. | adds extra spellings.
+
+## Video Games
+
+# Name a Pokémon
+Pikachu
+Charizard
+Bulbasaur
+Squirtle
+Charmander
+Eevee
+Mewtwo
+Jigglypuff
+Snorlax
+Gengar
+Mew
+Psyduck
+Lucario
+Meowth
+Gyarados
+Dragonite
+Magikarp
+Lugia
+Greninja
+Blastoise
+Venusaur
+Togepi
+Ditto
+Vulpix
+Umbreon
+Sylveon
+Rayquaza
+Arcanine
+Garchomp
+Machamp
+Onix
+Geodude
+Slowpoke
+Mimikyu
+Pichu
+Raichu
+Ho-Oh | ho oh
+Lapras
+Cubone
+Vaporeon
+Jolteon
+Flareon
+Espeon
+Glaceon
+Leafeon
+Gardevoir
+Blaziken
+Totodile
+Cyndaquil
+Chikorita
+Mudkip
+Treecko
+Torchic
+Piplup
+Chimchar
+Turtwig
+Zubat
+Rattata
+Pidgey
+Caterpie
+Weedle
+Butterfree
+Bidoof
+Wobbuffet
+Haunter
+Gastly
+Alakazam
+Abra
+Kadabra
+Machop
+Scyther
+Pinsir
+Kangaskhan
+Tauros
+Articuno
+Zapdos
+Moltres
+Celebi
+Jirachi
+Deoxys
+Dialga
+Palkia
+Giratina
+Arceus
+Darkrai
+Reshiram
+Zekrom
+Kyurem
+Xerneas
+Yveltal
+Zygarde
+Solgaleo
+Lunala
+Necrozma
+Zacian
+Zamazenta
+Eternatus
+Koraidon
+Miraidon
+Sprigatito
+Fuecoco
+Quaxly
+Rowlet
+Litten
+Popplio
+Grookey
+Scorbunny
+Sobble
+Froakie
+Fennekin
+Chespin
+Oshawott
+Tepig
+Snivy
+Wooper
+Marill
+Sudowoodo
+Hoothoot
+Mareep
+Ampharos
+Steelix
+Scizor
+Heracross
+Tyranitar
+Larvitar
+Absol
+Flygon
+Metagross
+Salamence
+Milotic
+Lucario
+Riolu
+Zoroark
+Hawlucha
+Dedenne
+Wooloo
+Corviknight
+Toxtricity
+Pawmi
+Tinkaton
+*Farfetch'd | farfetchd
+Exeggutor
+Mr. Mime | mr mime
+Jynx
+Lickitung
+Porygon
+Voltorb
+Electrode
+Muk
+Grimer
+Koffing
+Weezing
+Tentacool
+Shellder
+Cloyster
+Staryu
+Starmie
+Goldeen
+Seaking
+Krabby
+Kingler
+Horsea
+Seadra
+Chansey
+Blissey
+Tangela
+Rhyhorn
+Rhydon
+Hitmonlee
+Hitmonchan
+Aerodactyl
+Kabuto
+Omanyte
+Dratini
+Dragonair
+Sableye
+Spheal
+Wailord
+Shedinja
+Feebas
+Luvdisc
+Bronzong
+Spiritomb
+Garbodor
+Klefki
+
+# Name a Mario character
+Mario
+Luigi
+Princess Peach | peach
+Bowser
+Yoshi
+Toad
+Donkey Kong
+Wario
+Waluigi
+Princess Daisy | daisy
+Rosalina
+Bowser Jr.
+Koopa Troopa
+Goomba
+Boo
+King Boo
+Shy Guy
+Toadette
+Diddy Kong
+Birdo
+Lakitu
+Kamek
+Dry Bones
+Chain Chomp
+Piranha Plant
+Bob-omb
+Blooper
+Hammer Bro
+Kirby
+Pauline
+Cappy
+Professor E. Gadd | e gadd
+Captain Toad
+Nabbit
+Toadsworth
+Larry Koopa
+Morton Koopa
+Wendy O. Koopa | wendy koopa
+Iggy Koopa
+Roy Koopa
+Lemmy Koopa
+Ludwig von Koopa | ludwig
+Petey Piranha
+Thwomp
+Whomp
+Bullet Bill
+Cheep Cheep
+Wiggler
+Monty Mole
+Pokey
+Spiny
+Buzzy Beetle
+Fawful
+Cackletta
+Count Bleck
+Dimentio
+Paper Mario
+Geno
+Mallow
+Smithy
+*Tatanga
+Foreman Spike
+Dixie Kong
+Funky Kong
+Cranky Kong
+Funky Kong
+Lubba
+Lumas
+Star Bunnies
+Penguin
+
+# Name a Legend of Zelda character
+Link
+Zelda | princess zelda
+Ganon | ganondorf
+Navi
+Epona
+Midna
+Impa
+Tingle
+Sheik
+Skull Kid
+Majora
+The Great Deku Tree | deku tree
+Saria
+Darunia
+Ruto | princess ruto
+Nabooru
+Rauru
+Malon
+Talon
+Ingo
+Mipha
+Urbosa
+Revali
+Daruk
+Sidon
+Riju
+Teba
+Yunobo
+Paya
+Purah
+Robbie
+Hestu
+Kass
+Beedle
+Fi
+Ghirahim
+Demise
+Groose
+Vaati
+Agahnim
+Tetra
+King of Red Lions
+Zant
+Happy Mask Salesman
+Tael
+Tatl
+Kafei
+Anju
+Mineru
+Sonia
+*Koume
+Kotake
+Twinrova
+Dark Link
+Cuccos
+Fairy Fountain
+Great Fairy
+Bokoblin
+Lynel
+Moblin
+Octorok
+Korok
+
+# Name a Nintendo game franchise
+Super Mario | mario
+The Legend of Zelda | zelda
+Pokémon | pokemon
+Animal Crossing
+Super Smash Bros. | smash bros | smash
+Mario Kart
+Kirby
+Donkey Kong
+Metroid
+Splatoon
+Fire Emblem
+Xenoblade Chronicles | xenoblade
+Pikmin
+Star Fox
+Wii Sports
+Yoshi
+Wario
+Luigi's Mansion
+Mario Party
+Paper Mario
+Mario & Luigi
+Kid Icarus
+F-Zero
+Earthbound | mother
+Punch-Out!! | punch out
+Picross
+Brain Age
+Nintendogs
+Tomodachi Life
+Wii Fit
+Pikmin
+Ice Climber
+Excite
+Advance Wars
+Golden Sun
+Rhythm Heaven
+WarioWare
+Arms
+Ring Fit Adventure
+Kirby's Epic Yarn
+Captain Toad
+*Chibi-Robo | chibi robo
+Custom Robo
+Pushmo
+Elite Beat Agents
+Balloon Fight
+Duck Hunt
+Clu Clu Land
+Mach Rider
+
+# Name a Super Smash Bros. fighter
+Mario
+Link
+Pikachu
+Kirby
+Fox
+Samus
+Donkey Kong
+Luigi
+Yoshi
+Ness
+Captain Falcon
+Jigglypuff
+Bowser
+Peach
+Zelda
+Sheik
+Ganondorf
+Marth
+Roy
+Ike
+Falco
+Mewtwo
+Pichu
+Ice Climbers
+Mr. Game & Watch | mr game and watch
+Young Link
+Toon Link
+Meta Knight
+King Dedede
+Pit
+Lucas
+Wario
+Snake
+Sonic
+Olimar
+Pokémon Trainer | pokemon trainer
+Diddy Kong
+R.O.B. | rob
+Wolf
+Lucario
+Greninja
+Villager
+Mega Man
+Pac-Man | pac man
+Little Mac
+Wii Fit Trainer
+Rosalina
+Shulk
+Duck Hunt
+Ryu
+Ken
+Cloud
+Bayonetta
+Corrin
+Inkling
+Ridley
+Simon
+Richter
+Chrom
+Daisy
+King K. Rool | king k rool
+Isabelle
+Incineroar
+Piranha Plant
+Joker
+Hero
+Banjo-Kazooie | banjo and kazooie
+Terry
+Byleth
+Min Min
+Steve
+Sephiroth
+Pyra
+Mythra
+Kazuya
+Sora
+Bowser Jr.
+Lucina
+Robin
+Palutena
+Dark Pit
+Dark Samus
+Zero Suit Samus
+Mii Fighter
+*Dr. Mario | dr mario
+Young Link
+
+# Name an Animal Crossing character
+Tom Nook
+Isabelle
+K.K. Slider | kk slider
+Blathers
+Celeste
+Timmy | timmy and tommy
+Tommy
+Mabel
+Sable
+Label
+Redd | crazy redd
+Daisy Mae
+Flick
+C.J. | cj
+Gulliver
+Wilbur
+Orville
+Kicks
+Leif
+Saharah
+Pascal
+Raymond
+Marshal
+Ankha
+Judy
+Sherb
+Audie
+Stitches
+Bob
+Lolly
+Zucker
+Molly
+Fauna
+Diana
+Coco
+Beau
+Rosie
+Kapp'n | kappn
+Resetti | mr resetti
+Brewster
+Harvey
+Wisp
+Gyroids
+Lyle
+Katrina
+Pelly
+Phyllis
+Pete
+Copper
+Booker
+Digby
+Rover
+Jingle
+Pavé | pave
+Franklin
+Jack
+Zipper T. Bunny | zipper
+Nat
+Chip
+Joan
+*Gracie
+Porter
+Tortimer
+Lottie
+Niko
+Wardell
+
+# Name a Fortnite location or item, past or present
+Tilted Towers
+Pleasant Park
+Retail Row
+Salty Springs
+Lazy Lake
+Loot Lake
+Dusty Depot
+Greasy Grove
+Lucky Landing
+Fatal Fields
+Paradise Palms
+Misty Meadows
+Sweaty Sands
+Holly Hedges
+Frenzy Farm
+Slurpy Swamp
+Craggy Cliffs
+Steamy Stacks
+Weeping Woods
+The Agency | agency
+Rocky Reels
+Snobby Shores
+Haunted Hills
+Junk Junction
+Wailing Woods
+Moisty Mire
+Flush Factory
+Shifty Shafts
+Lonely Lodge
+Mega City
+Brutal Boxcars
+Slappy Shores
+Shield Potion | big shield | mini shield
+Chug Jug
+Slurp Juice
+Med Kit
+Bandage
+Scar | assault rifle
+Pump Shotgun | pump
+Tactical Shotgun
+Grappler
+Boogie Bomb
+Port-a-Fort
+Launch Pad
+Rocket Launcher
+Sniper Rifle
+Bush
+Battle Bus
+Storm
+*Durrr Burger
+Pizza Pit
+Peely
+Llama
+Chug Splash
+Shockwave Grenade
+Infinity Blade
+Mythic
+Victory Royale
+Emote
+Default Dance
+
+# Name a Minecraft mob
+Creeper
+Zombie
+Skeleton
+Enderman
+Spider
+Ender Dragon
+Wither
+Villager
+Pig
+Cow
+Chicken
+Sheep
+Wolf
+Cat
+Horse
+Iron Golem
+Slime
+Ghast
+Blaze
+Witch
+Pillager
+Piglin
+Zombie Piglin | zombified piglin | zombie pigman
+Warden
+Axolotl
+Bee
+Fox
+Panda
+Parrot
+Llama
+Dolphin
+Squid
+Glow Squid
+Turtle
+Phantom
+Drowned
+Husk
+Stray
+Guardian
+Elder Guardian
+Shulker
+Silverfish
+Endermite
+Cave Spider
+Magma Cube
+Evoker
+Vindicator
+Ravager
+Vex
+Hoglin
+Zoglin
+Strider
+Snow Golem
+Polar Bear
+Mooshroom
+Rabbit
+Bat
+Ocelot
+Donkey
+Mule
+Wandering Trader
+Allay
+Frog
+Tadpole
+Goat
+Camel
+Sniffer
+Armadillo
+Breeze
+Bogged
+Creaking
+Happy Ghast
+*Illusioner
+Zombie Villager
+Skeleton Horse
+Giant
+Trader Llama
+Piglin Brute
+Cod
+Salmon
+Pufferfish
+Tropical Fish
+
+# Name a Minecraft block or item
+Diamond
+Dirt
+Cobblestone
+Stone
+Netherite
+Redstone
+TNT
+Crafting Table
+Furnace
+Obsidian
+Wood | oak log | log
+Torch
+Bed
+Chest
+Iron Ingot | iron
+Gold Ingot | gold
+Emerald
+Coal
+Lapis Lazuli | lapis
+Glass
+Sand
+Gravel
+Diamond Sword
+Diamond Pickaxe
+Elytra
+Ender Pearl
+Eye of Ender
+Totem of Undying
+Enchanting Table
+Anvil
+Beacon
+Bookshelf
+Bread
+Golden Apple
+Bow
+Arrow
+Shield
+Trident
+Fishing Rod
+Bucket
+Water Bucket
+Lava Bucket
+Flint and Steel
+Saddle
+Name Tag
+Lead
+Map
+Compass
+Clock
+Piston
+Sticky Piston
+Hopper
+Dispenser
+Observer
+Rail
+Minecart
+Boat
+Nether Portal | portal
+End Portal
+Glowstone
+Netherrack
+Soul Sand
+End Stone
+Purpur
+Prismarine
+Sea Lantern
+Slime Block
+Honey Block
+Wool
+Terracotta
+Concrete
+Shulker Box
+Spawner
+Bedrock
+Sponge
+Ice
+Packed Ice
+Snow Block
+Pumpkin
+Jack o'Lantern
+Melon
+Cake
+Cookie
+Steak
+Porkchop
+Rotten Flesh
+Bone
+Bone Meal
+String
+Gunpowder
+Spider Eye
+Blaze Rod
+Ghast Tear
+Nether Star
+Dragon Egg
+*Command Block
+Structure Block
+Barrier
+Jukebox
+Note Block
+Music Disc
+Amethyst
+Copper
+Deepslate
+Sculk
+Mace
+Brush
+Spyglass
+
+# Name a Call of Duty game
+Modern Warfare | call of duty 4 | cod 4
+Black Ops
+Modern Warfare 2
+Black Ops II | black ops 2
+World at War
+Modern Warfare 3
+Warzone
+Black Ops III | black ops 3
+Ghosts
+Advanced Warfare
+Infinite Warfare
+WWII | ww2
+Black Ops 4
+Black Ops Cold War | cold war
+Vanguard
+Modern Warfare II (2022)
+Modern Warfare III (2023)
+Black Ops 6
+Black Ops 7
+Call of Duty 2
+Call of Duty 3
+Call of Duty: Mobile | cod mobile
+Call of Duty (2003)
+*Finest Hour
+Big Red One
+United Offensive
+World at War: Final Fronts
+Roads to Victory
+
+# Name a Grand Theft Auto game or character {names}
+GTA V | grand theft auto v | gta 5
+GTA San Andreas | san andreas
+GTA Vice City | vice city
+GTA IV | gta 4
+GTA III | gta 3
+GTA VI | gta 6
+GTA Online
+Chinatown Wars
+Liberty City Stories
+Vice City Stories
+Franklin Clinton
+Michael De Santa
+Trevor Philips
+CJ | carl johnson
+Big Smoke
+Ryder
+Sweet Johnson
+Tommy Vercetti
+Niko Bellic
+Roman Bellic
+Lamar Davis
+Lester Crest
+Claude
+Officer Tenpenny | tenpenny
+Lucia
+Jason
+Ken Rosenberg
+Lance Vance
+*Little Jacob
+Brucie Kibbutz
+Johnny Klebitz
+Luis Lopez
+Catalina
+Toni Cipriani
+
+# Name a video game console
+PlayStation | ps1
+PlayStation 2 | ps2
+PlayStation 3 | ps3
+PlayStation 4 | ps4
+PlayStation 5 | ps5
+Xbox
+Xbox 360
+Xbox One
+Xbox Series X
+Nintendo Switch | switch
+Nintendo Switch 2 | switch 2
+Wii
+Wii U
+Nintendo 64 | n64
+GameCube
+Super Nintendo | snes
+Nintendo Entertainment System | nes
+Game Boy
+Game Boy Color
+Game Boy Advance | gba
+Nintendo DS | ds
+Nintendo 3DS | 3ds
+PSP
+PS Vita | playstation vita
+Sega Genesis | genesis | mega drive
+Sega Dreamcast | dreamcast
+Sega Saturn | saturn
+Atari 2600 | atari
+Steam Deck
+Sega Master System | master system
+Game Gear
+Virtual Boy
+Atari Jaguar | jaguar
+Atari Lynx | lynx
+3DO
+Neo Geo
+TurboGrafx-16 | turbografx
+ColecoVision
+Intellivision
+Magnavox Odyssey | odyssey
+*Nokia N-Gage | n gage
+Ouya
+Sega CD
+Sega 32X | 32x
+Philips CD-i | cd i
+Pippin
+Game.com
+Meta Quest | oculus quest
+ROG Ally
+Analogue Pocket
+Evercade
+Playdate
+
+# Name a video game company or studio
+Nintendo
+Sony
+Microsoft
+Electronic Arts | ea
+Activision
+Blizzard
+Ubisoft
+Rockstar Games | rockstar
+Epic Games | epic
+Valve
+Bethesda
+Square Enix
+Capcom
+Sega
+Bandai Namco
+Konami
+Riot Games | riot
+Mojang
+Naughty Dog
+Insomniac
+FromSoftware | from software
+CD Projekt Red | cd projekt
+BioWare
+Bungie
+Treyarch
+Infinity Ward
+Respawn
+Blizzard Entertainment
+id Software
+Game Freak
+Atlus
+Kojima Productions
+Santa Monica Studio
+Guerrilla Games
+Sucker Punch
+Rare
+Retro Studios
+HAL Laboratory
+Monolith Soft
+Intelligent Systems
+Mihoyo | hoyoverse
+Tencent
+NetEase
+Krafton
+Supercell
+Roblox Corporation | roblox
+Unity
+2K Games | 2k
+Take-Two
+Gearbox
+Obsidian
+Larian Studios | larian
+Remedy
+Bungie
+Double Fine
+Team Cherry
+Supergiant Games | supergiant
+ConcernedApe
+Atari
+Midway
+Hudson Soft
+SNK
+Tecmo
+Koei Tecmo
+Platinum Games
+Level-5
+*Treasure
+Westwood Studios
+Sierra
+LucasArts
+Looking Glass Studios
+3D Realms
+Interplay
+Black Isle
+Ion Storm
+Lionhead
+Maxis
+Popcap
+
+# Name a video game character (any game) {names}
+Mario
+Pikachu
+Sonic the Hedgehog | sonic
+Link
+Master Chief
+Lara Croft
+Kratos
+Pac-Man | pac man
+Donkey Kong
+Luigi
+Kirby
+Steve
+Crash Bandicoot
+Spyro
+Samus Aran
+Cloud Strife
+Solid Snake
+Mega Man
+Princess Peach
+Bowser
+Yoshi
+Ryu
+Chun-Li
+Scorpion
+Sub-Zero
+Ezio Auditore
+Nathan Drake
+Geralt of Rivia
+Arthur Morgan
+John Marston
+Joel
+Ellie
+Doomguy
+Gordon Freeman
+Sackboy
+Ratchet
+Clank
+Jak
+Daxter
+Sly Cooper
+Rayman
+Banjo
+Kazooie
+Conker
+Fox McCloud
+Captain Falcon
+Ness
+Marth
+Shulk
+Bayonetta
+Dante
+Leon Kennedy
+Jill Valentine
+Chris Redfield
+Albert Wesker
+Cortana
+Agent 47
+Sam Fisher
+Max Payne
+Marcus Fenix
+Commander Shepard
+Aloy
+Sephiroth
+Tifa Lockhart
+Aerith
+Sora
+Riku
+Noctis
+Lightning
+Tidus
+Yuna
+Squall
+Snake
+Raiden
+Big Boss
+Pyramid Head
+Isaac Clarke
+GLaDOS
+Chell
+Wheatley
+Claptrap
+Freddy Fazbear
+Sans
+Undertale | frisk
+Cuphead
+Mugman
+The Knight
+Madeline
+Shovel Knight
+Isaac
+Ori
+Hornet
+Zagreus
+Cappy
+Toad
+Wario
+Waluigi
+Tails
+Knuckles
+Shadow
+Amy Rose
+Dr. Eggman | robotnik
+Earthworm Jim
+Glover
+Vault Boy
+Pip-Boy
+*Sir Daniel Fortesque
+Gex
+Croc
+Klonoa
+Bubsy
+Opa-Opa
+Alex Kidd
+Bonk
+Dig Dug
+Q*bert
+Frogger
+Bomberman
+Pit
+Ice Climbers
+Little Mac
+
+# Name a Sonic the Hedgehog character
+Sonic
+Tails
+Knuckles
+Shadow
+Amy Rose | amy
+Dr. Eggman | eggman | robotnik
+Silver
+Rouge
+Cream
+Big the Cat
+Metal Sonic
+Blaze
+Espio
+Vector
+Charmy
+Chaos
+Infinite
+E-123 Omega | omega
+Cheese
+Chao
+Jet
+Wave
+Storm
+Mighty
+Ray
+Fang | nack
+Bean
+Bark
+Sticks
+Zavok
+Marine
+Tikal
+Gerald Robotnik
+Maria Robotnik
+Mephiles
+Orbot
+Cubot
+Sage
+Whisper
+Tangle
+*Honey the Cat
+Froggy
+Emerl
+Gemerl
+Mecha Sonic
+Super Sonic
+
+# Name a Mortal Kombat or Street Fighter character
+Scorpion
+Sub-Zero | sub zero
+Ryu
+Ken
+Chun-Li | chun li
+Raiden
+Liu Kang
+Johnny Cage
+Sonya Blade
+Kitana
+Mileena
+Shao Kahn
+Goro
+Kano
+Jax
+Kung Lao
+Shang Tsung
+Baraka
+Reptile
+Smoke
+Noob Saibot
+Jade
+Cyrax
+Sektor
+Kabal
+Nightwolf
+Sindel
+Quan Chi
+Shinnok
+Kotal Kahn
+Cassie Cage
+Jacqui Briggs
+Erron Black
+D'Vorah
+Guile
+Blanka
+Dhalsim
+Zangief
+E. Honda | e honda
+M. Bison | bison
+Vega
+Balrog
+Sagat
+Akuma
+Cammy
+Juri
+Dee Jay
+Fei Long
+T. Hawk
+Sakura
+Dan
+Gouken
+Rose
+Cody
+Guy
+Rashid
+Luke
+Jamie
+Kimberly
+Manon
+Marisa
+Lily
+JP
+A.K.I.
+Ed
+Terry Bogard
+Mai Shiranui
+*Ermac
+Rain
+Tanya
+Stryker
+Kenshi
+Kintaro
+Motaro
+Frost
+Havik
+Hsu Hao
+Dan Hibiki
+Oro
+Necro
+Elena
+Twelve
+Q
+
+# Name a Final Fantasy character
+Cloud Strife | cloud
+Sephiroth
+Tifa Lockhart | tifa
+Aerith | aeris
+Barret
+Squall
+Lightning
+Noctis
+Tidus
+Yuna
+Zidane
+Vivi
+Terra
+Kefka
+Cecil
+Kain
+Rinoa
+Zack Fair | zack
+Vincent Valentine | vincent
+Cid
+Red XIII | red 13
+Yuffie
+Cait Sith
+Auron
+Wakka
+Lulu
+Rikku
+Kimahri
+Seymour
+Vaan
+Balthier
+Fran
+Ashe
+Snow
+Hope
+Vanille
+Fang
+Sazh
+Prompto
+Gladiolus
+Ignis
+Ardyn
+Clive
+Jill
+Joshua
+Ultimecia
+Exdeath
+Golbez
+Garland
+Kuja
+Locke
+Celes
+Edgar
+Sabin
+Shadow
+Cyan
+Gau
+Setzer
+Strago
+Relm
+Mog
+Umaro
+Gogo
+Moogle
+Chocobo
+Bahamut
+Shiva
+Ifrit
+Cactuar
+Tonberry
+*Ultros
+Gilgamesh
+Biggs
+Wedge
+
+# Name a game in The Legend of Zelda series
+Breath of the Wild | botw
+Ocarina of Time
+Tears of the Kingdom | totk
+Majora's Mask | majoras mask
+A Link to the Past
+Twilight Princess
+The Wind Waker | wind waker
+Skyward Sword
+Link's Awakening | links awakening
+The Legend of Zelda (1986)
+Zelda II: The Adventure of Link | adventure of link
+A Link Between Worlds
+Minish Cap
+Phantom Hourglass
+Spirit Tracks
+Oracle of Seasons
+Oracle of Ages
+Four Swords
+Four Swords Adventures
+Tri Force Heroes
+Echoes of Wisdom
+Hyrule Warriors
+Age of Calamity
+Cadence of Hyrule
+*Link's Crossbow Training
+Zelda's Adventure
+Faces of Evil
+Wand of Gamelon
+
+# Name a game you play on PC
+Counter-Strike | cs go | cs2
+Minecraft
+League of Legends | lol
+Dota 2 | dota
+Valorant
+World of Warcraft | wow
+Overwatch
+Fortnite
+Apex Legends
+PUBG
+Rainbow Six Siege
+Team Fortress 2 | tf2
+Half-Life
+Portal
+The Sims
+SimCity
+Civilization
+Age of Empires
+StarCraft
+Warcraft III
+Diablo
+Skyrim
+Fallout
+The Witcher 3
+Cyberpunk 2077
+Baldur's Gate 3
+Elden Ring
+Dark Souls
+Stardew Valley
+Terraria
+Among Us
+Rust
+Garry's Mod | gmod
+Roblox
+RuneScape
+Hearthstone
+Rocket League
+Doom
+Quake
+Unreal Tournament
+Deus Ex
+System Shock
+BioShock
+Mass Effect
+Dragon Age
+Divinity: Original Sin
+Crusader Kings
+Europa Universalis
+Hearts of Iron
+Stellaris
+Total War
+XCOM
+Factorio
+RimWorld
+Cities: Skylines
+Kerbal Space Program
+Hollow Knight
+Hades
+Celeste
+Undertale
+Valheim
+Lethal Company
+Phasmophobia
+Palworld
+Helldivers 2
+Path of Exile
+Escape from Tarkov
+DayZ
+ARMA
+Satisfactory
+Subnautica
+No Man's Sky
+Slay the Spire
+Balatro
+Vampire Survivors
+Disco Elysium
+Planescape: Torment
+*Dwarf Fortress
+Myst
+Riven
+Oregon Trail
+Doom
+Wolfenstein 3D
+Command & Conquer
+Myth
+Thief
+Baldur's Gate
+Neverwinter Nights
+Fallout: New Vegas
+
+# Name a mobile game
+Candy Crush | candy crush saga
+Angry Birds
+Pokémon Go | pokemon go
+Clash of Clans
+Clash Royale
+Subway Surfers
+Temple Run
+Fruit Ninja
+Flappy Bird
+Among Us
+Roblox
+Minecraft
+Genshin Impact
+PUBG Mobile
+Call of Duty: Mobile
+Free Fire
+Monopoly Go
+Royal Match
+Wordle
+Words with Friends
+Doodle Jump
+Cut the Rope
+Plants vs. Zombies
+Jetpack Joyride
+Crossy Road
+2048
+Hay Day
+Brawl Stars
+Coin Master
+Geometry Dash
+Pou
+Talking Tom | my talking tom
+Hill Climb Racing
+Asphalt
+Episode
+Bitlife
+Township
+Homescapes
+Gardenscapes
+Toon Blast
+Mario Kart Tour
+Fire Emblem Heroes
+Marvel Snap
+Honkai: Star Rail
+Clash Mini
+Trivia Crack
+Draw Something
+Doodle God
+Alto's Adventure
+Monument Valley
+The Room
+Infinity Blade
+Tiny Wings
+*Canabalt
+Snake
+Bejeweled
+Tetris
+Solitaire
+Sudoku
+Wordscapes
+Stumble Guys
+Squad Busters
+Archero
+Vampire Survivors
+Balatro
+Love and Deepspace
+Pokémon TCG Pocket
+Block Blast
+Hole.io
+Paper.io
+Helix Jump
+Stack
+
+# Name a Roblox game (experience)
+Adopt Me!
+Brookhaven
+Blox Fruits
+Murder Mystery 2 | mm2
+Jailbreak
+Tower of Hell
+Arsenal
+Doors
+Pet Simulator | pet simulator x | pet simulator 99
+Piggy
+Natural Disaster Survival
+Work at a Pizza Place
+Royale High
+Bee Swarm Simulator
+Grow a Garden
+Dress to Impress
+Blade Ball
+Bedwars
+Phantom Forces
+Theme Park Tycoon 2
+Welcome to Bloxburg | bloxburg
+Mad City
+Flee the Facility
+Speed Run 4
+Natural Disaster Survival
+Epic Minigames
+Hide and Seek Extreme
+Lumber Tycoon 2
+Meep City
+Shindo Life
+Anime Fighting Simulator
+Da Hood
+Funky Friday
+Islands
+Livetopia
+Berry Avenue
+Steal a Brainrot
+99 Nights in the Forest
+Dead Rails
+Fisch
+Rivals
+The Strongest Battlegrounds
+Evade
+Pressure
+Dandy's World
+Brookhaven RP
+Restaurant Tycoon 2
+Super Golf!
+Car Dealership Tycoon
+*Build a Boat for Treasure
+Ninja Legends
+Mining Simulator
+Sword Fighting Tournament
+Find the Markers
+Regretevator
+Tower Defense Simulator
+Toilet Tower Defense
+Anime Defenders
+Anime Vanguards
+
+# Name a character from Five Nights at Freddy's
+Freddy Fazbear | freddy
+Bonnie
+Chica
+Foxy
+Golden Freddy
+Springtrap
+Puppet | marionette
+Balloon Boy | bb
+Mangle
+Toy Freddy
+Toy Bonnie
+Toy Chica
+Withered Freddy
+Circus Baby
+Ballora
+Funtime Foxy
+Funtime Freddy
+Ennard
+Nightmare Fredbear
+Nightmare
+Glamrock Freddy
+Roxanne Wolf | roxy
+Montgomery Gator | monty
+Glamrock Chica
+Vanny
+Sun
+Moon
+Michael Afton
+William Afton
+Phone Guy
+Purple Guy
+Shadow Freddy
+Plushtrap
+Lefty
+Scrap Baby
+Molten Freddy
+Helpy
+Music Man
+*Nedd Bear
+Happy Frog
+Mr. Hippo
+Pigpatch
+Orville Elephant
+Rockstar Freddy
+Elizabeth Afton
+Crying Child
+Mike Schmidt
+Vanessa
+
+# Name a Pac-Man ghost or classic arcade game
+Pac-Man | pac man
+Space Invaders
+Donkey Kong
+Galaga
+Tetris
+Asteroids
+Pong
+Frogger
+Centipede
+Ms. Pac-Man | ms pac man
+Street Fighter II
+Mortal Kombat
+Dig Dug
+Q*bert | qbert
+Galaxian
+Defender
+Joust
+Missile Command
+Tempest
+Dragon's Lair
+Double Dragon
+Teenage Mutant Ninja Turtles
+The Simpsons Arcade
+X-Men
+NBA Jam
+Area 51
+Time Crisis
+House of the Dead
+Dance Dance Revolution | ddr
+Guitar Hero
+Skee-Ball | skee ball
+Whac-A-Mole | whack a mole
+Air Hockey
+Pinball
+Blinky
+Pinky
+Inky
+Clyde
+Punch-Out!!
+Bubble Bobble
+Golden Axe
+Rampage
+Paperboy
+Gauntlet
+Robotron 2084
+Burger Time
+Bomb Jack
+1942
+Contra
+Metal Slug
+Rolling Thunder
+Spy Hunter
+Tron
+Battlezone
+Berzerk
+*Sinistar
+Crazy Climber
+Elevator Action
+Moon Patrol
+Scramble
+Zaxxon
+Xevious
+Pole Position
+Out Run
+Hang-On
+After Burner
+Cruis'n USA
+Daytona USA
+
+# Name a Pokémon type
+Fire
+Water
+Grass
+Electric
+Psychic
+Dragon
+Ghost
+Normal
+Fighting
+Flying
+Poison
+Ground
+Rock
+Bug
+Ice
+Steel
+Dark
+*Fairy
+Stellar
+Bird
+
+# Name an Overwatch hero
+Tracer
+Mercy
+D.Va | dva
+Genji
+Reinhardt
+Widowmaker
+Reaper
+Soldier: 76 | soldier 76
+Hanzo
+Lúcio | lucio
+Mei
+Pharah
+McCree | cassidy
+Junkrat
+Roadhog | mauga
+Winston
+Bastion
+Zenyatta
+Symmetra
+Torbjörn | torbjorn
+Ana
+Sombra
+Orisa
+Doomfist
+Moira
+Brigitte
+Wrecking Ball | hammond
+Ashe
+Baptiste
+Sigma
+Echo
+Sojourn
+Junker Queen
+Kiriko
+Ramattra
+Lifeweaver
+Illari
+Venture
+Juno
+Hazard
+Freja
+Wuyang
+*Mauga
+
+# Name a Halo character, vehicle or weapon
+Master Chief | john 117
+Cortana
+Arbiter
+Sergeant Johnson | johnson
+Captain Keyes
+Guilty Spark | 343 guilty spark
+Gravemind
+Noble Six
+Kat
+Jorge
+Emile
+Carter
+Jun
+The Rookie
+Buck
+Locke
+Atriox
+Escharum
+The Weapon
+Warthog
+Ghost
+Banshee
+Scorpion
+Pelican
+Mongoose
+Wraith
+Hornet
+Falcon
+Spartan Laser
+Energy Sword
+Needler
+Battle Rifle
+Assault Rifle
+Magnum
+Sniper Rifle
+Rocket Launcher
+Plasma Pistol
+Plasma Rifle
+Gravity Hammer
+Covenant Carbine
+Fuel Rod Gun
+Elite
+Grunt
+Jackal
+Hunter
+Brute
+Flood
+Prophet of Truth
+*Elephant | mammoth
+Scarab
+Pillar of Autumn
+Mjolnir
+Cryptum
+
+# Name a Kirby or Metroid character
+Kirby
+King Dedede
+Meta Knight
+Waddle Dee
+Bandana Waddle Dee
+Magolor
+Marx
+Dark Matter
+Zero
+Nightmare
+Whispy Woods
+Gooey
+Rick
+Coo
+Kine
+Adeleine
+Ribbon
+Taranza
+Susie
+Hyness
+Elfilin
+Kracko
+Samus Aran | samus
+Ridley
+Mother Brain
+Metroid
+Kraid
+Dark Samus
+Adam Malkovich
+Raven Beak
+Phantoon
+Draygon
+Sylux
+Noxus
+SA-X
+Space Pirates
+Chozo
+Baby Metroid
+*Weavel
+Spire
+Kanden
+Trace
+Gorea
+Rundas
+Ghor
+Gandrayda
+Quadraxis
+
+# Name a Rocket League car or a racing video game
+Mario Kart
+Gran Turismo
+Forza Horizon | forza
+Need for Speed
+Rocket League
+Crash Team Racing | ctr
+Burnout
+F1
+Dirt
+Project Gotham Racing
+Ridge Racer
+Wipeout
+F-Zero
+Diddy Kong Racing
+Sonic & All-Stars Racing
+Cruis'n USA
+Daytona USA
+Out Run
+Pole Position
+Midnight Club
+Twisted Metal
+Split/Second
+Blur
+MotorStorm
+Excitebike
+Trackmania
+Asphalt
+The Crew
+Grid
+Hot Wheels Unleashed
+Wreckfest
+Assetto Corsa
+iRacing
+Rush
+Beetle Adventure Racing
+Road Rash
+Jet Moto
+Star Wars Episode I: Racer | pod racer
+Mario Kart 8
+Mario Kart World
+Octane
+Dominus
+Breakout
+Merc
+Fennec
+*Batmobile
+Road Hog
+Hotshot
+Gizmo
+Venom
+Scarab
+Zippy
+
+# Name a Pokémon game
+Pokémon Red | pokemon red | red
+Pokémon Blue | blue
+Pokémon Yellow | yellow
+Pokémon Gold | gold
+Pokémon Silver | silver
+Pokémon Crystal | crystal
+Pokémon Ruby | ruby
+Pokémon Sapphire | sapphire
+Pokémon Emerald | emerald
+Pokémon Diamond | diamond
+Pokémon Pearl | pearl
+Pokémon Platinum | platinum
+Pokémon Black | black
+Pokémon White | white
+Pokémon X | x
+Pokémon Y | y
+Pokémon Sun | sun
+Pokémon Moon | moon
+Pokémon Sword | sword
+Pokémon Shield | shield
+Pokémon Scarlet | scarlet
+Pokémon Violet | violet
+Pokémon Legends: Arceus | legends arceus
+Pokémon Legends: Z-A | legends za
+Pokémon Go
+Pokémon Snap
+Pokémon Stadium
+Pokémon Colosseum
+Pokémon XD
+Pokémon Mystery Dungeon
+Pokémon Ranger
+Pokémon Unite
+Pokémon Let's Go Pikachu | lets go pikachu
+Pokémon Let's Go Eevee | lets go eevee
+Pokémon FireRed | firered
+Pokémon LeafGreen | leafgreen
+Pokémon HeartGold | heartgold
+Pokémon SoulSilver | soulsilver
+Pokémon Omega Ruby
+Pokémon Alpha Sapphire
+Pokémon Brilliant Diamond
+Pokémon Shining Pearl
+Pokémon Black 2
+Pokémon White 2
+Pokémon Ultra Sun
+Pokémon Ultra Moon
+Pokémon Trading Card Game
+Pokémon Pinball
+Pokémon Puzzle League
+*Hey You, Pikachu! | hey you pikachu
+Pokémon Conquest
+Pokémon Dash
+PokéPark Wii
+Pokkén Tournament | pokken
+Pokémon Café Mix
+Pokémon Sleep
+Detective Pikachu
+
+# Name a Nintendo Wii game
+Wii Sports
+Mario Kart Wii
+Wii Fit
+Super Smash Bros. Brawl | brawl
+Super Mario Galaxy
+New Super Mario Bros. Wii
+Wii Play
+Wii Sports Resort
+Super Mario Galaxy 2
+The Legend of Zelda: Twilight Princess | twilight princess
+Skyward Sword
+Just Dance
+Guitar Hero III
+Rock Band
+Animal Crossing: City Folk | city folk
+Mario Party 8
+Mario Party 9
+Donkey Kong Country Returns
+Kirby's Epic Yarn
+Kirby's Return to Dream Land
+Metroid Prime 3: Corruption
+Xenoblade Chronicles
+The Last Story
+Pandora's Tower
+Punch-Out!!
+Excite Truck
+Wario Ware: Smooth Moves
+Rayman Raving Rabbids
+Boom Blox
+Lego Star Wars: The Complete Saga
+Mario & Sonic at the Olympic Games
+Wii Music
+Super Paper Mario
+Mario Strikers Charged
+Okami
+No More Heroes
+Madworld
+Zack & Wiki
+*Muramasa: The Demon Blade
+Sin and Punishment: Star Successor
+Fire Emblem: Radiant Dawn
+Pikmin
+Endless Ocean
+Disaster: Day of Crisis
+Goldeneye 007 (2010)
+Epic Mickey
+Cooking Mama
+Carnival Games
+Big Brain Academy
+Wii Party
+Dragon Quest Swords
+Sonic Colors
+
+# Name a Pokémon gym leader or champion
+Brock
+Misty
+Lt. Surge | lt surge
+Erika
+Koga
+Sabrina
+Blaine
+Giovanni
+Blue | gary
+Lance
+Cynthia
+Steven Stone | steven
+Wallace
+Red
+Leon
+Iris
+Diantha
+Alder
+Falkner
+Bugsy
+Whitney
+Morty
+Chuck
+Jasmine
+Pryce
+Clair
+Roxanne
+Brawly
+Wattson
+Flannery
+Norman
+Winona
+Tate and Liza
+Juan
+Roark
+Gardenia
+Maylene
+Crasher Wake
+Fantina
+Byron
+Candice
+Volkner
+Cilan
+Chili
+Cress
+Lenora
+Burgh
+Elesa
+Clay
+Skyla
+Brycen
+Drayden
+Viola
+Grant
+Korrina
+Ramos
+Clemont
+Valerie
+Olympia
+Wulfric
+Milo
+Nessa
+Kabu
+Bea
+Allister
+Opal
+Gordie
+Melony
+Piers
+Raihan
+Geeta
+Nemona
+Katy
+Brassius
+Iono
+Kofu
+Larry
+Ryme
+Tulip
+Grusha
+*Marlon
+Bianca
+Hau
+Kukui
+Hala
+Olivia
+Nanu
+Hapu
+
+# Name a weapon from a Halo, Doom or Half-Life game
+Crowbar
+Gravity Gun
+BFG 9000 | bfg
+Chainsaw
+Super Shotgun
+Energy Sword
+Needler
+Plasma Rifle
+Rocket Launcher
+Shotgun
+Pistol
+Magnum
+Crossbow
+Assault Rifle
+SMG
+Battle Rifle
+Spartan Laser
+Gravity Hammer
+Railgun
+Plasma Gun
+Chaingun
+Gauss Gun
+Tau Cannon
+Egon
+Hivehand
+Snark
+Satchel Charge
+Tripmine
+Pulse Rifle
+RPG
+Sniper Rifle
+Unmaker
+Crucible
+Ballista
+Heavy Cannon
+Meat Hook
+Fuel Rod Gun
+*Hornet Gun
+Brute Shot
+Covenant Carbine
+Spiker
+Mauler
+Beam Rifle
+Focus Rifle
+Plasma Pistol
+Grenade Launcher
+
+# Name a Super Mario game
+Super Mario Bros.
+Super Mario 64
+Super Mario Odyssey
+Super Mario World
+Super Mario Bros. 3
+Super Mario Galaxy
+Super Mario Sunshine
+New Super Mario Bros.
+Super Mario Bros. Wonder | wonder
+Super Mario 3D World
+Super Mario Galaxy 2
+Super Mario Bros. 2
+Super Mario Land
+Super Mario Land 2: 6 Golden Coins
+Super Mario 3D Land
+New Super Mario Bros. Wii
+New Super Mario Bros. U
+New Super Mario Bros. 2
+Super Mario Maker
+Super Mario Maker 2
+Super Mario Run
+Super Mario 3D All-Stars
+Super Mario All-Stars
+Bowser's Fury
+Super Mario Bros.: The Lost Levels | lost levels
+Mario Kart
+Mario Party
+Paper Mario
+Super Mario RPG
+Mario & Luigi: Superstar Saga
+Luigi's Mansion
+Mario Tennis
+Mario Golf
+Mario Strikers
+Dr. Mario
+Mario Paint
+Mario vs. Donkey Kong
+Captain Toad: Treasure Tracker
+Super Princess Peach
+Princess Peach: Showtime!
+*Mario's Time Machine
+Hotel Mario
+Mario Is Missing!
+Mario Clash
+Wrecking Crew
+Mario Bros.
+Yoshi's Island
+Super Mario Galaxy Movie
+
+# Name a battle royale or multiplayer shooter game
+Fortnite
+PUBG | playerunknowns battlegrounds
+Apex Legends
+Call of Duty: Warzone | warzone
+Valorant
+Counter-Strike | cs2 | csgo
+Overwatch
+Halo
+Rainbow Six Siege
+Battlefield
+Team Fortress 2 | tf2
+Destiny
+Free Fire
+Splitgate
+Titanfall
+The Finals
+Marvel Rivals
+Paladins
+H1Z1
+Realm Royale
+Fall Guys
+Rust
+Escape from Tarkov
+Hunt: Showdown
+Deadlock
+XDefiant
+Concord
+Rogue Company
+Spellbreak
+Darwin Project
+Super People
+Naraka: Bladepoint
+Delta Force
+Unreal Tournament
+Quake
+Goldeneye 007
+Gears of War
+Left 4 Dead
+Payday
+Helldivers 2
+*Hyper Scape
+Bloodhunt
+Warface
+Crossfire
+Combat Arms
+Soldier Front
+Battlefield 1942
+Star Wars Battlefront | battlefront
+Killzone
+Resistance
+MAG
+SOCOM
+Ghost Recon
+Insurgency
+
+# Name a video game with "Craft" in the title, or a crafting/survival game
+Minecraft
+StarCraft
+Warcraft
+World of Warcraft
+Terraria
+Valheim
+Rust
+Subnautica
+The Forest | forest
+Sons of the Forest
+Don't Starve
+ARK: Survival Evolved | ark
+Stardew Valley
+No Man's Sky
+Palworld
+Grounded
+Raft
+Enshrouded
+7 Days to Die
+DayZ
+Conan Exiles
+The Long Dark
+Green Hell
+Satisfactory
+Factorio
+Astroneer
+V Rising
+Core Keeper
+Starbound
+Craftopia
+Lego Worlds
+Dragon Quest Builders
+Portal Knights
+Unturned
+Medieval Engineers
+Space Engineers
+Kenshi
+Project Zomboid
+*Dwarf Fortress
+RimWorld
+Oxygen Not Included
+Necesse
+Smalland
+Abiotic Factor
+Icarus
+Nightingale
+
+# Name a Pokémon starter
+Bulbasaur
+Charmander
+Squirtle
+Pikachu
+Eevee
+Chikorita
+Cyndaquil
+Totodile
+Treecko
+Torchic
+Mudkip
+Turtwig
+Chimchar
+Piplup
+Snivy
+Tepig
+Oshawott
+Chespin
+Fennekin
+Froakie
+Rowlet
+Litten
+Popplio
+Grookey
+Scorbunny
+Sobble
+Sprigatito
+Fuecoco
+*Quaxly
+Rowlet
+Cyndaquil
+Oshawott
+
+# Name a horror video game
+Resident Evil
+Five Nights at Freddy's | fnaf
+Silent Hill
+Outlast
+Amnesia
+Dead Space
+Alien: Isolation
+The Last of Us
+Until Dawn
+Phasmophobia
+Poppy Playtime
+Little Nightmares
+Bendy and the Ink Machine
+Layers of Fear
+Dead by Daylight
+The Evil Within
+Fatal Frame
+Clock Tower
+Doki Doki Literature Club
+Slender
+Granny
+Lethal Company
+Visage
+SOMA
+P.T.
+Silent Hill 2
+Resident Evil 4
+Resident Evil Village
+Resident Evil 7
+Alan Wake
+Condemned
+F.E.A.R. | fear
+Dino Crisis
+Siren
+Darkwood
+Inside
+Limbo
+Sally Face
+Hello Neighbor
+Ice Scream
+*Eternal Darkness
+Pathologic
+Iron Lung
+Mouthwashing
+Signalis
+Fear & Hunger
+Hellblade
+Cry of Fear
+Paratopic
+Dredge
+Lone Survivor
+Detention
+The Mortuary Assistant
+
+# Name a word from video games that everyone knows
+Game Over
+Level Up
+Boss
+Respawn
+Checkpoint
+Power-Up
+Extra Life | 1 up
+High Score
+Speedrun
+Noob
+GG
+Lag
+Glitch
+Easter Egg
+Cheat Code
+Konami Code
+Loot
+Grind
+Nerf
+Buff
+Camper
+Spawn
+Headshot
+Combo
+Critical Hit | crit
+Health Bar
+Mana
+XP | experience points
+Achievement
+Trophy
+DLC
+Patch
+Skin
+Emote
+Battle Pass
+Loot Box
+Microtransaction
+NPC
+Sidequest
+Open World
+Sandbox
+Co-op
+PvP
+MMO
+FPS
+RPG
+Tutorial
+Save Point
+New Game Plus
+*Hitbox
+Frame Rate
+Lag Spike
+Rage Quit
+Smurf
+AFK
+Clutch
+Carry
+Meta
+Aggro
+Kite
+Tank
+Healer
+DPS
+Pwned
+Leeroy Jenkins
